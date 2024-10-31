@@ -3,12 +3,12 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='w-full lg:h-[85vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
-    sm:pt-48 pt-28 pb-10 flex justify-center  '>
+    sm:pt-56 pt-28 pb-10 flex justify-center  '>
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10 text-white'>
             {/* Home text  */}
             <div className='lg:w-3/4 w-full lg:items-start md:items-center  flex flex-col gap-10 '>
                 <h1 className='uppercase text-[18px] text-[#6ADFD7] font-bold'>Digital Marketing That Drives Revenue®</h1>
-                <h1 className=' font-[900] lg:text-[4vw] text-5xl leading-none lg:text-left md:text-center text-left'>Unlock Revenue Growth Through Digital Marketing</h1>
+                <h1 className=' font-[800] lg:text-[63px] text-5xl leading-none lg:text-left md:text-center text-left'>Unlock Revenue Growth Through Digital Marketing</h1>
                 <p className='text-[18px]'>Not every digital marketing agency can seamlessly connect marketing activities to your bottom line. Our award-winning expertise, data-backed decision making, and innovative technology have generated over $10 billion in revenue for clients like you. Request your personalized strategy proposal today to start driving ROI from digital marketing!</p>
 
                 <div className='md:rounded-lg flex md:flex-row flex-col sm:rounded-md gap-y-4 md:w-auto w-full overflow-hidden text-lg md:text-xl xl:text-2xl'>

@@ -5,7 +5,7 @@ import Nav from "./Components/Nav/Nav.jsx";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-slate-700">
+    <div className="w-full h-auto font-inter box-border transition-all">
       <Nav/>
       <Home/>
     

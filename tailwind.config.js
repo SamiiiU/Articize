@@ -23,6 +23,9 @@ module.exports = {
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font
+      },
     },
   },
   plugins: [],
