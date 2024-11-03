@@ -1,8 +1,22 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import ScrollCounter from '../../../Prebuild_Components/ScrollCounter'
+import HomeData from '../../../Data/HomeData/HomeData';
+import dataIcon from '../../../Assets/Images/HomeImages/dataIcon.png';
+import salesIcon from '../../../Assets/Images/HomeImages/salesIcon.png';
+import contentIcon from '../../../Assets/Images/HomeImages/contentIcon.png';
+import analytices from '../../../Assets/Images/HomeImages/analyticIcon.png';
 
 const PowerOfMarketing = () => {
     const sectionRef = useRef(null);
+    const [currPower , setCurrPower] = useState(HomeData.Power[3]);
+    const [shadow , setShadow] = useState(1);
+
+    const handlePower = (e) => {
+        setCurrPower(HomeData.Power[e]);
+        console.log(currPower);
+        setShadow(e);
+    }
+    
 
   return (
     <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '> 
@@ -37,13 +51,34 @@ const PowerOfMarketing = () => {
 
         <div className='w-full flex lg:justify-between items-center  flex-wrap justify-center  ga '>
             <div className='relative flex flex-col xl:text-[1.5rem] text-[1rem]  gap-y-8'>
-                <div className='px-8 py-4 min-w-36   flex  shadow-md gap-x-8 items-center  rounded-lg font-bold'><div className='w-8 h-8 bg-black' /> Actionable analytices</div>
-                <div className='px-8 py-4 min-w-36  flex  shadow-md gap-x-8 items-center  rounded-lg font-bold'><div className='w-8 h-8  bg-black' /> Actionable analytices</div>
-                <div className='px-8 py-4 min-w-36  flex  shadow-md gap-x-8 items-center  rounded-lg font-bold'><div className='w-8 h-8  bg-black' /> Actionable analytices</div>
-                <div className='px-8 py-4 min-w-36  flex  shadow-md gap-x-8 items-center  rounded-lg font-bold'><div className='w-8 h-8  bg-black' /> Actionable analytices</div>
+                <div onClick={() => handlePower(1)} className={`cursor-pointer px-8 py-4 min-w-36   flex transition-all  ${shadow === 1 && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
+                    backgroundImage : `url(${analytices})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
+                }} className='w-8 h-8' /> Actionable analytices </div>
+
+                <div onClick={() => handlePower(2)} className={`cursor-pointer px-8 py-4 min-w-36   flex transition-all  ${shadow === 2 && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
+                    backgroundImage : `url(${dataIcon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
+                }}  className='w-8 h-8 ' /> Data Empowerment</div>
+
+
+                <div onClick={() => handlePower(3)} className={`cursor-pointer px-8 py-4 min-w-36   flex transition-all  ${shadow === 3 && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
+                    backgroundImage : `url(${contentIcon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
+                }}  className='w-8 h-8 ' /> Content Wirting</div>
+
+
+                <div onClick={() => handlePower(4)} className={`cursor-pointer px-8 py-4 min-w-36   flex transition-all  ${shadow === 4 && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
+                    backgroundImage : `url(${salesIcon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
+                }}  className='w-8 h-8 ' /> Sales Enablement</div>
+
             </div>
-            <div className='xl:w-[40vw] w-96 md:w-[500px] xl:h-[500px] sm:h-[450px] h-96 px-4 py-8 bg-[#6ADFD7]  rounded-lg font-bold'>
-                s
+            <div className='relative xl:w-[40vw] overflow-hidden w-96 md:w-[500px] group xl:h-[500px] sm:h-[450px] h-96  rounded-3xl font-bold'
+            style={{
+                backgroundImage : `url(${currPower.img})` , backgroundRepeat : 'no-repeat', backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat',
+            }}
+            >
+                <span className='absolute  left-0 group-hover:bottom-0 transition-all duration-500 ease-in-out bottom-full w-full h-full text-left p-10 bg-gradient-to-t text-white from-transparent to-[#207CE7]'>
+                    <h1 className='text-4xl  font-bold '>{currPower.heading}</h1>
+                    <p className='font-semibold mt-10'>{currPower.description}</p>
+                </span>
             </div>
         </div>
     </div>
