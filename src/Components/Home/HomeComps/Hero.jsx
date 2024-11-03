@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full lg:h-[85vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
+    <div className='w-full  bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
     sm:pt-56 pt-28 pb-10 flex justify-center  '>
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10 text-white'>
             {/* Home text  */}

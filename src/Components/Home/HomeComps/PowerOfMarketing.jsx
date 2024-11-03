@@ -5,6 +5,7 @@ import dataIcon from '../../../Assets/Images/HomeImages/dataIcon.png';
 import salesIcon from '../../../Assets/Images/HomeImages/salesIcon.png';
 import contentIcon from '../../../Assets/Images/HomeImages/contentIcon.png';
 import analytices from '../../../Assets/Images/HomeImages/analyticIcon.png';
+import '../../../Assets/CustomCSS/Scrollbar.css';
 
 const PowerOfMarketing = () => {
     const sectionRef = useRef(null);
@@ -20,7 +21,7 @@ const PowerOfMarketing = () => {
 
   return (
     <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '> 
-        <h1 className='lg:text-[4rem] text-[2.5rem] font-[800]'>The True <span className='text-[#207CE7]'>Power Of Marketing </span> On Revenue</h1>
+        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>The True <span className='text-[#207CE7]'>Power Of Marketing </span> On Revenue</h1>
         <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>Our cutting-edge technology and expert strategies empower clients to make data-driven marketing decisions, keeping them ahead in a dynamic digital world.</p>
 
 
@@ -49,7 +50,7 @@ const PowerOfMarketing = () => {
 
         {/* explanation section  */}
 
-        <div className='w-full flex lg:justify-between items-center  flex-wrap justify-center  ga '>
+        <div className='w-full flex lg:justify-between items-center  flex-wrap justify-center  gap-y-8 '>
             <div className='relative flex flex-col xl:text-[1.5rem] text-[1rem]  gap-y-8'>
                 <div onClick={() => handlePower(1)} className={`cursor-pointer px-8 py-4 min-w-36   flex transition-all  ${shadow === 1 && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
                     backgroundImage : `url(${analytices})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
@@ -75,9 +76,9 @@ const PowerOfMarketing = () => {
                 backgroundImage : `url(${currPower.img})` , backgroundRepeat : 'no-repeat', backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat',
             }}
             >
-                <span className='absolute  left-0 group-hover:bottom-0 transition-all duration-500 ease-in-out bottom-full w-full h-full text-left p-10 bg-gradient-to-t text-white from-transparent to-[#207CE7]'>
-                    <h1 className='text-4xl  font-bold '>{currPower.heading}</h1>
-                    <p className='font-semibold mt-10'>{currPower.description}</p>
+                <span className='absolute overflow-y-scroll left-0 group-hover:bottom-0 transition-all duration-500 ease-in-out bottom-full w-full h-full text-left lg:px-10 px-4 py-10 bg-gradient-to-t text-white from-[#00316A]/30 to-[#00316A] custom-scrollbar'>
+                    <h1 className='lg:text-4xl text-2xl  font-bold '>{currPower.heading}</h1>
+                    <p className='font-semibold lg:mt-10 mt-4'>{currPower.description}</p>
                 </span>
             </div>
         </div>

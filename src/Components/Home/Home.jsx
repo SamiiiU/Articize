@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './HomeComps/Hero';
 import PathToSuccess from './HomeComps/PathToSuccess';
 import PowerOfMarketing from './HomeComps/PowerOfMarketing';
+import Revenue from './HomeComps/Revenue';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero/>
         <PathToSuccess/>
         <PowerOfMarketing/>
+        <Revenue/>
     </div>
   )
 }
