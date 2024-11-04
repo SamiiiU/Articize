@@ -3,6 +3,7 @@ import Hero from './HomeComps/Hero';
 import PathToSuccess from './HomeComps/PathToSuccess';
 import PowerOfMarketing from './HomeComps/PowerOfMarketing';
 import Revenue from './HomeComps/Revenue';
+import KPIoptimization from './HomeComps/KPIoptimization';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <PathToSuccess/>
         <PowerOfMarketing/>
         <Revenue/>
+        <KPIoptimization/>
     </div>
   )
 }

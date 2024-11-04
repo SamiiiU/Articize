@@ -1,13 +1,11 @@
-.custom-scrollbar {
-    overflow-y: scroll; /* Allow vertical scrolling */
-}
+
 
 /* Hide scrollbar for Chrome, Safari and Edge */
 .custom-scrollbar::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar */
+    display: flex; /* Hide the scrollbar */
 }
 
 /* Hide scrollbar for Firefox */
 .custom-scrollbar {
-    scrollbar-width: none; /* Hide scrollbar */
+    scrollbar-width: 2px; /* Hide scrollbar */
 }

@@ -8,7 +8,6 @@ import analytices from '../../../Assets/Images/HomeImages/analyticIcon.png';
 import '../../../Assets/CustomCSS/Scrollbar.css';
 
 const PowerOfMarketing = () => {
-    const sectionRef = useRef(null);
     const [currPower , setCurrPower] = useState(HomeData.Power[3]);
     const [shadow , setShadow] = useState(1);
 

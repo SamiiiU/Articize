@@ -26,6 +26,10 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font
       },
+
+      boxShadow: {
+        'custom-equal': '-2px 0px 10px 5px rgba(0, 0, 0, 0.1)', // yeh chaaron sides ke liye hai
+      },
     },
   },
   plugins: [],
