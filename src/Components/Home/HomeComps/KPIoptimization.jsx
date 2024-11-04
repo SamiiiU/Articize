@@ -27,7 +27,7 @@ const KPIoptimization = () => {
             <h1 className='font-bold text-xl mb-5'>{currKPI.heading}</h1>
             <p>{currKPI.description}</p>
 
-            <div className=' overflow-x-scroll custom-scrollbar mt-8 flex justify-between items-center gap-x-6 '>
+            <div className=' overflow-x-scroll py-8 custom-scrollbar mt-8 flex justify-between items-center gap-x-6 '>
                 {currKPI.features.map((feature , idx) => (
                     <span key={idx} className='p-4 md:w-auto flex md:flex-1 min-w-40 justify-center items-center md:h-20 text-white text-center rounded-3xl bg-[#00448F] font-semibold'>{feature}</span>
                 ))}

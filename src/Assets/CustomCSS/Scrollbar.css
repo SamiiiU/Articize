@@ -1,11 +1,39 @@
-
-
-/* Hide scrollbar for Chrome, Safari and Edge */
 .custom-scrollbar::-webkit-scrollbar {
-    display: flex; /* Hide the scrollbar */
+    width: 4px; /* Thin scrollbar */
+    height: 4px;
 }
 
-/* Hide scrollbar for Firefox */
-.custom-scrollbar {
-    scrollbar-width: 2px; /* Hide scrollbar */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #207CE7; /* Custom color */
+    border-radius: 12px; /* Rounded edges */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #00000028;
+    border-radius: 12px;/* Hide track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+    display: none; /* Hide arrows */
+}
+
+
+/* For page  */
+
+::-webkit-scrollbar {
+    width: 8px; /* Thin scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #207CE7; /* Custom color */
+    border-radius: 12px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-track {
+    background: #00000028;
+    border-radius: 12px;/* Hide track */
+}
+
+::-webkit-scrollbar-button {
+    display: none; /* Hide arrows */
 }

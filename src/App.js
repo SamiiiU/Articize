@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Components/Home/Home.jsx";
-import Nav from "./Components/Nav/Nav.jsx";
+import Nav from "./CommonComps/Nav/Nav.jsx";
 
 
 function App() {
