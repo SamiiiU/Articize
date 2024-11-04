@@ -5,8 +5,11 @@ import PowerOfMarketing from './HomeComps/PowerOfMarketing';
 import Revenue from './HomeComps/Revenue';
 import KPIoptimization from './HomeComps/KPIoptimization';
 import CTA from '../../CommonComps/CTA';
+import Reviews from './HomeComps/ReviewsHome';
+import ReviewsHome from './HomeComps/ReviewsHome';
 
 const Home = () => {
+
   return (
     <div className='w-full  '>
         <Hero/>
@@ -16,6 +19,10 @@ const Home = () => {
         <KPIoptimization/>
 
         <CTA/>
+
+        <ReviewsHome/>
+
+        
     </div>
   )
 }
