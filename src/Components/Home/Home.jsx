@@ -4,6 +4,7 @@ import PathToSuccess from './HomeComps/PathToSuccess';
 import PowerOfMarketing from './HomeComps/PowerOfMarketing';
 import Revenue from './HomeComps/Revenue';
 import KPIoptimization from './HomeComps/KPIoptimization';
+import CTA from '../../CommonComps/CTA';
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
         <PowerOfMarketing/>
         <Revenue/>
         <KPIoptimization/>
+
+        <CTA/>
     </div>
   )
 }
