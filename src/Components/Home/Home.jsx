@@ -7,6 +7,7 @@ import KPIoptimization from './HomeComps/KPIoptimization';
 import CTA from '../../CommonComps/CTA';
 import Reviews from './HomeComps/ReviewsHome';
 import ReviewsHome from './HomeComps/ReviewsHome';
+import Footer from '../../CommonComps/Footer/Footer';
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
         <CTA/>
 
         <ReviewsHome/>
+        <Footer/>
 
         
     </div>
