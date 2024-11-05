@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { LuMenu } from "react-icons/lu";
-
+import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
 
 
 const Nav = () => {
@@ -24,7 +24,7 @@ const Nav = () => {
     <>
     {scrwidth > 1280 ? (
         <div className='z-40 absolute w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
-        <div className='w-[10%] px-4 py-4 bg-blue-800 '> LOGO </div>
+        <div className='w-[10%] h-full  px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> LOGO </div>
         <div className='w-[70%] 2xl:text-lg text-[1rem] font-semibold flex justify-between text-[#313131] 2xl:gap-x-8 py-4'>
             <span className='flex-1 flex justify-between items-center  hover:bg-black/10 px-4 rounded-md'>
                 SEO  <MdOutlineKeyboardArrowDown size="1.5em"/>
@@ -39,7 +39,7 @@ const Nav = () => {
         </div>
     ) : (
         <div className='absolute w-full px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
-          <div className='w-36 px-4 py-4 bg-blue-800 '> LOGO </div> 
+          <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
 
           <span className='  text-4xl text-right'><LuMenu/>
         </span> 
