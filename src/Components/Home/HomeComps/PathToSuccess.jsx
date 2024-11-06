@@ -13,7 +13,7 @@ const PathToSuccess = () => {
             {/* path 1  */}
             <div className='flex relative flex-wrap lg:text-xl text-lg py-8  xl:items-center gap-y-4 justify-start border-[#2080EA] border-b-2'>
                 {/* heading  */}
-                <h1 className='xl:flex-1 w-full text-left xl:text-center lg:text-2xl text-xl font-extrabold'>Drive Website Traffic</h1>
+                <h1 className='xl:flex-1 w-full text-left 2xl:text-center lg:text-2xl text-xl font-extrabold'>Drive Website Traffic</h1>
 
                 <div className='sm:flex-1 w-full flex flex-col gap-y-4 font-medium  '>
                     <span className=' flex flex-row items-center hover:gap-x-8 transition-all duration-200 gap-x-4'>SEO Services < FaArrowRight /></span>
@@ -30,7 +30,7 @@ const PathToSuccess = () => {
             {/* path 2   */}
             <div className='flex relative flex-wrap lg:text-xl text-lg py-8  xl:items-center gap-y-4 justify-start border-[#67EBC8] border-b-2'>
                 {/* heading  */}
-                <h1 className='xl:flex-1 w-full text-left xl:text-center lg:text-2xl text-xl font-extrabold'>Create and manage powerful 
+                <h1 className='xl:flex-1 w-full text-left 2xl:text-center lg:text-2xl text-xl font-extrabold'>Create and manage powerful 
                 ad campaigns</h1>
 
                 <div className='sm:flex-1 w-full flex flex-col gap-y-4 font-medium  '>
@@ -49,7 +49,7 @@ const PathToSuccess = () => {
             {/* path 3   */}
             <div className='flex relative flex-wrap lg:text-xl text-lg py-8  xl:items-center gap-y-4 justify-start border-[#B9E688] border-b-2'>
                 {/* heading  */}
-                <h1 className='xl:flex-1 w-full text-left xl:text-center lg:text-2xl text-xl font-extrabold'>Collect, analyze, and deploy marketing data</h1>
+                <h1 className='xl:flex-1 w-full text-left 2xl:text-center lg:text-2xl text-xl font-extrabold'>Collect, analyze, and deploy marketing data</h1>
 
                 <div className='sm:flex-1 w-full flex flex-col gap-y-4 font-medium'>
                     <span className=' flex flex-row items-center hover:gap-x-8 transition-all duration-200 gap-x-4'>MarketingCloudFX< FaArrowRight /></span>
@@ -66,7 +66,7 @@ const PathToSuccess = () => {
             {/* path 4   */}
             <div className='flex relative flex-wrap lg:text-xl text-lg  py-8  xl:items-center gap-y-4 justify-start border-[#FFE57F] border-b-2'>
                 {/* heading  */}
-                <h1 className='xl:flex-1 w-full text-left xl:text-center lg:text-2xl text-xl font-extrabold'>Improve brand 
+                <h1 className='xl:flex-1 w-full text-left  2xl:text-center lg:text-2xl text-xl font-extrabold'>Improve brand 
                 messaging and conversion</h1>
 
                 <div className='sm:flex-1 w-full flex flex-col gap-y-4 font-medium'>
