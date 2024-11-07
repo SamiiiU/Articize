@@ -3,24 +3,40 @@ import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icon
 import { LuMenu } from "react-icons/lu";
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
 import { FaArrowAltCircleUp } from 'react-icons/fa';
+import { useRef } from 'react';
+import { mainNavData } from '../../Data/NavigationData';
 
 
 const Nav = () => {
     const [scrwidth, setWidth] = useState(window.innerWidth);
     const [isOpenMenu , setIsOpenMenu]  = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
+    const divRef = useRef(null);
+    const [height, setHeight] = useState(0);
+    const [currData , setCurrData] = useState(mainNavData.SEOandPPC)
 
     useEffect(() => {
     // Function to update the width
     const handleResize = () => setWidth(window.innerWidth);
-
     // Add event listener
     window.addEventListener('resize', handleResize);
 
-    // Cleanup function to remove the event listener on unmount
-    return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    // checking height of nav
+    if (divRef.current) {
+      setHeight(divRef.current.offsetHeight);
+    }
 
-    const [isVisible, setIsVisible] = useState(false);
+    console.log(height);
+    console.log(" arrraaaay" ,mainNavData.length);
+    
+    window.addEventListener('scroll', toggleVisibility);
+    // Cleanup function to remove the event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize)
+       window.removeEventListener('scroll', toggleVisibility)
+    };
+    
+    }, []);
 
     // Show button when page is scrolled down
     const toggleVisibility = () => {
@@ -38,20 +54,43 @@ const Nav = () => {
         behavior: 'smooth'
       });
     };
-  
-    useEffect(() => {
-      window.addEventListener('scroll', toggleVisibility);
-      return () => window.removeEventListener('scroll', toggleVisibility);
-    }, []);
 
 
   return (
     <>
+
     {/* button for scrolling to top  */}
     <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-1/2 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>
+    
+    
+    {/* services detailed navigation div starts here  */}
+    <div
+      className="w-full bg-slate-300 absolute z-40 px-28 py-10 flex justify-between gap-8"
+      style={{ marginTop: `${height}px` }}>
+        <div className='flex-1 p-4'>
+            {currData.SEO.map((item , idx) => (
+              <p>{item}</p>
+            ))}
+        </div>
+
+        <div className='flex-1 p-4'>
+            {currData.SEO.map((item , idx) => (
+              <p>{item}</p>
+            ))}
+        </div>
+
+        <div className='flex-1 p-4'>
+            {currData.SEO.map((item , idx) => (
+              <p>{item}</p>
+            ))}
+        </div>
+        
+    </div>
+
+
     {/* main navigation for large devices is here started  */}
     {scrwidth > 1280 ? (
-        <div className='z-50 fixed w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
+        <div ref={divRef} className='z-50 fixed w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
           {/* Logo image started  */}
         <div className='w-[10%] h-20  px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}></div>
         {/* Logo image done  */}
@@ -73,8 +112,9 @@ const Nav = () => {
 
         </div>
 
-        // Nav for small devices is started here 
     ) : (
+      
+        // Nav for small devices is started here 
         <div className='absolute w-full px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
           <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
 
