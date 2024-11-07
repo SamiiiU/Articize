@@ -8,26 +8,30 @@ import { mainNavData } from '../../Data/NavigationData';
 
 
 const Nav = () => {
-    const [scrwidth, setWidth] = useState(window.innerWidth);
-    const [isOpenMenu , setIsOpenMenu]  = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
-    const divRef = useRef(null);
-    const [height, setHeight] = useState(0);
-    const [currData , setCurrData] = useState(mainNavData.SEOandPPC)
+    const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
+    const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
+    const [isSmallMenu , setIsSmallMenu] = useState(true)
+    const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
+
+    const [currData , setCurrData] = useState(mainNavData.SEOandPPC)// state for managing current nav data to show
+    
+    //handler for main screen navigation 
+    const navHandler = (e) =>{
+        
+          setCurrData(mainNavData[e]);
+          console.log("currData" , currData , "ele" , e);
+          setIsBigMenu(true);
+      
+    }
+    const navCloserHandle = () => {
+        setIsBigMenu(false)
+    }
 
     useEffect(() => {
-    // Function to update the width
+    // Function to update the width and visibility of scroll to top button
     const handleResize = () => setWidth(window.innerWidth);
     // Add event listener
     window.addEventListener('resize', handleResize);
-
-    // checking height of nav
-    if (divRef.current) {
-      setHeight(divRef.current.offsetHeight);
-    }
-
-    console.log(height);
-    console.log(" arrraaaay" ,mainNavData.length);
     
     window.addEventListener('scroll', toggleVisibility);
     // Cleanup function to remove the event listener on unmount
@@ -36,7 +40,7 @@ const Nav = () => {
        window.removeEventListener('scroll', toggleVisibility)
     };
     
-    }, []);
+    }, [currData]);
 
     // Show button when page is scrolled down
     const toggleVisibility = () => {
@@ -64,47 +68,44 @@ const Nav = () => {
     
     
     {/* services detailed navigation div starts here  */}
-    <div
-      className="w-full bg-slate-300 absolute z-40 px-28 py-10 flex justify-between gap-8"
-      style={{ marginTop: `${height}px` }}>
-        <div className='flex-1 p-4'>
-            {currData.SEO.map((item , idx) => (
-              <p>{item}</p>
+    {isBigMenu && (<div onMouseLeave={navCloserHandle}
+      className={`w-full overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
+      >
+        {currData?.map((item , idx ) => (
+          <div className='flex-1 ' key={idx}>
+            <h1 className='font-bold text-xl '>{item.heading }</h1>
+            {item.types?.map((stype , idx) => (
+              <p className='font-semibold my-3 cursor-pointer hover:text-[#16316a]'>{stype}</p>
             ))}
-        </div>
-
-        <div className='flex-1 p-4'>
-            {currData.SEO.map((item , idx) => (
-              <p>{item}</p>
-            ))}
-        </div>
-
-        <div className='flex-1 p-4'>
-            {currData.SEO.map((item , idx) => (
-              <p>{item}</p>
-            ))}
-        </div>
+          </div>
+        ))}
         
-    </div>
+        {/* {Object.entries(currData).map(([key , value]) =>  (
+          
+        ))} */}
+        
+    </div>)}
+
+
 
 
     {/* main navigation for large devices is here started  */}
     {scrwidth > 1280 ? (
-        <div ref={divRef} className='z-50 fixed w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
+        <div  className='z-50 fixed w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
           {/* Logo image started  */}
         <div className='w-[10%] h-20  px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}></div>
         {/* Logo image done  */}
         <div className='w-[70%] 2xl:text-lg text-[1rem] font-semibold flex justify-between text-[#313131] 2xl:gap-x-8 py-4'>
 
-            <span className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
+            <span  onMouseEnter={() => navHandler('SEOandPPC')} className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
               <h1 className='flex-1'>SEO </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
             </span>
 
-            <span className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>DevX </h1><MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/></span>
+            <span  onMouseEnter={() => navHandler("DevX")} className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>DevX </h1><MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/></span>
 
-            <span className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>Cybersecurity & Devops</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
+            <span  onMouseEnter={() => navHandler("CSDEVOPS")} className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>Cybersecurity & Devops</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
 
-            <span className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'> <h1 className='flex-1'>AI Integration & Data Analysis</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
+            <span onMouseEnter={() => navHandler('AIandDA')} className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'> <h1 className='flex-1'>AI Integration & Data Analysis</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
 
             <span  className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>Why Choose Us</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
         </div>

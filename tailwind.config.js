@@ -19,9 +19,15 @@ module.exports = {
           '50%': { transform: 'rotate(180deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },
+        expand: {
+          '0%': { marginTop : '100px' },
+          '100%': { maxHeight: '1000px' }, // Set a high maxHeight
+        },
+
       },
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
+        expand: 'expand 0.5s ease-out', // Custom expand animation
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font
