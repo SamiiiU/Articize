@@ -1,3 +1,4 @@
+import EcommerceSEO from "../Components/Services/SEO/EcommerceSEO"
 
 
  
@@ -32,9 +33,27 @@
 
     export const mainNavData = 
         {SEOandPPC : [
-             { heading : "SEO" , types : ["E-commerce SEO" , "Local SEO" , "Technical SEO" , "Content SEO" , "International SEO" , "SEO Audits"]},
+             { heading : "SEO" , 
+                types : [
+                {path : '/EcommerceSEO' , type : 'E-commerce SEO' } ,
+                {path : '/LocalSEO' , type : 'Local SEO' } ,
+                {path : '/TechnicalSEO' , type : 'Technical SEO' } ,
+                {path : '/ContentSEO' , type : 'Content SEO' } ,
+                {path : '/InternationalSEO' , type : 'International SEO' } ,
+                {path : '/Audits' , type : 'SEO Audits' } ,
+                ]
+            },
 
-             { heading : "PPC" , types : ["Google Ads PPC" , "Amazon PPC" , "Facebook Instagram PPC" , "Google Shopping PPC" , "Linkedin PPC" , "Youtube PPC"]},
+             { heading : "PPC" 
+                , types : [
+                    {path : '/GoogleAdsPPC' , type : 'Google Ads PPC' } ,
+                    {path : '/LocalSEO' , type : 'Amazon PPC' } ,
+                    {path : '/TechnicalSEO' , type : 'Facebook Instagram PPC' } ,
+                    {path : '/ContentSEO' , type : 'Google Shopping PPC' } ,
+                    {path : '/InternationalSEO' , type : 'Linkedin PPC' } ,
+                    {path : '/Audits' , type : 'Youtube PPC' } ,
+                ]
+            },
 
              { heading : "SMA" , types : ["Basic Social Media Advertising" , "Programmatic Advertising" , "Enterprise (SMM)" , "Social Commerce Strategy" , "Social Media Brand Audits"]},
 

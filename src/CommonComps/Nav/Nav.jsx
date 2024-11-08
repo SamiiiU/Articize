@@ -1,30 +1,41 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { LuMenu } from "react-icons/lu";
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
 import { FaArrowAltCircleUp } from 'react-icons/fa';
-import { useRef } from 'react';
+
 import { mainNavData } from '../../Data/NavigationData';
+import { ContextAPI } from '../../GlobalProvider/ContextAPI';
+import { useNavigate } from 'react-router-dom';
 
 
 const Nav = () => {
+    const navigate = useNavigate();
+    const {states} = useContext(ContextAPI)
     const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
     const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
     const [isSmallMenu , setIsSmallMenu] = useState(true)
     const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
+    const [navPath , setNavPath] = useState('/')
 
     const [currData , setCurrData] = useState(mainNavData.SEOandPPC)// state for managing current nav data to show
     
     //handler for main screen navigation 
     const navHandler = (e) =>{
-        
-          setCurrData(mainNavData[e]);
-          console.log("currData" , currData , "ele" , e);
-          setIsBigMenu(true);
+        setCurrData(mainNavData[e]);
+        console.log("currData" , currData , "ele" , e);
+        setIsBigMenu(true);
       
     }
     const navCloserHandle = () => {
         setIsBigMenu(false)
+    }
+    //navigation handler 
+    const navigator = (e) => {
+       setNavPath(e)
+       setTimeout(() => {
+        navigate(navPath)
+       } , 1000)
     }
 
     useEffect(() => {
@@ -72,10 +83,10 @@ const Nav = () => {
       className={`w-full overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
       >
         {currData?.map((item , idx ) => (
-          <div className='flex-1 ' key={idx}>
+          <div className='flex-1 bg-[#EDF5FF] rounded-xl p-8' key={idx}>
             <h1 className='font-bold text-xl '>{item.heading }</h1>
             {item.types?.map((stype , idx) => (
-              <p className='font-semibold my-3 cursor-pointer hover:text-[#16316a]'>{stype}</p>
+              <p onClick={() => navigator(stype.path)} className='font-semibold my-3 cursor-pointer hover:text-[#16316a]'>{stype.type}</p>
             ))}
           </div>
         ))}

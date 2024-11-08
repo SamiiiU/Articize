@@ -1,15 +1,27 @@
 import React from "react";
 import Home from "./Components/Home/Home.jsx";
-import Nav from "./CommonComps/Nav/Nav.jsx";
+
+import { Routes, Route, Link } from 'react-router-dom';
+import EcommerceSEO from "./Components/Services/SEO/EcommerceSEO.jsx";
+import GlobalProvider from "./GlobalProvider/GlobalProvider.jsx";
+
 
 
 function App() {
   return (
-    <div className="w-full h-auto overflow-x-hidden font-inter box-border transition-all">
-      <Nav/>
-      <Home/>
-    
-    </div>
+    <GlobalProvider>
+      <div className="w-full h-auto overflow-x-hidden font-inter box-border transition-all">
+
+        <Routes>
+
+          <Route path="/" element={<Home/>} />
+          
+          {/* SEO PAGES  */}
+          <Route path="/EcommerceSEO" element={<EcommerceSEO/>} />
+        </Routes>
+
+        </div>
+    </GlobalProvider>
   );
 }
 
