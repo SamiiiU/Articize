@@ -72,7 +72,7 @@ const Nav = () => {
       className={`w-full overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
       >
         {currData?.map((item , idx ) => (
-          <div className='flex-1 ' key={idx}>
+          <div className='flex-1 rounded-lg bg-[#EDF5FF] p-8' key={idx}>
             <h1 className='font-bold text-xl '>{item.heading }</h1>
             {item.types?.map((stype , idx) => (
               <p className='font-semibold my-3 cursor-pointer hover:text-[#16316a]'>{stype}</p>
