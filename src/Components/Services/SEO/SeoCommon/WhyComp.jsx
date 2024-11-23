@@ -2,38 +2,31 @@ import React, { useCallback, useContext, useEffect, useState } from 'react'
 import { FaMagnifyingGlass } from 'react-icons/fa6'
 import { ContextAPI } from '../../../../GlobalProvider/ContextAPI';
 
-const WhyComp = () => {
+const WhyComp = ({page}) => {
     const {serviceShow} = useContext(ContextAPI)
-    const [showKeyDetail , setshowKeyDetail] = useState({
-        value : 1,
-        show : false
-    });
+    const [showKeyIndex , setshowKeyIndex] = useState(null)
+    const [showKey , setShowKey] = useState(null)
 
-    const toggleShowKeyDetail = (e) => {
-        setshowKeyDetail(prevState => ({
-            value: e || 0,
-            show: prevState.show == true ? false : true
-        }));
-
+    const toggleShowKeyDetail = (idx) =>{
+        setshowKeyIndex(showKeyIndex === idx ? null : idx)
     }
-    useEffect(() => {
-        document.querySelector('#headingHero').innerHTML = serviceShow?.whyHeading
-    }, [])
+
+    
 
   return (
     <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
-        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'></h1>
-        <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>{serviceShow.whyPara}</p>
+        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'>{page.whyHeading}</h1>
+        <p className='lg:text-xl text-lg font-normal  '>{page.whyPara}</p>
 
         <div className='w-full transition-all duration-1000 flex flex-col  gap-y-7'>
-        {serviceShow?.whyKeys.map((item , idx) => (
-            <div key={idx} className='relative hover:h-fit transition-all group shadow-lg overflow-hidden' onMouseEnter={() => toggleShowKeyDetail(idx)} onMouseLeave={toggleShowKeyDetail}>
-            <div className='w-full group-hover:px-16 z-50 rounded-2xl py-4 px-8 transition-all flex justify-between '>
+        {page?.whyKeys.map((item , idx) => (
+            <div key={idx} className='relative hover:h-fit transition-all shadow-lg overflow-hidden' onMouseEnter={() => toggleShowKeyDetail(idx)} onMouseLeave={() => toggleShowKeyDetail(null)}>
+            <div className={`w-full  z-50 rounded-2xl py-4 px-8 transition-all flex justify-between  ${idx === showKeyIndex && 'text-[#207DE9]'}`}>
                 <h1 className='font-bold'>{item.heading}</h1>
                 {item.icon}
             </div>
-            {idx == showKeyDetail.value && (
-                <p  className='transition-all rounded-b-3xl top-10 animate-expand text-white text-blue bg-blue-950 overflow-hidden py-7 px-4'>{item.explanation}
+            {idx == showKeyIndex && (
+                <p  className='transition-all text-left rounded-b-3xl top-10 animate-expand text-white text-blue bg-blue-950 overflow-hidden py-7 px-4'>{item.explanation}
                 </p>
             )}
 

@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { mobNavigationData} from '../../Data/NavigationData';
 
-
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
-import { LuMenu } from 'react-icons/lu';
+import { LuCross, LuMenu } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
+import { RxCross2 } from 'react-icons/rx';
 
 
 
@@ -40,7 +40,7 @@ const MobNav = () => {
         <div className='fixed text-[#313131] w-full z-50 px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
           <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
 
-          <span onClick={toggleMenu} className=' text-4xl text-right'><LuMenu/>
+          <span onClick={toggleMenu} className=' text-4xl text-right'>{menuOpen ? <RxCross2 /> :   <LuMenu/>}
         </span> 
 
         
@@ -49,7 +49,7 @@ const MobNav = () => {
       {/* Navigation Menu */}
       <div
         className={`fixed z-40 text-[#313131] top-full left-0 w-full min-h-screen pt-20 bg-white shadow-lg transition-transform duration-300 ${
-          menuOpen ? "translate-y-0" : "-translate-y-full"
+          menuOpen ? "-translate-y-full" : "translate-y-0"
         }`}
       >
         {mobNavigationData.map((main, index) => (
@@ -74,7 +74,7 @@ const MobNav = () => {
                     <ul className={`pl-12 py-2 bg-[#f9fbff] text-lg  list-disc overflow-hidden transition-all duration-300
                     ${activeSubDropdown === sub.title ? 'animate-expand' : 'animate-contract'}`}>
                       {sub.links.map((link, linkIndex) => (
-                        <li  key={linkIndex} className='my-2'><Link to={link.path}>{link.type}</Link></li>
+                        <li  key={linkIndex} className='my-2' onClick={toggleMenu}><Link to={link.path}>{link.type}</Link></li>
                       ))}
                     </ul>
                   )}

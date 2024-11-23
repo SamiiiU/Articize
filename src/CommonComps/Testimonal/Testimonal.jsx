@@ -13,7 +13,6 @@ import './Sliders.css';
 // Initialize Swiper with modules
 export const Testimonal = ({Reviews}) => {
 
-    console.log(Reviews)
   return (
     <>
         <div className="md:w-full w-3/4 flex md:shadow-none shadow-custom-equal mx-auto my-10">

@@ -6,7 +6,7 @@ import { FaArrowAltCircleUp, FaArrowDown } from 'react-icons/fa';
 
 import { mainNavData, NavigationData } from '../../Data/NavigationData';
 import { ContextAPI } from '../../GlobalProvider/ContextAPI';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import MobNav from './MobNav';
 
 
@@ -24,12 +24,14 @@ const Nav = () => {
     //handler for main screen navigation 
     const navHandler = (e) =>{
         setCurrData(mainNavData[e]);
-        console.log("currData" , currData , "ele" , e);
         setIsBigMenu(true);
-      
     }
     const navCloserHandle = () => {
-        setIsBigMenu(false)
+        let mainNav = document.querySelector('#big-menu')
+        mainNav && mainNav.classList.add('opacity-0')
+        setTimeout(() => {
+          setIsBigMenu(false)
+        }, 300);
     }
     //navigation handler 
     const navigator = (e) => {
@@ -83,13 +85,14 @@ const Nav = () => {
     
     {/* services detailed navigation div starts here  */}
     {isBigMenu && (<div onMouseLeave={navCloserHandle}
-      className={`w-full min-h-screen overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
-      >
+      className={`w-full bg-[#EDF5FF] min-h-screen overflow-hidden transition-opacity transform-height duration-700  animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
+      id='big-menu'>
         {currData?.map((item , idx ) => (
-          <div className='flex-1 rounded-lg bg-[#EDF5FF] p-8' key={idx}>
+          <div className='flex-1 rounded-lg flex flex-col bg-white p-8' key={idx}>
             <h1 className='font-bold text-xl '>{item.heading }</h1>
-            {item.types?.map((stype , idx) => (
-              <p onClick={() => navigator(stype.path)} className='font-semibold my-3 cursor-pointer hover:text-[#16316a]'>{stype.type}</p>
+            {item.types?.map((stype , index) => (
+              
+              <Link onClick={() => setIsBigMenu(false)} to={stype.path} className="w-full font-semibold my-3 cursor-pointer hover:text-[#16316a]" key={index}>{stype.type}</Link>
             ))}
           </div>
         ))}
@@ -132,15 +135,7 @@ const Nav = () => {
       
         // Nav for small devices is started here 
         <>
-        {/* //This is nav bar  */}
-        <div className='absolute w-full z-50 px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
-          <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
-
-          <span className='  text-4xl text-right'><LuMenu/>
-        </span> 
-
         
-        </div>
 
         {/* THis is navigation  */}
         {/* <div className='w-full fixed min-h-scree pt-20 flex flex-col  bg-teal-200'>

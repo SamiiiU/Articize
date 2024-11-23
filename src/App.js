@@ -10,14 +10,14 @@ import GlobalProvider from "./GlobalProvider/GlobalProvider.jsx";
 function App() {
   return (
     <GlobalProvider>
-      <div className="w-full h-auto overflow-x-hidden font-inter box-border transition-all">
+      <div className="w-full h-auto overflow-x-hidden font-inter box-border transition-all text-[#313131]">
 
         <Routes>
 
           <Route path="/" element={<Home/>} />
           
           {/* SEO PAGES  */}
-          <Route path="/EcommerceSEO" element={<EcommerceSEO/>} />
+          <Route path="/ecommerce-seo" element={<EcommerceSEO/>} />
         </Routes>
 
         </div>

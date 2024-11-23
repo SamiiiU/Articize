@@ -24,8 +24,8 @@ module.exports = {
           '100%': { maxHeight: '500px', opacity: '1' }, // Adjust maxHeight based on your content size
         },
         contract: {
-          '0%': { maxHeight: '500px', opacity: '1' },
-          '100%': { maxHeight: '0', opacity: '0' },
+          '0%': { maxHeight: '500px', opacity: '1', transform: 'scaleY(1)' },
+          '100%': { maxHeight: '0', opacity: '0', transform: 'scaleY(0.9)' },
         },
 
       },
