@@ -1,12 +1,13 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { Fragment, useContext, useEffect, useState } from 'react'
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { LuMenu } from "react-icons/lu";
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
-import { FaArrowAltCircleUp } from 'react-icons/fa';
+import { FaArrowAltCircleUp, FaArrowDown } from 'react-icons/fa';
 
-import { mainNavData } from '../../Data/NavigationData';
+import { mainNavData, NavigationData } from '../../Data/NavigationData';
 import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 import { useNavigate } from 'react-router-dom';
+import MobNav from './MobNav';
 
 
 const Nav = () => {
@@ -71,6 +72,8 @@ const Nav = () => {
     };
 
 
+
+
   return (
     <>
 
@@ -80,7 +83,7 @@ const Nav = () => {
     
     {/* services detailed navigation div starts here  */}
     {isBigMenu && (<div onMouseLeave={navCloserHandle}
-      className={`w-full overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
+      className={`w-full min-h-screen overflow-hidden transition-opacity transform-height duration-700 bg-white animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
       >
         {currData?.map((item , idx ) => (
           <div className='flex-1 rounded-lg bg-[#EDF5FF] p-8' key={idx}>
@@ -97,6 +100,7 @@ const Nav = () => {
         
     </div>)}
 
+      
 
 
 
@@ -127,7 +131,9 @@ const Nav = () => {
     ) : (
       
         // Nav for small devices is started here 
-        <div className='absolute w-full px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
+        <>
+        {/* //This is nav bar  */}
+        <div className='absolute w-full z-50 px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
           <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
 
           <span className='  text-4xl text-right'><LuMenu/>
@@ -135,12 +141,41 @@ const Nav = () => {
 
         
         </div>
+
+        {/* THis is navigation  */}
+        {/* <div className='w-full fixed min-h-scree pt-20 flex flex-col  bg-teal-200'>
+          <div className='w-full bg-white group'>
+            <h1 className='p-4 font-bold border-y-2 border-black text-black text-4xl py-4'>SEO & PPC</h1>
+
+            <div className='w-full px-6  py-2 text-2xl font-semibold max-h-0 group-hover:max-h-fit'>
+                <h1 className='py-4 flex gap-x-2 items-center'>SEO <FaArrowDown className='rotate-[-90deg]'/></h1>
+                {NavigationData.SEO.map((item, idx) => (
+                  <div className="" key={idx}>
+                    <p className='pl-8'>{item}</p>
+                  </div>
+                ))}
+            </div>
+
+          </div>
+          <div className='w-full p-4 font-bold border-y-2 border-black bg-white text-black text-4xl py-8'>
+            sdadsa
+
+          </div>
+          <div className='w-full p-4 font-bold border-y-2 border-black bg-white text-black text-4xl py-8'>
+            sdadsa
+
+          </div>
+
+        </div> */}
+
+        <MobNav/>
+
+        </>
+
+
         
     )}
 
-        {/* <div className='z-50 absolute w-full min-h-screen bg-white/20'>
-
-        </div> */}
     </>
   )
 }

@@ -20,14 +20,19 @@ module.exports = {
           '100%': { transform: 'rotate(360deg)' },
         },
         expand: {
-          '0%': { marginTop : '100px' },
-          '100%': { maxHeight: '1000px' }, // Set a high maxHeight
+          '0%': { maxHeight: '0', opacity: '0' },
+          '100%': { maxHeight: '500px', opacity: '1' }, // Adjust maxHeight based on your content size
+        },
+        contract: {
+          '0%': { maxHeight: '500px', opacity: '1' },
+          '100%': { maxHeight: '0', opacity: '0' },
         },
 
       },
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
-        expand: 'expand 0.5s ease-out', // Custom expand animation
+        expand: 'expand 0.3s ease-out', // Custom expand animation
+        contract: 'contract 0.3s ease-in', // Custom expand animation
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { ContextAPI } from './ContextAPI'
 import { SEOData } from '../Data/ServicesData/SEOandPPC';
-import { useNavigate } from 'react-router-dom';
 
 const GlobalProvider = ({children}) => {
         const [states, setState] = useState('false');
