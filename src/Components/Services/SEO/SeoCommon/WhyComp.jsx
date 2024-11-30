@@ -1,13 +1,14 @@
-import React, { useCallback, useContext, useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { FaMagnifyingGlass } from 'react-icons/fa6'
 import { ContextAPI } from '../../../../GlobalProvider/ContextAPI';
+import DropDownKey from '../../../../Prebuild_Components/DropDownKey';
 
 const WhyComp = ({page}) => {
-    const {serviceShow} = useContext(ContextAPI)
     const [showKeyIndex , setshowKeyIndex] = useState(null)
     const [showKey , setShowKey] = useState(null)
 
     const toggleShowKeyDetail = (idx) =>{
+        
         setshowKeyIndex(showKeyIndex === idx ? null : idx)
     }
 
@@ -26,12 +27,18 @@ const WhyComp = ({page}) => {
                 {item.icon}
             </div>
             {idx == showKeyIndex && (
-                <p  className='transition-all text-left rounded-b-3xl top-10 animate-expand text-white text-blue bg-blue-950 overflow-hidden py-7 px-4'>{item.explanation}
+                <p id='whyKey' className='transition-all duration-300 text-left rounded-b-3xl top-10 animate-expand text-white text-blue bg-blue-950 overflow-hidden py-7 px-4'>{item.explanation}
                 </p>
             )}
 
             </div>
         ))}
+        {/* {page?.whyKeys.map((item ,index) => (
+            <DropDownKey
+            key={index}
+            {...item}
+            />
+        ) )} */}
         </div>      
     </div>
   )

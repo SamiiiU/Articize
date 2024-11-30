@@ -35,6 +35,7 @@ const Footer = () => {
         </div>
 
 
+
         {/* Second row : services section here */}
         <div className='w-full flex gap-y-5 items-start flex-wrap gap-x-5'>
             {/* Service 1 */}

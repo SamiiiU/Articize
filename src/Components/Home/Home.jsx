@@ -9,6 +9,7 @@ import Reviews from './HomeComps/ReviewsHome';
 import ReviewsHome from './HomeComps/ReviewsHome';
 import Footer from '../../CommonComps/Footer/Footer';
 import Nav from '../../CommonComps/Nav/Nav';
+import ScrollLineAnimation from '../../Prebuild_Components/ScrollLine/ScrollLineAnimation';
 
 const Home = () => {
 
