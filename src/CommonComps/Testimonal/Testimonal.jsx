@@ -16,7 +16,7 @@ export const Testimonal = ({Reviews}) => {
 
   return (
     <>
-        <div className="w-3/4 shadow-md rounded-2xl mx-auto my-8">
+        <div className="w-3/4 py-2 rounded-2xl mx-auto my-8">
           <CustomSlider>
           {Reviews.map((review , idx) => (
                 <div key={idx} className="w-full  cursor-move md:min-w-[400px] pb-10 pt-2 relative border-2 border-[#207DE9] bg-white rounded-lg px-10">

@@ -40,3 +40,9 @@
   height: 6px; /* Active dot height (expands from the center) */
   transition: 0.3s all; /* Smooth transition on active state */
 }
+
+@media (min-width : 640px) {
+  .slick-slide {
+    padding: 0 30px; /* Adjust this value to control the gap */
+  }
+}
