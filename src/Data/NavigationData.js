@@ -1,6 +1,4 @@
 
-import EcommerceSEO from "../Components/Services/SEO/EcommerceSEO"
-
 
  
     export const  NavigationData = {

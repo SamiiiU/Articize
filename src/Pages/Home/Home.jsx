@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from './HomeComps/Hero';
 import PathToSuccess from './HomeComps/PathToSuccess';
 import PowerOfMarketing from './HomeComps/PowerOfMarketing';
@@ -11,7 +11,9 @@ import Footer from '../../CommonComps/Footer/Footer';
 import Nav from '../../CommonComps/Nav/Nav';
 
 const Home = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div className='w-full  '>
         <Nav/>

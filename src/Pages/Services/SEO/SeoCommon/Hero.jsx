@@ -1,10 +1,7 @@
 import React, { useContext } from 'react'
-import BG from '../../../../Assets/Images/CommonImages/HeroServices.png'
 import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
 
-const Hero = ({page}) => {
-    console.log("THis is page" , page.heroHeading)
-    const {serviceShow} = useContext(ContextAPI)
+const Hero = ({page , BG}) => {
   return (
     <div className='w-full  bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
     sm:pt-56 pt-28 pb-10 flex justify-center  '

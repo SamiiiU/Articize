@@ -125,7 +125,7 @@ const Nav = () => {
 
             <span onMouseEnter={() => navHandler('AIandDA')} className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'> <h1 className='flex-1'>AI Integration & Data Analysis</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
 
-            <span  className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>Why Choose Us</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
+            <Link to='/why-us'  className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>Why Choose Us</Link>
         </div>
         <span className='font-bold text-lg bg-[#207DE9] p-4 rounded'>Get a proposal</span>
 

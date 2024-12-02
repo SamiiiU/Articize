@@ -1,9 +1,10 @@
 import React from "react";
-import Home from "./Components/Home/Home.jsx";
+import Home from "./Pages/Home/Home.jsx";
 
 import { Routes, Route, Link } from 'react-router-dom';
-import EcommerceSEO from "./Components/Services/SEO/EcommerceSEO.jsx";
+import EcommerceSEO from "./Pages/Services/SEO/EcommerceSEO.jsx";
 import GlobalProvider from "./GlobalProvider/GlobalProvider.jsx";
+import WhyUs from "./Pages/Why_US/WhyUs.jsx";
 
 
 
@@ -18,6 +19,12 @@ function App() {
           
           {/* SEO PAGES  */}
           <Route path="/ecommerce-seo" element={<EcommerceSEO/>} />
+
+
+
+
+          
+          <Route path="/why-us" element={<WhyUs/>} />
         </Routes>
 
         </div>

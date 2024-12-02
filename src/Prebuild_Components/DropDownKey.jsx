@@ -11,8 +11,7 @@ const DropDownKey = ({heading, icon , explanation , isExpanded , onToggle}) => {
 
         <div className={`px-8 py-4 overflow-hidden transition-all duration-300 ${isExpanded ? 'opacity-100' : 'opacity-0'}`}>
             {explanation}
-        </div>
-    </div>
+        </div>    </div>
   )
 }
 

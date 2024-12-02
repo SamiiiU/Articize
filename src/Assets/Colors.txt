@@ -1,0 +1,9 @@
+color light blue : #207DE9
+
+color dark blue : #00316A
+
+Bg hover : #EDF5FF
+
+text color : #313131
+
+color greenish : #6ADFD7

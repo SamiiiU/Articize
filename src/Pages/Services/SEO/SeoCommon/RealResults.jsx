@@ -36,7 +36,7 @@ const RealResults = ({page}) => {
           ))}
 
           <h1 className='mt-8 text-3xl text-[#6ADFD7] font-bold'>{result.increase}%</h1>
-          <p>{result.increaseIn}</p>
+          <p className=''>{result.increaseIn}</p>
           
         </div>
       ))}
