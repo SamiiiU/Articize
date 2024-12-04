@@ -1,32 +1,47 @@
 export const slides = [
-    {
-      heading : "Targeted Visibility & Growth" , 
-      challenge : "The client struggled with low visibility in a competitive market, resulting in slow sales growth.", 
-      solution : "We implemented tailored SEO strategies and highly targeted ads, driving quality traffic and improving search engine rankings.",
-      
-      result : `Achieved a 200% increase in qualified traffic within 3 months, leading to significant sales growth.` ,
 
+    {
+      heading: "Software Development",
+      challenge: "Optimize product development cycles to enhance delivery times and reduce costs.",
+      approaches: [
+        "Agile project management integration",
+        "Continuous integration and deployment practices",
+        "Regular code reviews and quality assurance checks"
+      ],
+      result: {
+        text: "Reduction in Time-to-Market Experience more rapid product launches with improved quality and reduced overhead.",
+        increment: 40,
+        incrementText: `${increment}%`
+      }
     },
     {
-      heading : "Enhanced User Experience & Retention" , 
-      challenge : "High bounce rates and a complicated user journey were causing potential customers to leave early.", 
-      solution : "Our team revamped the website design for a seamless, intuitive user experience, focusing on fast load times and straightforward navigation.",
-      
-      result : "40% reduction in bounce rate and a noticeable increase in customer retention." ,
+      heading: "E-commerce Growth",
+      challenge: "Increase conversion rates and average order value for an online retail client.",
+      approaches: [
+        "Personalized email marketing campaigns",
+        "A/B testing for website layout and checkout processes",
+        "SEO optimization for product listings"
+      ],
+      result: {
+        text: "Increase in Conversion Rates Significant growth in sales and customer engagement within six months.",
+        increment: 250,
+        incrementText: `${increment}%`
+      }
     },
     {
-      heading : "Conversion-Driven Strategy" , 
-      challenge : "Despite high traffic, the client faced low conversion rates and struggled to convert visitors into buyers.", 
-      solution : "We optimized the sales funnel, creating persuasive landing pages and actionable CTAs to guide users toward purchases.",
-      
-      result : " Boosted conversion rate by 120%, turning traffic into loyal customers." ,
-    },
-    {
-      heading : "Boosted Customer Engagement" , 
-      challenge : "The client had a large audience but faced low engagement and interaction rates, limiting brand impact and customer loyalty.", 
+      heading: "Cybersecurity Enhancement",
+      challenge: "Strengthen security protocols to prevent data breaches and ensure compliance with industry regulations.",
+      approaches: [
+        "Implementation of advanced encryption technologies",
+        "Regular security audits and employee training sessions",
+        "Upgrade to secure cloud hosting environments"
+      ],
+      result: {
+        text: "Reduction in Security Incidents Drastically lower incidence of security threats and data breaches, enhancing customer trust.",
+        increment: 90,
+        incrementText: `${increment}%`
+      }
+    }
 
-      solution : "We launched a targeted social media strategy, creating engaging content and running campaigns that resonated with the audience’s interests and needs.",
-      
-      result : "Increased engagement by 75%, strengthening brand loyalty and enhancing the client’s online presence." ,
-    },
+  
   ];
