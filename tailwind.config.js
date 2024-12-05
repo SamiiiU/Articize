@@ -27,12 +27,18 @@ module.exports = {
           '0%': { maxHeight: '500px', opacity: '1', transform: 'scaleY(1)' },
           '100%': { maxHeight: '0', opacity: '0', transform: 'scaleY(0.9)' },
         },
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        
 
       },
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
         expand: 'expand 0.3s ease-out', // Custom expand animation
         contract: 'contract 0.3s ease-in', // Custom expand animation
+        scroll: 'scroll 40s linear infinite', // Adjust duration as needed
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font

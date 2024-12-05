@@ -31,7 +31,8 @@
 
 
     export const mainNavData = 
-        {SEOandPPC : [
+        {
+        SEOandPPC : [
              { heading : "SEO" , 
                 types : [
                     { path: '/ecommerce-seo', type: 'E-commerce SEO' },
@@ -65,7 +66,7 @@
                     ]},
 
              { IMG : 'https://extrabrains.net/wp-content/uploads/2019/06/business-growth-strategy.png'},
-            ],
+        ],
 
         DevX : [     
             { heading : "Design" , 

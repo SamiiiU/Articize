@@ -63,6 +63,23 @@ const HomeData = {
 
     ],
 
+    fuelingInnovation : [
+      {heading : "Industry Innovators" , para : "Stay at the forefront with a dedicated team that is quick to adopt and implement the latest industry trends and innovations." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+      {heading : "Strategic Developers" , para : "Our experts excel in crafting agile strategies tailored to meet short-term goals while supporting your long-term vision." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+      {heading : "Specialized Solutions Creators" , para : "Harness our channel-specific knowledge to develop customized, proactive solutions that drive measurable results for our clients." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+      {heading : "Establishing a Strong Foundation" , para : "5+ years of progressive growth.A solid track record of growth and innovation, showing our quick adaptation and forward-thinking approach." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+      {heading : "Effective Customer Relations" , para : "Over 10,000 successful interactions Demonstrating our ability to engage effectively with clients and build strong, productive relationships." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+      {heading : "Client-Driven Excellence" , para : "Hundreds of Positive Testimonials Our commitment to client satisfaction is evident from the consistent praise we receive, highlighting our tailored approaches and results." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+
+
+      {heading : "Expert Team" , para : "50+ Digital Professionals A dynamic team of skilled experts focused on delivering the latest digital solutions and enhancing client success." , image : "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg"},
+    ],
+
     revenueSlides : [{
         heading: "Software Development",
         challenge: "Optimize product development cycles to enhance delivery times and reduce costs.",
@@ -104,9 +121,19 @@ const HomeData = {
           increment: 90,
           incrementText: `${90}%`
         }
-      }]
-
+      }],
+     
+    companiesLogoURLs : ["https://www.webfx.com/wp-content/uploads/2024/07/O_Reilly_Auto_Parts_Logo.png" ,"https://www.webfx.com/wp-content/uploads/2024/07/Hilton-logo.png" , "https://www.webfx.com/wp-content/uploads/2024/07/arrowquip_logo_black_vertical.png" , "https://www.webfx.com/wp-content/uploads/2024/07/bars-leaks-logo_03.png" , "https://www.webfx.com/wp-content/uploads/2024/07/YMCA_logo_logotype.png" , "https://www.webfx.com/wp-content/uploads/2024/07/jiffy-lube.png" , "https://www.webfx.com/wp-content/uploads/2024/07/Hannaford_Brothers_Company-Logo.png" ,"https://www.webfx.com/wp-content/uploads/2024/07/auntie-annes.png" , "https://www.webfx.com/wp-content/uploads/2024/07/Fujifilm_logo.png" , "https://www.webfx.com/wp-content/uploads/2024/07/Verizon_2015_logo_-vector.png" , "https://www.webfx.com/wp-content/uploads/2024/07/Subway-1.png" , "https://www.webfx.com/wp-content/uploads/2024/07/1200px-Wrangler_Logo.png" ],   
     
+    insideCompany : [
+      {heading : "Our Culture" , para : "DEVXCLOUD is built on a foundation of innovation, collaboration, and relentless pursuit of excellence. Our workplace culture encourages creative problem-solving and continuous learning, ensuring that we remain at the cutting edge of technology." , image : 'https://img.freepik.com/free-vector/cultural-diversity_52683-9679.jpg' , navigator : "Culture"},
+
+      {heading : "Community Impact" , para : " We are committed to making a difference, not just within the tech industry but in our community as well. DEVXCLOUD actively participates in and sponsors events and initiatives that contribute to societal welfare, emphasizing our role as a responsible corporate citizen." , image : 'https://png.pngtree.com/png-vector/20230525/ourmid/pngtree-a-collective-of-experts-assessing-social-medias-impact-on-brand-image-vector-png-image_52227908.jpg' , navigator : "Impact"},
+
+      {heading : "Careers at DEVXCLOUD" , para : "Are you looking for a career that challenges you to excel and allows you to work on transformative projects? DEVXCLOUD offers a vibrant work environment where your skills are nurtured and your achievements are celebrated. Explore opportunities to grow professionally and personally within our innovative team." , image : 'https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png' , navigator : "Careers"},
+
+
+    ],
 
 }
 

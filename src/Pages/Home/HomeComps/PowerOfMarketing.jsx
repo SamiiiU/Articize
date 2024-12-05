@@ -39,7 +39,7 @@ const PowerOfMarketing = () => {
               
                 {HomeData.Power.map((power , index ) => (
                     <>
-                    <div key={index} onClick={() => handleIndex(index)} className={`cursor-pointer px-8 py-4  text-left  flex transition-all  ${activeIndex === index && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
+                    <div key={index} onClick={() => handleIndex(index)} className={`cursor-pointer px-8 py-4  text-left xl:text-xl text-lg flex transition-all  ${activeIndex === index && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
                         backgroundImage : `url(${power.icon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
                     }}  className='w-8 h-8 ' /> {power.name}</div>
 
