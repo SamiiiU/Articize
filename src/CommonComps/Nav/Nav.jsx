@@ -2,12 +2,13 @@ import React, { Fragment, useContext, useEffect, useState } from 'react'
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { LuMenu } from "react-icons/lu";
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
-import { FaArrowAltCircleUp, FaArrowDown } from 'react-icons/fa';
+import { FaArrowAltCircleUp, FaArrowCircleRight, FaArrowDown } from 'react-icons/fa';
 
 import { mainNavData, NavigationData } from '../../Data/NavigationData';
 import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 import { Link, useNavigate } from 'react-router-dom';
 import MobNav from './MobNav';
+import { FaArrowRight } from 'react-icons/fa6';
 
 
 const Nav = () => {
@@ -17,15 +18,16 @@ const Nav = () => {
     const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
     const [isSmallMenu , setIsSmallMenu] = useState(true)
     const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
-    const [navPath , setNavPath] = useState('/')
 
-    const [currData , setCurrData] = useState(mainNavData.SEOandPPC)// state for managing current nav data to show
+
+    const [currDataIndex , setCurrDataIndex] = useState(0)// state for managing current nav data to show
     
     //handler for main screen navigation 
-    const navHandler = (e) =>{
-        setCurrData(mainNavData[e]);
+    const navHandler = (index) =>{
+        setCurrDataIndex(index);
         setIsBigMenu(true);
     }
+
     const navCloserHandle = () => {
         let mainNav = document.querySelector('#big-menu')
         mainNav && mainNav.classList.add('opacity-0')
@@ -33,13 +35,7 @@ const Nav = () => {
           setIsBigMenu(false)
         }, 300);
     }
-    //navigation handler 
-    const navigator = (e) => {
-       setNavPath(e)
-       setTimeout(() => {
-        navigate(navPath)
-       } , 1000)
-    }
+    
 
     useEffect(() => {
     // Function to update the width and visibility of scroll to top button
@@ -54,7 +50,7 @@ const Nav = () => {
        window.removeEventListener('scroll', toggleVisibility)
     };
     
-    }, [currData]);
+    }, []);
 
     // Show button when page is scrolled down
     const toggleVisibility = () => {
@@ -84,24 +80,7 @@ const Nav = () => {
     
     
     {/* services detailed navigation div starts here  */}
-    {isBigMenu && (<div onMouseLeave={navCloserHandle}
-      className={`w-full bg-[#EDF5FF]  overflow-hidden transition-opacity transform-height duration-500 overflow-y-scroll animate-expand fixed z-40 px-28 pb-10 pt-32 flex justify-between gap-8`}
-      id='big-menu'>
-        {currData?.map((item , idx ) => (
-          <div className='flex-1 rounded-lg flex flex-col bg-white p-8' key={idx}>
-            <h1 className='font-bold text-xl '>{item.heading }</h1>
-            {item.types?.map((stype , index) => (
-              
-              <Link onClick={() => setIsBigMenu(false)} to={stype.path} className="w-full font-semibold my-3 cursor-pointer hover:text-[#16316a]" key={index}>{stype.type}</Link>
-            ))}
-          </div>
-        ))}
-        
-        {/* {Object.entries(currData).map(([key , value]) =>  (
-          
-        ))} */}
-        
-    </div>)}
+    
 
       
 
@@ -109,27 +88,52 @@ const Nav = () => {
 
     {/* main navigation for large devices is here started  */}
     {scrwidth > 1280 ? (
-        <div  className='z-50 fixed w-full px-10 py-2 flex justify-between items-center shadow-sm text-white bg-white'>
+        <>
+        <div  className='z-50 fixed w-full px-10  flex justify-between items-center shadow-sm text-white bg-white'>
           {/* Logo image started  */}
-        <Link to="/" className='w-[10%] h-20  px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
+        <Link to="/" className='w-[10%] h-16  px-4  ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
         {/* Logo image done  */}
-        <div className='w-[70%] 2xl:text-lg text-[1rem] font-semibold flex justify-between text-[#313131] 2xl:gap-x-8 py-4'>
+        <div className='w-[70%] 2xl:text-lg h-16   flex  justify-between text-[#313131] 2xl:gap-x-8 '>
 
-            <span  onMouseEnter={() => navHandler('SEOandPPC')} className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
-              <h1 className='flex-1'>SEO </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
-            </span>
-
-            <span  onMouseEnter={() => navHandler("DevX")} className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>DevX </h1><MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/></span>
-
-            <span  onMouseEnter={() => navHandler("CSDEVOPS")} className='flex-1 group flex justify-start items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'><h1 className='flex-1'>Cybersecurity & Devops</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
-
-            <span onMouseEnter={() => navHandler('AIandDA')} className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'> <h1 className='flex-1'>AI Integration & Data Analysis</h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25} /></span>
+            {mainNavData.map((category , index)=> (
+              <span key={index} onMouseEnter={() => navHandler(index)} className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
+              <h1 className='flex-1'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
+              </span>
+            ))}
 
             <Link to='/why-us'  className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>Why Choose Us</Link>
         </div>
-        <span className='font-bold text-lg bg-[#207DE9] p-4 rounded'>Get a proposal</span>
+        <span className='font-bold text-lg py-2 cursor-pointer bg-[#207DE9] px-4 rounded'>Get a proposal</span>
 
         </div>
+
+
+        {isBigMenu && (
+          <div key={currDataIndex} onMouseLeave={navCloserHandle}
+      className={`w-full bg-[#EDF5FF] overflow-y-scroll min-h-screen transition-opacity transform-height duration-500  animate-expand fixed z-40 px-28 pb-10 pt-24 flex justify-between gap-8`}
+      id='big-menu'>
+        
+
+        {mainNavData[currDataIndex].sections.map((pages , index) => (
+          <div key={index} className='flex-1 shadow-xl rounded-lg flex flex-col bg-white py-4 px-4' style={{backgroundImage : `url('${pages?.IMG}')` , backgroundPosition : 'center' , backgroundSize: 'cover'}}>
+          <h1 className='font-bold mb-3'>{pages.heading}</h1>
+          {pages.types?.map((stype , idx) => (
+            
+            <>
+            <Link key={idx} onClick={() => setIsBigMenu(false)} to={stype.path} 
+            className="flex items-center my-1  gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
+              <span className=''>{stype.type}</span> 
+            <FaArrowRight size="0.8em" className='opacity-0 w-8 -translate-x-4 group-hover:translate-x-4 group-hover:opacity-100 transition-all'/>
+            </Link>
+            
+            </>
+          ))}
+        </div>
+        ))}
+
+         </div>)}
+        
+        </>
 
     ) : (
       

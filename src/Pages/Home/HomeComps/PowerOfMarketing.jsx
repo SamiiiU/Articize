@@ -13,7 +13,7 @@ const PowerOfMarketing = () => {
     
 
   return (
-    <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '> 
+    <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center '> 
         <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Uncover The 
         <span className='text-[#207CE7]'> Impact of Digital Strategy</span>  on Business Growth</h1>
         <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>Our expert-led digital strategies are supported by cutting-edge technology. At DEVXCLOUD, we enable our clients to make informed and strategic decisions, propelling them ahead in the dynamic digital landscape. Explore our comprehensive suite of services and see how they can transform your business.</p>
@@ -35,7 +35,7 @@ const PowerOfMarketing = () => {
         <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Revolutionize Digital 
         <span className='text-[#207CE7]'> Marketing with Comprehensive </span> Innovation</h1>
 
-        <div className=' mt-20 flex flex-col      gap-y-8 '>
+        <div className=' mt-20 flex flex-col    text-left  gap-y-8 '>
               
                 {HomeData.Power.map((power , index ) => (
                     <>
@@ -44,7 +44,7 @@ const PowerOfMarketing = () => {
                     }}  className='w-8 h-8 ' /> {power.name}</div>
 
                     {activeIndex === index && (
-                        <div key={index} className='w-full flex justify-center items-center my-10'>
+                        <div key={index} className='w-full flex  items-center my-10'>
                             <div className='relative xl:w-[40vw] overflow-hidden w-96 md:w-[500px] group xl:h-[3w00px] sm:h-[450px] h-96  rounded-3xl font-bold'
                         style={{
                              backgroundImage : `url(${HomeData.Power[activeIndex].container.img})` , backgroundRepeat : 'no-repeat', backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat',
