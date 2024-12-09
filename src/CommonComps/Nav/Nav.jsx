@@ -26,15 +26,12 @@ const Nav = () => {
     const navHandler = (index) =>{
         setCurrDataIndex(index);
         setIsBigMenu(true);
+        if(index == null){
+          setIsBigMenu(false)
+        }
     }
 
-    const navCloserHandle = () => {
-        let mainNav = document.querySelector('#big-menu')
-        mainNav && mainNav.classList.add('opacity-0')
-        setTimeout(() => {
-          setIsBigMenu(false)
-        }, 300);
-    }
+   
     
 
     useEffect(() => {
@@ -76,8 +73,7 @@ const Nav = () => {
     <>
 
     {/* button for scrolling to top  */}
-    <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-1/2 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>
-    
+    <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-1/2 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>  
     
     {/* services detailed navigation div starts here  */}
     
@@ -88,30 +84,30 @@ const Nav = () => {
 
     {/* main navigation for large devices is here started  */}
     {scrwidth > 1280 ? (
-        <>
-        <div  className='z-50 fixed w-full px-10  flex justify-between items-center shadow-sm text-white bg-white'>
+        <div onMouseLeave={() => navHandler(null)}>
+        <div  className='z-50 fixed w-full px-10  flex  items-center shadow-sm text-white bg-white'>
           {/* Logo image started  */}
         <Link to="/" className='w-[10%] h-16  px-4  ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
         {/* Logo image done  */}
-        <div className='w-[70%] 2xl:text-lg h-16   flex  justify-between text-[#313131] 2xl:gap-x-8 '>
+        <div  className='w-full 2xl:text-lg h-16   flex  justify-between text-[#313131] 2xl:gap-x-8 '>
 
             {mainNavData.map((category , index)=> (
-              <span key={index} onMouseEnter={() => navHandler(index)} className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
+              <span key={index} onMouseEnter={() => navHandler(index)}  className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
               <h1 className='flex-1'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
               </span>
             ))}
 
             <Link to='/why-us'  className='flex-1 group flex justify-start items-center hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>Why Choose Us</Link>
         </div>
-        <span className='font-bold text-lg py-2 cursor-pointer bg-[#207DE9] px-4 rounded'>Get a proposal</span>
+        <span className='font-bold min-w-fit text-lg py-2 cursor-pointer bg-[#207DE9] px-4 rounded'>Get a proposal</span>
 
         </div>
 
 
         {isBigMenu && (
-          <div key={currDataIndex} onMouseLeave={navCloserHandle}
-      className={`w-full bg-[#EDF5FF] overflow-y-scroll min-h-screen transition-opacity transform-height duration-500  animate-expand fixed z-40 px-28 pb-10 pt-24 flex justify-between gap-8`}
-      id='big-menu'>
+          <div key={currDataIndex} onMouseLeave={() => navHandler(null)}
+        className={`w-full shadow-xl bg-white overflow-y-scroll xl:min-h-[50vh] animate-expand  fixed z-40 px-28 pb-10 pt-24 flex justify-between gap-8`}   
+        id='big-menu'>
         
 
         {mainNavData[currDataIndex].sections.map((pages , index) => (
@@ -121,8 +117,8 @@ const Nav = () => {
             
             <>
             <Link key={idx} onClick={() => setIsBigMenu(false)} to={stype.path} 
-            className="flex items-center my-1  gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
-              <span className=''>{stype.type}</span> 
+            className="flex items-center my-3 font-normal gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
+              <span className='text-sm'>{stype.type}</span> 
             <FaArrowRight size="0.8em" className='opacity-0 w-8 -translate-x-4 group-hover:translate-x-4 group-hover:opacity-100 transition-all'/>
             </Link>
             
@@ -133,7 +129,7 @@ const Nav = () => {
 
          </div>)}
         
-        </>
+        </div >
 
     ) : (
       

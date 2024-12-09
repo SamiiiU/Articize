@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full  bg-[#013a6e] px-4 sm:px-16 md:px-28 2xl:px-48 
-     pt-28 pb-20 flex justify-center  '>
+    <div className='w-full  bg-[#013a6e] xl:min-h-[90vh] px-4 sm:px-16 md:px-28 2xl:px-48 
+     pt-28 pb-20 flex justify-center xl:items-center  '>
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10 text-white'>
             {/* Home text  */}
             <div className='lg:w-3/4 w-full lg:items-start md:items-center  flex flex-col gap-10 '>

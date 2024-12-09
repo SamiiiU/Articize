@@ -75,7 +75,7 @@ const HomeData = {
 
   ],
   Power: [
-    { name: "Advanced Analytics for Strategic Marketing", icon: dataIcon, container: { heading: "Streamline Operations with Data-Driven Insights", description: "At DEVXCLOUD, delve into analytics that not only track but also predict marketing trends, enabling you to stay ahead of the competition with proactive strategy adjustments.", img: sales } },
+   
 
     { name: "Data Security in Marketing", icon: salesIcon, container: { heading: "Empower Your Data Strategy with Cybersecurity", description: "Integrate cutting-edge cybersecurity measures to safeguard your marketing data, ensuring reliability and trust in every campaign.", img: data } },
 
@@ -83,9 +83,9 @@ const HomeData = {
 
     { name: "Cloud-Enabled Sales Enablement", icon: analytices, container: { heading: "Enable Sales Through Scalable Cloud Solutions", description: "Utilize our cloud infrastructure to enhance the agility of your sales force, enabling them to access marketing tools and data on-the-go, ensuring a faster and more effective response to market opportunities.", img: sales } },
 
-    { name: "Development-Driven Marketing Innovation", icon: dataIcon, container: { heading: "Integrate Seamless Web and Mobile Solutions", description: "Leverage our expertise in developing responsive web and mobile applications that enhance user experience and support complex marketing strategies.", img: sales } },
 
     { name: "AI for Targeted Marketing Decision", icon: dataIcon, container: { heading: "Leverage AI to Refine Marketing Campaigns", description: "Use our AI solutions to analyze customer data and optimize marketing campaigns, resulting in higher precision in targeting and better allocation of resources.", img: data } },
+    { name: "Advanced Analytics for Strategic Marketing", icon: dataIcon, container: { heading: "Streamline Operations with Data-Driven Insights", description: "At DEVXCLOUD, delve into analytics that not only track but also predict marketing trends, enabling you to stay ahead of the competition with proactive strategy adjustments.", img: sales } },
 
 
   ],
