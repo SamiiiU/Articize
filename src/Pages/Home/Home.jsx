@@ -13,6 +13,8 @@ import FlipCard from '../../Prebuild_Components/FlipCard/FlipCard';
 import BusinessGoals from './HomeComps/BusinessGoals';
 import FuelingInnovation from './HomeComps/FuelingInnovation';
 import InsideCompany from './HomeComps/InsideCompany';
+import QandA from '../../CommonComps/QandA/QandA';
+import { QAhome } from '../../Data/QueANDAns';
 
 const Home = () => {
   useEffect(() => {
@@ -27,6 +29,7 @@ const Home = () => {
         <FuelingInnovation/>
         <Revenue/>
         <BusinessGoals/>
+        <QandA page={QAhome}/>
         <KPIoptimization/>
 
         <CTA heading = {"Start Your Free Project Consultation Today!"} />

@@ -14,7 +14,7 @@ const Revenue = () => {
         
         <CustomSlider>
           {HomeData.revenueSlides.map((result, index) => (
-        <div key={index} className=" md:min-h-[70vh] overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative ">
+        <div key={index} className="  overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative ">
           {/* Client Heading */}
           <div className="p-4 sm:pr-10 absolute left-0 top-0 bg-[#207DE9] text-white rounded-br-full font-semibold">
             {result.heading}
