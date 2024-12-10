@@ -1,12 +1,13 @@
 import React from 'react'
 import logo from '../../Assets/Images/CommonImages/LogoMain.png'
-import { NavigationData } from '../../Data/NavigationData'
+import { mainNavData, NavigationData } from '../../Data/NavigationData'
 import { FaArrowCircleRight } from 'react-icons/fa'
 import { FaArrowRight, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#0B1720] transition-all duration-1000 text-white px-4 sm:px-16 md:px-28 2xl:px-48 pt-10  '>
+    <div className='w-full transition-all duration-1000  px-4 sm:px-16 md:px-28 2xl:px-48 pt-10  '>
         {/* first row start here  */}
         <div className='w-full flex mb-10 md:flex-row flex-col gap-y-10 justify-center items-center'>
                 {/* logo and CTA section  */}
@@ -39,131 +40,27 @@ const Footer = () => {
         {/* Second row : services section here */}
         <div className='w-full flex gap-y-5 items-start flex-wrap gap-x-5'>
             {/* Service 1 */}
-            <div className='lg:flex-1 min-w-48'>
-               <h1 className='font-bold mb-5 text-3xl'> SEO & PPC</h1>
+            {mainNavData.map((category , index) => (<div className='lg:flex-1 min-w-48'>
+               <h1 key={index} className='font-bold mb-5 text-3xl'>{category.navigator}</h1>
                {/* category 1  */}
-               <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>SEARCH ENGINE OPTIMIZATION <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.SEO.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
+               {category.sections.map((service , serviceIdx) => (
+                <div key={serviceIdx} className='transition-all group'>
+                <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>{service.heading} </h2>
+                <ul className='transition-all duration-1000 opacity-0 translate-x-3 text-left ease-in-out overflow-hidden'>
+                     {
+                        
+                     }
+ 
+                </ul>
+                </div>
+               ))}
 
-               </ul>
-               </div>
+{/* <Link  className='cursor-pointer hover:text-[#3161c3]' >{}</Link > */}
+                
+            </div>))}
 
-                {/* category 2  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>PAY PER CLICK <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.PPC.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-                {/* category 3  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>SOCIAL MEDIA ADVERTISING <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.SMA.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-            </div>
-
-            {/* Service 2 */}
-            <div className='lg:flex-1 min-w-48'>
-               <h1 className='font-bold mb-5 text-3xl'>DevX</h1>
-               {/* category 1  */}
-               <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex  items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>DESIGN <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.design.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-                {/* category 2  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>DEVELOPMENT <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.developement.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-                {/* category 3  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>MAINTENANCE & UPDATES <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.MandU.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-            </div>
-
-            {/* Service 3 */}
-            <div className='lg:flex-1 min-w-48 '>
-               <h1 className='font-bold mb-5 text-3xl'> CYBERSECURITY & DEVOPS</h1>
-               {/* category 1  */}
-               <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>CYBERSECURITY <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.cyberSecurity.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-                {/* category 2  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex  items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>DEVOPS <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.devOps.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-            </div>
-
-            {/* Service 4 */}
-            <div className='lg:flex-1 min-w-48'>
-               <h1 className='font-bold mb-5 text-3xl'> AI INTEGRATION & DATA ANALYSIS</h1>
-               {/* category 1  */}
-               <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex  items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>AI INTEGRATION <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.AI.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-
-                {/* category 2  */}
-                <div className='transition-all group'>
-               <h2 className='cursor-pointer py-2 flex  items-center gap-x-2 hover:gap-x-4 transition-all duration-200'>DATA ANALYSIS <FaArrowRight/></h2>
-               <ul className='transition-all duration-1000 group-hover:max-h-fit group-hover:opacity-100 opacity-0 max-h-0 translate-x-3 text-left ease-in-out overflow-hidden'>
-                    {NavigationData.dataAnalysis.map((item , idx) => (
-                        <li className='cursor-pointer hover:text-[#3161c3]' key={idx}>{item}</li>
-                    ))}
-
-               </ul>
-               </div>
-            </div>
+            
+            
         </div>
 
 

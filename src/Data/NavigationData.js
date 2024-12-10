@@ -31,7 +31,7 @@
 
 
     export const mainNavData = [
-      {navigator : "SEO" , sections : [ { heading : "SEO" , 
+      {navigator : "SEO & PPC" , sections : [ { heading : "SEO" , 
         types : [
             { path: '/ecommerce-seo', type: 'E-commerce SEO' },
             { path: '/local-seo', type: 'Local SEO' },
@@ -39,7 +39,6 @@
             { path: '/content-seo', type: 'Content SEO' },
             { path: '/international-seo', type: 'International SEO' },
             { path: '/seo-audits', type: 'SEO Audits' },
-            { path: '/voice-search-seo', type: 'Voice Search SEO' },
             { path: '/video-seo', type: 'Video SEO' },
         ]
     },
@@ -53,11 +52,11 @@
             { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
             { path: '/youtube-ppc', type: 'YouTube PPC' },
             { path: '/dynamic-search-ads', type: 'Dynamic Search Ads' },
-            { path: '/discovery-ads', type: 'Discovery Ads' },
+
         ]
     },
 
-     { heading : "SMA" , 
+     { heading : "Social Media Advertisement" , 
         types : [
             
             { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
@@ -70,7 +69,7 @@
      { IMG : 'https://img.freepik.com/premium-vector/search-engine-optimization-design_24908-12065.jpg?semt=ais_hybrid'},
     ]} , 
 
-    {navigator : "DEVX" , sections : [{ heading : "Design" , 
+    {navigator : "CODEX" , sections : [{ heading : "Design" , 
       types : [
           { path: '/custom-website-design', type: 'Custom Website Design' },
           { path: '/ecommerce-website-design', type: 'E-Commerce Website Design' },
@@ -79,8 +78,6 @@
           { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
           { path: '/ux-optimization', type: 'User Experience Optimization Service' },
           { path: '/web-app-design', type: 'Web App Design' },
-          { path: '/progressive-web-apps', type: 'Progressive Web Apps' },
-          { path: '/headless-cms-development', type: 'Headless CMS Development' },
 
          ]},
 
@@ -107,8 +104,7 @@
   ]},
      
 
-  {
-    navigator : "CyberSecurity & DevOps" , sections : [
+  { navigator : "CyberSecurity & DevOps" , sections : [
     { heading : "Cyber Security" , 
     types : [
         { path: '/penetration-testing', type: 'Penetration Testing' },
@@ -157,16 +153,66 @@
               { path: '/predictive-analytics-and-machine-learning', type: 'Predictive Analytics & Machine Learning' },
               { path: '/data-cleaning-and-preprocessing', type: 'Data Cleaning & Preprocessing' },
               { path: '/big-data-analytics-solutions', type: 'Big Data Analytics Solutions' },
-              { path: '/real-time-data-analytics', type: 'Real-time Data Analytics' },
-              { path: '/customer-and-market-segmentation-analysis', type: 'Customer & Market Segmentation Analysis' },
-              { path: '/real-time-data-analytics', type: 'Real-time Data Analytics' },
               { path: '/sentiment-analysis', type: 'Sentiment Analysis' },
  
           ]},
  
        { IMG : 'https://www.shutterstock.com/image-vector/concept-illustration-on-topic-artificial-600nw-1743263447.jpg'},
        { IMG : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZJmSi_wplFO7qPmSbhLC7QkXYGzIo0N-Bw&s'},]
-      }
+      },
+
+      {navigator : "Who We Are" , sections : [
+        {
+          heading: "Who We Are",
+          types: [
+            { "path": "/our-vision", "type": "Our Vision" },
+            { "path": "/know-us-better", "type": "Know Us Better" },
+            { "path": "/join-our-team", "type": "Join Our Team" },
+            { "path": "/get-in-touch", "type": "Get in Touch" },
+            { "path": "/client-stories", "type": "Client Stories" },
+            { "path": "/our-achievements", "type": "Our Achievements" }
+          ]
+        },
+        
+   
+        {
+          heading: "Community Impact",
+          types: [
+            { "path": "/our-core-values", "type": "Our Core Values" },
+            { "path": "/impact-beyond-business", "type": "Impact Beyond Business" },
+            { "path": "/innovative-projects", "type": "Innovative Projects" },
+            { "path": "/equal-opportunities", "type": "Equal Opportunities" },
+            { "path": "/skill-development-program", "type": "Skill Development Program" },
+            { "path": "/our-journey", "type": "Our Journey" }
+          ]
+        },
+
+        {
+          "heading": "Pricing Guides",
+          "types": [
+            { "path": "/website-cost-estimates", "type": "Website Cost Estimates" },
+            { "path": "/ppc-pricing-breakdown", "type": "PPC Pricing Breakdown" },
+            { "path": "/email-marketing-rates", "type": "Email Marketing Rates" },
+            { "path": "/social-media-packages", "type": "Social Media Packages" },
+            { "path": "/seo-service-costs", "type": "SEO Service Costs" },
+            { "path": "/local-seo-rates", "type": "Local SEO Rates" }
+          ]
+        },
+
+        {
+          "heading": "Content Library",
+          "types": [
+            { "path": "/insights-hub", "type": "Insights Hub" },
+            { "path": "/seo-audit-tool", "type": "SEO Audit Tool" },
+            { "path": "/keyword-finder", "type": "Keyword Finder" },
+            { "path": "/funnel-optimization-guide", "type": "Funnel Optimization Guide" },
+            { "path": "/faq-central", "type": "FAQ Central" },
+            { "path": "/explore-our-tools", "type": "Explore Our Tools" }
+          ]
+        },
+        
+        ]
+        }
 
 
 
