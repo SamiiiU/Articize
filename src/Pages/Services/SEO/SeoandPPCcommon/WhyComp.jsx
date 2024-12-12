@@ -18,16 +18,16 @@ const WhyComp = ({page}) => {
     <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
         <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
         dangerouslySetInnerHTML={{
-            __html: page.whyHeading, // Render HTML string safely
+            __html: page.heading, // Render HTML string safely
           }}
         >
         </h1>
-        <p className='lg:text-xl text-lg font-normal  '>{page.whyPara}</p>
+        <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
 
         <div className='w-full transition-all flex flex-col  gap-y-7'>
         {page?.whyKeys.map((item , idx) => (
-            <div key={idx} className='relative hover:h-fit transition-all shadow-lg overflow-hidden' onMouseEnter={() => toggleShowKeyDetail(idx)} onMouseLeave={() => toggleShowKeyDetail(null)}>
-            <div className={`w-full bg-white  z-50 rounded-2xl py-4 px-8 transition-all flex justify-between  ${idx === showKeyIndex && 'text-[#207DE9]'}`}>
+            <div key={idx} className='relative hover:h-fit rounded-2xl transition-all shadow-lg overflow-hidden' onMouseEnter={() => toggleShowKeyDetail(idx)} onMouseLeave={() => toggleShowKeyDetail(null)}>
+            <div className={`w-full bg-white  z-50 rounded-t-2xl py-4 px-8 transition-all flex justify-between  ${idx === showKeyIndex && 'text-[#207DE9]'}`}>
                 <h1 className='font-bold'>{item.heading}</h1>
                 {item.icon}
             </div>

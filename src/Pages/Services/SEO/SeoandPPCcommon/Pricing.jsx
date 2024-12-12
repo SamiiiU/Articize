@@ -10,25 +10,25 @@ const Pricing = ({page}) => {
     }
 
   return (
-    <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full bg-[#EDF5FF] px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
         <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
         dangerouslySetInnerHTML={{
-            __html: page.pricingHeading, // Render HTML string safely
+            __html: page.heading, // Render HTML string safely
           }}
         >
         </h1>
-        <p className='lg:text-xl text-lg font-normal  '>{page.pricingPara}</p>
+        <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
           
-        <div className='lg:w-full w-3/4 lg:flex min-w-[300px]  justify-center items-center mt-6 gap-8 transition-all '>
+        <div className='lg:w-full w-3/4 lg:flex min-w-[300px]justify-center relative items-center mt-6 gap-8 transition-all duration-300'>
             {page.pricingCards.map((card , index) => (
                 <div 
                 onMouseEnter={() => cardHandler(index)}
                 onMouseLeave={() => cardHandler(null)}
-                style={{backgroundColor : activeIndex === index ? '#00316A' : 'white' , scale : activeIndex === index ? 1.05 : 1 , color : activeIndex === index && 'white', boxShadow : activeIndex === index ? "0px 5px 10px rgba(0, 0, 0, 0.2)" : "0px 10px 20px rgba(0, 0, 0, 0.3)"}}
+                style={{backgroundColor : activeIndex === index ? '#00316A' : 'white' , scale : activeIndex === index ? 1.5 : 1 , color : activeIndex === index && 'white', boxShadow : activeIndex === index ? "0px 5px 10px rgba(0, 0, 0, 0.2)" : "0px 10px 20px rgba(0, 0, 0, 0.1)"}}
                 
-                key={index} className={`flex-1 lg:my-0 overflow-hidden my-8 relative flex flex-col ${activeIndex == index ? 'z-40' : 'z-20'} p-6 transition-all duration-300`}>
+                key={index} className={`flex-1 md:min-h-[600px]  lg:my-0 overflow-hidden my-8 rounded-2xl relative flex flex-col ${activeIndex == index ? 'z-40' : 'z-20'} p-6 transition-all duration-300`}>
                     <h1 className='font-semibold mb-4'>{card.header}</h1>
-                    <p className='mb-4'>${card.price}</p>
+                    <p className='mb-4'>{card.price}</p>
 
                     <span className='py-2 border-b-4 mb-8'></span>
 
@@ -44,13 +44,14 @@ const Pricing = ({page}) => {
                          </div>
                     ))}
 
-                    {index === activeIndex && 
-                        <CustomButton text={"Learn more "} className={"bg-white text-black inline mt-4"}/>
+                    {index === activeIndex && window.innerWidth > 640 &&
+                        <CustomButton text={"Learn more "} className={"bg-white  bottom-6 text-black absolute px-10 left-1/2 -translate-x-1/2 mt-4"}/>
                     }
+                    {window.innerWidth < 640 && (
+                        <CustomButton text={"Learn more "} className={"bg-white  text-black  px-10  mt-4"}/>
+                    )}
 
-                    {/* <span className={`w-full font-bold z-50 uppercase absolute text-5xl text-[#67D48C] bg-white left-0  h-full flex justify-center items-center transition-all duration-700 ${activeIndex === index ? 'bottom-full ' : 'bottom-0'}`}>
-                        {card.name}
-                    </span> */}
+
                 </div>
 
             ))}

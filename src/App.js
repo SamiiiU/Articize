@@ -5,6 +5,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import EcommerceSEO from "./Pages/Services/SEO/EcommerceSEO.jsx";
 import GlobalProvider from "./GlobalProvider/GlobalProvider.jsx";
 import WhyUs from "./Pages/Why_US/WhyUs.jsx";
+import GoogleAdsPPC from "./Pages/Services/PPC/GoogleAdsPPC.jsx";
 
 
 
@@ -20,7 +21,8 @@ function App() {
           {/* SEO PAGES  */}
           <Route path="/ecommerce-seo" element={<EcommerceSEO/>} />
 
-
+          {/* PPC pages  */}
+          <Route path="/google-ads-ppc" element={<GoogleAdsPPC/>}/>
 
 
           
