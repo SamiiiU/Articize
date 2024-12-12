@@ -15,8 +15,8 @@ const BusinessGoals = () => {
 
         </p>
 
-
-        <InfiniteScroller images={HomeData.companiesLogoURLs}/>
+{/* 
+        <InfiniteScroller images={HomeData.companiesLogoURLs}/> */}
 
         <div className='w-full  bg-[#013a6e] p-8 text-white  rounded-xl '>
           <div className='w-full flex md:flex-row flex-col gap-8 mb-20'>

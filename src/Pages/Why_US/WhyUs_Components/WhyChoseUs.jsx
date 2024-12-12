@@ -12,7 +12,7 @@ const WhyChoseUs = () => {
   }, [])
 
   return (
-    <div className='w-full bg-[#EDF5FF]   px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full bg-white xl:min-h-[50vh]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
       <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>
       Uncompareable reasons for <span className='text-[#207DE9]'>why choose us</span>
         </h1>
@@ -33,12 +33,12 @@ const WhyChoseUs = () => {
           <div key={index}
             onMouseEnter={() => indexHandler(index)}
             onMouseLeave={() => indexHandler(null)}
-            className='w-[250px] p-6 h-[250px] overflow-hidden transition-all duration-500 bg-[#EDF5FF] relative shadow-md rounded-full flex  items-center'
+            className='w-[250px] p-6 h-[250px] overflow-hidden transition-all duration-500 bg-[#013a6e] text-white  relative shadow-md rounded-full flex  items-center'
             
             >
             {reason.explanation}
               
-            <div style={{transform : activeIndex === index ? 'rotateZ(-180deg)' : 'rotateZ(0)'}} className={`origin-left transition-all duration-500 ease-in-out bg-white w-full h-full absolute p-6 top-0 left-0 flex  items-center flex-col`}>
+            <div style={{transform : activeIndex === index ? 'rotateZ(-180deg)' : 'rotateZ(0)'}} className={`origin-left text-[#313131]  transition-all duration-500 rounded-full ease-in-out bg-white w-full h-full absolute p-6 top-0 left-0 flex  items-center flex-col`}>
             <span className='text-[4rem] text-[#6ADFD7]'>{reason.icon}</span>
             <h1 className='text-2xl text-center pt-10 font-bold'>{reason.name}</h1>
             </div>

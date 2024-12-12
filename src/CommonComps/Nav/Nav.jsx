@@ -89,15 +89,16 @@ const Nav = () => {
           {/* Logo image started  */}
         <Link to="/" className='w-[10%] h-16  px-4  ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
         {/* Logo image done  */}
-        <div  className='w-full 2xl:text-lg h-16  mx-10 flex  justify-between text-[#313131] 2xl:gap-x-8 '>
+        <div  className='w-full h-16  mx-28 flex  justify-between text-[#313131] 2xl:gap-x-8 '>
 
             {mainNavData.map((category , index)=> (
               <span key={index} onMouseEnter={() => navHandler(index)}  className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
-              <h1 className='flex-1'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
+              <h1 className='flex-1  text-md'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
               </span>
             ))}
 
         </div>
+
         <span className='font-bold min-w-fit text-lg py-2 cursor-pointer bg-[#207DE9] px-4 rounded'>Get a proposal</span>
 
         </div>

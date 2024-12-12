@@ -23,14 +23,16 @@ const FuelingInnovation = () => {
         <div className='w-full flex flex-wrap gap-8 justify-center items-center'>
             {HomeData.fuelingInnovation.map((innovation , index) => (
                 <div key={index} 
-                style={{backgroundImage : activeIndex === index && `url(${innovation.image}) ` ,backgroundSize : 'cover' , backgroundPosition : 'center' , transform : activeIndex === index ? 'scale(105%) ' : 'scale(100%)'}} 
+                style={{
+                    // backgroundImage : activeIndex === index && `url(${innovation.image}) ` ,backgroundSize : 'cover' , backgroundPosition : 'center' ,
+                    transform : activeIndex === index ? 'scale(105%) ' : 'scale(100%)'}} 
 
                 onMouseEnter={() => setActiveIndex(index)} 
                 onMouseLeave={() => setActiveIndex(null)}
                 className='min-w-[300px] overflow-hidden transition-all relative rounded-xl p-4 h-40 bg-white flex justify-center items-center'>
                     <h1 className={`font-semibold transition-all text-lg ${activeIndex === index && 'opacity-0'}`}>{innovation.heading}</h1>
-                    
-                        <span style={{top : activeIndex === index ? 0 : 500}} className='absolute text-white flex justify-center items-center p-4 transition-all w-full h-full bg-gradient-to-t from-[#207DE9] to-[#207DE9]/30'>
+                        <img src={innovation.image} style={{opacity : activeIndex === index ? 1 : 0}} className='w-full h-full absolute transition-all duration-500'/>
+                        <span style={{top : activeIndex === index ? 0 : 500}} className='absolute text-white flex justify-center items-center p-4 transition-all duration-300 delay-300 w-full h-full bg-gradient-to-t from-[#207DE9] to-[#207DE9]/30'>
                         {innovation.para}</span>
                 </div>
             ))}

@@ -22,7 +22,7 @@ const PowerOfMarketing = () => {
         {/* Counter elements  */}
         <div className='flex w-full gap-x-8  justify-between relative flex-wrap   py-4  gap-y-4 '>
             {HomeData.impactOfMarketing.map((impact , index) => (
-                <span className=' min-w-[100px] max-w-[250px]  w-full'>
+                <span className=' min-w-[100px] xs:max-w-[250px]  w-full'>
                 <h2 className='flex xs:justify-start  text-5xl justify-center font-bold text-[#6ADFD7] items-center'><ScrollCounter from = {0} to= {impact.to} timing={2}  />%</h2> 
                 <p className=' xs:text-left text-md font-semibold text-black uppercase'>{impact.heading}</p>
                 <p className=' xs:text-left text-sm '>{impact.para}</p>

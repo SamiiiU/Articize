@@ -1,6 +1,6 @@
 color light blue : #207DE9
 
-color dark blue : #00316A
+color dark blue : [#013a6e]
 
 Bg hover : #EDF5FF
 

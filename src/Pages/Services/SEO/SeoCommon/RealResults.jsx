@@ -17,7 +17,7 @@ const RealResults = ({page}) => {
         <div className="w-3/4 py-2 rounded-2xl mx-auto my-8">
     <CustomSlider  >
       {page.results.map((result, index) => (
-        <div key={index} className=" md:min-h-[70vh] overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative ">
+        <div key={index} className=" md:min-h-fit overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative ">
           {/* Client Heading */}
           <div className="p-4 sm:pr-10 absolute left-0 top-0 bg-[#207DE9] text-white rounded-br-full font-semibold">
             {result.header}
