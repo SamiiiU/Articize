@@ -13,9 +13,9 @@ import Footer from '../../../CommonComps/Footer/Footer'
 import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
-import { QAEcommerceSEO } from '../../../Data/QueANDAns'
+import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/ReviewsSEO'
+import ReviewsSEO  from './SeoandPPCcommon/Reviews'
 const EcommerceSEO = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -33,7 +33,7 @@ const EcommerceSEO = () => {
         <CTA heading = {"Get a custom quote for you SEO now!"} />
         <RealResults page={SEOData.EcommerceSEO.realResultsSection}  />
 
-        <QandA page={QAEcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
+        <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
         <Pricing page={SEOData.EcommerceSEO.pricingSection} />
 

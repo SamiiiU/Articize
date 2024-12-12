@@ -9,9 +9,11 @@ import OurApproach from '../SEO/SeoandPPCcommon/OurApproach'
 import CTA from '../../../CommonComps/CTA'
 import RealResults from '../SEO/SeoandPPCcommon/RealResults'
 import Pricing from '../SEO/SeoandPPCcommon/Pricing'
-import ReviewsSEO from '../SEO/SeoandPPCcommon/ReviewsSEO'
+import ReviewsSEO from '../SEO/SeoandPPCcommon/Reviews'
 import Footer from '../../../CommonComps/Footer/Footer'
 import { Reviews } from '../../../Data/TestimonalData'
+import QandA from '../../../CommonComps/QandA/QandA'
+import { QAppc } from '../../../Data/QueANDAns'
 
 const GoogleAdsPPC = () => {
   return (
@@ -29,6 +31,8 @@ const GoogleAdsPPC = () => {
         <RealResults page={PPCData.GoogleAdsPPC.realResultsSection}  />
 
         <Pricing page={PPCData.GoogleAdsPPC.pricingSection}/>
+
+        <QandA page={QAppc.GoogleAdsPPC}/>
 
         
         <ReviewsSEO page={PPCData.GoogleAdsPPC.reviewsSection} testimonals={Reviews.GoogleAdsPPC} />
