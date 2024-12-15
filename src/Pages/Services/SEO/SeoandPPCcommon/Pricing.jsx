@@ -28,7 +28,7 @@ const Pricing = ({page}) => {
                 
                 key={index} className={`flex-1 md:min-h-[600px]  lg:my-0 overflow-hidden my-8 rounded-2xl relative flex flex-col ${activeIndex == index ? 'z-40' : 'z-20'} p-6 transition-all duration-300`}>
                     <h1 className='font-semibold mb-4'>{card.header}</h1>
-                    <p className='mb-4'>{card.price}</p>
+                    <p className={`mb-4 font-bold text-xl ${activeIndex != index && 'text-[#00316A]'}`}>{card.price}</p>
 
                     <span className='py-2 border-b-4 mb-8'></span>
 

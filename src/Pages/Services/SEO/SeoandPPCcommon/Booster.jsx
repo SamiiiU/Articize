@@ -19,7 +19,7 @@ const Booster = ({page}) => {
 
         <div className='w-full font-bold flex-wrap uppercase flex justify-center items-center sm:gap-x-12 gap-4 '>
             {page.boostContent.map((item , index) => (
-                <span className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`} onClick={() => handleBooster(index)}>{item.navigator}</span>
+                <span key={index} className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`} onClick={() => handleBooster(index)}>{item.navigator}</span>
             ))}
             
         </div>

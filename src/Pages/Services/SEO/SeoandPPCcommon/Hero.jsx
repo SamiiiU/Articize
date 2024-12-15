@@ -1,7 +1,8 @@
-import React, { useContext } from 'react'
-import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
+import React, { useContext, useEffect } from 'react'
+
 
 const Hero = ({page}) => {
+
   return (
     <div className='w-full xl:min-h-[80vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
     sm:pt-56 pt-28 pb-10 flex justify-center  '

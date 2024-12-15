@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
@@ -16,7 +15,9 @@ import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/Reviews'
-const EcommerceSEO = () => {
+
+
+const TechnicalSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
   useEffect(() => {
     setIsLoaded(false)
@@ -29,20 +30,20 @@ const EcommerceSEO = () => {
         {isLoaded && (
           <>
           <Nav/>
-          <Hero page={SEOData.EcommerceSEO.heroSection}/>
-          <WhyComp page={SEOData.EcommerceSEO.whySection}/>
-          <Booster page={SEOData.EcommerceSEO.boostSection} />
-          <PoweredBy page={SEOData.EcommerceSEO.powerBySection}/>
-        <OurApproach page={SEOData.EcommerceSEO.approachSection} />
+          <Hero page={SEOData.TechnicalSEO.heroSection}/>
+          <WhyComp page={SEOData.TechnicalSEO.whySection}/>
+          <Booster page={SEOData.TechnicalSEO.boostSection} />
+          <PoweredBy page={SEOData.TechnicalSEO.powerBySection}/>
+        <OurApproach page={SEOData.TechnicalSEO.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
-        <RealResults page={SEOData.EcommerceSEO.realResultsSection}  />
+        <RealResults page={SEOData.TechnicalSEO.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <Pricing page={SEOData.EcommerceSEO.pricingSection} />
+        <Pricing page={SEOData.TechnicalSEO.pricingSection} />
 
-        <ReviewsSEO page={SEOData.EcommerceSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
+        <ReviewsSEO page={SEOData.TechnicalSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
 
         
         
@@ -53,4 +54,4 @@ const EcommerceSEO = () => {
   )
 }
 
-export default EcommerceSEO
+export default TechnicalSEO

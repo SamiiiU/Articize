@@ -5,7 +5,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 const WhyComp = ({page}) => {
     const [showKeyIndex , setshowKeyIndex] = useState(null)
-    const [showKey , setShowKey] = useState(null)
 
     const toggleShowKeyDetail = (idx) =>{
         

@@ -27,7 +27,7 @@ const PathToSuccess = () => {
 
             // </div><
             <>
-            <div className='sm:w-[30vw] xl:w-[20vw] min-h-[450px] w-full shadow-xl hover:bg-[#1F85DE] transition-all hover:text-white p-4 rounded-xl'>
+            <div key={index} className='sm:w-[30vw] xl:w-[20vw] min-h-[450px] w-full shadow-xl hover:bg-[#1F85DE] transition-all hover:text-white p-4 rounded-xl'>
                 <div className='w-full rounded-xl relative h-32 overflow-hidden mb-4'>
                 <img src={offer.IMG} alt={`${index + 1} Image`} className='w-full absolute rounded-xl  h-full'/>
                 {/* <h1 className='absolute bottom-4 left-4 font-bold text-white'>{offer.heading}asdsa</h1> */}

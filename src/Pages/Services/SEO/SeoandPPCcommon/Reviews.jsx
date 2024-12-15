@@ -12,9 +12,8 @@ const ReviewsPage = ({page , testimonals}) => {
         >
         </h1>
         <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
-    
           <Testimonal Reviews={testimonals}/>
-    
+          
         </div>
   )
 }
