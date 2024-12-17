@@ -410,6 +410,7 @@ export const SEOData = {
         },
 
     },
+    
     TechnicalSEO: {
         heroSection: {
             heading: "Technical SEO for Optimizing Your Website Performance",

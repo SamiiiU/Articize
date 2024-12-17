@@ -13,7 +13,7 @@ import Footer from '../../../CommonComps/Footer/Footer'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAppc } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsPage from '../SEO/SeoandPPCcommon/Reviews'
+import ReviewsPage from '../SEO/SeoandPPCcommon/ReviewsPage'
 
 const BasicSMA = () => {
     const [isLoaded, setIsLoaded] = useState(true)

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Booster = ({page}) => {
+const BoosterCodeX = ({page}) => {
     const [activeIndex , setactiveIndex] = useState(0);
 
     const handleBooster = (index) => {
@@ -40,4 +40,4 @@ const Booster = ({page}) => {
   )
 }
 
-export default Booster
+export default BoosterCodeX

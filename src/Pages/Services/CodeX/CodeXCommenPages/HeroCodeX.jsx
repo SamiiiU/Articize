@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 
 
-const Hero = ({page}) => {
+const HeroCodeX = ({page}) => {
 
   return (
     <div className='w-full xl:min-h-[80vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
@@ -13,7 +13,7 @@ const Hero = ({page}) => {
                 <h1 className=' font-[800] lg:text-[63px] text-5xl leading-none lg:text-left md:text-center text-left'>{page.heading}</h1>
                 <p className='text-[18px]'>{page.para}</p>
 
-                <div className='md:rounded-lg flex md:flex-row flex-col sm:rounded-md gap-y-4 md:w-auto w-full overflow-hidden  text-lg md:text-xl'>
+                <div className='md:rounded-lg flex md:flex-row flex-col sm:rounded-md gap-y-4 md:w-auto w-full overflow-hidden text-lg md:text-xl '>
                     <input type='text' placeholder='Enter Your Website ' className=' p-4 md:rounded-none rounded-md  outline-none'/>
                     <span className='p-4 font-bold cursor-pointer bg-[#207DE9] text-center rounded-md md:rounded-none text-white'> Send me proposal </span>
                 </div>
@@ -22,11 +22,10 @@ const Hero = ({page}) => {
             {/* Home IMG  */}
             <div className='lg:w-1/2 w-full h-full  '>
                 <div className='w-full h-[26rem] ' style={{backgroundImage : `url(${page.img})` , backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat'}}/>
-
             </div>
         </div>
     </div>
   )
 }
 
-export default Hero
+export default HeroCodeX

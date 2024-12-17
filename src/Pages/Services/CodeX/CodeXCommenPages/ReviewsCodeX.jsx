@@ -1,8 +1,8 @@
 import React from 'react'
-import { Reviews } from '../../../../Data/TestimonalData'
+
 import { Testimonal } from '../../../../CommonComps/Testimonal/Testimonal'
 
-const ReviewsPage = ({page , testimonals}) => {
+const ReviewsCodeX = ({page , testimonals}) => {
   return (
      <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center'>
            <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
@@ -18,4 +18,4 @@ const ReviewsPage = ({page , testimonals}) => {
   )
 }
 
-export default ReviewsPage
+export default ReviewsCodeX

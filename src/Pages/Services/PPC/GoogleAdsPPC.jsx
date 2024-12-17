@@ -13,7 +13,7 @@ import Footer from '../../../CommonComps/Footer/Footer'
 import { Reviews } from '../../../Data/TestimonalData'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAppc, QAsma } from '../../../Data/QueANDAns'
-import ReviewsPage from '../SEO/SeoandPPCcommon/Reviews'
+import ReviewsPage from '../SEO/SeoandPPCcommon/ReviewsPage'
 
 const GoogleAdsPPC = () => {
   const [isLoaded, setIsLoaded] = useState(true)

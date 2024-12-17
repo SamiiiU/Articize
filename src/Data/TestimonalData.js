@@ -40,3 +40,14 @@ export const Reviews = {
         
     
 }
+
+export const CodeXTestimonalData = {
+    customDesign  : [
+        {name: "Alexander", message: 'The Google Ads management from this team is top-notch! We saw a significant increase in our click-through rates and a decrease in cost-per-acquisition. Highly recommend for any business looking to boost their online presence!', stars: 4},
+        {name: "Maria", message: 'Fantastic results with their PPC services. The detailed monthly reports helped us understand exactly where our budget was going and the ROI we were achieving. Their strategic approach really makes a difference.', stars: 5},
+        {name: "David", message: 'This team knows what they are doing when it comes to Google Ads. Their targeted campaigns have doubled our website traffic in just three months. Their customer service is also excellent, always ready to assist with any questions.', stars: 5},
+        {name: "Sophia", message: 'I was skeptical at first, but after seeing a 70% increase in our sales from their PPC efforts, I am a believer now. They optimized our campaigns beyond my expectations. Worth every penny!', stars: 4},
+        {name: "Ethan", message: 'Their PPC campaign management is very effective. We noticed improvements in conversions within the first month. The team is professional and always brings innovative ideas to the table.', stars: 4},
+    ]
+    
+}

@@ -13,15 +13,16 @@ import  InternationalSEO from "./Pages/Services/SEO/InternationalSEO.jsx";
 import  SEOAudit  from "./Pages/Services/SEO/SEOAudit.jsx";
 import  VideoSEO  from "./Pages/Services/SEO/VideoSEO.jsx";
 import  TechnicalSEO  from "./Pages/Services/SEO/TechnicalSEO.jsx";
+import CustomDesign from "./Pages/Services/CodeX/Design/CustomDesign.jsx";
 
 
-// { path: '/ecommerce-seo', type: 'E-commerce SEO' },
-//         { path: '/local-seo', type: 'Local SEO' },
-//         { path: '/technical-seo', type: 'Technical SEO' },
-//         { path: '/content-seo', type: 'Content SEO' },
-//         { path: '/international-seo', type: 'International SEO' },
-//         { path: '/seo-audits', type: 'SEO Audits' },
-//         { path: '/video-seo', type: 'Video SEO' },
+// { path: '/custom-website-design', type: 'Custom Website Design' },
+//         { path: '/ecommerce-website-design', type: 'E-Commerce Website Design' },
+//         { path: '/website-redesign', type: 'Website Redesign' },
+//         { path: '/custom-theme', type: 'Custom Theme Development for CMS' },
+//         { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
+//         { path: '/ux-optimization', type: 'User Experience Optimization Service' },
+//         { path: '/web-app-design', type: 'Web App Design' },
 function App() {
   return (
     <GlobalProvider>
@@ -45,8 +46,16 @@ function App() {
 
           {/* SMA pages  */}
           <Route path="/basic-social-media-advertising" element={<BasicSMA/>}/>
+
+          {/* CODEX pages  */}
+          {/* Design pages  */}
+          <Route path="/custom-website-design" element={<CustomDesign/>}/>
           
+          {/* Why Us Pages  */}
           <Route path="/why-us" element={<WhyUs/>} />
+
+
+
         </Routes>
 
         </div>

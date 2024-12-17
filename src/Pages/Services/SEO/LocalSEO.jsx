@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
@@ -12,9 +12,9 @@ import Footer from '../../../CommonComps/Footer/Footer'
 import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
-import {  QAseo } from '../../../Data/QueANDAns'
+import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/Reviews'
+import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 
 
 const LocalSEO = () => {

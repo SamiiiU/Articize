@@ -14,7 +14,7 @@ import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/Reviews'
+import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 
 
 const VideoSEO = () => {

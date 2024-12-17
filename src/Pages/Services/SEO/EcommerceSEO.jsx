@@ -15,7 +15,7 @@ import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/Reviews'
+import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 const EcommerceSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
   useEffect(() => {
@@ -33,7 +33,7 @@ const EcommerceSEO = () => {
           <WhyComp page={SEOData.EcommerceSEO.whySection}/>
           <Booster page={SEOData.EcommerceSEO.boostSection} />
           <PoweredBy page={SEOData.EcommerceSEO.powerBySection}/>
-        <OurApproach page={SEOData.EcommerceSEO.approachSection} />
+          <OurApproach page={SEOData.EcommerceSEO.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
         <RealResults page={SEOData.EcommerceSEO.realResultsSection}  />

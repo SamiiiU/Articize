@@ -1,7 +1,7 @@
 import React from 'react'
 import bgBox from '../../../../Assets/Images/ServicesIMG/BgBoxes.jpg'
 
-const OurApproach = ({page}) => {
+const ApproachCodeX = ({page}) => {
   return (
     <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
@@ -27,4 +27,4 @@ const OurApproach = ({page}) => {
   )
 }
 
-export default OurApproach 
+export default ApproachCodeX 

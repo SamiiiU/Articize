@@ -141,6 +141,34 @@ export const QAsma = {
     }
 ]
 
-  
+}
+
+export const QACodeX = {
+   CustomDesign : [
+    {
+      "question": "What is Social Media Advertising?",
+      "answer": "Social media advertising is a type of digital marketing that involves running paid ads on platforms like Facebook, Instagram, and Twitter to promote your business, products, or services. It helps you reach a larger audience and generate leads or sales."
+  },
+  {
+      "question": "How Does Social Media Advertising Work?",
+      "answer": "Social media advertising works by targeting specific audiences based on their interests, behavior, and demographics. Here's how:\n1. **Create Campaigns:** Set goals like increasing brand awareness or driving website traffic.\n2. **Target Audience:** Choose your audience based on age, location, or interests.\n3. **Design Ads:** Create engaging content like images, videos, or carousels.\n4. **Set Budget:** Decide how much you want to spend daily or monthly.\n5. **Run and Monitor:** Launch the ads and monitor their performance to optimize results."
+  },
+  {
+      "question": "How Much Does Social Media Advertising Cost?",
+      "answer": "The cost depends on factors like your campaign goals, audience size, and ad type. Small campaigns can start as low as $5 per day, while larger campaigns may cost hundreds or thousands of dollars monthly."
+  },
+  {
+      "question": "What Platforms are Best for Social Media Advertising?",
+      "answer": "The best platform depends on your audience:\n1. **Facebook & Instagram:** Great for visual ads and reaching a broad audience.\n2. **Twitter:** Ideal for engagement and brand awareness.\n3. **LinkedIn:** Perfect for B2B advertising and professionals.\n4. **TikTok:** Best for creative content targeting younger demographics."
+  },
+  {
+      "question": "How Long Does It Take to See Results?",
+      "answer": "You can see initial results within a few days of launching your campaign. However, it usually takes 2-4 weeks to analyze performance and optimize for better outcomes."
+  },
+  {
+      "question": "Is Social Media Advertising Worth It?",
+      "answer": "Yes, it's one of the most cost-effective ways to reach a large audience. With the right strategy, social media ads can drive traffic, generate leads, and increase sales for your business."
+  }
+   ]
 }
  
