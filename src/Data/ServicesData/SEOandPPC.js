@@ -1,12 +1,12 @@
 import { FaBullhorn, FaBullseye, FaCartShopping, FaChartLine, FaChartPie, FaComments, FaLayerGroup, FaLink, FaMagnifyingGlass, FaMoneyBillWave, FaPalette, FaRegChartBar, FaRegNewspaper, FaRocket, FaUsers, FaUserTag } from 'react-icons/fa6'
 import heroImg from '../../Assets/Images/ServicesIMG/EcommerceBG.png'
-import { MdOutlineMobileFriendly } from 'react-icons/md'
+import { MdOutlineMobileFriendly, MdOutlineStarPurple500 } from 'react-icons/md'
 import { GrAchievement, GrOptimize } from 'react-icons/gr'
 import { IoAnalytics } from 'react-icons/io5'
 import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
 import BG from '../../Assets/Images/CommonImages/HeroServices.png'
-import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaSitemap, FaSpider, FaStar, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
+import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
 
 
 export const SEOData = {
@@ -45,31 +45,206 @@ export const SEOData = {
             para: "Emphasize the unique challenges and opportunities of e-commerce SEO, such as improving product visibility, optimizing for buyer-intent keywords, and enhancing user experience to drive conversions.",
 
             boostContent: [
-                { navigator: "Overview", heading: "Customized E-commerce SEO", para: "Instead of a generic overview, focus specifically on how you tailor SEO strategies to e-commerce platforms, considering factors like seasonal trends, product turnover, and competitive benchmarking.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                {navigator: "Optimized Product Categories", 
 
-                { navigator: "SEO Audits", heading: "E-commerce Specific Audits", para: "Detail audits that focus on product pages, category structure, and user navigation paths, which are critical for e-commerce sites.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                matters : "Product category pages are often the most searched pages on an E-commerce website. Optimizing these ensures that customers can find relevant products quickly, while search engines can better understand your site's structure.", 
 
-                { navigator: "Keyword Research", heading: "Buyer-Intent Keywords", para: "Highlight the importance of researching and targeting keywords that are specifically geared towards buying intent, critical for driving sales in e-commerce.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                includes: [
+                    " Optimized category titles and meta descriptions with target keywords." , 
+                    "Clean, SEO-friendly URL structures (e.g., /electronics/laptops/).",
+                    "Well-structured category descriptions with relevant keywords",
+                    "Strategic use of internal links to promote related products or popular categories."
+                ], 
 
-                { navigator: "Link Building", heading: "Supplier and Manufacturer Links", para: "Discuss the importance of building relationships with suppliers and manufacturers for backlinks, which can be highly beneficial for e-commerce sites.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                benefit : "Higher rankings in search results for category-level searches and improved user experience",
+                
+                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },
+                
+                {navigator: "User-Generated Reviews & SEO", 
+    
+                    matters : "Customer reviews are a source of fresh, keyword-rich content that search engines love. They also build trust and increase conversion rates.", 
+    
+                    includes: [
+                        "Enabling user reviews on product pages." , 
+                        "Using schema markup to display star ratings in search results.",
+                        "Moderating and showcasing reviews to ensure quality and relevance",
+                    ], 
+    
+                    benefit : "Boosts credibility, increases organic traffic with rich snippets, and enhances customer decision-making",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },  
+                    
+                {navigator: "Mobile-First Optimization", 
+        
+                        matters : "Over 60% of E-commerce traffic now comes from mobile devices. Google prioritizes mobile-friendly sites in its rankings.", 
+        
+                        includes: [
+                            "Responsive design that adapts seamlessly to all screen sizes." , 
+                            "Optimized product images and page load speed for mobile users.",
+                            "Easy-to-use mobile navigation and checkout processes.",
+                            "Reducing intrusive pop-ups that hurt mobile user experience."
+                        ], 
+        
+                        benefit : "Improves rankings in mobile search results, reduces bounce rates, and increases mobile conversions.",
+                        
+                        image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                },  
 
-                { navigator: "On-page SEO", heading: "Product Page Optimization", para: "Focus on optimizing product pages with high-quality images, compelling descriptions, and SEO-friendly URLs.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                {navigator: "Schema Markup for E-commerce", 
+            
+                    matters : ": Schema markup (structured data) helps search engines understand your content better and display rich snippets in search results. This leads to higher visibility and click-through rates (CTR)", 
+    
+                    includes: [
+                        "Product Schema: Displays product details like price, availability, and ratings" , 
+                        "Review Schema: Highlights customer ratings and feedback.",
+                        "FAQ Schema: Adds answers to common customer questions directly in search results",
+                    ], 
+    
+                    benefit : "Enhanced search engine listings with rich snippets, resulting in improved visibility and more organic clicks.",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },  
 
-                { navigator: "Off-page SEO", heading: "Customer Reviews and Social Proof", para: "Explain strategies for leveraging customer reviews and social proof as part of off-page SEO to enhance trust and authority.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                {navigator: "Internal Linking Strategies", 
+                    matters : "Effective internal linking helps search engines crawl your site efficiently, spreads link equity, and enhances navigation for users.", 
+    
+                    includes: [
+                        "Linking related product pages to encourage upsells and cross-sells." , 
+                        "Highlighting featured or best-selling products within category pages.",
+                        "Using keyword-rich anchor text to strengthen page relevancy.",
+                    ], 
+    
+                    benefit : "Boosts SEO rankings, improves user engagement, and increases time spent on the website.",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },  
+                {navigator: "E-commerce Site Speed Optimization", 
+                    matters : "Site speed is a key ranking factor for Google. Faster sites reduce bounce rates, improve user satisfaction, and lead to higher sales.", 
+    
+                    includes: [
+                        "Compressing images and using next-gen formats (like WebP)." , 
+                        "Enabling browser caching and minifying CSS/JavaScript files.",
+                        "Leveraging Content Delivery Networks (CDNs) for faster load times",
+                        "Optimizing server response time and hosting performance.",
+                    ], 
+    
+                    benefit : "A fast-loading site enhances SEO rankings, user experience, and conversion rates.",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },  
 
-                { navigator: "Technical SEO", heading: "Site Speed and Mobile Optimization ", para: "Emphasize the importance of technical SEO with a focus on improving site speed and mobile responsiveness, crucial for e-commerce sites where users often shop on mobile devices.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
+                {navigator: "Competitor Analysis for E-commerce SEO", 
+                    matters : "Understanding competitors' SEO strategies helps identify gaps and opportunities to outperform them.", 
+    
+                    includes: [
+                        "Analyzing competitor keywords and rankings." , 
+                        "Identifying their top-performing content and product pages.",
+                        "Reviewing their backlink profiles to find link-building opportunities.",
+                    ], 
+    
+                    benefit : "Develops a data-driven SEO strategy to stay ahead of competitors and capture more market share.",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },
+                
+                {navigator: "Conversion-Focused SEO Content", 
+                    matters : "Content optimized for search engines should also be persuasive enough to convert visitors into paying customers.", 
+    
+                    includes: [
+                        "Writing detailed, keyword-optimized product descriptions that answer buyer questions." , 
+                        "Crafting engaging headlines and meta tags to increase CTR.",
+                        "Using calls-to-action (CTAs) to guide users toward purchasing.",
+                        "Adding visuals like videos, infographics, or customer testimonials to enhance content value",
+                    ], 
+    
+                    benefit : "Drives organic traffic and improves conversion rates by aligning SEO goals with buyer intent.",
+                    
+                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                },
 
-                { navigator: "Content Creation and Optimization", heading: "Engaging Product Descriptions", para: "Discuss creating engaging, unique product descriptions and using rich media content like videos to enhance product listings.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
-
-                { navigator: "Visual and Interactive Elements", heading: "Infographic or Video", para: "Replace the existing video or image with content that explains your unique approach to E-commerce SEO, possibly an infographic outlining your process or a video testimonial from a satisfied e-commerce client.", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
-
-                { navigator: "Call to Action", heading: "Specific to E-commerce", para: "Tailor the call to action to encourage e-commerce businesses to request a free audit or consultation .", image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" },
             ],
         },
         //Booster Section ends here 
 
         //PowerBy starts here 
 
+        tailoredSection : {
+            heading : "Tailored <span class= 'text-[#207DE9]'>  Specialized <br/> E-commerce SEO </span> for Every Platform",
+            para : "Every E-commerce platform has unique SEO challenges and opportunities. Our team provides <strong> customized strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher, drives organic traffic, and converts visitors into loyal customers",
+
+            tailoredItems : [
+                {heading : "Shopify E-commerce SEO Services" ,
+                    para : "Shopify powers millions of online stores, but without proper SEO, it's hard to stand out. Our Shopify SEO strategies are designed to maximize product visibility, improve rankings, and drive more sales.",
+                    offers : [
+                        "<strong>Product Page Optimization: </strong>SEO-optimized product titles, descriptions, and images to improve rankings",
+                        "<strong>Content Strategy: </strong>Creating blogs, product guides, and FAQs to target buyer intent.",
+                        "<strong>Technical SEO Fixes: </strong>Improving page load speed, mobile-friendliness, and site structure.",
+                        "<strong>Schema Markup: </strong>Adding product, review, and stock schema for rich results on Google",
+                    ],
+                    chooseUs : "Our hands-on experience with Shopify ensures measurable results, improved search rankings, and higher conversions.",
+                    image : "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
+                },
+                {heading : "WooCommerce SEO Services" ,
+                    para : "WooCommerce is highly flexible, but unlocking its full potential requires expertise. Our WooCommerce SEO services help businesses optimize their stores, target buyer-focused keywords, and improve site performance.",
+                    offers : [
+                        "<strong>Technical SEO Audits: </strong>Identifying and fixing duplicate content, slow speeds, and indexing issues.",
+                        "<strong>Keyword Mapping: </strong>Aligning keywords to product and category pages for better targeting.",
+                        "<strong>Content Optimization: </strong>Creating SEO-rich product descriptions, blogs, and landing pages.",
+                        "<strong>Performance Enhancements: </strong> Speed optimization, schema markup, and Core Web Vitals fixes.",
+                    ],
+                    chooseUs : "We combine WordPress expertise with proven SEO strategies to deliver higher rankings, better site performance, and increased ROI.",
+                    image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s",
+                },
+
+                {heading : "Magento E-commerce SEO Services" ,
+                    para : "Magento is a powerhouse for large stores, but its complexity creates SEO challenges. Our MagentoSEO services focus on optimizing your store for performance, search visibility, and scalability.",
+                    offers : [
+                        "<strong>Advanced Keyword Strategy: </strong>Targeting high-traffic keywords for product and category pages.",
+                        "<strong>Technical SEO: </strong>Fixing indexing errors, duplicate content, and improving site speed.",
+                        "<strong>Custom Schema Implementation: </strong>Adding product, review, and breadcrumb schema to boost rankings",
+                    ],
+                    chooseUs : "We specialize in handling Magento's complexity, ensuring large product catalogs rank high and convert better",
+                    image : "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+                },
+
+                {heading : "BigCommerce SEO Services" ,
+                    para : "BigCommerce offers robust tools for E-commerce success, but SEO is key to maximizing its potential. Our BigCommerce SEO strategies focus on delivering consistent traffic and sales.",
+                    offers : [
+                        "<strong>On-Page Optimization: </strong>Optimizing product pages, category structures, and internal links",
+                        "<strong>Content Strategy: </strong>Creating keyword-optimized content like product descriptions, guides, and blogs.",
+                        "<strong>Mobile SEO: </strong>Ensuring fast, mobile-friendly pages to attract on-the-go shoppers.",
+                    ],
+                    chooseUs : "We leverage BigCommerce's strengths to improve search visibility, user experience, and conversions.",
+                    image : "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+                },
+
+                {heading : "Wix and Squarespace SEO Services" ,
+                    para : "Wix and Squarespace make building stores easy, but achieving SEO success requires expertise. Our SEO services for Wix and Squarespace focus on visibility and user experience.",
+                    offers : [
+                        "<strong>Site Structure Optimization: </strong>Creating clean, SEO-friendly navigation and URLs",
+                        "<strong>Content Optimization: </strong>Improving product pages, blogs, and FAQs to attract organic traffic",
+                        "<strong>Local SEO: </strong>Optimizing for local searches to reach nearby customers.",
+                    ],
+                    chooseUs : "We help you transform Wix and Squarespace stores into SEO-optimized platforms that rank higher and drive sales.",
+                    image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
+                },
+
+                {heading : "Multi-Platform SEO Consulting" ,
+                    para : "For businesses using multiple platforms (Shopify, WooCommerce, Magento), we offer custom consulting services to streamline your SEO strategies across all systems.",
+                    offers : [
+                        "<strong>Comprehensive SEO Audits: </strong>Identify SEO issues across platforms.",
+                        "<strong>Keyword Harmonization: </strong>Optimize keywords consistently for all stores.",
+                        "<strong>Content Planning: </strong>Unified content strategies for multi-platform E-commerce.",
+                    ],
+                    chooseUs : "We ensure seamless SEO execution across multiple platforms to maximize organic growth and ROI.",
+                    image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
+                },
+
+            ]
+
+        },
         powerBySection: {
             heading: "E-commerce  <span class= 'text-[#207DE9]'> Optimization Powered by </span> Data-Driven Insights",
             para: "Harness the power of advanced analytics to elevate your online store's search rankings and drive more sales.",
@@ -94,7 +269,102 @@ export const SEOData = {
             ],
         },
 
+        platformSection : {
+            heading : "We Optimize eCommerce Stores on These Platforms",
+            para : "Our SEO experts work across all major eCommerce platforms to boost your store's visibility and drive sales. Whether you're a small business or an enterprise, we tailor strategies for your platform.",
+            
+            platforms : [
+                {heading : "Popular Platforms" , items : [
+                    {itemName : "Shopify", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s' },
+                    {itemName : "WoCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwtjG4CgqX-RhnJIFf8Z67XEDhgQlrs0CiA&s'},
+                    {itemName : "BigCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s'},
+                    {itemName : "Magento", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSNRK0Bajz4uSjJctpY8_73RT_nOBgeYbXg&s'},
+                ]},
 
+                {heading : "Enterprise-Level Solutions" , items : [
+                    {itemName : "NetSuite", logo : 'https://cdn.worldvectorlogo.com/logos/netsuite.svg'},
+                    {itemName : "nopCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s'},
+                    {itemName : "Celerant", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s'},
+                    {itemName : "Unilog", logo : 'https://ml.globenewswire.com/Resource/Download/beb2d5a5-65e8-4dd7-8118-89acf9bf5816'},
+                ]},
+
+                {heading : "Content Management Systems (CMS)" , items : [
+                    {itemName : "WordPress", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s'},
+                    {itemName : "Drupal", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s'},
+                    {itemName : "Umbraco", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s'},
+                ]},
+
+                {heading : "Other Platforms" , items : [
+                    {itemName : "Volusion", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU'},
+                    {itemName : "Drupal", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s'},
+                    {itemName : "Umbraco", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s'},
+                ]}
+            ]
+        },
+
+        pathToSuccess : {
+            heading : "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R.</span>O.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to E-commerce SEO Success",
+            
+            paths : [
+                {letter : "G" , heading : "Generate Traffic" , matters : "Without traffic, your online store won't get the visibility it deserves. SEO helps attract qualified, organic visitors who are actively searching for your products." , how : ["Keyword research to identify high-intent, transactional search terms." ,"Target long-tail keywords that align with buyer needs" , "Optimize for Google Shopping and other search engines."] ,
+                    outcome : "More targeted visitors who are ready to buy."
+                },
+                {letter : "R" , heading : "Rank Higher" , matters : "Higher rankings in search engines mean more visibility, clicks, and conversions. Outranking competitors puts your products in front of customers first." , how : ["On-page optimization (titles, meta tags, headers)." ,"Implement schema markup for product details, reviews, and rich snippets." , "Build high-quality backlinks to improve domain authority."] ,
+                    outcome : "Improved search engine rankings that boost brand visibility."
+                },
+
+                {letter : "O" , 
+                    heading : "Optimize Content" , 
+                    matters : "Content is the backbone of SEO. Product pages, blog posts, and FAQs need to be optimized for both search engines and customers." , 
+                    how : [
+                        "Write detailed, keyword-optimized product descriptions." ,
+                        "Develop engaging blogs around buying guides, product comparisons, and FAQs." , 
+                        "Optimize multimedia (images and videos) with proper alt text and titles."] ,
+                    outcome : "Enhanced user experience and higher chances of ranking for relevant searches."
+                },
+
+                {letter : "W" , 
+                    heading : "Win Clicks*" , 
+                    matters : "Ranking on Google is just the first step-you need to win clicks with compelling and optimized listings." , 
+                    how : [
+                        "Craft irresistible meta titles and descriptions that drive clicks." ,
+                        "Add rich snippets (star ratings, prices, availability) to stand out in SERPs" , 
+                        "Use strong CTAs (calls-to-action) to boost click-through rates (CTR)."] ,
+                    outcome : "Higher CTRs, more traffic, and better engagement with your products."
+                },
+
+                {letter : "T" , 
+                    heading : "Target Keywords" , 
+                    matters : "The right keywords connect your products to the customers searching for them. SEO without targeted keywords is like shooting in the dark." , 
+                    how : [
+                        "Research high-converting, buyer-intent keywords for product and category pages." ,
+                        "Implement long-tail keywords that capture niche search queries." , 
+                        "Monitor keyword rankings and refine strategies based on performance."] ,
+                    outcome : "Increased visibility in search results for terms your audience is actively searching."
+                },
+
+                {letter : "H" , 
+                    heading : "Highlight Products" , 
+                    matters : "Showcasing your products effectively helps customers find the right solution quickly and drives conversions" , 
+                    how : [
+                        "Use product schema to highlight key details like price, reviews, and availability." ,
+                        "Optimize product images, videos, and descriptions for clarity and SEO." , 
+                        "Create internal links to popular and high-converting product pages."] ,
+                    outcome : "Improved visibility in search results and higher engagement on product pages."
+                },
+
+                {letter : <MdOutlineStarPurple500/> , 
+                    focus : "By focusing on :" , 
+                    focusOn : ["Generating Traffic" , "Ranking Higher", "Optimizing Content" , "Winning Clicks", "Targeting Keywords" , "Highlighting Products"], 
+                    how : [
+                        "Increased organic traffic." ,
+                        "Higher search rankings." , 
+                        "More conversions and sales."] ,
+                },
+
+                
+            ]
+        },
 
         // Aproach section starts 
 

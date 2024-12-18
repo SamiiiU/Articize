@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className='min-w-fit flex flex-col gap-y-2 ' >
                     <h1 className='text-xl font-bold mb-8'>Popular Services</h1>
                     {footerNavigations.popularServices.map((service , index) => (
-                        <Link to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
+                        <Link key={index} to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
                     ))}
                 </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
                  <div className='min-w-fit flex flex-col gap-y-2 ' >
                     <h1 className='text-xl font-bold mb-8'>Who We Are</h1>
                     {footerNavigations.whoWeAre.types.map((service , index) => (
-                        <Link to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
+                        <Link key={index} to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
                     ))}
                 </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                  <div className='min-w-fit flex flex-col gap-y-2 ' >
                     <h1 className='text-xl font-bold mb-8'>Pricing Guide</h1>
                     {footerNavigations.pricingGuide.types.map((service , index) => (
-                        <Link to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
+                        <Link key={index} to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
                     ))}
                 </div>
 

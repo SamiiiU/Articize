@@ -16,6 +16,9 @@ import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
+import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
+import Platforms from './SeoandPPCcommon/Platforms'
+import Path from './SeoandPPCcommon/Path'
 const EcommerceSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
   useEffect(() => {
@@ -30,12 +33,16 @@ const EcommerceSEO = () => {
           <>
           <Nav/>
           <Hero page={SEOData.EcommerceSEO.heroSection}/>
-          <WhyComp page={SEOData.EcommerceSEO.whySection}/>
+          {/* <WhyComp page={SEOData.EcommerceSEO.whySection}/> */}
           <Booster page={SEOData.EcommerceSEO.boostSection} />
           <PoweredBy page={SEOData.EcommerceSEO.powerBySection}/>
+          <TailoredSEO page={SEOData.EcommerceSEO.tailoredSection}/>
           <OurApproach page={SEOData.EcommerceSEO.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
+        <Path page={SEOData.EcommerceSEO.pathToSuccess} />
+
+        <Platforms page={SEOData.EcommerceSEO.platformSection}/>
         <RealResults page={SEOData.EcommerceSEO.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>

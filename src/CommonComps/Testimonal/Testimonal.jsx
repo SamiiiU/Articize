@@ -23,8 +23,8 @@ export const Testimonal = ({Reviews}) => {
                 <div>
                   
                   <div className="w-full my-4 flex justify-center items-center gap-x-2">
-                        {[1,2,3,4,5].map((idx) => (
-                            <MdOutlineStarPurple500 size={30}  className={` ${idx > review.stars ? 'text-yellow-600' : 'text-yellow-400'}`}/>
+                        {[1,2,3,4,5].map((index) => (
+                            <MdOutlineStarPurple500 key={index} size={30}  className={` ${index > review.stars ? 'text-yellow-600' : 'text-yellow-400'}`}/>
                         ))}
                   </div>
                   <p>

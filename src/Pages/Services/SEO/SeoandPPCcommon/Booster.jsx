@@ -20,16 +20,23 @@ const Booster = ({page}) => {
             {page.boostContent.map((item , index) => (
                 <span key={index} className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`} onClick={() => handleBooster(index)}>{item.navigator}</span>
             ))}
-            
         </div>
 
 
-        <div className='md:w-3/4 w-full bg-white rounded-md p-6 shadow-lg flex items-center flex-col justify-between '> 
+        <div className='w-full bg-white rounded-md p-6 shadow-lg flex items-center gap-x-10 justify-between '> 
             <div className='flex-1 py-4 text-left  relative '>
-                <h1 className='font-semibold text-xl  mb-4'>{page.boostContent[activeIndex].heading}</h1>
-                <p className='mb-4'>{page.boostContent[activeIndex].para}</p>
-{/* 
-                <span className='text-lg flex items-center group  underline font-semibold absolute bottom-0 cursor-pointer text-[#207DE9]'>Explore {page.boostContent[activeIndex].navigator} <FaArrowRight className='group-hover:-rotate-45 group-hover:ml-3 ml-1 transition-all'/></span> */}
+                <h1 className='font-semibold text-xl  mb-4'>Why it Matters?</h1>
+                <p className='mb-8'>{page.boostContent[activeIndex].matters}</p>
+
+                <h1 className='font-semibold text-xl  mb-4'>What it includes?</h1>
+                <ul className='list-item ml-10 list-disc mb-16'>
+                    {page.boostContent[activeIndex].includes.map((include , index) => (
+                        <li key={index}>{include}</li>
+                    ))}
+                </ul>
+
+                <h1 className='font-semibold text-3xl text-orange-500'>Benefit</h1>
+                <p>{page.boostContent[activeIndex].benefit}</p>
             </div>
 
             <div className='sm:w-[500px]  w-full h-[300px] '>
