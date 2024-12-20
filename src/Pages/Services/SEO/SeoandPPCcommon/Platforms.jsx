@@ -14,14 +14,21 @@ const Platforms = ({page}) => {
 
      
      {page.platforms.map((platform , index) => (
-        <div key={index} className='sm:w-3/4 w-full flex flex-col rounded-md justify-center sm:px-10 h-fit '>
-            <h1 className='font-semibold text-xl  mb-2 text-[#013a6e]'>{platform.heading}</h1>
-            {platform.items.map((company , idx ) => (
-                <span key={idx} className='w-1/2 my-4 hover:bg-[#013a6e] hover:text-white px-4 py-2 rounded-xl flex justify-between items-center '>
-                    <p className=''>{company.itemName}</p>
-                    <img src={company.logo} alt={company.itemName} className='w-10 h-10'/>
-                </span>
-            ))}
+        <div key={index} className='sm:w-3/4 w-full  flex flex-col sm:px-10 h-fit '>
+            <h1 className='font-bold text-4xl = rounded-t-xl py-2 mb-2 text-[#013a6e] '>{platform.heading}</h1>
+
+            <span className='w-full  my-4  py-2 rounded-xl flex items-center gap-x-10'>
+                    <div className='w-1/2  text-left  text-xl font-bold'>
+                    {platform.items.map((company , idx ) => (  
+                      <p className='my-2' key={idx}>{company.itemName}</p>
+                    ))}
+                    </div>
+                    <div className='sm:w-1/2  w-full flex justify-center h-52 items-center' style={{backgroundImage : `url(${platform.image})` , backgroundSize : '80%', backgroundPosition : 'center' , backgroundRepeat : 'no-repeat'}}>
+                    {/* <img src= alt="popular platform" className='w-full h-full'  /> */}
+                    </div>
+                    
+            </span>
+            
         </div>
      )) }
      

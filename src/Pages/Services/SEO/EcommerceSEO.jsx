@@ -19,6 +19,7 @@ import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
 import Platforms from './SeoandPPCcommon/Platforms'
 import Path from './SeoandPPCcommon/Path'
+import CustomPricing from './SeoandPPCcommon/CustomPricing'
 const EcommerceSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
   useEffect(() => {
@@ -34,6 +35,7 @@ const EcommerceSEO = () => {
           <Nav/>
           <Hero page={SEOData.EcommerceSEO.heroSection}/>
           {/* <WhyComp page={SEOData.EcommerceSEO.whySection}/> */}
+          <CustomPricing page={SEOData.EcommerceSEO.customPricing}/>
           <Booster page={SEOData.EcommerceSEO.boostSection} />
           <PoweredBy page={SEOData.EcommerceSEO.powerBySection}/>
           <TailoredSEO page={SEOData.EcommerceSEO.tailoredSection}/>

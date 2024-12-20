@@ -30,7 +30,7 @@ const Path = ({page}) => {
         </div>
         <div style={{height : mainHeight}} className='flex-1 px-8 h-full flex flex-col justify-between relative text-left'>
             <span>
-                <h1 className='font-semibold text-xl  mb-4 '>{activeIndex < page.paths.length - 1 ? page.paths[activeIndex].heading : page.paths[activeIndex].focus}</h1>
+                <h1 className='font-semibold text-xl  mb-4  '>{activeIndex < page.paths.length - 1 ? page.paths[activeIndex].heading : page.paths[activeIndex].focus}</h1>
             <p className='mb-8'>{activeIndex < page.paths.length - 1 ? page.paths[activeIndex].matters : page.paths[activeIndex].focusOn}</p>
             </span>
 

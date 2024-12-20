@@ -7,7 +7,11 @@ import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
 import BG from '../../Assets/Images/CommonImages/HeroServices.png'
 import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
-
+import popularPlatform from '../../Assets/Images/ServicesIMG/SEOImages/popular.png'
+import enterpricePlatform from '../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
+import cmsPlatform from '../../Assets/Images/ServicesIMG/SEOImages/cms.png'
+import otherPlatform from '../../Assets/Images/ServicesIMG/SEOImages/other.png'
+import { head } from 'framer-motion/client'
 
 export const SEOData = {
 
@@ -275,30 +279,38 @@ export const SEOData = {
             
             platforms : [
                 {heading : "Popular Platforms" , items : [
-                    {itemName : "Shopify", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s' },
-                    {itemName : "WoCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwtjG4CgqX-RhnJIFf8Z67XEDhgQlrs0CiA&s'},
-                    {itemName : "BigCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s'},
-                    {itemName : "Magento", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSNRK0Bajz4uSjJctpY8_73RT_nOBgeYbXg&s'},
-                ]},
+                    {itemName : "Shopify",  },
+                    {itemName : "WoCommerce",},
+                    {itemName : "BigCommerce",},
+                    {itemName : "Magento",},
+                ],
+                image : popularPlatform, 
+            },
 
                 {heading : "Enterprise-Level Solutions" , items : [
-                    {itemName : "NetSuite", logo : 'https://cdn.worldvectorlogo.com/logos/netsuite.svg'},
-                    {itemName : "nopCommerce", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s'},
-                    {itemName : "Celerant", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s'},
-                    {itemName : "Unilog", logo : 'https://ml.globenewswire.com/Resource/Download/beb2d5a5-65e8-4dd7-8118-89acf9bf5816'},
-                ]},
+                    {itemName : "NetSuite", },
+                    {itemName : "nopCommerce", },
+                    {itemName : "Celerant", },
+                    {itemName : "Unilog",},
+                ],
+                image : enterpricePlatform,
+            },
 
                 {heading : "Content Management Systems (CMS)" , items : [
-                    {itemName : "WordPress", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s'},
-                    {itemName : "Drupal", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s'},
-                    {itemName : "Umbraco", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s'},
-                ]},
+                    {itemName : "WordPress", },
+                    {itemName : "Drupal", },
+                    {itemName : "Umbraco", },
+                ],
+                image : cmsPlatform,
+            },
 
                 {heading : "Other Platforms" , items : [
                     {itemName : "Volusion", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU'},
                     {itemName : "Drupal", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s'},
                     {itemName : "Umbraco", logo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s'},
-                ]}
+                ],
+                image : otherPlatform,
+            }
             ]
         },
 
@@ -432,48 +444,132 @@ export const SEOData = {
             para: "Discover our clear and flexible E-commerce SEO pricing plans designed to grow with your online store. From boosting site traffic to enhancing product visibility, our plans are crafted to provide tangible results and help you dominate your niche market.",
 
             pricingCards: [
-                {
-                    name: "basic plan",
-                    header: "Basic Plan – \"SEO Foundations\"",
-                    price: "$349/month",
-                    fitFor: "Ideal for startups and small online stores looking to build a solid SEO foundation without a hefty investment.",
+                {name: "Silver plan",
+                    header: "Silver Plan",                //<strong>
+                    price: "$750/month",
+                    fitFor: "Small businesses or startups new to SEO, with a limited product catalog.",
                     youGet: [
-                        "Comprehensive Keyword Research",
-                        "On-Page SEO Optimization for Up to 10 Pages",
-                        "Technical SEO Audit and Fixes",
-                        "Google My Business Setup",
-                        "Monthly Performance Report"
+                        "Up to <strong>50</strong> number of keywords optimized",
+                        "Up to <strong>20</strong> product pages optimized",
+                        "<strong>Technical SEO Audit & Fixes : </strong> Basic Audit",
+                        "Keyword Research & Strategy",
+                        "Keyword Mapping to Product Pages",
+                        "Title Tags & Meta Descriptions",
+                        "Mobile Optimization",
+                        "<strong>Schema Markup for Products :</strong> Basic Schema (Title, Price)",
+                        "<strong>Internal Linking Optimization :</strong> Basic Links",
+                        "Product Image Optimization",
+                        "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 1 Content Piece/Month",
+
+                        "<strong>Backlink Building (Quality Outreach) :</strong> 3 Links/Month",
+                        "<strong>Competitor Analysis :</storng> Basic Insights",
+                        "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
+                        "<strong>Conversion Rate Optimization (CRO)</sroong> : Basic Recommendations",
+                        "<storng>Monthly SEO </storng>Reports & Performance Insights",
+                        "<strong>Customer Support : </strong> Email Support",
+                        "<strong>Campaign Setup Fee (One-time) : </storng> $750",
+                        "<strong>Monthly Investment : </strong> $750",
                     ],
                 },
-                {
-                    name: "medium plan",
-                    header: "Medium Plan – \"SEO Growth\"",
-                    price: "$649/month",
-                    fitFor: "Perfect for growing e-commerce businesses aiming to increase their market reach and drive higher sales through advanced SEO strategies.",
+                {name: "Gold Plan",
+                    header: "Gold Plan",
+                    price: "$1,800/month",
+                    fitFor: "Growing E-commerce businesses looking to improve rankings and organic traffic.",
                     youGet: [
-                        "In-depth Keyword Optimization",
-                        "On-Page and Technical SEO for Up to 30 Pages",
-                        "Content Creation & Blogging",
-                        "Link Building Campaign",
-                        "Bi-weekly Performance Updates",
-                        "Conversion Rate Optimization"
+                        "Up to <strong>150</strong> number of keywords optimized",
+                        "Up to <strong>50</strong> product pages optimized",
+                        "<strong>Technical SEO Audit & Fixes : </strong> Full Technical Audit ",
+                        "Keyword Research & Strategy",
+                        "Keyword Mapping to Product Pages",
+                        "Title Tags & Meta Descriptions",
+                        "Mobile Optimization",
+                        "<strong>Schema Markup for Products :</strong> Advanced Schema",
+                        "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
+                        "Product Image Optimization",
+                        "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 3 Content Piece/Month",
+
+                        "<strong>Backlink Building (Quality Outreach) :</strong> 8 Links/Month",
+                        "<strong>Competitor Analysis :</strong> Advanced Analysis",
+                        "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
+                        "<strong>Conversion Rate Optimization (CRO)</sroong> : Strategic Suggestions",
+                        "<strong>Monthly SEO </strong>Reports & Performance Insights",
+                        "<strong>Customer Support : </strong> Email & Phone Support",
+                        "<strong>Campaign Setup Fee (One-time) : </strong> $2,000",
+                        "<strong>Monthly Investment : </strong> $1,800",
                     ],
                 },
-                {
-                    name: "premium plan",
-                    header: "Premium Plan – \"SEO Market Leader\"",
-                    price: "$949/month",
-                    fitFor: "Designed for large e-commerce platforms seeking comprehensive SEO management to solidify their market leadership and maximize ROI.",
+                {name: "Platinum plan",
+                    header: "Platinum Plan",
+                    price: "$3,500/month",
+                    fitFor: "Established E-commerce stores targeting aggressive growth and improved conversions.",
                     youGet: [
-                        "Advanced Keyword Research and Strategy",
-                        "Full On-Page and Technical SEO for Unlimited Pages",
-                        "Dedicated Content Creation Team",
-                        "High-Quality Backlink Building",
-                        "Detailed Analytics and Insights Reporting",
-                        "Dedicated SEO Account Manager"
+                        "Up to <strong>300</strong> number of keywords optimized",
+                        "Up to <strong>100</strong> product pages optimized",
+                        "<strong>Technical SEO Audit & Fixes : </strong> Advanced Optimization",
+                        "Advanced Keyword Research & Strategy",
+                        "Detailed Keyword Mapping to Product Pages",
+                        "Advanced Title Tags & Meta Descriptions",
+                        "Enhanced Performance Mobile Optimization",
+                        "<strong>Schema Markup for Products :</strong> Full Schema",
+                        "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
+                        "Full Image SEO Optimization",
+                        "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 6 Content Piece/Month",
+
+                        "<strong>Backlink Building (Quality Outreach) :</strong> 15 Links/Month",
+                        "<strong>Competitor Analysis :</strong> Detailed Competitor Tracking",
+                        "<strong>Google Analytics Setup & Conversion Tracking :</strong> Advanced Tracking",
+                        "<strong>Conversion Rate Optimization (CRO)</strong> : Advanced CRO Strategy",
+                        "<strong>Monthly SEO </strong>Reports & Performance Insights",
+                        "<strong>Customer Support : </strong> Dedicated Account Manager",
+                        "<strong>Campaign Setup Fee (One-time) : </strong> $4,000",
+                        "<strong>Monthly Investment : </strong> $3,500",
                     ],
                 },
             ],
+        },
+
+        customPricing : {
+
+            heading : 'Ecommerce SEO Services Custom Pricing Tailored to Your Business Goals',
+
+            upperPart : {
+                header : "Custom E-commerce SEO Plans",
+                price : "Starting at $3,000/month"
+
+            },
+            leftPart : [
+                    "<strong>Custom</strong> number of keywords optimized",
+                    "<strong>Custom</strong> number of product pages optimized",
+                    "<strong>Technical SEO Audit & Fixes : </strong> Custom Strategy",
+                    "Custom Research Plan ",
+                    "Custom Keyword Mapping to Product Pages",
+                    "Full Optimization Title Tags & Meta Descriptions",
+                    "Advanced Optimization Mobile Optimization",
+                    "<strong>Schema Markup for Products :</strong> Custom Implementation",
+                    "<strong>Internal Linking Optimization :</strong> Custom Strategy",
+                    "Full Image SEO Optimization",
+
+                ],
+            
+
+            centerPart: {
+                text : "Drive traffic, boost conversions, and maximize ROI with advanced AI-powered strategies.",
+                pricing : ["<strong>Campaign Setup Fee (One-time) : </strong> Custom Quote",
+                "<strong>Monthly Investment : </strong> Custom Quote",]
+            },
+            rightPart : [
+                
+                "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> Custom Content Plan",
+
+                "<strong>Backlink Building (Quality Outreach) :</strong> Custom Plan",
+                "<strong>Competitor Analysis :</strong> Custom Analysis",
+                "<strong>Google Analytics Setup & Conversion Tracking :</strong> Custom Integration",
+                "<strong>Conversion Rate Optimization (CRO)</strong> : Custom CRO Strategy",
+                "<strong>Dedicated Monthly SEO </strong>Reports & Performance Insights",
+                "<strong>Customer Support : </strong> Dedicated Team Support",
+            ],
+
+            
         },
 
 
