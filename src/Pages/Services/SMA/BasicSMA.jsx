@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from '../SEO/SeoandPPCcommon/Hero'
-import { PPCData, SMAData } from '../../../Data/ServicesData/SEOandPPC'
+import { PPCData, SMAData } from '../../../Data/ServicesData/SEODatas'
 import WhyComp from '../SEO/SeoandPPCcommon/WhyComp'
 import Booster from '../SEO/SeoandPPCcommon/Booster'
 import PoweredBy from '../SEO/SeoandPPCcommon/PoweredBy'

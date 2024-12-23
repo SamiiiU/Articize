@@ -28,7 +28,7 @@ export const Testimonal = ({Reviews}) => {
                         ))}
                   </div>
                   <p>
-                    {review.message}
+                    {review.massage}
                   </p>
                   <h6 className="text-[#207DE9] font-medium text-lg mt-5 ">- {review.name}.</h6>
                 </div>

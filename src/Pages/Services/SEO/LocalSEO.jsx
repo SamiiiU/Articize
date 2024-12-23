@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
-import { SEOData } from '../../../Data/ServicesData/SEOandPPC'
+import { LocalSEOData, SEOData } from '../../../Data/ServicesData/SEODatas'
 import OurApproach from './SeoandPPCcommon/OurApproach'
 import CTA from '../../../CommonComps/CTA'
 import RealResults from './SeoandPPCcommon/RealResults'
@@ -13,7 +13,7 @@ import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { Reviews } from '../../../Data/TestimonalData'
+import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 
 
@@ -30,20 +30,20 @@ const LocalSEO = () => {
         {isLoaded && (
           <>
           <Nav/>
-          <Hero page={SEOData.LocalSEO.heroSection}/>
-          <WhyComp page={SEOData.LocalSEO.whySection}/>
-          <Booster page={SEOData.LocalSEO.boostSection} />
-          <PoweredBy page={SEOData.LocalSEO.powerBySection}/>
-        <OurApproach page={SEOData.LocalSEO.approachSection} />
+          <Hero page={LocalSEOData.heroSection}/>
+          <WhyComp page={LocalSEOData.whySection}/>
+          <Booster page={LocalSEOData.boostSection} />
+          <PoweredBy page={LocalSEOData.powerBySection}/>
+        <OurApproach page={LocalSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
-        <RealResults page={SEOData.LocalSEO.realResultsSection}  />
+        <RealResults page={LocalSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <Pricing page={SEOData.LocalSEO.pricingSection} />
+        <Pricing page={LocalSEOData.pricingSection} />
 
-        <ReviewsSEO page={SEOData.LocalSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
+        <ReviewsSEO page={LocalSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
 
         
         

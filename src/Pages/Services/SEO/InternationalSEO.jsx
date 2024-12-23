@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
-import { SEOData } from '../../../Data/ServicesData/SEOandPPC'
+import { InternationalSEOData, SEOData } from '../../../Data/ServicesData/SEODatas'
 import OurApproach from './SeoandPPCcommon/OurApproach'
 import CTA from '../../../CommonComps/CTA'
 import RealResults from './SeoandPPCcommon/RealResults'
@@ -13,7 +13,7 @@ import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { Reviews } from '../../../Data/TestimonalData'
+import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 
 
@@ -30,20 +30,20 @@ const InternationalSEO = () => {
         {isLoaded && (
           <>
           <Nav/>
-          <Hero page={SEOData.InternationalSEO.heroSection}/>
-          <WhyComp page={SEOData.InternationalSEO.whySection}/>
-          <Booster page={SEOData.InternationalSEO.boostSection} />
-          <PoweredBy page={SEOData.InternationalSEO.powerBySection}/>
-        <OurApproach page={SEOData.InternationalSEO.approachSection} />
+          <Hero page={InternationalSEOData.heroSection}/>
+          <WhyComp page={InternationalSEOData.whySection}/>
+          <Booster page={InternationalSEOData.boostSection} />
+          <PoweredBy page={InternationalSEOData.powerBySection}/>
+        <OurApproach page={InternationalSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
-        <RealResults page={SEOData.InternationalSEO.realResultsSection}  />
+        <RealResults page={InternationalSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <Pricing page={SEOData.InternationalSEO.pricingSection} />
+        <Pricing page={InternationalSEOData.pricingSection} />
 
-        <ReviewsSEO page={SEOData.InternationalSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
+        <ReviewsSEO page={InternationalSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
 
         
         

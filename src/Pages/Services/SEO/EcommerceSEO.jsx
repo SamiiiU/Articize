@@ -1,9 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
-import { SEOData } from '../../../Data/ServicesData/SEOandPPC'
+import { EcommerceSEOData} from '../../../Data/ServicesData/SEODatas'
 import OurApproach from './SeoandPPCcommon/OurApproach'
 import CTA from '../../../CommonComps/CTA'
 import RealResults from './SeoandPPCcommon/RealResults'
@@ -14,44 +13,47 @@ import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { Reviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
+import { SEOReviews } from '../../../Data/TestimonalData'
 import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
 import Platforms from './SeoandPPCcommon/Platforms'
 import Path from './SeoandPPCcommon/Path'
 import CustomPricing from './SeoandPPCcommon/CustomPricing'
+import ReviewsPage from './SeoandPPCcommon/ReviewsPage'
+
+
 const EcommerceSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
-  useEffect(() => {
-    setIsLoaded(false)
-    window.scrollTo(0, 0);
-    setIsLoaded(true)
-  }, [])
+  // useEffect(() => {
+  //   setIsLoaded(false)
+  //   window.scrollTo(0, 0);
+  //   setIsLoaded(true)
+  // }, [])
 
   return (
     <div className='w-full '>
         {isLoaded && (
           <>
           <Nav/>
-          <Hero page={SEOData.EcommerceSEO.heroSection}/>
-          {/* <WhyComp page={SEOData.EcommerceSEO.whySection}/> */}
-          <CustomPricing page={SEOData.EcommerceSEO.customPricing}/>
-          <Booster page={SEOData.EcommerceSEO.boostSection} />
-          <PoweredBy page={SEOData.EcommerceSEO.powerBySection}/>
-          <TailoredSEO page={SEOData.EcommerceSEO.tailoredSection}/>
-          <OurApproach page={SEOData.EcommerceSEO.approachSection} />
+          <Hero page={EcommerceSEOData.heroSection}/>
+          <WhyComp page={EcommerceSEOData.whySection}/>
+          <CustomPricing page={EcommerceSEOData.customPricing}/>
+          <Booster page={EcommerceSEOData.boostSection} />
+          <PoweredBy page={EcommerceSEOData.powerBySection}/>
+          <TailoredSEO page={EcommerceSEOData.tailoredSection}/>
+          <OurApproach page={EcommerceSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
-        <Path page={SEOData.EcommerceSEO.pathToSuccess} />
+        <Path page={EcommerceSEOData.pathToSuccess} />
 
-        <Platforms page={SEOData.EcommerceSEO.platformSection}/>
-        <RealResults page={SEOData.EcommerceSEO.realResultsSection}  />
+        <Platforms page={EcommerceSEOData.platformSection}/>
+        <RealResults page={EcommerceSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <Pricing page={SEOData.EcommerceSEO.pricingSection} />
+        <Pricing page={EcommerceSEOData.pricingSection} />
 
-        <ReviewsSEO page={SEOData.EcommerceSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
+        <ReviewsPage page={EcommerceSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
+        
 
         
         

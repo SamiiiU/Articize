@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import Nav from '../../../CommonComps/Nav/Nav'
 import Hero from './SeoandPPCcommon/Hero'
 import WhyComp from './SeoandPPCcommon/WhyComp'
-import { SEOData } from '../../../Data/ServicesData/SEOandPPC'
+import { SEOData, VideoSEOData } from '../../../Data/ServicesData/SEODatas'
 import OurApproach from './SeoandPPCcommon/OurApproach'
 import CTA from '../../../CommonComps/CTA'
 import RealResults from './SeoandPPCcommon/RealResults'
@@ -13,7 +13,7 @@ import Booster from './SeoandPPCcommon/Booster'
 import PoweredBy from './SeoandPPCcommon/PoweredBy'
 import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { Reviews } from '../../../Data/TestimonalData'
+import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
 
 
@@ -30,20 +30,20 @@ const VideoSEO = () => {
         {isLoaded && (
           <>
           <Nav/>
-          <Hero page={SEOData.VideoSEO.heroSection}/>
-          <WhyComp page={SEOData.VideoSEO.whySection}/>
-           <Booster page={SEOData.VideoSEO.boostSection} />
-          <PoweredBy page={SEOData.VideoSEO.powerBySection}/>
-        <OurApproach page={SEOData.VideoSEO.approachSection} />
+          <Hero page={VideoSEOData.heroSection}/>
+          <WhyComp page={VideoSEOData.whySection}/>
+           <Booster page={VideoSEOData.boostSection} />
+          <PoweredBy page={VideoSEOData.powerBySection}/>
+        <OurApproach page={VideoSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
-        <RealResults page={SEOData.VideoSEO.realResultsSection}  />
+        <RealResults page={VideoSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <Pricing page={SEOData.VideoSEO.pricingSection} />
+        <Pricing page={VideoSEOData.pricingSection} />
 
-        <ReviewsSEO page={SEOData.VideoSEO.reviewsSection} testimonals={Reviews.EcommerceSEO} />
+        <ReviewsSEO page={VideoSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
 
         
         
