@@ -15,6 +15,10 @@ import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
+import CustomPricing from './SeoandPPCcommon/CustomPricing'
+import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
+import Path from './SeoandPPCcommon/Path'
+import Platforms from './SeoandPPCcommon/Platforms'
 
 
 const TechnicalSEO = () => {
@@ -31,12 +35,19 @@ const TechnicalSEO = () => {
           <>
           <Nav/>
           <Hero page={TechnicalSEOData.heroSection}/>
-          <WhyComp page={TechnicalSEOData.whySection}/>
+          
+          {/* <WhyComp page={TechnicalSEOData.whySection}/> */}
+          
+          <CustomPricing page={TechnicalSEOData.customPricing}/>
           <Booster page={TechnicalSEOData.boostSection} />
           <PoweredBy page={TechnicalSEOData.powerBySection}/>
+          <TailoredSEO page={TechnicalSEOData.tailoredSection}/>
         <OurApproach page={TechnicalSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
+        <Path page={TechnicalSEOData.pathToSuccess} />
+
+        <Platforms page={TechnicalSEOData.platformSection}/>
         <RealResults page={TechnicalSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>

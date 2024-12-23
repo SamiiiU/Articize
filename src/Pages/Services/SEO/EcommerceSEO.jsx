@@ -35,7 +35,7 @@ const EcommerceSEO = () => {
           <>
           <Nav/>
           <Hero page={EcommerceSEOData.heroSection}/>
-          <WhyComp page={EcommerceSEOData.whySection}/>
+          {/* <WhyComp page={EcommerceSEOData.whySection}/> */}
           <CustomPricing page={EcommerceSEOData.customPricing}/>
           <Booster page={EcommerceSEOData.boostSection} />
           <PoweredBy page={EcommerceSEOData.powerBySection}/>

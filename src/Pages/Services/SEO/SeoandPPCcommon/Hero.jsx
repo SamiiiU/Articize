@@ -10,7 +10,7 @@ const Hero = ({page}) => {
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10'>
             {/* Home text  */}
             <div className='lg:w-3/4 w-full lg:items-start md:items-center  flex flex-col gap-10 '>
-                <h1 className=' font-[800] lg:text-[63px] text-5xl leading-none lg:text-left md:text-center text-left'>{page.heading}</h1>
+                <h1 className=' font-[800] lg:text-[63px] text-5xl leading-none lg:text-left md:text-center text-left' dangerouslySetInnerHTML={{__html : page.heading}}></h1>
                 <p className='text-[18px]'>{page.para}</p>
 
                 <div className='md:rounded-lg flex md:flex-row flex-col sm:rounded-md gap-y-4 md:w-auto w-full overflow-hidden  text-lg md:text-xl'>

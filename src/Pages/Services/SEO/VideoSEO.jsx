@@ -31,7 +31,7 @@ const VideoSEO = () => {
           <>
           <Nav/>
           <Hero page={VideoSEOData.heroSection}/>
-          <WhyComp page={VideoSEOData.whySection}/>
+          {/* <WhyComp page={VideoSEOData.whySection}/> */}
            <Booster page={VideoSEOData.boostSection} />
           <PoweredBy page={VideoSEOData.powerBySection}/>
         <OurApproach page={VideoSEOData.approachSection} />

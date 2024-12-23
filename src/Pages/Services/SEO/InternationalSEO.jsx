@@ -15,6 +15,10 @@ import QandA from '../../../CommonComps/QandA/QandA'
 import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
 import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
 import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
+import CustomPricing from './SeoandPPCcommon/CustomPricing'
+import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
+import Path from './SeoandPPCcommon/Path'
+import Platforms from './SeoandPPCcommon/Platforms'
 
 
 const InternationalSEO = () => {
@@ -31,12 +35,18 @@ const InternationalSEO = () => {
           <>
           <Nav/>
           <Hero page={InternationalSEOData.heroSection}/>
-          <WhyComp page={InternationalSEOData.whySection}/>
+          {/* <WhyComp page={InternationalSEOData.whySection}/> */}
+          
+          <CustomPricing page={InternationalSEOData.customPricing}/>
           <Booster page={InternationalSEOData.boostSection} />
           <PoweredBy page={InternationalSEOData.powerBySection}/>
+          <TailoredSEO page={InternationalSEOData.tailoredSection}/>
         <OurApproach page={InternationalSEOData.approachSection} />
         
         <CTA heading = {"Get a custom quote for you SEO now!"} />
+        <Path page={InternationalSEOData.pathToSuccess} />
+        
+        <Platforms page={InternationalSEOData.platformSection}/>
         <RealResults page={InternationalSEOData.realResultsSection}  />
 
         <QandA page={QAseo.EcommerceSEO} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>

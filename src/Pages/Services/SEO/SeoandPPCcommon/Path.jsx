@@ -22,7 +22,7 @@ const Path = ({page}) => {
        }}
      >
      </h1>
-     <div  className='w-full  flex h-fit gap-x-10'>
+     <div  className='w-full  flex h-fit sm:gap-x-10 gap-x-3'>
         <div ref={divRef} className='flex flex-col gap-4 ' >
             {page.paths.map((path , index) => (
                 <span onClick={() => handleIndex(index)} key={index} className={` ${index == activeIndex ? 'bg-[#207DE9] text-white' : 'text-[#207DE9]'} rounded-full  cursor-pointer text-lg  w-14 h-14 flex justify-center items-center border-2 border-[#207DE9] font-bold`}>{path.letter}</span>

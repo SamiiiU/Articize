@@ -22,7 +22,7 @@ const PowerOfMarketing = () => {
         {/* Counter elements  */}
         <div className='flex w-full gap-x-8  justify-between relative flex-wrap   py-4  gap-y-4 '>
             {HomeData.impactOfMarketing.map((impact , index) => (
-                <span className=' min-w-[100px] xs:max-w-[250px]  w-full'>
+                <span key={index} className=' min-w-[100px] xs:max-w-[250px]  w-full'>
                 <h2 className='flex xs:justify-start  text-5xl justify-center font-bold text-[#6ADFD7] items-center'><ScrollCounter from = {0} to= {impact.to} timing={2}  />%</h2> 
                 <p className=' xs:text-left text-md font-semibold text-black uppercase'>{impact.heading}</p>
                 <p className=' xs:text-left text-sm '>{impact.para}</p>
@@ -38,7 +38,7 @@ const PowerOfMarketing = () => {
         <div className=' mt-20 flex flex-wrap justify-evenly  gap-y-8'>
               
                 {HomeData.Power.map((power , index ) => (
-                    <div className='lg:min-w-[30%] max-w-fit w-full  max-h-fit' >
+                    <div key={index} className='lg:min-w-[30%] max-w-fit w-full  max-h-fit' >
                     <div key={index} onClick={() => handleIndex(index)} className={`cursor-pointer px-8 py-4  text-left xl:text-xl text-lg flex transition-all  ${activeIndex === index && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
                         backgroundImage : `url(${power.icon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
                     }}  className='w-8 h-8 ' /> {power.name}</div>
@@ -53,10 +53,7 @@ const PowerOfMarketing = () => {
                 <h1 className='lg:text-4xl text-2xl  font-bold '>{HomeData.Power[activeIndex].container.heading}</h1>
                 <p className='font-semibold lg:mt-10 mt-4'>{HomeData.Power[activeIndex].container.description}</p>
                 </span>
-                    <img src={HomeData.Power[activeIndex].container.img} alt='Image' className='md:w-[40%] h-full'/>
-                
-                
-            
+                    <img src={HomeData.Power[activeIndex].container.img} alt='Image' className='md:w-[40%] h-full'/>            
             </div>
 
     </div>
