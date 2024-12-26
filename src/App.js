@@ -2,27 +2,39 @@ import React from "react";
 import Home from "./Pages/Home/Home.jsx";
 
 import { Routes, Route, Link } from 'react-router-dom';
-import EcommerceSEO from "./Pages/Services/SEO/EcommerceSEO.jsx";
+import EcommerceSEO from "./Pages/Services/Marketing/SEO/EcommerceSEO.jsx";
 import GlobalProvider from "./GlobalProvider/GlobalProvider.jsx";
 import WhyUs from "./Pages/Why_US/WhyUs.jsx";
-import GoogleAdsPPC from "./Pages/Services/PPC/GoogleAdsPPC.jsx";
-import BasicSMA from "./Pages/Services/SMA/BasicSMA.jsx";
-import LocalSEO from "./Pages/Services/SEO/LocalSEO.jsx";
-import  ContentSEO  from "./Pages/Services/SEO/ContentSEO.jsx";
-import  InternationalSEO from "./Pages/Services/SEO/InternationalSEO.jsx";
-import  SEOAudit  from "./Pages/Services/SEO/SEOAudit.jsx";
-import  VideoSEO  from "./Pages/Services/SEO/VideoSEO.jsx";
-import  TechnicalSEO  from "./Pages/Services/SEO/TechnicalSEO.jsx";
+import GoogleAdsPPC from "./Pages/Services/Marketing/PPC/GoogleAdsPPC.jsx";
+import BasicSMA from "./Pages/Services/Marketing/SMA/BasicSMA.jsx";
+import LocalSEO from "./Pages/Services/Marketing/SEO/LocalSEO.jsx";
+import  ContentSEO  from "./Pages/Services/Marketing/SEO/ContentSEO.jsx";
+import  InternationalSEO from "./Pages/Services/Marketing/SEO/InternationalSEO.jsx";
+import  SEOAudit  from "./Pages/Services/Marketing/SEO/SEOAudit.jsx";
+import  VideoSEO  from "./Pages/Services/Marketing/SEO/VideoSEO.jsx";
+import  TechnicalSEO  from "./Pages/Services/Marketing/SEO/TechnicalSEO.jsx";
 import CustomDesign from "./Pages/Services/CodeX/Design/CustomDesign.jsx";
+import AmazonPPC from "./Pages/Services/Marketing/PPC/AmazonPPC.jsx";
+import FbInstaPPC from "./Pages/Services/Marketing/PPC/FbInstaPPC.jsx";
+import GShoppingPPC from "./Pages/Services/Marketing/PPC/GShoppingPPC.jsx";
+import LinkedinPPC from "./Pages/Services/Marketing/PPC/LinkedinPPC.jsx";
+import YoutubePPC from "./Pages/Services/Marketing/PPC/YoutubePPC.jsx";
+import DynamicSearchPPC from "./Pages/Services/Marketing/PPC/DynamicSearchPPC.jsx";
+import ProgrammingSMA from "./Pages/Services/Marketing/SMA/ProgrammingSMA.jsx";
+import EnterpriceSMA from "./Pages/Services/Marketing/SMA/EnterpriceSMA.jsx";
+import SocialCommerceSMA from "./Pages/Services/Marketing/SMA/SocialCommerceSMA.jsx";
+import { SocialMediaBrandsSMAData } from "./Data/ServicesData/MarketingData/SMAData.js";
+import BrandsAuditsSMA from "./Pages/Services/Marketing/SMA/BrandAuditsSMA.jsx";
 
+// heading: "Social Media Advertisement (SMA)",
+//       types: [
 
-// { path: '/custom-website-design', type: 'Custom Website Design' },
-//         { path: '/ecommerce-website-design', type: 'E-Commerce Website Design' },
-//         { path: '/website-redesign', type: 'Website Redesign' },
-//         { path: '/custom-theme', type: 'Custom Theme Development for CMS' },
-//         { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
-//         { path: '/ux-optimization', type: 'User Experience Optimization Service' },
-//         { path: '/web-app-design', type: 'Web App Design' },
+//         { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
+//         { path: '/programmatic-advertising', type: "Programmatic Advertising" },
+//         { path: '/enterprise-smm', type: "Enterprise (SMM)" },
+//         { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
+//         { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
+//       ]
 function App() {
   return (
     <GlobalProvider>
@@ -32,7 +44,8 @@ function App() {
 
           <Route path="/" element={<Home/>} />
           
-          {/* SEO PAGES  */}
+          {// SEO PAGES  
+          <>
           <Route path="/ecommerce-seo" element={<EcommerceSEO/>} />
           <Route path="/local-seo" element={<LocalSEO/>} />
           <Route path="/technical-seo" element={<TechnicalSEO/>} />
@@ -40,12 +53,25 @@ function App() {
           <Route path="/international-seo" element={<InternationalSEO/>} />
           <Route path="/seo-audits" element={<SEOAudit/>} />
           <Route path="/video-seo" element={<VideoSEO/>} />
-
-          {/* PPC pages  */}
+          </>
+           }
+          {// PPC pages  
+          <>
           <Route path="/google-ads-ppc" element={<GoogleAdsPPC/>}/>
+          <Route path="/amazon-ppc" element={<AmazonPPC/>}/>
+          <Route path="/facebook-instagram-ppc" element={<FbInstaPPC/>}/>
+          <Route path="/google-shopping-ppc" element={<GShoppingPPC/>}/>
+          <Route path="/linkedin-ppc" element={<LinkedinPPC/>}/>
+          <Route path="/youtube-ppc" element={<YoutubePPC/>}/>
+          <Route path="/dynamic-search-ads-ppc" element={<DynamicSearchPPC/>}/>
+          </>}
 
           {/* SMA pages  */}
           <Route path="/basic-social-media-advertising" element={<BasicSMA/>}/>
+          <Route path="/programmatic-advertising" element={<ProgrammingSMA/>}/>
+          <Route path="/enterprise-smm" element={<EnterpriceSMA/>}/>
+          <Route path="/social-commerce-strategy" element={<SocialCommerceSMA/>}/>
+          <Route path="/social-media-brand-audits" element={<BrandsAuditsSMA/>}/>
 
           {/* CODEX pages  */}
           {/* Design pages  */}

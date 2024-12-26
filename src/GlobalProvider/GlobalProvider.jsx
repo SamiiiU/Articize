@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ContextAPI } from './ContextAPI'
-import { SEOData } from '../Data/ServicesData/SEODatas';
+import { SEOData } from '../Data/ServicesData/MarketingData/SEODatas';
 
 const GlobalProvider = ({children}) => {
         const [states, setState] = useState('false');

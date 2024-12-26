@@ -14,7 +14,7 @@ const InsideCompany = () => {
 
         <div className='flex w-full font-bold flex-wrap uppercase justify-center items-center gap-8'>
         {HomeData.insideCompany.map((button , index) => (
-            <span onClick={() => setActiveIndex(index)} className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`}>{button.navigator}</span>
+            <span key={index} onClick={() => setActiveIndex(index)} className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`}>{button.navigator}</span>
         ))}
         </div>
         

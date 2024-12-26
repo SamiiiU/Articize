@@ -1,17 +1,16 @@
 import { FaBullhorn, FaBullseye, FaCartShopping, FaChartLine, FaChartPie, FaComments, FaLayerGroup, FaLink, FaMagnifyingGlass, FaMoneyBillWave, FaPalette, FaRegChartBar, FaRegNewspaper, FaRocket, FaUsers, FaUserTag } from 'react-icons/fa6'
-import heroImg from '../../Assets/Images/ServicesIMG/EcommerceBG.png'
+import heroImg from '../../../Assets/Images/ServicesIMG/EcommerceBG.png'
 import { MdLocationOn, MdOutlineMobileFriendly, MdOutlineStarPurple500 } from 'react-icons/md'
 import { GrAchievement, GrOptimize } from 'react-icons/gr'
 import { IoAnalytics } from 'react-icons/io5'
 import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
-import BG from '../../Assets/Images/CommonImages/HeroServices.png'
+import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
 import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
-import popularPlatform from '../../Assets/Images/ServicesIMG/SEOImages/popular.png'
-import enterpricePlatform from '../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
-import cmsPlatform from '../../Assets/Images/ServicesIMG/SEOImages/cms.png'
-import otherPlatform from '../../Assets/Images/ServicesIMG/SEOImages/other.png'
-import { head } from 'framer-motion/client'
+import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
+import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
+import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
+import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
 import { GiMagnifyingGlass, GiSpeedometer } from 'react-icons/gi'
 import { RiMobileDownloadLine } from 'react-icons/ri'
 
@@ -1365,17 +1364,17 @@ export const TechnicalSEOData = {
         {
             navigator: "Real-Time Analytics",
             text: "Track key technical SEO metrics in real-time, including site speed, crawl errors, and mobile optimization to make informed decisions for enhancing your site’s performance.",
-            icon: "<IoAnalytics className='text-4xl text-[#6ADFD7]' />"
+            icon: <IoAnalytics className='text-4xl text-[#6ADFD7]' />
         },
         {
             navigator: "Competitor Benchmarking",
             text: "Benchmark your website’s SEO performance against competitors, focusing on technical aspects like site speed, mobile responsiveness, and indexation, to stay ahead in the market.",
-            icon: "<GrAchievement className='text-4xl text-[#6ADFD7]' />"
+            icon: <GrAchievement className='text-4xl text-[#6ADFD7]' />
         },
         {
             navigator: "Conversion Optimization",
             text: "Optimize technical elements such as site structure, page speed, and mobile performance to enhance user experience and improve conversion rates.",
-            icon: "<SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7]' />"
+            icon: <SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7]' />
         }
         ],
         statistics: [
@@ -1440,7 +1439,7 @@ export const TechnicalSEOData = {
 
 
     pathToSuccess: {
-        heading: "<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>E.</span>C.<span class= 'text-[#207DE9]'>H</span>.<span class= 'text-[#207DE9]'>N</span>.<span class= 'text-[#207DE9]'>I</span>.<span class= 'text-[#207DE9]'>C</span> SEO Success Path",
+        heading: "<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>E</span>.<span class= 'text-[#207DE9]'>C</span>.<span class= 'text-[#207DE9]'>H</span>.<span class= 'text-[#207DE9]'>N</span>.<span class= 'text-[#207DE9]'>I</span>.<span class= 'text-[#207DE9]'>C</span> SEO Success Path",
         paths: [
         {
             letter: "T",
@@ -1562,11 +1561,6 @@ export const TechnicalSEOData = {
         ]
     },
 
-      
-
-    // Aproach section starts 
-
- 
     approachSection: {
         heading: "Our Proven Technical <span class= 'text-[#207DE9]'> SEO Strategy </span>",
         para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services.",
@@ -2914,8 +2908,7 @@ export const AuditSEOData = {
     pathToSuccess: {
         heading: "<span class='text-[#207DE9]'>V</span>.<span class='text-[#207DE9]'>I</span>.<span class='text-[#207DE9]'>D</span>.<span class='text-[#207DE9]'>E</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>S</span> Your Path to Video SEO Success",
         paths: [
-            {
-                letter: "V",
+            {letter: "V",
                 heading: "Video Content Optimization",
                 matters: "Optimizing video content for search engines is crucial for improving visibility. It ensures your videos are discoverable and engaging to your target audience.",
                 how: [
@@ -2925,8 +2918,7 @@ export const AuditSEOData = {
                 ],
                 outcome: "Better video visibility and engagement through optimized content."
             },
-            {
-                letter: "I",
+            {letter: "I",
                 heading: "Improve Video Technical SEO",
                 matters: "Technical SEO is critical for videos, impacting how easily search engines crawl and index your content. A technical SEO audit helps improve discoverability.",
                 how: [
@@ -2936,8 +2928,7 @@ export const AuditSEOData = {
                 ],
                 outcome: "Faster loading, better crawling, and improved user experience."
             },
-            {
-                letter: "D",
+            {letter: "D",
                 heading: "Discover Optimization Opportunities",
                 matters: "SEO audits help uncover new opportunities for video optimization, improving rankings and driving more traffic to your content.",
                 how: [
@@ -2947,8 +2938,7 @@ export const AuditSEOData = {
                 ],
                 outcome: "Increased engagement and new opportunities for video optimization."
             },
-            {
-                letter: "E",
+            {letter: "E",
                 heading: "Enhance Video Performance",
                 matters: "Improving the performance of your video is key to boosting rankings. Metrics such as watch time and audience retention are crucial for SEO.",
                 how: [
@@ -2958,8 +2948,7 @@ export const AuditSEOData = {
                 ],
                 outcome: "Better performance in search rankings and user engagement."
             },
-            {
-                letter: "O",
+            {letter: "O",
                 heading: "Optimize for Mobile",
                 matters: "Mobile optimization ensures that your video content is accessible to a broader audience, including mobile users who form a large part of the audience.",
                 how: [
@@ -2969,8 +2958,7 @@ export const AuditSEOData = {
                 ],
                 outcome: "Improved user experience on mobile, leading to higher engagement."
             },
-            {
-                letter: "S",
+            {letter: "S",
                 heading: "Strengthen Video SEO Strategy",
                 matters: "A solid SEO strategy will continually improve video rankings and engagement. Ongoing analysis and strategy optimization ensure consistent growth.",
                 how: [

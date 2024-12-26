@@ -14,19 +14,7 @@ const PathToSuccess = () => {
         <div className='w-full text-left gap-8 justify-center items-center relative flex flex-wrap'>
             {/* path 1  */}
             {HomeData.pathToSuccess.map((offer , index) => (
-            //     <div key={index} className='flex relative flex-wrap lg:text-xl text-lg py-8  xl:items-center gap-y-4 justify-start border-[#2080EA] border-b-2'>
-            //     {/* heading  */}
-            //     <h1 className='xl:flex-1 w-full text-left 2xl:text-center lg:text-2xl text-xl font-extrabold'>{offer.heading}</h1>
 
-            //     {offer.points.map((points , idx) => (
-            //         <div key={idx} className='sm:flex-1 w-full flex flex-col gap-y-4 font-medium  '>
-                    
-            //         <span className=' flex flex-row items-center hover:gap-x-8 transition-all duration-200  gap-x-4'>{points}< FaArrowRight /></span>
-            //         </div>
-            //     ))}
-
-            // </div><
-            <>
             <div key={index} className='sm:w-[30vw] xl:w-[20vw] min-h-[450px] w-full shadow-xl hover:bg-[#1F85DE] transition-all hover:text-white p-4 rounded-xl'>
                 <div className='w-full rounded-xl relative h-32 overflow-hidden mb-4'>
                 <img src={offer.IMG} alt={`${index + 1} Image`} className='w-full absolute rounded-xl  h-full'/>
@@ -43,8 +31,6 @@ const PathToSuccess = () => {
                 
 
                </div>
-            
-            </>
             ))}
 
 

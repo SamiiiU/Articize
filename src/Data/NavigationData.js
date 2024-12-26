@@ -54,9 +54,8 @@ export const footerNavigations = {
 
 
 export const mainNavData = [
-  {
-    navigator: "SEO & PPC", sections: [{
-      heading: "SEO",
+  {navigator: "SEO & Marketing", sections: [{
+      heading: "Search Engine Optimization (SEO)",
       types: [
         { path: '/ecommerce-seo', type: 'E-commerce SEO' },
         { path: '/local-seo', type: 'Local SEO' },
@@ -69,7 +68,7 @@ export const mainNavData = [
     },
 
     {
-      heading: "PPC"
+      heading: "Pay Per Click (PPC)"
       , types: [
         { path: '/google-ads-ppc', type: 'Google Ads PPC' },
         { path: '/amazon-ppc', type: 'Amazon PPC' },
@@ -77,15 +76,14 @@ export const mainNavData = [
         { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
         { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
         { path: '/youtube-ppc', type: 'YouTube PPC' },
-        { path: '/dynamic-search-ads', type: 'Dynamic Search Ads' },
+        { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
 
       ]
     },
 
     {
-      heading: "Social Media Advertisement",
+      heading: "Social Media Advertisement (SMA)",
       types: [
-
         { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
         { path: '/programmatic-advertising', type: "Programmatic Advertising" },
         { path: '/enterprise-smm', type: "Enterprise (SMM)" },
@@ -98,8 +96,7 @@ export const mainNavData = [
     ]
   },
 
-  {
-    navigator: "CODEX", sections: [{
+  {navigator: "CODEX", sections: [{
       heading: "Design",
       types: [
         { path: '/custom-website-design', type: 'Custom Website Design' },

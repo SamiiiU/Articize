@@ -1,33 +1,35 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Nav from '../../../CommonComps/Nav/Nav'
-import Hero from './SeoandPPCcommon/Hero'
-import WhyComp from './SeoandPPCcommon/WhyComp'
-import { EcommerceSEOData} from '../../../Data/ServicesData/SEODatas'
-import OurApproach from './SeoandPPCcommon/OurApproach'
-import CTA from '../../../CommonComps/CTA'
-import RealResults from './SeoandPPCcommon/RealResults'
-import Pricing from './SeoandPPCcommon/Pricing'
-import Footer from '../../../CommonComps/Footer/Footer'
 
-import Booster from './SeoandPPCcommon/Booster'
-import PoweredBy from './SeoandPPCcommon/PoweredBy'
-import QandA from '../../../CommonComps/QandA/QandA'
-import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { SEOReviews } from '../../../Data/TestimonalData'
-import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
-import Platforms from './SeoandPPCcommon/Platforms'
-import Path from './SeoandPPCcommon/Path'
-import CustomPricing from './SeoandPPCcommon/CustomPricing'
-import ReviewsPage from './SeoandPPCcommon/ReviewsPage'
+import Nav from '../../../../CommonComps/Nav/Nav'
+
+import Hero from '../MarketingCommon/Hero'
+import WhyComp from '../MarketingCommon/WhyComp'
+import CustomPricing from '../MarketingCommon/CustomPricing'
+import Booster from '../MarketingCommon/Booster'
+import PoweredBy from '../MarketingCommon/PoweredBy'
+import { TailoredSEO } from '../MarketingCommon/TailoredSEO'
+import OurApproach from '../MarketingCommon/OurApproach'
+
+import CTA from '../../../../CommonComps/CTA'
+
+import Path from '../MarketingCommon/Path'
+import Platforms from '../MarketingCommon/Platforms'
+import RealResults from '../MarketingCommon/RealResults'
+import QandA from '../../../../CommonComps/QandA/QandA'
+import Pricing from '../MarketingCommon/Pricing'
+import ReviewsPage from '../MarketingCommon/ReviewsPage'
+
+import Footer from '../../../../CommonComps/Footer/Footer'
+
+//Data imports 
+import { EcommerceSEOData } from '../../../../Data/ServicesData/MarketingData/SEODatas'
+import { QAseo } from '../../../../Data/QueANDAns'
+import { SEOReviews } from '../../../../Data/TestimonalData'
 
 
 const EcommerceSEO = () => {
   const [isLoaded, setIsLoaded] = useState(true)
-  // useEffect(() => {
-  //   setIsLoaded(false)
-  //   window.scrollTo(0, 0);
-  //   setIsLoaded(true)
-  // }, [])
+
 
   return (
     <div className='w-full '>

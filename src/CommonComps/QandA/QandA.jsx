@@ -1,6 +1,5 @@
  import { AnimatePresence , motion} from 'framer-motion'
 import React, { useState } from 'react'
-import { FaPlus } from 'react-icons/fa'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
  
 const QandA = ({page , para}) => {

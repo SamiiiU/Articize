@@ -1,24 +1,31 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Nav from '../../../CommonComps/Nav/Nav'
-import Hero from './SeoandPPCcommon/Hero'
-import WhyComp from './SeoandPPCcommon/WhyComp'
-import { SEOData, TechnicalSEOData } from '../../../Data/ServicesData/SEODatas'
-import OurApproach from './SeoandPPCcommon/OurApproach'
-import CTA from '../../../CommonComps/CTA'
-import RealResults from './SeoandPPCcommon/RealResults'
-import Pricing from './SeoandPPCcommon/Pricing'
-import Footer from '../../../CommonComps/Footer/Footer'
 
-import Booster from './SeoandPPCcommon/Booster'
-import PoweredBy from './SeoandPPCcommon/PoweredBy'
-import QandA from '../../../CommonComps/QandA/QandA'
-import { QAEcommerceSEO, QAseo } from '../../../Data/QueANDAns'
-import { Reviews, SEOReviews } from '../../../Data/TestimonalData'
-import ReviewsSEO  from './SeoandPPCcommon/ReviewsPage'
-import CustomPricing from './SeoandPPCcommon/CustomPricing'
-import { TailoredSEO } from './SeoandPPCcommon/TailoredSEO'
-import Path from './SeoandPPCcommon/Path'
-import Platforms from './SeoandPPCcommon/Platforms'
+import Nav from '../../../../CommonComps/Nav/Nav'
+
+import Hero from '../MarketingCommon/Hero'
+import WhyComp from '../MarketingCommon/WhyComp'
+import CustomPricing from '../MarketingCommon/CustomPricing'
+import Booster from '../MarketingCommon/Booster'
+import PoweredBy from '../MarketingCommon/PoweredBy'
+import { TailoredSEO } from '../MarketingCommon/TailoredSEO'
+import OurApproach from '../MarketingCommon/OurApproach'
+
+import CTA from '../../../../CommonComps/CTA'
+
+import Path from '../MarketingCommon/Path'
+import Platforms from '../MarketingCommon/Platforms'
+import RealResults from '../MarketingCommon/RealResults'
+import QandA from '../../../../CommonComps/QandA/QandA'
+import Pricing from '../MarketingCommon/Pricing'
+import ReviewsPage from '../MarketingCommon/ReviewsPage'
+
+import Footer from '../../../../CommonComps/Footer/Footer'
+
+//Data imports 
+import { TechnicalSEOData } from '../../../../Data/ServicesData/MarketingData/SEODatas'
+import { QAseo } from '../../../../Data/QueANDAns'
+import { SEOReviews } from '../../../../Data/TestimonalData'
+
 
 
 const TechnicalSEO = () => {
@@ -54,7 +61,7 @@ const TechnicalSEO = () => {
 
         <Pricing page={TechnicalSEOData.pricingSection} />
 
-        <ReviewsSEO page={TechnicalSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
+        <ReviewsPage page={TechnicalSEOData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
 
         
         
