@@ -5,7 +5,7 @@ import CustomButton from '../../../../Prebuild_Components/CustomButton'
 const CustomPricing = ({page}) => {
   return (
     <div className='w-full bg-white px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
-        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'
+        <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]'
         dangerouslySetInnerHTML={{
             __html: page.heading, // Render HTML string safely
           }}

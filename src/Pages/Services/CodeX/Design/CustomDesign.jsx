@@ -3,7 +3,6 @@ import Nav from '../../../../CommonComps/Nav/Nav'
 import HeroCodeX from '../CodeXCommenPages/HeroCodeX'
 import { HeroCodeXData } from '../../../../Data/ServicesData/CodeXData/HeroData'
 import Footer from '../../../../CommonComps/Footer/Footer'
-import WhyCodeX from '../CodeXCommenPages/WhyCodeX'
 import { whySectionData } from '../../../../Data/ServicesData/CodeXData/WhySectionData'
 import BoosterCodeX from '../CodeXCommenPages/BoosterCodeX'
 import { BoosterData } from '../../../../Data/ServicesData/CodeXData/BoosterData'
@@ -19,15 +18,18 @@ import { PricingData } from '../../../../Data/ServicesData/CodeXData/PricingData
 import {  CodeXTestimonalData } from '../../../../Data/TestimonalData'
 import ReviewsCodeX from '../CodeXCommenPages/ReviewsCodeX'
 import { ReviewItemData } from '../../../../Data/ServicesData/CodeXData/ReviewItemData'
+import WhyMattersCodeX from '../CodeXCommenPages/WhyMattersCodeX'
+import UniquePackage from '../CodeXCommenPages/UniquePackage'
+import { customDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
 
 const CustomDesign = () => {
   return (
     <div className='w-full'>
         <Nav/>
         <HeroCodeX page={HeroCodeXData.customDesign}/>
-        <WhyCodeX page={whySectionData.customDesign}/>  
+        <WhyMattersCodeX page={whySectionData.customDesign}/>  
         <BoosterCodeX page={BoosterData.customDesign}/>
-        
+        <UniquePackage page={customDesignData.customPackage}/>
         <PoweredByCodeX page={PowerByData.customDesign}/>
         <ApproachCodeX page={ApproachData.customDesign}/>
 

@@ -42,7 +42,7 @@ const ContentSEO = () => {
           <>
           <Nav/>
           <Hero page={ContentSEOData.heroSection}/>
-          <WhyComp page={ContentSEOData.whySection}/>
+          {/* <WhyComp page={ContentSEOData.whySection}/> */}
           <Booster page={ContentSEOData.boostSection} />
           <PoweredBy page={ContentSEOData.powerBySection}/>
          <OurApproach page={ContentSEOData.approachSection} />

@@ -1,8 +1,9 @@
 import React, {  useState } from 'react'
 
 import { AnimatePresence, motion } from 'framer-motion';
+import DiscreteSlider from '../../../../MUIComps/DiscreteSlider';
 
-const WhyCodeX = ({page}) => {
+const WhyMattersCodeX = ({page}) => {
     const [showKeyIndex , setshowKeyIndex] = useState(null)
 
     const toggleShowKeyDetail = (idx) =>{
@@ -10,17 +11,25 @@ const WhyCodeX = ({page}) => {
         setshowKeyIndex(showKeyIndex === idx ? null : idx)
     }
 
+    const sliderBar = {
+      shiftStep : 10,
+      minVal : 0,
+      maxVal : 150,
+      steps : 15,
+      defaultValue : 30,
+    }
+
     
 
   return (
     <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
-        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
+        <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]'  
         dangerouslySetInnerHTML={{
             __html: page.heading, // Render HTML string safely
           }}
         >
         </h1>
-        <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
+        <p className='2xl:text-xl text-lg font-normal  '>{page.para}</p>
 
         <div className='w-full transition-all flex flex-col  gap-y-7'>
         {page?.whyKeys.map((item , idx) => (
@@ -46,15 +55,12 @@ const WhyCodeX = ({page}) => {
 
             </div>
         ))}
-        {/* {page?.whyKeys.map((item ,index) => (
-            <DropDownKey
-            key={index}
-            {...item}
-            />
-        ) )} */}
+
         </div>      
+
+        <DiscreteSlider slider={sliderBar} />
     </div>
   )
 }
 
-export default WhyCodeX
+export default WhyMattersCodeX

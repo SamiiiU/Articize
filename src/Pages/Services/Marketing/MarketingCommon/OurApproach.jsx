@@ -4,13 +4,13 @@ import bgBox from '../../../../Assets/Images/ServicesIMG/BgBoxes.jpg'
 const OurApproach = ({page}) => {
   return (
     <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
-       <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
+       <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
         dangerouslySetInnerHTML={{
             __html: page.heading, // Render HTML string safely
           }}
         >
         </h1>
-        <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
+        <p className='2xl:text-xl text-lg font-normal  '>{page.para}</p>
           
        <div className='w-full flex justify-center relative flex-wrap items-center mt-12 gap-20' >
         <span className='w-screen opacity-40 h-full absolute top-0 bg-teal-500 ' style={{backgroundImage : `url(${bgBox})`}}></span>

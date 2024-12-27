@@ -13,8 +13,8 @@ const QandA = ({page , para}) => {
     
    return (
      <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-10 flex flex-col gap-10 text-center items-center '>
-        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Frequently  Asked <span className='text-[#207CE7]'> Question  </span>and<span className='text-[#207CE7]'> Answers </span> </h1>
-        <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>{para || "See how Articize improves the KPIs that drive actual business growth"}</p>
+        <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]'>Frequently  Asked <span className='text-[#207CE7]'> Question  </span>and<span className='text-[#207CE7]'> Answers </span> </h1>
+        <p className='2xl:text-xl text-lg font-normal text-[#0b1720] '>{para || "See how Articize improves the KPIs that drive actual business growth"}</p>
 
         <div className='w-full transition-all flex flex-col  gap-y-7' >
 

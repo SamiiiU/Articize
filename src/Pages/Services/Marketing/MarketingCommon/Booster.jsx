@@ -14,16 +14,16 @@ const Booster = ({page}) => {
           }}
         >
         </h1>
-        <p className='lg:text-xl text-lg font-normal  '>{page.para}</p>
+        <p className='2xl:text-xl text-lg font-normal  '>{page.para}</p>
 
         <div className='w-full font-bold flex-wrap uppercase flex justify-center items-center sm:gap-x-12 gap-4 '>
             {page.boostContent.map((item , index) => (
-                <span key={index} className={`px-4 py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`} onClick={() => handleBooster(index)}>{item.navigator}</span>
+                <span key={index} className={`px-4 text-sm py-6 rounded-lg ${index === activeIndex ? 'text-[#207ce7] bg-[#EDF5FF]' : 'text-[#808b90]' }  cursor-pointer hover:bg-[#EDF5FF]`} onClick={() => handleBooster(index)}>{item.navigator}</span>
             ))}
         </div>
 
 
-        <div className='w-full bg-white rounded-md p-6 shadow-lg flex items-center gap-x-10 justify-between '> 
+        <div className='w-full bg-white rounded-md flex-wrap shadow-lg flex items-center gap-x-10 justify-between '> 
             <div className='flex-1 py-4 text-left  relative '>
                 <h1 className='font-semibold text-xl  mb-4'>Why it Matters?</h1>
                 <p className='mb-8'>{page.boostContent[activeIndex].matters}</p>
