@@ -11,14 +11,7 @@ const WhyMattersCodeX = ({page}) => {
         setshowKeyIndex(showKeyIndex === idx ? null : idx)
     }
 
-    const sliderBar = {
-      shiftStep : 10,
-      minVal : 0,
-      maxVal : 150,
-      steps : 15,
-      defaultValue : 30,
-    }
-
+  
     
 
   return (
@@ -57,8 +50,6 @@ const WhyMattersCodeX = ({page}) => {
         ))}
 
         </div>      
-
-        <DiscreteSlider slider={sliderBar} />
     </div>
   )
 }

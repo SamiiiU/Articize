@@ -23,7 +23,7 @@ const Booster = ({page}) => {
         </div>
 
 
-        <div className='w-full bg-white rounded-md flex-wrap shadow-lg flex items-center gap-x-10 justify-between '> 
+        <div className='w-full bg-white rounded-md flex-wrap shadow-lg p-6 flex items-center gap-x-10 justify-between '> 
             <div className='flex-1 py-4 text-left  relative '>
                 <h1 className='font-semibold text-xl  mb-4'>Why it Matters?</h1>
                 <p className='mb-8'>{page.boostContent[activeIndex].matters}</p>

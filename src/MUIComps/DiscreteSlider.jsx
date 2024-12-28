@@ -6,31 +6,34 @@ function valuetext(value) {
   return `${value} + 300`;
 }
 
-export default function DiscreteSlider({slider , onValueChange}) {
+export default function DiscreteSlider({slider , onValueChange , className}) {
   return (
     <Box sx={{ 
-        width: 300 ,
+        ...className ,
          color: 'green', // Changes the main color of the slider
         '& .MuiSlider-thumb': {
           backgroundColor: '#207DE9',
-           // Thumb (circle) color
+          // display : 'none',     
+          transition: 'transform 0.3s ease-in-out',
+          
         },
         '& .MuiSlider-rail': {
-          backgroundColor: 'gray',
+          backgroundColor: '#grey',
           height : 10, // Inactive track color
         },
         '& .MuiSlider-track': {
           backgroundColor: '#013a6e',
           height : 10, // Active track color
+          transition: 'width 0.3s ease-in-out'
         },}}>
       <Slider
         aria-label="Saad"
         defaultValue={slider.defaultValue}
         getAriaValueText={valuetext}
-        valueLabelDisplay="auto"
+        valueLabelDisplay="off"
         shiftStep={slider.shiftStep}
         step={slider.steps}
-        marks
+        // marks
         min={slider.minVal}
         max={slider.maxVal}
         onChange={(event, newValue) => onValueChange(newValue)}

@@ -1,19 +1,16 @@
-import { FaBullhorn, FaBullseye, FaCartShopping, FaChartBar, FaChartLine, FaChartPie, FaCode, FaCodeBranch, FaComments, FaEye, FaHandshake, FaLandMineOn, FaLaptopCode, FaLayerGroup, FaLink, FaMagnifyingGlass, FaMoneyBillWave, FaNetworkWired, FaPalette, FaRegChartBar, FaRegNewspaper, FaRocket, FaUsers, FaUserSecret, FaUserTag, FaWrench } from 'react-icons/fa6'
+import { FaBullhorn, FaBullseye, FaChartBar, FaChartLine, FaChartPie, FaCode, FaCodeBranch, FaComments, FaEye, FaHandshake, FaLaptopCode, FaNetworkWired, FaUsers, FaUserSecret, FaWrench } from 'react-icons/fa6'
 import heroImg from '../../../Assets/Images/ServicesIMG/EcommerceBG.png'
-import { MdLocationOn, MdOutlineMobileFriendly, MdOutlinePeople, MdOutlineStarPurple500 } from 'react-icons/md'
-import { GrAchievement, GrOptimize } from 'react-icons/gr'
+import { MdOutlineStarPurple500 } from 'react-icons/md'
+import { GrAchievement } from 'react-icons/gr'
 import { IoAnalytics, IoBarChartOutline, IoCreateOutline, IoEyeOutline, IoKeySharp, IoPeopleOutline } from 'react-icons/io5'
 import { SiGooglecontaineroptimizedos, SiTensorflow } from 'react-icons/si'
 
 import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
-import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaDollarSign, FaEdit, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPencilAlt, FaPlusCircle, FaProjectDiagram, FaRedoAlt, FaSearch, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserCircle, FaUserFriends, FaVideo } from 'react-icons/fa'
+import { FaEdit, FaFileAlt, FaPencilAlt,FaProjectDiagram, FaThumbsUp, FaUserCircle, FaUserFriends,} from 'react-icons/fa'
 import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
 import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
 import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
 import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
-import { GiMagnifyingGlass, GiSpeedometer } from 'react-icons/gi'
-import { RiMobileDownloadLine } from 'react-icons/ri'
-
 
 export const BasicSMAData = {
     heroSection: {
