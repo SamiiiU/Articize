@@ -25,16 +25,27 @@ import EnterpriceSMA from "./Pages/Services/Marketing/SMA/EnterpriceSMA.jsx";
 import SocialCommerceSMA from "./Pages/Services/Marketing/SMA/SocialCommerceSMA.jsx";
 import { SocialMediaBrandsSMAData } from "./Data/ServicesData/MarketingData/SMAData.js";
 import BrandsAuditsSMA from "./Pages/Services/Marketing/SMA/BrandAuditsSMA.jsx";
+import EcommerceDesign from "./Pages/Services/CodeX/Design/EcommerceDesign.jsx";
+import WebRedesign from "./Pages/Services/CodeX/Design/WebRedesign.jsx";
+import CMSThemeDesign from "./Pages/Services/CodeX/Design/CMSThemeDesign.jsx";
+import ProtoTypingDesign from "./Pages/Services/CodeX/Design/ProtoTypingDesign.jsx";
+import UXoptimization from "./Pages/Services/CodeX/Design/UXoptimization.jsx";
+import WebAppDesign from "./Pages/Services/CodeX/Design/WebAppDesign.jsx";
+import ResponsiveWebDev from "./Pages/Services/CodeX/Developement/ResponsiveWebDev.jsx";
+import WebAppDev from "./Pages/Services/CodeX/Developement/WebAppDev.jsx";
+import ShopifyDev from "./Pages/Services/CodeX/Developement/ShopifyDev.jsx";
+import ARandVRDev from "./Pages/Services/CodeX/Developement/ARandVRDev.jsx";
+import APIDev from "./Pages/Services/CodeX/Developement/APIDev.jsx";
+import SoftwareDev from "./Pages/Services/CodeX/Developement/SoftwareDev.jsx";
+import MobAppDev from "./Pages/Services/CodeX/Developement/MobAppDev.jsx";
+import WebMaintenence from "./Pages/Services/CodeX/MLandUpdates/WebMaintenence.jsx";
+import SecurityUpdates from "./Pages/Services/CodeX/MLandUpdates/SecurityUpdates.jsx";
+import BackupandRecovery from "./Pages/Services/CodeX/MLandUpdates/BackupandRecovery.jsx";
+import IntegrationUpdates from "./Pages/Services/CodeX/MLandUpdates/IntegrationUpdates.jsx";
+import TechnicalSEOMaintenence from "./Pages/Services/CodeX/MLandUpdates/TechnicalSEOMaintenence.jsx";
+import PerformanceOptimization from "./Pages/Services/CodeX/MLandUpdates/PerformanceOptimization.jsx";
 
-// heading: "Social Media Advertisement (SMA)",
-//       types: [
 
-//         { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
-//         { path: '/programmatic-advertising', type: "Programmatic Advertising" },
-//         { path: '/enterprise-smm', type: "Enterprise (SMM)" },
-//         { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
-//         { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
-//       ]
 function App() {
   return (
     <GlobalProvider>
@@ -44,8 +55,7 @@ function App() {
 
           <Route path="/" element={<Home/>} />
           
-          {// SEO PAGES  
-          <>
+          <>{/* SEO Pages   */}
           <Route path="/ecommerce-seo" element={<EcommerceSEO/>} />
           <Route path="/local-seo" element={<LocalSEO/>} />
           <Route path="/technical-seo" element={<TechnicalSEO/>} />
@@ -54,9 +64,7 @@ function App() {
           <Route path="/seo-audits" element={<SEOAudit/>} />
           <Route path="/video-seo" element={<VideoSEO/>} />
           </>
-           }
-          {// PPC pages  
-          <>
+          <>{/* PPC Pages  */}   
           <Route path="/google-ads-ppc" element={<GoogleAdsPPC/>}/>
           <Route path="/amazon-ppc" element={<AmazonPPC/>}/>
           <Route path="/facebook-instagram-ppc" element={<FbInstaPPC/>}/>
@@ -64,18 +72,60 @@ function App() {
           <Route path="/linkedin-ppc" element={<LinkedinPPC/>}/>
           <Route path="/youtube-ppc" element={<YoutubePPC/>}/>
           <Route path="/dynamic-search-ads-ppc" element={<DynamicSearchPPC/>}/>
-          </>}
-
-          {/* SMA pages  */}
+          </>          
+          <>{/* SMA pages  */}
           <Route path="/basic-social-media-advertising" element={<BasicSMA/>}/>
           <Route path="/programmatic-advertising" element={<ProgrammingSMA/>}/>
           <Route path="/enterprise-smm" element={<EnterpriceSMA/>}/>
           <Route path="/social-commerce-strategy" element={<SocialCommerceSMA/>}/>
           <Route path="/social-media-brand-audits" element={<BrandsAuditsSMA/>}/>
+          </>
 
           {/* CODEX pages  */}
-          {/* Design pages  */}
+
+          <> {/* Designing Pages */}
           <Route path="/custom-website-design" element={<CustomDesign/>}/>
+          <Route path="/ecommerce-website-design" element={<EcommerceDesign/>}/>
+          <Route path="/website-redesign" element={<WebRedesign/>}/>
+          <Route path="/custom-theme" element={<CMSThemeDesign/>}/>
+          <Route path="/interactive-prototyping" element={<ProtoTypingDesign/>}/>
+          <Route path="/ux-optimization" element={<UXoptimization/>}/>
+          <Route path="/web-app-design" element={<WebAppDesign/>}/>
+          </>
+
+          <> {/* Developement Pages */}
+          <Route path="/responsive-website-development" element={<ResponsiveWebDev/>}/>
+          <Route path="/web-application-development" element={<WebAppDev/>}/>
+          <Route path="/shopify-ecommerce-development" element={<ShopifyDev/>}/>
+          <Route path="/ar-vr-development" element={<ARandVRDev/>}/>
+          <Route path="/api-development-and-integration" element={<APIDev/>}/>
+          <Route path="/custom-software-development" element={<SoftwareDev/>}/>
+          <Route path="/mobile-app-development" element={<MobAppDev/>}/>
+
+
+          
+          </>
+
+          <> {/* Maintenence Pages  */}
+          {/* heading: "Machine Learnig & Updates",
+      types: [
+        { path: '/web-infrastructure-maintenance', type: 'Web Infrastructure & Maintenance' },
+        { path: '/security-monitoring-and-updates', type: 'Security Monitoring and Updates' },
+        { path: '/backup-and-recovery-solutions', type: 'Backup & Recovery Solutions' },
+        { path: '/integration-updates', type: 'Integration Updates' },
+        { path: '/technical-seo-maintenance', type: 'Technical SEO Maintenance' },
+        { path: '/performance-optimization', type: 'Performance Optimization' },]
+    }, */}
+          <Route path="/web-infrastructure-maintenance" element={<WebMaintenence/>}/>
+          <Route path="/security-monitoring-and-updates" element={<SecurityUpdates/>}/>
+          <Route path="/backup-and-recovery-solutions" element={<BackupandRecovery/>}/>
+          <Route path="/integration-updates" element={<IntegrationUpdates/>}/>
+          <Route path="/technical-seo-maintenance" element={<TechnicalSEOMaintenence/>}/>
+          <Route path="/performance-optimization" element={<PerformanceOptimization/>}/>
+
+          </>
+
+
           
           {/* Why Us Pages  */}
           <Route path="/why-us" element={<WhyUs/>} />

@@ -25,7 +25,7 @@ import {  CodeXTestimonalData } from '../../../../Data/TestimonalData'
 import { customDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
 
 
-const CustomDesign = () => {
+const WebAppDesign = () => {
   return (
     <div className='w-full'>
         <Nav/>
@@ -51,4 +51,4 @@ const CustomDesign = () => {
   )
 }
 
-export default CustomDesign
+export default WebAppDesign
