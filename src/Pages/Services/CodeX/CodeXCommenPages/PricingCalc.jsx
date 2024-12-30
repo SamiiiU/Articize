@@ -38,7 +38,7 @@ const PricingCalc = ({page}) => {
     }
 
   return (
-    <div className='w-full   px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center ' >
+    <div className='w-full relative px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center ' >
 
         <h1 className='2xl:text-[3rem] z-10 text-[2.5rem] font-[800]'  
         dangerouslySetInnerHTML={{
@@ -47,7 +47,7 @@ const PricingCalc = ({page}) => {
         >
         </h1>
 
-        <span className='absolute w-full h-full opacity-30 z-0' style={{backgroundImage : `url(${bgBox})`}}/>
+        <span className='top-0 absolute w-full h-full opacity-30 z-0' style={{backgroundImage : `url(${bgBox})`}}/>
 
         <div className='lg:w-3/4 w-full sm:px-10 mt-10 z-10'>
             {page.requirements.map((requirement , index ) => 

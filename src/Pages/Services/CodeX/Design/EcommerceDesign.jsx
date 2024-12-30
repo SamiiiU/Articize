@@ -22,28 +22,28 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
 import {  CodeXTestimonalData } from '../../../../Data/TestimonalData'
-import { customDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
+import { EcommerceWebDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
 
 
 const EcommerceDesign = () => {
   return (
     <div className='w-full'>
         <Nav/>
-        <HeroCodeX page={customDesignData.heroSection}/>
-        <WhyNeed page={customDesignData.whyNeedSection}/>
-        <PricingCalc page={customDesignData.pricingCalc} />
-        <WhyMattersCodeX page={customDesignData.whySection}/>  
-        <BoosterCodeX page={customDesignData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
-        <ApproachCodeX page={customDesignData.approachSection}/>
+        <HeroCodeX page={EcommerceWebDesignData.heroSection}/>
+        <WhyNeed page={EcommerceWebDesignData.whyNeedSection}/>
+        <PricingCalc page={EcommerceWebDesignData.pricingCalc} />
+        <WhyMattersCodeX page={EcommerceWebDesignData.whySection}/>  
+        <BoosterCodeX page={EcommerceWebDesignData.boostSection}/>
+        {/* <PoweredByCodeX page={EcommerceWebDesignData.poweredBySection}/> */}
+        <ApproachCodeX page={EcommerceWebDesignData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
         
-        <UniquePackage page={customDesignData.customPackage}/>
+        <UniquePackage page={EcommerceWebDesignData.customPackage}/>
 
         <QandA page={QACodeX.CustomDesign} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <ReviewsCodeX page={customDesignData.reviewSection} testimonals={CodeXTestimonalData.customDesign} />
+        <ReviewsCodeX page={EcommerceWebDesignData.reviewSection} testimonals={CodeXTestimonalData.customDesign} />
 
 
         <Footer/>
