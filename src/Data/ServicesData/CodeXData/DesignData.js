@@ -1,6 +1,6 @@
 import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
 import heroImage from '../../../Assets/Images/CommonImages/CodeXImages/CodeXHeroIMG.png'
-import { FaDraftingCompass, FaMagic, FaPaintBrush, FaRocket, FaUsers } from 'react-icons/fa'
+import { FaDraftingCompass, FaMagic, FaPaintBrush, FaPencilRuler, FaRocket, FaShoppingCart, FaUsers } from 'react-icons/fa'
 import { width } from '@mui/system'
 import { IoPeople } from 'react-icons/io5'
 import { GrAchievement, GrOptimize } from 'react-icons/gr'
@@ -358,6 +358,309 @@ export const customDesignData = {
     reviewSection : {
         heading : "Join our community of satisfied UI Clients",
         para : "Heelllo"
+    }
+
+
+
+    
+
+} 
+
+export const EcommerceWebDesignData = {
+    heroSection: {
+        heading: "Elevate Your Online Store with Professional Ecommerce Website Design",
+        para: "Transform your online sales with a custom-designed ecommerce website that combines aesthetics with functionality. Our expert designers create responsive, optimized websites that enhance user experience, streamline navigation, and boost conversions. Step into the future of online selling with a website that not only looks great but also performs flawlessly.",
+        img: heroImage,
+        bg: BG
+    },
+
+    whyNeedSection: {
+        heading: "Why Your Ecommerce Business Needs Custom Web Design Services",
+        whyNeed: [
+            {
+                header: "Establish a Unique Online Identity",
+                text: "Your ecommerce site is the digital storefront of your business. At DevXCloud, we craft personalized designs that resonate with your brand's identity. We use advanced tools like Figma and Adobe XD for prototyping and ensure your website stands out with unique design elements."
+            },
+            {
+                header: "Create a Lasting First Impression",
+                text: "Make the first few seconds count with a website that loads quickly and displays beautifully on all devices. We use the latest frameworks like React and Vue.js to ensure top performance and deliver a professional layout that captures your audience's attention immediately."
+            },
+            {
+                header: "Mobile-First and Responsive Design",
+                text: "With most internet traffic coming from mobile devices, our mobile-first design approach ensures your website provides an excellent user experience on smartphones and tablets. We utilize modern CSS techniques like Flexbox and Grid to create responsive layouts that look great on any screen."
+            },
+            {
+                header: "Interactive and Engaging Features",
+                text: "We integrate interactive elements such as animations, hover effects, and dynamic content that engage visitors and encourage them to explore your products. These features are designed to increase user interaction and enhance the overall shopping experience on your site."
+            },
+            {
+                header: "Performance Optimization",
+                text: "Our websites are optimized for speed and SEO. We implement best practices such as image compression, lazy loading, and proper indexing to ensure your site ranks well in search engines and offers a seamless user experience."
+            },
+            {
+                header: "Continuous Support and Improvement",
+                text: "We provide ongoing support to keep your ecommerce site secure, fast, and up-to-date with the latest web standards. Our team is always ready to implement new features and optimizations that drive sales and improve user engagement."
+            },
+            {
+                header: "Why Choose DevXCloud?",
+                text: "We are leaders in ecommerce website design, offering innovative solutions tailored to your specific needs. Our team is skilled in the latest technologies and committed to delivering designs that drive results."
+            }
+        ]
+    },
+
+    whySection: {
+        heading: "Why Specialized Ecommerce Website Design Matters",
+        para: "In today's competitive market, a well-designed ecommerce website is crucial for attracting and retaining customers. Our expert designs ensure your site is easy to navigate, visually appealing, and optimized for conversions, helping you stand out in the crowded online marketplace.",
+        whyKeys: [
+            {
+                heading: "Tailored Shopping Experiences",
+                explanation: "We create custom shopping experiences that cater to your audience's preferences and behavior, resulting in higher engagement and sales.",
+                icon: <FaShoppingCart/>
+            },
+            {
+                heading: "Advanced User Interface Design",
+                explanation: "Our UI designs are focused on enhancing the user journey on your ecommerce site, making it easy for customers to find and purchase products.",
+                icon: <FaUserCircle/>
+            },
+            {
+                heading: "Seamless Checkout Processes",
+                explanation: "We streamline the checkout process to minimize cart abandonment and maximize conversions. Our designs simplify the purchase path and include multiple payment options to accommodate all users.",
+                icon: <FaCreditCard />
+            },
+            {
+                heading: "Robust Security Features",
+                explanation: "Security is paramount in ecommerce. We incorporate advanced security measures to protect your customers' data and build trust with your audience.",
+                icon: <FaLock/>
+            }
+        ]
+    },
+
+    boostSection: {
+        heading: "Boost Your **Ecommerce Website Designing** with Custom Website Design Services",
+        para: "Our bespoke design services are crafted to address the distinct challenges and opportunities of your **Ecommerce Website Designing**. We emphasize designs that not only captivate but also enhance user interaction and increase conversions, focusing on user-centric, visually appealing, and functional design strategies.",
+        boostContent: [
+            {
+                navigator: "Tailored Product Showcases",
+                matters: "Enhance your product presentation with tailored showcases that emphasize important features and boost purchase rates.",
+                includes: [
+                    "Utilizing premium visuals and dynamic galleries.",
+                    "Developing comprehensive product pages with extensive customization features.",
+                    "Incorporating instant preview modals for quicker product exploration."
+                ],
+                benefit: "Boosted product exposure and enhanced user interaction, leading to elevated sales."
+            },
+            {
+                navigator: "Streamlined Navigation and Enhanced Search",
+                matters: "Facilitate product discovery with streamlined navigation and advanced search functionalities.",
+                includes: [
+                    "Integrating extensive mega menus with detailed categorization.",
+                    "Embedding responsive search bars with predictive text and adaptable filters.",
+                    "Constructing clear breadcrumb trails for straightforward user journeys."
+                ],
+                benefit: "An improved browsing experience that promotes increased transactions."
+            },
+            {
+                navigator: "Conversion-Focused Layouts",
+                matters: "Our designs are strategically focused on maximizing conversion rates across your website, from landing pages to checkout.",
+                includes: [
+                    "Embedding prominent calls-to-action across the website.",
+                    "Applying compelling design elements such as banners and exclusive deals.",
+                    "Simplifying the checkout process to minimize user drop-off.",
+                    "Ensuring responsive design for optimal viewing on all devices.",
+                    "Using psychological triggers in color choices and typography to emphasize key actions."
+                ],
+                benefit: "Elevated conversion rates and greater average purchase values."
+            },
+            {
+                navigator: "Secure and Efficient Checkout",
+                matters: "Streamline the buying process with a secure and user-friendly checkout experience.",
+                includes: [
+                    "Reducing the number of steps to purchase.",
+                    "Highlighting security features and multiple payment options.",
+                    "Optimizing page loading speeds to enhance user satisfaction and minimize abandonment."
+                ],
+                benefit: "A secure and swift checkout process that enhances customer trust and improves conversion rates."
+            }
+        ]  
+    },
+
+    poweredBySection: {
+        heading: "Custom UI <span class='text-[#207DE9]'>Designing Powered by</span> Ecommerce Insights",
+        para: "Harness intuitive and visually impactful designs to boost the ecommerce experience, engage more shoppers, and strengthen your brand identity.",
+        features: [
+            { navigator: "Ecommerce-Centric Design", text: "Our design strategy centers on ecommerce dynamics, focusing on user behavior and commercial needs to create market-leading, responsive, and visually compelling interfaces.", icon: <IoCartSharp className='text-4xl text-[#6ADFD7]' /> },
+            { navigator: "Interactive Ecommerce Prototyping", text: "We develop interactive prototypes tailored to ecommerce, ensuring they align with business objectives, functionality, and provide a fluid shopping experience.", icon: <GrShop className='text-4xl text-[#6ADFD7]' /> },
+            { navigator: "Ecommerce Performance Optimization", text: "Enhance UI designs for optimal performance, including mobile responsiveness and streamlined navigation, to increase shopper satisfaction and retention.", icon: <SiShopify className='text-4xl text-[#6ADFD7]' /> }
+        ],
+        statistics: [
+            { benefit: "Increase in Shopper Engagement", benefitText: "Observe a tangible increase in shopper interactions and engagement metrics through tailored ecommerce UI designs.", increasePercentage: 150 },
+            { benefit: "Reduction in Cart Abandonment Rates", benefitText: "Advanced UI improvements lead to lower abandonment rates and higher retention in ecommerce platforms.", increasePercentage: 60 },
+            { benefit: "Boost in Ecommerce Conversions", benefitText: "Strategic ecommerce UI designs facilitate smoother user journeys, resulting in a significant uptick in conversions.", increasePercentage: 120 }
+        ]
+    },
+    customPackage: {
+        heading: "Elevate Your Online Store with <span class='text-[#207DE9]'>Custom Ecommerce Designs</span> for Seamless Shopping Experiences",
+        mainHeading: "<span class='text-yellow-500'>EcommerceCraft:</span> Custom Ecommerce Designs That Drive Sales",
+        youGet: [
+            "Tailored UI/UX design for 1-5 pages, specialized for ecommerce.",
+            "Mobile-friendly, responsive design across all devices.",
+            "Dynamic product showcases with animations and interactive elements.",
+            "Up to 3 additional ecommerce-focused pages (like product categories, specials, contact).",
+            "SEO optimization tailored to ecommerce to enhance Google visibility.",
+            "Blog/news section for promotions and market updates.",
+            "Optional e-commerce integration with advanced payment gateways (1-10 products).",
+            "Robust Content Management System (CMS) tailored for online stores.",
+            "Enhanced security protocols for customer data protection.",
+            "1-month support for ecommerce-specific troubleshooting and updates."
+        ],
+        buttonText: "Get EcommerceCraft Package"
+    },
+
+    pricingCalc: {
+        heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored UI Designs</span> for Seamless Ecommerce Experiences",
+        requirements: [
+            {item: "Number Of Pages",
+                options: ["5-10", "11-50", "50+"],
+                pricing: [200, 400, 800],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: {width: 300},
+            },
+            {item: "Responsive",
+                options: ["No", "Yes"],
+                pricing: [0, 500],
+                selected: 1,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 1,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: {width: 300},
+            },
+            {item: "Complexity",
+                options: ["Standard", "Advanced", "Highly Interactive"],
+                pricing: [300, 700, 1000],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: {width: 300},
+            },
+            {item: "SEO",
+                options: ["Basic", "Enhanced", "Ecommerce Focused"],
+                pricing: [200, 400, 800],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: {width: 300},
+            },
+            {item: "Copywriting Services",
+                options: ["None", "Product Descriptions", "Full Ecommerce Content"],
+                pricing: [0, 300, 800],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: {width: 300},
+            },
+            {item: "Database Integration",
+                options: ["None Required", "User Profiles", "Product Catalogs", "Custom Ecommerce Solutions"],
+                pricing: [0, 3000, 8000, 15000],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 3,
+                    steps: 1,
+                    defaultValue: 0,
+                },
+                className: {width: 300},
+            },
+            {item: "E-Commerce Setup",
+                options: ["Basic Storefront", "Advanced Features", "Enterprise Scale"],
+                pricing: [3000, 8000, 15000],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 0,
+                },
+                className: {width: 300},
+            },
+            {item: "CMS Integration",
+                options: ["Shopify", "Magento", "Custom Built"],
+                pricing: [2500, 7000, 15000],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 0,
+                },
+                className: {width: 300},
+            }
+        ]
+    },
+
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>Custom Ecommerce UI Design Strategy</span>",
+        para: "Leverage our expertise to craft visually appealing, user-friendly, and functional interfaces tailored to enhance ecommerce platforms, improving user satisfaction, engagement, and sales performance.",
+        approaches: [
+            { 
+                heading: "Ecommerce User Research and Analysis", 
+                detail: 'Conduct in-depth research to understand shopper behavior, goals, and pain points within ecommerce contexts. Design interfaces tailored to user needs, ensuring an intuitive shopping experience.', 
+                icon: <FaShoppingCart />
+            },
+            { 
+                heading: "Wireframing and Prototyping for Ecommerce", 
+                detail: 'Develop wireframes and interactive prototypes to map out the ecommerce interface structure and test functionality. Ensure clarity and usability before the final design phase.', 
+                icon: <FaPencilRuler />
+            },
+            { 
+                heading: "Responsive Ecommerce UI Design", 
+                detail: 'Create visually appealing, adaptable interfaces that work flawlessly across devices, ensuring a seamless shopping experience on desktops, tablets, and mobile screens.', 
+                icon: <MdDevices />
+            },
+            { 
+                heading: "Interactive and Engaging Ecommerce Features", 
+                detail: 'Incorporate animations, hover effects, and interactive elements that captivate shoppers, improve engagement, and provide a memorable shopping experience.', 
+                icon: <FaMagic />
+            },
+            { 
+                heading: "Ecommerce Performance Optimization", 
+                detail: 'Optimize UI elements to improve load speed and performance. Ensure smooth navigation, fast rendering, and frictionless interactions that enhance shopper satisfaction.', 
+                icon: <GrOptimize />
+            },
+        ]
+    },
+
+    reviewSection: {
+        heading: "Join our community of satisfied Ecommerce UI Clients",
+        para: "Experience the transformation our custom ecommerce UI designs bring to online stores, driving more traffic, enhancing user interaction, and significantly increasing sales."
     }
 
 
