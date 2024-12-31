@@ -44,6 +44,33 @@ import BackupandRecovery from "./Pages/Services/CodeX/MLandUpdates/BackupandReco
 import IntegrationUpdates from "./Pages/Services/CodeX/MLandUpdates/IntegrationUpdates.jsx";
 import TechnicalSEOMaintenence from "./Pages/Services/CodeX/MLandUpdates/TechnicalSEOMaintenence.jsx";
 import PerformanceOptimization from "./Pages/Services/CodeX/MLandUpdates/PerformanceOptimization.jsx";
+import PenetrationTesting from "./Pages/Services/CyberAndDevops/CyberSecurity/PenetrationTesting.jsx";
+import Vulnerability from "./Pages/Services/CyberAndDevops/CyberSecurity/Vulnerability.jsx";
+import IncidentResponse from "./Pages/Services/CyberAndDevops/CyberSecurity/IncidentResponse.jsx";
+import Firewall from "./Pages/Services/CyberAndDevops/CyberSecurity/Firewall.jsx";
+import DataEncryption from "./Pages/Services/CyberAndDevops/CyberSecurity/DataEncryption.jsx";
+import CompilanceManagement from "./Pages/Services/CyberAndDevops/CyberSecurity/CompilanceManagement.jsx";
+import ZeroTrust from "./Pages/Services/CyberAndDevops/CyberSecurity/ZeroTrust.jsx";
+import ServerlessImplementation from "./Pages/Services/CyberAndDevops/Devops/ServerlessImplementation.jsx";
+import APIManagement from "./Pages/Services/CyberAndDevops/Devops/APIManagement.jsx";
+import AutomatedWebDeployement from "./Pages/Services/CyberAndDevops/Devops/AutomatedWebDeployement.jsx";
+import CloudNative from "./Pages/Services/CyberAndDevops/Devops/CloudNative.jsx";
+import LoadTesting from "./Pages/Services/CyberAndDevops/Devops/LoadTesting.jsx";
+import MultiCloud from "./Pages/Services/CyberAndDevops/Devops/MultiCloud.jsx";
+import KubernetesandDocker from "./Pages/Services/CyberAndDevops/Devops/KubernetesandDocker.jsx";
+import AIandGPTIntegration from "./Pages/Services/AIandDataScience/AI/AIandGPTIntegration.jsx";
+import AIDrivenPersonalization from "./Pages/Services/AIandDataScience/AI/AIDrivenPersonalization.jsx";
+import AIPoweredAutomation from "./Pages/Services/AIandDataScience/AI/AIPoweredAutomation.jsx";
+import NLPSolutions from "./Pages/Services/AIandDataScience/AI/NLPSolutions.jsx";
+import VoiceInterFaces from "./Pages/Services/AIandDataScience/AI/VoiceInterFaces.jsx";
+import ChatBotsandVirtualAssistant from "./Pages/Services/AIandDataScience/AI/ChatBotsandVirtualAssistant.jsx";
+import PowerAutomate from "./Pages/Services/AIandDataScience/DataAnalysis/PowerAutomate.jsx";
+import PowerBIDashboards from "./Pages/Services/AIandDataScience/DataAnalysis/PowerBIDashboards.jsx";
+import ExcelInsights from "./Pages/Services/AIandDataScience/DataAnalysis/ExcelInsights.jsx";
+import PredictiveAnalytics from "./Pages/Services/AIandDataScience/DataAnalysis/PredictiveAnalytics.jsx";
+import DataCleaning from "./Pages/Services/AIandDataScience/DataAnalysis/DataCleaning.jsx";
+import BigDataSolutions from "./Pages/Services/AIandDataScience/DataAnalysis/BigDataSolutions.jsx";
+import SentimentAnalysis from "./Pages/Services/AIandDataScience/DataAnalysis/SentimentAnalysis.jsx";
 
 
 function App() {
@@ -103,19 +130,10 @@ function App() {
           <Route path="/mobile-app-development" element={<MobAppDev/>}/>
 
 
-          
+  
           </>
 
           <> {/* Maintenence Pages  */}
-          {/* heading: "Machine Learnig & Updates",
-      types: [
-        { path: '/web-infrastructure-maintenance', type: 'Web Infrastructure & Maintenance' },
-        { path: '/security-monitoring-and-updates', type: 'Security Monitoring and Updates' },
-        { path: '/backup-and-recovery-solutions', type: 'Backup & Recovery Solutions' },
-        { path: '/integration-updates', type: 'Integration Updates' },
-        { path: '/technical-seo-maintenance', type: 'Technical SEO Maintenance' },
-        { path: '/performance-optimization', type: 'Performance Optimization' },]
-    }, */}
           <Route path="/web-infrastructure-maintenance" element={<WebMaintenence/>}/>
           <Route path="/security-monitoring-and-updates" element={<SecurityUpdates/>}/>
           <Route path="/backup-and-recovery-solutions" element={<BackupandRecovery/>}/>
@@ -125,8 +143,50 @@ function App() {
 
           </>
 
+          {/* CyberSecurity And Devops  */}
 
+          <> {/* Cyber Security  */}
+          <Route path="/penetration-testing" element={<PenetrationTesting/>}/>
+          <Route path="/vulnerability-assessment-and-management" element={<Vulnerability/>}/>
+          <Route path="/incident-response-and-recovery" element={<IncidentResponse/>}/>
+          <Route path="/firewall-and-network-security-setup" element={<Firewall/>}/>
+          <Route path="/data-encryption-solutions" element={<DataEncryption/>}/>
+          <Route path="/compliance-management" element={<CompilanceManagement/>}/>
+          <Route path="/zero-trust-architecture" element={<ZeroTrust/>}/>  
+          </>
+
+          <> {/* Devops  */}
+
+          <Route path="/serverless-architecture-implementation" element={<ServerlessImplementation/>}/>
+          <Route path="/api-management-and-automation" element={<APIManagement/>}/>
+          <Route path="/automated-web-deployment" element={<AutomatedWebDeployement/>}/>
+          <Route path="/cloud-native-web-application" element={<CloudNative/>}/>
+          <Route path="/load-testing-and-performance-optimization" element={<LoadTesting/>}/>
+          <Route path="/multi-cloud-web-infrastructure-setup" element={<MultiCloud/>}/>
+          <Route path="/kubernetes-docker-containerization" element={<KubernetesandDocker/>}/>
+
+          </>
+
+          <> {/* AI  */}
+          <Route path="/ai-and-gpt-integration" element={<AIandGPTIntegration/>}/>
+          <Route path="/ai-driven-personalization-engines" element={<AIDrivenPersonalization/>}/>
+          <Route path="/ai-powered-automation-and-optimization" element={<AIPoweredAutomation/>}/>
+          <Route path="/natural-language-processing-nlp-solutions" element={<NLPSolutions/>}/>
+          <Route path="/ai-powered-voice-interfaces" element={<VoiceInterFaces/>}/>
+          <Route path="/ai-chatbots-virtual-assistants" element={<ChatBotsandVirtualAssistant/>}/>
+          </>
           
+          <> {/* Data Analysis  */}
+
+          <Route path="/power-automate" element={<PowerAutomate/>}/>
+          <Route path="/power-bi-dashboards" element={<PowerBIDashboards/>}/>
+          <Route path="/excel-insights" element={<ExcelInsights/>}/>
+          <Route path="/predictive-analytics-and-machine-learning" element={<PredictiveAnalytics/>}/>
+          <Route path="/data-cleaning-and-preprocessing" element={<DataCleaning/>}/>
+          <Route path="/big-data-analytics-solutions" element={<BigDataSolutions/>}/>
+          <Route path="/sentiment-analysis" element={<SentimentAnalysis/>}/>
+
+          </>
           {/* Why Us Pages  */}
           <Route path="/why-us" element={<WhyUs/>} />
 

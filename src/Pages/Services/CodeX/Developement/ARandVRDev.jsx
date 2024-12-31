@@ -22,28 +22,28 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
 import {  CodeXTestimonalData } from '../../../../Data/TestimonalData'
-import { customDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
+import { arAndVrDevData } from '../../../../Data/ServicesData/CodeXData/DevelopmentData'
 
 
 const ARandVRDev = () => {
   return (
     <div className='w-full'>
         <Nav/>
-        <HeroCodeX page={customDesignData.heroSection}/>
-        <WhyNeed page={customDesignData.whyNeedSection}/>
-        <PricingCalc page={customDesignData.pricingCalc} />
-        <WhyMattersCodeX page={customDesignData.whySection}/>  
-        <BoosterCodeX page={customDesignData.boostSection}/>
+        <HeroCodeX page={arAndVrDevData.heroSection}/>
+        <WhyNeed page={arAndVrDevData.whyNeedSection}/>
+        <PricingCalc page={arAndVrDevData.pricingCalc} />
+        <WhyMattersCodeX page={arAndVrDevData.whySection}/>  
+        <BoosterCodeX page={arAndVrDevData.boostSection}/>
         {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
-        <ApproachCodeX page={customDesignData.approachSection}/>
+        <ApproachCodeX page={arAndVrDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
         
-        <UniquePackage page={customDesignData.customPackage}/>
+        <UniquePackage page={arAndVrDevData.customPackage}/>
 
         <QandA page={QACodeX.CustomDesign} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 
-        <ReviewsCodeX page={customDesignData.reviewSection} testimonals={CodeXTestimonalData.customDesign} />
+        <ReviewsCodeX page={arAndVrDevData.reviewSection} testimonals={CodeXTestimonalData.customDesign} />
 
 
         <Footer/>

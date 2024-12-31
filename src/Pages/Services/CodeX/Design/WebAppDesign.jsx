@@ -34,7 +34,6 @@ const WebAppDesign = () => {
         <PricingCalc page={webAppDesignData.pricingCalc} />
         <WhyMattersCodeX page={webAppDesignData.whySection}/>  
         <BoosterCodeX page={webAppDesignData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={webAppDesignData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
