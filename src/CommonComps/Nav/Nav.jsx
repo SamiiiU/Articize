@@ -93,7 +93,7 @@ const Nav = () => {
 
             {mainNavData.map((category , index)=> (
               <span key={index} onMouseEnter={() => navHandler(index)}  className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
-              <h1 className='flex-1  text-md'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
+              <h1 className='flex-1 2xl:text-lg text-sm text-md'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
               </span>
             ))}
 
