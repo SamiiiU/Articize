@@ -14,20 +14,20 @@ import QandA from '../../../../CommonComps/QandA/QandA'
 import Footer from '../../../../CommonComps/Footer/Footer'
 
 import { QAsma } from '../../../../Data/QueANDAns'
-import { penetrationTestingData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
+import { compilanceManagementData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
 
 const CompilanceManagement = () => {
   return (
     <div className='w-full'>
       <Nav/>
 
-      <HeroCyberandDevops page={penetrationTestingData.heroSection} />
-      <CustomPricingCyberandDevops page={penetrationTestingData.customPricing}/>
-      <BuiltPurpose page={penetrationTestingData.builtPurpose}/>
-      <MakeBetter page={penetrationTestingData.makeBetter}/>
-      <RealResults page={penetrationTestingData.realResults}/>
-      <WeGot page={penetrationTestingData.weGot}/>
-      <WhyNeedCyberAndDevops page={penetrationTestingData.whyNeed}/>
+      <HeroCyberandDevops page={compilanceManagementData.heroSection} />
+      <CustomPricingCyberandDevops page={compilanceManagementData.customPricing}/>
+      <BuiltPurpose page={compilanceManagementData.builtPurpose}/>
+      <MakeBetter page={compilanceManagementData.makeBetter}/>
+      <RealResults page={compilanceManagementData.realResults}/>
+      <WeGot page={compilanceManagementData.weGot}/>
+      <WhyNeedCyberAndDevops page={compilanceManagementData.whyNeed}/>
 
       <QandA page={QAsma.BasicSMA}/>
 

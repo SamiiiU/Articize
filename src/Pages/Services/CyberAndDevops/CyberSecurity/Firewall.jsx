@@ -14,20 +14,20 @@ import QandA from '../../../../CommonComps/QandA/QandA'
 import Footer from '../../../../CommonComps/Footer/Footer'
 
 import { QAsma } from '../../../../Data/QueANDAns'
-import { penetrationTestingData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
+import { firewallData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
 
 const Firewall = () => {
   return (
     <div className='w-full'>
       <Nav/>
 
-      <HeroCyberandDevops page={penetrationTestingData.heroSection} />
-      <CustomPricingCyberandDevops page={penetrationTestingData.customPricing}/>
-      <BuiltPurpose page={penetrationTestingData.builtPurpose}/>
-      <MakeBetter page={penetrationTestingData.makeBetter}/>
-      <RealResults page={penetrationTestingData.realResults}/>
-      <WeGot page={penetrationTestingData.weGot}/>
-      <WhyNeedCyberAndDevops page={penetrationTestingData.whyNeed}/>
+      <HeroCyberandDevops page={firewallData.heroSection} />
+      <CustomPricingCyberandDevops page={firewallData.customPricing}/>
+      <BuiltPurpose page={firewallData.builtPurpose}/>
+      <MakeBetter page={firewallData.makeBetter}/>
+      <RealResults page={firewallData.realResults}/>
+      <WeGot page={firewallData.weGot}/>
+      <WhyNeedCyberAndDevops page={firewallData.whyNeed}/>
 
       <QandA page={QAsma.BasicSMA}/>
 

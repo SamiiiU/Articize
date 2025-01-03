@@ -14,20 +14,20 @@ import QandA from '../../../../CommonComps/QandA/QandA'
 import Footer from '../../../../CommonComps/Footer/Footer'
 
 import { QAsma } from '../../../../Data/QueANDAns'
-import { penetrationTestingData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
+import { zeroTrustData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
 
 const ZeroTrust = () => {
   return (
     <div className='w-full'>
       <Nav/>
 
-      <HeroCyberandDevops page={penetrationTestingData.heroSection} />
-      <CustomPricingCyberandDevops page={penetrationTestingData.customPricing}/>
-      <BuiltPurpose page={penetrationTestingData.builtPurpose}/>
-      <MakeBetter page={penetrationTestingData.makeBetter}/>
-      <RealResults page={penetrationTestingData.realResults}/>
-      <WeGot page={penetrationTestingData.weGot}/>
-      <WhyNeedCyberAndDevops page={penetrationTestingData.whyNeed}/>
+      <HeroCyberandDevops page={zeroTrustData.heroSection} />
+      <CustomPricingCyberandDevops page={zeroTrustData.customPricing}/>
+      <BuiltPurpose page={zeroTrustData.builtPurpose}/>
+      <MakeBetter page={zeroTrustData.makeBetter}/>
+      <RealResults page={zeroTrustData.realResults}/>
+      <WeGot page={zeroTrustData.weGot}/>
+      <WhyNeedCyberAndDevops page={zeroTrustData.whyNeed}/>
 
       <QandA page={QAsma.BasicSMA}/>
 

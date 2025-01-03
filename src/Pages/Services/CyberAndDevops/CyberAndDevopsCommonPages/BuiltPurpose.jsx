@@ -12,11 +12,17 @@ const BuiltPurpose = ({page}) => {
     }
 
     const handleLearnMore = () => {
-        setIsLearnMore(true)
-        includesContainer.current?.scrollIntoView({ behavior: 'smooth' });
+        setIsLearnMore(true);
     
-        // add more logic that whenever button is Clicked , it scrolls to that section
-    }
+        if (includesContainer.current) {
+            const offsetTop = includesContainer.current.offsetTop; // Get the top offset of the container
+            const adjustment = 100; // Adjust this value to scroll slightly above
+            window.scrollTo({
+                top: offsetTop - adjustment,
+                behavior: 'smooth',
+            });
+        }
+    };
   return (
     <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center '> 
             <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'

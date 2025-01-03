@@ -14,20 +14,20 @@ import QandA from '../../../../CommonComps/QandA/QandA'
 import Footer from '../../../../CommonComps/Footer/Footer'
 
 import { QAsma } from '../../../../Data/QueANDAns'
-import { penetrationTestingData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
+import { encryptionSolutionsData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
 
 const DataEncryption = () => {
   return (
     <div className='w-full'>
       <Nav/>
 
-      <HeroCyberandDevops page={penetrationTestingData.heroSection} />
-      <CustomPricingCyberandDevops page={penetrationTestingData.customPricing}/>
-      <BuiltPurpose page={penetrationTestingData.builtPurpose}/>
-      <MakeBetter page={penetrationTestingData.makeBetter}/>
-      <RealResults page={penetrationTestingData.realResults}/>
-      <WeGot page={penetrationTestingData.weGot}/>
-      <WhyNeedCyberAndDevops page={penetrationTestingData.whyNeed}/>
+      <HeroCyberandDevops page={encryptionSolutionsData.heroSection} />
+      <CustomPricingCyberandDevops page={encryptionSolutionsData.customPricing}/>
+      <BuiltPurpose page={encryptionSolutionsData.builtPurpose}/>
+      <MakeBetter page={encryptionSolutionsData.makeBetter}/>
+      <RealResults page={encryptionSolutionsData.realResults}/>
+      <WeGot page={encryptionSolutionsData.weGot}/>
+      <WhyNeedCyberAndDevops page={encryptionSolutionsData.whyNeed}/>
 
       <QandA page={QAsma.BasicSMA}/>
 

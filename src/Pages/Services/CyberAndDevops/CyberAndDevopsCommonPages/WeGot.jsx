@@ -22,7 +22,7 @@ const WeGot = ({page}) => {
             <div  
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
-                className='w-[300px] rounded-xl p-4 min-h-40 relative ' key={index} style={{boxShadow : activeIndex === index ? "0px 5px 10px rgba(0, 0, 0, 0.2)" : "0px 10px 20px rgba(0, 0, 0, 0.1)"}}>
+                className='w-[300px] rounded-xl p-4 min-h-40 relative transition-all' key={index} style={{boxShadow : activeIndex === index ? "0px 5px 10px rgba(0, 0, 0, 0.2)" : "0px 10px 20px rgba(0, 0, 0, 0.1)"}}>
                 <h1 className='my-4 text-left font-bold'>{have.header}</h1>
                 <p className='mb-8 text-left text-sm'>{have.para}</p>
 
