@@ -14,20 +14,20 @@ import QandA from '../../../../CommonComps/QandA/QandA'
 import Footer from '../../../../CommonComps/Footer/Footer'
 
 import { QAsma } from '../../../../Data/QueANDAns'
-import { penetrationTestingData } from '../../../../Data/ServicesData/CyberAndDevOpsData/CyberSecurityData'
+import { serverLessImplementationData } from '../../../../Data/ServicesData/CyberAndDevOpsData/DevopsData'
 
 const ServerlessImplementation = () => {
   return (
     <div className='w-full'>
       <Nav/>
 
-      <HeroCyberandDevops page={penetrationTestingData.heroSection} />
-      <CustomPricingCyberandDevops page={penetrationTestingData.customPricing}/>
-      <BuiltPurpose page={penetrationTestingData.builtPurpose}/>
-      <MakeBetter page={penetrationTestingData.makeBetter}/>
-      <RealResults page={penetrationTestingData.realResults}/>
-      <WeGot page={penetrationTestingData.weGot}/>
-      <WhyNeedCyberAndDevops page={penetrationTestingData.whyNeed}/>
+      <HeroCyberandDevops page={serverLessImplementationData.heroSection} />
+      <CustomPricingCyberandDevops page={serverLessImplementationData.customPricing}/>
+      <BuiltPurpose page={serverLessImplementationData.builtPurpose}/>
+      <MakeBetter page={serverLessImplementationData.makeBetter}/>
+      <RealResults page={serverLessImplementationData.realResults}/>
+      <WeGot page={serverLessImplementationData.weGot}/>
+      <WhyNeedCyberAndDevops page={serverLessImplementationData.whyNeed}/>
 
       <QandA page={QAsma.BasicSMA}/>
 

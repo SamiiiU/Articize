@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 
 
-const HeroCodeX = ({page}) => {
+const HeroAI = ({page}) => {
 
   return (
     <div className='w-full xl:min-h-[80vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
@@ -28,4 +28,4 @@ const HeroCodeX = ({page}) => {
   )
 }
 
-export default HeroCodeX
+export default HeroAI

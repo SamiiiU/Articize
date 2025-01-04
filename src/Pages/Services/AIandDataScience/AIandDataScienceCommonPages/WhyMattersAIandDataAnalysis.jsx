@@ -1,18 +1,14 @@
 import React, {  useState } from 'react'
 
 import { AnimatePresence, motion } from 'framer-motion';
-import DiscreteSlider from '../../../../MUIComps/DiscreteSlider';
 
-const WhyMattersCodeX = ({page}) => {
+const WhyMattersAIandDataAnalysis = ({page}) => {
     const [showKeyIndex , setshowKeyIndex] = useState(null)
 
     const toggleShowKeyDetail = (idx) =>{
         
         setshowKeyIndex(showKeyIndex === idx ? null : idx)
     }
-
-  
-    
 
   return (
     <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
@@ -54,4 +50,4 @@ const WhyMattersCodeX = ({page}) => {
   )
 }
 
-export default WhyMattersCodeX
+export default WhyMattersAIandDataAnalysis
