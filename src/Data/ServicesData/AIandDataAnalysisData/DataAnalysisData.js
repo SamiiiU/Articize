@@ -7,7 +7,7 @@ import { LuBrainCircuit } from 'react-icons/lu'
 import { PiGearFineBold } from 'react-icons/pi'
 import { FaArrowsAlt, FaChartLine, FaClock, FaCog, FaCogs, FaDatabase, FaExpandAlt, FaFileAlt, FaHeart, FaMoneyBillAlt, FaSearch, FaSyncAlt, FaTools, FaUserAlt } from 'react-icons/fa'
 import { MdOutlineConnectingAirports, MdOutlineDevicesOther, MdOutlineIntegrationInstructions, MdOutlineLanguage, MdOutlineTranslate, MdScreenRotation } from 'react-icons/md'
-import { IoMdAnalytics, IoMdChatboxes, IoMdChatbubbles, IoMdMic, IoMdTrendingUp } from 'react-icons/io'
+import { IoMdAnalytics, } from 'react-icons/io'
 
 
 export const powerAutomateData = {
