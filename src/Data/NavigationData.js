@@ -387,12 +387,13 @@ export const mobNavigationData = [
     subHeadings: [
       {
         title: "Artificial Intelligence (AI)",
-        links: [
+        links: [          
           { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
           { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
           { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
           { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
           { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
         ],
       },
       {

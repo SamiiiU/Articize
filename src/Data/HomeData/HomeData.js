@@ -74,6 +74,107 @@ const HomeData = {
     },
 
   ],
+
+  deliveryProcess : [
+    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
+    
+    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
+    
+    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
+    
+    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
+    
+    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
+
+  ],
+
+  driveTrafic : [
+      //AI-Driven Development
+
+  {mainHeading: "AI-Driven Development",
+    mainPara : "AI-Driven Development focuses on the symbiosis of artificial intelligence and software development to craft smarter, more efficient applications and systems. This approach leverages AI to automate coding processes, optimize workflows, and enhance decision-making throughout the development lifecycle. By integrating AI tools and methodologies directly into the development process, this category offers solutions that not only speed up production but also improve the quality and functionality of the end products. AI-Driven Development is ideal for businesses looking to innovate, offering advanced capabilities like predictive analytics, machine learning models, and AI-powered optimizations that transform traditional development into a dynamic, future-ready proces",
+    subHeadings: [
+      {title: "Artificial Intelligence (AI)",
+        links: [
+          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        ],
+      },
+      {title: "Development",
+        links: [    
+            { path: '/responsive-website-development', type: 'Responsive Website Development' },
+            { path: '/web-application-development', type: 'Web Application Development' },
+            { path: '/shopify-ecommerce-development', type: 'Shopify E-commerce Development' },
+            { path: '/ar-vr-development', type: 'AR/VR Development' },
+            { path: '/api-development-and-integration', type: 'API Development and Integration' },
+            { path: '/custom-software-development', type: 'Custom Software Development' },
+            { path: '/mobile-app-development', type: 'Mobile App Development' },
+        ],
+      },
+    ],
+  },
+  //SECURE AND OPTIMIZE 
+  {mainHeading: "SECURE AND OPTIMIZE",
+    mainPara : "Enhance your website’s security and performance with our dedicated services. We focus on implementing advanced security measures and performance optimizations to ensure your website operates at peak efficiency. Protect your site from threats while boosting speed and responsiveness for a seamless user experience.",
+    subHeadings: [
+      {title: "Cybersecurity",
+        links: [
+          { path: '/penetration-testing', type: 'Penetration Testing' },
+          { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
+          { path: '/incident-response-and-recovery', type: 'Incident Response and Recovery' },
+
+          { path: '/firewall-and-network-security-setup', type: 'Firewall and Network Security Setup' },
+          { path: '/data-encryption-solutions', type: 'Data Encryption Solutions' },
+          { path: '/compliance-management', type: 'Compliance Management' },
+          { path: '/zero-trust-architecture', type: 'Zero Trust Architecture' },
+        ],
+      },
+      {title: "DevOps",
+        links: [
+          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+          { path: '/api-management-and-automation', type: 'API Management and Automation' },
+          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+        ],
+      },
+    ],
+  },
+  //LEVERAGE AI AND ANALYTICS
+  {mainHeading: "LEVERAGE AI AND ANALYTICS",
+    mainPara : "Unlock the potential of AI and analytics to drive decision-making and improve business outcomes. Our services integrate AI technologies and provide comprehensive data analysis to transform your operations and strategy, ensuring you stay ahead in a data-driven world.",
+    subHeadings: [
+      {title: "Artificial Intelligence (AI)",
+        links: [
+          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        ],
+      },
+      {title: "DevOps",
+        links: [
+          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+          { path: '/api-management-and-automation', type: 'API Management and Automation' },
+          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+        ],
+      },
+    ],
+  },
+
+  ],
   Power: [
    
 

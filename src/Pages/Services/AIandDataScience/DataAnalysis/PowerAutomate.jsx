@@ -19,7 +19,7 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
-import { AiandGPTData } from '../../../../Data/ServicesData/AIandDataAnalysisData/AiData'
+import { powerAutomateData } from '../../../../Data/ServicesData/AIandDataAnalysisData/DataAnalysisData'
 
 
 
@@ -27,20 +27,20 @@ const PowerAutomate = () => {
   return (
     <div className='w-full'>
     <Nav/>
-    <HeroAI page={AiandGPTData.heroSection}/>
-    <CustomPricingAIandDataAnalysis page={AiandGPTData.customPricing}/>
-    <DiscoverAIandDataAnalysis page={AiandGPTData.discover}/>
+    <HeroAI page={powerAutomateData.heroSection}/>
+    <CustomPricingAIandDataAnalysis page={powerAutomateData.customPricing}/>
+    <DiscoverAIandDataAnalysis page={powerAutomateData.discover}/>
 
-    <BuiltPurposeAIandDataAnalysis page={AiandGPTData.builtPurpose}/>
+    <BuiltPurposeAIandDataAnalysis page={powerAutomateData.builtPurpose}/>
 
 
     <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
 
-    <ApproachAI page={AiandGPTData.approachSection}/>
+    <ApproachAI page={powerAutomateData.approachSection}/>
 
-    <ProcessOfAIandDataAnalysis page={AiandGPTData.process}/>
+    <ProcessOfAIandDataAnalysis page={powerAutomateData.process}/>
     
-    <WhyMattersAIandDataAnalysis page={AiandGPTData.whyChoose}/>
+    <WhyMattersAIandDataAnalysis page={powerAutomateData.whyChoose}/>
 
     <QandA page={QACodeX.CustomDesign} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 

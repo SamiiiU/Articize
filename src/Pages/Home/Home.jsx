@@ -15,6 +15,9 @@ import FuelingInnovation from './HomeComps/FuelingInnovation';
 import InsideCompany from './HomeComps/InsideCompany';
 import QandA from '../../CommonComps/QandA/QandA';
 import { QAhome } from '../../Data/QueANDAns';
+import SolutionChart from './HomeComps/SolutionChart';
+import DeliveryProcess from './HomeComps/DeliveryProcess';
+import DriveTraffic from './HomeComps/DriveTraffic';
 
 const Home = () => {
   useEffect(() => {
@@ -24,6 +27,9 @@ const Home = () => {
     <div className='w-full  '>
         <Nav/>
         <Hero/>
+        <SolutionChart/>
+        <DeliveryProcess/>
+        <DriveTraffic/>
         <PathToSuccess/>
         <PowerOfMarketing/>
         <FuelingInnovation/>
