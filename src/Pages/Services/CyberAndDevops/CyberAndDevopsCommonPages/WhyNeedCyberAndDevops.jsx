@@ -7,7 +7,7 @@ const WhyNeedCyberAndDevops = ({page}) => {
         dangerouslySetInnerHTML={{
             __html: page.heading, 
           }}
-        >
+        >       
         </h1>
 
         <div className='w-full flex flex-wrap  '>

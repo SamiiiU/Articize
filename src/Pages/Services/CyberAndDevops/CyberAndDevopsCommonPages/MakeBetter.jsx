@@ -24,7 +24,7 @@ const MakeBetter = ({page}) => {
       {screenWidth > 640 && (
         <>
         {page.makes.map((make , index ) => (
-            <div key={index} className='w-full flex my-8 items-center gap-10 flex-wrap '>
+            <div key={index} className='w-full flex my-8 items-center  gap-10 flex-wrap '>
                 {index % 2 == 0 ? (
                     <>
                     <div className='flex-1 text-left'>

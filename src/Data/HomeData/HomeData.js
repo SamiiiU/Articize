@@ -89,8 +89,45 @@ const HomeData = {
   ],
 
   driveTrafic : [
-      //AI-Driven Development
 
+   //Drive Targetted Traffic
+  {mainHeading: "Drive Targetted Traffic",
+    mainPara : "Are you looking to boost your website's visibility and attract more qualified visitors? We harness the power of advanced digital strategies to pinpoint and engage your ideal audience. Wondering how to convert clicks into customers and outshine your competition? Our integrated approach not only draws in traffic but ensures it’s the right traffic, optimizing every interaction for maximum engagement and conversion. Ready to see your online presence soar? Our related services are listed below, designed to enhance your website and help attract more traffic effectively.",
+    subHeadings: [
+      {title: "SEO Services",
+        links: [
+          { path: '/ecommerce-seo', type: 'E-commerce SEO' },
+          { path: '/local-seo', type: 'Local SEO' },
+          { path: '/technical-seo', type: 'Technical SEO' },
+          { path: '/content-seo', type: 'Content SEO' },
+          { path: '/international-seo', type: 'International SEO' },
+          { path: '/seo-audits', type: 'SEO Audits' },
+          { path: '/video-seo', type: 'Video SEO' },
+        ],
+      },
+      {title: "Social Media Advertisement",
+        links: [    
+          { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
+          { path: '/programmatic-advertising', type: "Programmatic Advertising" },
+          { path: '/enterprise-smm', type: "Enterprise (SMM)" },
+          { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
+          { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
+        ],
+      },
+      {title: "Pay Per Click",
+        links: [    
+          { path: '/google-ads-ppc', type: 'Google Ads PPC' },
+          { path: '/amazon-ppc', type: 'Amazon PPC' },
+          { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
+          { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
+          { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
+          { path: '/youtube-ppc', type: 'YouTube PPC' },
+          { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
+        ],
+      },
+    ],
+  },
+  //AI-Driven Development
   {mainHeading: "AI-Driven Development",
     mainPara : "AI-Driven Development focuses on the symbiosis of artificial intelligence and software development to craft smarter, more efficient applications and systems. This approach leverages AI to automate coding processes, optimize workflows, and enhance decision-making throughout the development lifecycle. By integrating AI tools and methodologies directly into the development process, this category offers solutions that not only speed up production but also improve the quality and functionality of the end products. AI-Driven Development is ideal for businesses looking to innovate, offering advanced capabilities like predictive analytics, machine learning models, and AI-powered optimizations that transform traditional development into a dynamic, future-ready proces",
     subHeadings: [
@@ -149,6 +186,62 @@ const HomeData = {
   //LEVERAGE AI AND ANALYTICS
   {mainHeading: "LEVERAGE AI AND ANALYTICS",
     mainPara : "Unlock the potential of AI and analytics to drive decision-making and improve business outcomes. Our services integrate AI technologies and provide comprehensive data analysis to transform your operations and strategy, ensuring you stay ahead in a data-driven world.",
+    subHeadings: [
+      {title: "Artificial Intelligence (AI)",
+        links: [
+          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        ],
+      },
+      {title: "DevOps",
+        links: [
+          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+          { path: '/api-management-and-automation', type: 'API Management and Automation' },
+          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+        ],
+      },
+    ],
+  },
+
+  //Digital Dynamics
+  {mainHeading: "Digital Dynamics",
+    mainPara : "Elevate your online presence and drive superior digital performance with our \"Digital Dynamics\" services. At the core, our Development team focuses on crafting robust, scalable websites and applications tailored to your unique business needs. Enhance your visibility and attract more targeted traffic with our expert SEO (Search Engine Optimization) strategies, designed to optimize your website for top search engine rankings. Complementing SEO, our PPC (Pay-Per-Click) campaigns are strategically developed to maximize your advertising ROI, targeting the right audiences at the right time. Together, these services synergize to create a dynamic digital ecosystem that not only reaches but captivates and converts your ideal customers.",
+    subHeadings: [
+      {title: "Artificial Intelligence (AI)",
+        links: [
+          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        ],
+      },
+      {title: "DevOps",
+        links: [
+          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+          { path: '/api-management-and-automation', type: 'API Management and Automation' },
+          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+        ],
+      },
+    ],
+  },
+
+  //Secure Development Solutions
+  {mainHeading: "Secure Development Solutions",
+    mainPara : "Secure Development Solutions focus on embedding security at the core of software development practices. This proactive approach involves integrating security protocols and tools from the earliest stages of development to mitigate risks, prevent vulnerabilities, and ensure compliance with industry standards. By combining development expertise with advanced cyber security measures, this category delivers secure applications and infrastructure that are resistant to both current and emerging threats. Ideal for organizations prioritizing data protection and system integrity, Secure Development Solutions provide a comprehensive framework that enhances both the security and performance of technological assets.  ",
     subHeadings: [
       {title: "Artificial Intelligence (AI)",
         links: [

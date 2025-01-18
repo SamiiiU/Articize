@@ -30,13 +30,13 @@ const Home = () => {
         <SolutionChart/>
         <DeliveryProcess/>
         <DriveTraffic/>
-        <PathToSuccess/>
+        {/* <PathToSuccess/> */}
         <PowerOfMarketing/>
         <FuelingInnovation/>
         <Revenue/>
         <BusinessGoals/>
         <QandA page={QAhome}/>
-        <KPIoptimization/>
+        {/* <KPIoptimization/> */}
 
         <CTA heading = {"Start Your Free Project Consultation Today!"} />
         <InsideCompany/>

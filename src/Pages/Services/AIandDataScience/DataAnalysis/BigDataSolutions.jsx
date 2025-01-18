@@ -19,7 +19,8 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
-import { AiandGPTData } from '../../../../Data/ServicesData/AIandDataAnalysisData/AiData'
+import { bi } from '../../../../Data/ServicesData/AIandDataAnalysisData/DataAnalysisData'
+
 
 
 

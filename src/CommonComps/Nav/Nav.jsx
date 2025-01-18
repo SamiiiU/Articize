@@ -12,16 +12,16 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 
 const Nav = () => {
-    const navigate = useNavigate();
-    const {states} = useContext(ContextAPI)
-    const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
-    const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
-    const [isSmallMenu , setIsSmallMenu] = useState(true)
-    const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
+  const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
+  const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
 
 
-    const [currDataIndex , setCurrDataIndex] = useState(0)// state for managing current nav data to show
-    
+  const [currDataIndex , setCurrDataIndex] = useState(0)// state for managing current nav data to show
+  
     //handler for main screen navigation 
     const navHandler = (index) =>{
         setCurrDataIndex(index);
@@ -30,6 +30,28 @@ const Nav = () => {
           setIsBigMenu(false)
         }
     }
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const currentScrollY = window.scrollY;
+  
+        if (currentScrollY > lastScrollY && currentScrollY > 50) {
+          // User is scrolling down
+          setIsNavbarVisible(false);
+        } else {
+          // User is scrolling up
+          setIsNavbarVisible(true);
+        }
+  
+        setLastScrollY(currentScrollY);
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, [lastScrollY]);
 
    
     
@@ -76,16 +98,12 @@ const Nav = () => {
     <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-1/2 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>  
     
     {/* services detailed navigation div starts here  */}
-    
-
-      
-
 
 
     {/* main navigation for large devices is here started  */}
     {scrwidth > 1280 ? (
-        <div onMouseLeave={() => navHandler(null)}>
-        <div  className='z-50 fixed w-full px-10  flex  items-center shadow-sm text-white bg-white'>
+        <div onMouseLeave={() => navHandler(null)} >
+        <div  className={`z-50 fixed w-full px-10 transition-all ${isNavbarVisible ? 'translate-y-0' : '-translate-y-20'} flex  items-center shadow-sm text-white bg-white`}>
           {/* Logo image started  */}
         <Link to="/" className='w-[10%] h-16  px-4  ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
         {/* Logo image done  */}
