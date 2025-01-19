@@ -271,7 +271,7 @@ const HomeData = {
   Power: [
 
 
-    { name: "Solutions", 
+    { name: "Integrated Cybersecurity Solutions", 
       icon: salesIcon, 
       container: { 
         heading: "Integrated Cybersecurity Solutions", 

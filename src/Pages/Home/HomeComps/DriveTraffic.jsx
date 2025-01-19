@@ -48,21 +48,21 @@ const DriveTraffic = () => {
       </div>
 
       <div  className='my-8 p-4'>
-        <h1 className='lg:text-5xl mb-4 text-2xl font-[800]'>{HomeData.driveTrafic[selected].mainHeading}</h1>
+        <h1 className='lg:text-5xl mb-8 text-2xl text-[#207DE9] font-[800]'>{HomeData.driveTrafic[selected].mainHeading}</h1>
       
       
-      <p className='2xl:text-xl mb-4 text-lg font-normal text-[#0b1720] '>{HomeData.driveTrafic[selected].mainPara}</p>
+      <p className='2xl:text-xl mb-8 text-lg font-normal text-[#0b1720] text-left'>{HomeData.driveTrafic[selected].mainPara}</p>
 
-      <h1 className='text-left text-xl font-bold'>View Related Services</h1>
+      <h1 className='text-left text-2xl font-bold'>View Related Services</h1>
       
-      <div className='w-full py-2'>
+      <div className='w-full text-md py-2'>
       {HomeData.driveTrafic[selected].subHeadings.map((main, index) => (
           <>
           <div key={index} className=" ">
             {/* Main Heading */}
             <h1 
               onClick={() =>  handleSubDropdownToggle(main.title , index)}
-              className={`w-full ${index != 0 && ''} text-left cursor-pointer  flex justify-start gap-x-4 items-center text-lg focus:border-0  py-2 font-semibold focus:outline-none ${index === activeSubDropdownIndex && 'text-[#207DE9] border-[#313131] ' }`}>{main.title} <MdOutlineKeyboardArrowDown  className={`text-xl transition-all ${index === activeSubDropdownIndex ? 'rotate-0' : '-rotate-90'}`}/></h1>
+              className={`w-full ${index != 0 && ''} text-left cursor-pointer  flex justify-start gap-x-4 items-center focus:border-0  py-2 font-semibold focus:outline-none ${index === activeSubDropdownIndex && 'text-[#207DE9] border-[#313131] ' }`}>{main.title} <MdOutlineKeyboardArrowDown  className={`text-xl transition-all ${index === activeSubDropdownIndex ? 'rotate-0' : '-rotate-90'}`}/></h1>
 
             {/* Subheadings */}
             {activeSubDropdown === main.title && (

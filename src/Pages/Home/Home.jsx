@@ -18,6 +18,7 @@ import { QAhome } from '../../Data/QueANDAns';
 import SolutionChart from './HomeComps/SolutionChart';
 import DeliveryProcess from './HomeComps/DeliveryProcess';
 import DriveTraffic from './HomeComps/DriveTraffic';
+import WhatIs from './HomeComps/WhatIs';
 
 const Home = () => {
   useEffect(() => {
@@ -30,9 +31,10 @@ const Home = () => {
         <SolutionChart/>
         <DeliveryProcess/>
         <DriveTraffic/>
+        <WhatIs/>
         {/* <PathToSuccess/> */}
         <PowerOfMarketing/>
-        <FuelingInnovation/>
+        {/* <FuelingInnovation/> */}
         <Revenue/>
         {/* <BusinessGoals/> */}
         <QandA page={QAhome}/>
