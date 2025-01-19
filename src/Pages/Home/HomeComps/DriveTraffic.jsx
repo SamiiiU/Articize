@@ -15,17 +15,21 @@ const DriveTraffic = () => {
       setActiveSubDropdownIndex(activeSubDropdownIndex === subIndex ? null : subIndex)
     };
 
-    const handleScroll = (id , key) => {
-      setSelected(key)
-      const element = document.getElementById(id);
-      const offset = 80; // Adjust this value for the desired offset
-      if (element) {
-        const y = element.offsetTop - offset; // Subtract the offset from the element's top position
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-    };
+    // const handleScroll = (id , key) => {
+    //   setSelected(key)
+    //   const element = document.getElementById(id);
+    //   const offset = 80; // Adjust this value for the desired offset
+    //   if (element) {
+    //     const y = element.offsetTop - offset; // Subtract the offset from the element's top position
+    //     window.scrollTo({ top: y, behavior: 'smooth' });
+    //   }
+    // };
 
-    
+
+    const handleSelected = (index) => {
+      setSelected(index)
+
+    }
     
   return (
 
@@ -35,7 +39,7 @@ const DriveTraffic = () => {
       <div className=" flex sticky rounded-full bg-gray-100 p-4 justify-center flex-wrap items-center gap-4 ">
         
           {HomeData.driveTrafic.map((item, index) => (
-            <span style={{color : selected == index ? '#207ce7' : '#808b90'}} key={index}  onClick={() => handleScroll(`section-${index}` , index)}
+            <span style={{color : selected == index ? '#207ce7' : '#808b90'}} key={index}  onClick={() => handleSelected(index)}
             className={`text-md cursor-pointer font-semibold transition`}>
                 {item.mainHeading}
             </span>
@@ -43,18 +47,16 @@ const DriveTraffic = () => {
         
       </div>
 
-      <div >
-      {HomeData.driveTrafic.map((item , index ) => (
-        <div key={index} id={`section-${index}`} className='my-8 p-4'>
-        <h1 className='lg:text-5xl mb-4 text-2xl font-[800]'>{item.mainHeading}</h1>
+      <div  className='my-8 p-4'>
+        <h1 className='lg:text-5xl mb-4 text-2xl font-[800]'>{HomeData.driveTrafic[selected].mainHeading}</h1>
       
       
-      <p className='2xl:text-xl mb-4 text-lg font-normal text-[#0b1720] '>{item.mainPara}</p>
+      <p className='2xl:text-xl mb-4 text-lg font-normal text-[#0b1720] '>{HomeData.driveTrafic[selected].mainPara}</p>
 
       <h1 className='text-left text-xl font-bold'>View Related Services</h1>
       
       <div className='w-full py-2'>
-      {item.subHeadings.map((main, index) => (
+      {HomeData.driveTrafic[selected].subHeadings.map((main, index) => (
           <>
           <div key={index} className=" ">
             {/* Main Heading */}
@@ -84,8 +86,6 @@ const DriveTraffic = () => {
           </>
         ))}
       </div>
-      </div>
-      ))}
       </div>
     </div>
   )

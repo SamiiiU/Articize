@@ -155,7 +155,7 @@ const HomeData = {
     ],
   },
   //SECURE AND OPTIMIZE 
-  {mainHeading: "SECURE AND OPTIMIZE",
+  {mainHeading: "Secure And Optimize",
     mainPara : "Enhance your website’s security and performance with our dedicated services. We focus on implementing advanced security measures and performance optimizations to ensure your website operates at peak efficiency. Protect your site from threats while boosting speed and responsiveness for a seamless user experience.",
     subHeadings: [
       {title: "Cybersecurity",
@@ -184,7 +184,7 @@ const HomeData = {
     ],
   },
   //LEVERAGE AI AND ANALYTICS
-  {mainHeading: "LEVERAGE AI AND ANALYTICS",
+  {mainHeading: "Leverage AI And Analytics",
     mainPara : "Unlock the potential of AI and analytics to drive decision-making and improve business outcomes. Our services integrate AI technologies and provide comprehensive data analysis to transform your operations and strategy, ensuring you stay ahead in a data-driven world.",
     subHeadings: [
       {title: "Artificial Intelligence (AI)",
@@ -269,19 +269,71 @@ const HomeData = {
 
   ],
   Power: [
-   
-
-    { name: "Data Security in Marketing", icon: salesIcon, container: { heading: "Empower Your Data Strategy with Cybersecurity", description: "Integrate cutting-edge cybersecurity measures to safeguard your marketing data, ensuring reliability and trust in every campaign.", img: data } },
-
-    { name: "AI-Enhanced Content Strategies", icon: contentIcon, container: { heading: "Content Marketing Powered by AI", description: "Harness the power of AI to craft content that adapts to customer preferences and behaviors, boosting engagement and conversion rates.", img: sales } },
-
-    { name: "Cloud-Enabled Sales Enablement", icon: analytices, container: { heading: "Enable Sales Through Scalable Cloud Solutions", description: "Utilize our cloud infrastructure to enhance the agility of your sales force, enabling them to access marketing tools and data on-the-go, ensuring a faster and more effective response to market opportunities.", img: sales } },
 
 
-    { name: "AI for Targeted Marketing Decision", icon: dataIcon, container: { heading: "Leverage AI to Refine Marketing Campaigns", description: "Use our AI solutions to analyze customer data and optimize marketing campaigns, resulting in higher precision in targeting and better allocation of resources.", img: data } },
-    { name: "Advanced Analytics for Strategic Marketing", icon: dataIcon, container: { heading: "Streamline Operations with Data-Driven Insights", description: "At DEVXCLOUD, delve into analytics that not only track but also predict marketing trends, enabling you to stay ahead of the competition with proactive strategy adjustments.", img: sales } },
+    { name: "Solutions", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Integrated Cybersecurity Solutions", 
+        description: "Fortify Your Business Infrastructure: Elevate your cybersecurity to new heights with strategic solutions that are custom-crafted to protect your digital assets and operations. Our comprehensive approach includes vulnerability assessments, real-time threat monitoring, and rapid incident response, ensuring your business remains resilient against cyber threats. Secure your future by staying one step ahead of cyber risks.", 
+        points : ["Proactive threat monitoring","Swift incident respons"] } 
+    },
 
-    
+    { name: "Implementations", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Custom AI Implementations", 
+        description: "Unlock Efficiency with Smart Technology: Transform your business landscape with AI-driven innovations designed to streamline your operations and enhance user interactions. From predictive analytics to intelligent automation, our AI solutions are engineered to provide strategic advantages, enabling more informed decisions and greater operational efficiency.", 
+        points : ["Predictive analytics","Intelligent automation systems"] } 
+    },
+
+    { name: "Visualization", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Real-Time Data Visualization", 
+        description: "See Your Data in Action: Bring clarity to your decision-making with our advanced real-time data visualization tools. These dynamic dashboards and interactive reports are not just about displaying data—they provide deep insights, highlight trends, and empower your team to act with precision based on the latest information.", 
+        points : ["Trend analysis","Interactive reporting"] } 
+    },
+
+    { name: "Optimization", 
+      icon: salesIcon, 
+      container: { 
+        heading: "SEO and Content Optimization", 
+        description: "Elevate Your Digital Reach: Propel your online presence to the forefront with our expert SEO and content optimization strategies. By enhancing your search engine visibility and crafting content that engages and informs, we help you attract a loyal audience and turn visits into conversions.", 
+        points : ["SEO best practices","Content engagement strategies"] } 
+    },
+
+    { name: "Marketing", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Automated Marketing Campaigns", 
+        description: "Enhance Campaign Precision: Revolutionize your marketing with our automated tools that optimize every aspect of your campaigns. Target the right audience with precision, streamline your messaging, and measure the effectiveness of each campaign to continually improve your engagement rates and ROI.", 
+        points : ["Targeted audience engagement","Campaign performance analytics"] } 
+    },
+
+    { name: "Web Development", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Web Development and Maintenance", 
+        description: "Craft Web Excellence: Develop robust, responsive websites that not only meet but exceed modern standards. Our expert web development team provides ongoing support and maintenance, ensuring your site evolves with technological advancements and user expectations, maintaining peak performance at all times.", 
+        points : ["Responsive design principles","Ongoing technical support"] } 
+    },
+
+    { name: "Cloud Computing", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Cloud Computing Integration", 
+        description: "Empower Growth with Scalable Solutions: Scale your business effortlessly with our cloud computing solutions that promise enhanced flexibility and operational efficiency. From infrastructure setup to ongoing management, we ensure seamless integration and optimal performance, making your business more agile and connected.", 
+        points : ["Infrastructure management","Operational efficiency"] } 
+    },
+
+    { name: "User Experience", 
+      icon: salesIcon, 
+      container: { 
+        heading: "Personalized User Experience Design", 
+        description: "Design with the User in Mind: Delight your users with bespoke interfaces that are intuitive, attractive, and functional. Our user experience design process involves deep user research, usability testing, and iterative design to create experiences that not only meet but exceed user expectations.", 
+        points : ["Usability testing","Iterative design process"] } 
+    },
   ],
 
   Kpi: {
@@ -323,48 +375,68 @@ const HomeData = {
     { heading: "Expert Team", para: "50+ Digital Professionals A dynamic team of skilled experts focused on delivering the latest digital solutions and enhancing client success.", image: "https://www.industrial-innovation.com/wp-content/uploads/2021/11/FRONTIER-HUB-10-Trends-in-Industrial-Innovation-Matt-Vulpis-10-31-2021-1.jpg" },
   ],
 
-  revenueSlides: [{
-    heading: "Software Development",
-    challenge: "Optimize product development cycles to enhance delivery times and reduce costs.",
+  revenueSlides: [
+  {heading: "AI-Powered Process Optimization",
+    challenge: "Streamline operations and boost efficiency with customized AI solutions.  ",
     approaches: [
-      "Agile project management integration",
-      "Continuous integration and deployment practices",
-      "Regular code reviews and quality assurance checks"
+      "Tailor AI models to enhance decision-making and automate tasks.",
+      "Integrate AI seamlessly into existing business processes.",
     ],
     result: {
-      text: "Reduction in Time-to-Market Experience more rapid product launches with improved quality and reduced overhead.",
+      text: "Increased in operational efficiency ",
       increment: 40,
       incrementText: `${40}%`
     }
   },
-  {
-    heading: "E-commerce Growth",
-    challenge: "Increase conversion rates and average order value for an online retail client.",
+  {heading: "Dynamic Data Insights",
+    challenge: "Enable informed decisions with real-time, actionable data insights.",
     approaches: [
-      "Personalized email marketing campaigns",
-      "A/B testing for website layout and checkout processes",
-      "SEO optimization for product listings"
+      "Implement advanced visualization tools for real-time data interpretation.",
+      "Continuous data analysis to keep insights relevant and actionable.",
     ],
     result: {
-      text: "Increase in Conversion Rates Significant growth in sales and customer engagement within six months.",
+      text: "Acceleration in decision-making processes, improving responsiveness to market dynamics.",
       increment: 250,
       incrementText: `${250}%`
     }
   },
-  {
-    heading: "Cybersecurity Enhancement",
-    challenge: "Strengthen security protocols to prevent data breaches and ensure compliance with industry regulations.",
+  {heading: "Organic Growth Acceleration",
+    challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
     approaches: [
-      "Implementation of advanced encryption technologies",
-      "Regular security audits and employee training sessions",
-      "Upgrade to secure cloud hosting environments"
+      "Utilize latest SEO practices to enhance site visibility.",
+      "Regularly update content to align with search engine algorithms and user interest.",
     ],
     result: {
-      text: "Reduction in Security Incidents Drastically lower incidence of security threats and data breaches, enhancing customer trust.",
+      text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
       increment: 90,
       incrementText: `${90}%`
     }
-  }],
+  },
+  {heading: "Precision Marketing Automation",
+    challenge: "Increase marketing effectiveness with targeted automation and analytics.",
+    approaches: [
+      "Deploy automation tools to streamline campaigns and personalize interactions",
+      "Leverage customer data for precise targeting and message optimization.",
+    ],
+    result: {
+      text: "Improved in campaign conversions and reduced effort by 60%.",
+      increment: 45,
+      incrementText: `${45}%`
+    }
+  },
+  {heading: "Organic Growth Acceleration",
+    challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
+    approaches: [
+      "Utilize latest SEO practices to enhance site visibility.",
+      "Regularly update content to align with search engine algorithms and user interest.",
+    ],
+    result: {
+      text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
+      increment: 90,
+      incrementText: `${90}%`
+    }
+  }
+],
 
   companiesLogoURLs: ["https://www.webfx.com/wp-content/uploads/2024/07/O_Reilly_Auto_Parts_Logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/Hilton-logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/arrowquip_logo_black_vertical.png", "https://www.webfx.com/wp-content/uploads/2024/07/bars-leaks-logo_03.png", "https://www.webfx.com/wp-content/uploads/2024/07/YMCA_logo_logotype.png", "https://www.webfx.com/wp-content/uploads/2024/07/jiffy-lube.png", "https://www.webfx.com/wp-content/uploads/2024/07/Hannaford_Brothers_Company-Logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/auntie-annes.png", "https://www.webfx.com/wp-content/uploads/2024/07/Fujifilm_logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/Verizon_2015_logo_-vector.png", "https://www.webfx.com/wp-content/uploads/2024/07/Subway-1.png", "https://www.webfx.com/wp-content/uploads/2024/07/1200px-Wrangler_Logo.png"],
 

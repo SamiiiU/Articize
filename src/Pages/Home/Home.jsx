@@ -34,7 +34,7 @@ const Home = () => {
         <PowerOfMarketing/>
         <FuelingInnovation/>
         <Revenue/>
-        <BusinessGoals/>
+        {/* <BusinessGoals/> */}
         <QandA page={QAhome}/>
         {/* <KPIoptimization/> */}
 

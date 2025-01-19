@@ -1,60 +1,65 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ScrollCounter from '../../../Prebuild_Components/ScrollCounter'
 import HomeData from '../../../Data/HomeData/HomeData';
 
 import '../../../Assets/CustomCSS/Scrollbar.css';
+import { SiTicktick } from 'react-icons/si';
 
 const PowerOfMarketing = () => {
     const [activeIndex, setActiveIndex] = useState(0);
+    const [mainHeight, setHeight] = useState(0);  // State to store the height
+    const divRef = useRef(null);  // Creating a ref
 
+
+    
     const handleIndex = (index) => {
-            setActiveIndex(index);
-    }
+        setActiveIndex(index)
+    } 
+    
+    useEffect(() => {
+        if (divRef.current) {
+            setHeight(divRef.current.clientHeight);  // Set height after component mounts
+        }
+    }, []);
     
 
   return (
-    <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center '> 
-        <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Uncover The 
-        <span className='text-[#207CE7]'> Impact of Digital Strategy</span>  on Business Growth</h1>
-        <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>Our expert-led digital strategies are supported by cutting-edge technology. At DEVXCLOUD, we enable our clients to make informed and strategic decisions, propelling them ahead in the dynamic digital landscape. Explore our comprehensive suite of services and see how they can transform your business.</p>
+    <div  className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center '> 
 
-
-        {/* Counter elements  */}
-        <div className='flex w-full gap-x-8  justify-between relative flex-wrap   py-4  gap-y-4 '>
-            {HomeData.impactOfMarketing.map((impact , index) => (
-                <span key={index} className=' min-w-[100px] xs:max-w-[250px]  w-full'>
-                <h2 className='flex xs:justify-start  text-5xl justify-center font-bold text-[#6ADFD7] items-center'><ScrollCounter from = {0} to= {impact.to} timing={2}  />%</h2> 
-                <p className=' xs:text-left text-md font-semibold text-black uppercase'>{impact.heading}</p>
-                <p className=' xs:text-left text-sm '>{impact.para}</p>
-                </span>
-            ))}          
-        </div>
-
-        {/* explanation section  */}
 
         <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Revolutionize Digital 
-        <span className='text-[#207CE7]'> Marketing with Comprehensive </span> Innovation</h1>
+                <span className='text-[#207CE7]'> Marketing with Comprehensive </span> Innovation</h1>
 
-        <div className=' mt-20 flex flex-wrap justify-evenly  gap-y-8'>
-              
-                {HomeData.Power.map((power , index ) => (
-                    <div key={index} className='lg:min-w-[30%] max-w-fit w-full  max-h-fit' >
-                    <div key={index} onClick={() => handleIndex(index)} className={`cursor-pointer px-8 py-4  text-left xl:text-xl text-lg flex transition-all  ${activeIndex === index && 'shadow-md text-[#207CE7]' } gap-x-8 items-center  rounded-lg font-bold`}><div style={{
-                        backgroundImage : `url(${power.icon})` , backgroundRepeat : 'no-repeat', backgroundPosition : 'center' , backgroundSize : 'contain'
-                    }}  className='w-8 h-8 ' /> {power.name}</div>
+        {/* explanation section  */}
+        <div  className='w-full  flex h-fit sm:gap-x-10 gap-x-3'>
+        <div ref={divRef} className='flex flex-col gap-4 ' >
+            {HomeData.Power.map((power , index) => (
+                <span onClick={() => handleIndex(index)} key={index} className={` ${index == activeIndex ? 'border-[#207DE9] text-[#207DE9]' : 'text-[#313131] text-left border-gray-300'}  cursor-pointer text-lg px-4 py-2 border-b-2  font-bold`}>{power.name}</span>
+            ))}
+        </div>
+        <div style={{height : mainHeight}} className='flex-1 px-8 h-full py-10 flex flex-col justify-between relative text-left'>
+            <span>
+                <h1 className='font-semibold text-xl  mb-4 '>{HomeData.Power[activeIndex].container.heading}</h1>
+                <p className='mb-8'>{HomeData.Power[activeIndex].container.description}</p>
+            </span>
 
+            <div className='w-full'>
+                <h1 className='font-semibold text-3xl text-orange-500'>Outcomes</h1>
+                {HomeData.Power[activeIndex].container.points.map((outcome , idx) => (
+                    <div className='flex gap-x-4 text-left items-center mb-2' key={idx}>
+                    {/* <SiTicktick  className='text-orange-500 text-sm'/> */}
+                    <p className='flex-1 text-sm'>{outcome}</p>
                     </div>
                 ))}
+            </div>
+
         </div>
+     </div>
+
+
 
         
-        
-            <div  className='relative overflow-hidden flex justify-between group xl:h-[400px] sm:h-[450px] h-96  font-bold rounded-3xl items-center bg-white shadow-md' ><span className='left-0 group-hover:bottom-0 transition-all duration-500 ease-in-out bottom-full md:w-[50%] w-full h-full text-left lg:px-10 px-4 py-10'>
-                <h1 className='lg:text-4xl text-2xl  font-bold '>{HomeData.Power[activeIndex].container.heading}</h1>
-                <p className='font-semibold lg:mt-10 mt-4'>{HomeData.Power[activeIndex].container.description}</p>
-                </span>
-                    <img src={HomeData.Power[activeIndex].container.img} alt='Image' className='md:w-[40%] h-full'/>            
-            </div>
+
 
     </div>
   )
