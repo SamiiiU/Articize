@@ -19,7 +19,7 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
-import { bi } from '../../../../Data/ServicesData/AIandDataAnalysisData/DataAnalysisData'
+import { biDashboardsData } from '../../../../Data/ServicesData/AIandDataAnalysisData/DataAnalysisData'
 
 
 
@@ -28,20 +28,20 @@ const BigDataSolutions = () => {
   return (
     <div className='w-full'>
     <Nav/>
-    <HeroAI page={AiandGPTData.heroSection}/>
-    <CustomPricingAIandDataAnalysis page={AiandGPTData.customPricing}/>
-    <DiscoverAIandDataAnalysis page={AiandGPTData.discover}/>
+    <HeroAI page={biDashboardsData.heroSection}/>
+    <CustomPricingAIandDataAnalysis page={biDashboardsData.customPricing}/>
+    <DiscoverAIandDataAnalysis page={biDashboardsData.discover}/>
 
-    <BuiltPurposeAIandDataAnalysis page={AiandGPTData.builtPurpose}/>
+    <BuiltPurposeAIandDataAnalysis page={biDashboardsData.builtPurpose}/>
 
 
     <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
 
-    <ApproachAI page={AiandGPTData.approachSection}/>
+    <ApproachAI page={biDashboardsData.approachSection}/>
 
-    <ProcessOfAIandDataAnalysis page={AiandGPTData.process}/>
+    <ProcessOfAIandDataAnalysis page={biDashboardsData.process}/>
     
-    <WhyMattersAIandDataAnalysis page={AiandGPTData.whyChoose}/>
+    <WhyMattersAIandDataAnalysis page={biDashboardsData.whyChoose}/>
 
     <QandA page={QACodeX.CustomDesign} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 

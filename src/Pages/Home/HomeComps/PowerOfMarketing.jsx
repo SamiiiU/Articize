@@ -34,7 +34,7 @@ const PowerOfMarketing = () => {
         <div  className='w-full  flex h-fit sm:gap-x-10 gap-x-3'>
         <div ref={divRef} className='flex flex-col gap-4 ' >
             {HomeData.Power.map((power , index) => (
-                <span onClick={() => handleIndex(index)} key={index} className={` ${index == activeIndex ? 'border-[#207DE9] text-[#207DE9]' : 'text-[#313131] text-left border-gray-300'}  cursor-pointer text-lg px-4 py-2 border-b-2  font-bold`}>{power.name}</span>
+                <span onClick={() => handleIndex(index)} key={index} className={` ${index == activeIndex ? 'border-[#207DE9] text-[#207DE9] ' : 'text-[#313131]  border-gray-300'}  cursor-pointer  text-lg px-4 py-2 border-b-2 text-left  font-bold`}>{power.name}</span>
             ))}
         </div>
         <div style={{height : mainHeight}} className='flex-1 px-8 h-full py-10 flex flex-col justify-between relative text-left'>

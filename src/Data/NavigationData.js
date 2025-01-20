@@ -68,8 +68,8 @@ export const mainNavData = [
     },
 
     {
-      heading: "Pay Per Click (PPC)"
-      , types: [
+      heading: "Pay Per Click (PPC)",
+      types: [
         { path: '/google-ads-ppc', type: 'Google Ads PPC' },
         { path: '/amazon-ppc', type: 'Amazon PPC' },
         { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
