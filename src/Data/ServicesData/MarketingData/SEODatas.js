@@ -5,8 +5,10 @@ import { GrAchievement, GrOptimize } from 'react-icons/gr'
 import { IoAnalytics } from 'react-icons/io5'
 import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
-import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
+
+import BG from '../../../Assets/Images/ServicesIMG/SEOImages/MarketingHeroBG.png'
 import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
+
 import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
 import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
 import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
@@ -21,8 +23,8 @@ export const EcommerceSEOData = {
 
     heroSection: {
         //Hero section data start
-        heading: "Transform Your <br/> E-Commerce Store with Expert SEO Strategies for Maximum Online Growth",
-        para: "In the fast-paced world of e-commerce, standing out is key to driving sales and growing your online presence. Our E-commerce SEO services are specifically tailored to help you rise above the competition and gain the visibility your products deserve. From increasing organic traffic and optimizing product listings to improving user experience and enhancing conversion rates, our expert team uses a combination of proven SEO techniques and in-depth e-commerce industry knowledge to achieve real, measurable results. We focus on everything from technical SEO and on-page optimization to content creation, keyword targeting, and competitor analysis to ensure your online store ranks higher and attracts more qualified visitors. With a strategic approach to optimizing your product pages, improving mobile performance, and boosting site speed, we ensure that your customers have the best possible shopping experience. Our goal is to not only improve your search engine rankings but also increase your conversion rates and turn casual browsers into loyal buyers. Let us help you take your online store to the next level by driving more traffic, increasing sales, and growing your e-commerce business like never before.",
+        heading: "Boost Your E-Commerce Store with Expert SEO Strategies",
+        para: "In the competitive e-commerce landscape, distinguishing your online store is crucial for increasing sales and enhancing your digital presence. Our tailored E-commerce SEO services are designed to elevate your store’s visibility and attract more qualified traffic. We combine effective SEO strategies and deep industry knowledge to optimize product listings, improve user experience, and boost conversion rates. From technical SEO and content creation to keyword targeting and mobile performance, our expert team ensures your store not only ranks higher but also offers the best shopping experience, turning visitors into loyal customers. Let us drive your e-commerce success by maximizing traffic and sales like never before.",
         img: heroImg,
         bg: BG,
     },
@@ -534,6 +536,29 @@ export const EcommerceSEOData = {
     customPricing : {
 
         heading : 'Ecommerce SEO Services Custom Pricing Tailored to Your Business Goals',
+
+        mainHeading : "Custom E-commerce SEO Package",
+
+        overview : "Tailored specifically for e-commerce businesses, this package enhances online visibility and drives sales by addressing key areas critical to online retail success.",
+
+        benifits : [
+            {heading : "Enhanced E-commerce Visibility: " , description : "Attract and engage potential customers actively searching for your products."},
+            {heading : "Boosted Sales Conversion: " , description : "Attract and engage potential customers actively searching for your products."},
+            {heading : "Improved Customer Retention: " , description : "Encourage repeat business through an enhanced shopping experience."},
+
+        ],
+
+        keyFeatures : [
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."}
+        ],
+
+        startingAt : "$4200/Month",
 
         upperPart : {
             header : "Custom E-commerce SEO Plans",

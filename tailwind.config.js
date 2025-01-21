@@ -31,6 +31,10 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 }
+        }
         
 
       },
@@ -39,6 +43,7 @@ module.exports = {
         expand: 'expand 0.3s ease-in-out', // Custom expand animation
         contract: 'contract 0.3s ease-in', // Custom expand animation
         scroll: 'scroll 40s linear infinite', // Adjust duration as needed
+        fadeIn: 'fadeIn 0.5s ease-out'
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Set Inter as the primary sans font
