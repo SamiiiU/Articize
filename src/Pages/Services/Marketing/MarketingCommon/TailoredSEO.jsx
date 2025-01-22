@@ -11,7 +11,7 @@ export const TailoredSEO = ({page}) => {
           window.removeEventListener('resize', handleResize)
         }});
   return (
-    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
     <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
      dangerouslySetInnerHTML={{
          __html: page.heading, // Render HTML string safely
@@ -35,10 +35,7 @@ export const TailoredSEO = ({page}) => {
                     {item.offers.map((offer , idx) => (
                         <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
                     ))}
-                    </ul>
-
-                    <h1 className='font-semibold text-xl  mb-4'>Why Choose Us?</h1>    
-                    <p>{item.chooseUs}</p>                
+                    </ul>              
 
 
                     </div>
@@ -63,8 +60,8 @@ export const TailoredSEO = ({page}) => {
                     ))}
                     </ul>
 
-                    <h1 className='font-semibold text-xl  mb-4'>Why Choose Us?</h1>    
-                    <p>{item.chooseUs}</p>                
+                    {/* <h1 className='font-semibold text-xl  mb-4'>Why Choose Us?</h1>    
+                    <p>{item.chooseUs}</p>                 */}
 
 
                     </div>

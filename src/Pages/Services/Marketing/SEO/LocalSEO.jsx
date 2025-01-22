@@ -44,7 +44,7 @@ const LocalSEO = () => {
           <Hero page={LocalSEOData.heroSection}/>
           {/* <WhyComp page={LocalSEOData.whySection}/> */}
           
-          <CustomPricing page={LocalSEOData.customPricing}/>
+          {/* <CustomPricing page={LocalSEOData.customPricing}/> */}
           <Booster page={LocalSEOData.boostSection} />
 
           <PoweredBy page={LocalSEOData.powerBySection}/>

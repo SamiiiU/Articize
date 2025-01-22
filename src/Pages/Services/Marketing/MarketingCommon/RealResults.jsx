@@ -1,6 +1,7 @@
 import React from 'react'
 import CustomSlider from '../../../../Prebuild_Components/CustomSlider/CustomSlider'
 import { SiTicktick } from 'react-icons/si'
+import ScrollCounter from '../../../../Prebuild_Components/ScrollCounter'
 
 const RealResults = ({page}) => {
   return (
@@ -30,12 +31,11 @@ const RealResults = ({page}) => {
           <h1 className="font-bold tracking-wide">APPROACH</h1>
           {result.approaches.map((approach , idx) => (
             <div className='flex gap-x-4 items-center mb-2' key={idx}>
-                <SiTicktick  className='text-[#6ADFD7] text-sm'/>
                 <p>{approach}</p>
             </div>
           ))}
 
-          <h1 className='mt-8 text-3xl text-[#6ADFD7] font-bold'>{result.increase}%</h1>
+          <h1 className='mt-8 text-3xl text-[#6ADFD7] font-bold flex'><ScrollCounter from={0} to={result.increase} timing={3}/>%</h1>
           <p className=''>{result.increaseIn}</p>
           
         </div>

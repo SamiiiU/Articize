@@ -4,7 +4,7 @@ import React, { useContext, useEffect } from 'react'
 const Hero = ({page}) => {
 
   return (
-    <div className='w-full xl:min-h-[80vh] relative overflow-hidden px-4 sm:px-16 md:px-28 2xl:px-48 
+    <div className='w-full xl:min-h-[80vh] relative overflow-hidden px-4 sm:px-16 md:px-28 2xl:px-80 
     sm:pt-40 pt-28 pb-28 flex justify-center  '>
         <span className='w-full h-full absolute top-0 z-0 opacity-20' style={{backgroundImage : `url(${page.bg})` , backgroundSize : 'cover' , backgroundPosition : 'center' }}/>
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10'>

@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { SiTicktick } from 'react-icons/si'
-import CustomButton from '../../../../Prebuild_Components/CustomButton'
-import { span } from 'framer-motion/client'
+import './MarketingStyling.css'
 
 const CustomPricing = ({page}) => {
     const [activeIndex ,setActiveIndex] = useState(0)
@@ -21,7 +19,7 @@ const CustomPricing = ({page}) => {
                 <div  className='w-full flex flex-wrap text-left  h-auto transition-all rounded-2xl border-2 border-[#313131]'>
                     {/* first col  */}
                     <div className='flex-1 flex flex-col justify-between border-r-2 border-[#313131]'>
-                        <span className='w-full font-extrabold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
+                        <span className='w-full rounded-tl-xl font-extrabold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
                             {page.mainHeading}
                         </span> 
 
@@ -53,22 +51,24 @@ const CustomPricing = ({page}) => {
 
                             {page.keyFeatures.map((benifit , index) => (
                                 <div key={index} className='mb-8 '>
-                                    <h1 className='font-bold text-lg flex '>{benifit.heading} 
+                                    <span className=' flex '>
+                                        <h1 className='font-bold text-lg'>{benifit.heading}   </h1> 
                                         <div className='relative px-4'>
                                         {activeIndex != index ? 
                                                 <span className='px-2 font-bold text-lg ' onMouseEnter={() => handleIndex(index)}> ...</span> :
-                                                <span className='p-2 z-30 bg-white border-2 rounded-2xl border-[#313131]  min-w-[250px] bottom-0 text-sm  absolute  ' >
+                                                <span onMouseLeave={() => handleIndex(null)} className='bubble bottom-4  p-2 z-30 bg-gray-300 min-w-[300px]  text-sm  absolute ' >
                                                     <p className='transition-all animate-fadeIn'>{benifit.description}</p>
+                                                    <div class="tail absolute -bottom-4 w-10 h-5 bg-gray-300  "></div>
                                                 </span> 
-                                            }
+                                            }   
                                         </div>
-                                    </h1>
+                                    </span>
                                     
                                     
                                 </div>
                             ))}
                         </span>
-                        <span className='w-full font-extrabold flex-col bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
+                        <span className='w-full rounded-br-xl font-extrabold flex-col bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
                             <h1 className='font-bold'>Starting At</h1>
                             <p className='text-lg font-semibold'>{page.startingAt}</p>
                         </span> 

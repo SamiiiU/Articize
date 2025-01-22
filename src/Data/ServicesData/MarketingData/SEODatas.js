@@ -21,6 +21,7 @@ export const SEOData ={}
 
 export const EcommerceSEOData = {
 
+    // Hero section data starts 
     heroSection: {
         //Hero section data start
         heading: "Boost Your E-Commerce Store with Expert SEO Strategies",
@@ -28,8 +29,8 @@ export const EcommerceSEOData = {
         img: heroImg,
         bg: BG,
     },
-    
-    // Hero section data ends 
+    // Hero section data ends
+ 
 
     // Why Section start         
     whySection: {
@@ -48,232 +49,296 @@ export const EcommerceSEOData = {
     },
     // why section end
 
+    customPricing : {
+
+        heading : 'Ecommerce SEO Services Custom Pricing Tailored to Your Business Goals',
+
+        mainHeading : "Custom E-commerce SEO Package",
+
+        overview : "Tailored specifically for e-commerce businesses, this package enhances online visibility and drives sales by addressing key areas critical to online retail success.",
+
+        benifits : [
+            {heading : "Enhanced E-commerce Visibility: " , description : "Attract and engage potential customers actively searching for your products."},
+            {heading : "Boosted Sales Conversion: " , description : "Attract and engage potential customers actively searching for your products."},
+            {heading : "Improved Customer Retention: " , description : "Encourage repeat business through an enhanced shopping experience."},
+
+        ],
+
+        keyFeatures : [
+            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
+            {heading : "E-commerce Specific Link Building:" , description : "Build high-quality backlinks from relevant e-commerce platforms to enhance site authority."},
+            {heading : "Mobile Optimization:" , description : "Ensure your site is responsive and performs well on all devices, crucial for capturing mobile shoppers."},
+            {heading : "User Experience Optimization:" , description : "Improve site usability and speed to facilitate easier navigation and quicker load times."},
+            {heading : "SEO Audit for E-commerce:" , description : "Conduct regular SEO audits to identify and resolve issues impacting site performance."},
+            {heading : "Keyword Research and Management:" , description : "Identify high-value keywords specific to your niche and manage them effectively to drive targeted traffic."},
+            {heading : "Competitor Analysis:" , description : " Analyze competitors to understand their strengths and weaknesses and refine your strategy accordingly."},
+            {heading : "Conversion Rate Optimization:" , description : "Implement testing and adjustments on key pages to increase the conversion rate of visitors to customers."}
+        ],
+
+        startingAt : "$4200/Month",        
+    },
+
     //Booster Section start here 
     boostSection: {
         heading: "Boost Your Online Store's Performance with <span class= 'text-[#207DE9]'>  Specialized <br/> E-commerce SEO </span> Services.",
         para: "Emphasize the unique challenges and opportunities of e-commerce SEO, such as improving product visibility, optimizing for buyer-intent keywords, and enhancing user experience to drive conversions.",
 
         boostContent: [
-            {navigator: "Optimized Product Categories", 
+            { name: "Optimized Product Categories", 
+                icon: popularPlatform, 
+                whyMatters : "Properly categorized products not only help search engines understand the structure and content of your store better, but they also enhance the user experience by enabling easier and more intuitive navigation. This strategic categorization aids in driving more targeted traffic to specific product pages, which can lead to higher conversion rates.",
 
-            matters : "Product category pages are often the most searched pages on an E-commerce website. Optimizing these ensures that customers can find relevant products quickly, while search engines can better understand your site's structure.", 
+                includes : [
+                    "Keyword research to find optimal terms for categories.",
+                    "Creation of SEO-optimized titles and meta descriptions for category pages.",
+                    "Structuring categories logically to improve user flow and search engine indexing.",
+                ],
+                benifit : "Enhanced discoverability in search engines leads to increased organic traffic, while a well-structured user interface boosts conversion rates by simplifying customer navigation.",
 
-            includes: [
-                " Optimized category titles and meta descriptions with target keywords." , 
-                "Clean, SEO-friendly URL structures (e.g., /electronics/laptops/).",
-                "Well-structured category descriptions with relevant keywords",
-                "Strategic use of internal links to promote related products or popular categories."
-            ], 
-
-            benefit : "Higher rankings in search results for category-level searches and improved user experience",
-            
-            image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
             },
-            
-            {navigator: "User-Generated Reviews & SEO", 
 
-                matters : "Customer reviews are a source of fresh, keyword-rich content that search engines love. They also build trust and increase conversion rates.", 
+            { name: "User-Generated Reviews & SEO", 
+                icon: popularPlatform, 
+                whyMatters : "Reviews from users provide authentic content that enhances credibility, while also serving as fresh and relevant content that search engines value highly. This user-generated content helps to naturally incorporate keywords and increase content volume, which significantly boosts SEO performance.",
 
-                includes: [
-                    "Enabling user reviews on product pages." , 
-                    "Using schema markup to display star ratings in search results.",
-                    "Moderating and showcasing reviews to ensure quality and relevance",
-                ], 
+                includes : [
+                    "Implementation of review collection widgets on product pages.",
+                    "Optimization of review displays with SEO-friendly schema markup.",
+                    "Strategies to encourage more customer reviews post-purchase.",
+                ],
+                benifit : "Improves product page SEO and increases conversion rates by providing social proof that encourages more customers to complete purchases.",
 
-                benefit : "Boosts credibility, increases organic traffic with rich snippets, and enhances customer decision-making",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
-            },  
-                
-            {navigator: "Mobile-First Optimization", 
-    
-                    matters : "Over 60% of E-commerce traffic now comes from mobile devices. Google prioritizes mobile-friendly sites in its rankings.", 
-    
-                    includes: [
-                        "Responsive design that adapts seamlessly to all screen sizes." , 
-                        "Optimized product images and page load speed for mobile users.",
-                        "Easy-to-use mobile navigation and checkout processes.",
-                        "Reducing intrusive pop-ups that hurt mobile user experience."
-                    ], 
-    
-                    benefit : "Improves rankings in mobile search results, reduces bounce rates, and increases mobile conversions.",
-                    
-                    image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },  
-
-            {navigator: "Schema Markup for E-commerce", 
-        
-                matters : ": Schema markup (structured data) helps search engines understand your content better and display rich snippets in search results. This leads to higher visibility and click-through rates (CTR)", 
-
-                includes: [
-                    "Product Schema: Displays product details like price, availability, and ratings" , 
-                    "Review Schema: Highlights customer ratings and feedback.",
-                    "FAQ Schema: Adds answers to common customer questions directly in search results",
-                ], 
-
-                benefit : "Enhanced search engine listings with rich snippets, resulting in improved visibility and more organic clicks.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
-            },  
-
-            {navigator: "Internal Linking Strategies", 
-                matters : "Effective internal linking helps search engines crawl your site efficiently, spreads link equity, and enhances navigation for users.", 
-
-                includes: [
-                    "Linking related product pages to encourage upsells and cross-sells." , 
-                    "Highlighting featured or best-selling products within category pages.",
-                    "Using keyword-rich anchor text to strengthen page relevancy.",
-                ], 
-
-                benefit : "Boosts SEO rankings, improves user engagement, and increases time spent on the website.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
-            },  
-            {navigator: "E-commerce Site Speed Optimization", 
-                matters : "Site speed is a key ranking factor for Google. Faster sites reduce bounce rates, improve user satisfaction, and lead to higher sales.", 
-
-                includes: [
-                    "Compressing images and using next-gen formats (like WebP)." , 
-                    "Enabling browser caching and minifying CSS/JavaScript files.",
-                    "Leveraging Content Delivery Networks (CDNs) for faster load times",
-                    "Optimizing server response time and hosting performance.",
-                ], 
-
-                benefit : "A fast-loading site enhances SEO rankings, user experience, and conversion rates.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
-            },  
-
-            {navigator: "Competitor Analysis for E-commerce SEO", 
-                matters : "Understanding competitors' SEO strategies helps identify gaps and opportunities to outperform them.", 
-
-                includes: [
-                    "Analyzing competitor keywords and rankings." , 
-                    "Identifying their top-performing content and product pages.",
-                    "Reviewing their backlink profiles to find link-building opportunities.",
-                ], 
-
-                benefit : "Develops a data-driven SEO strategy to stay ahead of competitors and capture more market share.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
             },
-            
-            {navigator: "Conversion-Focused SEO Content", 
-                matters : "Content optimized for search engines should also be persuasive enough to convert visitors into paying customers.", 
 
-                includes: [
-                    "Writing detailed, keyword-optimized product descriptions that answer buyer questions." , 
-                    "Crafting engaging headlines and meta tags to increase CTR.",
-                    "Using calls-to-action (CTAs) to guide users toward purchasing.",
-                    "Adding visuals like videos, infographics, or customer testimonials to enhance content value",
-                ], 
+            { name: "Mobile-First Optimization", 
+                icon: popularPlatform, 
+                whyMatters : "A mobile-first approach is essential in today's market where the majority of users access the internet via mobile devices. Optimizing for mobile first means better performance in mobile search results and a user experience optimized for mobile users, which are critical for capturing and converting this growing audience.",
 
-                benefit : "Drives organic traffic and improves conversion rates by aligning SEO goals with buyer intent.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                includes : [
+                    "Responsive web design to ensure usability on all devices.",
+                    "Image and video optimization to reduce load times on mobile.",
+                    "Touch optimization for easier navigation on touch devices.",
+                ],
+                benifit : "Higher search engine rankings for mobile searches and an improved user experience that reduces bounce rates and increases time on site.",
+
             },
+
+            { name: "Schema Markup for E-commerce", 
+                icon: popularPlatform, 
+                whyMatters : "Implementing schema markup significantly boosts the way search engines interpret and display your product listings in the search results. This structured data helps to directly communicate the details of your products to search engines, enhancing the richness of your listings which can attract more clicks.",
+
+                includes : [
+                    "Implementation of Product schema to highlight price, availability, and review ratings.",
+                    "Use of Offer and AggregateRating schemas to enhance entry appeal.",
+                    "Continuous updates to schema as standards and best practices evolve.",
+                ],
+                benifit : "Enhanced product displays in search results lead to higher click-through rates and potentially greater sales volumes.",
+
+            },
+
+            { name: "Internal Linking Strategies", 
+                icon: popularPlatform, 
+                whyMatters : "Internal linking is a pivotal SEO strategy that not only helps with site indexing and spreading link equity but also significantly enhances user engagement by facilitating easier discovery of additional content and products on your site.",
+
+                includes : [
+                    "Mapping out key pages for strategic link placement.",
+                    "Using relevant anchor texts that align with target keywords.",
+                    "Creating linkable assets like infographics and blogs that naturally encourage internal links.",
+                ],
+                benifit : "Enhanced site authority, better indexed pages, and a cohesive user journey that increases the likelihood of conversion.",
+
+            },
+
+            { name: "E-commerce Site Speed Optimization", 
+                icon: popularPlatform, 
+                whyMatters : "Site speed is a critical SEO and user experience factor. Faster sites rank higher in search engines and offer a better user experience, reducing bounce rates and increasing user retention, which are vital for maximizing conversions.",
+
+                includes : [
+                    "Minifying CSS, JavaScript, and HTML.",
+                    "Implementing lazy loading for images and videos.",
+                    "Choosing high-performance web hosting optimized for e-commerce.",
+                ],
+                benifit : "Improved site performance leads to better user experience, higher SEO rankings, and increased customer retention and sales.",
+
+            },
+
+            { name: "Competitor Analysis for E-commerce SEO", 
+                icon: popularPlatform, 
+                whyMatters : "Keeping an eye on competitors’ SEO strategies provides invaluable insights that can inform and refine your own strategies, allowing you to exploit weaknesses in their tactics and strengthen your own online presence in contrast.",
+
+                includes : [
+                    "Detailed analysis of competitor SEO strategies and keyword usage.",
+                    "Monitoring competitor backlink profiles and content marketing efforts.",
+                    "Regularly updating your strategy based on competitor movements and market changes.",
+                ],
+                benifit : "Enables strategic adjustments in your SEO approach to outpace competitors and capture more market share.",
+
+            },
+
+            { name: "Conversion-Focused SEO Content", 
+                icon: popularPlatform, 
+                whyMatters : "Focusing on SEO content that drives conversions is crucial in turning traffic into sales. By aligning content with user intent and optimizing it for different stages of the customer journey, you significantly increase the likelihood of engaging visitors and converting them into paying customers.",
+
+                includes : [
+                    "Creation of buying guides and product-focused articles.",
+                    "SEO-optimized product descriptions that highlight benefits and features.",
+                    "Engaging, actionable content that drives consumers towards making a purchase.",
+                ],
+                benifit : "Increases in both traffic and conversion rates as content is optimized to engage users effectively, guiding them towards making a purchase.",
+
+            },
+          
 
         ],
     },
     //Booster Section ends here 
-
+    
     //PowerBy starts here 
+    powerBySection: {
+        heading: "E-commerce  <span class= 'text-[#207DE9]'> Optimization Powered by </span> Data-Driven Insights",
+        para: "Harness the power of advanced analytics to elevate your online store's search rankings and drive more sales.",
+
+
+        statistics: [
+
+            { benefit: "Increase in Organic Traffic", benefitText: "Adapt the statistics to reflect the measurable outcomes relevant to e-commerce, such as", increasePercentage: 200 , explanation : "Showcasing a percentage increase in organic traffic highlights the effectiveness of your SEO strategies in driving more users to the website naturally, without paid advertising."},
+
+            { benefit: "Improvement in Conversion Rates", benefitText: "average improvement in conversion rates after implementing your SEO strategies.", increasePercentage: 100 , explanation : "Focusing on conversion rate improvement emphasizes how SEO not only drives traffic but also makes that traffic valuable by converting visitors into customers. This addresses the effectiveness of site optimization and content strategies."},
+
+            { benefit: "ROI from SEO Investments", benefitText: "return on investment that e-commerce businesses typically see when they use our SEO services.", increasePercentage: 300 , explanation : "Highlighting the return on investment is crucial for businesses to understand the financial benefits of investing in SEO. It ties the cost of your services to tangible financial gains, making it easier for decision-makers to justify the investment." },
+
+        ],
+    },
+    //PowerBy ends here 
+
 
     tailoredSection : {
         heading : "Tailored <span class= 'text-[#207DE9]'>  Specialized <br/> E-commerce SEO </span> for Every Platform",
         para : "Every E-commerce platform has unique SEO challenges and opportunities. Our team provides <strong> customized strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher, drives organic traffic, and converts visitors into loyal customers",
 
         tailoredItems : [
-            {heading : "Shopify E-commerce SEO Services" ,
-                para : "Shopify powers millions of online stores, but without proper SEO, it's hard to stand out. Our Shopify SEO strategies are designed to maximize product visibility, improve rankings, and drive more sales.",
+            {heading : "Maximize Your Shopify Store's Potential with Expert E-commerce SEO Services" ,
+                para : "Elevate your Shopify store's performance with our dedicated E-commerce SEO services, specifically tailored to meet the unique challenges and opportunities presented by the e-commerce landscape. Our approach focuses on optimizing your Shopify site to significantly enhance its visibility and attractiveness to search engines. This results in not only increased organic traffic but also a better shopping experience that can dramatically improve conversion rates. We employ a blend of advanced SEO techniques and deep insights into e-commerce behavior to ensure your store stands out from the competition and captures more sales.",
                 offers : [
-                    "<strong>Product Page Optimization: </strong>SEO-optimized product titles, descriptions, and images to improve rankings",
-                    "<strong>Content Strategy: </strong>Creating blogs, product guides, and FAQs to target buyer intent.",
-                    "<strong>Technical SEO Fixes: </strong>Improving page load speed, mobile-friendliness, and site structure.",
-                    "<strong>Schema Markup: </strong>Adding product, review, and stock schema for rich results on Google",
+                    "<strong>Product Page Optimization: </strong>We meticulously craft product titles, descriptions, and metadata with SEO-rich content that increases visibility and attracts more organic traffic.",
+
+                    "<strong>Schema Markup Integration: </strong>By implementing detailed schema markup, we ensure your products stand out in SERPs with rich snippets like pricing, availability, and reviews, which drive higher click-through rates.",
+
+                    "<strong>Content Strategy Tailored to E-commerce: </strong>Our content experts create compelling, relevant content that speaks directly to your customers\’ needs, enhancing their shopping experience and boosting your SEO efforts.",
+
+                    "<strong>Strategic Link Building: </strong>We secure high-quality backlinks from reputable and relevant sources, boosting your site's authority and helping it rank higher in search results.",
                 ],
-                chooseUs : "Our hands-on experience with Shopify ensures measurable results, improved search rankings, and higher conversions.",
                 image : "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {heading : "WooCommerce SEO Services" ,
-                para : "WooCommerce is highly flexible, but unlocking its full potential requires expertise. Our WooCommerce SEO services help businesses optimize their stores, target buyer-focused keywords, and improve site performance.",
+            {heading : "Elevate Your WooCommerce Store with Premier SEO Services" ,
+                para : "Unlock the full potential of your WooCommerce store with our specialized SEO services. As a flexible and powerful e-commerce platform, WooCommerce offers extensive customization and optimization opportunities. However, tapping into these features effectively requires expert knowledge and strategic execution. Our SEO services are specifically designed to maximize your store’s visibility, enhance user engagement, and increase your conversion rates through targeted optimizations that leverage WooCommerce's unique capabilities.",
                 offers : [
-                    "<strong>Technical SEO Audits: </strong>Identifying and fixing duplicate content, slow speeds, and indexing issues.",
-                    "<strong>Keyword Mapping: </strong>Aligning keywords to product and category pages for better targeting.",
-                    "<strong>Content Optimization: </strong>Creating SEO-rich product descriptions, blogs, and landing pages.",
-                    "<strong>Performance Enhancements: </strong> Speed optimization, schema markup, and Core Web Vitals fixes.",
+                    "<strong>Technical SEO Audits: </strong>We dive deep into your store’s infrastructure to identify and fix issues related to duplicate content, slow speeds, and indexing inefficiencies, ensuring your WooCommerce operates at peak technical health.",
+                    "<strong>Keyword Mapping: </strong>Our keyword strategies are specially crafted for WooCommerce, aligning critical keywords with your product and category pages to draw in the most relevant traffic and enhance product discoverability.",
+                    "<strong>Content Optimization: </strong>We develop SEO-rich product descriptions, compelling blogs, and informative landing pages tailored to engage your target audience and significantly boost your organic search presence.",
+                    "<strong>Performance Enhancements: </strong> By optimizing site speed, implementing schema markup for rich snippets, and making core web vitals adjustments, we enhance your store’s user experience, contributing to faster page loads and smoother navigation that are key to securing higher conversion rates.",
                 ],
-                chooseUs : "We combine WordPress expertise with proven SEO strategies to deliver higher rankings, better site performance, and increased ROI.",
+
                 image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s",
             },
 
-            {heading : "Magento E-commerce SEO Services" ,
-                para : "Magento is a powerhouse for large stores, but its complexity creates SEO challenges. Our MagentoSEO services focus on optimizing your store for performance, search visibility, and scalability.",
+            {heading : "Maximize Your Magento Store's Potential with Advanced E-commerce SEO Services" ,
+                para : "Magento, renowned for powering complex and large-scale e-commerce operations, requires a nuanced approach to SEO that aligns with its capabilities and challenges. Our Magento E-commerce SEO services are expertly designed to enhance your store’s online visibility, drive targeted traffic, and optimize conversion rates, tapping into the platform's vast potential for scalability and customization.",
                 offers : [
-                    "<strong>Advanced Keyword Strategy: </strong>Targeting high-traffic keywords for product and category pages.",
-                    "<strong>Technical SEO: </strong>Fixing indexing errors, duplicate content, and improving site speed.",
-                    "<strong>Custom Schema Implementation: </strong>Adding product, review, and breadcrumb schema to boost rankings",
+                    "<strong>Advanced Keyword Strategy: </strong>We develop comprehensive keyword strategies tailored specifically for Magento, enhancing visibility and driving engagement on your product and category pages.",
+
+                    "<strong>Custom Schema Implementation: </strong>By integrating detailed schema for products, reviews, and breadcrumbs, we enhance your listings in search results, making them more informative and clickable.",
+
+                    "<strong>E-commerce Performance Optimization: </strong>Focusing on optimizing your Magento store's architecture for faster load times and smoother navigation, directly impacting user experience and SEO performance.",
                 ],
-                chooseUs : "We specialize in handling Magento's complexity, ensuring large product catalogs rank high and convert better",
                 image : "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
             },
 
-            {heading : "BigCommerce SEO Services" ,
-                para : "BigCommerce offers robust tools for E-commerce success, but SEO is key to maximizing its potential. Our BigCommerce SEO strategies focus on delivering consistent traffic and sales.",
+            {heading : "Maximize Your BigCommerce Store's Potential with Expert E-commerce SEO Services" ,
+                para : "BigCommerce is engineered to power sophisticated online stores, offering extensive tools and functionalities tailor-made for e-commerce success. However, maximizing its potential requires strategic SEO that aligns with its robust capabilities. Our BigCommerce SEO services are specifically designed to optimize every aspect of your store, from product visibility to user engagement, ensuring you not only attract but also retain and convert a high volume of customers.",
                 offers : [
-                    "<strong>On-Page Optimization: </strong>Optimizing product pages, category structures, and internal links",
-                    "<strong>Content Strategy: </strong>Creating keyword-optimized content like product descriptions, guides, and blogs.",
-                    "<strong>Mobile SEO: </strong>Ensuring fast, mobile-friendly pages to attract on-the-go shoppers.",
+                    "<strong>On-Page Optimization: </strong>We enhance product pages, category structures, and internal linking with precise SEO techniques, ensuring each element is fully optimized for search engines and user experience.",
+
+                    "<strong>Content Strategy: </strong>Our experts develop compelling, keyword-optimized content including product descriptions, informative guides, and blogs that engage and convert your target audience.",
+
+                    "<strong>Mobile SEO: </strong>Given the predominance of mobile traffic, we focus on mobile optimization to create fast, user-friendly pages that cater to mobile shoppers, thereby improving your search rankings and user satisfaction.",
                 ],
-                chooseUs : "We leverage BigCommerce's strengths to improve search visibility, user experience, and conversions.",
                 image : "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
             },
 
-            {heading : "Wix and Squarespace SEO Services" ,
-                para : "Wix and Squarespace make building stores easy, but achieving SEO success requires expertise. Our SEO services for Wix and Squarespace focus on visibility and user experience.",
+            {heading : "Maximize Your Wix and Squarespace Store's Potential with Expert E-commerce SEO Services" ,
+                para : "Wix and Squarespace make website design accessible, but truly excelling in SEO on these platforms requires specialized strategies. Our SEO services for Wix and Squarespace are crafted to enhance site visibility and user experience, transforming your website into a powerful sales engine. By focusing on the unique capabilities and SEO potentials of Wix and Squarespace, we ensure your online store not only attracts more visitors but also drives significant conversions.",
                 offers : [
-                    "<strong>Site Structure Optimization: </strong>Creating clean, SEO-friendly navigation and URLs",
-                    "<strong>Content Optimization: </strong>Improving product pages, blogs, and FAQs to attract organic traffic",
-                    "<strong>Local SEO: </strong>Optimizing for local searches to reach nearby customers.",
+                    "<strong>Site Structure Optimization: </strong> We create clean, SEO-friendly navigation and URL structures that make your site easy to index and navigate, enhancing both user experience and search engine visibility.",
+
+                    "<strong>Content Optimization: </strong>Our team improves your product pages, blogs, and FAQs with targeted SEO practices to boost organic traffic and engage visitors effectively.",
+
+                    "<strong>E-commerce Performance Enhancement:  </strong>Focusing on site speed and seamless navigation, we optimize your website's performance to ensure it meets the fast-paced demands of online shoppers, which is vital for maintaining competitive edge and improving conversion rates.",
                 ],
-                chooseUs : "We help you transform Wix and Squarespace stores into SEO-optimized platforms that rank higher and drive sales.",
+
                 image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
             },
 
-            {heading : "Multi-Platform SEO Consulting" ,
-                para : "For businesses using multiple platforms (Shopify, WooCommerce, Magento), we offer custom consulting services to streamline your SEO strategies across all systems.",
+            {heading : "Maximize Your Online Reach with Expert Multi-Platform E-commerce SEO Consulting" ,
+                para : "Operating across multiple platforms such as Shopify, WooCommerce, and Magento offers tremendous growth opportunities but also presents unique SEO challenges. Our Multi-Platform SEO Consulting services are specifically designed to unify and optimize your SEO efforts across all your e-commerce platforms, ensuring consistent performance and maximized visibility.",
                 offers : [
-                    "<strong>Comprehensive SEO Audits: </strong>Identify SEO issues across platforms.",
-                    "<strong>Keyword Harmonization: </strong>Optimize keywords consistently for all stores.",
-                    "<strong>Content Planning: </strong>Unified content strategies for multi-platform E-commerce.",
+                    "<strong>Comprehensive SEO Audits: </strong>We conduct detailed audits across platforms to identify and resolve SEO discrepancies, ensuring a cohesive strategy that enhances overall visibility and searchability.",
+
+                    "<strong>Keyword Harmonization: </strong>We optimize your keyword strategy across all platforms, ensuring that your products are consistently found by the right audiences, regardless of where they shop.",
+
+                    "<strong>Content Planning: </strong>We develop unified content strategies that adapt to the strengths and audiences of each platform, maintaining brand consistency and maximizing engagement.",
                 ],
-                chooseUs : "We ensure seamless SEO execution across multiple platforms to maximize organic growth and ROI.",
                 image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             },
 
         ]
 
     },
-    powerBySection: {
-        heading: "E-commerce  <span class= 'text-[#207DE9]'> Optimization Powered by </span> Data-Driven Insights",
-        para: "Harness the power of advanced analytics to elevate your online store's search rankings and drive more sales.",
 
+    approachSection: {
+        heading: "Our Proven E-commerce <span class= 'text-[#207DE9]'> SEO Strategy </span>",
+        para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services",
 
-        features: [
-            { navigator: "Real-Time Analytics", text: "Discuss how your tool provides real-time analytics on product performance, customer engagement, and SEO effectiveness, allowing clients to make informed decisions quickly.", icon: <IoAnalytics className='text-4xl text-[#6ADFD7] ' /> },
+        approaches: [
+            { heading: "Keyword Research Tailored to Products", detail: 'Identify high-intent, product-specific keywords your customers are searching for. Helps your products appear directly in search results when customers are ready to buy.', icon: <FaMagnifyingGlass /> },
 
-            { navigator: "Competitor Benchmarking", text: "Highlight features that enable clients to benchmark their SEO practices against competitors, focusing on pricing strategies, keyword utilization, and market positioning.", icon: < GrAchievement className='text-4xl text-[#6ADFD7] ' /> },
+            { heading: "Product Page Optimization", detail: 'Optimize product titles, descriptions, and alt text for images with targeted keywords. Boosts individual product rankings and increases discoverability in search engines.', icon: <FaCartShopping /> },
 
-            { navigator: "Conversion Optimization", text: "Mention how the tool helps identify and implement changes that boost conversion rates, such as optimized product descriptions, improved site navigation, and mobile optimization.", icon: <SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7] ' /> },
+            { heading: "Backlink Building for E-commerce", detail: 'Acquire backlinks from niche-relevant, high-authority websites to improve your store’s credibility. Builds trust with search engines, helping your site rank higher.', icon: <FaLink /> },
+
+            { heading: " Mobile-First SEO Implementation", detail: 'Ensure your e-commerce store is fully optimized for mobile devices with fast load times and seamless navigation. Mobile users make up a large percentage of online shoppers, and search engines prioritize mobile-friendly sites.', icon: <MdOutlineMobileFriendly /> },
+
+            { heading: "Optimizing for Site Speed", detail: 'Minimize load times by compressing images, optimizing scripts, and leveraging browser caching. Faster sites rank higher and reduce cart abandonment rates.', icon: <GrOptimize /> },
+
         ],
+    },
 
-        statistics: [
+    
+    realResultsSection: {
+        // results section starts 
+        heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth",
+        para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
 
-            { benefit: "Increase in Organic Traffic", benefitText: "Adapt the statistics to reflect the measurable outcomes relevant to e-commerce, such as", increasePercentage: 200 },
+        results: [
+            {header: "Ecommerce - Tools and Hardware", challenge: "Optimizing online visibility for tools and hardware to reach and convert ready-to-buy customers.", approaches: [
+                    "Keyword Optimization: Focusing on product-specific keywords for increased visibility.",
+                    "Site Structure Optimization: Streamlining navigation and indexing for better user experience.",
+                    "Content Optimization: Creating SEO-rich product content to convert visitors."
+                ], increase: 450, increaseIn: "Growth in organic traffic, leading to a significant increase in sales."
+            },
+            {header: "E-commerce SEO for Apparel", challenge: "Standing out in the competitive apparel market to capture potential sales.", approaches: [
+                    "Enhanced Visual Content SEO: Optimizing product visuals for better engagement.",
 
-            { benefit: "Improvement in Conversion Rates", benefitText: "average improvement in conversion rates after implementing your SEO strategies.", increasePercentage: 100 },
-
-            { benefit: "ROI from SEO Investments", benefitText: "return on investment that e-commerce businesses typically see when they use our SEO services.", increasePercentage: 300 },
+                    "Mobile Optimization: Ensuring a seamless shopping experience on mobile devices.",
+                    "Seasonal Campaigns: Leveraging SEO during peak shopping periods."
+                ], increase: 350, increaseIn: "Increase in page views and longer site engagement, boosting transaction rates."
+            },
+            {header: "E-commerce SEO for Consumer Electronics", challenge: "Addressing product turnover and informed consumer comparison before purchases.", approaches: [
+                    "Technical SEO Enhancements: Improving website speed and performance.",
+                    "Competitive Keyword Analysis: Targeting specific customer search terms.",
+                    "User Experience Optimization: Enhancing navigation and product information clarity."
+                ], increase: 520, increaseIn: "Rise in organic search traffic and improved conversion rates due to enhanced targeting and usability."
+            },
 
         ],
     },
@@ -385,62 +450,10 @@ export const EcommerceSEOData = {
 
     // Aproach section starts 
 
-    approachSection: {
-        heading: "Our Proven E-commerce <span class= 'text-[#207DE9]'> SEO Strategy </span>",
-        para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services",
 
-        approaches: [
-            { heading: "Keyword Research Tailored to Products", detail: 'Identify high-intent, product-specific keywords your customers are searching for. Helps your products appear directly in search results when customers are ready to buy.', icon: <FaMagnifyingGlass /> },
-
-            { heading: "Product Page Optimization", detail: 'Optimize product titles, descriptions, and alt text for images with targeted keywords. Boosts individual product rankings and increases discoverability in search engines.', icon: <FaCartShopping /> },
-
-            { heading: "Backlink Building for E-commerce", detail: 'Acquire backlinks from niche-relevant, high-authority websites to improve your store’s credibility. Builds trust with search engines, helping your site rank higher.', icon: <FaLink /> },
-
-            { heading: " Mobile-First SEO Implementation", detail: 'Ensure your e-commerce store is fully optimized for mobile devices with fast load times and seamless navigation. Mobile users make up a large percentage of online shoppers, and search engines prioritize mobile-friendly sites.', icon: <MdOutlineMobileFriendly /> },
-
-            { heading: "Optimizing for Site Speed", detail: 'Minimize load times by compressing images, optimizing scripts, and leveraging browser caching. Faster sites rank higher and reduce cart abandonment rates.', icon: <GrOptimize /> },
-
-        ],
-    },
 
     // approach section ends here 
 
-    realResultsSection: {
-        // results section starts 
-        heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth",
-        para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
-
-        results: [
-            {
-                header: "Ecommerce - Tools and Hardware", challenge: "We'll walk through all the different ways to use gradients in your work, as well as techniques", approaches: [
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy"
-                ], increase: "450", increaseIn: "Growth in organic calls"
-            },
-            {
-                header: "Ecommerce - Tools and Hardware", challenge: "We'll walk through all the different ways to use gradients in your work, as well as techniques", approaches: [
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy"
-                ], increase: "450", increaseIn: "Growth in organic calls"
-            },
-            {
-                header: "Ecommerce - Tools and Hardware", challenge: "We'll walk through all the different ways to use gradients in your work, as well as techniques", approaches: [
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy"
-                ], increase: "450", increaseIn: "Growth in organic calls"
-            },
-            {
-                header: "Ecommerce - Tools and Hardware", challenge: "We'll walk through all the different ways to use gradients in your work, as well as techniques", approaches: [
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy",
-                    "PPC investment reaallocation strategy"
-                ], increase: "450", increaseIn: "Growth in organic calls"
-            },
-        ],
-    },
 
     // results section ends here 
 
@@ -533,72 +546,6 @@ export const EcommerceSEOData = {
         ],
     },
 
-    customPricing : {
-
-        heading : 'Ecommerce SEO Services Custom Pricing Tailored to Your Business Goals',
-
-        mainHeading : "Custom E-commerce SEO Package",
-
-        overview : "Tailored specifically for e-commerce businesses, this package enhances online visibility and drives sales by addressing key areas critical to online retail success.",
-
-        benifits : [
-            {heading : "Enhanced E-commerce Visibility: " , description : "Attract and engage potential customers actively searching for your products."},
-            {heading : "Boosted Sales Conversion: " , description : "Attract and engage potential customers actively searching for your products."},
-            {heading : "Improved Customer Retention: " , description : "Encourage repeat business through an enhanced shopping experience."},
-
-        ],
-
-        keyFeatures : [
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."},
-            {heading : "E-commerce Content Strategy:" , description : "Optimize product descriptions and blogs with targeted keywords to improve visibility and engagement."}
-        ],
-
-        startingAt : "$4200/Month",
-
-        upperPart : {
-            header : "Custom E-commerce SEO Plans",
-            price : "Starting at $3,000/month"
-
-        },
-        leftPart : [
-                "<strong>Custom</strong> number of keywords optimized",
-                "<strong>Custom</strong> number of product pages optimized",
-                "<strong>Technical SEO Audit & Fixes : </strong> Custom Strategy",
-                "Custom Research Plan ",
-                "Custom Keyword Mapping to Product Pages",
-                "Full Optimization Title Tags & Meta Descriptions",
-                "Advanced Optimization Mobile Optimization",
-                "<strong>Schema Markup for Products :</strong> Custom Implementation",
-                "<strong>Internal Linking Optimization :</strong> Custom Strategy",
-                "Full Image SEO Optimization",
-
-            ],
-        
-
-        centerPart: {
-            text : "Drive traffic, boost conversions, and maximize ROI with advanced AI-powered strategies.",
-            pricing : ["<strong>Campaign Setup Fee (One-time) : </strong> Custom Quote",
-            "<strong>Monthly Investment : </strong> Custom Quote",]
-        },
-        rightPart : [
-            
-            "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> Custom Content Plan",
-
-            "<strong>Backlink Building (Quality Outreach) :</strong> Custom Plan",
-            "<strong>Competitor Analysis :</strong> Custom Analysis",
-            "<strong>Google Analytics Setup & Conversion Tracking :</strong> Custom Integration",
-            "<strong>Conversion Rate Optimization (CRO)</strong> : Custom CRO Strategy",
-            "<strong>Dedicated Monthly SEO </strong>Reports & Performance Insights",
-            "<strong>Customer Support : </strong> Dedicated Team Support",
-        ],
-
-        
-    },
 
 
     reviewsSection: {
