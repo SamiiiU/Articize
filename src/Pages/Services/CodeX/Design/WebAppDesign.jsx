@@ -13,7 +13,6 @@ import PoweredByCodeX from '../CodeXCommenPages/PowerByCodeX'
 
 import ApproachCodeX from '../CodeXCommenPages/ApprochCodeX'
 import CTA from '../../../../CommonComps/CTA'
-import UniquePackage from '../CodeXCommenPages/UniquePackage'
 import QandA from '../../../../CommonComps/QandA/QandA'
 import ReviewsCodeX from '../CodeXCommenPages/ReviewsCodeX'
 
@@ -38,7 +37,6 @@ const WebAppDesign = () => {
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
         
-        <UniquePackage page={webAppDesignData.customPackage}/>
 
         <QandA page={QACodeX.CustomDesign} para = {"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "}/>
 

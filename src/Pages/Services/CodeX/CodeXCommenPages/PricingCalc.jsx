@@ -34,11 +34,11 @@ const PricingCalc = ({page}) => {
         })
         setEstimate(price)
         setCalculated(true)
-
+        console.log(estimate)
     }
 
   return (
-    <div className='w-full relative px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center ' >
+    <div className='w-full relative px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center ' >
 
         <h1 className='2xl:text-[3rem] z-10 text-[2.5rem] font-[800]'  
         dangerouslySetInnerHTML={{

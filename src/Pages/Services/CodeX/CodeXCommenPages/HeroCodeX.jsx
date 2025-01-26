@@ -4,7 +4,7 @@ import React, { useContext, useEffect } from 'react'
 const HeroCodeX = ({page}) => {
 
   return (
-    <div className='w-full xl:min-h-[80vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-48 
+    <div className='w-full xl:min-h-[80vh] bg-[#00316A] px-4 sm:px-16 md:px-28 2xl:px-80 
     sm:pt-40 pt-28 pb-28 flex justify-center  '
     style={{backgroundImage : `url(${page.bg})` , backgroundSize : 'cover' , backgroundPosition : 'center' }}>
         <div className='w-full flex justify-center flex-col lg:flex-row gap-10'>

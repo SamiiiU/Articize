@@ -15,7 +15,7 @@ const WhyMattersCodeX = ({page}) => {
     
 
   return (
-    <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full bg-[#EDF5FF]  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
         <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]'  
         dangerouslySetInnerHTML={{
             __html: page.heading, // Render HTML string safely

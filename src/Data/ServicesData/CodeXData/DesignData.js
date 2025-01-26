@@ -1,7 +1,7 @@
 import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
 import heroImage from '../../../Assets/Images/CommonImages/CodeXImages/CodeXHeroIMG.png'
 import { FaBrain, FaCashRegister, FaChartLine, FaComments, FaCreditCard, FaDraftingCompass, FaFingerprint, FaIcons, FaLock, FaLockOpen, FaMagic, FaMobileAlt, FaMoneyBillWave, FaPaintBrush, FaPencilRuler, FaRegNewspaper, FaRegSmileBeam, FaRocket, FaSearch, FaShieldAlt, FaShieldVirus, FaShoppingCart, FaSitemap, FaSyncAlt, FaTachometerAlt, FaTools, FaUniversalAccess, FaUserCheck, FaUserCircle, FaUserFriends, FaUsers } from 'react-icons/fa'
-import { width } from '@mui/system'
+import { minWidth, width } from '@mui/system'
 import { IoCartSharp, IoPeople } from 'react-icons/io5'
 import { GrAchievement, GrOptimize, GrShop } from 'react-icons/gr'
 import { SiGooglecontaineroptimizedos, SiShopify } from 'react-icons/si'
@@ -9,87 +9,96 @@ import { MdDevices, MdFeedback, MdScreenRotation } from 'react-icons/md'
 
 
 export const customDesignData = {
-    heroSection : {
+    heroSection: {
         heading: "Revolutionize Your Online Presence with Cutting-Edge Custom Web Design Solutions That Deliver Results",
         para: "Unlock your brand's potential with stunning, functional web design tailored to your goals. We create responsive, user-friendly websites that captivate visitors, drive engagement, and boost conversions. Let us transform your vision into a powerful online presence!",
         img: heroImage,
         bg: BG,
     },
 
-    whyNeedSection : {
-        heading : "Why Your Business Needs <span class= 'text-[#207DE9]'> Custom Web Design </span> Services",
-        
-        whyNeed : [
-            
-            {header : "Establish a Unique Online Identity" ,
-            text : "Your website is the digital face of your brand, reflecting your logo, color palette, typography, and overall tone. <br/> <br/>At DevXCloud, we Craft personalized designs aligned with your brand's vision. <br/> Use cutting-edge tools like Figma and Adobe XD for prototyping. <br/>Incorporate dynamic design elements for a memorable user experience."
+    whyNeedSection: {
+        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'> Custom Web Design </span> Services",
+
+        whyNeed: [
+
+            {
+                header: "Establish a Unique Online Identity",
+                text: "Your website is the digital face of your brand, reflecting your logo, color palette, typography, and overall tone. <br/> <br/>At DevXCloud, we Craft personalized designs aligned with your brand's vision. <br/> Use cutting-edge tools like Figma and Adobe XD for prototyping. <br/>Incorporate dynamic design elements for a memorable user experience."
             },
 
-            {header : "Create a Lasting First Impression" ,
-                text : "Visitors form an opinion about your website within seconds. <br/><br/> We ensure lightning-fast load times with performance-optimized frameworks (React, Next.js, etc.)<br/>Aesthetically pleasing and professional layouts tailored to your audience <br/> High-definition visuals optimized for web and mobile."
+            {
+                header: "Create a Lasting First Impression",
+                text: "Visitors form an opinion about your website within seconds. <br/><br/> We ensure lightning-fast load times with performance-optimized frameworks (React, Next.js, etc.)<br/>Aesthetically pleasing and professional layouts tailored to your audience <br/> High-definition visuals optimized for web and mobile."
             },
 
-            {header : "Mobile-First and Responsive Design" ,
-                text : "Seamless Experiences Across Devices <br/> Our designs are crafted with a mobile-first approach, ensuring your site looks stunning and performs flawlessly on all devices. <br/>Technologies Used: CSS Grid, Flexbox, and frameworks like Bootstrap. <br/> Outcome: User-friendly and responsive layouts."
+            {
+                header: "Mobile-First and Responsive Design",
+                text: "Seamless Experiences Across Devices <br/> Our designs are crafted with a mobile-first approach, ensuring your site looks stunning and performs flawlessly on all devices. <br/>Technologies Used: CSS Grid, Flexbox, and frameworks like Bootstrap. <br/> Outcome: User-friendly and responsive layouts."
             },
 
-            {header : "Interactive and Engaging Features" ,
-                text : "Enhancing User Interaction <br/>We integrate captivating animations, scroll effects, and dynamic elements to keep users engaged and ensure a memorable experience. <br/>Examples: Lottie animations, hover effects, and carousels. <br/>Outcome: Increased user engagement and reduced bounce rates."
-            },
-    
-            {header : "Performance Optimization" ,
-                text : "Fast, Reliable, and SEO-Friendly <br/>We optimize every element of your website for speed, reliability, and search engine visibility.<br/>Techniques: Image compression, lazy loading, and CDN integration.<br/>Outcome: Improved Core Web Vitals and higher search rankings."
+            {
+                header: "Interactive and Engaging Features",
+                text: "Enhancing User Interaction <br/>We integrate captivating animations, scroll effects, and dynamic elements to keep users engaged and ensure a memorable experience. <br/>Examples: Lottie animations, hover effects, and carousels. <br/>Outcome: Increased user engagement and reduced bounce rates."
             },
 
-            {header : "Continuous Support and Improvement" ,
-                text : "Your Website is Always at Its Best Our job doesn’t stop at launch. <br/>We offer ongoing support to keep your website secure, updated, and aligned with the latest trends. <br/>Services Offered: Real-time monitoring, updates, and A/B testing. <br/>Outcome: Long-term performance and growth."
+            {
+                header: "Performance Optimization",
+                text: "Fast, Reliable, and SEO-Friendly <br/>We optimize every element of your website for speed, reliability, and search engine visibility.<br/>Techniques: Image compression, lazy loading, and CDN integration.<br/>Outcome: Improved Core Web Vitals and higher search rankings."
             },
 
-            {header : "Why Choose DevXCloud?" ,
-                text : "Cutting-Edge Tools: Leveraging the latest in design and development technologies. <br/>Client-Centric Approach: We collaborate closely with you every step of the way. <br/>Future-Proof Solutions: Scalable and adaptable designs built for growth."
+            {
+                header: "Continuous Support and Improvement",
+                text: "Your Website is Always at Its Best Our job doesn’t stop at launch. <br/>We offer ongoing support to keep your website secure, updated, and aligned with the latest trends. <br/>Services Offered: Real-time monitoring, updates, and A/B testing. <br/>Outcome: Long-term performance and growth."
+            },
+
+            {
+                header: "Why Choose DevXCloud?",
+                text: "Cutting-Edge Tools: Leveraging the latest in design and development technologies. <br/>Client-Centric Approach: We collaborate closely with you every step of the way. <br/>Future-Proof Solutions: Scalable and adaptable designs built for growth."
             },
 
 
-                
-    ]
-    },
 
-    whySection : {
-        heading: "Why <span class= 'text-[#207DE9]'>Custom UI Designing</span> matters?",
-        
-        para: "By delivering visually appealing and user-friendly interfaces, led by experienced designers and backed by the latest trends, we ensure your business stands out. Enhance user experiences, boost engagement, and achieve your goals with a design-first approach.",
-        
-        whyKeys: [
-        { heading: "User-Centered Design", explanation: 'Focus on understanding user behavior and needs to create intuitive, responsive, and engaging interfaces. Prioritize usability to ensure seamless navigation and a positive experience.', icon: <FaUsers /> },
-
-        { heading: "Wireframing & Prototyping", explanation: 'Design detailed wireframes and prototypes to provide a visual blueprint of the user interface. This process ensures functionality, flow, and alignment with business goals before full development.', icon: <FaDraftingCompass /> },
-
-        { heading: "Visual Aesthetics", explanation: 'Craft pixel-perfect designs with consistent branding, colors, and typography. Create interfaces that are not only beautiful but also align with your brand identity to leave a lasting impression.', icon: <FaPaintBrush /> },
-
-        { heading: "Performance-Focused Design", explanation: 'Optimize UI designs for faster load times and smooth performance across devices. A well-designed UI reduces bounce rates and improves overall user satisfaction.', icon: <FaRocket /> }
         ]
     },
 
-    boostSection : {
+    whySection: {
+        heading: "Why <span class= 'text-[#207DE9]'>Custom UI Designing</span> matters?",
+
+        para: "By delivering visually appealing and user-friendly interfaces, led by experienced designers and backed by the latest trends, we ensure your business stands out. Enhance user experiences, boost engagement, and achieve your goals with a design-first approach.",
+
+        whyKeys: [
+            { heading: "User-Centered Design", explanation: 'Focus on understanding user behavior and needs to create intuitive, responsive, and engaging interfaces. Prioritize usability to ensure seamless navigation and a positive experience.', icon: <FaUsers /> },
+
+            { heading: "Wireframing & Prototyping", explanation: 'Design detailed wireframes and prototypes to provide a visual blueprint of the user interface. This process ensures functionality, flow, and alignment with business goals before full development.', icon: <FaDraftingCompass /> },
+
+            { heading: "Visual Aesthetics", explanation: 'Craft pixel-perfect designs with consistent branding, colors, and typography. Create interfaces that are not only beautiful but also align with your brand identity to leave a lasting impression.', icon: <FaPaintBrush /> },
+
+            { heading: "Performance-Focused Design", explanation: 'Optimize UI designs for faster load times and smooth performance across devices. A well-designed UI reduces bounce rates and improves overall user satisfaction.', icon: <FaRocket /> }
+        ]
+    },
+
+    boostSection: {
         heading: "Boost Your Website's Performance with <span class= 'text-[#207DE9]'> Specialized <br/> Custom Website Design </span> Services.",
         para: "Solve unique design challenges with tailored website solutions that elevate user experiences, improve site performance, and drive conversions.",
 
         boostContent: [
-            {navigator: "Tailored Design Frameworks", 
+            {
+                navigator: "Tailored Design Frameworks",
 
-                matters : "Frameworks like React and Next.js allow for custom design solutions that load faster, perform better, and align with your business goals. Tailored frameworks improve scalability and support future updates seamlessly.", 
-    
+                matters: "Frameworks like React and Next.js allow for custom design solutions that load faster, perform better, and align with your business goals. Tailored frameworks improve scalability and support future updates seamlessly.",
+
                 includes: [
-                    "Custom design frameworks built for speed and interactivity." , 
+                    "Custom design frameworks built for speed and interactivity.",
                     "Lightweight, reusable components for dynamic page rendering.",
                     "Cross-platform compatibility ensuring the design works on all devices.",
-                ], 
-    
-                benefit : "Faster load times, superior performance, and a competitive edge in delivering user-friendly designs.",
-                
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png" 
+                ],
+
+                benefit: "Faster load times, superior performance, and a competitive edge in delivering user-friendly designs.",
+
+                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
             },
-            {navigator: "User-Centric Design",
+            {
+                navigator: "User-Centric Design",
                 matters: "Modern websites need to cater to user behavior with intuitive navigation, accessible features, and engaging visuals to retain visitors and drive conversions.",
                 includes: [
                     "Heatmap analysis for understanding user behavior.",
@@ -99,7 +108,8 @@ export const customDesignData = {
                 benefit: "Higher user satisfaction, better accessibility, and increased engagement.",
                 image: "https://example.com/user-centric-design.png"
             },
-            {navigator: "Performance-Driven Optimization",
+            {
+                navigator: "Performance-Driven Optimization",
                 matters: "Web performance directly impacts SEO rankings and user retention. Optimized websites deliver better experiences, especially for mobile users.",
                 includes: [
                     "Optimization using Google Core Web Vitals metrics.",
@@ -109,7 +119,8 @@ export const customDesignData = {
                 benefit: "Improved speed, better search engine rankings, and enhanced mobile experiences.",
                 image: "https://example.com/performance-optimization.png"
             },
-            {navigator: "SEO-Integrated Web Design",
+            {
+                navigator: "SEO-Integrated Web Design",
                 matters: "SEO should be embedded into the design process to ensure visibility on search engines right from launch.",
                 includes: [
                     "Schema markup implementation for enhanced SERP visibility.",
@@ -119,7 +130,8 @@ export const customDesignData = {
                 benefit: "Increased organic traffic and better ROI on marketing efforts.",
                 image: "https://example.com/seo-web-design.png"
             },
-            {navigator: "Interactive Features and Animations",
+            {
+                navigator: "Interactive Features and Animations",
                 matters: "Interactive features create engaging user experiences that leave a lasting impression.",
                 includes: [
                     "Custom animations using Lottie and CSS for lightweight visuals.",
@@ -129,7 +141,8 @@ export const customDesignData = {
                 benefit: "Enhanced user engagement and a more dynamic experience.",
                 image: "https://example.com/interactive-features.png"
             },
-            {navigator: "Future-Proof Scalability",
+            {
+                navigator: "Future-Proof Scalability",
                 matters: "As businesses grow, their websites must adapt to new challenges, features, and traffic demands.",
                 includes: [
                     "Modular design systems for easy expansion.",
@@ -139,7 +152,8 @@ export const customDesignData = {
                 benefit: "Future-proof websites that adapt with your business growth.",
                 image: "https://example.com/future-proof-scalability.png"
             },
-            {navigator: "Comprehensive Support & Maintenance",
+            {
+                navigator: "Comprehensive Support & Maintenance",
                 matters: "Ongoing support ensures that your website stays functional, secure, and up-to-date.",
                 includes: [
                     "Regular security updates and patches.",
@@ -149,130 +163,156 @@ export const customDesignData = {
                 benefit: "Peace of mind knowing your website is always optimized and secure.",
                 image: "https://example.com/support-maintenance.png"
             }
-            ]
+        ]
 
     },
 
-    poweredBySection : {
+    poweredBySection: {
         heading: "Custom UI  <span class= 'text-[#207DE9]'> Designing Powered by </span> User-Centric Insights",
-                para: "Leverage intuitive and visually stunning designs to enhance user experience, drive engagement, and elevate your brand identity.",
-        
-        
-                features: [
-                    { navigator: "User-Centered Design", text: "Our approach focuses on understanding user behavior and needs to create intuitive, responsive, and visually appealing interfaces that delight users.", icon: <IoPeople className='text-4xl text-[#6ADFD7] ' /> },
-        
-                    { navigator: "Interactive Prototyping", text: "We build interactive prototypes to visualize UI designs, ensuring alignment with business goals, functionality, and a seamless user flow.", icon: <GrAchievement className='text-4xl text-[#6ADFD7] ' /> },
-        
-                    { navigator: "Performance Optimization", text: "Optimize UI designs for lightning-fast performance, mobile responsiveness, and smooth navigation to boost user satisfaction and retention.", icon: <SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7] ' /> },
-                ],
-        
-                statistics: [
-        
-                    { benefit: "Increase in User Engagement", benefitText: "Track the measurable impact of custom UI design on user interactions and engagement rates.", increasePercentage: 150 },
-        
-                    { benefit: "Reduction in Bounce Rates", benefitText: "Improved UI leads to reduced bounce rates and higher customer retention on digital platforms.", increasePercentage: 60 },
-        
-                    { benefit: "Boost in Conversion Rates", benefitText: "Custom UI designs optimize user journeys, resulting in a significant boost in conversions.", increasePercentage: 120 },
-        
+        para: "Leverage intuitive and visually stunning designs to enhance user experience, drive engagement, and elevate your brand identity.",
+
+
+        features: [
+            { navigator: "User-Centered Design", text: "Our approach focuses on understanding user behavior and needs to create intuitive, responsive, and visually appealing interfaces that delight users.", icon: <IoPeople className='text-4xl text-[#6ADFD7] ' /> },
+
+            { navigator: "Interactive Prototyping", text: "We build interactive prototypes to visualize UI designs, ensuring alignment with business goals, functionality, and a seamless user flow.", icon: <GrAchievement className='text-4xl text-[#6ADFD7] ' /> },
+
+            { navigator: "Performance Optimization", text: "Optimize UI designs for lightning-fast performance, mobile responsiveness, and smooth navigation to boost user satisfaction and retention.", icon: <SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7] ' /> },
+        ],
+
+        statistics: [
+
+            { benefit: "Increase in User Engagement", benefitText: "Track the measurable impact of custom UI design on user interactions and engagement rates.", increasePercentage: 150 },
+
+            { benefit: "Reduction in Bounce Rates", benefitText: "Improved UI leads to reduced bounce rates and higher customer retention on digital platforms.", increasePercentage: 60 },
+
+            { benefit: "Boost in Conversion Rates", benefitText: "Custom UI designs optimize user journeys, resulting in a significant boost in conversions.", increasePercentage: 120 },
+
         ]
     },
 
-    customPackage : {
-        heading : "Bringing Your Ideas to Life with <span class= 'text-[#207DE9]'> Tailored UI Designs </span> for Seamless User Experiences",
+    customPackage: {
 
-        mainHeading : "<span  class = 'text-yellow-500'>PixelCraft:</span> Custom UI Designs That Inspire Interaction",
 
-        youGet : [
-            "Custom UI/UX design for 1-5 pages, tailored to your brand.",
-            "Mobile-friendly, responsive design for all devices.",
-            "Engaging homepage with animations and interactive features.",
-            "Up to 3 additional pages (like services, about, contact).",
-            "Basic SEO setup to help improve Google ranking.",
-            "Blog/news section for easy content updates.",
-            "Optional e-commerce setup with payment gateway (1-10 products).",
-            "Easy-to-use Content Management System (CMS).",
-            "Built-in security features for data protection.",
-            "1-month support for troubleshooting and updates."
-          ],
-        
-        buttonText : "Get PixelCraft Package",
-        
+        mainHeading: "Custom Website Design Elite Package",
+
+        overview: "This elite package is meticulously crafted for enterprises aiming to establish a commanding and innovative online presence, emphasizing custom solutions that resonate with their unique brand and audience.",
+
+        benifits: [
+            { heading: "Exclusive Design Tailoring: ", description: "Elevates your brand with a unique web presence, distinctly setting you apart from competitors." },
+            { heading: "Enhanced User Interaction: ", description: "Delivers an exceptionally user-friendly experience with tailored usability features designed for your target audience." },
+            { heading: "Robust SEO Framework: ", description: "Implements an SEO-optimized structure to significantly boost your online visibility and search rankings." },
+
+        ],
+
+        keyFeatures : [
+            { heading: "Extensive Customization: ", description: "Provides unlimited design revisions within the project scope to perfectly match your vision." },
+            { heading: "High-Performance Responsiveness: ", description: "Ensures smooth, efficient user experiences across all devices with optimized load times." },
+            { heading: "Dynamic UI/UX Elements: ", description: "Integrates innovative UI/UX design elements that actively engage visitors and encourage interactions." },
+            { heading: "Integrated Content Management System:", description: "Features a powerful, easy-to-use CMS that empowers you to manage content effortlessly." },
+            { heading: "Continuous Design Support: ", description: "Offers ongoing design support and strategic consultations to adapt your website as business needs evolve." },
+            { heading: "Accessibility Compliance: ", description: "Ensures your website meets all current accessibility standards, enhancing user experience for all visitors." },
+            { heading: "Advanced Security Features: ", description: "Incorporates the latest in web security technologies to protect your site and user data." },
+            { heading: "Analytics Integration: ", description: "Provides tools to track website performance and user engagement, helping you make data-driven decisions." }
+        ],
+
+        startingAt: "$4500/Month",
     },
 
-    pricingCalc : {
-        heading : "Bringing Your Ideas to Life with <span class= 'text-[#207DE9]'> Tailored UI Designs </span> for Seamless User Experiences",
+    pricingCalc: {
+        heading: "Bringing Your Ideas to Life with <span class= 'text-[#207DE9]'> Tailored UI Designs </span> for Seamless User Experiences",
 
-        requirements : [
-            {item : "Number Of Pages" , 
-                options : ["5-10" , "11-50" , "50+"], 
-                pricing : [100 , 200 , 400] , 
-                selected : 0, 
-                slider : {
-                shiftStep : 1,      
-                minVal : 0,         
-                maxVal : 2,         
-                steps : 1,          
-                defaultValue : 1,  
-              },
-              className : {width : 300},
+        requirements: [
+            {
+                item: "Number Of Pages",
+                options: ["1-5", "6-10", "11-20" , "20+"],
+                pricing: [100, 200, 400 , 500],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 3,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: { maxWidth: 300 , minWidth : 100 , width : 100},
 
-            
+
             },
-            {item : "Responsive" , 
-                options : ["No" , "Yes" , ], 
-                pricing : [300 , 500 ] , 
-                selected : 0,
-                slider : {
-                    shiftStep : 1,      
-                    minVal : 0,         
-                    maxVal : 1,         
-                    steps : 1,          
-                    defaultValue : 1,  
-                  },
-                className : {width : 300},
+            {
+                item: "Responsive",
+                options: ["No", "Yes",],
+                pricing: [300, 500],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 1,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: { width: 300 },
             },
-            {item : "Complexity" , 
-                options : ["Standard" , "Advanced" , "Animated"], 
-                pricing : [300 , 500 , 600] , 
-                selected : 0,
-                slider : {
-                    shiftStep : 1,      
-                    minVal : 0,         
-                    maxVal : 2,         
-                    steps : 1,          
-                    defaultValue : 1,  
-                  },
-                className : {width : 300},
+            {
+                item: "Complexity",
+                options: ["Basic", "Standard", "High" , "Very High"],
+                pricing: [300, 500, 600 , 800],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 3,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: { width: 300 },
             },
-            {item : "SEO" , 
-                options : ["Standard" , "Advanced" , "Aisi"] , 
-                pricing : [100 , 200 , 400] , 
-                selected : 0,
-                slider : {
-                    shiftStep : 1,      
-                    minVal : 0,         
-                    maxVal : 2,         
-                    steps : 1,          
-                    defaultValue : 1,  
-                  },
-                className : {width : 300},
+            {
+                item: "SEO",
+                options: ["None", "Basic", "Advanced", "Premium"],
+                pricing: [100, 200, 400 , 500],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 3,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: { width: 300 },
             },
-            {item : "Copywriting Services" , 
-                options : ["None" , "Blog Posts" , "Landing Pages" , "Full Strategy"] , 
-                pricing : [0 , 100 , 200 , 400] , 
-                selected : 0,
-                slider : {
-                    shiftStep : 1,      
-                    minVal : 0,         
-                    maxVal : 3,         
-                    steps : 1,          
-                    defaultValue : 1,  
-                  },
-                className : {width : 300},
+            {
+                item: "Copywriting Services",
+                options: ["None", "Basic", "Extensive"],
+                pricing: [0, 100, 200],
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 1,
+                },
+                className: { width: 300 },
             },
-            {item: "Database Integration",
-                options: ["None Required", "User Profiles", "Product Catalogs", "Custom Dashboards"],
-                pricing: [0, 2000, 5000, 5000],  // Upper limits for simplified calculations
+            {
+                item: "Database Integration",
+                options: ["None Required", "Basic", "Advanced"],
+                pricing: [0, 2000, 5000],  // Upper limits for simplified calculations
+                selected: 0,
+                slider: {
+                    shiftStep: 1,
+                    minVal: 0,
+                    maxVal: 2,
+                    steps: 1,
+                    defaultValue: 0,
+                },
+                className: { width: 300 },
+            },
+            {
+                item: "E-Commerce Setup",
+                options: ["None", "Basic", "Advanced", "Full Suite"],
+                pricing: [2000, 5000, 5000  , 6000],  // Upper limit for the range
                 selected: 0,
                 slider: {
                     shiftStep: 1,
@@ -281,25 +321,11 @@ export const customDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
-            },
-            {
-                item: "E-Commerce Setup",
-                options: ["Basic", "Pro", "Enterprise"],
-                pricing: [2000, 5000, 5000],  // Upper limit for the range
-                selected: 0,
-                slider: {
-                    shiftStep: 1,
-                    minVal: 0,
-                    maxVal: 2,
-                    steps: 1,
-                    defaultValue: 0,
-                },
-                className: {width: 300},
+                className: { width: 300 },
             },
             {
                 item: "CMS Integration",
-                options: ["WordPress", "Shopify", "Custom"],
+                options: [" Basic", "Advanced", "Premium"],
                 pricing: [1000, 2500, 5000],  // Upper limit for the range
                 selected: 0,
                 slider: {
@@ -307,64 +333,133 @@ export const customDesignData = {
                     minVal: 0,
                     maxVal: 2,
                     steps: 1,
-                    defaultValue: 0,
+                    defaultValue: 2,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
 
-        
+
     },
 
-    approachSection : {
+    pricingSection: {
+        para: "Discover our clear and flexible E-commerce SEO pricing plans designed to grow with your online store. From boosting site traffic to enhancing product visibility, our plans are crafted to provide tangible results and help you dominate your niche market.",
+
+        pricingCards: [
+            {name: "Bronze Plan",
+                header: "Bronze Plan",                //<strong>
+                price: "$2,000/month",
+                fitFor: "Startups and small businesses needing a solid digital foundation.",
+                youGet: [
+                    "Up to 3 custom designed pages",
+                    "Basic UI/UX Design",
+                    "Responsive Design across all devices",
+                    "Basic SEO Setup",
+                    "Content integration for up to 5 pages",
+                    "Basic static content management solution",
+                    "Google Analytics Integration",
+                    "Monthly updates and maintenance for 3 months",
+                    "Email support",
+                ],
+            },
+            {name: "Silver Plan",
+                header: "Silver Plan",
+                price: "$4,500/month",
+                fitFor: "Growing businesses looking to enhance their online presence.",
+                youGet: [
+                    "Includes all features in the Bronze Plan",
+                    "Up to 10 custom designed pages",
+                    "Advanced UI/UX design with interactive elements",
+                    "SEO advanced setup and strategy",
+                    "Content integration for up to 15 pages",
+                    "Dynamic content management system integration",
+                    "Social media integration",
+                    "Google Analytics and Conversion Tracking Setup",
+                    "Bi-weekly updates and maintenance for 6 months",
+                    "Phone and email support",
+                ],
+            },
+            {name: "Gold plan",
+                header: "Gold Plan",
+                price: "$7,000/month",
+                fitFor: "Large enterprises or E-commerce sites needing extensive, feature-rich designs.",
+                youGet: [
+                    "Includes all features in the Silver Plan",
+                    "Up to 20 custom designed pages",
+                    "Premium UI/UX design with high interactivity",
+                    "Comprehensive SEO and digital marketing strategy",
+                    "Unlimited content integration",
+                    "API integrations and e-commerce functionality Advanced Analytics and Conversion Optimization",
+                    "Weekly updates and maintenance for 12 months ",
+                    "Dedicated account manager and 24/7 support",
+                ],
+            },
+            {name: "Platinum Plan",
+                header: "Platinum Plan",
+                price: "$12,000/month",
+                fitFor: "High-end enterprises and extensive platforms seeking transformative digital experiences.",
+                youGet: [
+                    "Includes all features in the Gold Plan",
+                    "Unlimited custom designed pages",
+                    "State-of-the-art UI/UX design incorporating the latest design trends",
+                    "Fully customized dynamic content management system tailored to specific business processes",
+                    "Integrated advanced analytics, user behavior tracking, and A/B testing",
+                    "Continuous website updates, maintenance, and real-time monitoring for 12 months",
+                    "24/7 dedicated account management and priority customer support",
+                ],
+            },
+        ],
+    },
+
+    approachSection: {
         heading: "Our Proven <span class= 'text-[#207DE9]'> Custom UI Design Strategy </span>",
-                para: "Leverage our expertise to craft visually appealing, user-friendly, and functional interfaces that enhance user satisfaction, engagement, and performance.",
-                
-                approaches: [
-                    { 
-                        heading: "User Research and Analysis", 
-                        detail: 'Conduct in-depth research to understand user behavior, goals, and pain points. Design interfaces tailored to user needs, ensuring an intuitive and user-centric experience.', 
-                        icon: <FaUsers /> 
-                    },
-                
-                    { 
-                        heading: "Wireframing and Prototyping", 
-                        detail: 'Develop wireframes and interactive prototypes to map out the interface structure and test functionality. Ensure clarity and usability before the final design phase.', 
-                        icon: <FaDraftingCompass /> 
-                    },
-                
-                    { 
-                        heading: "Responsive UI Design", 
-                        detail: 'Create visually appealing, adaptable interfaces that work flawlessly across devices, ensuring a seamless user experience on desktops, tablets, and mobile screens.', 
-                        icon: <MdDevices /> 
-                    },
-                
-                    { 
-                        heading: "Interactive and Engaging Features", 
-                        detail: 'Incorporate animations, hover effects, and interactive elements that captivate users, improve engagement, and provide a memorable digital experience.', 
-                        icon: <FaMagic /> 
-                    },
-                
-                    { 
-                        heading: "Performance Optimization", 
-                        detail: 'Optimize UI elements to improve load speed and performance. Ensure smooth navigation, fast rendering, and frictionless interactions that enhance user satisfaction.', 
-                        icon: <GrOptimize /> 
-                    },
-                ]
-                
+        para: "Leverage our expertise to craft visually appealing, user-friendly, and functional interfaces that enhance user satisfaction, engagement, and performance.",
+
+        approaches: [
+            {
+                heading: "User Research and Analysis",
+                detail: 'Conduct in-depth research to understand user behavior, goals, and pain points. Design interfaces tailored to user needs, ensuring an intuitive and user-centric experience.',
+                icon: <FaUsers />
+            },
+
+            {
+                heading: "Wireframing and Prototyping",
+                detail: 'Develop wireframes and interactive prototypes to map out the interface structure and test functionality. Ensure clarity and usability before the final design phase.',
+                icon: <FaDraftingCompass />
+            },
+
+            {
+                heading: "Responsive UI Design",
+                detail: 'Create visually appealing, adaptable interfaces that work flawlessly across devices, ensuring a seamless user experience on desktops, tablets, and mobile screens.',
+                icon: <MdDevices />
+            },
+
+            {
+                heading: "Interactive and Engaging Features",
+                detail: 'Incorporate animations, hover effects, and interactive elements that captivate users, improve engagement, and provide a memorable digital experience.',
+                icon: <FaMagic />
+            },
+
+            {
+                heading: "Performance Optimization",
+                detail: 'Optimize UI elements to improve load speed and performance. Ensure smooth navigation, fast rendering, and frictionless interactions that enhance user satisfaction.',
+                icon: <GrOptimize />
+            },
+        ]
+
     },
 
 
-    reviewSection : {
-        heading : "Join our community of satisfied UI Clients",
-        para : "Heelllo"
+    reviewSection: {
+        heading: "Join our community of satisfied UI Clients",
+        para: "Heelllo"
     }
 
 
 
-    
 
-} 
+
+}
 
 export const EcommerceWebDesignData = {
     heroSection: {
@@ -415,12 +510,12 @@ export const EcommerceWebDesignData = {
             {
                 heading: "Tailored Shopping Experiences",
                 explanation: "We create custom shopping experiences that cater to your audience's preferences and behavior, resulting in higher engagement and sales.",
-                icon: <FaShoppingCart/>
+                icon: <FaShoppingCart />
             },
             {
                 heading: "Advanced User Interface Design",
                 explanation: "Our UI designs are focused on enhancing the user journey on your ecommerce site, making it easy for customers to find and purchase products.",
-                icon: <FaUserCircle/>
+                icon: <FaUserCircle />
             },
             {
                 heading: "Seamless Checkout Processes",
@@ -430,7 +525,7 @@ export const EcommerceWebDesignData = {
             {
                 heading: "Robust Security Features",
                 explanation: "Security is paramount in ecommerce. We incorporate advanced security measures to protect your customers' data and build trust with your audience.",
-                icon: <FaLock/>
+                icon: <FaLock />
             }
         ]
     },
@@ -481,7 +576,7 @@ export const EcommerceWebDesignData = {
                 ],
                 benefit: "A secure and swift checkout process that enhances customer trust and improves conversion rates."
             }
-        ]  
+        ]
     },
 
     poweredBySection: {
@@ -519,7 +614,8 @@ export const EcommerceWebDesignData = {
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored UI Designs</span> for Seamless Ecommerce Experiences",
         requirements: [
-            {item: "Number Of Pages",
+            {
+                item: "Number Of Pages",
                 options: ["5-10", "11-50", "50+"],
                 pricing: [200, 400, 800],
                 selected: 0,
@@ -530,9 +626,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Responsive",
+            {
+                item: "Responsive",
                 options: ["No", "Yes"],
                 pricing: [0, 500],
                 selected: 1,
@@ -543,9 +640,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Complexity",
+            {
+                item: "Complexity",
                 options: ["Standard", "Advanced", "Highly Interactive"],
                 pricing: [300, 700, 1000],
                 selected: 0,
@@ -556,9 +654,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "SEO",
+            {
+                item: "SEO",
                 options: ["Basic", "Enhanced", "Ecommerce Focused"],
                 pricing: [200, 400, 800],
                 selected: 0,
@@ -569,9 +668,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Copywriting Services",
+            {
+                item: "Copywriting Services",
                 options: ["None", "Product Descriptions", "Full Ecommerce Content"],
                 pricing: [0, 300, 800],
                 selected: 0,
@@ -582,9 +682,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Database Integration",
+            {
+                item: "Database Integration",
                 options: ["None Required", "User Profiles", "Product Catalogs", "Custom Ecommerce Solutions"],
                 pricing: [0, 3000, 8000, 15000],
                 selected: 0,
@@ -595,9 +696,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "E-Commerce Setup",
+            {
+                item: "E-Commerce Setup",
                 options: ["Basic Storefront", "Advanced Features", "Enterprise Scale"],
                 pricing: [3000, 8000, 15000],
                 selected: 0,
@@ -608,9 +710,10 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "CMS Integration",
+            {
+                item: "CMS Integration",
                 options: ["Shopify", "Magento", "Custom Built"],
                 pricing: [2500, 7000, 15000],
                 selected: 0,
@@ -621,7 +724,7 @@ export const EcommerceWebDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -630,29 +733,29 @@ export const EcommerceWebDesignData = {
         heading: "Our Proven <span class='text-[#207DE9]'>Custom Ecommerce UI Design Strategy</span>",
         para: "Leverage our expertise to craft visually appealing, user-friendly, and functional interfaces tailored to enhance ecommerce platforms, improving user satisfaction, engagement, and sales performance.",
         approaches: [
-            { 
-                heading: "Ecommerce User Research and Analysis", 
-                detail: 'Conduct in-depth research to understand shopper behavior, goals, and pain points within ecommerce contexts. Design interfaces tailored to user needs, ensuring an intuitive shopping experience.', 
+            {
+                heading: "Ecommerce User Research and Analysis",
+                detail: 'Conduct in-depth research to understand shopper behavior, goals, and pain points within ecommerce contexts. Design interfaces tailored to user needs, ensuring an intuitive shopping experience.',
                 icon: <FaShoppingCart />
             },
-            { 
-                heading: "Wireframing and Prototyping for Ecommerce", 
-                detail: 'Develop wireframes and interactive prototypes to map out the ecommerce interface structure and test functionality. Ensure clarity and usability before the final design phase.', 
+            {
+                heading: "Wireframing and Prototyping for Ecommerce",
+                detail: 'Develop wireframes and interactive prototypes to map out the ecommerce interface structure and test functionality. Ensure clarity and usability before the final design phase.',
                 icon: <FaPencilRuler />
             },
-            { 
-                heading: "Responsive Ecommerce UI Design", 
-                detail: 'Create visually appealing, adaptable interfaces that work flawlessly across devices, ensuring a seamless shopping experience on desktops, tablets, and mobile screens.', 
+            {
+                heading: "Responsive Ecommerce UI Design",
+                detail: 'Create visually appealing, adaptable interfaces that work flawlessly across devices, ensuring a seamless shopping experience on desktops, tablets, and mobile screens.',
                 icon: <MdDevices />
             },
-            { 
-                heading: "Interactive and Engaging Ecommerce Features", 
-                detail: 'Incorporate animations, hover effects, and interactive elements that captivate shoppers, improve engagement, and provide a memorable shopping experience.', 
+            {
+                heading: "Interactive and Engaging Ecommerce Features",
+                detail: 'Incorporate animations, hover effects, and interactive elements that captivate shoppers, improve engagement, and provide a memorable shopping experience.',
                 icon: <FaMagic />
             },
-            { 
-                heading: "Ecommerce Performance Optimization", 
-                detail: 'Optimize UI elements to improve load speed and performance. Ensure smooth navigation, fast rendering, and frictionless interactions that enhance shopper satisfaction.', 
+            {
+                heading: "Ecommerce Performance Optimization",
+                detail: 'Optimize UI elements to improve load speed and performance. Ensure smooth navigation, fast rendering, and frictionless interactions that enhance shopper satisfaction.',
                 icon: <GrOptimize />
             },
         ]
@@ -665,9 +768,9 @@ export const EcommerceWebDesignData = {
 
 
 
-    
 
-} 
+
+}
 
 export const WebRedesignData = {
     heroSection: {
@@ -719,22 +822,22 @@ export const WebRedesignData = {
             {
                 heading: "Modernized User Experiences",
                 explanation: "We craft redesigns that modernize your website, providing users with fluid navigation and tailored experiences that boost satisfaction and loyalty.",
-                icon: <FaRegSmileBeam/>
+                icon: <FaRegSmileBeam />
             },
             {
                 heading: "Intuitive UI/UX Enhancements",
                 explanation: "Our redesigns focus on enhancing the user interface and user experience, making it easier and more enjoyable for visitors to navigate and interact with your site.",
-                icon: <FaUserCheck/>
+                icon: <FaUserCheck />
             },
             {
                 heading: "Efficient Checkout and User Flows",
                 explanation: "We streamline user flows and checkout processes to reduce bounce rates and abandonment, effectively increasing conversion rates with a focus on user-friendly designs.",
-                icon: <FaCashRegister/>
+                icon: <FaCashRegister />
             },
             {
                 heading: "Advanced Security Integration",
                 explanation: "Security is a top priority in our redesign process. We integrate the latest security technologies to safeguard your site and user data against threats.",
-                icon: <FaShieldVirus/>
+                icon: <FaShieldVirus />
             }
         ]
     },
@@ -783,32 +886,45 @@ export const WebRedesignData = {
                 ],
                 benefit: "A secure website that safeguards user information and complies with global standards."
             }
-        ]  
+        ]
     },
 
 
+
     customPackage: {
-        heading: "Elevate Your Online Presence with <span class='text-[#207DE9]'>Custom Website Redesign</span> for Enhanced User Experiences",
-        mainHeading: "<span class='text-yellow-500'>RedesignCraft:</span> Tailored Redesigns That Transform Your Site",
-        youGet: [
-            "Comprehensive UI/UX redesign for up to 5 pages, focused on enhancing user engagement.",
-            "Responsive design overhaul to ensure optimal viewing on all devices.",
-            "Incorporation of dynamic elements and modern design trends.",
-            "Redesign of up to 3 additional pages (such as Home, About Us, Services).",
-            "Advanced SEO setup to improve organic search visibility.",
-            "Updated blog/news section for better content presentation.",
-            "Optional integration of new features like e-commerce capabilities or advanced forms.",
-            "A robust Content Management System (CMS) configured for easy content updates.",
-            "State-of-the-art security upgrades for full data protection.",
-            "Dedicated 1-month post-launch support for adjustments and optimizations."
+
+        heading: 'Ecommerce SEO Services Custom Pricing Tailored to Your Business Goals',
+
+        mainHeading: "Custom E-commerce SEO Package",
+
+        overview: "This elite package is meticulously crafted for enterprises aiming to establish a commanding and innovative online presence, emphasizing custom solutions that resonate with their unique brand and audience.",
+
+        benifits: [
+            { heading: "Exclusive Design Tailoring: ", description: "Elevates your brand with a unique web presence, distinctly setting you apart from competitors." },
+            { heading: "Enhanced User Interaction: ", description: "Delivers an exceptionally user-friendly experience with tailored usability features designed for your target audience." },
+            { heading: "Robust SEO Framework: ", description: "Implements an SEO-optimized structure to significantly boost your online visibility and search rankings." },
+
         ],
-        buttonText: "Get RedesignCraft Package"
+
+        keyFeatures : [
+            { heading: "Extensive Customization: ", description: "Provides unlimited design revisions within the project scope to perfectly match your vision." },
+            { heading: "High-Performance Responsiveness: ", description: "Ensures smooth, efficient user experiences across all devices with optimized load times." },
+            { heading: "Dynamic UI/UX Elements: ", description: "Integrates innovative UI/UX design elements that actively engage visitors and encourage interactions." },
+            { heading: "Integrated Content Management System:", description: "Features a powerful, easy-to-use CMS that empowers you to manage content effortlessly." },
+            { heading: "Continuous Design Support: ", description: "Offers ongoing design support and strategic consultations to adapt your website as business needs evolve." },
+            { heading: "Accessibility Compliance: ", description: "Ensures your website meets all current accessibility standards, enhancing user experience for all visitors." },
+            { heading: "Advanced Security Features: ", description: "Incorporates the latest in web security technologies to protect your site and user data." },
+            { heading: "Analytics Integration: ", description: "Provides tools to track website performance and user engagement, helping you make data-driven decisions." }
+        ],
+
+        startingAt: "$4500/Month",
     },
 
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored Redesigns</span> for a Seamless Online Experience",
         requirements: [
-            {item: "Number of Pages",
+            {
+                item: "Number of Pages",
                 options: ["1-5", "6-10", "11+"],
                 pricing: [250, 500, 750],
                 selected: 0,
@@ -819,9 +935,10 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Responsive Design",
+            {
+                item: "Responsive Design",
                 options: ["No", "Yes"],
                 pricing: [0, 600],
                 selected: 1,
@@ -832,9 +949,10 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Design Complexity",
+            {
+                item: "Design Complexity",
                 options: ["Basic", "Intermediate", "Advanced"],
                 pricing: [400, 800, 1200],
                 selected: 0,
@@ -845,9 +963,10 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "SEO Optimization",
+            {
+                item: "SEO Optimization",
                 options: ["Standard", "Advanced", "Premium"],
                 pricing: [300, 600, 900],
                 selected: 0,
@@ -858,9 +977,10 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Content Upgrade",
+            {
+                item: "Content Upgrade",
                 options: ["None", "Copywriting", "Full Content Overhaul"],
                 pricing: [0, 400, 1000],
                 selected: 0,
@@ -871,9 +991,10 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "CMS Integration",
+            {
+                item: "CMS Integration",
                 options: ["None", "WordPress", "Fully Custom"],
                 pricing: [0, 2000, 4000],
                 selected: 0,
@@ -884,7 +1005,7 @@ export const WebRedesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -893,29 +1014,29 @@ export const WebRedesignData = {
         heading: "Our Proven <span class='text-[#207DE9]'>Website Redesign Strategy</span>",
         para: "Leverage our expertise to craft visually appealing, user-friendly, and functional interfaces tailored to rejuvenate and optimize your web presence, improving user satisfaction, engagement, and overall site performance.",
         approaches: [
-            { 
+            {
                 heading: "In-depth Site Analysis and User Feedback",
-                detail: 'Conduct comprehensive analysis and gather user feedback to understand the current site\'s strengths and weaknesses. Focus on data-driven insights to inform the redesign strategy.', 
+                detail: 'Conduct comprehensive analysis and gather user feedback to understand the current site\'s strengths and weaknesses. Focus on data-driven insights to inform the redesign strategy.',
                 icon: <FaSearch />
             },
-            { 
+            {
                 heading: "Wireframing and Prototyping for Redesign",
-                detail: 'Develop detailed wireframes and interactive prototypes to envision the new site structure and test its functionality. Ensure every element is placed for maximum usability and aesthetic appeal before the final design phase.', 
+                detail: 'Develop detailed wireframes and interactive prototypes to envision the new site structure and test its functionality. Ensure every element is placed for maximum usability and aesthetic appeal before the final design phase.',
                 icon: <FaSitemap />
             },
-            { 
+            {
                 heading: "Responsive and Adaptive Design",
-                detail: 'Redesign the site to be fully responsive, ensuring it provides an optimal viewing experience across all devices—from desktops to mobile phones.', 
+                detail: 'Redesign the site to be fully responsive, ensuring it provides an optimal viewing experience across all devices—from desktops to mobile phones.',
                 icon: <MdScreenRotation />
             },
-            { 
+            {
                 heading: "Interactive Elements and Visual Upgrades",
-                detail: 'Enhance the site with modern visual elements such as animations, micro-interactions, and high-quality imagery that engage users and elevate the overall browsing experience.', 
+                detail: 'Enhance the site with modern visual elements such as animations, micro-interactions, and high-quality imagery that engage users and elevate the overall browsing experience.',
                 icon: <FaIcons />
             },
-            { 
+            {
                 heading: "Performance and SEO Optimization",
-                detail: 'Optimize the redesigned site for faster load times and better SEO rankings. Implement the latest web standards for coding, image optimization, and content delivery to boost performance and visibility.', 
+                detail: 'Optimize the redesigned site for faster load times and better SEO rankings. Implement the latest web standards for coding, image optimization, and content delivery to boost performance and visibility.',
                 icon: <GrOptimize />
             }
         ]
@@ -926,7 +1047,7 @@ export const WebRedesignData = {
         para: "Experience the transformation our custom website redesigns bring, driving more traffic, enhancing user interaction, and significantly increasing engagement and conversion rates."
     }
 
-} 
+}
 
 export const CMSThemeDesignData = {
     heroSection: {
@@ -976,22 +1097,22 @@ export const CMSThemeDesignData = {
             {
                 heading: "Customized Content Display",
                 explanation: "We tailor CMS themes to enhance the presentation of your content, ensuring it resonates with your audience and drives engagement.",
-                icon: <FaRegNewspaper/>
+                icon: <FaRegNewspaper />
             },
             {
                 heading: "Intuitive Navigation Design",
                 explanation: "Our CMS themes are designed to improve site navigation, making it easy for visitors to find the content they need without hassle.",
-                icon: <FaSitemap/>
+                icon: <FaSitemap />
             },
             {
                 heading: "Enhanced User Interactions",
                 explanation: "We incorporate features that enhance user interactions with your site, from comment sections to social media integrations, improving overall user engagement.",
-                icon: <FaUsers/>
+                icon: <FaUsers />
             },
             {
                 heading: "Robust Security Features",
                 explanation: "Security is a top priority in our CMS theme design. We implement advanced security measures to safeguard your site and user data from potential threats.",
-                icon: <FaShieldAlt/>
+                icon: <FaShieldAlt />
             }
         ]
     },
@@ -1030,11 +1151,11 @@ export const CMSThemeDesignData = {
                 ],
                 benefit: "A visually stunning website that captures and retains user interest."
             }
-        ]  
+        ]
     },
 
 
-    
+
     customPackage: {
         heading: "Elevate Your Content Management with <span class='text-[#207DE9]'>Custom CMS Theme Designs</span> for Seamless User Experiences",
         mainHeading: "<span class='text-yellow-500'>ThemeCraft:</span> Custom CMS Themes That Enhance User Engagement",
@@ -1056,7 +1177,8 @@ export const CMSThemeDesignData = {
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored CMS Theme Designs</span> for Seamless Content Management",
         requirements: [
-            {item: "Number Of Templates",
+            {
+                item: "Number Of Templates",
                 options: ["1-5", "6-10", "10+"],
                 pricing: [300, 600, 1200],
                 selected: 0,
@@ -1067,9 +1189,10 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Responsive",
+            {
+                item: "Responsive",
                 options: ["No", "Yes"],
                 pricing: [0, 500],
                 selected: 1,
@@ -1080,9 +1203,10 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Complexity",
+            {
+                item: "Complexity",
                 options: ["Standard", "Advanced", "Highly Customized"],
                 pricing: [500, 1000, 1500],
                 selected: 0,
@@ -1093,9 +1217,10 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "SEO",
+            {
+                item: "SEO",
                 options: ["Basic", "Enhanced", "CMS Optimized"],
                 pricing: [200, 400, 800],
                 selected: 0,
@@ -1106,9 +1231,10 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Custom Features",
+            {
+                item: "Custom Features",
                 options: ["None", "Basic Extensions", "Advanced Extensions"],
                 pricing: [0, 400, 1000],
                 selected: 0,
@@ -1119,9 +1245,10 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "CMS Integration",
+            {
+                item: "CMS Integration",
                 options: ["WordPress", "Drupal", "Custom Solution"],
                 pricing: [500, 2000, 4000],
                 selected: 0,
@@ -1132,7 +1259,7 @@ export const CMSThemeDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -1141,29 +1268,29 @@ export const CMSThemeDesignData = {
         heading: "Our Proven <span class='text-[#207DE9]'>Custom CMS Theme Design Strategy</span>",
         para: "Harness our expertise to craft visually appealing, highly functional CMS themes tailored to streamline your content management, improving user interaction, and content delivery.",
         approaches: [
-            { 
-                heading: "User-Centric Theme Research and Design", 
-                detail: 'Conduct thorough research to understand the needs of content managers and end-users. Design themes that are intuitive and tailored to enhance content delivery and management.', 
+            {
+                heading: "User-Centric Theme Research and Design",
+                detail: 'Conduct thorough research to understand the needs of content managers and end-users. Design themes that are intuitive and tailored to enhance content delivery and management.',
                 icon: "<FaUsers />"
             },
-            { 
-                heading: "Modular Design and Component Development", 
-                detail: 'Develop modular components that can be reused across the CMS for flexibility and consistency. Ensure seamless integration with the core CMS features.', 
+            {
+                heading: "Modular Design and Component Development",
+                detail: 'Develop modular components that can be reused across the CMS for flexibility and consistency. Ensure seamless integration with the core CMS features.',
                 icon: "<FaPuzzlePiece />"
             },
-            { 
-                heading: "Responsive and Accessible Design", 
-                detail: 'Create themes that are responsive and accessible, ensuring they work flawlessly across all devices and meet web accessibility standards.', 
+            {
+                heading: "Responsive and Accessible Design",
+                detail: 'Create themes that are responsive and accessible, ensuring they work flawlessly across all devices and meet web accessibility standards.',
                 icon: "<MdDevicesOther />"
             },
-            { 
-                heading: "Interactive and Dynamic Elements", 
-                detail: 'Integrate interactive elements such as sliders, interactive galleries, and custom widgets that enhance the visual appeal and functionality of the CMS.', 
+            {
+                heading: "Interactive and Dynamic Elements",
+                detail: 'Integrate interactive elements such as sliders, interactive galleries, and custom widgets that enhance the visual appeal and functionality of the CMS.',
                 icon: "<FaMagic />"
             },
-            { 
-                heading: "Performance and SEO Optimization", 
-                detail: 'Optimize themes for fast loading times and enhanced SEO, ensuring content is easily discoverable and ranks well in search engines.', 
+            {
+                heading: "Performance and SEO Optimization",
+                detail: 'Optimize themes for fast loading times and enhanced SEO, ensuring content is easily discoverable and ranks well in search engines.',
                 icon: "<GrOptimize />"
             }
         ]
@@ -1176,7 +1303,7 @@ export const CMSThemeDesignData = {
 
 
 
-    
+
 
 }
 
@@ -1225,22 +1352,22 @@ export const ProtoTypingData = {
             {
                 heading: "Streamlined User Interactions",
                 explanation: "Prototypes help us streamline user interactions and optimize the flow to ensure a seamless experience.",
-                icon: <FaFingerprint/>
+                icon: <FaFingerprint />
             },
             {
                 heading: "Detailed User Feedback",
                 explanation: "Using interactive prototypes, we gather detailed feedback on user behavior and preferences, which informs the optimization of the design.",
-                icon: <FaUserFriends/>
+                icon: <FaUserFriends />
             },
             {
                 heading: "Reduced Development Costs",
                 explanation: "Prototyping identifies potential issues early, significantly reducing the cost and time required for revisions during development.",
-                icon: <FaMoneyBillWave/>
+                icon: <FaMoneyBillWave />
             },
             {
                 heading: "Enhanced Security Features",
                 explanation: "We integrate security considerations early in the design process through prototypes, enhancing the overall security of the application.",
-                icon: <FaLockOpen/>
+                icon: <FaLockOpen />
             }
         ]
     },
@@ -1311,7 +1438,8 @@ export const ProtoTypingData = {
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored Interactive Prototyping</span>",
         requirements: [
-            {item: "Number of Prototypes",
+            {
+                item: "Number of Prototypes",
                 options: ["1-3", "4-6", "7+"],
                 pricing: [300, 600, 900],
                 selected: 0,
@@ -1322,9 +1450,10 @@ export const ProtoTypingData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Level of Interactivity",
+            {
+                item: "Level of Interactivity",
                 options: ["Basic", "Advanced", "Complex"],
                 pricing: [200, 400, 600],
                 selected: 0,
@@ -1335,9 +1464,10 @@ export const ProtoTypingData = {
                     steps: 1,
                     defaultValue: 1,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Integration with Dev Tools",
+            {
+                item: "Integration with Dev Tools",
                 options: ["None", "Partial", "Full"],
                 pricing: [0, 300, 500],
                 selected: 0,
@@ -1348,9 +1478,10 @@ export const ProtoTypingData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Feedback Implementation Cycles",
+            {
+                item: "Feedback Implementation Cycles",
                 options: ["1", "2", "3+"],
                 pricing: [100, 200, 300],
                 selected: 0,
@@ -1361,7 +1492,7 @@ export const ProtoTypingData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -1370,27 +1501,27 @@ export const ProtoTypingData = {
         heading: "Our Proven <span class='text-[#207DE9]'>Interactive Prototyping Design Strategy</span>",
         para: "Harness our expertise to create interactive prototypes that serve as a critical tool in the design process, enabling better decision-making and more effective communication between design teams and stakeholders. Improve usability, refine features, and ensure a superior end-user experience before development begins.",
         approaches: [
-            { 
+            {
                 heading: "User-Centered Design Analysis",
                 detail: "Start with a thorough analysis of user needs and behavior to inform the interactive prototypes, ensuring they align perfectly with user expectations and enhance usability.",
                 icon: <FaUserFriends />
             },
-            { 
+            {
                 heading: "Dynamic Prototyping",
                 detail: "Utilize advanced tools like Axure and Figma to create dynamic, interactive prototypes that mimic real-world application and allow for extensive user interaction testing.",
                 icon: <FaPencilRuler />
             },
-            { 
+            {
                 heading: "Feedback Integration Loops",
                 detail: "Implement iterative design cycles that incorporate user feedback into the prototype rapidly, refining the user interface and interactions to meet the exact needs of the target audience.",
                 icon: <MdFeedback />
             },
-            { 
+            {
                 heading: "Usability Testing",
                 detail: "Conduct structured usability tests with the prototypes to identify friction points and opportunities for improvement, ensuring the final product is optimized for user satisfaction.",
                 icon: <FaUserCheck />
             },
-            { 
+            {
                 heading: "Technical Feasibility Assessments",
                 detail: "Evaluate the technical feasibility of the proposed designs within the interactive prototypes, working closely with development teams to ensure a smooth transition from design to development.",
                 icon: <FaTools />
@@ -1403,7 +1534,7 @@ export const ProtoTypingData = {
         para: "Experience the effectiveness of our interactive prototyping process, which empowers teams to visualize complex solutions, streamline the design phase, and achieve better outcomes in the final product."
     }
 
-} 
+}
 
 export const uxOptimizationData = {
     heroSection: {
@@ -1446,22 +1577,22 @@ export const uxOptimizationData = {
             {
                 heading: "Focused User Research",
                 explanation: "We conduct thorough user research to uncover insights that drive our design decisions, ensuring every interface element is crafted with the user’s needs in mind.",
-                icon: <FaUserCheck/>
+                icon: <FaUserCheck />
             },
             {
                 heading: "Behavioral Insights Integration",
                 explanation: "Integrating behavioral insights into the design process allows us to predict user reactions and tailor experiences that meet subconscious expectations.",
-                icon: <FaBrain/>
+                icon: <FaBrain />
             },
             {
                 heading: "Accessibility Enhancement",
                 explanation: "By optimizing for accessibility, we ensure that your digital products are usable by people of all abilities, broadening your audience and meeting compliance standards.",
-                icon: <FaUniversalAccess/>
+                icon: <FaUniversalAccess />
             },
             {
                 heading: "Performance Optimization",
                 explanation: "We enhance the performance of your digital products to ensure that they are fast, responsive, and capable of handling user demands efficiently.",
-                icon: <FaRocket/>
+                icon: <FaRocket />
             }
         ]
     },
@@ -1532,7 +1663,8 @@ export const uxOptimizationData = {
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored UX Optimization</span>",
         requirements: [
-            {item: "Number of Interfaces",
+            {
+                item: "Number of Interfaces",
                 options: ["1-3", "4-6", "7+"],
                 pricing: [400, 800, 1200],
                 selected: 0,
@@ -1543,9 +1675,10 @@ export const uxOptimizationData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Level of Customization",
+            {
+                item: "Level of Customization",
                 options: ["Standard", "Advanced", "Premium"],
                 pricing: [500, 1000, 1500],
                 selected: 0,
@@ -1556,9 +1689,10 @@ export const uxOptimizationData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Accessibility Standards",
+            {
+                item: "Accessibility Standards",
                 options: ["A", "AA", "AAA"],
                 pricing: [200, 400, 600],
                 selected: 0,
@@ -1569,9 +1703,10 @@ export const uxOptimizationData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "User Testing Rounds",
+            {
+                item: "User Testing Rounds",
                 options: ["1", "2", "3+"],
                 pricing: [300, 600, 900],
                 selected: 0,
@@ -1582,7 +1717,7 @@ export const uxOptimizationData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -1590,30 +1725,30 @@ export const uxOptimizationData = {
         heading: "Our Proven <span class='text-[#207DE9]'>User Experience Optimization Design Strategy</span>",
         para: "Leverage our expertise to create optimized user experiences that ensure high usability, engagement, and satisfaction. Our strategic approach involves deep user research, iterative design processes, and robust testing to refine and perfect the user journey.",
         approaches: [
-            { 
+            {
                 heading: "In-Depth User Research",
                 detail: "Conduct comprehensive user research to gather insights into user behavior, preferences, and pain points, forming the foundation of our UX optimization efforts.",
                 icon: <FaUserFriends />
             },
-            { 
+            {
                 heading: "Iterative Design and Testing",
                 detail: "Apply an iterative design process, continually testing and refining designs based on real user feedback to ensure the solutions meet their needs effectively.",
                 icon: <FaSyncAlt />
             },
-            { 
+            {
                 heading: "Conversion Rate Optimization",
                 detail: "Focus on optimizing design elements to enhance the conversion rate, using A/B testing and analytics to measure the impact of design changes on user behavior and conversion metrics.",
                 icon: <FaChartLine />
             },
-            { 
+            {
                 heading: "Accessibility Enhancements",
                 detail: "Improve accessibility to ensure that all users, regardless of ability, can navigate and interact with the site effectively, adhering to WCAG guidelines.",
                 icon: <FaUniversalAccess />
             },
-            { 
+            {
                 heading: "Performance Optimization",
                 detail: "Enhance the performance of the digital product, ensuring fast load times and smooth interactions that contribute to a positive user experience.",
-                icon: <FaRocket  />
+                icon: <FaRocket />
             }
         ]
     },
@@ -1622,7 +1757,7 @@ export const uxOptimizationData = {
         heading: "Join our community of satisfied User Experience Optimization Design Clients",
         para: "Discover the transformative impact of our UX optimization services, which have consistently delivered improved user engagement, higher satisfaction rates, and increased conversions for our clients."
     }
-} 
+}
 
 export const webAppDesignData = {
     heroSection: {
@@ -1665,27 +1800,27 @@ export const webAppDesignData = {
             {
                 heading: "User-Centric Design Principles",
                 explanation: "We apply user-centric design principles to ensure that every app interface element is optimized for engagement and ease of use.",
-                icon: <FaUsers/>
+                icon: <FaUsers />
             },
             {
                 heading: "Integration of Modern Design Trends",
                 explanation: "We stay ahead of the curve by integrating modern design trends that enhance aesthetic appeal and user interaction.",
-                icon: <FaPaintBrush/>
+                icon: <FaPaintBrush />
             },
             {
                 heading: "Accessibility Optimization",
                 explanation: "Optimizing apps for accessibility is paramount. We make sure your app is accessible to all users, which expands your audience and complies with legal standards.",
-                icon: <FaUniversalAccess/>
+                icon: <FaUniversalAccess />
             },
             {
                 heading: "Performance Enhancement",
                 explanation: "We focus on optimizing the performance of your app to ensure it operates smoothly across different devices and platforms, enhancing user retention.",
-                icon: <FaTachometerAlt/>
+                icon: <FaTachometerAlt />
             }
         ]
     },
 
-    
+
     boostSection: {
         heading: "Boost Your <span class='text-[#207DE9]'>App Design</span> with Custom Design Services",
         para: "Our bespoke design services are crafted to enhance your app's presence through **App Design**. We focus on creating designs that not only captivate but also ensure seamless interaction and increase user engagement, tailored specifically to improve app usability and functionality.",
@@ -1752,7 +1887,8 @@ export const webAppDesignData = {
     pricingCalc: {
         heading: "Bringing Your Ideas to Life with <span class='text-[#207DE9]'>Tailored App Design</span>",
         requirements: [
-            {item: "Number of Screens",
+            {
+                item: "Number of Screens",
                 options: ["1-5", "6-10", "11+"],
                 pricing: [500, 1000, 1500],
                 selected: 0,
@@ -1763,9 +1899,10 @@ export const webAppDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Level of Interactivity",
+            {
+                item: "Level of Interactivity",
                 options: ["Basic", "Advanced", "Complex"],
                 pricing: [400, 800, 1200],
                 selected: 0,
@@ -1776,9 +1913,10 @@ export const webAppDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "Accessibility Compliance",
+            {
+                item: "Accessibility Compliance",
                 options: ["Basic", "WCAG AA", "WCAG AAA"],
                 pricing: [200, 400, 600],
                 selected: 0,
@@ -1789,9 +1927,10 @@ export const webAppDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             },
-            {item: "User Testing Phases",
+            {
+                item: "User Testing Phases",
                 options: ["1", "2", "3+"],
                 pricing: [300, 600, 900],
                 selected: 0,
@@ -1802,7 +1941,7 @@ export const webAppDesignData = {
                     steps: 1,
                     defaultValue: 0,
                 },
-                className: {width: 300},
+                className: { width: 300 },
             }
         ]
     },
@@ -1810,27 +1949,27 @@ export const webAppDesignData = {
         heading: "Our Proven <span class='text-[#207DE9]'>App Design Strategy</span>",
         para: "Utilize our extensive experience to create sophisticated app designs that ensure high usability, engagement, and satisfaction. Our strategic approach involves rigorous user research, adaptive design methods, and continuous user feedback incorporation to refine and perfect the app experience.",
         approaches: [
-            { 
+            {
                 heading: "Strategic User Research",
                 detail: "Conduct strategic user research to uncover deep insights into app user behavior and preferences, which guides our design strategy.",
                 icon: <FaUserFriends />
             },
-            { 
+            {
                 heading: "Adaptive Design Techniques",
                 detail: "Employ adaptive design techniques that respond to user needs and device capabilities, ensuring optimal usability and visual appeal.",
                 icon: <FaMobileAlt />
             },
-            { 
+            {
                 heading: "Continuous User Feedback",
                 detail: "Incorporate continuous user feedback into the design process to make data-driven decisions that enhance the user experience.",
                 icon: <FaComments />
             },
-            { 
+            {
                 heading: "In-depth Performance Optimization",
                 detail: "Focus on in-depth performance optimization to ensure the app operates smoothly under various conditions and loads quickly on all devices.",
                 icon: <FaTachometerAlt />
             },
-            { 
+            {
                 heading: "Comprehensive Accessibility Integration",
                 detail: "Implement comprehensive accessibility measures to make the app usable by as wide an audience as possible.",
                 icon: <FaUniversalAccess />
@@ -1842,6 +1981,6 @@ export const webAppDesignData = {
         heading: "Join our community of satisfied App Design Clients",
         para: "Experience the superior quality of our app design services, which have consistently led to successful app launches, user praise, and high retention rates."
     }
-} 
+}
 
 
