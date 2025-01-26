@@ -6,57 +6,102 @@ import { BsMarkerTip } from 'react-icons/bs'
 export const penetrationTestingData = {
     heroSection: {
         heading: "Fortify Your Digital Defense with Expert Penetration Testing",
-        para: "In the evolving landscape of cybersecurity threats, staying one step ahead is crucial. Our Penetration Testing services are designed to uncover vulnerabilities before they can be exploited by malicious actors. With a blend of advanced tools and expert tactics, we simulate real-world attacks to help you strengthen your defenses, ensuring your business remains secure and compliant.",
+        para: "In the evolving landscape of cybersecurity threats, staying proactive is essential. Our Penetration Testing services are meticulously designed to identify and mitigate vulnerabilities before they are exploited by malicious actors. Using a blend of cutting-edge tools and expert tactics, we simulate real-world attacks, equipping your business to strengthen its defenses and ensure compliance.",
         img: heroImage,
         bg: BG, 
     },
-    customPricing: {
-        heading: 'Custom Google Ads PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom Google Ads PPC Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "Custom number of keywords targeted",
-            "Custom audience and demographic targeting",
-            "Custom budget management strategies",
-            "Full Optimization of Ad Copies and CTAs"
+    customPackage: {
+
+
+        mainHeading: "Custom Penetration Testing Package",
+
+        overview: "Tailored specifically for businesses seeking robust cybersecurity, this package provides comprehensive penetration testing to identify and mitigate vulnerabilities, ensuring enhanced protection against cyber threats.",
+
+        benifits: [
+            { heading: "Enhanced Security Posture: ", description: "Identify and resolve security vulnerabilities before they can be exploited by attackers, significantly strengthening your cyber defenses." },
+            { heading: "Regulatory Compliance Assurance: ", description: "Help meet compliance with industry standards like GDPR, PCI-DSS, and HIPAA, reducing the risk of legal and financial penalties." },
+            { heading: "Minimized Cyber Risk: ", description: "Proactively tackle potential security threats, minimizing the risk of data breaches and associated costs." },
+
         ],
-        centerPart: {
-            text: "Drive traffic, boost conversions, and maximize ROI with advanced AI-powered PPC strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom reporting and analytics plan",
-            "Custom conversion tracking and optimization",
-            "Custom content strategy for ad creatives",
-            "Dedicated customer support and account management"
-        ]
+
+        keyFeatures : [
+            { heading: "Customized Attack Simulations: ", description: "Tailor-made simulations that mimic real-life cyber attacks to test defenses effectively." },
+            { heading: "Comprehensive Vulnerability Scans: ", description: " Detailed scans across all digital assets to identify vulnerabilities." },
+            { heading: "Risk Analysis and Prioritization: ", description: "Classify and prioritize risks based on their potential impact." },
+            { heading: "Security Patch Verification: ", description: "Test to confirm that security patches have been successfully applied and are effective." },
+            { heading: "Social Engineering Tests: ", description: "5. Simulate phishing and other social engineering attacks to assess employee awareness." },
+            { heading: "Wireless Network Testing: ", description: "Evaluate the security of wireless networks against unauthorized access and attacks." },
+            { heading: "Web Application Testing: ", description: "In-depth testing of web applications to detect common and complex security vulnerabilities." },
+            { heading: "Post-Test Analysis and Reporting: ", description: "Provide a detailed report with findings, actionable insights, and recommendations for security enhancements." }
+        ],
+
+        startingAt: "$4500/Month",
     },
     builtPurpose : {
-        heading : "Secure Your Network with Advanced Penetration Testing",
-        purposes : [
-            {header : "Build a robust defense against cyber threats" , purpose : "Penetration Testing Services identify vulnerabilities in your network before they can be exploited. Using cutting-edge techniques and tools, our team conducts comprehensive tests to ensure your defenses are up to the challenges posed by modern cyber threats."},
+        heading: "Boost Your Online Store's Performance with <span class= 'text-[#207DE9]'>  Specialized <br/> E-commerce SEO </span> Services.",
+        para: "Emphasize the unique challenges and opportunities of e-commerce SEO, such as improving product visibility, optimizing for buyer-intent keywords, and enhancing user experience to drive conversions.",
 
-            {header : "Activate security measures across your organization" , purpose : "Our tests go beyond simple vulnerability scans, incorporating real-world attack simulations that help your security team understand and mitigate potential threats effectively. This approach ensures that every aspect of your organization is fortified against intrusion."},
+        boostContent: [
+            { name: "Advanced Pen Testing", 
+                whyMatters : "Advanced Pen Testing goes beyond traditional security checks to expose hidden vulnerabilities in your network, simulating sophisticated cyber attacks to assess your defenses under real-world conditions.",
 
-            {header : "Embed security in every layer of your technology stack" , purpose : "We don’t just test your perimeter; we examine all layers of your IT infrastructure, including cloud services, internal networks, and applications. Our Penetration Testing framework integrates seamlessly with your existing security protocols, enhancing them with detailed insights and actionable recommendations."},
+                includes : [
+                    "Tailored Security Scenarios: Custom-designed to challenge your specific security infrastructure.",
+                    "In-depth Vulnerability Scans: Comprehensive checks across your entire network.",
+                    "Remediation Guidance: Expert advice on how to address discovered vulnerabilities.",
+                ],
+                benifit : "Gain a deep understanding of your network's security robustness, ensuring all potential entry points for attackers are identified and fortified.",
+
+            },
+
+            { name: "Network Security Testing",  
+                whyMatters : "Network Security Testing ensures that your infrastructure is secure against the latest and most sophisticated cyber threats, protecting your critical data and systems.",
+
+                includes : [
+                    "Network Performance Checks: Ensuring your security measures do not hinder performance.",
+                    "Firewall Testing and Intrusion Detection Systems Review: Testing the effectiveness of your protective barriers.",
+                    "Real-time Attack Simulations: Assessing the response times and effectiveness of your security protocols.",
+                ],
+                benifit : "Maintain optimal network performance and security, safeguarding your operations and enhancing trust with your clients and partners.",
+
+            },
+
+            { name: "Cyber Defense Evaluation",  
+                whyMatters : "Evaluating your cyber defenses regularly helps you understand the effectiveness of your security strategies and implement improvements where necessary.",
+
+                includes : [
+                    "Strategy Reviews: Assessing your overall cybersecurity strategies for gaps.",
+                    "Defense Mechanism Testing: Verifying the strength of your encryption, antivirus, and other defensive tools.",
+                    "Compliance Checks: Ensuring your security measures comply with legal and industry standards.",
+                ],
+                benifit : "Stay ahead of cyber threats with a robust defense strategy that's compliant and up-to-date, minimizing potential security breaches.",
+
+            },
+
+            { name: "Vulnerability Assessment",  
+                whyMatters : "A thorough Vulnerability Assessment provides a clear picture of your network's weaknesses, offering actionable insights into where your security needs reinforcement.",
+
+                includes : [
+                    "Automated and Manual Testing: Utilizing both automated tools and manual techniques to uncover vulnerabilities.",
+                    "Risk Severity Classification: Prioritizing vulnerabilities based on their potential impact.",
+                    "Patch Verification: Testing how well security patches have been implemented and if they hold against attempted breaches.",
+                ],
+                benifit : "Enhance your network security by systematically identifying and addressing vulnerabilities, reducing the likelihood and impact of attacks.",
+
+            },
+
+            { name: "Security Risk Analysis", 
+                whyMatters : "Security Risk Analysis is crucial for understanding the potential risks to your network, allowing you to allocate resources effectively and enhance your security measures accordingly.",
+
+                includes : [
+                    "Mapping out key pages for strategic link placement.",
+                    "Using relevant anchor texts that align with target keywords.",
+                    "Creating linkable assets like infographics and blogs that naturally encourage internal links.",
+                ],
+                benifit : "Enhanced site authority, better indexed pages, and a cohesive user journey that increases the likelihood of conversion.",
+            },
 
         ],
-
-        includes : [
-            "<strong>Customized Penetration Strategies:</strong> Tailored to your specific business needs and security requirements.",
-            "<strong>Comprehensive Risk Analysis:</strong> Identifies both internal and external vulnerabilities.",
-            "<strong>Customized Penetration Strategies:</strong> Tailored to your specific business needs and security requirements.",
-            "<strong>Comprehensive Risk Analysis:</strong> Identifies both internal and external vulnerabilities.",
-            "<strong>Customized Penetration Strategies:</strong> Tailored to your specific business needs and security requirements.",
-            "<strong>Comprehensive Risk Analysis:</strong> Identifies both internal and external vulnerabilities.",
-            "<strong>Customized Penetration Strategies:</strong> Tailored to your specific business needs and security requirements.",
-            "<strong>Comprehensive Risk Analysis:</strong> Identifies both internal and external vulnerabilities.",
-        ]
     },
     makeBetter : {
         heading : "Secure Your Network with <span class= 'text-[#207DE9]'>  Advanced Penetration </span> Testing",
@@ -177,13 +222,13 @@ export const penetrationTestingData = {
         heading : "We've got what you need to get started.",
 
         wegives : [
-            {header : "Penetration Testing Overview" , para : "Learn the basics of Penetration Testing, why it's essential, and how it can protect your business from cyber threats. Discover the tools and methodologies we use to keep your data safe." , buttonText : "Start Learning"},
+            {header : "Discover the Essentials of Penetration Testing" , para : "Learn why Penetration Testing is crucial for safeguarding your business against cyber threats. Explore the tools and methodologies we use to protect your data and keep your organization secure." , buttonText : "Start Learning"},
             
-            {header : "Customized Security Solutions" , para : "With our tailored Penetration Testing services, we address specific security concerns unique to your business. Find out how our customized approach can help secure your critical assets effectively." , buttonText : "Get the Guide"},
+            {header : "Tailored Security Solutions for Your Business" , para : "Our customized Penetration Testing services address unique security concerns specific to your business. Find out how our approach ensures the safety of your critical assets." , buttonText : "Get the Guide"},
             
-            {header : "Continuous Monitoring & Response" , para : "Join our Continuous Monitoring program to ensure your systems are always protected from new and evolving threats. Learn about our round-the-clock surveillance and incident response services." , buttonText : "Learn More"},
+            {header : "24/7 Threat Monitoring and Incident Response" , para : "Stay protected from evolving threats with our Continuous Monitoring program. Benefit from round- the-clock surveillance and rapid response to potential security breaches." , buttonText : "Learn More"},
             
-            {header : "Cybersecurity Resources Portal" , para : "Access a wide range of resources including whitepapers, case studies, and best practices in cybersecurity. Enhance your knowledge and stay updated with the latest in cyber defense." , buttonText : "Explore Resources"}
+            {header : "Stay Informed with Cybersecurity Resources" , para : "Access whitepapers, case studies, and best practices in our Cybersecurity Resources Portal. Stay updated with the latest insights and strengthen your cyber defenses." , buttonText : "Explore Resources"}
         ]
     },
 
