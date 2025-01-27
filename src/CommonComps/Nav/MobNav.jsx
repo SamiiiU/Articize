@@ -40,8 +40,7 @@ const MobNav = () => {
         <div className='fixed text-[#313131] w-full z-50 px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
           <div className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}> </div> 
 
-          <span onClick={toggleMenu} className=' text-4xl text-right'>{menuOpen ? <RxCross2 /> :   <LuMenu/>}
-        </span> 
+          <span onClick={toggleMenu} className=' text-4xl text-right'>{menuOpen ? <RxCross2 /> :   <LuMenu/>}</span> 
 
         
         </div>

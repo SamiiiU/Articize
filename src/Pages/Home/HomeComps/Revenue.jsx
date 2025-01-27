@@ -7,25 +7,7 @@ import ScrollCounter from '../../../Prebuild_Components/ScrollCounter'
 
 const Revenue = () => {
     // Create an array of refs to track each div
-    const refs = useRef(HomeData.revenueSlides.map(() => React.createRef()));
-    const [maxHeight, setMaxHeight] = useState(0);
-  
-    useEffect(() => {
-      // Function to calculate the maximum height
-      const calculateMaxHeight = () => {
-        const heights = refs.current.map(ref => ref.current.clientHeight);
-        setMaxHeight(Math.max(...heights));
-      };
-  
-      // Calculate maximum height after the component mounts
-      calculateMaxHeight();
-  
-      // Add event listener to recalculate on window resize
-      window.addEventListener('resize', calculateMaxHeight);
-  
-      // Cleanup function to remove the event listener
-      return () => window.removeEventListener('resize', calculateMaxHeight);
-    }, []);
+
   
   return (
     <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-10 flex flex-col gap-10 text-center items-center '>
@@ -36,7 +18,7 @@ const Revenue = () => {
         
         <CustomSlider>
           {HomeData.revenueSlides.map((result, index) => (
-        <div ref={refs.current[index]} key={index} className="overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative " style={{minHeight : maxHeight}}>
+        <div  key={index} className="overflow-hidden shadow-md  custom-scrollbar pt-20 pb-5 bg-white rounded-2xl text-left px-4 relative " >
           {/* Client Heading */}
           <div className="p-4 sm:pr-10 absolute left-0 top-0 bg-[#207DE9] text-white rounded-br-full font-semibold">
             {result.heading}
