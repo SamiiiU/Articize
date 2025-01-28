@@ -385,7 +385,7 @@ export const EcommerceSEOData = {
     },
 
     pathToSuccess : {
-        heading : "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R.</span>O.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to E-commerce SEO Success",
+        heading : "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R</span>.<span class= 'text-[#207DE9]'>O</span>.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to E-commerce SEO Success",
         
         paths : [
             {letter : "G" , heading : "Generate Traffic" , matters : "Without traffic, your online store won't get the visibility it deserves. SEO helps attract qualified, organic visitors who are actively searching for your products." , how : ["Keyword research to identify high-intent, transactional search terms." ,"Target long-tail keywords that align with buyer needs" , "Optimize for Google Shopping and other search engines."] ,
@@ -442,6 +442,8 @@ export const EcommerceSEOData = {
                     "Increased organic traffic." ,
                     "Higher search rankings." , 
                     "More conversions and sales."] ,
+                outcome : "Improved visibility in search results and higher engagement on product pages."
+
             },
 
             

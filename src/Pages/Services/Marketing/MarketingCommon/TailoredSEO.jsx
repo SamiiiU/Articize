@@ -20,7 +20,7 @@ export const TailoredSEO = ({page}) => {
      </h1>
      <p className='lg:text-xl text-lg font-normal  ' dangerouslySetInnerHTML={{__html : page.para}}></p>
 
-      {screenWidth > 640 && (
+      {screenWidth > 640 ? (
         <>
         {page.tailoredItems.map((item , index ) => (
             <div key={index} className='w-full flex my-8 items-center gap-10 flex-wrap '>
@@ -71,6 +71,29 @@ export const TailoredSEO = ({page}) => {
             </div>
         ))}
         </>
+      ) : (
+        <div className='w-full flex flex-col gap-y-16'>
+            {page.tailoredItems.map((item , index) => (
+                <>
+                    <div className='flex-1 text-left'>
+                    <h1 className='font-semibold text-3xl  mb-4 text-[#013a6e]'>{item.heading}</h1>
+                    <p className='mb-8'>{item.para}</p>
+
+                    <h1 className='font-semibold text-xl  mb-4'>What We Offer?</h1>
+                    <ul className='list-item ml-6 list-disc mb-8'>
+                    {item.offers.map((offer , idx) => (
+                        <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
+                    ))}
+                    </ul>              
+
+
+                    </div>
+                    <div className='sm:w-[500px] sm:flex-1 h-full '>
+                    <img src={item.image} alt={item.heading} className='w-full h-full'/>
+                    </div>
+                </>
+            )) }
+        </div>
       )}
      </div>
   )
