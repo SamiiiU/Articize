@@ -47,7 +47,7 @@ const MobNav = () => {
 
       {/* Navigation Menu */}
       <div
-        className={`fixed z-40 text-[#313131] top-full left-0 w-full min-h-screen pt-20 bg-white shadow-lg transition-transform duration-300 ${
+        className={`fixed z-40 text-[#313131] top-full left-0 w-full min-h-screen mt-20 bg-white shadow-lg transition-transform duration-300 ${
           menuOpen ? "-translate-y-full" : "translate-y-0"
         }`}
       >

@@ -138,10 +138,8 @@ export const mainNavData = [
   },
 
 
-  {
-    navigator: "CyberSecurity & DevOps", sections: [
-      {
-        heading: "Cyber Security",
+  {navigator: "CyberSecurity & DevOps", sections: [
+      {heading: "Cyber Security",
         types: [
           { path: '/penetration-testing', type: 'Penetration Testing' },
           { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
@@ -154,8 +152,7 @@ export const mainNavData = [
         ]
       },
 
-      {
-        heading: "DevOps", types: [
+      {heading: "DevOps", types: [
           { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
           { path: '/api-management-and-automation', type: 'API Management and Automation' },
           { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
@@ -173,8 +170,7 @@ export const mainNavData = [
     ]
   },
 
-  {
-    navigator: "AI & Data Science ", sections: [
+  {navigator: "AI & Data Science ", sections: [
       {
         heading: "Artificial Intelligence (AI)",
         types: [
@@ -206,8 +202,7 @@ export const mainNavData = [
       { IMG: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZJmSi_wplFO7qPmSbhLC7QkXYGzIo0N-Bw&s' },]
   },
 
-  {
-    navigator: "Who We Are", sections: [
+  {navigator: "Who We Are", sections: [
       {
         heading: "Who We Are",
         types: [
@@ -268,33 +263,30 @@ export const mainNavData = [
 
 export const mobNavigationData = [
   //SEO & PPC
-  {
-    mainHeading: "SEO & PPC",
+  {mainHeading: "SEO & PPC",
     subHeadings: [
       {
         title: "Search Engine Optimization (SEO)",
         links: [
-          { path: '/google-ads-ppc', type: 'Google Ads PPC' },
-          { path: '/amazon-ppc', type: 'Amazon PPC' },
-          { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
-          { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
-          { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
-          { path: '/youtube-ppc', type: 'YouTube PPC' },
-          { path: '/dynamic-search-ads', type: 'Dynamic Search Ads' },
-          { path: '/discovery-ads', type: 'Discovery Ads' },
+          { path: '/ecommerce-seo', type: 'E-commerce SEO' },
+          { path: '/local-seo', type: 'Local SEO' },
+          { path: '/technical-seo', type: 'Technical SEO' },
+          { path: '/content-seo', type: 'Content SEO' },
+          { path: '/international-seo', type: 'International SEO' },
+          { path: '/seo-audits', type: 'SEO Audits' },
+          { path: '/video-seo', type: 'Video SEO' },
         ],
       },
       {
         title: "Pay Per Click (PPC)",
         links: [
           { path: '/google-ads-ppc', type: 'Google Ads PPC' },
-          { path: '/amazon-ppc', type: 'Amazon PPC' },
-          { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
-          { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
-          { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
-          { path: '/youtube-ppc', type: 'YouTube PPC' },
-          { path: '/dynamic-search-ads', type: 'Dynamic Search Ads' },
-          { path: '/discovery-ads', type: 'Discovery Ads' },
+        { path: '/amazon-ppc', type: 'Amazon PPC' },
+        { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
+        { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
+        { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
+        { path: '/youtube-ppc', type: 'YouTube PPC' },
+        { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
         ],
       },
       {
@@ -310,11 +302,9 @@ export const mobNavigationData = [
     ],
   },
   //Dev X 
-  {
-    mainHeading: "DevX",
+  {mainHeading: "DevX",
     subHeadings: [
-      {
-        title: "Design",
+      {title: "Design",
         links: [
           { path: '/custom-website-design', type: 'Custom Website Design' },
           { path: '/ecommerce-website-design', type: 'E-Commerce Website Design' },
@@ -322,10 +312,10 @@ export const mobNavigationData = [
           { path: '/custom-theme', type: 'Custom Theme Development for CMS' },
           { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
           { path: '/ux-optimization', type: 'User Experience Optimization Service' },
+          { path: '/web-app-design', type: 'Web App Design' },
         ],
       },
-      {
-        title: "Development",
+      {title: "Development",
         links: [
           { path: '/responsive-website-development', type: 'Responsive Website Development' },
           { path: '/web-application-development', type: 'Web Application Development' },
@@ -336,8 +326,7 @@ export const mobNavigationData = [
           { path: '/mobile-app-development', type: 'Mobile App Development' },
         ],
       },
-      {
-        title: "Maintainance & Updates",
+      {title: "Maintainance & Updates",
         links: [
           { path: '/web-infrastructure-maintenance', type: 'Web Infrastructure & Maintenance' },
           { path: '/security-monitoring-and-updates', type: 'Security Monitoring and Updates' },
@@ -350,23 +339,21 @@ export const mobNavigationData = [
     ],
   },
   // Cyber Security & Devops
-  {
-    mainHeading: "Cyber Security & Devops",
+  {mainHeading: "Cyber Security & Devops",
     subHeadings: [
-      {
-        title: "Cyber Security",
+      {title: "Cyber Security",
         links: [
           { path: '/penetration-testing', type: 'Penetration Testing' },
           { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
           { path: '/incident-response-and-recovery', type: 'Incident Response and Recovery' },
-          { path: '/malware-removal-and-prevention', type: 'Malware Removal and Prevention' },
+
           { path: '/firewall-and-network-security-setup', type: 'Firewall and Network Security Setup' },
           { path: '/data-encryption-solutions', type: 'Data Encryption Solutions' },
           { path: '/compliance-management', type: 'Compliance Management' },
+          { path: '/zero-trust-architecture', type: 'Zero Trust Architecture' },
         ],
       },
-      {
-        title: "Devops",
+      {title: "Devops",
         links: [
           { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
           { path: '/api-management-and-automation', type: 'API Management and Automation' },
@@ -374,19 +361,16 @@ export const mobNavigationData = [
           { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
           { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
           { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/web-application-security', type: 'Web Application Security' },
-          { path: '/app-store-optimization-and-deployment', type: 'App Store Optimization and Deployment' },
+          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
         ],
       },
 
     ],
   },
   // AI & Data Analysis
-  {
-    mainHeading: "AI & Data Analysis",
+  {mainHeading: "AI & Data Analysis",
     subHeadings: [
-      {
-        title: "Artificial Intelligence (AI)",
+      {title: "Artificial Intelligence (AI)",
         links: [          
           { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
           { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
@@ -396,8 +380,7 @@ export const mobNavigationData = [
           { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
         ],
       },
-      {
-        title: "Data Analysis",
+      {title: "Data Analysis",
         links: [
           { path: '/power-automate', type: 'Power Automate' },
           { path: '/power-bi-dashboards', type: 'Power BI Dashboards' },
@@ -405,8 +388,7 @@ export const mobNavigationData = [
           { path: '/predictive-analytics-and-machine-learning', type: 'Predictive Analytics & Machine Learning' },
           { path: '/data-cleaning-and-preprocessing', type: 'Data Cleaning & Preprocessing' },
           { path: '/big-data-analytics-solutions', type: 'Big Data Analytics Solutions' },
-          { path: '/real-time-data-analytics', type: 'Real-time Data Analytics' },
-          { path: '/customer-and-market-segmentation-analysis', type: 'Customer & Market Segmentation Analysis' },
+          { path: '/sentiment-analysis', type: 'Sentiment Analysis' },
         ],
       },
 
