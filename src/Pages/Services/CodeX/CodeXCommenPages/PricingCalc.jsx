@@ -49,9 +49,9 @@ const PricingCalc = ({page}) => {
 
         <span className='top-0 absolute w-full h-full opacity-30 z-0' style={{backgroundImage : `url(${bgBox})`}}/>
 
-        <div className='lg:w-3/4 w-full sm:px-10 mt-10 z-10'>
+        <div className='xl:w-3/4 w-full flex flex-wrap justify-center items-center sm:px-10 mx-auto mt-10 z-10 lg:space-y-0 space-y-10'>
             {page.requirements.map((requirement , index ) => 
-            <div key={index} className='w-full p-4  flex bg-white justify-evenly items-center'>
+            <div key={index} className='lg:w-full w-fit p-4  flex lg:flex-row flex-col gap-x-8 border-2 lg:border-none border-[#313131]/10 shadow-md  bg-white justify-evenly items-center'>
 
             <div className='flex-1 text-xl font-semibold text-left'>{requirement.item}</div>
             <div className='flex-1'><DiscreteSlider slider={requirement.slider} onValueChange={(value) => valueChanger(index, value)} className={{...requirement.className}}/>

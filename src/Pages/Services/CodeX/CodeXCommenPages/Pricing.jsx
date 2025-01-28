@@ -21,7 +21,7 @@ const Pricing = ({page}) => {
                 onMouseLeave={() => cardHandler(null)}
                 style={{ scale : activeIndex === index ? 1.5 : 1 , color : '#313131', boxShadow : activeIndex === index ? "0px 5px 10px rgba(0, 0, 0, 0.2)" : "0px 10px 20px rgba(0, 0, 0, 0.1)"}}
                 
-                key={index} className={`min-w-[300px] md:w-1/2  bg-white my-8 rounded-2xl  relative flex flex-col  transition-all duration-300`}>
+                key={index} className={`min-w-[300px] max-w-[400px]  bg-white my-8 rounded-2xl  relative flex flex-col  transition-all duration-300`}>
 
                     <div className='w-full py-4  bg-[#013a6e] text-white rounded-t-2xl'>
                     <h1 className='font-semibold mb-4 text-2xl' >{card.header}</h1>
@@ -36,8 +36,8 @@ const Pricing = ({page}) => {
                     <h1 className='text-left font-bold leading-8'>WHAT YOU WILL GET</h1>
                     {card.youGet.map((items , idx) => (
                         <div className='flex gap-x-4 text-left items-center mb-2' key={idx}>
-                        <span className='p-1 bg-'/>
-                        <p className='flex-1 text-sm' dangerouslySetInnerHTML={{__html : items}}></p>
+                        <span className='p-[0.2rem] rounded-full bg-[#313131]'/>
+                            <p className='flex-1 text-sm' dangerouslySetInnerHTML={{__html : items}}></p>
                         </div>
                     ))}
 

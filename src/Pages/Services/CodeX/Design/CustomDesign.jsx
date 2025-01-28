@@ -22,7 +22,7 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 import { QACodeX } from '../../../../Data/QueANDAns'
 import {  CodeXTestimonalData } from '../../../../Data/TestimonalData'
 import { customDesignData } from '../../../../Data/ServicesData/CodeXData/DesignData'
-import CustomPackage from '../CodeXCommenPages/CustomPackage'
+import CustomPackage from '../../../../CommonComps/CustomPackage/CustomPackage'
 import Pricing from '../CodeXCommenPages/Pricing'
 
 

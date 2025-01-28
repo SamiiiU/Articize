@@ -16,9 +16,9 @@ const Footer = () => {
     return (
         <div className='w-full  '>
             {/* first row start here  */}
-            <div className='w-full  transition-all duration-1000  px-4 sm:px-16 md:px-28 2xl:px-48 pt-10 flex mb-10 flex-wrap md:flex-row flex-col gap-y-10 gap-x-4  justify-between'>
+            <div className='w-full  transition-all duration-1000  px-4 sm:px-16 md:px-28 2xl:px-48 pt-10 flex mb-10 flex-wrap xl:flex-row flex-col gap-y-10 gap-x-4  justify-between'>
                 {/* logo and CTA section  */}
-                <div className='md:w-[30%] w-full  text-sm'>
+                <div className='xl:w-[30%] w-full  text-sm'>
                     <div className='w-40 h-20 ' style={{ backgroundImage: `url("${logo}")`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
                     <h1 className='text-xl font-bold my-2'>HAVE QUESTIONS?</h1>
 
@@ -26,7 +26,8 @@ const Footer = () => {
 
                 </div>
 
-                {/* Popular Services  */}
+                <div className='flex flex-1 gap-6 flex-wrap'>
+                                    {/* Popular Services  */}
                 <div className='min-w-fit flex flex-col  ' >
                     <h1 className='text-xl font-bold mb-8'>Popular Services</h1>
                     {footerNavigations.popularServices.map((service, index) => (
@@ -48,6 +49,7 @@ const Footer = () => {
                     {footerNavigations.pricingGuide.types.map((service, index) => (
                         <Link key={index} to={service.path} className='text-sm text-[#207DE9] '>{service.type}</Link>
                     ))}
+                </div>
                 </div>
 
                 {/* Contact US  */}
@@ -72,10 +74,10 @@ const Footer = () => {
 
             {/* second for links and copyright  */}
 
-            <div className='flex flex-col py-8  px-4 sm:px-16 md:px-28 2xl:px-48 text-white bg-[#000D4E] mt-6 justify-between items-center gap-y-5'>
-                <div className='w-full flex flex-wrap lg:justify-between gap-8 justify-start '>
+            <div className='flex flex-col pt-8 px-4 sm:px-16 md:px-28 2xl:px-48 text-white bg-[#000D4E] mt-6 justify-between items-center '>
+                <div className='w-full flex flex-wrap lg:justify-center gap-8 justify-start '>
                     <h1 className='font-bold text-xl '>Who We Are?</h1>
-                    <span className='flex flex-wrap gap-4 underline min-w-fit'>
+                    <span className='flex  flex-1 flex-wrap lg:justify-center justify-start gap-x-20 gap-y-8 underline min-w-fit'>
                         <h1>Our Vision</h1>
                         <h1>Our Team</h1>
                         <h1>Join Us</h1>
@@ -86,13 +88,13 @@ const Footer = () => {
                     <div className='flex flex-col justify-center items-center gap-y-4'>
 
                         <div className='flex sm:w-auto w-full'>
-                            <input type='text' placeholder='Enter your mail id' className='p-2 w-fit  sm:w-56 bg-white '></input>
+                            <input type='text' placeholder='Enter your mail id' className='p-2 w-fit  sm:w-72 bg-white '></input>
                             <span className='px-6 py-2 bg-blue-500'>
                                 Send
                             </span>
                         </div>
 
-                        <div className='flex items-center gap-x-4'>
+                        <div className='flex items-center gap-x-2'>
                             <input
                                 type="checkbox"
                                 id="myCheckbox"
@@ -106,7 +108,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <h1 className='font-bold flex-1 text-center'>&copy; 2025 DEVXCLOUD. All rights reserved.</h1>
+                <h1 className='font-bold flex-1 2xl:py-0 py-5 2xl:-translate-y-6 text-center'>&copy; 2025 DEVXCLOUD. All rights reserved.</h1>
 
             </div>
         </div>

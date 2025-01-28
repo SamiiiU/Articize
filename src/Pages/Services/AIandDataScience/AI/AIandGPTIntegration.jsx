@@ -20,6 +20,7 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 //Data Imports
 import { QACodeX } from '../../../../Data/QueANDAns'
 import { AiandGPTData } from '../../../../Data/ServicesData/AIandDataAnalysisData/AiData'
+import CustomPackage from '../../../../CommonComps/CustomPackage/CustomPackage'
 
 
 
@@ -28,7 +29,8 @@ const AIandGPTIntegration = () => {
     <div className='w-full'>
     <Nav/>
     <HeroAI page={AiandGPTData.heroSection}/>
-    <CustomPricingAIandDataAnalysis page={AiandGPTData.customPricing}/>
+    {/* <CustomPricingAIandDataAnalysis page={AiandGPTData.customPricing}/> */}
+    <CustomPackage page={AiandGPTData.customPackage}/>
     <DiscoverAIandDataAnalysis page={AiandGPTData.discover}/>
 
     <BuiltPurposeAIandDataAnalysis page={AiandGPTData.builtPurpose}/>

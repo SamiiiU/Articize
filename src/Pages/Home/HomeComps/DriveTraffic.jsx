@@ -33,10 +33,10 @@ const DriveTraffic = () => {
     
   return (
 
-    <div className='w-full   px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full   px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
 
       {/* Navbar */}
-      <div className=" flex sticky rounded-full bg-gray-100 p-4 justify-center flex-wrap items-center gap-4 ">
+      <div className=" flex sticky rounded-full md:bg-gray-100 p-4 justify-center flex-wrap items-center gap-4 ">
         
           {HomeData.driveTrafic.map((item, index) => (
             <span style={{color : selected == index ? '#207ce7' : '#808b90'}} key={index}  onClick={() => handleSelected(index)}

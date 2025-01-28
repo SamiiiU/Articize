@@ -4,8 +4,9 @@ import Nav from '../../../../CommonComps/Nav/Nav'
 
 import Hero from '../MarketingCommon/Hero'
 import WhyComp from '../MarketingCommon/WhyComp'
-import CustomPricing from '../MarketingCommon/CustomPricing'
 import Booster from '../MarketingCommon/Booster'
+
+import CustomPackage from '../../../../CommonComps/CustomPackage/CustomPackage'
 import PoweredBy from '../MarketingCommon/PoweredBy'
 import { TailoredSEO } from '../MarketingCommon/TailoredSEO'
 import OurApproach from '../MarketingCommon/OurApproach'
@@ -38,7 +39,7 @@ const EcommerceSEO = () => {
           <Nav/>
           <Hero page={EcommerceSEOData.heroSection}/>
           {/* <WhyComp page={EcommerceSEOData.whySection}/> */}
-          <CustomPricing page={EcommerceSEOData.customPricing}/>
+          <CustomPackage page={EcommerceSEOData.customPricing}/>
           <Booster page={EcommerceSEOData.boostSection} />
           <PoweredBy page={EcommerceSEOData.powerBySection}/>
           <TailoredSEO page={EcommerceSEOData.tailoredSection}/>

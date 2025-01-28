@@ -18,31 +18,32 @@ export const AiandGPTData = {
         bg: BG
     },
     
-    customPricing: {
-        heading: "Tailored Serverless Architecture Solutions for Your Business",
-        upperPart: {
-            header: "Custom Serverless Architecture Plans",
-            price: "Starting at $4,000/month"
-        },
-        leftPart: [
-            "Serverless application design and development",
-            "Integration with existing infrastructure",
-            "Cost optimization and scalability strategies",
-            "Ongoing monitoring and performance tuning"
+    customPackage: {
+
+
+        mainHeading: "Custom Al & GPT Integration Package",
+
+        overview: "Tailored for businesses aiming to leverage Al and GPT capabilities, this package enhances operational efficiency, customer engagement, and decision-making by integrating advanced Al technologies into their systems.",
+
+        benifits: [
+            { heading: "Enhanced Automation : ", description: "Streamline repetitive tasks, saving time and reducing operational costs." },
+            { heading: "Improved Customer Experience: ", description: "Deliver personalized and instant responses through Al-powered tools." },
+            { heading: "Data-Driven Insights: ", description: "Make informed decisions with GPT-powered analytics and predictions." },
+
         ],
-        centerPart: {
-            text: "Accelerate your digital transformation with customized serverless solutions implemented by cloud experts.",
-            pricing: [
-                "Initial Implementation Fee (One-time): Custom Quote",
-                "Ongoing Management and Optimization: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Real-time monitoring and alerts",
-            "Advanced serverless architecture design",
-            "Compliance with cloud security standards",
-            "24/7 expert support for serverless operations"
-        ]
+
+        keyFeatures : [
+            { heading: "Custom GPT Model Deployment: ", description: "Tailor GPT models to match your specific business needs." },
+            { heading: "Al-Driven Content Generation: ", description: "Automate blogs, marketing materials, and product descriptions." },
+            { heading: "GPT-Powered Chatbots & Virtual Assistants: ", description: "Offer 24/7 customer support with intelligent and conversational bots." },
+            { heading: "Al-Powered Workflow Automation: ", description: "Automate manual workflows using GPT for smarter processes." },
+            { heading: "Multi-Language Integration: ", description: "Serve global customers with GPT-enabled multi-language support." },
+            { heading: "Sentiment Analysis Integration: ", description: "Analyze customer feedback for actionable insights." },
+            { heading: "API Integration for Seamless Workflow: ", description: "Embed Al solutions into existing tools and systems." },
+            { heading: "Custom Al Training and Support: ", description: "Provide ongoing support and training for efficient usage." }
+        ],
+
+        startingAt: "$5000/Month",
     },
     
     discover : {

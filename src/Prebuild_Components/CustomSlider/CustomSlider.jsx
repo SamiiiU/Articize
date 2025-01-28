@@ -37,15 +37,15 @@ const CustomSlider = ({children }) => {
   );
 
   const settings = {
-    dots: width > 640 ? false : true,
+    dots: width > 1100 ? false : true,
     infinite: true,
     speed: 500,
-    slidesToShow: width > 640 ?  2 : 1,
+    slidesToShow: width > 1100 ?  2 : 1,
     
     
     slidesToScroll: 1,
-    nextArrow: width > 640 ? <NextArrow /> : null,
-    prevArrow: width > 640 ? <PrevArrow /> : null,
+    nextArrow: width > 1100 ? <NextArrow /> : null,
+    prevArrow: width > 1100 ? <PrevArrow /> : null,
     
   };
   return (

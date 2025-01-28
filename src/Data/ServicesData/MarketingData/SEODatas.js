@@ -448,14 +448,6 @@ export const EcommerceSEOData = {
         ]
     },
 
-    // Aproach section starts 
-
-
-
-    // approach section ends here 
-
-
-    // results section ends here 
 
     pricingSection: {
         heading: "Transparent Pricing for E-commerce SEO",

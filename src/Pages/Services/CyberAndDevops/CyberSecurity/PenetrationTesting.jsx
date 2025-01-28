@@ -4,7 +4,7 @@ import Nav from '../../../../CommonComps/Nav/Nav'
 
 import HeroCyberandDevops from '../CyberAndDevopsCommonPages/HeroCyberandDevops'
 import CustomPricingCyberandDevops from '../CyberAndDevopsCommonPages/CustomPricingCyberandDevops'
-import CustomPackage from '../../CodeX/CodeXCommenPages/CustomPackage'
+import CustomPackage from '../../../../CommonComps/CustomPackage/CustomPackage'
 import BuiltPurpose from '../CyberAndDevopsCommonPages/BuiltPurpose'
 import MakeBetter from '../CyberAndDevopsCommonPages/MakeBetter'
 import RealResults from '../CyberAndDevopsCommonPages/RealResults'

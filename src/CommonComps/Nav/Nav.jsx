@@ -15,12 +15,14 @@ const Nav = () => {
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
+  // const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
   const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
   const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
 
 
-  const [currDataIndex , setCurrDataIndex] = useState(0)// state for managing current nav data to show
+  const [currDataIndex , setCurrDataIndex] = useState(0)
+  
+  const {scrwidth} = useContext(ContextAPI);// state for managing current nav data to show
   
     //handler for main screen navigation 
     const navHandler = (index) =>{
@@ -57,15 +59,10 @@ const Nav = () => {
     
 
     useEffect(() => {
-    // Function to update the width and visibility of scroll to top button
-    const handleResize = () => setWidth(window.innerWidth);
-    // Add event listener
-    window.addEventListener('resize', handleResize);
     
     window.addEventListener('scroll', toggleVisibility);
     // Cleanup function to remove the event listener on unmount
     return () => {
-      window.removeEventListener('resize', handleResize)
        window.removeEventListener('scroll', toggleVisibility)
     };
     
@@ -95,7 +92,7 @@ const Nav = () => {
     <>
 
     {/* button for scrolling to top  */}
-    <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-1/2 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>  
+    <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-10 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>  
     
     {/* services detailed navigation div starts here  */}
 
