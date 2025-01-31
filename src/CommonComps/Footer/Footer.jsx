@@ -108,7 +108,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <h1 className='font-bold flex-1 2xl:py-0 py-5 2xl:-translate-y-6 text-center'>&copy; 2025 DEVXCLOUD. All rights reserved.</h1>
+                <h1 className='font-bold flex-1 2xl:py-0 py-5 3xl:-translate-y-6 text-center'>&copy; 2025 DEVXCLOUD. All rights reserved.</h1>
 
             </div>
         </div>

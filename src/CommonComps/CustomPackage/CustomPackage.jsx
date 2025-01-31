@@ -1,9 +1,12 @@
-import React, { useRef, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './CustomPackage.css'
 import { SiTicktick } from 'react-icons/si'
+import { ContextAPI } from '../../GlobalProvider/ContextAPI'
 
 const CustomPackage = ({page}) => {
     const [activeIndex ,setActiveIndex] = useState(null)
+    const {scrwidth} = useContext(ContextAPI)
+     
 
     const handleIndex = (index) => {
         setActiveIndex(activeIndex === index ? null : index)
@@ -49,16 +52,18 @@ const CustomPackage = ({page}) => {
                                     <span className=' flex '>
                                         <h1 className='font-semibold min-w-fit text-lg flex items-center gap-x-2'>
                                         <SiTicktick  className='text-green-400 text-sm'/>
-                                        {feature.heading}   
+                                        { scrwidth > 600 ? feature.heading + " : " : feature.heading }   
                                         </h1> 
                                         <div className='relative px-2'>
-                                        {activeIndex != index ? 
-                                                <span className='px-2 font-semibold text-lg ' onMouseEnter={() => handleIndex(index)}> ...</span> :
-                                                <span onMouseLeave={() => handleIndex(null)} className='bubble bottom-4 bg-[#013a6e] text-white p-2 z-30 min-w-[300px]  text-sm rounded-xl  absolute ' >
+                                        {scrwidth > 600 && (
+                                            activeIndex != index  ?
+                                                (<span className='px-2 font-semibold text-lg ' onMouseEnter={() => handleIndex(index)} > ...</span> ) :
+                                                <span onMouseLeave={() => handleIndex(null)} className='bubble bottom-4 bg-[#013a6e] text-white p-2 z-30 sm:min-w-[300px]  text-sm rounded-xl  absolute sm:left-0 -left-12' >
                                                     <p className='transition-all  animate-fadeIn'>{feature.description}</p>
-                                                    <div className="tail absolute -bottom-4 w-10 h-5  bg-[#013a6e]"></div>
+                                                    <div className="tail absolute   -bottom-4 w-10 h-5  bg-[#013a6e]"></div>
                                                 </span> 
-                                            }   
+                                            
+                                        )}   
                                         </div>
                                     </span>
                                     

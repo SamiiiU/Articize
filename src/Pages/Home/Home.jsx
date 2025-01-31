@@ -19,6 +19,7 @@ import SolutionChart from './HomeComps/SolutionChart';
 import DeliveryProcess from './HomeComps/DeliveryProcess';
 import DriveTraffic from './HomeComps/DriveTraffic';
 import WhatIs from './HomeComps/WhatIs';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   useEffect(() => {
@@ -26,6 +27,9 @@ const Home = () => {
   }, [])
   return (
     <div className='w-full  '>
+        <Helmet >
+          <title>DEVXCLOUD - HOME</title>
+        </Helmet>
         <Nav/>
         <Hero/>
         <SolutionChart/>

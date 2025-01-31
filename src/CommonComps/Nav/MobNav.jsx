@@ -40,9 +40,9 @@ const MobNav = () => {
       
       {/* //This is nav bar  */}
         <div className='fixed text-[#313131] w-full z-50 px-4 py-2 flex justify-between items-center shadow-sm  bg-white'>
-          <Link to="/" className='w-36 h-[4rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}></Link > 
+          <Link to="/" className='w-28 h-[3rem] px-4 py-4 ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'cover' , backgroundPosition : 'center'}}></Link > 
 
-          <span onClick={toggleMenu} className=' text-4xl text-right'>{menuOpen ? <RxCross2 /> :   <LuMenu/>}</span> 
+          <span onClick={toggleMenu} className=' text-3xl text-right'>{menuOpen ? <RxCross2 /> :   <LuMenu/>}</span> 
 
         
         </div>
@@ -50,7 +50,7 @@ const MobNav = () => {
       {/* Navigation Menu */}
       <div
         className={`fixed z-40 text-[#313131]  left-0 w-full min-h-screen mt-20 bg-white shadow-lg transition-transform duration-300  
-          ${menuOpen ? "translate-y-0" : "-translate-y-full"}`
+          ${menuOpen ? "translate-y-0" : "-translate-y-[110%]"}`
         }
       >
         {mobNavigationData.map((main, index) => (

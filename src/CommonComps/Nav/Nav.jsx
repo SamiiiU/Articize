@@ -22,7 +22,7 @@ const Nav = () => {
 
   const [currDataIndex , setCurrDataIndex] = useState(0)
   
-  const {scrwidth} = useContext(ContextAPI);// state for managing current nav data to show
+  const {scrwidth} = useContext(ContextAPI);
   
     //handler for main screen navigation 
     const navHandler = (index) =>{

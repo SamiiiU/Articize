@@ -6,14 +6,13 @@ const GlobalProvider = ({children}) => {
         const [states, setState] = useState('false');
         const [serviceShow , setServiceShow] = useState(SEOData.SEO)
         const [scrwidth, setWidth] = useState(window.innerWidth); 
+        const [isLoading , setIsLoading] = useState(false)
 
         useEffect(() => {
-          // Function to update the width and visibility of scroll to top button
           const handleResize = () => setWidth(window.innerWidth);
           // Add event listener
           window.addEventListener('resize', handleResize);
           
-          // Cleanup function to remove the event listener on unmount
           return () => {
             window.removeEventListener('resize', handleResize)
           };
@@ -24,7 +23,8 @@ const GlobalProvider = ({children}) => {
     <ContextAPI.Provider value={{
         states,
         serviceShow,
-        scrwidth
+        scrwidth,
+        isLoading , setIsLoading
  
     }}>
         {children}

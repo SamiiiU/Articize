@@ -9,7 +9,8 @@ module.exports = {
         'md': '768px',     // Medium screen
         'lg': '1024px',    // Large screen
         'xl': '1280px',    // Extra large screen
-        '2xl': '1536px',   // 2x extra large screen
+        '2xl': '1536px',
+        '3xl': '1736px',   // 2x extra large screen
       },
 
       // animation keyframes 
