@@ -31,20 +31,20 @@ import Loading from '../../../../CommonComps/Loading/Loading'
 import { Helmet } from 'react-helmet'
 
 
-const EcommerceSEO = () => {
+const LocalSEO = () => {
   const { isLoading, setIsLoading } = useContext(ContextAPI)
 
 
-  useEffect(() => {
-    setIsLoading(true)
+  // useEffect(() => {
+  //   setIsLoading(true)
 
-    window.scrollTo(0, 0);
+  //   window.scrollTo(0, 0);
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
 
-  }, []);
+  // }, []);
 
   return (
     <div className='w-full '>
@@ -82,4 +82,4 @@ const EcommerceSEO = () => {
   )
 }
 
-export default EcommerceSEO
+export default LocalSEO

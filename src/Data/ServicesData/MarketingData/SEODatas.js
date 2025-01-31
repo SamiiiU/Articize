@@ -7,14 +7,12 @@ import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
 
 import BG from '../../../Assets/Images/ServicesIMG/SEOImages/MarketingHeroBG.png'
-import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGlobeAmericas, FaGoogle, FaImage, FaKey, FaLanguage, FaLock, FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
+import { FaAd, FaBuilding, FaCode, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGlobeAmericas, FaGoogle, FaImage, FaKey, FaLanguage, FaLock, FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaServer, FaShareAlt, FaShieldAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
 
 import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
 import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
 import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
 import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
-import { GiMagnifyingGlass, GiSpeedometer } from 'react-icons/gi'
-import { RiMobileDownloadLine } from 'react-icons/ri'
 
 export const SEOData = {}
 
@@ -317,39 +315,36 @@ export const EcommerceSEOData = {
                 heading: "Popular Platforms", 
                 items: [
                     { itemName: "Shopify", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
-                    { itemName: "WoCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"},
-                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"},
-                    { itemName: "Magento", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"},
+                    { itemName: "WoCommerce", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
+                    { itemName: "Magento", itemImg : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/magento-icon.png"},
                 ],
                 
             },
 
             {
                 heading: "Enterprise-Level Solutions", items: [
-                    { itemName: "NetSuite", },
-                    { itemName: "nopCommerce", },
-                    { itemName: "Celerant", },
-                    { itemName: "Unilog", },
+                    { itemName: "NetSuite", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "nopCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Celerant", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
+                    { itemName: "Unilog", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiV85C_hOBvOLW9atOccH3v7FjGguMl5QKyg&s"},
                 ],
-                image: enterpricePlatform,
             },
 
             {
                 heading: "Content Management Systems (CMS)", items: [
-                    { itemName: "WordPress", },
-                    { itemName: "Drupal", },
-                    { itemName: "Umbraco", },
+                    { itemName: "WordPress", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Umbraco", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
                 ],
-                image: cmsPlatform,
             },
 
             {
                 heading: "Other Platforms", items: [
-                    { itemName: "Volusion", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU' },
-                    { itemName: "Drupal", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s' },
-                    { itemName: "Umbraco", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s' },
+                    { itemName: "Volusion", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU" },
+                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Umbraco", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
                 ],
-                image: otherPlatform,
             }
         ]
     },
@@ -468,87 +463,45 @@ export const EcommerceSEOData = {
 
         pricingCards: [
             {
-                name: "Silver plan",
-                header: "Silver Plan",                //<strong>
-                price: "$750/month",
+                header: "Basic E-commerce SEO Package",                //<strong>
+                price: "$500/month",
                 fitFor: "Small businesses or startups new to SEO, with a limited product catalog.",
                 youGet: [
-                    "Up to <strong>50</strong> number of keywords optimized",
-                    "Up to <strong>20</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Basic Audit",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Product Pages",
-                    "Title Tags & Meta Descriptions",
-                    "Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Basic Schema (Title, Price)",
-                    "<strong>Internal Linking Optimization :</strong> Basic Links",
-                    "Product Image Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 1 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 3 Links/Month",
-                    "<strong>Competitor Analysis :</storng> Basic Insights",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO)</sroong> : Basic Recommendations",
-                    "<storng>Monthly SEO </storng>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Email Support",
-                    "<strong>Campaign Setup Fee (One-time) : </storng> $750",
-                    "<strong>Monthly Investment : </strong> $750",
+                    "Keyword Identification: Focus on primary product keywords to boost search visibility.",
+                    "Basic On-Page SEO: Optimization of titles and meta descriptions for initial SEO boost.",
+                    "Google Analytics Setup: Essential for tracking website traffic and user behavior.",
+                    "Monthly SEO Report: Overview of traffic, keyword rankings, and basic performance metrics.",
+                    "Customer Support: Access to email support for any SEO queries.",
                 ],
             },
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
+                header: "Standard E-commerce SEO Package",
+                price: "$1,500/month",
                 fitFor: "Growing E-commerce businesses looking to improve rankings and organic traffic.",
                 youGet: [
-                    "Up to <strong>150</strong> number of keywords optimized",
-                    "Up to <strong>50</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Full Technical Audit ",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Product Pages",
-                    "Title Tags & Meta Descriptions",
-                    "Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Advanced Schema",
-                    "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
-                    "Product Image Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 3 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 8 Links/Month",
-                    "<strong>Competitor Analysis :</strong> Advanced Analysis",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO)</sroong> : Strategic Suggestions",
-                    "<strong>Monthly SEO </strong>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Email & Phone Support",
-                    "<strong>Campaign Setup Fee (One-time) : </strong> $2,000",
-                    "<strong>Monthly Investment : </strong> $1,800",
+                    "Comprehensive Keyword Strategy: Extensive research and application of high-intent keywords.",
+                    "Enhanced On-Page SEO: Detailed optimization of all content and HTML tags on product pages.",
+                    "Technical SEO Audit: Identification and resolution of crawl errors and broken links.",
+                    "Content Creation: Monthly blog posts or guides to engage and attract more traffic.",
+                    "Backlink Strategy: Basic link-building from niche-related websites to improve authority.",
+                    "Performance Tracking: Detailed reports with traffic, conversion rates, and user engagement statistics.",
+                    "Email and Phone Support: Direct access to SEO experts for consultations.",
                 ],
             },
             {
-                name: "Platinum plan",
-                header: "Platinum Plan",
+                header: "Premium E-commerce SEO Package",
                 price: "$3,500/month",
                 fitFor: "Established E-commerce stores targeting aggressive growth and improved conversions.",
                 youGet: [
-                    "Up to <strong>300</strong> number of keywords optimized",
-                    "Up to <strong>100</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Advanced Optimization",
-                    "Advanced Keyword Research & Strategy",
-                    "Detailed Keyword Mapping to Product Pages",
-                    "Advanced Title Tags & Meta Descriptions",
-                    "Enhanced Performance Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Full Schema",
-                    "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
-                    "Full Image SEO Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 6 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 15 Links/Month",
-                    "<strong>Competitor Analysis :</strong> Detailed Competitor Tracking",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Advanced Tracking",
-                    "<strong>Conversion Rate Optimization (CRO)</strong> : Advanced CRO Strategy",
-                    "<strong>Monthly SEO </strong>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Dedicated Account Manager",
-                    "<strong>Campaign Setup Fee (One-time) : </strong> $4,000",
-                    "<strong>Monthly Investment : </strong> $3,500",
+                    "Advanced Keyword Optimization: Targeting both broad and niche market keywords for maximum reach.",
+                    "Full On-Page and Off-Page SEO: Comprehensive site-wide and external optimizations to enhance SERP rankings.",
+                    "Mobile Optimization: Ensuring the store is fully responsive and optimized for all mobile devices.",
+                    "Speed Optimization: Advanced configurations to improve website load times for better user experience.",
+                    "Aggressive Content Marketing: Regular creation of SEO-rich articles, infographics, and videos.",
+                    "Robust Link Building Campaign: High-quality backlinks from high-authority sites to boost SEO.",
+                    "Custom Analytics Dashboard: Real-time SEO tracking and insights with actionable analytics.",
+                    "Dedicated SEO Manager: Monthly strategy sessions to review progress and adjust strategies.",
+                    "24/7 Customer Support: Round-the-clock support for ongoing SEO management and emergencies.",
                 ],
             },
         ],
@@ -739,83 +692,7 @@ export const LocalSEOData = {
         ],
     },
 
-    realResultsSection: {
-        // results section starts 
-        heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth",
-        para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
-
-        results: [
-            {
-                header: "Ecommerce - Tools and Hardware", challenge: "Optimizing online visibility for tools and hardware to reach and convert ready-to-buy customers.", approaches: [
-                    "Keyword Optimization: Focusing on product-specific keywords for increased visibility.",
-                    "Site Structure Optimization: Streamlining navigation and indexing for better user experience.",
-                    "Content Optimization: Creating SEO-rich product content to convert visitors."
-                ], increase: 450, increaseIn: "Growth in organic traffic, leading to a significant increase in sales."
-            },
-            {
-                header: "E-commerce SEO for Apparel", challenge: "Standing out in the competitive apparel market to capture potential sales.", approaches: [
-                    "Enhanced Visual Content SEO: Optimizing product visuals for better engagement.",
-
-                    "Mobile Optimization: Ensuring a seamless shopping experience on mobile devices.",
-                    "Seasonal Campaigns: Leveraging SEO during peak shopping periods."
-                ], increase: 350, increaseIn: "Increase in page views and longer site engagement, boosting transaction rates."
-            },
-            {
-                header: "E-commerce SEO for Consumer Electronics", challenge: "Addressing product turnover and informed consumer comparison before purchases.", approaches: [
-                    "Technical SEO Enhancements: Improving website speed and performance.",
-                    "Competitive Keyword Analysis: Targeting specific customer search terms.",
-                    "User Experience Optimization: Enhancing navigation and product information clarity."
-                ], increase: 520, increaseIn: "Rise in organic search traffic and improved conversion rates due to enhanced targeting and usability."
-            },
-
-        ],
-    },
-
-    platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms",
-        para: "Our SEO experts work across all major eCommerce platforms to boost your store's visibility and drive sales. Whether you're a small business or an enterprise, we tailor strategies for your platform.",
-
-        platforms: [
-            {
-                heading: "Popular Platforms", items: [
-                    { itemName: "Shopify", },
-                    { itemName: "WoCommerce", },
-                    { itemName: "BigCommerce", },
-                    { itemName: "Magento", },
-                ],
-                image: popularPlatform,
-            },
-
-            {
-                heading: "Enterprise-Level Solutions", items: [
-                    { itemName: "NetSuite", },
-                    { itemName: "nopCommerce", },
-                    { itemName: "Celerant", },
-                    { itemName: "Unilog", },
-                ],
-                image: enterpricePlatform,
-            },
-
-            {
-                heading: "Content Management Systems (CMS)", items: [
-                    { itemName: "WordPress", },
-                    { itemName: "Drupal", },
-                    { itemName: "Umbraco", },
-                ],
-                image: cmsPlatform,
-            },
-
-            {
-                heading: "Other Platforms", items: [
-                    { itemName: "Volusion", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU' },
-                    { itemName: "Drupal", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s' },
-                    { itemName: "Umbraco", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s' },
-                ],
-                image: otherPlatform,
-            }
-        ]
-    },
-
+    
     pathToSuccess: {
         heading: "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R</span>.<span class= 'text-[#207DE9]'>O</span>.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to E-commerce SEO Success",
 
@@ -889,93 +766,142 @@ export const LocalSEOData = {
         ]
     },
 
+    realResultsSection: {
+        // results section starts 
+        heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth with Local SEO",
+        para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
+
+        results: [
+            {
+                header: "Local SEO for Retail Businesses", challenge: "Increase foot traffic and local online visibility for retail stores in competitive marketplaces.", approaches: [
+                    "Google My Business Optimization: Enhance local search presence and attract more in-store visits.",
+                    "Targeted Local Campaigns: Run local promotions and event-based SEO strategies to engage the community.",
+                ], increase: 35, increaseIn: "Increase in store visits and customer engagement through improved local search rankings."
+            },
+            {
+                header: "Local SEO for Service Providers", challenge: "Improve local discovery and booking rates for service-based businesses like plumbers and electricians.", approaches: [
+                    "Local Keyword Optimization: Implement targeted keyword strategies to capture local service searches.",
+                    "Reputation Management: Enhance online reviews and ratings to build trust and authority in the local area.",
+                ], increase: 50, increaseIn: "Increase in service bookings and inquiries from local search engine results."
+            },
+            {
+                header: "Local SEO for Restaurants", challenge: "Boost reservations and local awareness in a crowded restaurant market.", approaches: [
+                    "Menu Optimization: Ensure online menus are optimized for local searches including dish- specific keywords.",
+                    "Local Event Integration: Leverage local food events and festivals for promotions and visibility.",
+                ], increase: 30, increaseIn: "Increase in reservations and walk-ins through strategic Local SEO and event marketing."
+            },
+            {
+                header: "Local SEO for Healthcare Practices", challenge: "Enhance patient acquisition and visibility for local healthcare providers like dentists and chiropractors.", approaches: [
+                    "Optimized Local Listings: Ensure healthcare practices are prominently listed and accurate across all local health directories.",
+                    "Educational Content Creation: Develop health-related content that addresses local community concerns and integrates local SEO keywords.",
+                ], increase: 40, increaseIn: "Increase in new patient appointments and higher search engine placement, improving practice visibility and community trust."
+            },
+            {
+                header: "Local SEO for Real Estate Agents", challenge: "Increase property listing visibility and agent recognition in specific local real estate markets.", approaches: [
+                    "Targeted Property Listings SEO: Optimize property listings with local keywords and high-quality images to attract potential buyers.",
+                    "Community Resource Building: Create guides and blog posts about the local real estate market, positioning agents as local experts.",
+                ], increase: 25 , increaseIn: "Increase in property inquiries and enhanced agent profiles, leading to greater sales opportunities and community engagement."
+            },
+
+
+        ],
+    },
+
+    platformSection: {
+        heading: "We Optimize Local Businesses for Local SEO on These Platforms",
+        para: "Our Local SEO experts specialize in enhancing visibility for your local business across diverse community and community platforms. Whether you run a small cafe, a local boutique, a professional service office, or a community organization, we tailor Local SEO strategies specific to your niche and local ecosystem.",
+
+        platforms: [
+            {
+                heading: "Popular Local Business Types", 
+                items: [
+                    { itemName: "Retail Stores ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Restaurants and Cafes", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+
+                    { itemName: "Local Service Providers", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
+
+                    { itemName: "Healthcare Practices", itemImg : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/magento-icon.png"},
+                ],
+                
+            },
+
+            {
+                heading: "Community Engagement Platforms", items: [
+                    { itemName: "Local Business Directories", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Local Event Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Local News and Blog Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
+                ],
+            },
+
+            {
+                heading: "Specialized Local Platforms", items: [
+                    { itemName: "Local Marketplaces", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "Professional Networks", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Educational Institutions", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
+                ],
+            },
+
+        ]
+    },
+
+
     pricingSection: {
-        heading: "Transparent Pricing for E-commerce SEO",
-        para: "Discover our clear and flexible E-commerce SEO pricing plans designed to grow with your online store. From boosting site traffic to enhancing product visibility, our plans are crafted to provide tangible results and help you dominate your niche market.",
+        heading: "Transparent Pricing for Local SEO",
+        para: "Discover our clear and flexible Local SEO pricing plans designed to grow with your local business. From boosting site traffic to enhancing service and product visibility in your community, our plans are crafted to provide tangible results and help you dominate your local market.",
 
         pricingCards: [
             {
-                name: "Silver plan",
-                header: "Silver Plan",                //<strong>
-                price: "$750/month",
-                fitFor: "Small businesses or startups new to SEO, with a limited product catalog.",
+                header: "Basic Local SEO Plan",                //<strong>
+                price: "$1,000/month",
+                fitFor: "Small local businesses or startups looking to establish a local online presence.",
                 youGet: [
-                    "Up to <strong>50</strong> number of keywords optimized",
-                    "Up to <strong>20</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Basic Audit",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Product Pages",
-                    "Title Tags & Meta Descriptions",
-                    "Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Basic Schema (Title, Price)",
-                    "<strong>Internal Linking Optimization :</strong> Basic Links",
-                    "Product Image Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 1 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 3 Links/Month",
-                    "<strong>Competitor Analysis :</storng> Basic Insights",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO)</sroong> : Basic Recommendations",
-                    "<storng>Monthly SEO </storng>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Email Support",
-                    "<strong>Campaign Setup Fee (One-time) : </storng> $750",
-                    "<strong>Monthly Investment : </strong> $750",
+                    "Google My Business Setup: Complete creation and optimization.",
+                    "Local Keyword Research: Basic local keywords tailored to your business type and location.",
+                    "Local Citations: Setup on up to 10 local directories.",
+                    "Monthly Performance Reporting: Basic insights into traffic and local search ranking improvements.",
+                    "Email Support: Ongoing assistance and consultation.",
                 ],
             },
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Growing E-commerce businesses looking to improve rankings and organic traffic.",
+                header: "Standard Local SEO Plan",
+                price: "$2,500/month",
+                fitFor: "Growing local businesses seeking to enhance their visibility and capture more local market share.",
                 youGet: [
-                    "Up to <strong>150</strong> number of keywords optimized",
-                    "Up to <strong>50</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Full Technical Audit ",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Product Pages",
-                    "Title Tags & Meta Descriptions",
-                    "Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Advanced Schema",
-                    "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
-                    "Product Image Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 3 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 8 Links/Month",
-                    "<strong>Competitor Analysis :</strong> Advanced Analysis",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO)</sroong> : Strategic Suggestions",
-                    "<strong>Monthly SEO </strong>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Email & Phone Support",
-                    "<strong>Campaign Setup Fee (One-time) : </strong> $2,000",
-                    "<strong>Monthly Investment : </strong> $1,800",
+                    "Includes all features in the Basic Plan.",
+                    "Enhanced GMB Features: Posts, Q&A, and review management.",
+                    "Advanced Local Keyword Strategy: Comprehensive keyword mapping and optimization.",
+                    "Content Creation: Up to 5 locally targeted blog posts or pages.",
+                    "Reputation Management: Monitoring and responding to reviews online.",
+                    "Bi-monthly Updates and Maintenance: Regular updates and optimizations.",
+                    "Phone and Email Support: Direct access for quicker response times.",
                 ],
             },
             {
-                name: "Platinum plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Established E-commerce stores targeting aggressive growth and improved conversions.",
+                header: "Professional Local SEO Plan",
+                price: "$5,000/month",
+                fitFor: "Established local businesses or franchises needing advanced strategies for multiple locations.",
                 youGet: [
-                    "Up to <strong>300</strong> number of keywords optimized",
-                    "Up to <strong>100</strong> product pages optimized",
-                    "<strong>Technical SEO Audit & Fixes : </strong> Advanced Optimization",
-                    "Advanced Keyword Research & Strategy",
-                    "Detailed Keyword Mapping to Product Pages",
-                    "Advanced Title Tags & Meta Descriptions",
-                    "Enhanced Performance Mobile Optimization",
-                    "<strong>Schema Markup for Products :</strong> Full Schema",
-                    "<strong>Internal Linking Optimization :</strong> Strategic Optimization",
-                    "Full Image SEO Optimization",
-                    "<strong>Content Creation (Blogs, Guides, FAQs) :</strong> 6 Content Piece/Month",
-
-                    "<strong>Backlink Building (Quality Outreach) :</strong> 15 Links/Month",
-                    "<strong>Competitor Analysis :</strong> Detailed Competitor Tracking",
-                    "<strong>Google Analytics Setup & Conversion Tracking :</strong> Advanced Tracking",
-                    "<strong>Conversion Rate Optimization (CRO)</strong> : Advanced CRO Strategy",
-                    "<strong>Monthly SEO </strong>Reports & Performance Insights",
-                    "<strong>Customer Support : </strong> Dedicated Account Manager",
-                    "<strong>Campaign Setup Fee (One-time) : </strong> $4,000",
-                    "<strong>Monthly Investment : </strong> $3,500",
+                    "Includes all features in the Standard Plan.",
+                    "Multi-location Optimization: Tailored strategies for up to 5 locations.",
+                    "Comprehensive Content Strategy: Including local event promotions and local community engagement.",
+                    "Advanced Link Building: Developing local backlinks and community-based partnerships.",
+                    "Social Media Integration: Localized social media strategy for engagement.",
+                    "Weekly Performance Reviews: Detailed analytics with conversion tracking.",
+                    "Dedicated Account Management: Personalized client service and strategy adjustments.",
+                ],
+            },
+            {
+                header: "Enterprise Local SEO Plan",
+                price: "$10,000/month",
+                fitFor: "Large enterprises or complex businesses with extensive local presence needing a fully integrated local SEO strategy.",
+                youGet: [
+                    "Includes all features in the Professional Plan.",
+                    "Custom Local SEO Strategy Development: Fully tailored approach involving extensive market and competitor analysis.",
+                    "Full-scale Local Content Marketing: Advanced content initiatives including video and local influencers.",
+                    "Complete Local Ecosystem Integration: Coordination with local news, events, and other platforms for maximum visibility.",
+                    "Integrated Local CRM Strategies: To enhance customer retention and engagement.",
+                    "Real-time Monitoring and Adjustments: Continuous oversight with immediate strategy adjustments based on market dynamics.",
+                    "24/7 Priority Support: Around-the-clock support for all SEO concerns and opportunities.",
                 ],
             },
         ],
@@ -990,620 +916,446 @@ export const LocalSEOData = {
 }
 
 export const TechnicalSEOData = {
-
     heroSection: {
-        // Hero section data start
-        heading: "Comprehensive Technical SEO for Unmatched E-commerce Success",
-        para: "Unlock the full potential of your online store with our cutting-edge Technical SEO strategies designed to give your site a competitive edge. In today's digital landscape, a well-optimized website is key to ranking higher in search results and delivering an exceptional user experience. Our expert team specializes in optimizing every technical aspect of your site, including site speed, mobile responsiveness, crawlability, and secure HTTPS protocols. We ensure that your e-commerce platform is built with a solid technical foundation that search engines can easily navigate and understand.",
+        //Hero section data start
+        heading: "Elevate Your Site with Technical SEO",
+        para: "Optimize your website's architecture with our expert Technical SEO services, ensuring high performance and strong search rankings. We focus on enhancing site speed, ensuring mobile compatibility, securing connections, and structuring data effectively. Our streamlined approach boosts your site’s efficiency and visibility, helping it perform flawlessly across all devices.",
         img: heroImg,
         bg: BG,
     },
+    // Hero section data ends
 
 
+    customPricing: {
 
-    // whySection: {
-    //     heading: "Why <span class= 'text-[#207DE9]'>E-Commerce SEO</span> matters? ",
-    //     para: "By offering custom omnichannel marketing strategies, led by experts and backed by data, WebFX can help your business hit your revenue goals. Stop juggling multiple agencies and start working with a top-rated agency that will drive results.",
+        heading: 'Technical SEO Services Custom Pricing Tailored to Your Business Goals',
 
-    //     whyKeys: [
-    //         { heading: "Keyword Optimization", explanation: 'Conduct thorough keyword research to identify the most effective keywords for your products. Optimize product titles, descriptions, and meta tags with these keywords to increase search visibility.', icon: <FaMagnifyingGlass /> },
+        mainHeading: "Custom Technical SEO Package",
 
-    //         { heading: "Product Page SEO", explanation: 'Write clear, informative, and keyword-rich descriptions for each product. This helps search engines understand your products and improves the chances of ranking higher for relevant searches.', icon: <FaMagnifyingGlass /> },
+        overview: "Unlock your website's full potential with our specialized Technical SEO services. This package is designed to address and optimize the technical aspects of your website that influence search engine visibility and user experience.",
 
-    //         { heading: "Content Strategy for Ecommerce", explanation: 'Create helpful content like product guides, how-to blogs, and FAQs to drive organic traffic. Content should focus on solving customer problems and using keywords naturally.', icon: <FaMagnifyingGlass /> },
+        benifits: [
+            { heading: "Enhanced Site Performance: ", description: "Faster load times and improved responsiveness enhance user engagement and reduce bounce rates." },
+            { heading: "Increased Search Visibility: ", description: "Optimized technical elements lead to better search engine rankings and increased organic traffic." },
+            { heading: "Secure User Experience: ", description: "HTTPS implementation safeguards user data, enhancing trust and compliance." },
+            { heading: "Rich Search Results: ", description: "Structured data leads to richer search results, improving click-through rates and visibility." },
+        ],
 
-    //         { heading: "Backlink Building", explanation: 'Work on building backlinks from authoritative websites within your industry. This helps increase domain authority and improves rankings for product pages.', icon: <FaMagnifyingGlass /> }
-    //     ],
-    // },
+        keyFeatures: [
+            { heading: "Google My Business Optimization ", description: "Complete optimization for maximal local search visibility, including regular posts and response man~ement." },
+            { heading: "Local Keyword Optimization ", description: "Strategic implementation of local keywords to target essential local search traffic effectively." },
+            { heading: "On-Page Local SEO Adjustments ", description: "Precision adjustments of on-page SEO elements like content, meta tags, and NAP consistency to boost local relevance." },
+            { heading: "Reputation Management ", description: "Proactive management of online reviews and ratings to build local trust and authority." },
+            { heading: "SEO Audit for E-commerce", description: "Conduct regular SEO audits to identify and resolve issues impacting site performance." },
+            { heading: "Site Speed Optimization:  ", description: "We analyze and enhance your website's loading times using advanced compression techniques, optimized code, and efficient server settings" },
+            { heading: "Mobile Optimization: ", description: "Ensure your site is fully responsive and provides an optimal viewing experience on all devices, crucial for ranking well in Google's mobile-first indexing." },
+            { heading: "SSL Security Implementation: ", description: "Secure your website with HTTPS to protect user data and improve trust with search engines and visitors alike." },
+            { heading: "Structured Data Implementation: ", description: "Use Schema.org markup to help search engines understand your site content better and enhance your presence in search results with rich snippets." },
+            { heading: "Technical Audit and Error Resolution: ", description: "Identify and fix technical issues that could be harming your site’s performance, including broken links, redirect errors, and crawl errors." },
+            { heading: "XML Sitemap and Robots.txt Optimization: ", description: "Ensure search engines can efficiently index your site by optimizing your XML sitemap and configuring your Robots.txt file correctly." },
+            { heading: "Ongoing Technical Support: ", description: "Monthly monitoring of your website's technical health to keep it running smoothly and efficiently." }
+        ],
 
+        startingAt: "$30,000/Month",
+    },
+
+    //Booster Section start here 
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class='text-[#207DE9]'> Specialized <br/> Technical SEO </span> Services.",
-        para: "Enhance your online store’s technical performance with tailored SEO strategies that ensure faster loading speeds, improved mobile optimization, better crawlability, and higher search engine rankings. Our expert team is dedicated to optimizing the technical structure of your website to make it search engine-friendly and user-friendly, paving the way for higher visibility and greater conversion rates.",
+        heading: "Boost Your Website’s Performance with <span class= 'text-[#207DE9]'> Specialized Technical SEO </span> Services.",
+        para: "Emphasize the unique challenges and opportunities of technical SEO, such as improving site architecture, enhancing server response times, and ensuring robust security protocols to drive better search engine rankings and user experiences.",
 
         boostContent: [
-            {
-                navigator: "Optimized Site Architecture",
-                matters: "Site architecture is key for search engines to crawl and index your pages correctly. A well-organized structure ensures that both users and search engines can navigate your store easily.",
+            {name: "Site Speed Optimization",
+                whyMatters: "A fast-loading site retains users and is favored by search engines, directly impacting your SEO rankings and user satisfaction.",
+
                 includes: [
-                    "Clean, SEO-friendly URL structures that are easy for both users and search engines to understand.",
-                    "Logical site hierarchy with organized categories and subcategories.",
-                    "Efficient internal linking structure to ensure easy navigation and link equity distribution.",
-                    "XML Sitemap and Robots.txt optimization to improve crawling and indexing efficiency."
+                    "Compressing images",
+                    "Leveraging browser caching",
+                    "Optimizing CSS and JavaScript to reduce load times",
                 ],
-                benefit: "Improved crawl efficiency, higher rankings, and a better user experience.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Enhanced site performance leads to improved user experience and higher search engine rankings, reducing bounce rates and increasing time on site.",
+
             },
 
-            {
-                navigator: "Mobile Optimization for SEO",
-                matters: "With the majority of e-commerce traffic coming from mobile, it’s essential to ensure your website is fully optimized for mobile users. Google’s mobile-first indexing makes mobile optimization a critical ranking factor.",
+            {name: "Mobile Optimization",
+                whyMatters: "With the increasing prevalence of mobile browsing, a mobile-friendly website is essential for reaching more users and improving search performance.",
+
                 includes: [
-                    "Responsive design that adapts seamlessly to all screen sizes.",
-                    "Optimized mobile site speed to reduce bounce rates and improve user experience.",
-                    "Mobile-friendly product pages with clear CTAs and easy-to-use checkout processes.",
-                    "Reducing mobile interstitials and intrusive pop-ups."
+                    "Responsive design adjustments",
+                    "Mobile-specific speed enhancements",
+                    "Usability testing"
                 ],
-                benefit: "Higher rankings on mobile search results, improved mobile user experience, and increased conversions.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Improved mobile user experience and engagement, leading to increased organic traffic from mobile devices and better conversion rates.",
+
             },
 
-            {
-                navigator: "Site Speed Optimization",
-                matters: "Site speed is a critical factor for both SEO and user experience. Slow-loading sites lead to higher bounce rates and lower rankings in search results.",
+            {name: "Secure Sockets Layer (SSL) Implementation",
+                whyMatters: "SSL secures the connection between your website and its visitors, which is crucial for user trust and a ranking factor for search engines.",
+
                 includes: [
-                    "Optimizing image sizes and formats for faster load times (e.g., using WebP).",
-                    "Minifying CSS, JavaScript, and HTML files to reduce page load time.",
-                    "Leveraging browser caching and CDNs to improve site speed.",
-                    "Optimizing server performance and reducing unnecessary server requests."
+                    "Installation and configuration of SSL certificates to encrypt data transmitted to and from your website.",
                 ],
-                benefit: "Faster loading pages improve SEO rankings, enhance user experience, and increase conversion rates.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Boosts website security, enhances user trust, and contributes positively to your website's SEO metrics.",
+
             },
 
-            {
-                navigator: "Structured Data & Schema Markup",
-                matters: "Schema markup enhances your product visibility in search results by displaying rich snippets like product prices, availability, reviews, and more.",
+            {name: "Structured Data Implementation",
+                whyMatters: "Structured data helps search engines understand your website content better and enhances the display of your pages in SERPs (Search Engine Results Pages).",
+
                 includes: [
-                    "Product Schema: Highlight product details such as price, availability, and ratings.",
-                    "Review Schema: Display star ratings in search results to boost credibility.",
-                    "FAQ Schema: Add frequently asked questions directly in search results for better visibility.",
-                    "Breadcrumb Schema: Help search engines understand your site structure and improve navigation."
+                    "Implementation of Schema markup to highlight important information like products, reviews, and events directly in search results.",
                 ],
-                benefit: "Increased visibility in search results, higher CTR, and more organic traffic.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Increased visibility in search results through rich snippets, leading to higher click-through rates and improved SEO performance.",
+
+            },
+            {name: "Continuous Technical Audits",
+                whyMatters: "Regular technical audits help identify and rectify potential issues that could affect your site's SEO performance.",
+
+                includes: [
+                    "Comprehensive checks for crawl errors, broken links, redirect issues, and optimization opportunities.",
+                ],
+                benifit: "Ensures your website remains technically sound and fully optimized for the best SEO results.",
+
             },
 
-            {
-                navigator: "Crawl Error Fixing & URL Optimization",
-                matters: "Search engine bots must be able to crawl your website without errors. Identifying and fixing crawl errors is crucial for maintaining a healthy website index.",
-                includes: [
-                    "Regularly identifying and fixing 404 errors, redirect chains, and broken links.",
-                    "Ensuring that important pages are not blocked by Robots.txt or meta tags.",
-                    "Using canonical tags to avoid duplicate content issues.",
-                    "Optimizing URL structures for clarity and simplicity."
-                ],
-                benefit: "Improved crawlability, fewer indexing issues, and enhanced SEO performance.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },
 
-            {
-                navigator: "Advanced Technical Audits",
-                matters: "Conducting in-depth technical audits identifies and resolves hidden issues that can negatively affect your site's performance and rankings.",
-                includes: [
-                    "Comprehensive site audits to spot issues like broken links, slow-loading pages, and poor mobile performance.",
-                    "SEO analysis of meta tags, image alt texts, and header tags to ensure proper on-page optimization.",
-                    "Review of server logs and crawl data to spot crawl bottlenecks.",
-                    "Evaluating website security and HTTPS implementation for better trust and rankings."
-                ],
-                benefit: "A clean, optimized site free from technical issues that can negatively impact SEO.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },
 
-            {
-                navigator: "Competitor Analysis & SEO Benchmarking",
-                matters: "Technical competitor analysis helps identify areas where your site can outperform competitors. By analyzing their SEO strategies, we can adjust yours to gain an edge.",
-                includes: [
-                    "Evaluating competitors' site speed, mobile optimization, and structured data usage.",
-                    "Benchmarking technical performance like load times, crawl errors, and security protocols.",
-                    "Identifying gaps in their SEO strategies and capitalizing on new opportunities.",
-                    "Examining competitors’ backlink profiles for potential link-building strategies."
-                ],
-                benefit: "Gain a competitive edge by identifying and capitalizing on opportunities missed by competitors.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },
 
         ],
     },
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Technical SEO Optimization Powered by <span class= 'text-[#207DE9]'> Optimization Powered by </span> Data-Driven Insights",
+        para: "Harness the power of advanced technical optimizations to elevate your website's architecture, improve search engine indexing, and significantly enhance performance metrics.",
+
+
+        statistics: [
+
+            { benefit: "Increase in Site Speed", benefitText: "Speed optimizations are implemented to reduce load times significantly, utilizing techniques such as resource compression and efficient coding practices.", increasePercentage: 150, explanation: "This notable improvement in site speed enhances user experience by reducing wait times, which is critical for retaining visitors and improving search engine rankings." },
+
+            { benefit: "Increase in Crawl Efficiency", benefitText: "Optimizing the website’s structure and resolving technical issues that hinder search engine crawlers, such as broken links and improper redirects.", increasePercentage: 80, explanation: "These optimizations allow search engines to index your site more thoroughly and efficiently, increasing the visibility of your content in search results and boosting your SEO performance." },
+
+            { benefit: "ROI from Technical SEO Investments", benefitText: "Strategic investments in technical SEO focus on overhauling key website elements that affect search engine visibility and user engagement. ", increasePercentage: 250, explanation: "The return on investment is realized through enhanced rankings, reduced bounce rates, and improved conversion metrics, all resulting from a more robust and technically sound website." },
+
+        ],
+    },
+    //PowerBy ends here 
+
 
     tailoredSection: {
+        heading: "Technical SEO for <span class= 'text-[#207DE9]'>  Enhanced Site </span> Performance for Every Platform",
+        para: "Optimize your website's backend across all platforms like WordPress, Drupal, and Magento with our expert Technical SEO strategies. We ensure your site is technically sound to boost SEO performance and user experience.",
 
-        heading: "Tailored <span class='text-[#207DE9]'> Specialized <br/> Technical SEO </span> for Every E-commerce Platform",
-        para: "Every E-commerce platform has unique technical SEO challenges and opportunities. Our team provides <strong> customized technical SEO strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher, drives organic traffic, and offers a seamless user experience.",
         tailoredItems: [
-            {
-                heading: "Shopify Technical SEO Services",
-                para: "Shopify powers millions of online stores, but without proper technical SEO, it's hard to stand out. Our Shopify SEO strategies are designed to maximize product visibility, improve rankings, and drive more sales.",
+            {heading: "Streamline Your Website with Professional Technical SEO",
+                para: "Improve your website’s technical framework with our streamlined Technical SEO services. By enhancing critical technical aspects, we not only boost your search rankings but also enhance site functionality, making it more efficient and user-friendly. Our targeted strategies are designed to maximize site performance and meet modern web standards.",
                 offers: [
-                    "<strong>Product Page Optimization: </strong>SEO-optimized product titles, descriptions, and images to improve rankings.",
-                    "<strong>Content Strategy: </strong>Creating blogs, product guides, and FAQs to target buyer intent.",
-                    "<strong>Technical SEO Fixes: </strong>Improving page load speed, mobile-friendliness, and site structure.",
-                    "<strong>Schema Markup: </strong>Adding product, review, and stock schema for rich results on Google."
+                    "<strong>Site Architecture Refinement: </strong>Simplify structure for better search engine indexing.",
+
+                    "<strong>Enhanced Security Protocols: </strong>Secure your site with HTTPS and modern security measures.",
+
+                    "<strong>Load Time Optimization: </strong>Reduce server response times and optimize resource loading.",
+
+                    "<strong>Mobile-First Adjustments: </strong>Ensure optimal performance on mobile devices.",
                 ],
-                chooseUs: "Our hands-on experience with Shopify ensures measurable results, improved search rankings, and higher conversions.",
+                
                 image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "WooCommerce Technical SEO Services",
-                para: "WooCommerce is highly flexible, but unlocking its full potential requires expertise. Our WooCommerce technical SEO services help businesses optimize their stores, target buyer-focused keywords, and improve site performance.",
+            {heading: "Optimize Your Core Web Vitals for Better Rankings",
+                para: "Enhance your site’s Core Web Vitals, crucial metrics that Google uses to measure user experience. We focus on improving Largest Contentful Paint (LCP), First Input Delay (FID), and Cumulative Layout Shift (CLS) to ensure your website delivers a superior user experience that aligns with SEO best practices.",
                 offers: [
-                    "<strong>Technical SEO Audits: </strong>Identifying and fixing duplicate content, slow speeds, and indexing issues.",
-                    "<strong>Keyword Mapping: </strong>Aligning keywords to product and category pages for better targeting.",
-                    "<strong>Content Optimization: </strong>Creating SEO-rich product descriptions, blogs, and landing pages.",
-                    "<strong>Performance Enhancements: </strong> Speed optimization, schema markup, and Core Web Vitals fixes."
+                    "<strong>LCP Optimization: </strong>Speed up loading times for the largest content element on the page.",
+
+                    "<strong>FID Improvement: </strong>Reduce interaction delays for a smoother user experience.",
+
+                    "<strong>CLS Minimization: </strong>Stabilize layout shifts to prevent unexpected content movement.",
+
                 ],
-                chooseUs: "We combine WordPress expertise with proven SEO strategies to deliver higher rankings, better site performance, and increased ROI.",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "Magento Technical SEO Services",
-                para: "Magento is a powerhouse for large stores, but its complexity creates technical SEO challenges. Our Magento SEO services focus on optimizing your store for performance, search visibility, and scalability.",
+            {heading: "Elevate Accessibility and Usability Standards",
+                para: "Ensure your website is accessible to all users, including those with disabilities. Enhancing accessibility not only broadens your audience but also improves site usability, a factor increasingly considered in SEO rankings.",
                 offers: [
-                    "<strong>Advanced Keyword Strategy: </strong>Targeting high-traffic keywords for product and category pages.",
-                    "<strong>Technical SEO: </strong>Fixing indexing errors, duplicate content, and improving site speed.",
-                    "<strong>Custom Schema Implementation: </strong>Adding product, review, and breadcrumb schema to boost rankings."
+                    "<strong>Accessibility Audits: </strong>Identify and resolve barriers that prevent accessibility.",
+
+                    "<strong>Usability Enhancements: </strong>Make navigation intuitive and content easily consumable.",
+
+                    "<strong>SEO Alignment: </strong>Ensure accessibility improvements align with SEO strategies.",
+
                 ],
-                chooseUs: "We specialize in handling Magento's complexity, ensuring large product catalogs rank high and convert better.",
-                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "BigCommerce Technical SEO Services",
-                para: "BigCommerce offers robust tools for E-commerce success, but technical SEO is key to maximizing its potential. Our BigCommerce technical SEO strategies focus on delivering consistent traffic and sales.",
+            {heading: "Harden Your Site Security and Build Trust",
+                para: "Strengthen your website’s security protocols to protect user data and build trust with visitors. High security is essential for maintaining not just user safety but also for improving search rankings as search engines favor secure sites.",
                 offers: [
-                    "<strong>On-Page Optimization: </strong>Optimizing product pages, category structures, and internal links.",
-                    "<strong>Content Strategy: </strong>Creating keyword-optimized content like product descriptions, guides, and blogs.",
-                    "<strong>Mobile SEO: </strong>Ensuring fast, mobile-friendly pages to attract on-the-go shoppers."
+                    "<strong>SSL/TLS Implementation: </strong>Encrypt data transmissions to safeguard sensitive information.",
+
+                    "<strong>Security Audits: </strong>Regularly scan for vulnerabilities and apply necessary patches.",
+
+                    "<strong>Trust Signals: </strong>Implement visible security measures that reassure visitors.",
+
                 ],
-                chooseUs: "We leverage BigCommerce's strengths to improve search visibility, user experience, and conversions.",
-                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "Wix and Squarespace Technical SEO Services",
-                para: "Wix and Squarespace make building stores easy, but achieving technical SEO success requires expertise. Our SEO services for Wix and Squarespace focus on visibility and user experience.",
+            {heading: "Implement Advanced Structured Data for Rich Snippets",
+                para: "Utilize structured data to enhance how search engines understand and display your content in search results. Structured data helps in achieving rich snippets, which can improve click-through rates and visibility.",
                 offers: [
-                    "<strong>Site Structure Optimization: </strong>Creating clean, SEO-friendly navigation and URLs.",
-                    "<strong>Content Optimization: </strong>Improving product pages, blogs, and FAQs to attract organic traffic.",
-                    "<strong>Local SEO: </strong>Optimizing for local searches to reach nearby customers."
+                    "<strong>Schema Markup: </strong>Implement and optimize Schema.org markup to highlight key information.",
+
+                    "<strong>Rich Snippets: </strong>Enhance visibility in search results with detailed snippets.",
+
+                    "<strong>Data Testing: </strong>Validate structured data to ensure it is implemented correctly.",
+
                 ],
-                chooseUs: "We help you transform Wix and Squarespace stores into SEO-optimized platforms that rank higher and drive sales.",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "Multi-Platform Technical SEO Consulting",
-                para: "For businesses using multiple platforms (Shopify, WooCommerce, Magento), we offer custom consulting services to streamline your technical SEO strategies across all systems.",
-                offers: [
-                    "<strong>Comprehensive SEO Audits: </strong>Identify technical SEO issues across platforms.",
-                    "<strong>Keyword Harmonization: </strong>Optimize keywords consistently for all stores.",
-                    "<strong>Content Planning: </strong>Unified content strategies for multi-platform E-commerce."
-                ],
-                chooseUs: "We ensure seamless technical SEO execution across multiple platforms to maximize organic growth and ROI.",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
-            }
         ]
 
     },
 
+    approachSection: {
+        heading: "Our Proven <span class= 'text-[#207DE9]'> Technical SEO </span> Strategy ",
+        para: "Get everything needed to develop, implement, and manage a comprehensive Technical SEO plan with our services designed to improve your website’s technical health and search rankings.",
 
-
-    powerBySection: {
-        heading: "Technical <span class='text-[#207DE9]'> SEO Optimization Powered by </span> Data-Driven Insights",
-        para: "Harness the power of advanced technical SEO strategies to elevate your online store's search rankings and drive more organic traffic.",
-        features: [
-            {
-                navigator: "Real-Time Analytics",
-                text: "Track key technical SEO metrics in real-time, including site speed, crawl errors, and mobile optimization to make informed decisions for enhancing your site’s performance.",
-                icon: <IoAnalytics className='text-4xl text-[#6ADFD7]' />
+        approaches: [
+            {heading: "Server and Hosting Optimization",
+                detail: "Optimize your server settings and hosting environment to reduce latency and increase page load speed, enhancing both user experience and SEO.",
+                icon: <FaServer />,
             },
-            {
-                navigator: "Competitor Benchmarking",
-                text: "Benchmark your website’s SEO performance against competitors, focusing on technical aspects like site speed, mobile responsiveness, and indexation, to stay ahead in the market.",
-                icon: <GrAchievement className='text-4xl text-[#6ADFD7]' />
-            },
-            {
-                navigator: "Conversion Optimization",
-                text: "Optimize technical elements such as site structure, page speed, and mobile performance to enhance user experience and improve conversion rates.",
-                icon: <SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7]' />
-            }
+            {heading: "Advanced Security Measures",
+                detail: "Implement advanced security measures like HTTPS, secure headers, and robust authentication to safeguard user data and improve search engine trust.",
+                icon: <FaShieldAlt />,
+              },
+            {heading: "Site Architecture Optimization",
+                detail: "Enhance your website’s architecture for better crawlability and indexing by search engines, ensuring all pages are optimized for SEO.",
+                icon: <FaSitemap />,
+              },
+            {heading: "Mobile Optimization",
+                detail: "Ensure your website is optimized for mobile devices with responsive design and accelerated mobile pages (AMP) to cater to the mobile-first indexing approach of search engines.",
+                icon: <FaMobileAlt />,
+              },
+            {heading: "Code Efficiency",
+                detail: "Clean up and streamline your website’s source code including HTML, CSS, and JavaScript to remove redundancies, enhance execution speed, and reduce page load times.",
+                icon: <FaCode />,
+              },
         ],
-        statistics: [
+    },
+
+    
+    pathToSuccess: {
+        heading: "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R</span>.<span class= 'text-[#207DE9]'>O</span>.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to Local SEO Success",
+
+        paths: [
             {
-                benefit: "Increase in Organic Traffic",
-                benefitText: "Measured increase in organic traffic from optimized site speed, better crawlability, and mobile optimization.",
-                increasePercentage: 200
+                letter: "G", heading: "Guarantee Security", matters: "Ensuring that your website adheres to the best security practices, protecting user data and enhancing trust with search engines.", how: ["Secure websites are trusted more by users and search engines, affecting your SEO positively."],
+                outcome: "Enhanced security leads to better search rankings and increased user confidence."
             },
             {
-                benefit: "Improvement in Conversion Rates",
-                benefitText: "Improvement in conversion rates due to faster load times, better site structure, and smoother mobile experience.",
-                increasePercentage: 100
+                letter: "R", heading: "Refine Site Architecture", matters: "Improving the structure of your website to ensure it is logical, efficient, and easy to navigate for both users and search engines.", how: ["A well-structured website ensures better crawlability and indexing, crucial for SEO.", ],
+                outcome: "Improved site structure results in more efficient crawling and higher visibility in search results."
             },
+
             {
-                benefit: "ROI from SEO Investments",
-                benefitText: "Return on investment that e-commerce businesses typically see after implementing technical SEO strategies.",
-                increasePercentage: 300
-            }
+                letter: "O",
+                heading: "Optimize Mobile Experience",
+                matters: "Adjusting your website to provide an optimal viewing and interaction experience on mobile devices, crucial for ranking in search engines.",
+                how: [
+                    "Mobile optimization is essential as mobile-first indexing is now a standard for Google.",
+                ],
+                outcome: "A mobile-optimized site reaches a wider audience and performs better in search rankings."
+            },
+
+            {
+                letter: "W",
+                heading: "Web Performance Optimization",
+                matters: "Enhancing the speed and overall responsiveness of your website to improve user satisfaction and SEO rankings.",
+                how: [
+                    "Site speed and user experience directly influence bounce rates and search engine rankings.",
+                ],
+                outcome: "Faster site speeds lead to lower bounce rates and higher engagement."
+            },
+
+            {
+                letter: "T",
+                heading: "Technical Audit Regularity",
+                matters: "Conducting systematic checks and updates to identify and resolve technical issues that could impact your site's SEO performance.",
+                how: [
+                    "Regular audits help identify and fix issues that could impact SEO performance.",
+                ],
+                outcome: "Keeping your site technically sound ensures sustained SEO performance and visibility."
+            },
+
+            {
+                letter: "H",
+                heading: "Harness Advanced Technologies",
+                matters: "Leveraging cutting-edge web technologies to boost site functionality, enhance user engagement, and support SEO efforts.",
+                how: [
+                    "Using the latest web technologies can improve functionality and SEO.",
+                ],
+                outcome: "Advanced technologies enhance user experience and SEO through better performance and innovative features."
+            },
+
+
+
+
         ]
+    },
+
+    realResultsSection: {
+        // results section starts 
+        heading: "Real Results <span class= 'text-[#207DE9]'>for Real </span> Growth with Technical SEO",
+            para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
+
+        results: [
+            {
+                header: "Site Speed Enhancement", challenge: "Improve website speed to reduce bounce rates and enhance SEO rankings.", approaches: [
+                    "Implement advanced caching mechanisms.",
+                    "Optimize images and compress content.",
+                    "Minimize JavaScript and CSS files.",
+
+                ], increase: 35, increaseIn: "Decrease in page load times, leading to improved user experience and higher rankings."
+            },
+            {
+                header: "Secure Architecture Implementation", challenge: "Strengthen website security to protect data and improve trust signals for search engines.", approaches: [
+                    "Deploy HTTPS across the site.",
+                    "Implement strict security headers and Content Security Policy (CSP).",
+                    "Conduct regular security audits and updates.",
+
+                ], increase: 50, increaseIn: "Reduction in security vulnerabilities, increasing search rankings and user trust."
+            },
+            {
+                header: "Mobile Optimization Strategy", challenge: "Ensure websites are optimized for mobile-first indexing to enhance mobile search rankings.", 
+                approaches: [
+                    "Design fully responsive layouts for different screen sizes.",
+                    "Optimize for touch interactions and fast-loading experiences.",
+                    "Accelerate mobile page speeds using AMP (Accelerated Mobile Pages).",
+
+                ], increase: 45, increaseIn: "Increase in mobile search rankings, improving engagement and conversion rates."
+            },
+
+
+
+        ],
     },
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms",
-        para: "Our SEO experts work across all major eCommerce platforms to boost your store's visibility and drive sales. Whether you're a small business or an enterprise, we tailor strategies for your platform.",
+        heading: "We Optimize Technical SEO Across Diverse Platforms",
+        para: "Our SEO experts specialize in enhancing technical SEO elements to boost your website’s architecture, security, and performance across all major web platforms. Whether you manage a small business site or an extensive enterprise system, we customize technical SEO strategies to ensure peak performance and compliance.",
 
         platforms: [
             {
-                heading: "Popular Platforms", items: [
-                    { itemName: "Shopify", },
-                    { itemName: "WoCommerce", },
-                    { itemName: "BigCommerce", },
-                    { itemName: "Magento", },
+                heading: "Popular Platforms", 
+                items: [
+                    { itemName: "WordPress ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Restaurants and Cafes", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+
+                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
+
+                    { itemName: "Joomla", itemImg : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/magento-icon.png"},
                 ],
-                image: popularPlatform,
+                
             },
 
             {
                 heading: "Enterprise-Level Solutions", items: [
-                    { itemName: "NetSuite", },
-                    { itemName: "nopCommerce", },
-                    { itemName: "Celerant", },
-                    { itemName: "Unilog", },
+                    { itemName: "Magento", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Salesforce Commerce Cloud", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "SAP Commerce Cloud", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
                 ],
-                image: enterpricePlatform,
             },
 
             {
-                heading: "Content Management Systems (CMS)", items: [
-                    { itemName: "WordPress", },
-                    { itemName: "Drupal", },
-                    { itemName: "Umbraco", },
+                heading: "Custom CMS and Frameworks Optimization", items: [
+                    { itemName: "Laravel", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "Symfony", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Django", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
                 ],
-                image: cmsPlatform,
+            },
+            {
+                heading: "Specialized Technologies for Modern Web Platforms", items: [
+                    { itemName: "React", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "Vue Js", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Angular:", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
+                ],
             },
 
-            {
-                heading: "Other Platforms", items: [
-                    { itemName: "Volusion", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU' },
-                    { itemName: "Drupal", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s' },
-                    { itemName: "Umbraco", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s' },
-                ],
-                image: otherPlatform,
-            }
         ]
     },
 
-
-    pathToSuccess: {
-        heading: "<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>E</span>.<span class= 'text-[#207DE9]'>C</span>.<span class= 'text-[#207DE9]'>H</span>.<span class= 'text-[#207DE9]'>N</span>.<span class= 'text-[#207DE9]'>I</span>.<span class= 'text-[#207DE9]'>C</span> SEO Success Path",
-        paths: [
-            {
-                letter: "T",
-                heading: "Technical Site Speed Optimization",
-                matters: "Site speed is a critical factor for SEO success. Search engines favor fast websites, and a slow website can hurt your rankings. Optimizing your site’s speed ensures better user experience and higher search engine rankings.",
-                how: [
-                    "Compress images and videos to reduce file sizes without compromising quality.",
-                    "Minimize CSS, JavaScript, and HTML files to speed up loading time.",
-                    "Use browser caching and Content Delivery Networks (CDNs) for faster content delivery."
-                ],
-                outcome: "Faster load times that improve user experience and contribute to higher search rankings."
-            },
-            {
-                letter: "E",
-                heading: "Ensure Mobile Optimization",
-                matters: "With the rise of mobile browsing, ensuring your site is mobile-friendly is essential for both user experience and SEO. Mobile-first indexing means that Google now prioritizes mobile versions of websites for rankings.",
-                how: [
-                    "Implement responsive web design to ensure your site adapts to different screen sizes.",
-                    "Test mobile usability regularly to identify and fix issues like clickable elements and text readability.",
-                    "Optimize mobile page speed by reducing unnecessary elements and ensuring quick load times."
-                ],
-                outcome: "Improved rankings and better user experience on mobile devices."
-            },
-            {
-                letter: "C",
-                heading: "Crawlability & Indexing",
-                matters: "Making sure search engines can crawl and index your website is vital for SEO. Without proper crawlability, search engines can’t discover and rank your pages.",
-                how: [
-                    "Submit an XML sitemap to search engines for better indexing.",
-                    "Use robots.txt to control which pages are crawled and which are not.",
-                    "Check for crawl errors in Google Search Console and fix broken links and redirects."
-                ],
-                outcome: "Improved crawlability and indexing, leading to better visibility in search results."
-            },
-            {
-                letter: "H",
-                heading: "Handle Structured Data & Schema Markup",
-                matters: "Structured data helps search engines understand the context of your content, which can improve visibility through rich snippets, featured snippets, and enhanced search results.",
-                how: [
-                    "Implement schema markup for products, reviews, and FAQs to display rich snippets in search results.",
-                    "Use JSON-LD format for easy integration of structured data into your web pages.",
-                    "Monitor structured data for errors and issues using Google's Structured Data Testing Tool."
-                ],
-                outcome: "Increased visibility in search results with rich snippets that enhance click-through rates."
-            },
-            {
-                letter: "N",
-                heading: "Navigate Clean URL Structures",
-                matters: "Clean, keyword-optimized URLs are easier for search engines to understand and index. A good URL structure can improve both rankings and user experience.",
-                how: [
-                    "Ensure URLs are short, descriptive, and keyword-rich.",
-                    "Avoid using special characters or excessive parameters in URLs.",
-                    "Use hyphens to separate words in URLs for better readability."
-                ],
-                outcome: "Better indexing and higher rankings due to clean, easy-to-understand URLs."
-            },
-            {
-                letter: "I",
-                heading: "Implement Internal Linking Strategies",
-                matters: "Internal linking helps search engines understand the structure of your website and ensures that link equity flows through your pages, boosting their SEO performance.",
-                how: [
-                    "Link related content and product pages to enhance site navigation and relevance.",
-                    "Use keyword-rich anchor text to improve page relevance and SEO.",
-                    "Ensure that important pages are easily accessible through internal links."
-                ],
-                outcome: "Better internal site structure that enhances SEO and helps users navigate more efficiently."
-            },
-            {
-                letter: "C",
-                heading: "Curb Duplicate Content Issues",
-                matters: "Duplicate content can confuse search engines and may lead to lower rankings. Addressing duplicate content is essential for improving crawl efficiency and avoiding penalties.",
-                how: [
-                    "Use canonical tags to indicate the preferred version of a page.",
-                    "Regularly check for duplicate content using tools like Copyscape or Siteliner.",
-                    "Ensure that product variations, if any, are correctly handled with unique URLs or content."
-                ],
-                outcome: "Avoidance of duplicate content penalties, leading to improved SEO performance."
-            },
-            {
-                letter: "A",
-                heading: "Accelerate Page Load Times",
-                matters: "Page load time is crucial for SEO. Slow loading pages can lead to higher bounce rates and decreased user engagement, which ultimately harms search rankings.",
-                how: [
-                    "Use lazy loading for images and videos to delay loading of off-screen elements.",
-                    "Minimize HTTP requests by combining files and reducing server response times.",
-                    "Optimize CSS, JavaScript, and HTML files by removing unnecessary code."
-                ],
-                outcome: "Faster page load times that improve user experience and SEO rankings."
-            },
-            {
-                letter: "L",
-                heading: "Leverage SSL Security for Trustworthiness",
-                matters: "SSL certificates ensure that data transferred between users and your site is secure. Websites with SSL encryption are favored by search engines and are seen as more trustworthy by users.",
-                how: [
-                    "Install an SSL certificate to secure user data and improve trustworthiness.",
-                    "Switch your website to HTTPS for better security and SEO benefits.",
-                    "Redirect all HTTP traffic to HTTPS to maintain consistency and avoid mixed content issues."
-                ],
-                outcome: "Better security, higher rankings, and improved user trust."
-            },
-            {
-                letter: <MdOutlineStarPurple500 />,
-                focus: "By focusing on:",
-                focusOn: [
-                    "Speed Optimization",
-                    "Mobile Optimization",
-                    "Crawlability & Indexing",
-                    "Schema Markup",
-                    "URL Structure",
-                    "Internal Linking",
-                    "Duplicate Content Prevention"
-                ],
-                how: [
-                    "Faster, more accessible websites.",
-                    "Improved rankings and visibility.",
-                    "Better user experience, leading to higher engagement and conversions."
-                ]
-            }
-        ]
-    },
-
-    approachSection: {
-        heading: "Our Proven Technical <span class= 'text-[#207DE9]'> SEO Strategy </span>",
-        para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services.",
-        approaches: [
-            {
-                heading: "Technical Keyword Research Tailored to Products",
-                detail: "We identify high-intent, product-specific keywords using advanced tools and analysis, ensuring your products appear in search results when customers are ready to buy.",
-                icon: <FaMagnifyingGlass />
-            },
-            {
-                heading: "Optimized Product Page Structure",
-                detail: "By optimizing product titles, descriptions, image alt text, and implementing structured data (schema markup), we enhance product visibility and rankings in search engines.",
-                icon: <FaCartShopping />
-            },
-            {
-                heading: "Building High-Quality Backlinks",
-                detail: "We acquire backlinks from authoritative, relevant industry sources, improving your site's trustworthiness, domain authority, and search engine rankings.",
-                icon: <FaLink />
-            },
-            {
-                heading: "Mobile-First SEO Strategy Implementation",
-                detail: "We ensure that your e-commerce store is fully mobile-optimized, focusing on fast load times and seamless navigation, with a mobile-first indexing approach to improve rankings.",
-                icon: <MdOutlineMobileFriendly />
-            },
-            {
-                heading: "Site Speed Optimization for Better Rankings",
-                detail: "We compress images, minimize JavaScript, and use caching strategies to improve page load times, which directly impact rankings and reduce cart abandonment rates.",
-                icon: <GrOptimize />
-            }
-        ]
-    },
-    realResultsSection: {
-        heading: "Real Results <span class= 'text-[#207DE9]'>for Real Technical SEO</span> Growth",
-        para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
-        results: [
-            {
-                header: "E-commerce - Tools and Hardware",
-                challenge: "Improving rankings and increasing organic traffic while competing in a highly competitive market.",
-                approaches: [
-                    "Keyword optimization for product-specific searches.",
-                    "Enhancement of on-page SEO elements like titles and meta descriptions.",
-                    "Implementation of schema markup for better product visibility."
-                ],
-                increase: "450",
-                increaseIn: "Growth in organic calls"
-            },
-            {
-                header: "E-commerce - Home Appliances",
-                challenge: "Boosting conversion rates and visibility for a product category with a wide range of competitors.",
-                approaches: [
-                    "Optimizing product pages for SEO and user experience.",
-                    "Acquiring high-quality backlinks from trusted home appliance sources.",
-                    "Improving mobile optimization and load speed."
-                ],
-                increase: "350",
-                increaseIn: "Increase in organic traffic and sales"
-            },
-            {
-                header: "E-commerce - Fashion Accessories",
-                challenge: "Enhancing visibility and attracting targeted traffic in a saturated fashion market.",
-                approaches: [
-                    "Targeting long-tail keywords and niche product searches.",
-                    "Mobile-first design and optimization for a seamless user experience.",
-                    "Building high-quality backlinks from fashion influencers and blogs."
-                ],
-                increase: "300",
-                increaseIn: "Growth in organic search traffic"
-            },
-            {
-                header: "E-commerce - Electronics",
-                challenge: "Improving search rankings and product visibility for a competitive electronics market.",
-                approaches: [
-                    "Optimizing product pages with product-specific keywords.",
-                    "Implementing rich snippets and structured data to improve click-through rates.",
-                    "Speed optimization to improve site performance."
-                ],
-                increase: "500",
-                increaseIn: "Increase in product visibility and user engagement"
-            }
-        ]
-    },
-
-
-
-    // results section ends here 
 
     pricingSection: {
-        heading: "Transparent Pricing for Technical SEO Services",
-        para: "Explore our flexible pricing plans designed specifically for Technical SEO. From auditing and optimizing your website's architecture to improving site speed and mobile performance, our plans are tailored to give your website the SEO boost it needs.",
+        heading: "Transparent Pricing for Technical SEO",
+        para: "Discover our clear and flexible Technical SEO pricing plans designed to grow with your local business. From boosting site traffic to enhancing service and product visibility in your community, our plans are crafted to provide tangible results and help you dominate your local market.",
+
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
-                price: "$750/month",
-                fitFor: "Small businesses or startups looking to establish a solid SEO foundation.",
+                header: "Basic Plan",                //<strong>
+                price: "$1,500/month",
+                fitFor: "Startups and small businesses needing foundational technical SEO improvements.",
                 youGet: [
-                    "Comprehensive Technical SEO Audit",
-                    "Site Speed Optimization (Basic fixes)",
-                    "Mobile Optimization for responsive design",
-                    "Basic Structured Data & Schema Markup Implementation",
-                    "Internal Link Structure Optimization",
-                    "Basic Image Optimization for faster loading",
-                    "Fixing Broken Links & Redirects",
-                    "Basic On-page SEO (Title Tags & Meta Descriptions)",
-                    "Setup & Monitoring of Google Search Console",
-                    "Monthly SEO Reports & Performance Insights",
-                    "Customer Support: Email Support",
-                    "Campaign Setup Fee (One-time): $750",
-                    "Monthly Investment: $750"
-                ]
+                    "Site speed optimization (basic caching & image compression)",
+                    "Mobile-friendliness audit and fixes",
+                    "SSL & security implementation",
+                    "XML sitemap creation and submission",
+                    "Basic crawlability & indexing improvements",
+                    "Google Search Console & Analytics setup",
+                    "Monthly technical SEO reports",
+                ],
             },
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Businesses that need a more in-depth SEO strategy with a focus on increasing performance.",
+                header: "Advanced Plan",
+                price: "$4,000/month",
+                fitFor: "Growing businesses looking to enhance their website’s technical performance and rankings.",
                 youGet: [
-                    "Comprehensive Technical SEO Audit (Advanced)",
-                    "Site Speed Optimization (Advanced fixes & caching strategies)",
-                    "Mobile Optimization (Advanced responsive design)",
-                    "Advanced Structured Data & Schema Markup (Product, Reviews, Pricing)",
-                    "Internal Link Structure Optimization (Strategic linking)",
-                    "Advanced Image Optimization (Compression & Alt Text)",
-                    "Fixing Broken Links, Redirects, and 404 Errors",
-                    "Advanced On-page SEO (Title Tags & Meta Descriptions, Headers)",
-                    "Setup & Monitoring of Google Search Console & Analytics",
-                    "Core Web Vitals Optimization",
-                    "Monthly SEO Reports & Performance Insights",
-                    "Customer Support: Email & Phone Support",
-                    "Campaign Setup Fee (One-time): $2,000",
-                    "Monthly Investment: $1,800"
-                ]
+                    "All features in the Basic Plan",
+                    "Advanced site speed optimization (lazy loading, code minification)",
+                    "Mobile-first optimization and Core Web Vitals improvements",
+                    "Structured data (Schema Markup) implementation",
+                    "Fixing broken links and crawl errors",
+                    "Advanced security hardening & HTTPS enforcement",
+                    "Weekly technical SEO audits and monitoring",
+                ],
             },
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Established websites needing aggressive technical SEO strategies for maximum performance.",
+                header: "Pro Plan",
+                price: "$7,500/month",
+                fitFor: "Large enterprises and e-commerce sites requiring extensive SEO improvements.",
                 youGet: [
-                    "Comprehensive Technical SEO Audit (Full audit with detailed reports)",
-                    "Site Speed Optimization (Advanced techniques, server-side optimization)",
-                    "Mobile Optimization (Enhanced UX for all devices)",
-                    "Full Structured Data & Schema Markup Implementation (Enhanced rich snippets)",
-                    "Advanced Internal Link Structure Optimization (Deep linking & siloing)",
-                    "Full Image Optimization (WebP, Lazy Load, Alt Text & Descriptions)",
-                    "Comprehensive Broken Links & Redirects Management",
-                    "Complete On-page SEO (Title Tags, Meta Descriptions, Headers, etc.)",
-                    "Setup & Monitoring of Google Search Console, Analytics, and Tag Manager",
-                    "Core Web Vitals & Page Experience Optimization",
-                    "Advanced Crawling & Indexing Management",
-                    "Monthly SEO Reports & Performance Insights",
-                    "Customer Support: Dedicated Account Manager",
-                    "Campaign Setup Fee (One-time): $4,000",
-                    "Monthly Investment: $3,500"
-                ]
-            }
-        ]
-    },
-
-    customPricing: {
-        heading: "Custom Technical SEO Services Tailored to Your Website's Needs",
-        upperPart: {
-            header: "Custom Technical SEO Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "<strong>Custom</strong> Technical SEO Audit based on website's architecture",
-            "<strong>Custom</strong> Site Speed Optimization (advanced fixes & strategies)",
-            "<strong>Mobile Optimization:</strong> Custom strategies for responsive design",
-            "<strong>Schema Markup:</strong> Full custom schema implementation for better indexing",
-            "<strong>Internal Linking Optimization:</strong> Advanced internal linking structure",
-            "<strong>Image Optimization:</strong> Custom compression & ALT tags for better speed and SEO",
-            "<strong>Link Management:</strong> Fixing broken links & redirect chains",
-            "<strong>Advanced On-Page SEO:</strong> Optimizing meta tags, headers, etc."
+                    "All features in the Advanced Plan",
+                    "Enterprise-level speed optimization (CDN & server tuning)",
+                    "Dynamic rendering and JavaScript SEO for SPAs",
+                    "Advanced structured data for e-commerce (product, reviews, FAQs)",
+                    "Log file analysis to optimize crawl budget",
+                    "API integrations for automated technical audits",
+                    "Bi-weekly SEO maintenance and real-time monitoring",
+                ],
+            },
+            {
+                header: "Enterprise Plan",
+                price: "$12,000/month",
+                fitFor: "High-traffic websites, global enterprises, and large e-commerce platforms.",
+                youGet: [
+                    "All features in the Pro Plan",
+                    "AI-driven SEO audits & automation for issue resolution",
+                    "AI-powered UX optimization for search engine performance",
+                    "Custom scripts for auto-fixing common technical issue",
+                    "Real-time crawl & indexing issue detection",
+                    "Full-stack integration with DevOps teams",
+                    "24/7 technical SEO support and consultancy",
+                ],
+            },
         ],
-        centerPart: {
-            text: "Maximize website performance and search engine rankings with advanced technical SEO strategies.",
-            pricing: [
-                "<strong>Campaign Setup Fee (One-time):</strong> Custom Quote",
-                "<strong>Monthly Investment:</strong> Custom Quote"
-            ]
-        },
-        rightPart: [
-            "<strong>Google Search Console Setup & Monitoring:</strong> Custom integration",
-            "<strong>Advanced Structured Data & Schema Markup:</strong> Full implementation",
-            "<strong>Core Web Vitals Optimization:</strong> Improve user experience & speed",
-            "<strong>Google Analytics Setup & Conversion Tracking:</strong> Advanced tracking setup",
-            "<strong>Full SEO Audits:</strong> Comprehensive reporting & recommendations",
-            "<strong>Customer Support:</strong> Dedicated SEO support team"
-        ]
     },
-
-
 
     reviewsSection: {
-        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Websites with Top-Notch Technical SEO</span>",
-        para: "Every website we optimize is backed by our dedication to enhancing site performance and boosting rankings. Our clients’ testimonials showcase the tangible impact of our technical SEO strategies. Discover how our tailored solutions have improved their website’s performance, search visibility, and user experience!"
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
 
-
-
-
+    },
 
 }
 

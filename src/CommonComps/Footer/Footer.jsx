@@ -74,21 +74,22 @@ const Footer = () => {
 
             {/* second for links and copyright  */}
 
-            <div className='flex flex-col pt-8 px-4 sm:px-16 md:px-28 2xl:px-48 text-white bg-[#000D4E] mt-6 justify-between items-center '>
-                <div className='w-full flex flex-wrap lg:justify-center gap-8 justify-start '>
+            <div className='flex flex-col pt-8 px-4 sm:px-16 md:px-28 2xl:px-48 text-white bg-[#000D4E] mt-6 justify-between xl:items-center '>
+                <div className='w-full  flex flex-wrap  xl:justify-center gap-8 justify-start '>
                     <h1 className='font-bold text-xl '>Who We Are?</h1>
-                    <span className='flex  flex-1 flex-wrap lg:justify-center justify-start gap-x-20 gap-y-8 underline min-w-fit'>
+                    <span className='flex flex-wrap xl:justify-center justify-start  gap-x-14 gap-y-8 underline min-w-fit'>
                         <h1>Our Vision</h1>
-                        <h1>Our Team</h1>
-                        <h1>Join Us</h1>
+                        <h1>Know Us Better</h1>
+                        <h1>Join Our Team</h1>
                         <h1>Get In Touch</h1>
                         <h1>Client Stories</h1>
+                        <h1>Our Achievements</h1>
 
                     </span>
-                    <div className='flex flex-col justify-center items-center gap-y-4'>
+                    <div className='flex flex-1 flex-col xl:justify-center xl:items-center gap-y-4 '>
 
                         <div className='flex sm:w-auto w-full'>
-                            <input type='text' placeholder='Enter your mail id' className='p-2 w-fit  sm:w-72 bg-white '></input>
+                            <input type='text' placeholder='Enter your mail id' className='p-2 w-fit   bg-white '></input>
                             <span className='px-6 py-2 bg-blue-500'>
                                 Send
                             </span>
@@ -102,13 +103,13 @@ const Footer = () => {
                                 onChange={handleCheckboxChange}
                                 className="h-5 w-5 cursor-pointer"
                             />
-                            <label htmlFor="myCheckbox" >
+                            <p className='text-sm' >
                                 By subscribing i accept the <strong>privacy policy</strong>
-                            </label>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <h1 className='font-bold flex-1 2xl:py-0 py-5 3xl:-translate-y-6 text-center'>&copy; 2025 DEVXCLOUD. All rights reserved.</h1>
+                <p className='font-bold flex-1 py-3   text-sm'>&copy; 2025 DEVXCLOUD. All rights reserved.</p>
 
             </div>
         </div>

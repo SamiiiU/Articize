@@ -35,16 +35,16 @@ const EcommerceSEO = () => {
   const { isLoading, setIsLoading } = useContext(ContextAPI)
 
 
-  useEffect(() => {
-    setIsLoading(true)
+  // useEffect(() => {
+  //   setIsLoading(true)
 
-    window.scrollTo(0, 0);
+  //   window.scrollTo(0, 0);
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
 
-  }, []);
+  // }, []);
 
   return (
     <div className='w-full '>
