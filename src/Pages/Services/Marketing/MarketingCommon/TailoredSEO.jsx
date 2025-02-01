@@ -1,15 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
 
 export const TailoredSEO = ({page}) => {
-    const [screenWidth , setScreenWidth] = useState(window.innerWidth)
-        const handleResize = () => setScreenWidth(window.innerWidth);
-    useEffect(() => {
-        // Add event listener
-        window.addEventListener('resize', handleResize);
-        
-        return () => {
-          window.removeEventListener('resize', handleResize)
-        }});
+    
+    const {scrwidth} = useContext(ContextAPI)
   return (
     <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
     <h1 className='2xl:text-[3rem] text-[2.5rem] font-[800]' id='headingHero'
@@ -20,7 +14,7 @@ export const TailoredSEO = ({page}) => {
      </h1>
      <p className='lg:text-xl text-lg font-normal  ' dangerouslySetInnerHTML={{__html : page.para}}></p>
 
-      {screenWidth > 640 ? (
+      {scrwidth > 1200 ? (
         <>
         {page.tailoredItems.map((item , index ) => (
             <div key={index} className='w-full flex my-8 items-center gap-10 flex-wrap '>

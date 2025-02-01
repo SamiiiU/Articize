@@ -31,7 +31,7 @@ const Booster = ({ page }) => {
             </h1>
             <p className='2xl:text-xl text-lg font-normal  '>{page.para}</p>
             {/* explanation section  */}
-            {scrwidth > 1000 ? (
+            {scrwidth > 1200 ? (
                 <div className='w-full  flex h-fit sm:gap-x-10 gap-x-3'>
                     <div ref={divRef} className='flex flex-col gap-4 ' >
                         {page.boostContent.map((power, index) => (

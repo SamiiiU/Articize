@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { ContextAPI } from './ContextAPI'
-import { SEOData } from '../Data/ServicesData/MarketingData/SEODatas';
 
 const GlobalProvider = ({children}) => {
         const [states, setState] = useState('false');
-        const [serviceShow , setServiceShow] = useState(SEOData.SEO)
         const [scrwidth, setWidth] = useState(window.innerWidth); 
         const [isLoading , setIsLoading] = useState(false)
 
@@ -22,7 +20,6 @@ const GlobalProvider = ({children}) => {
   return (
     <ContextAPI.Provider value={{
         states,
-        serviceShow,
         scrwidth,
         isLoading , setIsLoading
  

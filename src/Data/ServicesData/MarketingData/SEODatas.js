@@ -14,8 +14,6 @@ import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/ent
 import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
 import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
 
-export const SEOData = {}
-
 
 export const EcommerceSEOData = {
 
@@ -559,6 +557,7 @@ export const LocalSEOData = {
         startingAt: "$1,200/Month",
     },
 
+
     //Booster Section start here 
     boostSection: {
         heading: "Boost Your Local Visibility with Services. <span class= 'text-[#207DE9]'> Specialized <br/> Local SEO </span> Services.",
@@ -621,7 +620,8 @@ export const LocalSEOData = {
 
         ],
     },
-    //PowerBy starts here 
+
+            //PowerBy starts here 
     powerBySection: {
         heading: "Local SEO Data-Driven Insights  <span class= 'text-[#207DE9]'> Optimization Powered by </span> Data-Driven Insights",
         para: "Harness the power of targeted local optimization to increase your visibility in community search results and drive customer engagement.",
@@ -637,7 +637,7 @@ export const LocalSEOData = {
 
         ],
     },
-    //PowerBy ends here 
+            //PowerBy ends here 
 
 
     tailoredSection: {
@@ -766,6 +766,44 @@ export const LocalSEOData = {
         ]
     },
 
+    
+    platformSection: {
+        heading: "We Optimize Local Businesses for Local SEO on These Platforms",
+        para: "Our Local SEO experts specialize in enhancing visibility for your local business across diverse community and community platforms. Whether you run a small cafe, a local boutique, a professional service office, or a community organization, we tailor Local SEO strategies specific to your niche and local ecosystem.",
+
+        platforms: [
+            {
+                heading: "Popular Local Business Types", 
+                items: [
+                    { itemName: "Retail Stores ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Restaurants and Cafes", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+
+                    { itemName: "Local Service Providers", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
+
+                    { itemName: "Healthcare Practices", itemImg : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/magento-icon.png"},
+                ],
+                
+            },
+
+            {
+                heading: "Community Engagement Platforms", items: [
+                    { itemName: "Local Business Directories", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Local Event Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Local News and Blog Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
+                ],
+            },
+
+            {
+                heading: "Specialized Local Platforms", items: [
+                    { itemName: "Local Marketplaces", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "Professional Networks", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Educational Institutions", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
+                ],
+            },
+
+        ]
+    },
+
     realResultsSection: {
         // results section starts 
         heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth with Local SEO",
@@ -807,42 +845,6 @@ export const LocalSEOData = {
         ],
     },
 
-    platformSection: {
-        heading: "We Optimize Local Businesses for Local SEO on These Platforms",
-        para: "Our Local SEO experts specialize in enhancing visibility for your local business across diverse community and community platforms. Whether you run a small cafe, a local boutique, a professional service office, or a community organization, we tailor Local SEO strategies specific to your niche and local ecosystem.",
-
-        platforms: [
-            {
-                heading: "Popular Local Business Types", 
-                items: [
-                    { itemName: "Retail Stores ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
-                    { itemName: "Restaurants and Cafes", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
-
-                    { itemName: "Local Service Providers", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
-
-                    { itemName: "Healthcare Practices", itemImg : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/magento-icon.png"},
-                ],
-                
-            },
-
-            {
-                heading: "Community Engagement Platforms", items: [
-                    { itemName: "Local Business Directories", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
-                    { itemName: "Local Event Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
-                    { itemName: "Local News and Blog Sites", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
-                ],
-            },
-
-            {
-                heading: "Specialized Local Platforms", items: [
-                    { itemName: "Local Marketplaces", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
-                    { itemName: "Professional Networks", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
-                    { itemName: "Educational Institutions", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ChnjmwSlQ7zDVIGkGI38zqlZFrfrLC8V8g&s"},
-                ],
-            },
-
-        ]
-    },
 
 
     pricingSection: {
@@ -1205,43 +1207,6 @@ export const TechnicalSEOData = {
         ]
     },
 
-    realResultsSection: {
-        // results section starts 
-        heading: "Real Results <span class= 'text-[#207DE9]'>for Real </span> Growth with Technical SEO",
-            para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
-
-        results: [
-            {
-                header: "Site Speed Enhancement", challenge: "Improve website speed to reduce bounce rates and enhance SEO rankings.", approaches: [
-                    "Implement advanced caching mechanisms.",
-                    "Optimize images and compress content.",
-                    "Minimize JavaScript and CSS files.",
-
-                ], increase: 35, increaseIn: "Decrease in page load times, leading to improved user experience and higher rankings."
-            },
-            {
-                header: "Secure Architecture Implementation", challenge: "Strengthen website security to protect data and improve trust signals for search engines.", approaches: [
-                    "Deploy HTTPS across the site.",
-                    "Implement strict security headers and Content Security Policy (CSP).",
-                    "Conduct regular security audits and updates.",
-
-                ], increase: 50, increaseIn: "Reduction in security vulnerabilities, increasing search rankings and user trust."
-            },
-            {
-                header: "Mobile Optimization Strategy", challenge: "Ensure websites are optimized for mobile-first indexing to enhance mobile search rankings.", 
-                approaches: [
-                    "Design fully responsive layouts for different screen sizes.",
-                    "Optimize for touch interactions and fast-loading experiences.",
-                    "Accelerate mobile page speeds using AMP (Accelerated Mobile Pages).",
-
-                ], increase: 45, increaseIn: "Increase in mobile search rankings, improving engagement and conversion rates."
-            },
-
-
-
-        ],
-    },
-
     platformSection: {
         heading: "We Optimize Technical SEO Across Diverse Platforms",
         para: "Our SEO experts specialize in enhancing technical SEO elements to boost your website’s architecture, security, and performance across all major web platforms. Whether you manage a small business site or an extensive enterprise system, we customize technical SEO strategies to ensure peak performance and compliance.",
@@ -1286,6 +1251,42 @@ export const TechnicalSEOData = {
         ]
     },
 
+    realResultsSection: {
+        // results section starts 
+        heading: "Real Results <span class= 'text-[#207DE9]'>for Real </span> Growth with Technical SEO",
+            para: "At the heart of our e-commerce SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
+
+        results: [
+            {
+                header: "Site Speed Enhancement", challenge: "Improve website speed to reduce bounce rates and enhance SEO rankings.", approaches: [
+                    "Implement advanced caching mechanisms.",
+                    "Optimize images and compress content.",
+                    "Minimize JavaScript and CSS files.",
+
+                ], increase: 35, increaseIn: "Decrease in page load times, leading to improved user experience and higher rankings."
+            },
+            {
+                header: "Secure Architecture Implementation", challenge: "Strengthen website security to protect data and improve trust signals for search engines.", approaches: [
+                    "Deploy HTTPS across the site.",
+                    "Implement strict security headers and Content Security Policy (CSP).",
+                    "Conduct regular security audits and updates.",
+
+                ], increase: 50, increaseIn: "Reduction in security vulnerabilities, increasing search rankings and user trust."
+            },
+            {
+                header: "Mobile Optimization Strategy", challenge: "Ensure websites are optimized for mobile-first indexing to enhance mobile search rankings.", 
+                approaches: [
+                    "Design fully responsive layouts for different screen sizes.",
+                    "Optimize for touch interactions and fast-loading experiences.",
+                    "Accelerate mobile page speeds using AMP (Accelerated Mobile Pages).",
+
+                ], increase: 45, increaseIn: "Increase in mobile search rankings, improving engagement and conversion rates."
+            },
+
+
+
+        ],
+    },
 
     pricingSection: {
         heading: "Transparent Pricing for Technical SEO",
@@ -1361,373 +1362,464 @@ export const TechnicalSEOData = {
 
 
 export const ContentSEOData = {
+    
+   
     heroSection: {
-        heading: "Elevate Your Ecommerce Store's Visibility and Performance with Expert Content SEO Strategies Tailored to Drive Sustainable Growth and Boost Organic Traffic",
-        para: "Unlock the full potential of your online store with our advanced Content SEO strategies, crafted to boost your search engine rankings and attract more organic traffic. Content is king in today’s SEO landscape. Our expert team focuses on optimizing product pages, blog content, and category descriptions with targeted keywords to drive visibility and engagement. We ensure that your e-commerce content resonates with both search engines and users, delivering measurable results.",
+        //Hero section data start
+        heading: "Boost Your Store’s Reach with Content SEO",
+        para: "Optimize your store with advanced Content SEO strategies to improve search rankings and drive organic traffic. Our experts refine product pages, blogs, and category descriptions with targeted keywords to enhance visibility and engagement. We create content that resonates with both search engines and customers, delivering measurable results.",
         img: heroImg,
         bg: BG,
     },
+    // Hero section data ends
 
 
+    customPricing: {
 
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Content SEO</span> Matters",
-        para: "Content SEO is the foundation of any successful e-commerce store. By creating high-quality, keyword-optimized content that resonates with your audience, you can drive more traffic, increase conversion rates, and improve search rankings. With targeted content strategies, you can create lasting relationships with your customers and build credibility in your industry.",
+        heading: 'Content SEO Services Custom Pricing Tailored to Your Business Goals',
 
-        whyKeys: [
-            { heading: "Keyword Research & Optimization", explanation: 'Conduct thorough keyword research to identify the most relevant terms for your products and services. Optimize all on-page content with these keywords to increase search visibility and relevance.', icon: <FaMagnifyingGlass /> },
+        mainHeading: "Custom Content SEO Package",
 
-            { heading: "Product Page Content", explanation: 'Create rich, informative product descriptions that include relevant keywords and answer customer queries. High-quality product content increases chances of ranking and enhances the shopping experience.', icon: <FaFileAlt /> },
+        overview: "Designed for businesses looking to boost organic traffic and enhance content visibility, this package focuses on strategic content optimization, keyword integration, and engagement-driven writing to improve search rankings and user experience.",
 
-            { heading: "Blog & Resource Content", explanation: 'Develop helpful blog posts, how-to guides, and FAQs that target specific search intent. Content should educate your audience, solve their problems, and drive organic traffic.', icon: <FaRegNewspaper /> },
+        benifits: [
+            { heading: "Higher Organic Traffic :  ", description: "Content optimized for search engines to attract relevant visitors" },
+            { heading: "Better Engagement : ", description: " Compelling and informative content keeps users on your site longer. " },
+            { heading: "Increased Conversions : ", description: "SEO-optimized copy that converts visitors into customers." },
 
-            { heading: "Internal Linking Strategy", explanation: 'Create a solid internal linking structure to boost SEO and guide users to relevant content on your website. This improves navigation, distributes link equity, and increases engagement.', icon: <FaLink /> }
         ],
+
+        keyFeatures: [
+            { heading: "SEO-Optimized Blog Content ", description: "Engaging, high-ranking articles tailored for your audience" },
+            { heading: "Product Page Optimization ", description: " Keyword-rich product descriptions for better discoverability. " },
+            { heading: "Category Page SEO ", description: "Structuring category content for better rankings and navigation." },
+            { heading: "Meta Tag & Header Optimization", description: "Improved titles, meta descriptions, and headers for search visibility." },
+            { heading: "Internal Linking Strategy", description: "Enhancing navigation and link equity for SEO benefits." },
+            { heading: "Content Performance Tracking ", description: "Regular audits to measure and refine content effectiveness" },
+            { heading: "Competitor Content Research ", description: "Gaining insights to outperform competitors in search rankings. " },
+            { heading: "Schema Markup for Rich Snippets", description: "Enhancing content visibility in SERPs with structured data." },
+
+        ],
+
+        startingAt: "$4200/Month",
     },
 
+    //Booster Section start here 
     boostSection: {
-        heading: "Boost Your E-commerce Store's Visibility with <span class='text-[#207DE9]'>Specialized Content SEO</span> Services",
-        para: "Elevate your e-commerce store’s SEO performance with tailored content strategies that focus on user engagement, keyword optimization, and content distribution. Our expert team helps you create compelling, SEO-driven content that appeals to both search engines and your target audience.",
+        heading: "Boost Your Local Visibility with Services. <span class= 'text-[#207DE9]'> Specialized <br/> Local SEO </span> Services.",
+        para: "Emphasize the unique challenges and opportunities of Local SEO, such as enhancing local search visibility, optimizing for geo-specific keywords, and improving local user engagement to drive foot traffic and local conversions.",
 
         boostContent: [
-            {
-                navigator: "SEO-Friendly Content Creation",
-                matters: "Creating high-quality, SEO-friendly content is vital to boost organic rankings. Our content creation process focuses on providing value, incorporating targeted keywords, and offering insightful content to improve your search visibility.",
+            {name: "SEO-Optimized Blog Content",
+                whyMatters: "High-quality blog content plays a crucial role in driving organic traffic, establishing authority, and engaging audiences with valuable insights. Well-researched blog posts not only improve search rankings but also keep visitors on your site longer, signaling relevance to search engines.",
+
                 includes: [
-                    "Optimized product descriptions with targeted keywords.",
-                    "Compelling blog posts, guides, and tutorials that add value.",
-                    "Creating FAQ sections to directly answer customer queries.",
-                    "Optimizing images and videos with SEO-rich alt texts."
+                    "Keyword-driven blog topics aligned with user intent.",
+                    "Engaging and informative content optimized for search engines.",
+                    "SEO-friendly formatting, including headers, bullet points, and structured data.",
                 ],
-                benefit: "Higher search rankings, increased organic traffic, and better user engagement.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Boosts organic traffic, strengthens your brand's credibility, and creates a sustainable source of inbound traffic that converts visitors into loyal customers.",
+
             },
 
-            {
-                navigator: "Content Marketing Strategy",
-                matters: "A robust content marketing strategy is essential for driving sustained traffic and conversions. By targeting buyer intent through valuable content, we help you position your e-commerce store as an authority in your industry.",
+            {name: "Product & Category Page Optimization",
+                whyMatters: "Optimized product and category pages help search engines understand your product offerings better, increasing their chances of ranking higher for buyer-intent keywords. A well-structured product page with SEO-rich descriptions, high-quality images, and keyword placement enhances user experience and encourages faster purchasing decisions.",
+
                 includes: [
-                    "Creation of SEO-focused blog posts, how-to guides, and customer success stories.",
-                    "Content promotion through social media channels to drive organic traffic.",
-                    "Optimizing content for different buyer personas and target demographics.",
-                    "Incorporating storytelling to build brand recognition and loyalty."
+                    "SEO-friendly product titles, descriptions, and bullet points.",
+                    "Optimized category structures with strategic keyword placement.",
+                    "High-quality images with alt text for better rankings.",
+
                 ],
-                benefit: "Increased organic traffic, improved brand visibility, and stronger customer relationships.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Increases visibility in search results, attracts high-intent shoppers, and boosts conversions by making it easier for users to find and buy your products.",
+
             },
 
-            {
-                navigator: "Content Optimization for Conversions",
-                matters: "Optimizing content for conversions is just as important as ranking on search engines. We fine-tune your content to encourage actions like product purchases, newsletter sign-ups, and other conversion goals.",
+            {name: "Content Structuring for Readability & Engagement",
+                whyMatters: "Content that is structured logically and easy to read helps users navigate effortlessly and consume information faster. This improves user experience, reduces bounce rates, and encourages deeper exploration of your website. Additionally, well-structured content helps search engines better understand the hierarchy of your pages.",
+
                 includes: [
-                    "Optimized product pages with persuasive copy and clear calls-to-action.",
-                    "A/B testing different content formats to improve user engagement.",
-                    "Incorporating customer testimonials, reviews, and case studies to build trust.",
-                    "Creating SEO-optimized landing pages that guide users to key products."
+                    "Short paragraphs, bullet points, and easy-to-read formatting.",
+                    "Logical content flow to enhance user navigation.",
+                    "Readability enhancements for improved retention rates.",
                 ],
-                benefit: "Improved conversion rates, enhanced customer trust, and better overall ROI.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Enhances user engagement, keeps visitors on your site longer, and improves the chances of conversion by making information more accessible.",
+
             },
+
+            {name: "Keyword-Rich Metadata & Descriptions",
+                whyMatters: "Metadata plays a crucial role in how users and search engines perceive your content. Well- optimized title tags and meta descriptions improve click-through rates (CTR), making your pages more appealing in search results. When users see clear, engaging, and keyword-optimized metadata, they are more likely to click and explore further.",
+
+                includes: [
+                    "SEO-optimized title tags and meta descriptions.",
+                    "Compelling call-to-action (CTA) in meta descriptions",
+                    "Keyword placement for improved search visibility.",
+                ],
+                benifit: "Increases CTR, enhances search visibility, and drives highly targeted traffic that is more likely to convert into customers.",
+
+            },
+
+            {name: "Competitor Content Analysis",
+                whyMatters: "Understanding what works for your top competitors allows you to refine your strategy and gain an edge in search rankings. By identifying content gaps, keyword opportunities, and high-performing strategies, you can develop a content plan that outperforms competitors while maintaining originality.",
+
+                includes: [
+                    "Deep analysis of top-ranking competitor pages.",
+                    "Identifying keyword and content gaps for improvement.",
+                    "Reverse-engineering high-performing content strategies.",
+                ],
+                benifit: "Gives a competitive edge, helps refine content strategies, and ensures your content ranks higher and attracts a larger audience.",
+
+            },
+
+            {name: "Multimedia Optimization for SEO",
+                whyMatters: "Modern SEO is not just about text-it's about engaging visual and multimedia content that keeps visitors interested. Optimizing images and videos helps improve load times, enhances user experience, and provides additional ranking opportunities through Google Image and Video search.",
+                includes: [
+                    "Optimizing images with SEO-friendly alt text and compression.",
+                    "Embedding videos with schema markup for better visibility.",
+                    "Ensuring fast-loading multimedia content.",
+                ],
+                benifit: "Enhances user engagement, improves page load speed, and boosts rankings by making content visually appealing and accessible.",
+
+            },
+
+            {name: "Conversion-Focused Copywriting",
+                whyMatters: "SEO isn't just about rankings; it's about turning visitors into customers. Persuasive, action-driven copywriting ensures that your content is not only search-friendly but also designed to generate leads and sales. Well-crafted copy enhances user experience and builds trust.",
+                includes: [
+                    "Action-oriented headlines and persuasive language.",
+                    "Strategic placement of keywords without overstuffing.",
+                    "Strong CTAs to encourage user action.",
+                ],
+                benifit: "Increases engagement, builds brand credibility, and drives higher conversion rates by persuading users to take action.",
+
+            },
+
+
+
+
         ],
     },
+
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Content SEO <span class= 'text-[#207DE9]'> Data-Driven Insights  </span> for Maximum Visibility",
+        para: "Harness the power of high-quality content to elevate your website's search rankings, attract the right audience, and drive more engagement.",
+
+
+        statistics: [
+
+            { benefit: "Increase in Organic Traffic", benefitText: "Optimized content helps search engines better understand your pages, ranking them higher for relevant keywords and bringing in a steady stream of organic visitors.", increasePercentage: 250, explanation: "A well-structured content strategy with keyword-focused blogs, product pages, and category descriptions ensures that your brand gets noticed by search engines and potential customers alike." },
+
+            { benefit: "Improvement in Engagement & Dwell Time", benefitText: "Engaging and informative content keeps visitors on your website longer, reducing bounce rates and increasing conversions.", increasePercentage: 120, explanation: "Crafting compelling, reader-friendly content ensures users stay on your site, interact with your brand, and take action-whether it's making a purchase, signing up, or engaging with your business." },
+
+            { benefit: "ROI from Local SEO Investments", benefitText: "Content marketing is one of the highest ROI strategies, generating long-term results without ongoing ad spend.", increasePercentage: 350, explanation: "Consistently publishing high-quality, SEO-optimized content drives sustainable growth, improves rankings, and establishes your brand as an industry authority." },
+
+        ],
+    },
+    //PowerBy ends here 
 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Content SEO</span> for Every E-commerce Platform",
-        para: "Each e-commerce platform presents unique challenges and opportunities for content SEO. Our team provides tailored content strategies for platforms like Shopify, WooCommerce, Magento, and more, ensuring your store ranks higher, attracts organic traffic, and converts visitors effectively.",
+        heading: "Tailored <span class= 'text-[#207DE9]'> Specialized Content SEO </span> For Every Type of  Business ",
+        para: "In a competitive digital landscape, local businesses need more than just an online presence—they need to dominate their local search results. Our Local SEO services are custom-built for your unique business needs, ensuring you reach the right customers in your community. From enhancing your visibility in local searches to increasing foot traffic, our strategies are designed to help you succeed in your local market.",
 
         tailoredItems: [
-            {
-                heading: "Shopify Content SEO Services",
-                para: "Shopify’s flexibility makes it ideal for e-commerce, but content optimization is key to standing out. Our Shopify SEO services focus on creating SEO-friendly product pages, content marketing strategies, and performance enhancements.",
+            {heading: "Drive More Traffic with SEO-Optimized Content",
+                para: "High-quality, search-engine-friendly content is the foundation of online success. Our Content SEO strategies ensure your web pages, blog posts, and landing pages are optimized with targeted keywords, engaging writing, and structured formatting to improve rankings and user engagement.",
                 offers: [
-                    "<strong>Product Page Content Optimization: </strong>Optimizing product titles, descriptions, and images.",
-                    "<strong>Content Strategy: </strong>Creating buyer-focused content, including blogs and guides.",
-                    "<strong>Internal Linking Optimization: </strong>Boosting on-site SEO with relevant links.",
-                    "<strong>Schema Markup: </strong>Adding rich snippets like ratings and reviews for enhanced visibility."
+                    "<strong>Keyword-Optimized Content Strategy: </strong>Create data-driven, keyword-optimized content.",
+
+                    "<strong>Structured Formatting for Readability: </strong>Implement structured formatting (H1, H2, H3, etc.) for readability.",
+
+                    "<strong>Meta & Tags for Better Indexing: </strong>Use meta descriptions, title tags, and alt texts for better indexing.",
+
+                    "<strong>SEO-Friendly Content for Higher Traffic: </strong>Boost your traffic with high-quality, SEO-friendly content that converts!",
+
                 ],
-                chooseUs: "Our experience with Shopify ensures measurable SEO improvements, increased traffic, and higher conversions.",
+                
                 image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "WooCommerce Content SEO Services",
-                para: "WooCommerce offers great flexibility, but content optimization is essential for success. Our WooCommerce content SEO services focus on keyword mapping, product page content, and performance improvements.",
+
+            {heading: "Maximize Engagement with Audience-Centric Content",
+                para: "Great content doesn't just rank; it engages and converts visitors into customers. We create compelling, user-focused content that speaks directly to your audience while meeting Google's latest ranking factors.",
                 offers: [
-                    "<strong>SEO Audits: </strong>Identifying and fixing SEO content issues, such as keyword gaps.",
-                    "<strong>Content Optimization: </strong>Writing SEO-friendly product descriptions and blogs.",
-                    "<strong>Keyword Mapping: </strong>Mapping keywords to the right product pages and categories.",
-                    "<strong>Performance Improvements: </strong>Boosting content speed and mobile-friendliness."
+                    "<strong>Solution-Driven Content for Audience Needs: </strong>Research audience pain points and create valuable, solution-driven content.",
+
+                    "<strong>Engaging Tone & Readable Structure </strong>Optimize tone, readability, and content structure for better engagement.",
+
+                    "<strong>Balanced Content for All Preferences: </strong>Ensure long-form and short-form content balance for diverse audience preferences.",
+
+                    "<strong>Deep Audience Connection Through Strategy: </strong>Connect with your audience like never be with our content strategy!",
+
                 ],
-                chooseUs: "We combine WooCommerce expertise with proven SEO strategies to deliver content that drives results.",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
-            {
-                heading: "Magento Content SEO Services",
-                para: "Magento’s robust platform requires specialized content strategies. Our Magento SEO services focus on optimizing content for visibility, engagement, and conversion.",
+
+            {heading: "Build Authority with Strategic Content Marketing",
+                para: "Search engines prioritize websites with high-authority, in-depth content. We craft well-researched, expert-level blog posts, guides, and pillar content that position your brand as an industry leader while driving organic traffic and backlinks.",
                 offers: [
-                    "<strong>Keyword-Optimized Content: </strong>Creating optimized product and category pages.",
-                    "<strong>Content Strategy: </strong>Developing buyer-centric content such as guides and FAQs.",
-                    "<strong>SEO Audits: </strong>Reviewing existing content for keyword optimization and improving SEO rankings."
+                    "<strong>Evergreen Content for Long-Term Success: </strong>Develop evergreen, research-backed content for long-term rankings.",
+
+                    "<strong>Credibility Through Guest Blogging: </strong>Leverage guest blogging and influencer collaborations to boost credibility.",
+
+                    "<strong>Optimize for Snippets & Rich Results: </strong>Optimize for Featured Snippets and rich results on Google.",
+
+                    "<strong>SEO-Friendly Content for Higher Traffic: </strong>Strengthen your online authority with content that stands out.",
+
                 ],
-                chooseUs: "We specialize in handling Magento’s complexities, ensuring that content ranks well and drives conversions.",
-                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
+            },
+
+            {heading: "Convert Visitors into Customers with High-Intent SEO Copywriting",
+                para: "Optimized content isn't just about rankings—it's about conversions. We create persuasive, high- intent content that guides visitors through the buyer journey, from awareness to decision-making, leading to higher sales and engagement.",
+                offers: [
+                    "<strong>Action-Driven Content with Clear CTAs: </strong>Write action-driven content with clear CTAs for conversion.",
+
+                    "<strong>SEO & Sales-Optimized Copy: </strong>Optimize product descriptions, landing pages, and sales copy for SEO & sales. ",
+
+                    "<strong>A/B Testing for Better Engagement: </strong>Implement A/B testing to refine messaging and increase engagement.",
+
+                    "<strong>Convert Visitors into Loyal Customers: </strong>W Turn visitors into loyal customers with perasive, SEO-optimized content!",
+
+                ],
+                
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
         ]
+
     },
-    powerBySection: {
-        heading: "Content SEO Powered by Data-Driven Insights",
-        para: "Leverage the power of advanced content SEO strategies to improve your online store’s rankings and drive organic traffic.",
-        features: [
+
+    approachSection: {
+        heading: "Our Proven <span class= 'text-[#207DE9]'> Content SEO </span> Strategy ",
+        para: "We help you develop and implement a powerful Content SEO plan that enhances visibility, drives engagement, and delivers measurable results.",
+
+        approaches: [
             {
-                navigator: "Content Analytics",
-                text: "Track key content performance metrics in real-time, including keyword rankings, user engagement, and content optimization to enhance your content strategy.",
-                icon: "<IoAnalytics className='text-4xl text-[#6ADFD7]' />"
-            },
-            {
-                navigator: "Competitive Content Benchmarking",
-                text: "Benchmark your website’s content performance against competitors to identify gaps and capitalize on new opportunities.",
-                icon: "<GrAchievement className='text-4xl text-[#6ADFD7]' />"
-            },
-            {
-                navigator: "Conversion-Focused Content Strategy",
-                text: "Optimize content for conversions by targeting high-intent keywords and creating compelling calls to action.",
-                icon: "<SiGooglecontaineroptimizedos className='text-4xl text-[#6ADFD7]' />"
-            }
+                heading: "Comprehensive Keyword Research",
+                detail: "We identify the most relevant, high-intent keywords tailored to your target audience, ensuring your content ranks for the right search terms.",
+                icon: <FaSearch />,
+              },
+              {
+                heading: "Content Optimization for SEO",
+                detail: "We craft SEO-optimized content that aligns with search engine algorithms and user intent, boosting visibility and increasing organic traffic.",
+                icon: <FaFileAlt />,
+              },
+              {
+                heading: "Quality Backlink Acquisition",
+                detail: "Building high-authority backlinks from trusted sources enhances your content's credibility and improves its search engine rankings.",
+                icon: <FaLink />,
+              },
+              {
+                heading: "Mobile-Optimized Content Strategy",
+                detail: "We ensure your content is fully optimized for mobile, making it accessible, responsive, and engaging for mobile users—critical for search rankings.",
+                icon: <FaMobileAlt />,
+              },
+              {
+                heading: "Content Performance Analysis",
+                detail: "We analyze and refine your content strategy based on performance insights, ensuring consistent growth and improved search rankings.",
+                icon: <FaChartLine />,
+              },
+
         ],
-        statistics: [
-            {
-                benefit: "Increase in Organic Traffic",
-                benefitText: "Content SEO has led to a 30% average increase in organic traffic across client stores."
-            },
-            {
-                benefit: "Higher Conversion Rates",
-                benefitText: "E-commerce stores saw a 15% increase in conversions after optimizing content for SEO."
-            }
-        ],
     },
 
-    platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms",
-        para: "Our SEO experts work across all major eCommerce platforms to boost your store's visibility and drive sales. Whether you're a small business or an enterprise, we tailor strategies for your platform.",
-
-        platforms: [
-            {
-                heading: "Popular Platforms", items: [
-                    { itemName: "Shopify", },
-                    { itemName: "WoCommerce", },
-                    { itemName: "BigCommerce", },
-                    { itemName: "Magento", },
-                ],
-                image: popularPlatform,
-            },
-
-            {
-                heading: "Enterprise-Level Solutions", items: [
-                    { itemName: "NetSuite", },
-                    { itemName: "nopCommerce", },
-                    { itemName: "Celerant", },
-                    { itemName: "Unilog", },
-                ],
-                image: enterpricePlatform,
-            },
-
-            {
-                heading: "Content Management Systems (CMS)", items: [
-                    { itemName: "WordPress", },
-                    { itemName: "Drupal", },
-                    { itemName: "Umbraco", },
-                ],
-                image: cmsPlatform,
-            },
-
-            {
-                heading: "Other Platforms", items: [
-                    { itemName: "Volusion", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU' },
-                    { itemName: "Drupal", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s' },
-                    { itemName: "Umbraco", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s' },
-                ],
-                image: otherPlatform,
-            }
-        ]
-    },
-
+    
     pathToSuccess: {
-        heading: "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R.</span>O.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to Content SEO Success",
+        heading: "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R</span>.<span class= 'text-[#207DE9]'>O</span>.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to Content SEO Success",
 
         paths: [
             {
-                letter: "G", heading: "Generate Organic Traffic", matters: "Without organic traffic, your content won’t reach your target audience. SEO helps in attracting qualified visitors by optimizing content for search engines.", how: ["Keyword research to find long-tail keywords with low competition and high volume.", "Create SEO-focused, engaging content aligned with user search intent.", "Optimize for featured snippets, knowledge graphs, and rich results."],
-                outcome: "Increased organic visitors and higher engagement rates."
-            },
-            {
-                letter: "R", heading: "Rank Higher for Content", matters: "Ranking high for relevant keywords increases your content’s visibility, leading to more clicks, engagement, and conversions.", how: ["On-page SEO: optimizing headings, meta tags, and alt texts.", "Use internal linking to improve keyword relevance and user navigation.", "Improve domain authority through quality backlinks."],
-                outcome: "Higher rankings, more visibility, and increased website traffic."
-            },
-
-            {
-                letter: "O", heading: "Optimize Content for SEO", matters: "Content optimization is key to ranking higher. Your content must be optimized for both search engines and your audience.", how: [
-                    "Integrate primary and secondary keywords naturally into the content.",
-                    "Format content to include header tags (H1, H2, etc.) for clarity and SEO.",
-                    "Optimize multimedia content (images, videos) with relevant alt tags."],
-                outcome: "Improved user experience, higher dwell time, and better rankings."
-            },
-
-            {
-                letter: "W", heading: "Win Clicks with Engaging Content", matters: "Your content needs to be compelling to encourage clicks from search engine results pages (SERPs).", how: [
-                    "Craft clickable, SEO-optimized titles and meta descriptions.",
-                    "Use engaging CTAs (calls-to-action) to boost engagement.",
-                    "Leverage rich snippets and structured data for improved CTR."],
-                outcome: "Increased click-through rates, more organic traffic, and better engagement."
-            },
-
-            {
-                letter: "T", heading: "Target Audience with Precision", matters: "Effective targeting ensures that your content resonates with the right audience, making your SEO efforts more successful.", how: [
-                    "Research your audience's pain points and align content to address those needs.",
-                    "Create content that answers users’ queries and solves problems.",
-                    "Utilize keyword mapping to align content with audience intent."],
-                outcome: "Higher audience engagement, lower bounce rates, and better rankings."
-            },
-
-            {
-                letter: "H", heading: "Highlight Key Content", matters: "The most important content needs to stand out to guide users towards conversion and provide value.", how: [
-                    "Use optimized meta descriptions to highlight key content in SERPs.",
-                    "Ensure content is scannable with bullet points, short paragraphs, and bold text.",
-                    "Create internal links to key, high-converting pages."],
-                outcome: "Better user experience, increased content visibility, and higher engagement."
-            },
-
-            {
-                letter: <MdOutlineStarPurple500 />,
-                focus: "Focus Areas for Content SEO",
-                focusOn: ["Generating Organic Traffic", "Ranking Higher for Content", "Optimizing Content for SEO", "Winning Clicks", "Targeting Audience Precisely", "Highlighting Key Content"],
+                letter: "G", heading: "Generate Engaging Content", matters: "Without high-quality content, your website won't attract or retain visitors. Content SEO ensures your pages provide valuable, engaging, and optimized content that drives organic traffic.", 
                 how: [
-                    "Increased organic traffic through SEO-optimized content.",
-                    "Better rankings and higher SERP visibility.",
-                    "More audience engagement and improved conversion rates."
-                ],
+                    "Helps rank for relevant search queries by using targeted keywords.", 
+                    "Enhances readability and engagement, reducing bounce rates.", 
+                    "Establishes authority in your niche through well-structured content."],
+                outcome: "More engaged visitors who find value in your content and take action."
             },
+            {
+                letter: "R", heading: "Refine Keyword Strategy", matters: "A strong content SEO strategy starts with identifying and using the right keywords. By refining keyword selection, you ensure your content aligns with what your audience is searching for.", 
+                how: [
+                    "Boosts search engine rankings for specific queries.", 
+                    "Increases chances of reaching potential customers.", 
+                    "Helps optimize different content types, from blogs to product pages."],
+                outcome: "Higher visibility in search engines and more organic traffic."
+            },
+
+            {
+                letter: "O",
+                heading: "Optimize Content Structure",
+                matters: "SEO-friendly content isn't just about keywords it's about structure, too. Proper headings, meta tags, and internal linking enhance search rankings and user experience.",
+                how: [
+                    "Helps search engines crawl and index your pages more effectively.",
+                    "Improves readability, making it easier for users to navigate.",
+                    "Encourages better on-page engagement with strategic CTAs."],
+                outcome: "Better rankings and increased dwell time on your pages."
+            },
+
+            {
+                letter: "W",
+                heading: "Write for User Intent",
+                matters: "Content that satisfies user intent is key to driving conversions. Writing content that directly addresses audience needs improves performance in search engines.",
+                how: [
+                    "Aligns with different user search intents (informational, transactional, etc.).",
+                    "Encourages longer on-page time and more interactions.",
+                    "Builds trust with potential customers."],
+                outcome: "More qualified leads and better conversion rates."
+            },
+
+            {
+                letter: "T",
+                heading: "Tailor for Mobile & Voice Search",
+                matters: "As mobile and voice search continue to rise, optimizing content for different devices and search methods is crucial.",
+                how: [
+                    "Voice search-friendly content helps capture featured snippets.",
+                    "Mobile optimization ensures smooth browsing and engagement.",
+                    "Short, direct answers improve search rankings."],
+                outcome: "Better mobile experience and higher visibility in voice searches."
+            },
+
+            {
+                letter: "H",
+                heading: "Harness Data for Continuous Improvement",
+                matters: "Content SEO isn't a one-time effort-it's an ongoing process. Using analytics and performance tracking helps refine your strategy over time.",
+                how: [
+                    "Allows data-driven improvements to content strategy.",
+                    "Identifies what's working and what needs optimization.",
+                    "Ensures sustained content performance over time."],
+                outcome: "Consistent organic growth and better content ROI."
+            },
+
+
+
+
         ]
     },
 
-    // Aproach section starts 
+    
+    platformSection: {
+        heading: "We Optimize Content SEO Across These Platforms",
+        para: "Our content SEO experts work across various platforms to enhance visibility and engagement. Whether you run a blog, an eCommerce store, or a corporate website, we tailor our strategies to maximize your content's reach.",
 
-    approachSection: {
-        heading: "Our Proven Content SEO Strategy",
-        para: "We help you develop and implement a solid content SEO plan that brings measurable results and improves your content’s reach.",
+        platforms: [
+            {
+                heading: "Popular Platforms for Content Optimization", 
+                items: [
+                    { itemName: "WordPress ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Shopify", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
 
-        approaches: [
-            { heading: "Comprehensive Keyword Research", detail: 'We identify the keywords that matter the most to your target audience. This ensures that your content ranks for the right search terms.', icon: <FaMagnifyingGlass /> },
+                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
 
-            { heading: "Content Optimization for SEO", detail: 'We optimize your content for search engines and user intent to increase visibility and drive more organic traffic.', icon: <FaCartShopping /> },
+                ],
+                
+            },
 
-            { heading: "Quality Backlink Acquisition", detail: 'Building high-quality backlinks from authoritative sources enhances your content’s credibility and boosts SEO rankings.', icon: <FaLink /> },
+            {
+                heading: "Enterprise-Level Content Solutions", items: [
+                    { itemName: "HubSpot CMS", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Sitecore ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
+                ],
+            },
 
-            { heading: "Mobile-Friendly Content Optimization", detail: 'We ensure your content is fully optimized for mobile users, which is crucial for both SEO rankings and user experience.', icon: <MdOutlineMobileFriendly /> },
+            {
+                heading: "Content Performance & Analytics Platforms", items: [
+                    { itemName: "Google Search Console", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "SEMrush & Ahrefs", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
 
-            { heading: "Content Performance Analysis", detail: 'We analyze the performance of your content and refine SEO strategies for continued growth and improvement.', icon: <GrOptimize /> },
+                ],
+            },
 
-        ],
+        ]
     },
-
-    // approach section ends here 
-
+    
     realResultsSection: {
-        heading: "Real Results in Content SEO Growth",
-        para: "Our Content SEO strategy delivers measurable results. We help websites rank higher, increase organic traffic, and boost content engagement. Our approach is tailored to each client’s needs for sustainable, long-term SEO success.",
+        // results section starts 
+        heading: "Real Results <span class= 'text-[#207DE9]'>for Real E-commerce</span> Growth with Content SEO",
+        para: "At the heart of our Content SEO strategy lies a commitment to delivering measurable outcomes. From boosting organic traffic to skyrocketing product sales, we’ve helped countless online stores achieve sustainable growth. Our tailored approach ensures that every keyword, backlink, and optimization effort drives tangible results—turning your store into a revenue-generating powerhouse.",
 
         results: [
-            {
-                header: "Content - E-commerce Blog", challenge: "How to increase blog traffic for e-commerce businesses?", approaches: [
-                    "Keyword research to find content gaps",
-                    "Optimizing blog posts with transactional keywords",
-                    "Building internal links to boost rankings"
-                ], increase: "500%", increaseIn: "Increase in organic traffic to blog posts"
+            {header: "Keyword-Driven Content Optimizations", challenge: "Crafting content that aligns with search intent and ranks high in search results.", 
+                approaches: [
+                    "Perform in-depth keyword research to find high-value terms.",
+                    "Optimize content structure with relevant keywords and meta tags.",
+                ], increase: 50, increaseIn: "Increase in organic search traffic."
             },
-            {
-                header: "Content - Healthcare Industry", challenge: "How to optimize content for higher visibility?", approaches: [
-                    "Improved keyword targeting and content optimization",
-                    "Engaging long-form content with relevant statistics",
-                    "Building authority through backlinks"
-                ], increase: "350%", increaseIn: "Increase in patient appointments through organic traffic"
+            {header: "Engaging Blog Content Strategy", challenge: "Creating compelling blog content that attracts, retains, and converts audiences.", approaches: [
+                    "Develop SEO-friendly blog content based on audience interests.",
+                    "Implement content clustering and internal linking for better visibility.",
+                ], increase: 65, increaseIn: "Increase in user engagement and timen site."
+            },
+            {header: "E-commerce Product Content Optimization", 
+                challenge: "Enhancing product descriptions and category pages to drive conversions.", approaches: [
+                    "Optimize product pages with compelling copy and structured data.",
+                    "Implement schema markup to improve search engine visibility.",
+                ], increase: 40, increaseIn: "Boost in conversion rates."
             },
         ],
     },
 
-    // results section ends here 
-
     pricingSection: {
-        heading: "Affordable Content SEO Pricing",
-        para: "Explore our content SEO pricing plans that cater to various business needs, from beginners to advanced content marketers. Our strategies are designed to improve content visibility and generate real results.",
+        heading: "Transparent Pricing for Content SEO",
+        para: "Discover our clear and flexible Content SEO pricing plans designed to grow with your online business. From boosting site traffic to enhancing service and product visibility in your community, our plans are crafted to provide tangible results.",
 
         pricingCards: [
             {
-                name: "Silver Plan", header: "Silver Plan", price: "$500/month", fitFor: "New businesses looking to optimize content for search engines.", youGet: [
-                    "Up to 30 optimized keywords",
-                    "Content optimization for up to 10 pages",
-                    "Technical SEO Audit & Basic Fixes",
-                    "Backlink Building (Basic Outreach)",
-                    "Monthly SEO Reports & Performance Insights"
-                ]
+                header: "Starter Plan",                //<strong>
+                price: "$2,000/month",
+                fitFor: "Small businesses & startups looking to build a strong content foundation.",
+                youGet: [
+                    "Keyword research & topic suggestions (up to 10 keywords)",
+                    "4 SEO-optimized blog posts (1,000 words each)",
+                    "On-page optimization (meta titles, descriptions, headers) Internal linking strategy",
+                    "Monthly performance report & recommendations",
+                ],
             },
-
             {
-                name: "Gold Plan", header: "Gold Plan", price: "$1,200/month", fitFor: "Growing businesses looking to improve content SEO and drive organic traffic.", youGet: [
-                    "Up to 100 optimized keywords",
-                    "Content optimization for up to 50 pages",
-                    "Advanced Technical SEO Audit & Fixes",
-                    "Backlink Building (Quality Outreach)",
-                    "Monthly SEO Reports & Performance Insights"
-                ]
+                header: "Growth Plan",
+                price: "$4,500/month",
+                fitFor: "Businesses looking to scale their content marketing efforts",
+                youGet: [
+                    "All features from the Starter Plan",
+                    "8 SEO-optimized blog posts (1,500 words each)",
+                    "SEO-friendly product descriptions (up to 15 pages) Content calendar planning & publishing",
+                    "Advanced internal linking & content silo strategy Competitor content gap analysis",
+
+                ],
             },
-
             {
-                name: "Platinum Plan", header: "Platinum Plan", price: "$2,500/month", fitFor: "Established businesses looking for comprehensive content SEO strategies.", youGet: [
-                    "Up to 200 optimized keywords",
-                    "Content optimization for up to 100 pages",
-                    "Full Technical SEO Audit & Fixes",
-                    "Advanced Backlink Building & Outreach",
-                    "Detailed Competitor Analysis",
-                    "Monthly SEO Reports & Performance Insights"
-                ]
+                header: "Authority Plan ",
+                price: "$7,000/month",
+                fitFor: "Large businesses & eCommerce stores focused on industry authority.",
+                youGet: [
+                    "All features from the Growth Plan",
+                    "12 premium blog posts (2,000+ words each) ",
+                    "High-quality guest post backlinks (3 per month)",
+                    "Video & infographic content optimization",
+                    "Conversion-focused landing pages.(up to 5 pages)",
+                    "Monthly content performance audits",
+                ],
+            },
+            {
+                header: "Elite Plan",
+                price: "$12,000/month",
+                fitFor: "Enterprises & brands aiming for content dominance",
+                youGet: [
+                    "All features from the Authority Plan",
+                    "20+ SEO-optimized blog posts (3,000+ words each)",
+                    " Al-driven content optimization & NLP keyword strategy",
+                    "E-book & whitepaper content creation (1 per month)",
+                    "Advanced content automation & distribution strategy",
+                    "Dedicated content strategist & SEO consul.",
+                ],
             },
         ],
     },
-
-    customPricing: {
-        heading: 'Custom Content SEO Pricing Tailored for You',
-
-        upperPart: {
-            header: "Custom Content SEO Plans",
-            price: "Starting at $3,000/month"
-        },
-
-        leftPart: [
-            "Custom keyword optimization",
-            "Tailored content strategy",
-            "Advanced backlink acquisition",
-            "Full mobile content optimization",
-            "Advanced technical SEO audits",
-        ],
-
-        centerPart: {
-            text: "Maximize content performance and traffic with tailored SEO strategies.",
-            pricing: ["Custom Setup Fee", "Custom Monthly Investment"]
-        },
-
-        rightPart: [
-            "Custom content creation plan",
-            "Custom competitor analysis",
-            "Custom CRO strategy",
-            "Dedicated account management",
-        ],
-    },
-
 
     reviewsSection: {
-        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving E-commerce Brands</span>  ",
-        para: "At the heart of our success lies a commitment to excellence and delivering results. Our clients' reviews highlight the direct impact our SEO strategies have had on their growth. Discover how we’ve transformed their e-commerce websites and helped them achieve sustained success online!",
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
     },
-
-
 }
 
 export const InternationalSEOData = {

@@ -31,7 +31,7 @@ const Revenue = () => {
           <h1 className="font-bold tracking-wide">APPROACH</h1>
           {result.approaches.map((approach , idx) => (
             <div className='flex gap-x-4 items-center mb-2' key={idx}>
-                <SiTicktick  className='text-[#6ADFD7] text-sm'/>
+                <SiTicktick  className='text-[#6ADFD7] text-xl'/>
                 <p>{approach}</p>
             </div>
           ))}

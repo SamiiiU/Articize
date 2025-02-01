@@ -15,10 +15,10 @@ const CustomPackage = ({page}) => {
     <div className='w-full bg-white px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
 
           <div className='w-full max-w-[950px] '>
-                <div  className='w-full flex lg:flex-row shadow-2xl flex-col flex-wrap text-left  h-auto transition-all rounded-[2rem] border-2 border-[#313131]'>
+                <div  className='w-full flex lg:flex-row shadow-2xl flex-col flex-wrap text-left  h-auto transition-all rounded-3xl border-2 border-[#313131]'>
                     {/* first col  */}
                     <div className='flex-1 flex flex-col justify-between lg:border-r-2 border-[#313131]'>
-                        <span className='w-full rounded-tl-3xl lg:rounded-tr-none rounded-tr-3xl font-extrabold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
+                        <span className='w-full rounded-tl-[1.3rem] lg:rounded-tr-none rounded-tr-3xl font-extrabold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
                             {page.mainHeading}
                         </span> 
 
