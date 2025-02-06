@@ -34,7 +34,7 @@ const RealResults = ({page}) => {
         <p className='2xl:text-xl text-lg font-normal  '>{page.para}</p>
           
         
-        <div className="w-3/4 py-2 rounded-2xl mx-auto my-8">
+        <div className="lg:w-3/4 w-full py-2 rounded-2xl mx-auto my-8">
     <CustomSlider  >
       {page.results.map((result, index) => (
         <div 

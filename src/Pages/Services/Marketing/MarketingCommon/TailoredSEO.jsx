@@ -58,9 +58,6 @@ export const TailoredSEO = ({page}) => {
                     ))}
                     </ul>
 
-                    {/* <h1 className='font-semibold text-xl  mb-4'>Why Choose Us?</h1>    
-                    <p>{item.chooseUs}</p>                 */}
-
 
                     </div>
                     
@@ -73,7 +70,7 @@ export const TailoredSEO = ({page}) => {
         <div className='w-full flex flex-col gap-y-16'>
             {page.tailoredItems.map((item , index) => (
                 <>
-                    <div className='flex-1 text-left'>
+                    <div key={index} className='flex-1 text-left'>
                     <h1 className='font-semibold text-3xl  mb-4 text-[#013a6e]'>{item.heading}</h1>
                     <p className='mb-8'>{item.para}</p>
 

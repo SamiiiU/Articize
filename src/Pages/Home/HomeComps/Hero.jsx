@@ -28,7 +28,7 @@ const Hero = () => {
                 </video>
             </div>
 
-
+            
         </div>
     </div>
   )

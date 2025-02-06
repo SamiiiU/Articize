@@ -1,6 +1,31 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
+  safelist: [
+    'col-span-1',
+    'col-span-2',
+    'col-span-3',
+    'col-span-4',
+    'col-span-5',
+    'col-span-6',
+
+
+    'md:col-span-1',
+    'md:col-span-2',
+    'md:col-span-3',
+    'md:col-span-4',
+    'md:col-span-5',
+    'md:col-span-6',
+
+
+    'lg:col-span-1',
+    'lg:col-span-2',
+    'lg:col-span-3',
+    'lg:col-span-4',
+    'lg:col-span-5',
+    'lg:col-span-6',
+
+  ],
   theme: {
     extend: {
       screens: {
