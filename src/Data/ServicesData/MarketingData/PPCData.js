@@ -5,8 +5,10 @@ import { GrAchievement, GrOptimize } from 'react-icons/gr'
 import { IoAnalytics, IoAnalyticsOutline, IoAnalyticsSharp, IoBarChartOutline, IoBarChartSharp, IoBuildSharp, IoBusinessSharp, IoCartSharp, IoCloudUploadOutline, IoCreateOutline, IoDocumentTextSharp, IoEyeOutline, IoHandLeftSharp, IoKeySharp, IoOptionsSharp, IoPeopleCircle, IoPeopleCircleOutline, IoPeopleCircleSharp, IoPeopleOutline, IoPeopleSharp, IoPersonSharp, IoPlanetSharp, IoRocketSharp, IoScanSharp, IoSpeedometerOutline, IoSpeedometerSharp, IoStatsChartSharp, IoVideocam, IoVideocamSharp } from 'react-icons/io5'
 import { SiGooglecontaineroptimizedos } from 'react-icons/si'
 
-import BG from '../../../Assets/Images/CommonImages/HeroServices.png'
 import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaDollarSign, FaEdit, FaExpandArrowsAlt, FaFileAlt, FaFunnelDollar, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPaintBrush, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaSearchDollar, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaSync, FaSyncAlt, FaTachometerAlt, FaTags, FaThumbsUp, FaTools, FaUserAlt, FaUserCircle, FaUserFriends, FaVideo } from 'react-icons/fa'
+
+import BG from '../../../Assets/Images/ServicesIMG/SEOImages/MarketingHeroBG.png'
+
 import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
 import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
 import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
@@ -17,274 +19,252 @@ import { FiTarget } from 'react-icons/fi'
 
 
 export const GoogleAdsData = {
+
     heroSection: {
         heading: "Skyrocket Your <br/> E-Commerce Sales with Google Ads PPC",
-        para: "Maximize your e-commerce store’s potential with our expert Google Ads PPC services. Designed to deliver instant visibility and rapid sales increases, our strategy focuses on crafting highly targeted, compelling ads that place your products right in front of potential buyers when they're most ready to purchase. We utilize advanced targeting techniques, including demographic and behavioral insights, to ensure your ads reach the ideal customers, maximizing every dollar spent. Our comprehensive approach includes optimizing your bids, refining ad placements, and enhancing ad creatives to drive both traffic and conversions. With continuous performance tracking and optimization, we keep your campaigns efficient and effective, helping you outpace competitors and secure a dominant online presence.",
+        para: "Enjoy more E-commerce sales with our expert Google Ads PPC. Target ready-to-buy customers, optimize bids, and maximize ROI with data-driven strategies for higher traffic and conversions.",
         img: heroImg,
         bg: BG
     },
     
     // Hero section data ends 
 
-    // Why Section start         
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Google Ads PPC</span> is Crucial for E-Commerce Growth?",
-        para: "Discover the power of Google Ads PPC to skyrocket your e-commerce sales. By integrating targeted advertising campaigns, our expert team leverages data-driven insights to maximize your ROI and increase conversions. Avoid the complexity of managing multiple channels; partner with a top-rated agency focused on delivering measurable results through effective PPC strategies.",
-
-        whyKeys: [
-            { heading: "Strategic Keyword Bidding", explanation: "Leverage our expertise to select and bid on high-converting keywords tailored to your e-commerce products. Maximize your ad exposure and attract high-intent buyers to your store.", icon: <FaDollarSign /> },
-            { heading: "Enhanced Ad Targeting", explanation: "Utilize advanced targeting options to display your ads to the right audience based on demographics, shopping behaviors, and more, ensuring your budget is spent on potential customers who are most likely to convert.", icon: <FaUserFriends /> },
-            { heading: "Conversion Optimization", explanation: "Optimize your landing pages and ad copy to improve the conversion rates of your campaigns. Our continuous testing and optimization process ensures that your Google Ads PPC efforts result in higher sales and better customer acquisition costs.", icon: <FaChartLine /> },
-            { heading: "Comprehensive Campaign Analysis", explanation: "Track and analyze your PPC campaigns with our state-of-the-art tools. Get real-time insights into your ad performance to make informed decisions that lead to increased profitability and campaign effectiveness.", icon: <FaSearch /> }
-        ]
-    },
-
+    customPricing: {
+        heading: "Google Ads PPC Services Custom Pricing Tailored to Your Business Goals",
+    
+        mainHeading: "Custom <br/>Google Ads PPC <br/> Package",
+    
+        overview: "Designed to maximize ad performance and ROI, this package ensures targeted ad placements, optimized bidding strategies, and continuous campaign refinement to drive high-quality traffic and conversions.",
+    
+        benifits: [
+            { heading: "Increased Brand Visibility:", description: "Get your ads in front of the right audience at the right time, ensuring maximum exposure." },
+            { heading: "Higher Conversion Rates:", description: "Target ready-to-buy customers with precise ad placements and compelling creatives." },
+            { heading: "Optimized Ad Spend:", description: "Improve ROI with data-driven bidding and audience segmentation to reduce wasted ad spend." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Keyword Research", description: "Identify high-performing keywords and optimize bidding for cost-effective conversions." },
+            { heading: "Targeted Audience Segmentation", description: "Utilize demographic, behavioral, and geographic insights to reach the ideal customers." },
+            { heading: "Creative Optimization", description: "Craft compelling ad copy and visuals to increase engagement and click-through rates." },
+            { heading: "Landing Page Optimization", description: "Enhance landing pages to improve ad relevance and boost conversion rates." },
+            { heading: "Performance Analysis", description: "Continuously test ad variations and optimize based on real-time performance data." },
+            { heading: "Display Ads", description: "Expand reach with optimized Google Shopping and Display Network campaigns." },
+            { heading: "Competitor Ad Analysis", description: "Analyze competitor PPC strategies to refine and improve ad performance." },
+            { heading: "Remarketing Campaigns", description: "Re-engage past visitors with tailored remarketing strategies to increase conversions." }
+        ],
+    
+        startingAt: "$2500/Month"
+    }
+    ,
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class='text-[#207DE9]'>Specialized Google Ads PPC</span> Services",
-        para: "Target specific challenges and opportunities within Google Ads PPC to enhance your e-commerce SEO, focusing on buyer-intent keywords, mobile optimization, and user experience to drive conversions.",
-
+        heading: "Boost Your Ad Performance with <span class='text-[#207DE9]'> Specialized <br/> Google Ads PPC </span> Services.",
+        para: "Maximize ROI with our expert Google Ads PPC strategies. We focus on precise targeting, ad optimization, and continuous campaign refinement to drive high-quality traffic and conversions.",
+    
         boostContent: [
             {
-                navigator: "Optimized Product Ads", 
-                matters: "Craft highly optimized ad campaigns for product categories, ensuring maximum visibility and engagement. Tailor your ads to match user search intent and drive significant traffic to your e-commerce platform.", 
+                name: "High-Performance Keyword Targeting",
+                whyMatters: "Selecting the right keywords ensures your ads appear when potential customers are actively searching, leading to higher conversion rates.",
                 includes: [
-                    "Creating compelling ad copy with targeted keywords.",
-                    "Optimizing ad placements for the best visibility.",
-                    "Enhancing quality scores to reduce cost-per-click."
-                ], 
-                benefit: "Increases the effectiveness of your PPC campaigns, leading to higher click-through rates and better conversion percentages.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                    "In-depth keyword research and competitor analysis.",
+                    "Bidding strategy optimization for cost-effective conversions.",
+                    "Negative keyword management to eliminate irrelevant traffic."
+                ],
+                benifit: "Maximizes ad relevance, reduces wasted spend, and improves overall ad performance."
             },
+    
             {
-                navigator: "Dynamic Remarketing", 
-                matters: "Deploy dynamic remarketing strategies to re-engage visitors who have previously interacted with your site but didn't make a purchase. Show ads tailored to their specific interests based on their past behavior.", 
+                name: "Compelling Ad Copy",
+                whyMatters: "A well-crafted ad captures attention, boosts click-through rates (CTR), and improves conversion potential.",
                 includes: [
-                    "Setting up remarketing tags on your site to track user behavior.",
-                    "Creating personalized ad content that reflects the products viewed.",
-                    "Segmenting audiences based on their engagement level and site interaction."
-                ], 
-                benefit: "Improves ad relevance and increases the likelihood of converting past visitors into buyers, enhancing ROI from existing traffic.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                    "Writing compelling, action-driven ad copy.",
+                    "A/B testing multiple ad variations for performance improvement.",
+                    "Optimizing ad creatives, including images and headlines."
+                ],
+                benifit: "Increases engagement, click-through rates, and ad relevance scores for better results."
             },
+    
             {
-                navigator: "Geo-Targeting for Local Sales", 
-                matters: "Utilize geo-targeting to customize your PPC ads based on the user’s location. This strategy is particularly effective for businesses that have physical stores in addition to their online presence.", 
+                name: "Page Optimization",
+                whyMatters: "Even the best ads won't convert if your landing page isn't optimized for user experience and conversions.",
                 includes: [
-                    "Creating location-specific ad campaigns that promote local offers.",
-                    "Adjusting bids based on geographic performance to maximize efficiency.",
-                    "Using local language and references in ad copy to increase relevance."
-                ], 
-                benefit: "Increases engagement by offering tailored experiences that resonate with local audiences, potentially boosting in-store traffic alongside online sales.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                    "Designing high-converting, mobile-friendly landing pages.",
+                    "A/B testing call-to-action (CTA) elements.",
+                    "Optimizing page load speed and user flow."
+                ],
+                benifit: "Boosts conversion rates by providing an optimal user experience."
             },
+    
             {
-                navigator: "PPC Optimization for Mobile Users", 
-                matters: "As mobile traffic continues to grow, optimize your PPC campaigns for mobile devices to ensure a seamless shopping experience on smaller screens.", 
+                name: "Advanced Audience Targeting",
+                whyMatters: "Reaching the right audience with personalized ads increases engagement and reduces wasted ad spend.",
                 includes: [
-                    "Designing mobile-friendly ads with clear call-to-actions.",
-                    "Adjusting bidding strategies for mobile devices to capture high-intent mobile users.",
-                    "Testing ad formats and landing pages for optimal mobile performance."
-                ], 
-                benefit: "Captures the rapidly increasing segment of mobile users, enhancing overall campaign performance and increasing conversion rates on mobile devices.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                    "Custom audience segmentation based on demographics and behavior.",
+                    "Geo-targeting and device-specific bid adjustments.",
+                    "Lookalike and retargeting strategies for enhanced conversions."
+                ],
+                benifit: "Ensures ads reach high-intent customers, improving overall campaign efficiency."
             },
+    
             {
-                navigator: "Keyword Expansion and Refinement", 
-                matters: "Continuously expand and refine your keyword lists to ensure your ads remain relevant and capable of capturing a broad range of search queries.", 
+                name: "Performance Max Campaigns",
+                whyMatters: "E-commerce businesses can drive more sales by optimizing product listings and leveraging Google's AI-driven Performance Max campaigns.",
                 includes: [
-                    "Using keyword research tools to identify new bidding opportunities.",
-                    "Refining keyword matches to include broad, phrase, and exact match types.",
-                    "Adding negative keywords to exclude irrelevant traffic and reduce wastage."
-                ], 
-                benefit: "Keeps your campaigns fresh and relevant, reduces costs by minimizing irrelevant clicks, and increases ad performance by targeting more qualified leads.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                    "Optimizing Google Shopping product feeds.",
+                    "Using Performance Max for automated, AI-driven ad placements.",
+                    "Enhancing product descriptions and images for better visibility."
+                ],
+                benifit: "Increases online sales and ensures ads are shown to the right buyers."
+            },
+    
+            {
+                name: "Retargeting Strategies",
+                whyMatters: "Bringing back past visitors significantly increases the chances of conversion.",
+                includes: [
+                    "Setting up dynamic retargeting for abandoned cart recovery.",
+                    "Creating tailored remarketing lists for higher engagement.",
+                    "Optimizing ad placements across Display and YouTube networks."
+                ],
+                benifit: "Boosts ROI by converting warm leads into paying customers."
+            },
+    
+            {
+                name: "Analysis & Benchmarking",
+                whyMatters: "Analyzing competitors’ PPC strategies helps refine bidding tactics and ad copy for a competitive edge.",
+                includes: [
+                    "Monitoring competitor ad placements and bidding strategies.",
+                    "Identifying gaps in competitor targeting for better positioning.",
+                    "Adjusting bidding based on real-time competitor movements."
+                ],
+                benifit: "Helps outrank competitors and achieve better ad placements at lower costs."
+            },
+    
+            {
+                name: "Campaign Monitoring",
+                whyMatters: "Continuous tracking and optimization ensure that ad campaigns remain profitable and effective.",
+                includes: [
+                    "Daily performance tracking and budget adjustments.",
+                    "Conversion tracking setup and analysis.",
+                    "A/B testing for ongoing campaign improvements."
+                ],
+                benifit: "Maintains optimal ad performance while minimizing ad spend waste."
             }
         ]
-    },
-    //Booster Section ends here 
+    }
+    ,
+    //Booster Section ends here   
 
     //PowerBy starts here 
+    powerBySection: {
+        heading: "Google Ads PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and optimization to maximize ad performance, increase conversions, and achieve a higher return on investment.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Paid Traffic", 
+                benefitText: "Optimized PPC campaigns drive more high-intent visitors to your site, ensuring maximum ad visibility and engagement.", 
+                increasePercentage: 250, 
+                explanation: "A well-structured PPC strategy ensures ads appear to the right audience at the right time, increasing traffic without wasting ad spend."
+            },
+    
+            { 
+                benefit: "Improvement in Conversion Rates", 
+                benefitText: "Google Ads campaigns optimized for targeting and ad creatives lead to higher conversion rates.", 
+                increasePercentage: 120, 
+                explanation: "Refining audience targeting, landing pages, and ad copy improves conversion rates, turning clicks into actual customers efficiently."
+            },
+    
+            { 
+                benefit: "ROI from PPC Advertising", 
+                benefitText: "Higher return on investment through strategic bidding, optimized targeting, and continuous ad performance improvements.", 
+                increasePercentage: 400, 
+                explanation: "By focusing on high-converting keywords and minimizing wasted ad spend, businesses see significant revenue growth from PPC campaigns."
+            }
+        ]
+    },
+    //PowerBy ends here 
 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized Google Ads PPC</span> for Every E-Commerce Platform",
-        para: "Every E-Commerce platform presents unique opportunities for Google Ads PPC. Our team provides customized PPC strategies for platforms like Shopify, WooCommerce, Magento, and more to ensure your ads reach the right audience, maximize ROI, and convert visitors into loyal customers.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized <br/> Google Ads PPC </span> Strategies for Every Business",
+        para: "Every business has unique advertising needs. Our <strong> customized PPC strategies </strong> for platforms like Google Search, Shopping, Display, and YouTube ensure that your ads reach the right audience, drive conversions, and maximize ROI.",
+    
         tailoredItems: [
             {
-                heading: "Shopify Google Ads PPC Services",
-                para: "Leverage the power of Google Ads to stand out among millions of online stores on Shopify. Our PPC strategies are designed to maximize ad visibility, improve CTR, and drive more sales.",
+                heading: "Google Search Ads – Maximize Visibility with High-Intent Keywords",
+                para: "Get your business in front of customers actively searching for your products or services. Our Google Search Ads strategies focus on intent-driven keywords, ensuring maximum conversions and minimized wasted ad spend.",
                 offers: [
-                    "<strong>Ad Customization:</strong> Creating visually appealing ads that are tailored to Shopify's unique audience and platform capabilities.",
-                    "<strong>Conversion Tracking:</strong> Implementing Shopify-specific tracking to measure ad performance and ROI.",
-                    "<strong>Keyword Optimization:</strong> Utilizing high-performing keywords for PPC campaigns on Shopify.",
-                    "<strong>Remarketing Campaigns:</strong> Engaging previous visitors with tailored ads to increase conversions."
+                    "<strong>High-Performance Keyword Targeting:</strong> In-depth research to target high-converting search terms.",
+                    "<strong>Ad Copy Optimization:</strong> Craft compelling, action-driven ads that increase CTR.",
+                    "<strong>Bid Strategy Management:</strong> Smart bidding adjustments to maximize conversions at optimal costs.",
+                    "<strong>Competitor Analysis:</strong> Identify and outperform competitors bidding on similar keywords."
                 ],
-                chooseUs: "Our deep understanding of Shopify's platform combined with PPC expertise ensures your campaigns are efficient and effective.",
                 image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce Google Ads PPC Services",
-                para: "Maximize your WooCommerce store's potential with targeted PPC campaigns that attract and convert.",
+                heading: "Google Shopping Ads – Optimize Your E-commerce Product Listings",
+                para: "Boost your e-commerce sales with Google Shopping Ads. We optimize product feeds, bidding strategies, and ad placements to ensure maximum exposure and higher conversion rates.",
                 offers: [
-                    "<strong>Geo-Targeting:</strong> Customizing campaigns based on location to drive local and global traffic.",
-                    "<strong>Product Feed Optimization:</strong> Enhancing product listings for better performance in Google Shopping ads.",
-                    "<strong>Dynamic Ads:</strong> Using visitors' behavior on your site to create personalized ad experiences.",
-                    "<strong>Performance Analysis:</strong> Continuous monitoring and tweaking of campaigns for optimal results."
+                    "<strong>Google Merchant Center Optimization:</strong> Ensure product feeds are correctly structured and approved.",
+                    "<strong>Shopping Ad Performance Tracking:</strong> Monitor key metrics to refine campaign effectiveness.",
+                    "<strong>Product Image & Description Optimization:</strong> Improve click-through rates with high-quality images and engaging descriptions.",
+                    "<strong>ROI-Driven Bid Adjustments:</strong> Manage bids strategically to get the highest return on investment."
                 ],
-                chooseUs: "Combine our WooCommerce expertise with sophisticated PPC strategies for unmatched sales growth.",
                 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
-            }
-            // Add other platforms similarly focusing on Google Ads PPC
-        ]
-    },
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by Google Ads PPC</span>",
-        para: "Utilize Google Ads PPC to transform your e-commerce business with data-driven advertising strategies that maximize ROI and drive sales.",
-
-        features: [
-            {
-                navigator: "Real-Time PPC Analytics",
-                text: "Utilize real-time analytics to optimize PPC campaigns, track ad performance, and adjust strategies on the fly for maximum effectiveness.",
-                icon: <IoAnalytics/>
             },
+    
             {
-                navigator: "Competitor PPC Analysis",
-                text: "Gain insights into competitors' PPC strategies, identify gaps in their campaigns, and capitalize on their weaknesses to improve your ad performance.",
-                icon: <GrAchievement/>
-            },
-            {
-                navigator: "PPC Conversion Optimization",
-                text: "Enhance your PPC ads to improve conversion rates through optimized landing pages, compelling ad copy, and effective call-to-action.",
-                icon: <SiGooglecontaineroptimizedos/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Ad Click-through Rate",
-                benefitText: "Showcase the percentage increase in CTR achieved through optimized Google Ads campaigns.",
-                increasePercentage: 120
-            },
-            {
-                benefit: "Growth in Conversion Rates",
-                benefitText: "Highlight the improvement in conversion rates resulting from targeted PPC advertising.",
-                increasePercentage: 150
-            },
-            {
-                benefit: "ROI from PPC Campaigns",
-                benefitText: "Detail the return on investment businesses experience from their Google Ads investments.",
-                increasePercentage: 250
-            }
-        ]
-    },
-    platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for Google Ads PPC",
-        para: "Our PPC experts specialize in leveraging Google Ads across all major eCommerce platforms to boost your store's visibility and drive sales. Tailor-made PPC strategies ensure optimal performance regardless of the platform your business operates on.",
-
-        platforms: [
-            {
-                heading: "Popular Platforms", 
-                items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
+                heading: "Google Display Ads – Expand Brand Awareness with Visual Ads",
+                para: "Reach a wider audience and build brand recognition with visually engaging Google Display Ads. Our approach ensures your ads are strategically placed across high-performing websites and platforms.",
+                offers: [
+                    "<strong>Custom Audience Targeting:</strong> Use behavioral, demographic, and interest-based targeting.",
+                    "<strong>Retargeting & Remarketing Strategies:</strong> Bring back visitors who didn’t convert the first time.",
+                    "<strong>High-Quality Ad Creative Design:</strong> Optimize images, headlines, and CTA placement for engagement.",
+                    "<strong>Placement Optimization:</strong> Ensure ads appear on the best-performing websites for your industry."
                 ],
-                image: popularPlatform
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
             },
-
+    
             {
-                heading: "Enterprise-Level Solutions", 
-                items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
+                heading: "YouTube Ads – Capture Attention with Engaging Video Campaigns",
+                para: "YouTube Ads provide massive exposure and engagement. We create and optimize video ad campaigns to maximize brand awareness and conversion rates.",
+                offers: [
+                    "<strong>In-Stream & Bumper Ads Optimization:</strong> Target the right audience with compelling video creatives.",
+                    "<strong>YouTube Audience Targeting:</strong> Utilize affinity audiences, in-market segments, and remarketing.",
+                    "<strong>Video Performance Tracking:</strong> Measure watch time, engagement rates, and conversions.",
+                    "<strong>Ad Placement Strategy:</strong> Ensure your video ads appear before relevant content."
                 ],
-                image: enterpricePlatform
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
             },
-
+    
             {
-                heading: "Content Management Systems (CMS)", 
-                items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
+                heading: "Google Performance Max – AI-Powered Smart Ad Campaigns",
+                para: "Leverage Google’s AI-driven Performance Max campaigns for full-funnel marketing. We ensure your ads are optimized across Search, Shopping, Display, YouTube, and Discovery networks.",
+                offers: [
+                    "<strong>Automated Bidding & Budget Allocation:</strong> Maximize performance using Google’s AI algorithms.",
+                    "<strong>Dynamic Ad Creatives:</strong> Test and optimize multiple ad versions for better engagement.",
+                    "<strong>Cross-Channel Optimization:</strong> Run campaigns across all Google ad networks seamlessly.",
+                    "<strong>Real-Time Performance Tracking:</strong> Continuous adjustments to ensure top ROI."
                 ],
-                image: cmsPlatform
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
             },
-
+    
             {
-                heading: "Other Platforms", 
-                items: [
-                    {itemName: "Volusion", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1zpHzTUUF2Q5DNw4RLUwDgpa8tyMX-FOhXQ6ZFQ1URQYNw1EeZpH-Fwrp_HdBs3yzCE&usqp=CAU'},
-                    {itemName: "Drupal", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwvjsgNfWYlq8CZfLArIWsl6q-u91Mc_MMQ&s'},
-                    {itemName: "Umbraco", logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQlUEA6zTkG960A80jSJqnROP5BRjsXnC-g&s'}
+                heading: "Multi-Platform PPC Consulting – Maximize Results Across All Ad Networks",
+                para: "If you run ads across multiple platforms, our consulting services ensure unified, data-driven strategies that maximize conversions and minimize ad spend.",
+                offers: [
+                    "<strong>Cross-Platform Ad Strategy:</strong> Align Google Ads with Facebook, Instagram, and LinkedIn PPC.",
+                    "<strong>Budget Allocation & Bid Management:</strong> Optimize spending for the highest ROI across all platforms.",
+                    "<strong>Competitor PPC Benchmarking:</strong> Analyze and outperform competitor ad strategies.",
+                    "<strong>Ongoing Campaign Refinements:</strong> Continuously optimize based on performance data."
                 ],
-                image: otherPlatform
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
         ]
     },
-
-    pathToSuccess: {
-        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Google Ads PPC Success",
-        
-        paths: [
-            {
-                letter: "G",
-                heading: "Generate Clicks",
-                matters: "Effective PPC campaigns drive high-quality clicks. Our strategies ensure your ads catch the eye of potential buyers.",
-                how: ["Use Google Ads to implement aggressive bidding strategies on high-intent keywords.", "Focus on crafting compelling ad copy that captures attention and sparks interest."],
-                outcome: "Increased ad engagement leading to more site visits."
-            },
-            {
-                letter: "R",
-                heading: "Refine Targeting",
-                matters: "Refining ad targeting to reach the most relevant audience segments improves efficiency and ROI.",
-                how: ["Implement demographic and psychographic targeting to refine audience segments.", "Utilize remarketing strategies to re-engage users who have shown interest."],
-                outcome: "More precise ad targeting for improved conversions."
-            },
-            {
-                letter: "O",
-                heading: "Optimize Ad Spend",
-                matters: "Regularly review and adjust your PPC budgets and bids to optimize your expenditure.",
-                how: ["Monitor ad performance and adjust bids in real time.", "Use machine learning to predict and adjust bidding strategies for the best outcomes."],
-                outcome: "Cost-effective ad spend with maximized returns."
-            },
-            {
-                letter: "W",
-                heading: "Win Market Share",
-                matters: "Google Ads PPC allows you to outmaneuver competitors and capture greater market share.",
-                how: ["Leverage competitive analysis tools to stay ahead.", "Focus on winning ad placements that dominate search result pages."],
-                outcome: "Elevated market presence and competitive advantage."
-            },
-            {
-                letter: "T",
-                heading: "Track Performance",
-                matters: "Continuous tracking of PPC campaign performance is essential for ongoing success.",
-                how: ["Implement advanced tracking setups to measure key performance indicators.", "Regularly audit and optimize campaigns based on data-driven insights."],
-                outcome: "Enhanced understanding of PPC campaigns leading to improved strategies."
-            },
-            {
-                letter: "H",
-                heading: "Harvest Insights",
-                matters: "Extract valuable insights from your PPC data to inform future marketing strategies.",
-                how: ["Analyze data to understand consumer behavior and preferences.", "Use insights to refine future PPC campaigns and align them more closely with user expectations."],
-                outcome: "Data-informed strategies that continuously improve campaign performance."
-            },
-            {
-                letter: <MdOutlineStarPurple500/>,
-                focus: "By focusing on:",
-                focusOn: ["Generating Clicks", "Refining Targeting", "Optimizing Ad Spend", "Winning Market Share", "Tracking Performance", "Harvesting Insights"],
-                how: ["Increased ad effectiveness.", "More targeted audience reach.", "Greater ROI from PPC campaigns."],
-                outcome: "Data-informed strategies that continuously improve campaign performance."
-            }
-        ]
-    },
-
-    // Aproach section starts 
 
     approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>Google Ads PPC Strategy</span>",
+        heading: "Our Proven <span class='text-[#207DE9]'>Google Ads PPC Strategy</span>",
         para: "Unlock the full potential of your ecommerce store with our comprehensive Google Ads PPC services, designed to enhance visibility, drive traffic, and increase conversions.",
 
         approaches: [
@@ -296,145 +276,239 @@ export const GoogleAdsData = {
         ]
     },
 
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from Google Ads PPC</span>",
-        para: "Experience the impact of our Google Ads PPC strategies through real-world applications that have transformed ecommerce businesses. Our focused approach ensures that each campaign is optimized for maximum returns.",
 
+    platformSection: {
+        heading: "We Optimize Google Ads PPC Campaigns Across These Platforms",
+        para: "Our PPC experts manage and optimize ad campaigns across major platforms to maximize visibility, engagement, and conversions. Whether you're running Search, Shopping, or Display ads, we tailor strategies for each platform.",
+    
+        platforms: [
+            {
+                heading: "Google Ads Network",
+                items: [
+                    { itemName: "Google Search Ads", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHtX34rUiO1KOmaN1rnSkSzk5I33riH1lpg&s" },
+                    { itemName: "Google Shopping Ads", itemImg: "https://cdn.worldvectorlogo.com/logos/google-shopping.svg" },
+                    { itemName: "Google Display Ads", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkTm2Zv44LqO_kpRm9zaSnizafkRhdRfiRg&s" },
+                    
+                ]
+            },
+    
+            {
+                heading: "Social Media & Video Platforms",
+                items: [
+                    { itemName: "YouTube Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Instagram Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" },
+                    { itemName: "TikTok Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "LinkedIn Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" }
+                ]
+            },
+    
+            {
+                heading: "E-commerce PPC Platforms",
+                items: [
+                    { itemName: "Amazon Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Walmart Connect", itemImg: "https://upload.wikimedia.org/wikipedia/commons/9/96/Walmart_logo.svg" },
+                    { itemName: "Shopify PPC", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Shopify_logo_2018.svg" },
+                    { itemName: "eBay Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Analytics & PPC Management Tools",
+                items: [
+                    { itemName: "Google Analytics", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Analytics_logo.svg" },
+                    { itemName: "Google Tag Manager", itemImg: "https://upload.wikimedia.org/wikipedia/commons/4/46/Google_Tag_Manager_logo.png" },
+                    { itemName: "SEMrush PPC Toolkit", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/SEMrush_Logo.svg" },
+                    { itemName: "Ahrefs Ads Research", itemImg: "https://upload.wikimedia.org/wikipedia/commons/6/69/Ahrefs_Logo.png" }
+                ]
+            }
+        ]
+    },
+
+    // Aproach section starts 
+
+    realResultsSection: {
+        heading: "Real Results <span class='text-[#207DE9]'>from Data-Driven Google Ads PPC</span>",
+        para: "Our Google Ads PPC strategies focus on delivering measurable outcomes. From increasing paid traffic to maximizing conversions, we’ve helped businesses achieve substantial revenue growth. Our tailored approach ensures every keyword, bid, and ad creative works efficiently—turning ad spend into high ROI.",
+    
         results: [
             {
-                header: "Ecommerce - Fashion and Apparel",
-                challenge: "Enhance visibility and conversions in a highly competitive market.",
+                header: "Google Ads PPC - Home & Kitchen",
+                challenge: "Driving more conversions for high-ticket kitchen appliances through targeted Google Ads campaigns.",
                 approaches: [
-                    "Implement dynamic remarketing to engage previous visitors.",
-                    "Utilize smart bidding strategies for optimal ad placement.",
-                    "Target high-value customers with tailored promotions."
+                    "High-Intent Keyword Targeting: Focused on buyer-ready search terms.",
+                    "Shopping Ads Optimization: Enhanced product listings for maximum visibility.",
+                    "Performance-Based Bidding: Adjusted bids based on conversion probability."
                 ],
-                increase: "320",
-                increaseIn: "Percentage increase in conversion rate"
+                increase: 320,
+                increaseIn: "Increase in conversion rates with lower cost per acquisition."
             },
             {
-                header: "Ecommerce - Health and Wellness",
-                challenge: "Improve ROI and reduce cost-per-acquisition.",
+                header: "PPC Advertising for Apparel & Fashion",
+                challenge: "Standing out in a competitive fashion industry with Google Shopping & Display Ads.",
                 approaches: [
-                    "Optimize ad spend across platforms.",
-                    "Refine keyword targeting to reach niche markets.",
-                    "Deploy conversion rate optimization tactics on landing pages."
+                    "Dynamic Retargeting: Bringing back past visitors with tailored ads.",
+                    "Lookalike Audience Targeting: Expanding reach with AI-driven customer matching.",
+                    "A/B Testing Ad Creatives: Optimizing visuals & copy for better engagement."
                 ],
-                increase: "275",
-                increaseIn: "Growth in ROI"
+                increase: 280,
+                increaseIn: "Higher return on ad spend (ROAS) and increased customer engagement."
             },
             {
-                header: "Ecommerce - Home Decor",
-                challenge: "Drive seasonal sales and improve average order value.",
+                header: "Google Ads PPC for Electronics ",
+                challenge: "Competing in the tech industry with aggressive ad bidding strategies.",
                 approaches: [
-                    "Seasonal ad campaigns focused on peak shopping times.",
-                    "Cross-selling strategies within ads.",
-                    "Use of high-engagement visuals and video ads."
+                    "Competitor Bidding Strategy: Targeting high-performing competitor keywords.",
+                    "AI-Driven Performance Max Campaigns: Using automation to optimize ad placements.",
+                    "YouTube Video Ads: Driving awareness and engagement with video content."
                 ],
-                increase: "230",
-                increaseIn: "Increase in average order value"
-            },
+                increase: 450,
+                increaseIn: "Surge in high-quality traffic with improved conversion rates."
+            }
+        ]
+    },
+
+    pathToSuccess: {
+        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Google Ads PPC Success",
+    
+        paths: [
             {
-                header: "Ecommerce - Electronics",
-                challenge: "Expand market share in a saturated market.",
-                approaches: [
-                    "Geotargeting to capture local markets.",
-                    "Competitive analysis to outperform competitors in ad auctions.",
-                    "Enhanced product feeds for Google Shopping."
+                letter: "G", 
+                heading: "Generate Targeted Traffic",
+                matters: "Effective PPC campaigns bring in highly targeted traffic, ensuring your ads reach potential customers who are actively searching for your products or services.",
+                how: [
+                    "In-depth keyword research to target high-intent, buyer-ready search terms.",
+                    "Utilize audience segmentation for precise targeting.",
+                    "Optimize ad placements to maximize visibility."
                 ],
-                increase: "195",
-                increaseIn: "Growth in market share"
+                outcome: "More high-quality visitors who are likely to convert."
+            },
+    
+            {
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing ad creatives and bidding strategies ensures better engagement, lower costs, and improved ROI.",
+                how: [
+                    "A/B test ad copies, headlines, and visuals.",
+                    "Optimize landing pages for better conversion rates.",
+                    "Adjust bidding strategies based on campaign performance."
+                ],
+                outcome: "Higher click-through rates (CTR) and lower cost per acquisition (CPA)."
+            },
+    
+            {
+                letter: "O",
+                heading: "Optimize Campaigns",
+                matters: "Continuous monitoring and refinement of PPC campaigns lead to long-term success and profitability.",
+                how: [
+                    "Use AI-driven smart bidding for cost-effective conversions.",
+                    "Implement negative keywords to filter out irrelevant traffic.",
+                    "Monitor quality score and make adjustments accordingly."
+                ],
+                outcome: "Improved ad efficiency and increased conversions."
+            },
+    
+            {
+                letter: "W",
+                heading: "Win Conversions",
+                matters: "Getting clicks is not enough—converting visitors into customers is the ultimate goal.",
+                how: [
+                    "Design high-converting landing pages with compelling CTAs.",
+                    "Use retargeting ads to re-engage potential customers.",
+                    "Leverage Google Shopping & Performance Max campaigns for e-commerce."
+                ],
+                outcome: "Higher conversion rates and better return on ad spend (ROAS)."
+            },
+    
+            {
+                letter: "T",
+                heading: "Target the Right Audience",
+                matters: "Precision targeting ensures that your ads reach customers who are most likely to convert.",
+                how: [
+                    "Utilize demographic, behavioral, and geo-targeting strategies.",
+                    "Create custom and lookalike audiences for broader reach.",
+                    "Analyze audience insights to refine targeting parameters."
+                ],
+                outcome: "More relevant leads and improved ad engagement."
+            },
+    
+            {
+                letter: "H",
+                heading: "Harness Data for Growth",
+                matters: "Data-driven decisions help optimize campaigns, maximize ROI, and scale performance.",
+                how: [
+                    "Use real-time analytics to adjust campaign strategies.",
+                    "Track key PPC metrics like CTR, CPC, and conversion rates.",
+                    "Implement automated bid strategies for better ad efficiency."
+                ],
+                outcome: "Consistent campaign improvements and sustainable PPC success."
+            },
+    
+            {
+                letter: <MdOutlineStarPurple500 />,
+                focus: "By focusing on:",
+                focusOn: ["Generating Targeted Traffic", "Refining Ad Performance", "Optimizing Campaigns", "Winning Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
+                how: [
+                    "Increased paid traffic.",
+                    "Higher conversion rates.",
+                    "Better ad spend efficiency."
+                ],
+                outcome: "Maximized ROI and scalable ad success."
             }
         ]
     },
 
     pricingSection: {
         heading: "Transparent Pricing for Google Ads PPC",
-        para: "Explore our clear and flexible Google Ads PPC pricing plans designed to scale with your online store. From maximizing ad exposure to optimizing conversions, our plans are crafted to deliver tangible results and help you dominate your niche market.",
-
+        para: "Discover our flexible and data-driven Google Ads PPC pricing plans designed to maximize your ad spend efficiency. From increasing targeted traffic to optimizing conversions, our plans ensure measurable results and high ROI.",
+    
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
-                price: "$750/month",
-                fitFor: "Small businesses or startups new to PPC, with a limited advertising budget.",
+                header: "Basic Google Ads PPC Package",
+                price: "$700/month",
+                fitFor: "Small businesses or startups looking to test Google Ads with a limited budget.",
                 youGet: [
-                    "Up to 50 keywords targeted",
-                    "Google Ads account setup and management",
-                    "Monthly budget management up to $5,000",
-                    "Basic demographic and location targeting",
-                    "Weekly performance reports",
-                    "Basic conversion tracking setup",
-                    "Campaign Setup Fee (One-time): $750",
-                    "Monthly Investment: $750"
+                    "Keyword Research & Selection: Focus on high-intent, cost-effective keywords.",
+                    "Ad Campaign Setup: Creation of search ads with optimized copy and targeting.",
+                    "Basic Bid Management: Manual bid adjustments to control ad spend.",
+                    "Google Analytics & Conversion Tracking Setup: Essential tracking for ad performance.",
+                    "Monthly Performance Report: Insights on impressions, clicks, and conversions."
                 ]
             },
+    
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Growing businesses seeking to expand their PPC reach and refine targeting.",
+                header: "Standard Google Ads PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing businesses aiming for increased ad performance and conversions.",
                 youGet: [
-                    "Up to 150 keywords targeted",
-                    "Advanced bid management and optimization",
-                    "Monthly budget management up to $15,000",
-                    "Enhanced targeting with demographics, interests, and behaviors",
-                    "Bi-weekly performance optimization",
-                    "Advanced conversion tracking and analytics",
-                    "Campaign Setup Fee (One-time): $2,000",
-                    "Monthly Investment: $1,800"
+                    "Comprehensive Keyword Strategy: Advanced research for high-converting search terms.",
+                    "Ad Copy & Creative Optimization: A/B testing for headlines, descriptions, and CTAs.",
+                    "Bid Strategy Optimization: AI-powered smart bidding for cost-efficient ad placements.",
+                    "Remarketing & Retargeting Setup: Engaging past visitors with personalized ads.",
+                    "Google Shopping & Display Ads: Expanding reach with visual and product-based ads."
                 ]
             },
+    
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Large businesses aiming for aggressive market penetration and comprehensive PPC strategies.",
+                header: "Premium Google Ads PPC Package",
+                price: "$5,000/month",
+                fitFor: "Enterprises and e-commerce brands focused on aggressive growth and scalability.",
                 youGet: [
-                    "Up to 300 keywords targeted",
-                    "Full-scale PPC campaign management",
-                    "Monthly budget management over $30,000",
-                    "Detailed targeting strategies including remarketing and lookalike audiences",
-                    "Monthly detailed performance and strategy reviews",
-                    "Advanced conversion optimization techniques",
-                    "Campaign Setup Fee (One-time): $4,000",
-                    "Monthly Investment: $3,500"
+                    "Full-Funnel PPC Strategy: Covering Search, Shopping, Display, and YouTube Ads.",
+                    "AI-Driven Bidding & Budget Allocation: Maximizing conversions at the lowest cost.",
+                    "Landing Page Optimization: Enhancing ad relevance and user experience.",
+                    "Competitor PPC Benchmarking: Analyzing competitor ad strategies for better positioning.",
+                    "Custom Analytics Dashboard: Real-time performance tracking and advanced insights."
                 ]
             }
         ]
     },
 
-    customPricing: {
-        heading: 'Custom Google Ads PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom Google Ads PPC Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "Custom number of keywords targeted",
-            "Custom audience and demographic targeting",
-            "Custom budget management strategies",
-            "Full Optimization of Ad Copies and CTAs"
-        ],
-        centerPart: {
-            text: "Drive traffic, boost conversions, and maximize ROI with advanced AI-powered PPC strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom reporting and analytics plan",
-            "Custom conversion tracking and optimization",
-            "Custom content strategy for ad creatives",
-            "Dedicated customer support and account management"
-        ]
-    },
 
     reviewsSection: {
-        heading: "Join Our Community of Thriving E-commerce Brands Powered by Google Ads PPC",
-        para: "Every campaign we undertake is fueled by a commitment to excellence and a passion for driving results. Our clients' testimonials reflect the significant impact our Google Ads PPC strategies have made on their businesses. Read on to discover how our tailored solutions have transformed their digital marketing efforts!"
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
+    },
 
 }
 

@@ -41,8 +41,7 @@ const Path = ({ page }) => {
                         </span>
 
                         <span>
-                            {activeIndex < page.paths.length - 1 &&
-                                <h1 className='font-semibold text-xl  mb-4'>Why It Matters?</h1>}
+                                <h1 className='font-semibold text-xl  mb-4'>Why It Matters?</h1>
                             <ul className='list-item ml-6 list-disc mb-8'>
                                 {page.paths[activeIndex].how.map((how, idx) => (
                                     <li key={idx} className='my-4' dangerouslySetInnerHTML={{ __html: how }} />

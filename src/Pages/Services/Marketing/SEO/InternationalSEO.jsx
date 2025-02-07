@@ -49,7 +49,7 @@ const InternationalSEO = () => {
   return (
     <div className='w-full '>
       <Helmet >
-          <title>DEVXCLOUD - Content SEO</title>
+          <title>DEVXCLOUD - International SEO</title>
       </Helmet>
       {isLoading ? (
         <Loading />

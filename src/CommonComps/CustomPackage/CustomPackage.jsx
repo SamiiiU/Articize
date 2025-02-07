@@ -8,6 +8,7 @@ import LocalMallRoundedIcon from '@mui/icons-material/LocalMallRounded';
 import FeaturedPlayListRoundedIcon from '@mui/icons-material/FeaturedPlayListRounded';
 import bgBox from '../../Assets/Images/ServicesIMG/BgBoxes.jpg'
 
+
 const CustomPackage = ({page}) => {
     const [activeIndex ,setActiveIndex] = useState(null)
     const [activeHover , setActiveHover] = useState(false)
@@ -26,7 +27,7 @@ const CustomPackage = ({page}) => {
                 <div onMouseEnter={() => setActiveHover(true)} onMouseLeave={() => setActiveHover(false)} className='w-full flex z-10 lg:flex-row shadow-2xl flex-col flex-wrap text-left  h-auto transition-all rounded-3xl bg-white ' style={{boxShadow: activeHover ? "0px 5px 10px rgba(0, 0, 0, 0.6)" : "0px 10px 20px rgba(0, 0, 0, 0.3)",}}>
                     {/* first col  */}
                     <div className='flex-1 z-10 flex flex-col justify-between lg:border-r-2 border-[#313131]/30'>
-                        <span className='w-full rounded-tl-[1.3rem] lg:rounded-tr-none rounded-tr-3xl font-semibold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-8 relative'>
+                        <span className='w-full min-h-40 rounded-tl-[1.3rem] lg:rounded-tr-none rounded-tr-3xl font-semibold bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-8 relative'>
                             <h1 dangerouslySetInnerHTML={{__html : page.mainHeading}}/>
                             <span className="absolute -top-1/4 bg-white p-3 rounded-full " ><LocalMallRoundedIcon sx={{ color: '#207DE9' ,  fontSize: 40}}/></span>
                         </span> 
@@ -79,9 +80,9 @@ const CustomPackage = ({page}) => {
                                 </div>
                             ))}
                         </span>
-                        <span className='w-full z-10 rounded-br-3xl lg:rounded-bl-none rounded-bl-3xl font-extrabold flex-col bg-[#013a6e] text-2xl text-white text-center flex justify-center items-center px-10 py-4'>
-                            <h1 className='font-bold'>Starting At</h1>
-                            <p className='text-lg font-semibold'>{page.startingAt}</p>
+                        <span className='w-full z-10 rounded-br-3xl lg:rounded-bl-none rounded-bl-3xl flex-col bg-[#013a6e] text-white text-center flex justify-center items-center px-10 py-4'>
+                            <p className=''>Starting At</p>
+                            <h1 className='text-xl font-bold'>{page.startingAt}</h1>
                         </span> 
                     </div>
 

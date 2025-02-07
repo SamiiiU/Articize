@@ -21,7 +21,7 @@ export const TailoredSEO = ({page}) => {
                 {index % 2 == 0 ? (
                     <>
                     <div className='flex-1 text-left'>
-                    <h1 className='font-semibold text-xl  mb-4 text-[#013a6e]'>{item.heading}</h1>
+                    <h1 className='font-semibold text-xl  mb-4 text-[#207DE9]'>{item.heading}</h1>
                     <p className='mb-8'>{item.para}</p>
 
                     <h1 className='font-semibold text-xl  mb-4'>What We Offer?</h1>
@@ -48,7 +48,7 @@ export const TailoredSEO = ({page}) => {
                     )}
 
                     <div className='flex-1 text-left'>
-                    <h1 className='font-semibold text-xl  mb-4 text-[#013a6e]'>{item.heading}</h1>
+                    <h1 className='font-semibold text-xl  mb-4 text-[#207DE9]'>{item.heading}</h1>
                     <p className='mb-8'>{item.para}</p>
 
                     <h1 className='font-semibold text-xl  mb-4'>What We Offer?</h1>
@@ -71,7 +71,7 @@ export const TailoredSEO = ({page}) => {
             {page.tailoredItems.map((item , index) => (
                 <>
                     <div key={index} className='flex-1 text-left'>
-                    <h1 className='font-semibold text-3xl  mb-4 text-[#013a6e]'>{item.heading}</h1>
+                    <h1 className='font-semibold text-3xl  mb-4 text-[#207DE9]'>{item.heading}</h1>
                     <p className='mb-8'>{item.para}</p>
 
                     <h1 className='font-semibold text-xl  mb-4'>What We Offer?</h1>

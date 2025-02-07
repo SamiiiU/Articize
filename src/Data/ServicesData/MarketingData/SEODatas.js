@@ -1,6 +1,6 @@
-import { FaBullhorn, FaBullseye, FaCartShopping, FaChartLine, FaChartPie, FaComments, FaLayerGroup, FaLink, FaMagnifyingGlass, FaMoneyBillWave, FaPalette, FaRegChartBar, FaRegNewspaper, FaRocket, FaUsers, FaUserTag } from 'react-icons/fa6'
+import { FaBullhorn, FaBullseye, FaCartShopping, FaChartLine, FaChartPie, FaComments, FaLayerGroup, FaLink, FaLinkSlash, FaMagnifyingGlass, FaMoneyBillWave, FaPalette, FaRegChartBar, FaRegNewspaper, FaRocket, FaUsers, FaUserTag } from 'react-icons/fa6'
 import heroImg from '../../../Assets/Images/ServicesIMG/EcommerceBG.png'
-import { MdContentCopy, MdLocationOn, MdOutlineMobileFriendly, MdOutlineRateReview, MdOutlineStarPurple500 } from 'react-icons/md'
+import { MdBugReport, MdContentCopy, MdLocationOn, MdOutlineMobileFriendly, MdOutlineRateReview, MdOutlineStarPurple500 } from 'react-icons/md'
 import { GrAchievement, GrOptimize } from 'react-icons/gr'
 import { IoAnalytics } from 'react-icons/io5'
 
@@ -9,9 +9,9 @@ import BG from '../../../Assets/Images/ServicesIMG/SEOImages/MarketingHeroBG.png
 import { FaAd, FaBuilding, FaCode, FaCog, FaCogs, FaCommentDots, FaFileAlt, FaGlobe, FaGlobeAmericas, FaGoogle, FaImage, FaKey, FaLanguage, FaLock, FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaServer, FaShareAlt, FaShieldAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaTachometerAlt, FaTags, FaThumbsUp, FaUserAlt, FaUserFriends, FaVideo } from 'react-icons/fa'
 
 import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
-import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
-import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
-import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
+import { AiOutlineDashboard } from 'react-icons/ai'
+import { RiSearchEyeLine } from 'react-icons/ri'
+
 
 
 export const EcommerceSEOData = {
@@ -290,15 +290,15 @@ export const EcommerceSEOData = {
         para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services",
 
         approaches: [
-            { heading: "Keyword Research Tailored to Products", detail: 'Identify high-intent, product-specific keywords your customers are searching for. Helps your products appear directly in search results when customers are ready to buy.', icon: <FaMagnifyingGlass /> , spans : 4},
+            { heading: "Keyword Research Tailored to Products", detail: 'Identify high-intent, product-specific keywords your customers are searching for. Helps your products appear directly in search results when customers are ready to buy.', icon: <FaMagnifyingGlass /> },
 
-            { heading: "Product Page Optimization", detail: 'Optimize product titles, descriptions, and alt text for images with targeted keywords. Boosts individual product rankings and increases discoverability in search engines.', icon: <FaCartShopping />  , spans : 2 },
+            { heading: "Product Page Optimization", detail: 'Optimize product titles, descriptions, and alt text for images with targeted keywords. Boosts individual product rankings and increases discoverability in search engines.', icon: <FaCartShopping />   },
 
-            { heading: "Backlink Building for E-commerce", detail: 'Acquire backlinks from niche-relevant, high-authority websites to improve your store’s credibility. Builds trust with search engines, helping your site rank higher.', icon: <FaLink />  , spans : 2 },
+            { heading: "Backlink Building for E-commerce", detail: 'Acquire backlinks from niche-relevant, high-authority websites to improve your store’s credibility. Builds trust with search engines, helping your site rank higher.', icon: <FaLink />  },
 
             { heading: " Mobile-First SEO Implementation", detail: 'Ensure your e-commerce store is fully optimized for mobile devices with fast load times and seamless navigation. Mobile users make up a large percentage of online shoppers, and search engines prioritize mobile-friendly sites.', icon: <MdOutlineMobileFriendly />  , spans : 4},
 
-            { heading: "Optimizing for Site Speed", detail: 'Minimize load times by compressing images, optimizing scripts, and leveraging browser caching. Faster sites rank higher and reduce cart abandonment rates.', icon: <GrOptimize />  , spans : 6},
+            { heading: "Optimizing for Site Speed", detail: 'Minimize load times by compressing images, optimizing scripts, and leveraging browser caching. Faster sites rank higher and reduce cart abandonment rates.', icon: <GrOptimize />  },
 
         ],
     },
@@ -468,7 +468,6 @@ export const EcommerceSEOData = {
                     "Monthly SEO Report: Overview of traffic, keyword rankings, and basic performance metrics.",
                     "Customer Support: Access to email support for any SEO queries.",
                 ],
-                spans : 4,
             },
             {
                 header: "Standard E-commerce SEO Package",
@@ -481,7 +480,6 @@ export const EcommerceSEOData = {
                     "Content Creation: Monthly blog posts or guides to engage and attract more traffic.",
                     "Backlink Strategy: Basic link-building from niche-related websites to improve authority."
                 ],
-                spans : 2,
 
             },
             {
@@ -495,7 +493,6 @@ export const EcommerceSEOData = {
                     "Robust Link Building Campaign: High-quality backlinks from high-authority sites to boost SEO.",
                     "Custom Analytics Dashboard: Real-time SEO tracking and insights with actionable analytics."
                 ],
-                spans : 3,
 
             },
         ],
@@ -1830,147 +1827,116 @@ export const InternationalSEOData = {
         bg: BG,
     },
     customPricing: {
-
-        heading: 'Content SEO Services Custom Pricing Tailored to Your Business Goals',
-
-        mainHeading: "Custom Content SEO Package",
-
-        overview: "Designed for businesses looking to boost organic traffic and enhance content visibility, this package focuses on strategic content optimization, keyword integration, and engagement-driven writing to improve search rankings and user experience.",
-
+        heading: 'International SEO Services Custom Pricing Tailored to Your Global Business Goals',
+    
+        mainHeading: "Custom <br/> International SEO <br/> Package",
+    
+        overview: "Designed for businesses expanding into global markets, this package focuses on multilingual SEO strategies, geo-targeted optimization, and technical implementations to improve international search visibility and user engagement.",
+    
         benifits: [
-            { heading: "Higher Organic Traffic :  ", description: "Content optimized for search engines to attract relevant visitors" },
-            { heading: "Better Engagement : ", description: " Compelling and informative content keeps users on your site longer. " },
-            { heading: "Increased Conversions : ", description: "SEO-optimized copy that converts visitors into customers." },
-
+            { heading: "Expanded Global Reach: ", description: "SEO strategies tailored for different countries and languages to attract international audiences." },
+            { heading: "Improved Search Visibility: ", description: "Optimized website structure and hreflang implementation for better rankings in multiple regions." },
+            { heading: "Higher Conversion Rates: ", description: "Localized content and user experience enhancements to boost engagement and conversions across global markets." },
         ],
-
+    
         keyFeatures: [
-            { heading: "SEO-Optimized Blog Content ", description: "Engaging, high-ranking articles tailored for your audience" },
-            { heading: "Product Page Optimization ", description: " Keyword-rich product descriptions for better discoverability. " },
-            { heading: "Category Page SEO ", description: "Structuring category content for better rankings and navigation." },
-            { heading: "Meta Tag & Header Optimization", description: "Improved titles, meta descriptions, and headers for search visibility." },
-            { heading: "Internal Linking Strategy", description: "Enhancing navigation and link equity for SEO benefits." },
-            { heading: "Content Performance Tracking ", description: "Regular audits to measure and refine content effectiveness" },
-            { heading: "Competitor Content Research ", description: "Gaining insights to outperform competitors in search rankings. " },
-            { heading: "Schema Markup for Rich Snippets", description: "Enhancing content visibility in SERPs with structured data." },
-
+            { heading: "Global Keyword Optimization", description: "Multilingual keyword research and localization for high-ranking opportunities." },
+            { heading: "Hreflang Implementation", description: "Ensuring correct language and regional targeting for search engines." },
+            { heading: "Geo-Targeted Content Strategy", description: "Developing region-specific content to connect with diverse audiences." },
+            { heading: "International Technical SEO", description: "Optimizing site architecture, domain structures, and page speed for global users." },
+            { heading: "Localized Meta Tags & Headers", description: "Optimized titles, descriptions, and headers for different regions." },
+            { heading: "Cross-Border Link Building", description: "Acquiring high-authority backlinks from country-specific sources." },
+            { heading: "International Competitor Analysis", description: "Researching global competitors to refine SEO strategies for different markets." },
+            { heading: "Structured Data & Schema Markup", description: "Enhancing search presence with region-specific structured data implementation." },
         ],
-
-        startingAt: "$4200/Month",
+    
+        startingAt: "$5200/Month",
     },
-
+    
     boostSection: {
-        heading: "Boost Your International Reach with <span class= 'text-[#207DE9]'>Tailored International SEO</span> Services.",
-        para: "Emphasize the unique challenges of global SEO, such as handling multiple languages, markets, and optimizing content for cultural differences. Our strategies are designed to improve search engine rankings worldwide and drive qualified traffic to your international online store.",
-
+        heading: "Expand Your Global Reach with <span class='text-[#207DE9]'> Specialized <br/> International SEO </span> Services.",
+        para: "Maximize your brand’s visibility in international markets with expert strategies tailored for global search engines. Our services focus on multilingual SEO, geo-targeted optimization, and technical enhancements to ensure seamless user experiences and higher rankings worldwide.",
+    
         boostContent: [
             {
-                navigator: "Multilingual Website Optimization",
-                matters: "Expanding to international markets requires a multilingual approach. Optimizing your site for various languages ensures you cater to diverse customer bases across the globe.",
+                name: "Global Keyword Optimization",
+                whyMatters: "Targeting the right keywords across multiple languages and regions ensures that your content reaches the right audience. A localized keyword strategy helps improve search rankings and relevance in different countries.",
                 includes: [
-                    "Localized product titles, descriptions, and meta tags in target languages.",
-                    "Implementation of hreflang tags to signal language and region-specific content.",
-                    "Providing localized customer service, FAQs, and support."
+                    "Multilingual keyword research aligned with regional search trends.",
+                    "Localization and translation of high-impact search terms.",
+                    "Strategic keyword placement to enhance global rankings.",
                 ],
-                benefit: "Increased visibility in global search engines and improved user experience across regions.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Increases international visibility, ensures relevance across diverse markets, and improves ranking potential for different languages.",
             },
-
+    
             {
-                navigator: "Regional Content Adaptation",
-                matters: "Different regions have different needs and interests. Content tailored to those interests and preferences improves engagement and conversion rates.",
+                name: "Hreflang & Geo-Targeting Implementation",
+                whyMatters: "Hreflang tags help search engines understand which language version of your site to show in different regions, preventing duplicate content issues and ensuring correct indexing for global audiences.",
                 includes: [
-                    "Creation of culturally relevant product descriptions and content.",
-                    "Optimizing content for region-specific trends and events.",
-                    "Incorporating local language nuances and terminology."
+                    "Correct hreflang implementation for multilingual and multi-regional targeting.",
+                    "Geo-targeted website structuring (subdomains, subdirectories, ccTLDs).",
+                    "Optimized sitemaps to guide search engines on language preferences.",
                 ],
-                benefit: "Boosted relevance and engagement with local customers, leading to higher conversion rates.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Enhances search engine understanding of content localization, improves international rankings, and ensures accurate search results for different regions.",
             },
-
+    
             {
-                navigator: "Local SEO for International Markets",
-                matters: "It’s not enough to focus on just global SEO. Local SEO is crucial for appearing in local search results and for region-specific ranking factors.",
+                name: "Localized Content Strategy",
+                whyMatters: "Engaging and culturally relevant content is crucial for connecting with international audiences. A localized content strategy ensures better engagement and trust in different markets.",
                 includes: [
-                    "Optimizing for local search engines like Baidu (China) or Yandex (Russia).",
-                    "Adding location-based meta data, NAP (Name, Address, Phone), and local business listings.",
-                    "Ensuring content aligns with local search intent."
+                    "Creation of region-specific content tailored to local audiences.",
+                    "SEO-optimized translations and adaptations for cultural relevance.",
+                    "Geo-targeted content recommendations for each market.",
                 ],
-                benefit: "Improved rankings in local search results and better visibility in specific markets.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Improves user engagement, increases search rankings in local markets, and enhances credibility with international customers.",
             },
-
+    
             {
-                navigator: "International Backlink Strategy",
-                matters: "Building high-quality international backlinks is key for global SEO. Link-building helps improve your authority and rankings in foreign markets.",
+                name: "Technical SEO for International Sites",
+                whyMatters: "A well-optimized website structure ensures smooth indexing, fast loading times, and high performance across different regions. Proper technical implementation prevents search engine confusion and enhances user experience globally.",
                 includes: [
-                    "Engaging with international influencers and bloggers.",
-                    "Building relationships with high-authority websites in target regions.",
-                    "Creating region-specific content that attracts backlinks from local sources."
+                    "Optimizing international site architecture for fast loading speeds.",
+                    "Implementing mobile-friendly designs for global usability.",
+                    "Technical audits to detect and resolve international SEO issues.",
                 ],
-                benefit: "Increased domain authority, improved rankings, and better search visibility across international search engines.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Ensures seamless user experience, boosts global rankings, and prevents indexing issues across multiple regions.",
             },
-
+    
             {
-                navigator: "Global User Experience Optimization",
-                matters: "Delivering a seamless experience for users across the globe is crucial for keeping bounce rates low and ensuring conversions.",
+                name: "International Competitor SEO Analysis",
+                whyMatters: "Analyzing global competitors provides valuable insights into successful SEO strategies in different regions. This allows businesses to refine their own approach and gain a competitive edge.",
                 includes: [
-                    "Implementing responsive design to ensure compatibility across all devices and countries.",
-                    "Speed optimization for different regions to improve page load times.",
-                    "Creating easy navigation and region-specific product filters."
+                    "Detailed competitor analysis for global search trends.",
+                    "Identifying keyword gaps and ranking opportunities.",
+                    "Benchmarking against top international competitors.",
                 ],
-                benefit: "Improved user experience across regions, leading to better engagement and higher conversions.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Helps refine SEO strategy, improves competitive positioning, and maximizes opportunities in international markets.",
             },
-
+    
             {
-                navigator: "Cross-Border Analytics and Competitor Insights",
-                matters: "Understanding how your competitors are performing in different markets helps you develop a strategy to stay competitive.",
+                name: "Multilingual Backlink Building",
+                whyMatters: "High-quality backlinks from region-specific domains improve authority and credibility in global search engines. A localized link-building strategy strengthens rankings in targeted countries.",
                 includes: [
-                    "Analyzing competitor keywords and backlinks in global markets.",
-                    "Identifying top-performing regions and products.",
-                    "Understanding market-specific trends and challenges."
+                    "Outreach for high-authority backlinks in different languages.",
+                    "Guest posting and content collaborations with international partners.",
+                    "Building local citations and business listings for geo-targeting.",
                 ],
-                benefit: "Gain insights to outperform competitors and capture more market share globally.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Boosts domain authority, enhances rankings in specific regions, and strengthens international credibility.",
             },
-
+    
             {
-                navigator: "Mobile-First Global Strategy",
-                matters: "With mobile traffic growing globally, your website must be optimized for mobile users in every region.",
+                name: "Schema Markup for Global SEO",
+                whyMatters: "Structured data helps search engines understand content context, improving visibility in search results. Schema markup enhances rich snippets, boosting click-through rates (CTR) worldwide.",
                 includes: [
-                    "Optimizing mobile site speed and mobile-friendly navigation.",
-                    "Making sure that the mobile version of your site adapts to multiple languages and regions.",
-                    "Reducing mobile pop-ups and enhancing mobile checkout processes."
+                    "Implementation of language-specific structured data.",
+                    "Rich snippets for product pages, reviews, and FAQs.",
+                    "Optimization for Google, Bing, and regional search engines.",
                 ],
-                benefit: "Boosted rankings in mobile search results and better user experience on mobile devices worldwide.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Increases SERP visibility, improves CTR, and enhances local search presence across multiple markets.",
             },
-
-            {
-                navigator: "International Market Research for SEO",
-                matters: "Expanding into international markets requires careful research to identify the most lucrative opportunities.",
-                includes: [
-                    "Researching demand and competition in international markets.",
-                    "Analyzing search trends and understanding cultural differences.",
-                    "Identifying growth markets for strategic SEO investment."
-                ],
-                benefit: "Ensures that your SEO strategy aligns with the highest-potential international markets, maximizing your ROI.",
-
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },
-
         ],
     },
-
+    
     tailoredSection: {
         "heading": "Tailored <span class='text-[#207DE9]'> Specialized <br/> International SEO </span> for Every Platform",
         "para": "Every E-commerce platform has unique SEO challenges and opportunities worldwide. Our team provides <strong> customized international SEO strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher globally, drives organic traffic from different regions, and converts visitors into loyal customers.",
@@ -2046,21 +2012,32 @@ export const InternationalSEOData = {
             }
         ]
     },
-
     //PowerBy starts here 
     powerBySection: {
-        heading: "Content SEO <span class= 'text-[#207DE9]'> Data-Driven Insights  </span> for Maximum Visibility",
-        para: "Harness the power of high-quality content to elevate your website's search rankings, attract the right audience, and drive more engagement.",
-
+        heading: "International SEO <span class='text-[#207DE9]'> Data-Driven Insights </span> for Global Visibility",
+        para: "Leverage cutting-edge international SEO strategies to expand your reach, enhance search engine visibility in multiple regions, and attract the right global audience.",
 
         statistics: [
+            {
+                benefit: "Increase in Global Search Visibility",
+                benefitText: "Optimized multilingual and geo-targeted content helps search engines rank your website for international audiences, driving organic traffic across different regions.",
+                increasePercentage: 300,
+                explanation: "Implementing country-specific keywords, localized content, and hreflang tags ensures search engines properly index your site, resulting in higher rankings in multiple countries.",
+            },
 
-            { benefit: "Increase in Organic Traffic", benefitText: "Optimized content helps search engines better understand your pages, ranking them higher for relevant keywords and bringing in a steady stream of organic visitors.", increasePercentage: 250, explanation: "A well-structured content strategy with keyword-focused blogs, product pages, and category descriptions ensures that your brand gets noticed by search engines and potential customers alike." },
+            {
+                benefit: "Improvement in International Engagement & Dwell Time",
+                benefitText: "Localized and culturally relevant content keeps visitors engaged, reducing bounce rates and increasing conversions from international markets.",
+                increasePercentage: 150,
+                explanation: "Custom-tailored content strategies for different regions enhance user experience, ensuring visitors find content that resonates with their preferences and needs.",
+            },
 
-            { benefit: "Improvement in Engagement & Dwell Time", benefitText: "Engaging and informative content keeps visitors on your website longer, reducing bounce rates and increasing conversions.", increasePercentage: 120, explanation: "Crafting compelling, reader-friendly content ensures users stay on your site, interact with your brand, and take action-whether it's making a purchase, signing up, or engaging with your business." },
-
-            { benefit: "ROI from Local SEO Investments", benefitText: "Content marketing is one of the highest ROI strategies, generating long-term results without ongoing ad spend.", increasePercentage: 350, explanation: "Consistently publishing high-quality, SEO-optimized content drives sustainable growth, improves rankings, and establishes your brand as an industry authority." },
-
+            {
+                benefit: "ROI from Global SEO Investments",
+                benefitText: "International SEO provides long-term value, enabling businesses to scale in multiple regions without relying heavily on paid advertising.",
+                increasePercentage: 400,
+                explanation: "A well-executed global SEO strategy ensures sustainable organic growth, allowing businesses to dominate new markets with region-specific content and technical SEO enhancements.",
+            },
         ],
     },
     //PowerBy ends here 
@@ -2099,7 +2076,7 @@ export const InternationalSEOData = {
     },
     
     pathToSuccess: {
-        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R.</span>O.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Global E-commerce SEO Success",
+        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your International SEO Success",
 
         paths: [
             {
@@ -2171,129 +2148,130 @@ export const InternationalSEOData = {
         ]
     },
 
+    
     platformSection: {
-        heading: "We Optimize Content SEO Across These Platforms",
-        para: "Our content SEO experts work across various platforms to enhance visibility and engagement. Whether you run a blog, an eCommerce store, or a corporate website, we tailor our strategies to maximize your content's reach.",
-
+        heading: "We Optimize International SEO Across These Platforms",
+        para: "Our international SEO experts optimize websites for global visibility and market expansion. Whether you manage a multinational eCommerce store, a regional business website, or a multilingual blog, we tailor our strategies to ensure success in diverse markets.",
+        
         platforms: [
             {
-                heading: "Popular Platforms for Content Optimization", 
+                heading: "Global Website Platforms", 
                 items: [
-                    { itemName: "WordPress ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
-                    { itemName: "Shopify", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
-
-                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
-
-                ],
-                
+                    { itemName: "WordPress (Multilingual SEO)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Shopify (International Expansion)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+                    { itemName: "BigCommerce (Cross-border eCommerce)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"}
+                ]
             },
-
             {
-                heading: "Enterprise-Level Content Solutions", items: [
-                    { itemName: "HubSpot CMS", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
-                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
-                    { itemName: "Sitecore ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
-                ],
+                heading: "Enterprise-Level Global SEO Solutions",
+                items: [
+                    { itemName: "HubSpot CMS (Localized Marketing)", itemImg: "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Drupal (Multilingual Content)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Sitecore (Enterprise Localization)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"}
+                ]
             },
-
             {
-                heading: "Content Performance & Analytics Platforms", items: [
-                    { itemName: "Google Search Console", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
-                    { itemName: "SEMrush & Ahrefs", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
-
-                ],
-            },
-
+                heading: "International SEO & Analytics Tools",
+                items: [
+                    { itemName: "Google Search Console (Hreflang Optimization)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "SEMrush & Ahrefs (Global Keyword Research)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Google Analytics 4 (International Traffic Insights)", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0D6Wv0qBqOlmB10xAt4m07DPBj2D-zmMI1g&s"}
+                ]
+            }
         ]
     },
 
     realResultsSection: {
-        heading: "Real Global Results <span class='text-[#207DE9]'>for E-commerce Growth</span>",
-        para: "Our international e-commerce SEO strategy focuses on delivering measurable outcomes, from increasing organic traffic across multiple countries to boosting product sales in diverse markets. Our tailored approach helps online stores dominate their niche markets globally.",
+        heading: "Real Global Results <span class='text-[#207DE9]'>for International SEO Success</span>",
+        para: "Our international SEO strategies drive measurable results, from increasing global search visibility to boosting conversions in multiple markets. Whether expanding to new regions or optimizing multilingual content, we help businesses scale internationally with data-driven SEO tactics.",
 
         results: [
             {
-                header: "Global E-commerce - Electronics",
-                challenge: "Optimizing for multiple countries and languages to improve global sales.",
+                header: "Multinational SaaS Company",
+                challenge: "Expanding into new international markets while maintaining strong search visibility.",
                 approaches: [
-                    "Global keyword targeting strategy.",
-                    "Localization of product descriptions and titles.",
-                    "International backlink building from trusted sites."
+                    "Hreflang implementation for accurate language and region targeting.",
+                    "Country-specific keyword research and localization.",
+                    "Building high-authority backlinks from region-specific sources."
                 ],
-                increase: "500",
-                increaseIn: "Global organic traffic growth"
+                increase: "400",
+                increaseIn: "Organic traffic from new international markets"
             },
             {
-                header: "E-commerce - Fashion and Apparel",
-                challenge: "Catering to diverse regional audiences with different cultural preferences.",
+                header: "Global E-commerce - Consumer Goods",
+                challenge: "Optimizing multilingual content and improving international conversion rates.",
                 approaches: [
-                    "Localized content creation for global markets.",
-                    "Mobile-first SEO optimization for international users.",
-                    "Backlinking to high-authority fashion sites across regions."
+                    "Localized SEO strategies for different markets.",
+                    "Mobile-first and voice search optimization for global users.",
+                    "Technical SEO enhancements for better international indexing."
                 ],
-                increase: "300",
-                increaseIn: "International conversion rates"
+                increase: "350",
+                increaseIn: "Revenue from international markets"
             }
         ]
     },
 
     pricingSection: {
-        heading: "Transparent Pricing for Content SEO",
-        para: "Discover our clear and flexible Content SEO pricing plans designed to grow with your online business. From boosting site traffic to enhancing service and product visibility in your community, our plans are crafted to provide tangible results.",
-
+        heading: "Transparent Pricing for International SEO",
+        para: "Explore our tailored International SEO pricing plans designed to expand your global reach. Whether you're entering new markets or optimizing existing ones, our plans ensure visibility, engagement, and conversions worldwide.",
+    
         pricingCards: [
             {
-                header: "Starter Plan",                //<strong>
-                price: "$2,000/month",
-                fitFor: "Small businesses & startups looking to build a strong content foundation.",
+                header: "Starter Plan",
+                price: "$3,000/month",
+                fitFor: "Small businesses & startups looking to establish a global presence.",
                 youGet: [
-                    "Keyword research & topic suggestions (up to 10 keywords)",
-                    "4 SEO-optimized blog posts (1,000 words each)",
-                    "On-page optimization (meta titles, descriptions, headers) Internal linking strategy",
-                    "Monthly performance report & recommendations",
+                    "Multilingual keyword research & targeting (up to 10 keywords)",
+                    "Geo-targeted on-page SEO (titles, meta, hreflang setup)",
+                    "Localized content strategy & optimization (up to 5 pages)",
+                    "Basic international site structure recommendations",
+                    "Monthly performance report & insights",
                 ],
             },
             {
                 header: "Growth Plan",
-                price: "$4,500/month",
-                fitFor: "Businesses looking to scale their content marketing efforts",
+                price: "$6,500/month",
+                fitFor: "Businesses expanding into multiple international markets.",
                 youGet: [
                     "All features from the Starter Plan",
-                    "8 SEO-optimized blog posts (1,500 words each)",
-                    "SEO-friendly product descriptions (up to 15 pages) Content calendar planning & publishing",
-                    "Advanced internal linking & content silo strategy Competitor content gap analysis",
-
+                    "Advanced hreflang implementation & country-specific URLs",
+                    "International competitor keyword gap analysis",
+                    "SEO-optimized multilingual blog posts (up to 8 articles/month)",
+                    "Localized backlink acquisition strategy",
+                    "Monthly performance tracking & market insights",
                 ],
             },
             {
-                header: "Authority Plan ",
-                price: "$7,000/month",
-                fitFor: "Large businesses & eCommerce stores focused on industry authority.",
+                header: "Authority Plan",
+                price: "$10,000/month",
+                fitFor: "Enterprises and large brands targeting diverse global audiences.",
                 youGet: [
                     "All features from the Growth Plan",
-                    "12 premium blog posts (2,000+ words each) ",
-                    "High-quality guest post backlinks (3 per month)",
-                    "Video & infographic content optimization",
-                    "Conversion-focused landing pages.(up to 5 pages)",
-                    "Monthly content performance audits",
+                    "Comprehensive international technical SEO audit",
+                    "High-authority international link-building strategy",
+                    "E-commerce product & category page optimization (up to 20 pages)",
+                    "Video & multimedia content optimization for multiple regions",
+                    "Conversion-focused multilingual landing pages (up to 10 pages)",
+                    "In-depth quarterly international SEO strategy review",
                 ],
             },
             {
                 header: "Elite Plan",
-                price: "$12,000/month",
-                fitFor: "Enterprises & brands aiming for content dominance",
+                price: "$18,000/month",
+                fitFor: "Global enterprises aiming for top rankings in multiple countries.",
                 youGet: [
                     "All features from the Authority Plan",
-                    "20+ SEO-optimized blog posts (3,000+ words each)",
-                    " Al-driven content optimization & NLP keyword strategy",
-                    "E-book & whitepaper content creation (1 per month)",
-                    "Advanced content automation & distribution strategy",
-                    "Dedicated content strategist & SEO consul.",
+                    "AI-powered international content strategy & NLP keyword optimization",
+                    "Enterprise-level international domain & subdirectory strategy",
+                    "E-book & whitepaper content creation (1 per month) for global markets",
+                    "AI-driven translation & localization for all website content",
+                    "Advanced automation & multilingual content distribution",
+                    "Dedicated international SEO strategist & monthly consultation",
                 ],
             },
         ],
     },
-
+    
     reviewsSection: {
         heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving International Brands</span>",
         para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses across the globe. Read on to discover how our tailored international SEO solutions have transformed their visions into reality!"
@@ -2311,293 +2289,308 @@ export const AuditSEOData = {
     },
 
     customPricing: {
-
-        heading: 'Content SEO Services Custom Pricing Tailored to Your Business Goals',
-
-        mainHeading: "Custom <br/> Content SEO <br/> Package",
-
-        overview: "Designed for businesses looking to boost organic traffic and enhance content visibility, this package focuses on strategic content optimization, keyword integration, and engagement-driven writing to improve search rankings and user experience.",
-
+        heading: "Audit SEO Services Custom Pricing Tailored to Your Website’s Health",
+    
+        mainHeading: "Custom <br/> Audit SEO <br/> Package",
+    
+        overview: "Designed for businesses seeking a deep analysis of their website’s SEO health, this package provides a comprehensive audit covering technical SEO, content optimization, and backlink quality. We deliver actionable insights to fix critical issues, improve search rankings, and enhance overall website performance.",
+    
         benifits: [
-            { heading: "Higher Organic Traffic :  ", description: "Content optimized for search engines to attract relevant visitors" },
-            { heading: "Better Engagement : ", description: " Compelling and informative content keeps users on your site longer. " },
-            { heading: "Increased Conversions : ", description: "SEO-optimized copy that converts visitors into customers." },
-
+            { heading: "Identify SEO Issues:", description: "Uncover technical and content-related bottlenecks that affect search performance." },
+            { heading: "Improve Site Health:", description: "Ensure a well-optimized website with enhanced speed, usability, and indexability." },
+            { heading: "Boost Organic Traffic:", description: "Resolve SEO gaps to increase rankings and drive more qualified visitors." }
         ],
-
+    
         keyFeatures: [
-            { heading: "SEO-Optimized Blog Content ", description: "Engaging, high-ranking articles tailored for your audience" },
-            { heading: "Product Page Optimization ", description: " Keyword-rich product descriptions for better discoverability. " },
-            { heading: "Category Page SEO ", description: "Structuring category content for better rankings and navigation." },
-            { heading: "Meta Tag & Header Optimization", description: "Improved titles, meta descriptions, and headers for search visibility." },
-            { heading: "Internal Linking Strategy", description: "Enhancing navigation and link equity for SEO benefits." },
-            { heading: "Content Performance Tracking ", description: "Regular audits to measure and refine content effectiveness" },
-            { heading: "Competitor Content Research ", description: "Gaining insights to outperform competitors in search rankings. " },
-            { heading: "Schema Markup for Rich Snippets", description: "Enhancing content visibility in SERPs with structured data." },
-
+            { heading: "Technical SEO Audit", description: "Comprehensive site analysis to detect errors, broken links, and crawl issues." },
+            { heading: "On-Page SEO Evaluation", description: "Detailed review of meta tags, content quality, and keyword optimization." },
+            { heading: "Website Speed & Performance Analysis", description: "Identify slow-loading elements and improve Core Web Vitals." },
+            { heading: "Mobile-Friendliness & UX Audit", description: "Ensure a seamless experience across all devices." },
+            { heading: "Backlink Profile Assessment", description: "Analyze link quality, detect toxic backlinks, and provide link-building opportunities." },
+            { heading: "Competitor SEO Benchmarking", description: "Compare SEO performance against top competitors to find growth opportunities." },
+            { heading: "Indexing & Crawlability Check", description: "Ensure search engines can properly crawl and index your website." },
+            { heading: "Comprehensive SEO Report & Action Plan", description: "Detailed findings with prioritized recommendations for SEO improvements." }
         ],
-
-        startingAt: "$4200/Month",
+    
+        startingAt: "$1500/One-Time"
     },
+    
 
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class= 'text-[#207DE9]'> Specialized <br/>E-commerce SEO Audits </span>.",
-        para: "Emphasize the unique challenges and opportunities of e-commerce SEO audits, such as improving product visibility, analyzing buyer-intent keywords, and identifying user experience improvements for higher conversions.",
-
+        heading: "Optimize Your Website’s Performance with <span class='text-[#207DE9]'> Comprehensive <br/> SEO Audit </span> Services.",
+        para: "Identify and fix SEO issues with our in-depth audit services. Our expert analysis covers technical, on-page, and off-page factors to enhance search visibility, boost website performance, and ensure long-term growth in search rankings.",
+    
         boostContent: [
             {
-                navigator: "Optimized Product Categories SEO Audit",
-                matters: "Product category pages are often the most searched pages on an E-commerce website. Our SEO audit ensures that these categories are properly optimized for both users and search engines.",
+                name: "Technical SEO Audit",
+                whyMatters: "A deep technical analysis helps uncover issues affecting crawlability, indexing, and overall site performance. Fixing these technical flaws improves rankings and ensures a seamless user experience.",
                 includes: [
-                    "Audit category titles and meta descriptions for keyword optimization.",
-                    "Ensure clean, SEO-friendly URLs."
-                ]
+                    "Comprehensive crawl analysis to detect errors and broken links.",
+                    "Assessment of website speed, mobile-friendliness, and Core Web Vitals.",
+                    "Indexation and XML sitemap evaluation for better search engine accessibility.",
+                ],
+                benifit: "Enhances website functionality, ensures smooth indexing, and improves search engine rankings by fixing technical issues.",
             },
+    
             {
-                navigator: "Optimized Product Pages SEO Audit",
-                matters: "Product pages are your primary revenue drivers. We ensure these pages are fully optimized to attract high-converting traffic.",
+                name: "On-Page SEO Audit",
+                whyMatters: "On-page SEO elements impact how search engines understand and rank your pages. Optimizing metadata, content, and internal linking improves visibility and relevance.",
                 includes: [
-                    "Audit and enhance product descriptions, images, and technical SEO elements.",
-                    "Ensure rich snippets and schema markups are properly implemented."
-                ]
+                    "Detailed review of meta titles, descriptions, headers, and keyword placement.",
+                    "Analysis of content quality, readability, and engagement metrics.",
+                    "Internal linking structure evaluation to improve website navigation.",
+                ],
+                benifit: "Optimizes content relevance, improves user engagement, and ensures better rankings with a well-structured page strategy.",
             },
+    
             {
-                navigator: "SEO for Mobile Optimization",
-                matters: "Mobile optimization is key for e-commerce success. We audit your mobile site to ensure it’s optimized for both speed and usability.",
+                name: "Website Performance & Speed Analysis",
+                whyMatters: "Website speed and performance are crucial for user experience and SEO. A slow website leads to higher bounce rates and lower rankings.",
                 includes: [
-                    "Audit mobile page load speeds.",
-                    "Ensure responsive design and mobile-first indexing."
-                ]
+                    "Page speed and Core Web Vitals assessment for better performance.",
+                    "Optimization recommendations for faster loading times.",
+                    "Mobile responsiveness audit to ensure compatibility across devices.",
+                ],
+                benifit: "Reduces page load times, enhances user satisfaction, and boosts rankings by improving site speed and performance.",
             },
+    
             {
-                navigator: "SEO for User Experience (UX)",
-                matters: "A good user experience can drive higher conversions. Our audit evaluates your site's UX and identifies areas for improvement.",
+                name: "Backlink & Off-Page SEO Audit",
+                whyMatters: "Your backlink profile directly impacts your domain authority and rankings. Analyzing link quality helps identify harmful links and uncover new opportunities for growth.",
                 includes: [
-                    "Analyze site navigation, page layout, and product discovery process.",
-                    "Identify ways to enhance site speed and overall user flow."
-                ]
-            }
-        ]
+                    "Evaluation of backlink quality, toxicity, and spam risks.",
+                    "Competitor backlink analysis to identify high-authority link opportunities.",
+                    "Recommendations for building strong, relevant backlinks.",
+                ],
+                benifit: "Improves domain authority, enhances trust signals, and strengthens your website’s credibility in search engines.",
+            },
+    
+            {
+                name: "Competitor SEO Audit & Benchmarking",
+                whyMatters: "Understanding how competitors perform in search rankings helps identify gaps and opportunities to refine your SEO strategy.",
+                includes: [
+                    "Keyword and ranking analysis of top competitors.",
+                    "Identification of content gaps and untapped SEO opportunities.",
+                    "Comparative study of backlink strategies for competitive advantage.",
+                ],
+                benifit: "Provides valuable insights to outperform competitors and gain a strategic edge in search rankings.",
+            },
+    
+            {
+                name: "Content Quality & SEO Audit",
+                whyMatters: "Content plays a crucial role in SEO success. Analyzing existing content helps improve engagement, keyword optimization, and search relevance.",
+                includes: [
+                    "Evaluation of content structure, keyword density, and readability.",
+                    "Identifying outdated or underperforming content for updates.",
+                    "Recommendations for improving user engagement and conversions.",
+                ],
+                benifit: "Enhances content effectiveness, improves rankings, and increases user engagement with high-quality, SEO-friendly content.",
+            },
+    
+            {
+                name: "Schema Markup & Structured Data Audit",
+                whyMatters: "Properly implemented structured data improves how search engines interpret and display content, enhancing visibility in search results.",
+                includes: [
+                    "Analysis of existing schema markup for errors or missing elements.",
+                    "Implementation recommendations for rich snippets and enhanced SERP results.",
+                    "Ensuring compatibility with Google, Bing, and other search engines.",
+                ],
+                benifit: "Boosts search appearance, increases click-through rates, and improves search engine understanding of website content.",
+            },
+        ],
     },
+    
 
     
     tailoredSection: {
-        "heading": "Tailored <span class='text-[#207DE9]'> Specialized <br/> International SEO </span> for Every Platform",
-        "para": "Every E-commerce platform has unique SEO challenges and opportunities worldwide. Our team provides <strong> customized international SEO strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher globally, drives organic traffic from different regions, and converts visitors into loyal customers.",
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized Audit SEO </span> For Every Type of Business",
+        para: "A thorough SEO audit is essential for identifying critical issues and optimizing your website's performance. Our Audit SEO services are tailored to your business needs, ensuring that your site remains technically sound, optimized for search engines, and ready for growth.",
 
-        "tailoredItems": [
+        tailoredItems: [
             {
-                "heading": "Shopify International SEO Services",
-                "para": "Shopify powers millions of online stores worldwide, but standing out globally requires specific international SEO tactics. Our Shopify SEO strategies are designed to maximize global product visibility, improve regional rankings, and drive more international sales.",
-                "offers": [
-                    "<strong>Product Page Optimization: </strong>SEO-optimized product titles, descriptions, and images to improve global rankings",
-                    "<strong>Content Strategy: </strong>Creating blogs, product guides, and FAQs to target buyer intent across different regions.",
-                    "<strong>Technical SEO Fixes: </strong>Improving page load speed, mobile-friendliness, and site structure for international users.",
-                    "<strong>Schema Markup: </strong>Adding product, review, and stock schema for rich international results on Google"
+                heading: "Identify & Fix Technical SEO Issues",
+                para: "A technical SEO audit helps uncover hidden issues affecting your website’s search visibility. We analyze every aspect of your site’s infrastructure to ensure it’s fully optimized for crawling and indexing.",
+                offers: [
+                    "<strong>Comprehensive Site Crawl Analysis:</strong> Detect crawl errors, broken links, and indexing issues.",
+                    "<strong>Improve Site Speed & Performance:</strong> Identify speed bottlenecks and optimize Core Web Vitals.",
+                    "<strong>Mobile Usability Optimization:</strong> Ensure a seamless experience across all devices.",
+                    "<strong>Fix Technical Issues for Better Rankings:</strong> Resolve site errors to improve organic search rankings."
                 ],
-                "chooseUs": "Our global experience with Shopify ensures measurable results, improved search rankings, and higher conversions worldwide.",
-                "image": "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+
             {
-                "heading": "WooCommerce International SEO Services",
-                "para": "WooCommerce offers global flexibility, but optimizing it for international markets requires expertise. Our WooCommerce SEO services help businesses reach customers worldwide by optimizing stores, targeting region-specific keywords, and improving site performance.",
-                "offers": [
-                    "<strong>Technical SEO Audits: </strong>Identifying and fixing duplicate content, slow speeds, and indexing issues for global visibility.",
-                    "<strong>Keyword Mapping: </strong>Aligning international keywords to product and category pages for better global targeting.",
-                    "<strong>Content Optimization: </strong>Creating SEO-rich product descriptions, blogs, and landing pages optimized for different regions.",
-                    "<strong>Performance Enhancements: </strong>Speed optimization, schema markup, and Core Web Vitals fixes for global users."
+                heading: "Enhance On-Page SEO for Higher Visibility",
+                para: "Optimized on-page elements are crucial for better search rankings. Our Audit SEO approach focuses on refining content, meta tags, and internal linking for maximum impact.",
+                offers: [
+                    "<strong>Meta Tags & Headers Optimization:</strong> Improve title tags, meta descriptions, and header structure.",
+                    "<strong>Keyword & Content Relevance Analysis:</strong> Ensure your content is aligned with user search intent.",
+                    "<strong>Structured Data & Schema Markup:</strong> Implement schema for better SERP visibility.",
+                    "<strong>Boost Search Rankings with On-Page Fixes:</strong> Optimize on-page factors for higher organic traffic."
                 ],
-                "chooseUs": "We combine WordPress expertise with proven international SEO strategies to deliver higher rankings, better global performance, and increased ROI.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+
             {
-                "heading": "Magento International SEO Services",
-                "para": "Magento is a powerhouse for large stores globally, but its complexity creates SEO challenges for international markets. Our Magento SEO services focus on optimizing your store for performance, global search visibility, and scalability.",
-                "offers": [
-                    "<strong>Advanced Keyword Strategy: </strong>Targeting high-traffic international keywords for product and category pages.",
-                    "<strong>Technical SEO: </strong>Fixing indexing errors, duplicate content, and improving site speed for global reach.",
-                    "<strong>Custom Schema Implementation: </strong>Adding product, review, and breadcrumb schema to boost rankings across regions"
+                heading: "Strengthen Website Authority with Backlink Analysis",
+                para: "Backlinks play a crucial role in search rankings. Our SEO audit evaluates your backlink profile to remove toxic links and strengthen your domain authority.",
+                offers: [
+                    "<strong>Backlink Quality Assessment:</strong> Identify and remove toxic or spammy links.",
+                    "<strong>Authority Building Strategy:</strong> Analyze and improve your link-building efforts.",
+                    "<strong>Competitor Backlink Benchmarking:</strong> Compare your profile with top competitors.",
+                    "<strong>Strengthen SEO with High-Quality Links:</strong> Improve your site’s authority and trust score."
                 ],
-                "chooseUs": "We specialize in handling Magento's complexity, ensuring large product catalogs rank high and convert better in international markets.",
-                "image": "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+
             {
-                "heading": "BigCommerce International SEO Services",
-                "para": "BigCommerce offers robust tools for global e-commerce success, but SEO is key to maximizing its international potential. Our BigCommerce SEO strategies focus on delivering consistent traffic and sales from across the world.",
-                "offers": [
-                    "<strong>On-Page Optimization: </strong>Optimizing product pages, category structures, and internal links for international customers.",
-                    "<strong>Content Strategy: </strong>Creating keyword-optimized content like product descriptions, guides, and blogs for a global audience.",
-                    "<strong>Mobile SEO: </strong>Ensuring fast, mobile-friendly pages to attract on-the-go shoppers globally."
+                heading: "Ensure Proper Indexing & Crawlability",
+                para: "If search engines can’t properly index your website, your rankings will suffer. We analyze indexing issues, robots.txt, sitemaps, and canonical tags to ensure smooth search engine visibility.",
+                offers: [
+                    "<strong>Google Indexing & Crawlability Check:</strong> Ensure all important pages are properly indexed.",
+                    "<strong>Fix Robots.txt & Sitemap Errors:</strong> Optimize robots.txt and XML sitemaps for better crawling.",
+                    "<strong>Canonical & Duplicate Content Audit:</strong> Resolve duplicate content issues with proper canonicalization.",
+                    "<strong>Ensure Smooth Search Engine Visibility:</strong> Optimize site structure for easy indexing."
                 ],
-                "chooseUs": "We leverage BigCommerce's strengths to improve global search visibility, user experience, and conversions.",
-                "image": "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
-            },
-            {
-                "heading": "Wix and Squarespace International SEO Services",
-                "para": "Wix and Squarespace make building stores easy, but achieving global SEO success requires expertise. Our international SEO services for Wix and Squarespace focus on regional visibility and user experience.",
-                "offers": [
-                    "<strong>Site Structure Optimization: </strong>Creating clean, SEO-friendly navigation and URLs for international users",
-                    "<strong>Content Optimization: </strong>Improving product pages, blogs, and FAQs to attract global organic traffic",
-                    "<strong>Local SEO: </strong>Optimizing for local searches to reach international customers in specific regions."
-                ],
-                "chooseUs": "We help you transform Wix and Squarespace stores into globally SEO-optimized platforms that rank higher and drive sales.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
-            },
-            {
-                "heading": "Multi-Platform International SEO Consulting",
-                "para": "For businesses using multiple platforms (Shopify, WooCommerce, Magento), we offer custom international consulting services to streamline your SEO strategies across all systems for better global reach.",
-                "offers": [
-                    "<strong>Comprehensive SEO Audits: </strong>Identify SEO issues across multiple platforms to enhance global reach.",
-                    "<strong>Keyword Harmonization: </strong>Optimize keywords consistently across all platforms for international visibility.",
-                    "<strong>Content Planning: </strong>Unified content strategies for multi-platform international e-commerce."
-                ],
-                "chooseUs": "We ensure seamless international SEO execution across multiple platforms to maximize global growth and ROI.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             }
         ]
     },
 
     //PowerBy starts here 
     powerBySection: {
-        heading: "Content SEO <span class= 'text-[#207DE9]'> Data-Driven Insights  </span> for Maximum Visibility",
-        para: "Harness the power of high-quality content to elevate your website's search rankings, attract the right audience, and drive more engagement.",
-
+        heading: "Audit SEO <span class='text-[#207DE9]'> Data-Driven Insights </span> for Website Health & Performance",
+        para: "Uncover critical SEO issues, enhance website performance, and optimize for higher search rankings with an in-depth Audit SEO approach.",
 
         statistics: [
 
-            { benefit: "Increase in Organic Traffic", benefitText: "Optimized content helps search engines better understand your pages, ranking them higher for relevant keywords and bringing in a steady stream of organic visitors.", increasePercentage: 250, explanation: "A well-structured content strategy with keyword-focused blogs, product pages, and category descriptions ensures that your brand gets noticed by search engines and potential customers alike." },
+            { benefit: "Technical Issues Identified & Fixed", benefitText: "A detailed audit helps detect and resolve site errors, ensuring optimal crawlability and indexability.", increasePercentage: 300, explanation: "By identifying broken links, slow-loading pages, and crawl errors, businesses can significantly improve their search engine visibility and overall site health." },
 
-            { benefit: "Improvement in Engagement & Dwell Time", benefitText: "Engaging and informative content keeps visitors on your website longer, reducing bounce rates and increasing conversions.", increasePercentage: 120, explanation: "Crafting compelling, reader-friendly content ensures users stay on your site, interact with your brand, and take action-whether it's making a purchase, signing up, or engaging with your business." },
+            { benefit: "Increase in Website Speed & Performance", benefitText: "Optimized site structure and technical fixes lead to faster load times and better user experience.", increasePercentage: 200, explanation: "Addressing speed bottlenecks and enhancing Core Web Vitals improves rankings, reduces bounce rates, and increases user engagement." },
 
-            { benefit: "ROI from Local SEO Investments", benefitText: "Content marketing is one of the highest ROI strategies, generating long-term results without ongoing ad spend.", increasePercentage: 350, explanation: "Consistently publishing high-quality, SEO-optimized content drives sustainable growth, improves rankings, and establishes your brand as an industry authority." },
+            { benefit: "Improvement in Search Rankings", benefitText: "Fixing on-page and technical SEO issues boosts search engine trust and rankings.", increasePercentage: 180, explanation: "A comprehensive SEO audit ensures that metadata, structured data, and content optimization align with best practices, leading to improved search visibility and organic traffic growth." }
 
-        ],
+        ]
     },
     //PowerBy ends here 
 
     approachSection: {
-        heading: "Our Proven E-commerce <span class= 'text-[#207DE9]'> SEO Strategy </span>",
-        para: "Get everything needed to develop, implement, and manage a revenue-generating SEO plan with our ecommerce SEO services",
+        heading: "Our Proven <span class= 'text-[#207DE9]'> Audit SEO Strategy </span>",
+        para: "Discover and fix critical SEO issues with our structured Audit SEO approach. We analyze every aspect of your website to enhance search visibility, performance, and user experience.",
 
         approaches: [
-            { heading: "Keyword Research Tailored to Products", detail: 'Identify high-intent, product-specific keywords your customers are searching for. Helps your products appear directly in search results when customers are ready to buy.', icon: <FaMagnifyingGlass /> },
+            { heading: "Comprehensive Technical SEO Audit", detail: "Identify technical SEO issues like broken links, crawl errors, and indexing problems to ensure seamless search engine visibility.", icon: <MdBugReport /> },
 
-            { heading: "Product Page Optimization", detail: 'Optimize product titles, descriptions, and alt text for images with targeted keywords. Boosts individual product rankings and increases discoverability in search engines.', icon: <FaCartShopping /> },
+            { heading: "Website Speed & Performance Optimization", detail: "Analyze Core Web Vitals, compress images, and optimize scripts to enhance page load speed and user experience.", icon: <AiOutlineDashboard /> },
 
-            { heading: "Backlink Building for E-commerce", detail: 'Acquire backlinks from niche-relevant, high-authority websites to improve your store’s credibility. Builds trust with search engines, helping your site rank higher.', icon: <FaLink /> },
+            { heading: "Mobile Usability & Responsiveness Analysis", detail: "Ensure a mobile-friendly experience with responsive design, fast-loading pages, and seamless navigation.", icon: <MdOutlineMobileFriendly /> },
 
-            { heading: " Mobile-First SEO Implementation", detail: 'Ensure your e-commerce store is fully optimized for mobile devices with fast load times and seamless navigation. Mobile users make up a large percentage of online shoppers, and search engines prioritize mobile-friendly sites.', icon: <MdOutlineMobileFriendly /> },
+            { heading: "On-Page SEO & Content Audit", detail: "Review meta tags, header structures, keyword optimization, and internal linking for improved search rankings.", icon: <FaFileAlt /> },
 
-            { heading: "Optimizing for Site Speed", detail: 'Minimize load times by compressing images, optimizing scripts, and leveraging browser caching. Faster sites rank higher and reduce cart abandonment rates.', icon: <GrOptimize /> },
+            { heading: "Backlink Profile & Toxic Link Removal", detail: "Analyze backlink quality, remove harmful links, and develop an authority-building link strategy.", icon: <FaLinkSlash /> },
 
-        ],
+            { heading: "Indexing & Crawlability Assessment", detail: "Ensure proper indexing with optimized robots.txt, XML sitemaps, and canonical tags to prevent duplicate content.", icon: <RiSearchEyeLine /> }
+        ]
     },
 
     pathToSuccess: {
-        heading: "<span class='text-[#207DE9]'>V</span>.<span class='text-[#207DE9]'>I</span>.<span class='text-[#207DE9]'>D</span>.<span class='text-[#207DE9]'>E</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>S</span> Your Path to Video SEO Success",
+        heading: "<span class= 'text-[#207DE9]'>G</span>.<span class= 'text-[#207DE9]'>R</span>.<span class= 'text-[#207DE9]'>O</span>.<span class= 'text-[#207DE9]'>W</span>.<span class= 'text-[#207DE9]'>T</span>.<span class= 'text-[#207DE9]'>H</span> Your Path to Audit SEO Success",
+
         paths: [
             {
-                letter: "V",
-                heading: "Video Content Optimization",
-                matters: "Optimizing video content for search engines is crucial for improving visibility. It ensures your videos are discoverable and engaging to your target audience.",
+                letter: "G", heading: "Gather Critical SEO Insights", matters: "A successful SEO audit starts with gathering data on technical performance, content gaps, and backlink quality. Understanding where your site stands is the first step to improvement.", 
                 how: [
-                    "Optimize video titles, descriptions, and tags with relevant keywords.",
-                    "Create custom thumbnails and add captions for better user engagement.",
-                    "Leverage video transcripts for better search engine indexing."
-                ],
-                outcome: "Better video visibility and engagement through optimized content."
+                    "Conduct a full website crawl to identify technical issues.", 
+                    "Analyze search visibility, keyword performance, and user experience.", 
+                    "Assess backlink profile for toxic or low-quality links."],
+                outcome: "A clear roadmap for fixing SEO issues and improving search rankings."
             },
             {
-                letter: "I",
-                heading: "Improve Video Technical SEO",
-                matters: "Technical SEO is critical for videos, impacting how easily search engines crawl and index your content. A technical SEO audit helps improve discoverability.",
+                letter: "R", heading: "Resolve Technical SEO Errors", matters: "Technical SEO issues can prevent search engines from properly indexing and ranking your site. Fixing these issues ensures that your website is optimized for search visibility.", 
                 how: [
-                    "Optimize video loading speed to reduce bounce rates.",
-                    "Ensure proper video hosting and embedding to enhance SEO.",
-                    "Use video schema markup to enable rich snippets in search results."
-                ],
-                outcome: "Faster loading, better crawling, and improved user experience."
+                    "Identify and fix broken links, redirect errors, and duplicate content.", 
+                    "Optimize robots.txt and XML sitemaps for better indexing.", 
+                    "Improve website speed and Core Web Vitals for better performance."],
+                outcome: "A technically sound website that is easy for search engines to crawl and rank."
             },
-            {
-                letter: "D",
-                heading: "Discover Optimization Opportunities",
-                matters: "SEO audits help uncover new opportunities for video optimization, improving rankings and driving more traffic to your content.",
-                how: [
-                    "Identify trending video topics and keywords for targeting.",
-                    "Analyze competitors’ video content and ranking strategies.",
-                    "Review video engagement metrics to find areas for improvement."
-                ],
-                outcome: "Increased engagement and new opportunities for video optimization."
-            },
-            {
-                letter: "E",
-                heading: "Enhance Video Performance",
-                matters: "Improving the performance of your video is key to boosting rankings. Metrics such as watch time and audience retention are crucial for SEO.",
-                how: [
-                    "Improve video length and structure for better user engagement.",
-                    "Encourage likes, comments, and shares to boost social signals.",
-                    "Increase watch time by creating high-quality, relevant content."
-                ],
-                outcome: "Better performance in search rankings and user engagement."
-            },
+
             {
                 letter: "O",
-                heading: "Optimize for Mobile",
-                matters: "Mobile optimization ensures that your video content is accessible to a broader audience, including mobile users who form a large part of the audience.",
+                heading: "Optimize On-Page Elements",
+                matters: "SEO isn’t just about fixing errors; it’s about making content work better. Optimizing meta tags, headings, and keyword usage ensures pages perform well in search results.",
                 how: [
-                    "Ensure videos are responsive and load well on mobile devices.",
-                    "Optimize video player size and functionality for mobile views.",
-                    "Use mobile-friendly video descriptions and calls to action."
-                ],
-                outcome: "Improved user experience on mobile, leading to higher engagement."
+                    "Update meta tags, headers, and internal linking for better readability.",
+                    "Ensure keyword relevance across title tags, descriptions, and content.",
+                    "Implement structured data (schema markup) for enhanced SERP visibility."],
+                outcome: "Improved rankings and higher organic traffic from well-optimized pages."
             },
+
             {
-                letter: "S",
-                heading: "Strengthen Video SEO Strategy",
-                matters: "A solid SEO strategy will continually improve video rankings and engagement. Ongoing analysis and strategy optimization ensure consistent growth.",
+                letter: "W",
+                heading: "Work on Mobile & User Experience",
+                matters: "With mobile-first indexing, optimizing for mobile and user experience is essential. A slow, unresponsive website can impact rankings and conversions.",
                 how: [
-                    "Review video performance regularly to track metrics.",
-                    "Update video content with new keywords and trends.",
-                    "Strengthen backlinking and share video content across channels."
-                ],
-                outcome: "A stronger, more effective video SEO strategy leading to long-term success."
+                    "Ensure full mobile responsiveness for all devices.",
+                    "Optimize page load speed by compressing images and reducing server response time.",
+                    "Improve navigation and UX design for better user engagement."],
+                outcome: "Higher mobile search rankings and reduced bounce rates."
+            },
+
+            {
+                letter: "T",
+                heading: "Track Indexing & Crawlability",
+                matters: "If search engines can’t index your pages properly, they won’t rank. Tracking indexing and crawlability ensures all important pages are discoverable.",
+                how: [
+                    "Check Google Search Console for indexing errors and crawl issues.",
+                    "Fix canonicalization errors to avoid duplicate content problems.",
+                    "Ensure hreflang tags are correctly set up for multilingual SEO (if applicable)."],
+                outcome: "Improved discoverability and accurate indexing of all key pages."
+            },
+
+            {
+                letter: "H",
+                heading: "Harness Data for Continuous Improvements",
+                matters: "SEO auditing isn’t a one-time task. Regular tracking and analysis help maintain long-term search visibility and website performance.",
+                how: [
+                    "Use analytics tools to monitor rankings, traffic, and user behavior.",
+                    "Identify new technical issues and fix them before they impact rankings.",
+                    "Refine and update SEO strategies based on performance data."],
+                outcome: "Consistent organic growth and a well-maintained, SEO-friendly website."
             }
         ]
     },
 
     platformSection: {
-        heading: "We Optimize Content SEO Across These Platforms",
-        para: "Our content SEO experts work across various platforms to enhance visibility and engagement. Whether you run a blog, an eCommerce store, or a corporate website, we tailor our strategies to maximize your content's reach.",
+        heading: "We Conduct <span class= 'text-[#207DE9]'> Audit SEO </span> Across These Platforms",
+        para: "Our Audit SEO experts analyze websites on various platforms to uncover technical issues, improve search visibility, and enhance overall website performance. Whether you operate a corporate site, an eCommerce store, or an enterprise platform, our audit strategies ensure peak optimization.",
 
         platforms: [
             {
-                heading: "Popular Platforms for Content Optimization", 
+                heading: "Popular Platforms for SEO Audits", 
                 items: [
-                    { itemName: "WordPress ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
-                    { itemName: "Shopify", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
-
-                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
-
-                ],
-                
+                    { itemName: "WordPress", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
+                    { itemName: "Shopify", itemImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
+                    { itemName: "BigCommerce", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"}
+                ]
             },
 
             {
-                heading: "Enterprise-Level Content Solutions", items: [
-                    { itemName: "HubSpot CMS", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
-                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
-                    { itemName: "Sitecore ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
-                ],
+                heading: "Enterprise-Level SEO Audit Solutions", 
+                items: [
+                    { itemName: "HubSpot CMS", itemImg: "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
+                    { itemName: "Drupal", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
+                    { itemName: "Sitecore", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"}
+                ]
             },
 
             {
-                heading: "Content Performance & Analytics Platforms", items: [
-                    { itemName: "Google Search Console", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
-                    { itemName: "SEMrush & Ahrefs", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
-
-                ],
-            },
-
+                heading: "SEO Audit & Performance Tools", 
+                items: [
+                    { itemName: "Google Search Console", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
+                    { itemName: "SEMrush & Ahrefs", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
+                    { itemName: "Google PageSpeed Insights", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAX9uY0DO3cT65m64Usv7XX0-VX0v_7Ko1PA&s"}
+                ]
+            }
         ]
     },
 
@@ -2654,66 +2647,66 @@ export const AuditSEOData = {
     },
 
     pricingSection: {
-        heading: "Transparent Pricing for Content SEO",
-        para: "Discover our clear and flexible Content SEO pricing plans designed to grow with your online business. From boosting site traffic to enhancing service and product visibility in your community, our plans are crafted to provide tangible results.",
-
+        heading: "Transparent <span class= 'text-[#207DE9]'>  Pricing </span>  for Audit SEO",
+        para: "Our Audit SEO pricing plans are designed to identify and fix critical SEO issues, ensuring your website operates at peak performance. Whether you're a small business or an enterprise, our plans provide detailed analysis and actionable recommendations.",
+    
         pricingCards: [
             {
-                header: "Starter Plan",                //<strong>
-                price: "$2,000/month",
-                fitFor: "Small businesses & startups looking to build a strong content foundation.",
+                header: "Basic Audit Plan",
+                price: "$1,500/one-time",
+                fitFor: "Small businesses & startups looking for an in-depth SEO health check.",
                 youGet: [
-                    "Keyword research & topic suggestions (up to 10 keywords)",
-                    "4 SEO-optimized blog posts (1,000 words each)",
-                    "On-page optimization (meta titles, descriptions, headers) Internal linking strategy",
-                    "Monthly performance report & recommendations",
-                ],
+                    "Comprehensive technical SEO audit",
+                    "On-page SEO analysis (meta tags, headings, keyword usage)",
+                    "Website speed & Core Web Vitals assessment",
+                    "Basic backlink analysis & toxic link detection",
+                    "Detailed audit report with recommendations"
+                ]
             },
             {
-                header: "Growth Plan",
-                price: "$4,500/month",
-                fitFor: "Businesses looking to scale their content marketing efforts",
+                header: "Advanced Audit Plan",
+                price: "$3,500/one-time",
+                fitFor: "Growing businesses needing a deeper audit with actionable fixes.",
                 youGet: [
-                    "All features from the Starter Plan",
-                    "8 SEO-optimized blog posts (1,500 words each)",
-                    "SEO-friendly product descriptions (up to 15 pages) Content calendar planning & publishing",
-                    "Advanced internal linking & content silo strategy Competitor content gap analysis",
-
-                ],
+                    "All features from the Basic Audit Plan",
+                    "Mobile-friendliness & user experience audit",
+                    "Internal linking structure & content optimization insights",
+                    "Schema markup & structured data analysis",
+                    "Competitor benchmarking & SEO strategy recommendations"
+                ]
             },
             {
-                header: "Authority Plan ",
-                price: "$7,000/month",
-                fitFor: "Large businesses & eCommerce stores focused on industry authority.",
+                header: "Professional Audit Plan",
+                price: "$6,000/one-time",
+                fitFor: "Enterprises & large businesses requiring a full-scale SEO audit.",
                 youGet: [
-                    "All features from the Growth Plan",
-                    "12 premium blog posts (2,000+ words each) ",
-                    "High-quality guest post backlinks (3 per month)",
-                    "Video & infographic content optimization",
-                    "Conversion-focused landing pages.(up to 5 pages)",
-                    "Monthly content performance audits",
-                ],
+                    "All features from the Advanced Audit Plan",
+                    "Comprehensive backlink profile audit & disavow strategy",
+                    "Indexing & crawlability assessment",
+                    "Hreflang & multilingual SEO evaluation",
+                    "Monthly follow-up audit report & progress tracking"
+                ]
             },
             {
-                header: "Elite Plan",
-                price: "$12,000/month",
-                fitFor: "Enterprises & brands aiming for content dominance",
+                header: "Enterprise SEO Audit Plan",
+                price: "$10,000/one-time",
+                fitFor: "Large-scale enterprises & eCommerce stores requiring continuous optimization.",
                 youGet: [
-                    "All features from the Authority Plan",
-                    "20+ SEO-optimized blog posts (3,000+ words each)",
-                    " Al-driven content optimization & NLP keyword strategy",
-                    "E-book & whitepaper content creation (1 per month)",
-                    "Advanced content automation & distribution strategy",
-                    "Dedicated content strategist & SEO consul.",
-                ],
-            },
-        ],
+                    "All features from the Professional Audit Plan",
+                    "AI-driven audit insights & NLP keyword analysis",
+                    "Conversion rate optimization (CRO) audit",
+                    "E-commerce SEO analysis & structured data improvements",
+                    "Ongoing support & consulting from an SEO strategist"
+                ]
+            }
+        ]
     },
 
     reviewsSection: {
-        heading: "Join Our Community of <span class='text-[#207CE7]'>Thriving Ecommerce Brands</span>",
-        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!"
+        heading: "Join Our Community of <span class='text-[#207CE7]'>Successful Businesses with Audit SEO</span>",
+        para: "Every SEO audit we conduct is aimed at uncovering critical issues and providing actionable insights to boost search visibility, site performance, and user experience. Our clients’ testimonials showcase the real impact our audit strategies have had on their digital success. Read their stories and see how our Audit SEO services have transformed their websites!"
     }
+    
 
 }
 
@@ -2726,232 +2719,215 @@ export const VideoSEOData = {
     },
 
     customPricing: {
-
-        heading: 'Content SEO Services Custom Pricing Tailored to Your Business Goals',
-
-        mainHeading: "Custom Content SEO Package",
-
-        overview: "Designed for businesses looking to boost organic traffic and enhance content visibility, this package focuses on strategic content optimization, keyword integration, and engagement-driven writing to improve search rankings and user experience.",
-
+        heading: "Video SEO Services Custom Pricing Tailored to Your Content’s Success",
+        
+        mainHeading: "Custom <br/> Video SEO <br/> Package",
+        
+        overview: "Designed for businesses and content creators looking to maximize their video reach, this package provides a deep analysis of video optimization strategies, technical enhancements, and audience engagement metrics. We deliver actionable insights to improve video rankings, increase visibility, and drive more engagement across platforms.",
+        
         benifits: [
-            { heading: "Higher Organic Traffic :  ", description: "Content optimized for search engines to attract relevant visitors" },
-            { heading: "Better Engagement : ", description: " Compelling and informative content keeps users on your site longer. " },
-            { heading: "Increased Conversions : ", description: "SEO-optimized copy that converts visitors into customers." },
-
+            { heading: "Boost Video Rankings:", description: "Optimize metadata, thumbnails, and descriptions to rank higher in search results." },
+            { heading: "Increase Video Engagement:", description: "Enhance user interaction with strategic content structuring and watch-time optimization." },
+            { heading: "Expand Audience Reach:", description: "Utilize keyword research and distribution strategies to attract a global audience." }
         ],
-
+        
         keyFeatures: [
-            { heading: "SEO-Optimized Blog Content ", description: "Engaging, high-ranking articles tailored for your audience" },
-            { heading: "Product Page Optimization ", description: " Keyword-rich product descriptions for better discoverability. " },
-            { heading: "Category Page SEO ", description: "Structuring category content for better rankings and navigation." },
-            { heading: "Meta Tag & Header Optimization", description: "Improved titles, meta descriptions, and headers for search visibility." },
-            { heading: "Internal Linking Strategy", description: "Enhancing navigation and link equity for SEO benefits." },
-            { heading: "Content Performance Tracking ", description: "Regular audits to measure and refine content effectiveness" },
-            { heading: "Competitor Content Research ", description: "Gaining insights to outperform competitors in search rankings. " },
-            { heading: "Schema Markup for Rich Snippets", description: "Enhancing content visibility in SERPs with structured data." },
-
+            { heading: "Video Platform Optimization", description: "Optimize titles, descriptions, and tags for higher discoverability." },
+            { heading: "CTR Enhancement", description: "Design eye-catching thumbnails that improve click-through rates." },
+            { heading: "Video Metadata ", description: "Implement structured data to help search engines understand video content." },
+            { heading: "Watch-Time Strategies", description: "Optimize video structure to keep viewers engaged longer." },
+            { heading: "Competitive Analysis", description: "Identify high-performing keywords and analyze competitor strategies." },
+            { heading: "Content Repurposing", description: "Distribute and optimize videos for YouTube, TikTok, Instagram, and more." },
+            { heading: "Technical Video SEO Audit", description: "Check video load times, mobile-friendliness, and performance metrics." },
+            { heading: "Comprehensive Report ", description: "Detailed insights with an action plan for long-term video growth." }
         ],
-
-        startingAt: "$4200/Month",
+        
+        startingAt: "$1200/One-Time"
     },
 
     
 
     boostSection: {
-        heading: "Boost Your Video Performance with <span class='text-[#207DE9]'>Specialized <br/> Video SEO</span> Services.",
-        para: "Emphasize the unique challenges and opportunities of video SEO, such as improving video visibility, optimizing for target keywords, and enhancing user experience to drive engagement.",
-
+        heading: "Optimize Your Video’s Visibility with <span class='text-[#207DE9]'> Comprehensive <br/> Video SEO </span> Services.",
+        para: "Maximize your video content’s reach with our in-depth Video SEO services. Our expert analysis covers metadata optimization, audience engagement strategies, and platform-specific enhancements to improve search rankings, watch time, and overall performance.",
+    
         boostContent: [
             {
-                navigator: "Optimized Video Titles and Descriptions",
-                matters: "Video titles and descriptions are crucial for video SEO. Optimizing these ensures that videos are discoverable by search engines and users alike.",
+                name: "Video Metadata Optimization",
+                whyMatters: "Well-optimized titles, descriptions, and tags help search engines and video platforms understand and rank your videos effectively.",
                 includes: [
-                    "Incorporating target keywords in video titles and descriptions.",
-                    "Using clear and compelling titles to attract clicks.",
-                    "Writing detailed descriptions with keywords, timestamps, and links."
+                    "Keyword-rich title and description optimization.",
+                    "Strategic use of video tags and hashtags for discoverability.",
+                    "Custom video thumbnails designed for higher click-through rates."
                 ],
-                benefit: "Improves video rankings in search results and enhances user engagement.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Improves search rankings, enhances click-through rates, and increases video impressions."
             },
-
+    
             {
-                navigator: "Video Thumbnails Optimization",
-                matters: "Video thumbnails are often the first impression a viewer gets. Optimizing thumbnails increases click-through rates and video views.",
+                name: "Watch-Time Enhancement",
+                whyMatters: "Longer watch times signal quality content to platforms like YouTube, leading to better recommendations and higher rankings.",
                 includes: [
-                    "Designing custom, high-quality thumbnails that reflect the video's content.",
-                    "Using contrasting colors and clear text overlays.",
-                    "Testing thumbnails to see which ones yield the best results."
+                    "Content structuring for maximum retention and engagement.",
+                    "Interactive elements (cards, end screens) for viewer interaction.",
+                    "A/B testing of intros and outros to improve retention rates."
                 ],
-                benefit: "Increases video CTR and attracts more viewers.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Increases audience retention, boosts session duration, and enhances video performance in algorithms."
             },
-
+    
             {
-                navigator: "Mobile-First Video Optimization",
-                matters: "With a significant portion of video views coming from mobile devices, optimizing for mobile is essential to improve viewer retention.",
+                name: "YouTube Optimization",
+                whyMatters: "Optimizing your video for YouTube and other platforms ensures better visibility and discoverability in search results and recommendations.",
                 includes: [
-                    "Ensuring video players are responsive and work well on mobile screens.",
-                    "Optimizing video file sizes for faster loading times on mobile.",
-                    "Making videos accessible on all mobile platforms."
+                    "Channel and playlist optimization for content organization.",
+                    "SEO-friendly video scripting to increase engagement.",
+                    "Utilizing closed captions and transcripts for accessibility and SEO."
                 ],
-                benefit: "Improves user experience on mobile devices and boosts engagement.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Improves video discoverability, increases organic reach, and enhances accessibility."
             },
-
+    
             {
-                navigator: "Video Schema Markup",
-                matters: "Video schema markup helps search engines understand your video content, making it easier to rank in search results and appear in rich snippets.",
+                name: "Off-Page Video SEO",
+                whyMatters: "Off-page SEO plays a crucial role in boosting video authority and attracting traffic from external sources.",
                 includes: [
-                    "Implementing video schema markup to display video previews in search results.",
-                    "Adding metadata like video duration, upload date, and video description.",
-                    "Using schema to improve visibility in video carousels and rich snippets."
+                    "Video embed and backlink strategy to increase authority.",
+                    "Cross-platform promotion for wider audience reach.",
+                    "Influencer and social media collaboration for engagement boosts."
                 ],
-                benefit: "Increases video visibility in search results, leading to more views.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Enhances video authority, drives external traffic, and improves rankings in search results."
             },
-
+    
             {
-                navigator: "Internal Linking for Video Content",
-                matters: "Effective internal linking helps users discover more relevant videos, and it also helps search engines crawl and index video content more efficiently.",
+                name: "Competitor Analysis",
+                whyMatters: "Understanding how competitors optimize their videos provides insights into content strategies and ranking factors.",
                 includes: [
-                    "Linking relevant videos within blog posts, product pages, or other video content.",
-                    "Using keyword-rich anchor text to enhance page relevancy.",
-                    "Creating video playlists to boost engagement and watch time."
+                    "Analyzing competitor video metadata and keyword usage.",
+                    "Identifying top-performing content and engagement strategies.",
+                    "Reverse-engineering backlink and promotion tactics."
                 ],
-                benefit: "Boosts SEO rankings and increases video views through strategic linking.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Gains a competitive advantage, helps refine content strategy, and improves video ranking potential."
             },
-
+    
             {
-                navigator: "Video Site Speed Optimization",
-                matters: "Site speed is essential for video SEO. A faster site improves user experience and enhances video streaming quality.",
+                name: "Video Performance Audit",
+                whyMatters: "A detailed content audit ensures that videos are optimized for both users and search engines, improving engagement and conversion rates.",
                 includes: [
-                    "Compressing video files for faster loading times.",
-                    "Optimizing server response times for video delivery.",
-                    "Using Content Delivery Networks (CDNs) to reduce latency."
+                    "Review of video pacing, structure, and engagement levels.",
+                    "Identifying content gaps and opportunities for improvement.",
+                    "Optimization recommendations for better audience retention."
                 ],
-                benefit: "Faster video loading times improve user experience and reduce bounce rates.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Enhances video effectiveness, increases engagement, and drives more conversions."
             },
-
+    
             {
-                navigator: "Competitor Analysis for Video SEO",
-                matters: "Analyzing competitors' video content and strategies helps uncover opportunities to improve and outperform them in rankings.",
+                name: "Schema Markup Optimization",
+                whyMatters: "Implementing structured data ensures that search engines properly index and display videos with rich snippets for better visibility.",
                 includes: [
-                    "Studying competitors' video titles, descriptions, and tags.",
-                    "Identifying their top-performing videos and content strategy.",
-                    "Reviewing their backlink and engagement strategies for videos."
+                    "Implementation of video schema markup for rich results.",
+                    "Ensuring compatibility with Google and other search engines.",
+                    "Enhancing video appearance in search with key metadata."
                 ],
-                benefit: "Develops a competitive edge by uncovering untapped SEO opportunities.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
-            },
-
-            {
-                navigator: "Conversion-Focused Video Content",
-                matters: "Video content optimized for SEO should also engage and convert visitors. A well-crafted video can guide viewers toward taking action.",
-                includes: [
-                    "Crafting persuasive calls-to-action (CTAs) within videos.",
-                    "Adding interactive elements such as links, annotations, and cards.",
-                    "Optimizing videos for educational, entertaining, and promotional content."
-                ],
-                benefit: "Improves conversion rates by aligning video content with audience intent.",
-                image: "https://png.pngitem.com/pimgs/s/215-2159037_careers-in-digital-marketing-web-development-career-development.png"
+                benifit: "Boosts video search visibility, increases CTR, and improves search engine understanding of video content."
             }
         ]
     },
 
     tailoredSection: {
-        "heading": "Tailored <span class='text-[#207DE9]'> Specialized <br/> International SEO </span> for Every Platform",
-        "para": "Every E-commerce platform has unique SEO challenges and opportunities worldwide. Our team provides <strong> customized international SEO strategies </strong> for platforms like Shopify, WooCommerce, Magento, and more to ensure your store ranks higher globally, drives organic traffic from different regions, and converts visitors into loyal customers.",
-
+        "heading": "Tailored <span class='text-[#207DE9]'> Specialized <br/> Video SEO </span> for Every Platform",
+        "para": "Every video platform has unique SEO challenges and opportunities. Our team provides <strong> customized Video SEO strategies </strong> for platforms like YouTube, Vimeo, TikTok, and more to ensure your content ranks higher, attracts more views, and maximizes engagement.",
+    
         "tailoredItems": [
             {
-                "heading": "Shopify International SEO Services",
-                "para": "Shopify powers millions of online stores worldwide, but standing out globally requires specific international SEO tactics. Our Shopify SEO strategies are designed to maximize global product visibility, improve regional rankings, and drive more international sales.",
+                "heading": "YouTube Video SEO Services",
+                "para": "YouTube is the second-largest search engine, and ranking higher requires a strategic SEO approach. Our YouTube Video SEO strategies focus on optimizing metadata, increasing watch time, and enhancing discoverability.",
                 "offers": [
-                    "<strong>Product Page Optimization: </strong>SEO-optimized product titles, descriptions, and images to improve global rankings",
-                    "<strong>Content Strategy: </strong>Creating blogs, product guides, and FAQs to target buyer intent across different regions.",
-                    "<strong>Technical SEO Fixes: </strong>Improving page load speed, mobile-friendliness, and site structure for international users.",
-                    "<strong>Schema Markup: </strong>Adding product, review, and stock schema for rich international results on Google"
+                    "<strong>Video Metadata Optimization:</strong> Titles, descriptions, and tags optimized for search visibility.",
+                    "<strong>Thumbnail & CTR Enhancement:</strong> Custom thumbnails designed to increase click-through rates.",
+                    "<strong>Audience Retention Strategies:</strong> Structuring videos to boost watch time and engagement.",
+                    "<strong>YouTube Analytics Optimization:</strong> Tracking and improving key performance metrics."
                 ],
-                "chooseUs": "Our global experience with Shopify ensures measurable results, improved search rankings, and higher conversions worldwide.",
+                "chooseUs": "Our expertise in YouTube SEO ensures your videos gain more views, rank higher, and attract a loyal audience.",
                 "image": "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
             {
-                "heading": "WooCommerce International SEO Services",
-                "para": "WooCommerce offers global flexibility, but optimizing it for international markets requires expertise. Our WooCommerce SEO services help businesses reach customers worldwide by optimizing stores, targeting region-specific keywords, and improving site performance.",
+                "heading": "TikTok & Short-Form Video SEO",
+                "para": "Short-form content platforms like TikTok and Instagram Reels require a unique SEO approach. Our strategies help your content get discovered through trending hashtags, keyword-optimized captions, and engagement tactics.",
                 "offers": [
-                    "<strong>Technical SEO Audits: </strong>Identifying and fixing duplicate content, slow speeds, and indexing issues for global visibility.",
-                    "<strong>Keyword Mapping: </strong>Aligning international keywords to product and category pages for better global targeting.",
-                    "<strong>Content Optimization: </strong>Creating SEO-rich product descriptions, blogs, and landing pages optimized for different regions.",
-                    "<strong>Performance Enhancements: </strong>Speed optimization, schema markup, and Core Web Vitals fixes for global users."
+                    "<strong>Hashtag & Keyword Optimization:</strong> Selecting trending and niche hashtags for higher reach.",
+                    "<strong>Engagement Boosting Strategies:</strong> Optimizing content structure for better interactions.",
+                    "<strong>Video Hook & Retention Optimization:</strong> Creating attention-grabbing intros and engaging storytelling.",
+                    "<strong>Cross-Promotion Strategy:</strong> Distributing content across multiple short-form platforms."
                 ],
-                "chooseUs": "We combine WordPress expertise with proven international SEO strategies to deliver higher rankings, better global performance, and increased ROI.",
+                "chooseUs": "We help brands optimize short-form videos for maximum reach, engagement, and algorithmic visibility.",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
             },
             {
-                "heading": "Magento International SEO Services",
-                "para": "Magento is a powerhouse for large stores globally, but its complexity creates SEO challenges for international markets. Our Magento SEO services focus on optimizing your store for performance, global search visibility, and scalability.",
+                "heading": "Vimeo & Professional Video SEO Services",
+                "para": "Vimeo is popular for high-quality video hosting, but optimizing content for SEO requires a different strategy. Our Vimeo Video SEO services focus on enhancing discoverability and audience engagement.",
                 "offers": [
-                    "<strong>Advanced Keyword Strategy: </strong>Targeting high-traffic international keywords for product and category pages.",
-                    "<strong>Technical SEO: </strong>Fixing indexing errors, duplicate content, and improving site speed for global reach.",
-                    "<strong>Custom Schema Implementation: </strong>Adding product, review, and breadcrumb schema to boost rankings across regions"
+                    "<strong>Video Descriptions & Metadata Optimization:</strong> Enhancing video descriptions and titles for SEO.",
+                    "<strong>Backlinking & Off-Page SEO:</strong> Promoting videos through high-authority backlinks.",
+                    "<strong>Embedding Strategies:</strong> Optimizing videos for maximum reach on external websites.",
+                    "<strong>Schema Markup Implementation:</strong> Adding structured data for improved search visibility."
                 ],
-                "chooseUs": "We specialize in handling Magento's complexity, ensuring large product catalogs rank high and convert better in international markets.",
+                "chooseUs": "We specialize in optimizing Vimeo videos for search engines, increasing visibility, and attracting high-quality traffic.",
                 "image": "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
             },
             {
-                "heading": "BigCommerce International SEO Services",
-                "para": "BigCommerce offers robust tools for global e-commerce success, but SEO is key to maximizing its international potential. Our BigCommerce SEO strategies focus on delivering consistent traffic and sales from across the world.",
+                "heading": "Facebook & LinkedIn Video SEO Services",
+                "para": "Social media videos have their own set of ranking factors. Our Video SEO services for Facebook and LinkedIn help boost engagement, visibility, and conversions through algorithm-friendly optimization.",
                 "offers": [
-                    "<strong>On-Page Optimization: </strong>Optimizing product pages, category structures, and internal links for international customers.",
-                    "<strong>Content Strategy: </strong>Creating keyword-optimized content like product descriptions, guides, and blogs for a global audience.",
-                    "<strong>Mobile SEO: </strong>Ensuring fast, mobile-friendly pages to attract on-the-go shoppers globally."
+                    "<strong>Native Video Optimization:</strong> Optimizing videos for platform-specific ranking factors.",
+                    "<strong>Video Captioning & Accessibility:</strong> Adding captions and subtitles for better engagement.",
+                    "<strong>Social Sharing & Distribution Strategy:</strong> Leveraging social media algorithms for higher visibility.",
+                    "<strong>Retargeting & Engagement Metrics Tracking:</strong> Using insights to optimize future content."
                 ],
-                "chooseUs": "We leverage BigCommerce's strengths to improve global search visibility, user experience, and conversions.",
+                "chooseUs": "We maximize your video reach and engagement on social platforms through expert optimization strategies.",
                 "image": "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
             },
             {
-                "heading": "Wix and Squarespace International SEO Services",
-                "para": "Wix and Squarespace make building stores easy, but achieving global SEO success requires expertise. Our international SEO services for Wix and Squarespace focus on regional visibility and user experience.",
+                "heading": "Multi-Platform Video SEO Consulting",
+                "para": "For brands using multiple video platforms, we offer custom Video SEO consulting to streamline optimization strategies across all platforms and maximize reach.",
                 "offers": [
-                    "<strong>Site Structure Optimization: </strong>Creating clean, SEO-friendly navigation and URLs for international users",
-                    "<strong>Content Optimization: </strong>Improving product pages, blogs, and FAQs to attract global organic traffic",
-                    "<strong>Local SEO: </strong>Optimizing for local searches to reach international customers in specific regions."
+                    "<strong>Cross-Platform Optimization:</strong> Unifying video SEO strategies across YouTube, TikTok, Vimeo, and more.",
+                    "<strong>Keyword Strategy for Video SEO:</strong> Ensuring effective keyword usage across platforms.",
+                    "<strong>Content Repurposing & Distribution:</strong> Creating multi-platform strategies for better audience reach."
                 ],
-                "chooseUs": "We help you transform Wix and Squarespace stores into globally SEO-optimized platforms that rank higher and drive sales.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
-            },
-            {
-                "heading": "Multi-Platform International SEO Consulting",
-                "para": "For businesses using multiple platforms (Shopify, WooCommerce, Magento), we offer custom international consulting services to streamline your SEO strategies across all systems for better global reach.",
-                "offers": [
-                    "<strong>Comprehensive SEO Audits: </strong>Identify SEO issues across multiple platforms to enhance global reach.",
-                    "<strong>Keyword Harmonization: </strong>Optimize keywords consistently across all platforms for international visibility.",
-                    "<strong>Content Planning: </strong>Unified content strategies for multi-platform international e-commerce."
-                ],
-                "chooseUs": "We ensure seamless international SEO execution across multiple platforms to maximize global growth and ROI.",
+                "chooseUs": "Our expertise in multi-platform Video SEO ensures your content performs well across all channels.",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
         ]
     },
-
+    
     //PowerBy starts here 
     powerBySection: {
-            heading: "Content SEO <span class= 'text-[#207DE9]'> Data-Driven Insights  </span> for Maximum Visibility",
-            para: "Harness the power of high-quality content to elevate your website's search rankings, attract the right audience, and drive more engagement.",
+        heading: "Video SEO <span class='text-[#207DE9]'> Data-Driven Insights </span> for Maximum Visibility & Engagement",
+        para: "Leverage the power of Video SEO to boost rankings, attract the right audience, and drive higher watch time. Our proven strategies ensure your videos perform well on search engines and video platforms.",
     
+        statistics: [
     
-            statistics: [
+            { 
+                benefit: "Increase in Video Views & Reach", 
+                benefitText: "Optimized video metadata, tags, and descriptions help search engines and platforms rank your videos higher, making them easier to discover.", 
+                increasePercentage: 300, 
+                explanation: "A well-optimized video strategy using keyword-rich titles, engaging descriptions, and structured data ensures your videos appear in search results and recommendations." 
+            },
     
-                { benefit: "Increase in Organic Traffic", benefitText: "Optimized content helps search engines better understand your pages, ranking them higher for relevant keywords and bringing in a steady stream of organic visitors.", increasePercentage: 250, explanation: "A well-structured content strategy with keyword-focused blogs, product pages, and category descriptions ensures that your brand gets noticed by search engines and potential customers alike." },
+            { 
+                benefit: "Improvement in Watch Time & Engagement", 
+                benefitText: "Engaging videos with optimized intros, structured storytelling, and interactive elements keep viewers watching longer.", 
+                increasePercentage: 150, 
+                explanation: "Retention-focused strategies like compelling hooks, timestamps, and calls-to-action encourage users to stay engaged, boosting your rankings on platforms like YouTube and TikTok." 
+            },
     
-                { benefit: "Improvement in Engagement & Dwell Time", benefitText: "Engaging and informative content keeps visitors on your website longer, reducing bounce rates and increasing conversions.", increasePercentage: 120, explanation: "Crafting compelling, reader-friendly content ensures users stay on your site, interact with your brand, and take action-whether it's making a purchase, signing up, or engaging with your business." },
-    
-                { benefit: "ROI from Local SEO Investments", benefitText: "Content marketing is one of the highest ROI strategies, generating long-term results without ongoing ad spend.", increasePercentage: 350, explanation: "Consistently publishing high-quality, SEO-optimized content drives sustainable growth, improves rankings, and establishes your brand as an industry authority." },
-    
-            ],
-    },
+            { 
+                benefit: "Higher ROI from Video Content", 
+                benefitText: "Video SEO is one of the most effective strategies for long-term organic growth, maximizing views without paid promotion.", 
+                increasePercentage: 400, 
+                explanation: "Optimized video content generates sustainable traffic, improves conversions, and enhances brand authority across multiple platforms." 
+            }
+        ]
+    }
+    ,
     //PowerBy ends here 
 
     approachSection: {
@@ -3064,40 +3040,39 @@ export const VideoSEOData = {
     },
 
     platformSection: {
-        heading: "We Optimize Content SEO Across These Platforms",
-        para: "Our content SEO experts work across various platforms to enhance visibility and engagement. Whether you run a blog, an eCommerce store, or a corporate website, we tailor our strategies to maximize your content's reach.",
-
+        heading: "We Optimize <span class='text-[#207DE9]'> Video SEO </span> Across These Platforms",
+        para: "Our Video SEO experts enhance video visibility and engagement across multiple platforms. Whether you're creating content for YouTube, TikTok, Vimeo, or other video-sharing sites, our optimization strategies ensure your videos rank higher, reach wider audiences, and maximize watch time.",
+    
         platforms: [
             {
-                heading: "Popular Platforms for Content Optimization", 
+                heading: "Popular Platforms for Video SEO", 
                 items: [
-                    { itemName: "WordPress ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s" },
-                    { itemName: "Shopify", itemImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png"},
-
-                    { itemName: "BigCommerce", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZyqmtqSYlC6DpFKfKYxy4bw_N8Itrv3wFg&s"},
-
-                ],
-                
+                    { itemName: "YouTube", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "TikTok", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "Instagram Reels", itemImg: "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" }
+                ]
             },
-
+    
             {
-                heading: "Enterprise-Level Content Solutions", items: [
-                    { itemName: "HubSpot CMS", itemImg : "https://w7.pngwing.com/pngs/425/614/png-transparent-netsuite-hd-logo-thumbnail.png"},
-                    { itemName: "Drupal", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqJ70oLX1StlSR697nOOOojwrE8gmDqMncg&s"},
-                    { itemName: "Sitecore ", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKJjPCE3EsXWL3NLTmJaO6KkTVTN7df-lOQ&s"},
-                ],
+                heading: "Professional & Enterprise Video Platforms", 
+                items: [
+                    { itemName: "Vimeo", itemImg: "https://w7.pngwing.com/pngs/959/270/png-transparent-logo-vimeo-social-media-vimeo-blue-text-trademark-thumbnail.png" },
+                    { itemName: "Wistia", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_YJTFUMwYQH_4oB8q6TSF3PoBDBROUu2LA&s" },
+                    { itemName: "Dailymotion", itemImg: "https://static1.dmcdn.net/images/dailymotion-logo-ogtag-new.png.va3e30462476a82772" }
+                ]
             },
-
+    
             {
-                heading: "Content Performance & Analytics Platforms", items: [
-                    { itemName: "Google Search Console", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQqvP9mSAN_KNxZlbvD9VT-yl4Vf_PuT6Cw&s"},
-                    { itemName: "SEMrush & Ahrefs", itemImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1LVwmNoJSzxWmQc7jvUlpHxrV1QhAw2j7A&s"},
-
-                ],
-            },
-
+                heading: "Video SEO & Analytics Tools", 
+                items: [
+                    { itemName: "YouTube Analytics", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8TTbvhT2GIUJic85PKVAKE3yhQpB5s_BTKw&s" },
+                    { itemName: "TubeBuddy", itemImg: "https://play-lh.googleusercontent.com/Dw0EhIXzf1KweXeRxvoOBJcglPQEJr0FsiQY5uXTBuer08cRuD9yfvSck1mOmSoH0Q" },
+                    { itemName: "VidIQ", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS14M3tdSL5n7QolHLgdl4wygZak5XFv0kOVw&s" },
+                    { itemName: "Google Search Console", itemImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oDs54RBKAQhM_lOqKcg2YFoF8G4lECSrP7-2G1w3Caew19x4qKI91LZ2CBMrfajyGh0&usqp=CAU" }
+                ]
+            }
         ]
-    },
+    } ,
 
     approachSection: {
         heading: "Our Proven Video SEO Strategy",
@@ -3189,93 +3164,61 @@ export const VideoSEOData = {
     },
 
     pricingSection: {
-        heading: "Transparent Pricing for Video SEO",
-        para: "Discover our clear and flexible Video SEO pricing plans designed to grow your video content. From boosting video views to improving video rankings, our plans are crafted to provide tangible results and help you dominate your video niche.",
-
+        heading: "Transparent <span class='text-[#207DE9]'> Pricing </span> for Video SEO",
+        para: "Our Video SEO pricing plans are designed to maximize your content’s reach, improve video rankings, and boost engagement. Whether you're a content creator, business, or enterprise, our plans provide comprehensive optimization and actionable insights.",
+    
         pricingCards: [
             {
-                name: "Silver plan",
-                header: "Silver Plan",
-                price: "$750/month",
-                fitFor: "Small video channels or creators new to Video SEO, with a limited amount of content.",
+                header: "Basic Video SEO Plan",
+                price: "$1,200/one-time",
+                fitFor: "Small content creators & businesses looking to optimize their video SEO basics.",
                 youGet: [
-                    "Up to <strong>50</strong> video keywords optimized",
-                    "Up to <strong>20</strong> videos optimized",
-                    "<strong>Technical Video SEO Audit & Fixes:</strong> Basic Video Audit",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Video Titles & Descriptions",
-                    "Video Title Optimization",
-                    "Mobile Optimization for Video Playback",
-                    "<strong>Schema Markup for Videos:</strong> Basic Schema (Title, Duration)",
-                    "<strong>Internal Linking Optimization:</strong> Basic Links",
-                    "Video Thumbnail Optimization",
-                    "<strong>Content Creation (Video Descriptions, Guides, FAQs):</strong> 1 Content Piece/Month",
-                    "<strong>Backlink Building (Quality Outreach):</strong> 3 Links/Month",
-                    "<strong>Competitor Analysis:</strong> Basic Insights",
-                    "<strong>Google Analytics Setup & Conversion Tracking:</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO):</strong> Basic Recommendations",
-                    "<strong>Monthly Video SEO</strong> Reports & Performance Insights",
-                    "<strong>Customer Support:</strong> Email Support",
-                    "<strong>Campaign Setup Fee (One-time):</strong> $750",
-                    "<strong>Monthly Investment:</strong> $750"
+                    "YouTube & video metadata optimization (titles, descriptions, tags)",
+                    "Thumbnail design optimization for higher CTR",
+                    "Basic keyword research for video content",
+                    "Video transcript & closed captions for better indexing",
+                    "Detailed Video SEO report & recommendations"
                 ]
             },
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Growing video channels looking to improve visibility and video rankings.",
+                header: "Advanced Video SEO Plan",
+                price: "$3,500/one-time",
+                fitFor: "Businesses & influencers wanting to scale video performance.",
                 youGet: [
-                    "Up to <strong>150</strong> video keywords optimized",
-                    "Up to <strong>50</strong> videos optimized",
-                    "<strong>Technical Video SEO Audit & Fixes:</strong> Full Video Audit",
-                    "Keyword Research & Strategy",
-                    "Keyword Mapping to Video Titles & Descriptions",
-                    "Advanced Video Title Optimization",
-                    "Mobile Optimization for Video Playback",
-                    "<strong>Schema Markup for Videos:</strong> Advanced Schema",
-                    "<strong>Internal Linking Optimization:</strong> Strategic Optimization",
-                    "Video Thumbnail Optimization",
-                    "<strong>Content Creation (Video Descriptions, Guides, FAQs):</strong> 3 Content Pieces/Month",
-                    "<strong>Backlink Building (Quality Outreach):</strong> 8 Links/Month",
-                    "<strong>Competitor Analysis:</strong> Advanced Analysis",
-                    "<strong>Google Analytics Setup & Conversion Tracking:</strong> Basic Setup",
-                    "<strong>Conversion Rate Optimization (CRO):</strong> Strategic Suggestions",
-                    "<strong>Monthly Video SEO</strong> Reports & Performance Insights",
-                    "<strong>Customer Support:</strong> Email & Phone Support",
-                    "<strong>Campaign Setup Fee (One-time):</strong> $2,000",
-                    "<strong>Monthly Investment:</strong> $1,800"
+                    "All features from the Basic Video SEO Plan",
+                    "Audience retention & watch-time optimization strategies",
+                    "End-screen & CTA optimization for engagement",
+                    "Cross-platform video SEO (YouTube, TikTok, Instagram, etc.)",
+                    "Competitor benchmarking & keyword gap analysis"
                 ]
             },
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Established video channels targeting aggressive growth and higher engagement.",
+                header: "Professional Video SEO Plan",
+                price: "$6,000/one-time",
+                fitFor: "Brands & enterprises looking for a full-scale Video SEO strategy.",
                 youGet: [
-                    "Up to <strong>300</strong> video keywords optimized",
-                    "Up to <strong>100</strong> videos optimized",
-                    "<strong>Technical Video SEO Audit & Fixes:</strong> Advanced Optimization",
-                    "Advanced Keyword Research & Strategy",
-                    "Detailed Keyword Mapping to Video Titles & Descriptions",
-                    "Advanced Video Title Optimization",
-                    "Enhanced Performance Mobile Optimization",
-                    "<strong>Schema Markup for Videos:</strong> Full Schema",
-                    "<strong>Internal Linking Optimization:</strong> Strategic Optimization",
-                    "Full Image SEO Optimization for Video Thumbnails",
-                    "<strong>Content Creation (Video Descriptions, Guides, FAQs):</strong> 6 Content Pieces/Month",
-                    "<strong>Backlink Building (Quality Outreach):</strong> 15 Links/Month",
-                    "<strong>Competitor Analysis:</strong> Detailed Competitor Tracking",
-                    "<strong>Google Analytics Setup & Conversion Tracking:</strong> Advanced Tracking",
-                    "<strong>Conversion Rate Optimization (CRO):</strong> Advanced CRO Strategy",
-                    "<strong>Monthly Video SEO</strong> Reports & Performance Insights",
-                    "<strong>Customer Support:</strong> Dedicated Account Manager",
-                    "<strong>Campaign Setup Fee (One-time):</strong> $4,000",
-                    "<strong>Monthly Investment:</strong> $3,500"
+                    "All features from the Advanced Video SEO Plan",
+                    "Comprehensive YouTube channel audit & strategy",
+                    "Backlinking & video embed strategy for higher authority",
+                    "Schema markup & structured data for video indexing",
+                    "Monthly performance tracking & recommendations"
+                ]
+            },
+            {
+                header: "Enterprise Video SEO Plan",
+                price: "$10,000/one-time",
+                fitFor: "Large-scale media companies & enterprises requiring continuous optimization.",
+                youGet: [
+                    "All features from the Professional Video SEO Plan",
+                    "AI-driven video optimization & NLP keyword insights",
+                    "Advanced audience segmentation & analytics",
+                    "E-commerce video SEO & shoppable video strategies",
+                    "Ongoing support & consulting from a Video SEO expert"
                 ]
             }
         ]
-    },
+    }
+    ,
 
 
 

@@ -3,6 +3,9 @@ import CustomSlider from '../../../../Prebuild_Components/CustomSlider/CustomSli
 import { SiTicktick } from 'react-icons/si'
 import ScrollCounter from '../../../../Prebuild_Components/ScrollCounter'
 import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
+import { AiFillAlert } from "react-icons/ai";
+import { TbBulbFilled } from "react-icons/tb";
+
 
 const RealResults = ({page}) => {
   const refs = useRef([]); // to store refs to all container divs
@@ -50,15 +53,15 @@ const RealResults = ({page}) => {
           
           {/* Slide Content */}
           <>
-          <h1 className="font-bold tracking-wide">CHALLENGE</h1>
+          <h1 className="font-bold tracking-wide flex gap-x-2 items-center "> <AiFillAlert size="1.3em" color='#207DE9'/> CHALLENGE</h1>
           <p className="font-normal mb-4">{result.challenge}</p>
           </>
           
           <>
-          <h1 className="font-bold tracking-wide">APPROACH</h1>
+          <h1 className="font-bold tracking-wide flex gap-x-2 items-center"><TbBulbFilled size="1.3em"  color='#207DE9'/>APPROACH</h1>
           {result.approaches.map((approach , idx) => (
             <div className='flex gap-x-4 items-center mb-2' key={idx}>
-                <p>{approach}</p>
+                <p >{approach}</p>
             </div>
           ))}
           </>
