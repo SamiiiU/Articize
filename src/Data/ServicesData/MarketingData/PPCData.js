@@ -1,21 +1,16 @@
-import { FaBullhorn, FaBullseye, FaBusinessTime, FaCartShopping, FaChartBar, FaChartLine, FaChartPie, FaComments, FaEye, FaImages, FaLandMineOn, FaLaptopCode, FaLayerGroup, FaLink, FaMagnifyingGlass, FaMoneyBillWave, FaPalette, FaRegChartBar, FaRegImages, FaRegNewspaper, FaRoad, FaRobot, FaRocket, FaUserCheck, FaUsers, FaUserShield, FaUserTag, FaUserTie } from 'react-icons/fa6'
-import heroImg from '../../../Assets/Images/ServicesIMG/EcommerceBG.png'
-import { MdLocationOn, MdOutlineMobileFriendly, MdOutlinePeople, MdOutlineStarPurple500 } from 'react-icons/md'
-import { GrAchievement, GrOptimize } from 'react-icons/gr'
-import { IoAnalytics, IoAnalyticsOutline, IoAnalyticsSharp, IoBarChartOutline, IoBarChartSharp, IoBuildSharp, IoBusinessSharp, IoCartSharp, IoCloudUploadOutline, IoCreateOutline, IoDocumentTextSharp, IoEyeOutline, IoHandLeftSharp, IoKeySharp, IoOptionsSharp, IoPeopleCircle, IoPeopleCircleOutline, IoPeopleCircleSharp, IoPeopleOutline, IoPeopleSharp, IoPersonSharp, IoPlanetSharp, IoRocketSharp, IoScanSharp, IoSpeedometerOutline, IoSpeedometerSharp, IoStatsChartSharp, IoVideocam, IoVideocamSharp } from 'react-icons/io5'
-import { SiGooglecontaineroptimizedos } from 'react-icons/si'
+import { FaChartLine, FaLandMineOn,FaMagnifyingGlass, FaRegImages, FaUserTag,  } from 'react-icons/fa6'
 
-import { FaAd, FaBuilding, FaCog, FaCogs, FaCommentDots, FaDollarSign, FaEdit, FaExpandArrowsAlt, FaFileAlt, FaFunnelDollar, FaGlobe, FaGoogle, FaImage, FaLanguage, FaLock, FaMapMarkerAlt, FaMobileAlt, FaPaintBrush, FaPenAlt, FaPlusCircle, FaRedoAlt, FaSearch, FaSearchDollar, FaShareAlt, FaSitemap, FaSpider, FaStar, FaStarAndCrescent, FaSync, FaSyncAlt, FaTachometerAlt, FaTags, FaThumbsUp, FaTools, FaUserAlt, FaUserCircle, FaUserFriends, FaVideo } from 'react-icons/fa'
+import { MdAutorenew, MdBusinessCenter,  MdOutlinePeople, MdOutlinePeopleAlt, MdOutlineStarPurple500, MdOutlineSubscriptions, MdReplayCircleFilled, MdSell, MdShoppingCart, MdTrendingUp } from 'react-icons/md'
+
+import {  GrOptimize } from 'react-icons/gr'
+
+import { FaAd,FaEdit, FaRedoAlt, FaRegPlayCircle,  FaSearchDollar } from 'react-icons/fa'
 
 import BG from '../../../Assets/Images/ServicesIMG/SEOImages/MarketingHeroBG.png'
+import heroImg from '../../../Assets/Images/ServicesIMG/EcommerceBG.png'
 
-import popularPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/popular.png'
-import enterpricePlatform from '../../../Assets/Images/ServicesIMG/SEOImages/enterprice.png'
-import cmsPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/cms.png'
-import otherPlatform from '../../../Assets/Images/ServicesIMG/SEOImages/other.png'
-import { GiMagnifyingGlass, GiSpeedometer } from 'react-icons/gi'
-import { RiMobileDownloadLine } from 'react-icons/ri'
-import { FiTarget } from 'react-icons/fi'
+
+import { RiAdvertisementFill, RiFundsBoxFill,  RiMoneyDollarCircleFill, RiProductHuntLine, RiRobot2Fill } from 'react-icons/ri'
 
 
 export const GoogleAdsData = {
@@ -54,8 +49,8 @@ export const GoogleAdsData = {
         ],
     
         startingAt: "$2500/Month"
-    }
-    ,
+    },
+
     boostSection: {
         heading: "Boost Your Ad Performance with <span class='text-[#207DE9]'> Specialized <br/> Google Ads PPC </span> Services.",
         para: "Maximize ROI with our expert Google Ads PPC strategies. We focus on precise targeting, ad optimization, and continuous campaign refinement to drive high-quality traffic and conversions.",
@@ -149,8 +144,7 @@ export const GoogleAdsData = {
                 benifit: "Maintains optimal ad performance while minimizing ad spend waste."
             }
         ]
-    }
-    ,
+    },
     //Booster Section ends here   
 
     //PowerBy starts here 
@@ -513,415 +507,500 @@ export const GoogleAdsData = {
 }
 
 export const AmazonPPCData = {
+
     heroSection: {
-        heading: "Boost Your E-Commerce Sales with Amazon PPC",
-        para: "Elevate your e-commerce store’s performance with our specialized Amazon PPC services. Our approach is crafted to provide immediate visibility and accelerated sales growth on Amazon by creating targeted, high-impact ads that connect with shoppers at the point of purchase. We leverage detailed consumer behavior and advanced targeting strategies to ensure your products stand out. Our comprehensive service includes meticulous bid management, strategic ad placements, and creative ad enhancements to drive significant traffic and conversions, all while offering ongoing optimization to maintain peak campaign efficiency.",
+        heading: "Boost Your Amazon Sales with Expert PPC Advertising",
+        para: "Maximize product visibility and sales with our expert Amazon PPC strategies. Target high-converting shoppers, optimize bids, and maximize ROI with data-driven campaigns for higher rankings and conversions.",
         img: heroImg,
         bg: BG
     },
+    
+    // Hero section data ends 
 
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Amazon PPC</span> is Essential for E-Commerce Success?",
-        para: "Unleash the potential of Amazon PPC to catapult your e-commerce sales. Engage our team of experts who harness targeted advertising strategies coupled with robust data analytics to boost your ROI and enhance conversions. Simplify your campaign management with our full-service solutions, ensuring your products achieve maximum visibility and profitability on one of the world’s largest retail platforms.",
-
-        whyKeys: [
-            { heading: "Targeted Product Visibility", explanation: "Enhance your visibility on Amazon’s competitive marketplace. Our precise keyword selection and bidding tactics place your products in front of ready-to-buy customers, increasing visibility and sales opportunities.", icon: FaDollarSign },
-            { heading: "Dynamic Ad Customization", explanation: "Tailor your ads based on shopper data and behaviors to increase relevance and buyer engagement. Our strategies ensure your ads appeal directly to your target demographic, maximizing conversion potential.", icon: FaUserFriends },
-            { heading: "Landing Page Optimization", explanation: "Optimize your Amazon product pages to convert traffic into sales efficiently. Our optimization techniques focus on improving content quality, enhancing images, and ensuring your listings are fully optimized for high conversion rates.", icon: FaChartLine },
-            { heading: "In-depth Campaign Analytics", explanation: "Employ our advanced analytics tools to track and refine your Amazon PPC strategies. Gain actionable insights with real-time data to continually adapt and improve your campaigns for sustained success.", icon: FaSearch }
-        ]
+    customPricing: {
+        heading: "Amazon PPC Services Custom Pricing Tailored to Your Sales Goals",
+    
+        mainHeading: "Custom <br/> Amazon PPC <br/> Package",
+    
+        overview: "Designed to maximize product visibility and sales, this package ensures optimized ad placements, smart bidding strategies, and continuous campaign refinement to drive high-quality traffic and conversions on Amazon.",
+    
+        benifits: [
+            { heading: "Increased Product Visibility:", description: "Get your products in front of the right shoppers at the right time for maximum exposure." },
+            { heading: "Higher Sales & Conversions:", description: "Target high-intent shoppers with strategic ad placements and compelling creatives." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with smart bidding and data-driven optimization to reduce wasted ad spend." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Keyword Research & Bid Strategy", description: "Identify high-converting keywords and optimize bids to improve ad performance while minimizing costs." },
+            { heading: "Sponsored Product Ads", description: "Run targeted ads for individual products to appear in high-visibility placements on search results and product pages." },
+            { heading: "Sponsored Brand Ads", description: "Boost brand awareness with ads that showcase multiple products in search results." },
+            { heading: "Sponsored Display Ads", description: "Retarget previous visitors and reach new customers with display ads both on and off Amazon." },
+            { heading: "Amazon DSP (Demand-Side Platform)", description: "Utilize advanced audience targeting across Amazon’s vast ad network to boost brand reach and conversions." },
+            { heading: "Competitor Product Targeting", description: "Place ads on competitor product pages to capture potential buyers and increase market share." },
+            { heading: "Product Listing Optimization", description: "Enhance product titles, bullet points, descriptions, and images for higher relevance and better ad performance." },
+            { heading: "A/B Testing & Performance Tracking", description: "Continuously test ad creatives, keywords, and bidding strategies to maximize ROI." },
+            { heading: "Negative Keyword Optimization", description: "Eliminate non-converting keywords to reduce wasted ad spend and improve campaign efficiency." },
+            { heading: "Amazon Attribution & Analytics", description: "Track sales impact beyond Amazon with detailed analytics and cross-channel attribution." }
+        ],
+    
+        startingAt: "$2500/Month"
     },
 
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class='text-[#207DE9]'>Specialized Amazon PPC</span> Services",
-        para: "Leverage specific opportunities within Amazon PPC to optimize your e-commerce strategy, focusing on buyer-intent keywords, mobile optimization, and enhanced user experience to drive conversions on Amazon.",
-
+        heading: "Boost Your Amazon Sales with <span class='text-[#207DE9]'> Specialized <br/> Amazon PPC </span> Strategies.",
+        para: "Maximize ROI with our expert Amazon PPC campaigns. We focus on precise keyword targeting, bid optimization, and continuous campaign refinement to increase product visibility, drive conversions, and grow sales.",
+    
         boostContent: [
             {
-                navigator: "Optimized Product Listings",
-                matters: "Develop highly optimized Amazon listings that improve visibility and engagement. Tailor your product pages to align perfectly with user search intent on Amazon, driving substantial traffic and conversions.",
+                name: "High-Performance Keyword Targeting",
+                whyMatters: "Selecting the right keywords ensures your products appear when shoppers are actively searching, leading to higher conversions.",
                 includes: [
-                    "Creating detailed and keyword-rich product descriptions.",
-                    "Utilizing high-quality images and enhanced brand content.",
-                    "Employing strategic keyword placements to improve listing visibility."
+                    "In-depth keyword research using Amazon’s search trends.",
+                    "Bid strategy optimization for high-performing keywords.",
+                    "Negative keyword management to reduce wasted ad spend."
                 ],
-                benefit: "Enhances the visibility of your products, leading to increased click-through rates and higher conversion percentages.",
-                image: "https://example.com/amazon-optimization-image.png"
+                benifit: "Boosts product rankings, reduces unnecessary spend, and increases conversion rates."
             },
+    
             {
-                navigator: "Amazon Remarketing Strategies",
-                matters: "Re-engage customers who have shown interest in your products but have not yet made a purchase using Amazon's powerful remarketing tools.",
+                name: "Optimized Sponsored Ads",
+                whyMatters: "Amazon Sponsored Ads drive targeted traffic to your product listings, increasing visibility and sales.",
                 includes: [
-                    "Implementing remarketing tags to capture audience data.",
-                    "Creating targeted remarketing campaigns based on user behavior and past purchases.",
-                    "Segmenting audiences for personalized advertising efforts."
+                    "Setup and optimization of Sponsored Product, Brand, and Display Ads.",
+                    "A/B testing ad creatives for higher engagement.",
+                    "Automated and manual bid adjustments for cost-efficient performance."
                 ],
-                benefit: "Increases the likelihood of converting browsing into sales, significantly boosting your ROI from existing traffic on Amazon.",
-                image: "https://example.com/amazon-remarketing-image.png"
+                benifit: "Maximizes sales while keeping ACoS (Advertising Cost of Sale) under control."
             },
+    
             {
-                navigator: "Localized Amazon Ads",
-                matters: "Utilize Amazon’s local ad targeting features to reach customers based on their geographic locations, perfect for businesses with varying regional offerings.",
+                name: "Product Listing Optimization",
+                whyMatters: "Well-optimized product listings improve organic rankings and enhance ad performance.",
                 includes: [
-                    "Setting up localized ad campaigns tailored to specific markets.",
-                    "Customizing ad content to regional shopping trends and preferences.",
-                    "Adjusting bids and strategies based on regional performance analytics."
+                    "Optimizing product titles, bullet points, and descriptions.",
+                    "Adding high-converting keywords to backend search terms.",
+                    "Enhancing product images and A+ Content for better engagement."
                 ],
-                benefit: "Improves engagement with tailored experiences that resonate with local audiences, potentially boosting sales and customer loyalty.",
-                image: "https://example.com/localized-amazon-ads-image.png"
+                benifit: "Increases product discoverability and improves click-through and conversion rates."
             },
+    
             {
-                navigator: "Mobile Optimization for Amazon",
-                matters: "As a significant portion of Amazon shopping happens on mobile devices, optimize your PPC campaigns to be mobile-friendly and effective.",
+                name: "Competitor Product Targeting",
+                whyMatters: "Targeting competitor products allows you to capture buyers already looking for similar products.",
                 includes: [
-                    "Creating mobile-optimized ads that perform well on smartphones and tablets.",
-                    "Enhancing mobile shopping experiences to improve customer retention and conversion rates.",
-                    "Testing different mobile ad formats to find the most effective for your products."
+                    "Placing ads on competitor product listings to gain market share.",
+                    "Strategic bidding on competitor brand keywords.",
+                    "Analyzing top-performing competitor campaigns for insights."
                 ],
-                benefit: "Targets the extensive mobile user base on Amazon, enhancing campaign performance and boosting mobile conversion rates.",
-                image: "https://example.com/mobile-optimization-image.png"
+                benifit: "Increases visibility on competitor listings and attracts more conversions."
             },
+    
             {
-                navigator: "Keyword Strategy for Amazon PPC",
-                matters: "Continuously refine and expand your keyword strategy to ensure your Amazon ads capture a wide audience with high purchase intent.",
+                name: "Amazon DSP Advertising",
+                whyMatters: "Amazon’s Demand-Side Platform (DSP) enables precise audience targeting for off-Amazon advertising.",
                 includes: [
-                    "Conducting in-depth keyword research specific to Amazon.",
-                    "Utilizing competitive keyword analysis to stay ahead of market trends.",
-                    "Regularly updating keywords to include new terms and remove underperforming ones."
+                    "Running display ads on and off Amazon to expand reach.",
+                    "Retargeting past visitors with personalized ads.",
+                    "Using AI-driven bidding strategies for better ROI."
                 ],
-                benefit: "Keeps your Amazon campaigns fresh and highly relevant, reducing costs by minimizing wasted ad spend and targeting more qualified leads.",
-                image: "https://example.com/keyword-strategy-image.png"
+                benifit: "Strengthens brand awareness and brings in high-intent buyers."
+            },
+    
+            {
+                name: "Retargeting & Remarketing Strategies",
+                whyMatters: "Re-engaging previous visitors significantly increases the chances of conversion.",
+                includes: [
+                    "Dynamic retargeting ads for cart abandoners and past visitors.",
+                    "Tailored remarketing lists based on browsing behavior.",
+                    "Optimized ad placements for better visibility and engagement."
+                ],
+                benifit: "Brings back high-potential buyers and increases repeat purchases."
+            },
+    
+            {
+                name: "Competitor Benchmarking & Market Analysis",
+                whyMatters: "Understanding competitor PPC strategies helps you refine your campaigns for a competitive edge.",
+                includes: [
+                    "Monitoring competitor ad placements and bidding strategies.",
+                    "Identifying gaps in competitor targeting for better positioning.",
+                    "Adjusting bids and keywords based on real-time competitor data."
+                ],
+                benifit: "Helps outperform competitors while maintaining cost-efficiency."
+            },
+    
+            {
+                name: "Campaign Performance Tracking & Optimization",
+                whyMatters: "Continuous tracking and optimization ensure profitable and high-performing ad campaigns.",
+                includes: [
+                    "Daily performance tracking and bid adjustments.",
+                    "ACoS and ROAS (Return on Ad Spend) monitoring and optimization.",
+                    "A/B testing ad creatives and keyword strategies."
+                ],
+                benifit: "Ensures long-term profitability with optimized ad performance."
             }
         ]
     },
+    //Booster Section ends here   
+
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Amazon PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and optimization to maximize product visibility, increase conversions, and achieve a higher return on ad spend (ROAS) on Amazon.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Product Visibility", 
+                benefitText: "Optimized Amazon PPC campaigns drive more high-intent shoppers to your listings, ensuring maximum exposure and engagement.", 
+                increasePercentage: 300, 
+                explanation: "A well-structured PPC strategy ensures ads appear at the top of search results and competitor listings, increasing clicks and conversions."
+            },
+    
+            { 
+                benefit: "Improvement in Conversion Rates", 
+                benefitText: "Amazon PPC campaigns optimized for targeting and bid strategies lead to higher conversion rates.", 
+                increasePercentage: 150, 
+                explanation: "Refining keyword targeting, bid adjustments, and product page optimizations improve conversion rates, turning ad clicks into sales efficiently."
+            },
+    
+            { 
+                benefit: "Higher ROAS from Amazon Advertising", 
+                benefitText: "Maximized return on ad spend (ROAS) through smart bidding, competitor targeting, and continuous campaign optimization.", 
+                increasePercentage: 450, 
+                explanation: "Focusing on profitable keywords, eliminating wasted spend, and refining ad placements lead to significant revenue growth for Amazon sellers."
+            }
+        ]
+    },
+    //PowerBy ends here 
 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized Amazon PPC</span> for Every E-Commerce Platform",
-        para: "Each E-commerce platform, from Shopify to WooCommerce, offers unique opportunities for Amazon PPC integration. Our team provides custom Amazon PPC strategies for these platforms to ensure your ads reach the right audience, maximize ROI, and effectively convert visitors into loyal Amazon customers.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized <br/> Amazon PPC </span> Strategies for Every Seller",
+        para: "Every Amazon seller has unique advertising needs. Our <strong> customized Amazon PPC strategies </strong> for Sponsored Products, Sponsored Brands, Sponsored Display, and Amazon DSP ensure that your ads reach high-intent shoppers, drive conversions, and maximize ROAS.",
+    
         tailoredItems: [
             {
-                heading: "Shopify Amazon PPC Services",
-                para: "Harness the power of Amazon PPC to increase visibility and sales for your Shopify-hosted products.",
+                heading: "Sponsored Product Ads – Boost Visibility & Sales",
+                para: "Amazon Sponsored Products help your listings appear at the top of search results and competitor pages, driving more traffic and conversions.",
                 offers: [
-                    "Integrating Amazon ads directly within Shopify for seamless campaign management.",
-                    "Tailoring ads to the Shopify audience leveraging Amazon’s advertising tools.",
-                    "Tracking and optimizing Shopify-specific conversions from Amazon PPC campaigns."
+                    "<strong>Keyword-Optimized Ad Campaigns:</strong> Target high-converting search terms for better rankings.",
+                    "<strong>Bid Optimization:</strong> Adjust bids based on competition and performance to control ACoS.",
+                    "<strong>Product Page Enhancements:</strong> Optimize listings with better descriptions, images, and backend keywords.",
+                    "<strong>Competitor Targeting:</strong> Place ads on competitor product pages to capture potential buyers."
                 ],
-                chooseUs: "Our expertise in combining Shopify and Amazon PPC campaigns ensures effective ad spend and maximized returns.",
-                image: "https://example.com/shopify-amazon-service-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce Amazon PPC Services",
-                para: "Maximize your WooCommerce store’s potential by integrating Amazon PPC campaigns that are crafted to convert.",
+                heading: "Sponsored Brand Ads – Build Brand Awareness",
+                para: "Amazon Sponsored Brands allow you to showcase your brand and multiple products at the top of search results, increasing recognition and trust.",
                 offers: [
-                    "Customizing Amazon PPC strategies specifically for WooCommerce platforms.",
-                    "Utilizing Amazon to WooCommerce integration tools for improved data tracking and campaign management.",
-                    "Developing targeted promotions and ads that drive both traffic and sales on Amazon."
+                    "<strong>Custom Banner & Video Ads:</strong> Capture attention with engaging creatives.",
+                    "<strong>Brand Store Optimization:</strong> Drive traffic to your Amazon Store for an enhanced shopping experience.",
+                    "<strong>Branded Keyword Targeting:</strong> Ensure your brand appears in key search results.",
+                    "<strong>Competitor Brand Conquesting:</strong> Run ads against competitor brand names to capture their audience."
                 ],
-                chooseUs: "Our tailored approach combines deep WooCommerce knowledge with sophisticated Amazon PPC tactics to boost your sales significantly.",
-                image: "https://example.com/woocommerce-amazon-service-image.png"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+            },
+    
+            {
+                heading: "Sponsored Display Ads – Retarget & Expand Reach",
+                para: "Sponsored Display Ads help you retarget past visitors and reach new audiences both on and off Amazon.",
+                offers: [
+                    "<strong>Retargeting & Remarketing:</strong> Bring back previous visitors and cart abandoners.",
+                    "<strong>Audience-Based Targeting:</strong> Reach shoppers based on browsing and purchase history.",
+                    "<strong>Custom Ad Placements:</strong> Appear on competitor product pages, category pages, and external websites.",
+                    "<strong>Performance Tracking & Optimization:</strong> Monitor ad effectiveness and adjust bids accordingly."
+                ],
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+            },
+    
+            {
+                heading: "Amazon DSP – Expand Beyond Amazon",
+                para: "Amazon’s Demand-Side Platform (DSP) enables advanced audience targeting with display and video ads across Amazon and third-party sites.",
+                offers: [
+                    "<strong>Advanced Audience Targeting:</strong> Leverage Amazon's first-party shopper data for precise targeting.",
+                    "<strong>Programmatic Bidding:</strong> Use AI-driven optimization to reduce costs and improve ad efficiency.",
+                    "<strong>Video & Display Ad Creatives:</strong> Run high-engagement campaigns to boost brand awareness.",
+                    "<strong>Cross-Channel Advertising:</strong> Expand your reach beyond Amazon for omnichannel growth."
+                ],
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+            },
+    
+            {
+                heading: "Amazon PPC Strategy – Custom Campaign Optimization",
+                para: "We analyze and optimize your entire Amazon PPC strategy to ensure maximum efficiency and profitability.",
+                offers: [
+                    "<strong>Full PPC Audit:</strong> Identify opportunities to reduce wasted ad spend and improve efficiency.",
+                    "<strong>ACoS & ROAS Optimization:</strong> Balance ad spend with profitability for long-term success.",
+                    "<strong>Automated & Manual Bidding:</strong> Implement a hybrid strategy to maximize ad performance.",
+                    "<strong>Competitor Benchmarking:</strong> Analyze top competitors’ PPC strategies and adjust accordingly."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
-            // Additional platforms can be included here
         ]
     },
 
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by Amazon PPC</span>",
-        para: "Harness the power of Amazon PPC to transform your e-commerce business with targeted, data-driven advertising strategies that maximize ROI and enhance sales on Amazon.",
-
-        features: [
-            {
-                navigator: "Real-Time Amazon Analytics",
-                text: "Leverage real-time analytics to fine-tune your Amazon PPC campaigns, track ad performance, and swiftly adjust strategies to ensure peak effectiveness.",
-                icon: <IoAnalytics/>
-            },
-            {
-                navigator: "Competitive Analysis on Amazon",
-                text: "Dive deep into competitors' Amazon PPC tactics to identify gaps in their strategies and opportunities for you to gain a competitive edge, ensuring your ads perform better.",
-                icon: <GrAchievement/>
-            },
-            {
-                navigator: "Conversion Optimization for Amazon",
-                text: "Optimize your Amazon ads to boost conversion rates through meticulously crafted product pages, compelling ad copy, and strategically placed calls-to-action.",
-                icon: <SiGooglecontaineroptimizedos/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Ad Click-through Rate",
-                benefitText: "Showcase the significant increase in click-through rates achieved through optimized Amazon PPC campaigns.",
-                increasePercentage: 130
-            },
-            {
-                benefit: "Growth in Conversion Rates",
-                benefitText: "Highlight the substantial improvement in conversion rates as a direct result of targeted advertising on Amazon.",
-                increasePercentage: 160
-            },
-            {
-                benefit: "ROI from Amazon PPC Campaigns",
-                benefitText: "Detail the remarkable return on investment businesses achieve from their Amazon advertising efforts.",
-                increasePercentage: 270
-            }
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>Amazon PPC Strategy</span>",
+        para: "Unlock the full potential of your Amazon store with our comprehensive Amazon PPC services, designed to enhance product visibility, drive high-intent traffic, and increase conversions.",
+    
+        approaches: [
+            { heading: "Smart Keyword Targeting", detail: 'Bid strategically on high-converting keywords using Amazon’s search trends and competitor analysis to maximize visibility and sales.', icon: <FaSearchDollar/> },
+            { heading: "Optimized Product Ads", detail: 'Craft compelling ad copy, bullet points, and descriptions that align with shopper intent and improve click-through rates.', icon: <RiAdvertisementFill/> },
+            { heading: "Sponsored Products & Brands", detail: 'Utilize Sponsored Product and Sponsored Brand Ads to capture prime search placements and boost brand recognition.', icon: <MdSell/> },
+            { heading: "Competitor Targeting & Retargeting", detail: 'Run ads on competitor product pages and retarget previous visitors to increase conversions and outperform competitors.', icon: <FaUserTag/> },
+            { heading: "Performance Tracking & Optimization", detail: 'Continuously analyze ad performance, adjust bids, and optimize placements to maximize ACoS efficiency and ROAS.', icon: <MdTrendingUp/> }
         ]
     },
+
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for Amazon PPC",
-        para: "Our Amazon PPC experts specialize in leveraging Amazon’s advertising capabilities across all major eCommerce platforms to enhance your store's visibility and drive sales. Custom Amazon PPC strategies ensure optimal performance for any platform your business uses.",
-
+        heading: "We Optimize Amazon PPC Campaigns Across These Platforms",
+        para: "Our Amazon PPC experts manage and optimize ad campaigns across all major Amazon advertising platforms to maximize product visibility, engagement, and conversions. Whether you're running Sponsored Products, Sponsored Brands, or Display Ads, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "Amazon Advertising Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
-                ],
-                image: popularPlatform
+                    { itemName: "Sponsored Products", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Sponsored Brands", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Sponsored Display", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Amazon DSP", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" }
+                ]
             },
-
+    
             {
-                heading: "Enterprise-Level Solutions",
+                heading: "Retail & E-commerce Marketplaces",
                 items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
-                ],
-                image: enterpricePlatform
+                    { itemName: "Walmart Connect", itemImg: "https://upload.wikimedia.org/wikipedia/commons/9/96/Walmart_logo.svg" },
+                    { itemName: "eBay Promoted Listings", itemImg: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" },
+                    { itemName: "Shopify PPC Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Shopify_logo_2018.svg" },
+                    { itemName: "Etsy Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Etsy_logo.png" }
+                ]
             },
-
+    
             {
-                heading: "Content Management Systems (CMS)",
+                heading: "Amazon Advertising Analytics & Tools",
                 items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
-                ],
-                image: cmsPlatform
+                    { itemName: "Amazon Attribution", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Amazon Brand Analytics", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Helium 10 PPC Tool", itemImg: "https://upload.wikimedia.org/wikipedia/commons/8/86/Helium10_logo.png" },
+                    { itemName: "Jungle Scout PPC Manager", itemImg: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Jungle_Scout_logo.png" }
+                ]
             },
-
+    
             {
-                heading: "Other Platforms",
+                heading: "Retargeting & External Advertising",
                 items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
+                    { itemName: "Google Ads for Amazon", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Facebook & Instagram Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "TikTok Ads for Amazon Sellers", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "YouTube Video Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" }
+                ]
+            }
+        ]
+    },
+
+    // Aproach section starts 
+
+    realResultsSection: {
+        heading: "Real Results <span class='text-[#207DE9]'>from Data-Driven Amazon PPC</span>",
+        para: "Our Amazon PPC strategies focus on delivering measurable outcomes. From increasing product visibility to maximizing conversions, we’ve helped sellers achieve substantial revenue growth. Our tailored approach ensures every keyword, bid, and ad placement works efficiently—turning ad spend into high ROI.",
+    
+        results: [
+            {
+                header: "Amazon PPC - Home & Kitchen",
+                challenge: "Driving more conversions for high-ticket kitchen appliances through targeted Amazon PPC campaigns.",
+                approaches: [
+                    "High-Intent Keyword Targeting: Focused on buyer-ready search terms with optimal bidding.",
+                    "Sponsored Products Optimization: Enhanced product listings for maximum visibility.",
+                    "Performance-Based Bidding: Adjusted bids dynamically based on conversion probability."
                 ],
-                image: otherPlatform
+                increase: 320,
+                increaseIn: "Increase in conversion rates with lower ACoS."
+            },
+            {
+                header: "Amazon PPC for Apparel & Fashion",
+                challenge: "Standing out in a competitive fashion industry with Sponsored Brands & Display Ads.",
+                approaches: [
+                    "Dynamic Retargeting: Bringing back past visitors with tailored ads.",
+                    "Audience-Based Targeting: Expanding reach using Amazon’s AI-driven customer matching.",
+                    "A/B Testing Ad Creatives: Optimizing visuals & copy for better engagement."
+                ],
+                increase: 280,
+                increaseIn: "Higher return on ad spend (ROAS) and increased customer engagement."
+            },
+            {
+                header: "Amazon PPC for Electronics",
+                challenge: "Competing in the tech industry with aggressive ad bidding strategies.",
+                approaches: [
+                    "Competitor Product Targeting: Placing ads on high-performing competitor listings.",
+                    "AI-Driven Campaign Automation: Using machine learning to optimize bids and placements.",
+                    "Sponsored Display Video Ads: Driving awareness and engagement with video content."
+                ],
+                increase: 450,
+                increaseIn: "Surge in high-quality traffic with improved conversion rates."
             }
         ]
     },
 
     pathToSuccess: {
         heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Amazon PPC Success",
-
+    
         paths: [
             {
-                letter: "G",
-                heading: "Generate Visibility",
-                matters: "Effective Amazon PPC campaigns drive high visibility for your products directly in Amazon search results.",
-                how: ["Utilize Amazon’s A9 algorithm to optimize bids on high-conversion keywords.", "Create compelling product titles and descriptions that match high-intent search queries."],
-                outcome: "Increased product visibility leading to higher impressions and clicks."
+                letter: "G", 
+                heading: "Generate High-Intent Traffic",
+                matters: "Effective Amazon PPC campaigns drive shoppers who are actively searching for your products, ensuring maximum visibility and sales.",
+                how: [
+                    "In-depth keyword research to target high-converting search terms.",
+                    "Optimize ad placements for Sponsored Products, Sponsored Brands, and Display Ads.",
+                    "Leverage Amazon’s audience insights to refine targeting."
+                ],
+                outcome: "More relevant visitors with a higher likelihood of making a purchase."
             },
+    
             {
-                letter: "R",
-                heading: "Refine Campaigns",
-                matters: "Refining your Amazon PPC campaigns to target the most relevant customer segments boosts efficiency and ROI.",
-                how: ["Use detailed customer data and purchasing behavior to refine targeting.", "Employ strategic product positioning within Amazon’s search landscape."],
-                outcome: "More targeted campaigns that result in better conversion rates."
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing ad creatives and bidding strategies ensures better engagement, lower ACoS, and improved profitability.",
+                how: [
+                    "A/B test different ad creatives, product images, and descriptions.",
+                    "Adjust bidding strategies based on real-time campaign performance.",
+                    "Optimize product listings to improve ad relevance and CTR."
+                ],
+                outcome: "Higher click-through rates (CTR) and improved return on ad spend (ROAS)."
             },
+    
             {
                 letter: "O",
-                heading: "Optimize Spend",
-                matters: "Manage and optimize your advertising spend on Amazon to maximize ROI.",
-                how: ["Adjust bids based on performance data and seasonal trends.", "Implement automated bidding tools to maintain competitive advantage."],
-                outcome: "Cost-effective spending with maximized returns on ad spend."
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous tracking and refining of campaigns help reduce wasted ad spend and boost long-term performance.",
+                how: [
+                    "Use Amazon’s AI-driven bidding automation for cost-effective conversions.",
+                    "Implement negative keywords to eliminate irrelevant clicks.",
+                    "Monitor key metrics like ACoS, ROAS, and conversion rates."
+                ],
+                outcome: "More efficient ad spend and increased profit margins."
             },
+    
             {
                 letter: "W",
-                heading: "Win Buy Box",
-                matters: "Winning the Buy Box on Amazon significantly increases your sales potential.",
-                how: ["Optimize pricing strategies and maintain competitive pricing.", "Ensure product availability and excellent customer service to meet Amazon’s Buy Box criteria."],
-                outcome: "Increased chances of winning the Buy Box, leading to higher sales."
+                heading: "Win More Conversions",
+                matters: "Clicks alone don’t drive revenue—turning visitors into paying customers is the real goal.",
+                how: [
+                    "Optimize product listings with compelling copy and high-quality images.",
+                    "Leverage Amazon Retargeting Ads to bring back interested shoppers.",
+                    "Utilize Sponsored Brands and Video Ads to create brand trust."
+                ],
+                outcome: "Higher conversion rates and increased product sales."
             },
+    
             {
                 letter: "T",
-                heading: "Track Metrics",
-                matters: "Continuous tracking of key performance metrics is essential for Amazon PPC success.",
-                how: ["Utilize Amazon’s reporting tools to track sales, ACoS, and other relevant metrics.", "Regularly audit and adjust campaigns based on these insights."],
-                outcome: "Enhanced understanding of campaign performance leading to strategic improvements."
+                heading: "Target the Right Audience",
+                matters: "Advanced audience targeting ensures that your ads reach buyers who are most likely to convert.",
+                how: [
+                    "Leverage Amazon’s in-market and lifestyle targeting options.",
+                    "Create retargeting campaigns for past visitors and abandoned carts.",
+                    "Analyze shopper behavior to refine targeting and increase ROI."
+                ],
+                outcome: "More high-quality leads and increased engagement with your ads."
             },
+    
             {
                 letter: "H",
-                heading: "Harness Reviews",
-                matters: "Utilize customer reviews and feedback to enhance your PPC strategy on Amazon.",
-                how: ["Incorporate customer feedback into product listings to improve credibility.", "Use positive reviews in ad copy to enhance trust and conversion rates."],
-                outcome: "Leveraging reviews to improve ad performance and overall customer satisfaction."
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROAS, and scale Amazon PPC success.",
+                how: [
+                    "Use Amazon Brand Analytics to track customer trends and search behavior.",
+                    "Monitor key PPC metrics like CPC, ACoS, and sales velocity.",
+                    "Implement automated bid adjustments based on real-time performance."
+                ],
+                outcome: "Consistent campaign improvements and sustainable PPC growth."
             },
+    
             {
-                letter: MdOutlineStarPurple500,
+                letter: <MdTrendingUp />,
                 focus: "By focusing on:",
-                focusOn: ["Generating Visibility", "Refining Campaigns", "Optimizing Spend", "Winning Buy Box", "Tracking Metrics", "Harnessing Reviews"],
-                how: ["Increased visibility and clicks.", "More efficient use of advertising budget.", "Greater overall return on investment from PPC."]
-            }
-        ]
-    },
-
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>Amazon PPC Strategy</span>",
-        para: "Master the Amazon marketplace with our expert PPC services designed to drive traffic, increase sales, and maximize ROI.",
-
-        approaches: [
-            { heading: "Keyword Optimization for Amazon", detail: 'Select and bid on strategic keywords that are highly relevant to your products and search queries on Amazon.', icon: <IoKeySharp/> },
-            { heading: "Enhanced Product Content", detail: 'Develop high-quality content that enhances visibility and attracts clicks, including optimized titles, bullet points, and product descriptions.', icon: <IoCreateOutline/> },
-            { heading: "Strategic Ad Placement", detail: 'Place ads strategically across Amazon to capture attention at crucial points in the customer journey.', icon: <IoEyeOutline/> },
-            { heading: "Targeted Buyer Segmentation", detail: 'Segment buyers based on past purchase behavior, search history, and consumer preferences to tailor ads more effectively.', icon: <IoPeopleOutline/> },
-            { heading: "Continuous Campaign Refinement", detail: 'Continuously refine your campaigns based on analytics and performance data to stay ahead of the competition on Amazon.', icon: <IoBarChartOutline/> }
-        ]
-    },
-
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from Amazon PPC</span>",
-        para: "Experience the impact of our Amazon PPC strategies that have significantly transformed ecommerce businesses. Our targeted approach ensures each campaign on Amazon is finely tuned for maximum efficiency and profitability.",
-
-        results: [
-            {
-                header: "Ecommerce - Fashion and Apparel",
-                challenge: "Boost product visibility and conversions in Amazon's competitive fashion category.",
-                approaches: [
-                    "Advanced keyword targeting for top fashion queries.",
-                    "Dynamic pricing strategies to stay competitive.",
-                    "Enhanced product images and A+ content for better conversion."
+                focusOn: ["Generating High-Intent Traffic", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
+                how: [
+                    "Increased product visibility.",
+                    "Higher conversion rates.",
+                    "Better ACoS and ad spend efficiency."
                 ],
-                increase: "350",
-                increaseIn: "Percentage increase in conversion rate"
-            },
-            {
-                header: "Ecommerce - Health and Wellness",
-                challenge: "Maximize ROI and decrease ACoS (Advertising Cost of Sale) in a niche market.",
-                approaches: [
-                    "Optimized Sponsored Products for best-selling items.",
-                    "Utilization of Sponsored Brands for increased brand awareness.",
-                    "Refinement of targeting based on consumer behavior analytics."
-                ],
-                increase: "290",
-                increaseIn: "Growth in ROI"
-            },
-            {
-                header: "Ecommerce - Home Decor",
-                challenge: "Capitalize on seasonal trends to drive sales and increase average order value.",
-                approaches: [
-                    "Seasonal keyword adjustments and campaign scaling.",
-                    "Bundling popular items to increase cart size.",
-                    "Promotional discounts aligned with peak shopping periods."
-                ],
-                increase: "265",
-                increaseIn: "Increase in average order value"
-            },
-            {
-                header: "Ecommerce - Electronics",
-                challenge: "Expand market share within Amazon’s highly competitive electronics sector.",
-                approaches: [
-                    "Aggressive targeting of new product launches.",
-                    "Strategic use of Amazon DSP for retargeting audiences.",
-                    "Enhanced brand content and comparison charts to outperform competitors."
-                ],
-                increase: "215",
-                increaseIn: "Growth in market share"
+                outcome: "Maximized ROI and long-term Amazon PPC success."
             }
         ]
     },
 
     pricingSection: {
         heading: "Transparent Pricing for Amazon PPC",
-        para: "Discover our clear and scalable Amazon PPC pricing plans, tailored to grow with your online store and ensure you dominate your niche on Amazon.",
-
+        para: "Discover our flexible and data-driven Amazon PPC pricing plans designed to maximize your ad spend efficiency. From increasing product visibility to optimizing conversions, our plans ensure measurable results and high ROI.",
+    
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
+                header: "Starter Amazon PPC Package",
                 price: "$800/month",
-                fitFor: "Startups new to Amazon looking to establish a market presence.",
+                fitFor: "New Amazon sellers looking to test Amazon PPC with a limited budget.",
                 youGet: [
-                    "Up to 100 keywords targeted",
-                    "Amazon account setup and management",
-                    "Monthly budget management up to $10,000",
-                    "Basic demographic and interest targeting",
-                    "Weekly performance reports",
-                    "Basic Amazon SEO integration",
-                    "Campaign Setup Fee (One-time): $800",
-                    "Monthly Investment: $800"
+                    "Keyword Research & Selection: Focus on high-converting, low-competition keywords.",
+                    "Sponsored Products Campaign Setup: Basic ad creation and bid management.",
+                    "Manual Bidding Optimization: Adjust bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, clicks, and sales.",
+                    "Monthly Report: Summary of ad spend, ACoS, and ROAS."
                 ]
             },
+    
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$2,000/month",
-                fitFor: "Growing Amazon stores aiming to expand their reach and improve sales.",
+                header: "Growth Amazon PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing brands aiming to scale sales with optimized Amazon PPC campaigns.",
                 youGet: [
-                    "Up to 300 keywords targeted",
-                    "Advanced bid management and optimization",
-                    "Monthly budget management up to $25,000",
-                    "Enhanced targeting with consumer behavior insights",
-                    "Bi-weekly performance optimization",
-                    "Advanced conversion tracking and analytics",
-                    "Campaign Setup Fee (One-time): $2,500",
-                    "Monthly Investment: $2,000"
+                    "Comprehensive Keyword Strategy: Advanced research for high-intent keywords.",
+                    "Sponsored Products & Sponsored Brands Ads: Boost brand visibility and sales.",
+                    "AI-Powered Bid Management: Automated bid adjustments to improve ACoS.",
+                    "Competitor Product Targeting: Ads placed on competitor product listings.",
+                    "Performance Tracking & A/B Testing: Optimize ads for better conversions."
                 ]
             },
+    
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$4,500/month",
-                fitFor: "Large-scale operations requiring comprehensive Amazon PPC strategies and custom solutions.",
+                header: "Premium Amazon PPC Package",
+                price: "$5,000/month",
+                fitFor: "Established Amazon brands looking for aggressive sales growth and ad dominance.",
                 youGet: [
-                    "Unlimited keywords targeted",
-                    "Full-scale Amazon PPC campaign management",
-                    "Monthly budget management over $50,000",
-                    "Detailed targeting strategies including remarketing and product targeting",
-                    "Monthly in-depth performance and strategy reviews",
-                    "Customized Amazon SEO and content strategies",
-                    "Campaign Setup Fee (One-time): $5,000",
-                    "Monthly Investment: $4,500"
+                    "Full-Funnel PPC Strategy: Covering Sponsored Products, Sponsored Brands & Display Ads.",
+                    "Amazon DSP Campaigns: Expanding reach beyond Amazon to retarget past shoppers.",
+                    "AI-Driven Bidding & Budget Allocation: Maximizing sales while reducing ACoS.",
+                    "Amazon Store & Landing Page Optimization: Improve conversion rates.",
+                    "Custom Performance Dashboard: Real-time tracking of key Amazon PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise Amazon PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale Amazon businesses & private-label brands aiming for long-term PPC dominance.",
+                youGet: [
+                    "End-to-End Amazon PPC Management: Covering all Amazon ad types & placements.",
+                    "High-Budget AI Bid Automation: Optimizing bids with Amazon’s algorithm-based strategies.",
+                    "Brand Domination Strategy: Targeting top competitor listings for higher market share.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansions.",
+                    "Dedicated PPC Account Manager: Full-time support for campaign growth."
                 ]
             }
         ]
-    },
+    }
+    ,
 
-    customPricing: {
-        heading: 'Custom Amazon PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom Amazon PPC Plans",
-            price: "Starting at $3,500/month"
-        },
-        leftPart: [
-            "Custom number of keywords targeted",
-            "Custom demographic and purchase behavior targeting",
-            "Custom budget management for large-scale campaigns",
-            "Full Optimization of Product Listings and A+ Content"
-        ],
-        centerPart: {
-            text: "Drive traffic, boost conversions, and maximize ROI with our sophisticated Amazon PPC strategies powered by AI.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom reporting and analytics plan",
-            "Custom conversion tracking and optimization",
-            "Custom content strategy for product ads",
-            "Dedicated customer support and account management"
-        ]
-    },
 
     reviewsSection: {
-        heading: "Join Our Community of Thriving E-commerce Brands Powered by Amazon PPC",
-        para: "Every campaign we manage is driven by a commitment to excellence and a deep understanding of Amazon's unique marketplace dynamics. Our clients' testimonials showcase the transformative impact our Amazon PPC strategies have had on their online sales. Read on to learn how our customized approaches have dramatically improved their presence and profitability on Amazon!"
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
+    },
+
 
 }
 
@@ -931,390 +1010,478 @@ export const FbInstaPPCData = {
         para: "Elevate your e-commerce store's performance with our targeted Facebook & Instagram PPC services. We create compelling ads that engage users on these platforms, driving immediate visibility and rapid sales growth. Our strategy leverages deep insights into user behavior and advanced targeting options to ensure your products resonate with potential buyers. From creative ad design to strategic placements and continuous campaign adjustments, we optimize every aspect of your social media campaigns for maximum impact.",
         img: heroImg,
         bg: BG
+    }, 
+    // Hero section data ends 
+    customPricing: {
+        heading: "Facebook & Instagram PPC Services Custom Pricing Tailored to Your Growth Goals",
+    
+        mainHeading: "Custom <br/> Facebook & Instagram PPC <br/> Package",
+    
+        overview: "Designed to maximize brand awareness, engagement, and sales, this package ensures optimized ad placements, smart audience targeting, and continuous campaign refinement to drive high-quality traffic and conversions on Facebook & Instagram.",
+    
+        benifits: [
+            { heading: "Increased Brand Visibility:", description: "Get your brand in front of the right audience with targeted social media ads." },
+            { heading: "Higher Engagement & Conversions:", description: "Attract high-intent users with visually compelling and strategically placed ads." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with data-driven targeting and budget allocation to minimize wasted spend." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Advanced Audience Targeting", description: "Leverage custom audiences, lookalike audiences, and behavioral targeting to reach the most relevant users." },
+            { heading: "Dynamic Ad Campaigns", description: "Create and optimize Dynamic Ads that automatically showcase the most relevant products to potential buyers." },
+            { heading: "Carousel & Video Ads", description: "Use engaging ad formats like carousels, reels, and videos to boost click-through rates and engagement." },
+            { heading: "Retargeting & Remarketing Ads", description: "Re-engage past website visitors and cart abandoners with tailored ad strategies." },
+            { heading: "Conversion Optimization & Pixel Tracking", description: "Use Facebook Pixel and advanced tracking to measure conversions and optimize ad performance." },
+            { heading: "A/B Testing & Performance Analysis", description: "Test different creatives, headlines, and CTAs to identify the best-performing ad variations." },
+            { heading: "Lead Generation Ads", description: "Capture high-quality leads directly from Facebook & Instagram without needing a landing page." },
+            { heading: "Shop Ads & Catalog Integration", description: "Connect your product catalog to Facebook & Instagram for seamless in-app shopping experiences." },
+            { heading: "Influencer & User-Generated Content Ads", description: "Boost ad credibility and engagement using influencer and customer-generated content." },
+            { heading: "Automated Bidding & Budget Optimization", description: "Leverage AI-powered bid strategies to get the best results for your ad spend." }
+        ],
+    
+        startingAt: "$2000/Month"
     },
-
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Facebook & Instagram PPC</span> is Essential for E-Commerce Success?",
-        para: "Capitalize on the massive user bases of Facebook and Instagram to skyrocket your e-commerce sales. Our experts use targeted ad strategies and robust analytics to maximize your ROI and enhance conversions, helping you navigate the complexities of social media advertising with ease.",
-
-        whyKeys: [
-            { heading: "Advanced Targeting Capabilities", explanation: "Utilize Facebook’s rich demographic and interest-based targeting to reach the perfect audience for your products, maximizing ad relevance and engagement.", icon: <FaUsers /> },
-            { heading: "Creative Ad Formats", explanation: "Leverage diverse ad formats including stories, videos, carousels, and more to captivate users and encourage interaction.", icon: <FaRegImages /> },
-            { heading: "Conversion Tracking", explanation: "Implement precise tracking tools to measure ad performance and conversions, enabling optimized ROI through detailed analytics.", icon: <FaChartLine /> },
-            { heading: "Audience Engagement", explanation: "Engage with your audience through personalized ads that resonate with their lifestyles and preferences, enhancing customer relationships.", icon: <FaUserTag /> }
-        ]
-    },
-
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class='text-[#207DE9]'>Specialized Facebook & Instagram PPC</span> Services",
-        para: "Utilize our expert knowledge of Facebook and Instagram advertising to drive conversions and enhance your e-commerce strategy. Focus on creative campaigns, precise audience targeting, and optimized ad spending to maximize results on these platforms.",
-
+        heading: "Boost Your Brand’s Growth with <span class='text-[#207DE9]'> Specialized <br/> Facebook & Instagram PPC </span> Strategies.",
+        para: "Maximize ROI with expert Facebook & Instagram ad campaigns. We focus on precise audience targeting, creative optimization, and continuous campaign refinement to drive conversions and grow your brand.",
+    
         boostContent: [
             {
-                navigator: "Dynamic Product Ads",
-                matters: "Automatically promote relevant products to users based on their past interactions with your website or app.",
+                name: "Advanced Audience Targeting",
+                whyMatters: "Reaching the right audience ensures higher engagement, more conversions, and efficient ad spend.",
                 includes: [
-                    "Setting up product catalogs on Facebook and Instagram.",
-                    "Using retargeting to show ads for products users have viewed but not purchased.",
-                    "Optimizing feeds for best performance and engagement."
+                    "Custom and lookalike audience segmentation for precise targeting.",
+                    "Behavioral and interest-based targeting to attract high-intent users.",
+                    "Geo-targeting and device-based bid adjustments for better performance."
                 ],
-                benefit: "Enhances product visibility and recaptures the interest of potential buyers, increasing sales opportunities.",
-                image: "https://example.com/dynamic-product-ads-image.png"
+                benifit: "Increases engagement and reduces wasted ad spend with refined targeting."
             },
+    
             {
-                navigator: "Influencer Collaborations",
-                matters: "Collaborate with influencers to leverage their followers and enhance brand credibility.",
+                name: "High-Performance Ad Creatives",
+                whyMatters: "Engaging ad visuals and compelling copy lead to higher click-through rates and conversions.",
                 includes: [
-                    "Identifying influencers that align with your brand values and audience.",
-                    "Crafting co-branded content that feels authentic and engages both user bases.",
-                    "Managing collaborations for consistent message delivery."
+                    "A/B testing ad creatives, headlines, and CTAs for maximum impact.",
+                    "Using carousel, video, and reel ads to boost engagement.",
+                    "Optimizing ad formats based on platform trends and audience behavior."
                 ],
-                benefit: "Builds trust and extends reach, tapping into the influencer's loyal audience for increased brand exposure and sales.",
-                image: "https://example.com/influencer-collabs-image.png"
+                benifit: "Improves ad engagement, lowers CPC, and increases conversions."
             },
+    
             {
-                navigator: "Mobile Optimization",
-                matters: "Since the majority of social media users access platforms via mobile, optimize all ads for mobile devices.",
+                name: "Conversion-Optimized Landing Pages",
+                whyMatters: "A well-optimized landing page ensures visitors take action after clicking on an ad.",
                 includes: [
-                    "Designing ads with mobile-first in mind to ensure optimal display and performance.",
-                    "Testing various ad formats to determine the best performance on smartphones.",
-                    "Adjusting content for quick consumption and instant impact."
+                    "Creating high-converting sales and lead-generation pages.",
+                    "A/B testing landing page design, content, and CTA placement.",
+                    "Optimizing page speed and mobile responsiveness for better performance."
                 ],
-                benefit: "Improves user experience and engagement on mobile devices, significantly increasing conversion rates.",
-                image: "https://example.com/mobile-optimization-image.png"
+                benifit: "Increases lead generation and sales while reducing bounce rates."
             },
+    
             {
-                navigator: "Local Targeting Strategies",
-                matters: "Target ads based on geographic locations to capture audiences more likely to convert at local and regional levels.",
+                name: "Retargeting & Dynamic Ads",
+                whyMatters: "Re-engaging past visitors increases the likelihood of conversions and repeat purchases.",
                 includes: [
-                    "Using geotargeting to serve ads to users based on their current location.",
-                    "Creating localized campaigns that resonate with cultural or regional interests.",
-                    "Adjusting bids by geographic performance to maximize ad spend efficiency."
+                    "Retargeting cart abandoners and past visitors with personalized ads.",
+                    "Running Dynamic Ads that showcase personalized products or services.",
+                    "Optimizing ad frequency to maximize engagement without overspending."
                 ],
-                benefit: "Enhances engagement by offering tailored experiences that resonate with local audiences, boosting in-store traffic and online sales.",
-                image: "https://example.com/local-targeting-strategies-image.png"
+                benifit: "Boosts conversion rates and encourages repeat sales."
+            },
+    
+            {
+                name: "Influencer & User-Generated Content Ads",
+                whyMatters: "Leveraging influencer content and user testimonials improves ad credibility and performance.",
+                includes: [
+                    "Collaborating with influencers for authentic social proof.",
+                    "Promoting user-generated content (UGC) ads for better engagement.",
+                    "A/B testing different ad creatives featuring influencer testimonials."
+                ],
+                benifit: "Increases brand trust and leads to higher ad engagement."
+            },
+    
+            {
+                name: "Facebook & Instagram Shopping Ads",
+                whyMatters: "Shopping ads help eCommerce brands drive direct sales from Facebook & Instagram.",
+                includes: [
+                    "Syncing product catalogs with Facebook & Instagram Shops.",
+                    "Optimizing product images, descriptions, and pricing for better visibility.",
+                    "Running Dynamic Shopping Ads to show personalized products to shoppers."
+                ],
+                benifit: "Drives more sales by showcasing relevant products to interested buyers."
+            },
+    
+            {
+                name: "AI-Powered Bid Optimization",
+                whyMatters: "Using smart bidding ensures cost-effective ad placements and better ROAS.",
+                includes: [
+                    "Automated bid adjustments based on audience engagement and conversion rates.",
+                    "Utilizing Facebook’s AI-driven budget optimization strategies.",
+                    "Daily bid monitoring and real-time performance adjustments."
+                ],
+                benifit: "Maximizes ad reach while lowering CPC and improving return on ad spend (ROAS)."
+            },
+    
+            {
+                name: "Campaign Performance Tracking",
+                whyMatters: "Continuous tracking and optimization ensure profitable and high-performing ad campaigns.",
+                includes: [
+                    "Real-time ad performance tracking and custom reporting.",
+                    "A/B testing different ad sets and audience segments.",
+                    "ROAS and cost-per-acquisition (CPA) monitoring for strategic adjustments."
+                ],
+                benifit: "Ensures ad budget is used efficiently while maximizing returns."
             }
         ]
     },
-
+    //Booster Section ends here   
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Facebook & Instagram PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and AI-driven optimization to maximize ad reach, increase conversions, and achieve a higher return on ad spend (ROAS) on Facebook & Instagram.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Ad Reach & Engagement", 
+                benefitText: "Optimized Facebook & Instagram PPC campaigns drive more high-intent users to your brand, ensuring maximum exposure and engagement.", 
+                increasePercentage: 250, 
+                explanation: "A well-structured PPC strategy ensures ads appear in the right feeds and stories, increasing impressions, clicks, and brand awareness."
+            },
+    
+            { 
+                benefit: "Improvement in Conversion Rates", 
+                benefitText: "Facebook & Instagram ads optimized for audience targeting and bid strategies lead to higher conversion rates.", 
+                increasePercentage: 140, 
+                explanation: "Refining audience segmentation, ad creatives, and landing page experience improves conversion rates, turning ad clicks into customers efficiently."
+            },
+    
+            { 
+                benefit: "Higher ROAS from Social Media Advertising", 
+                benefitText: "Maximized return on ad spend (ROAS) through AI-driven bidding, audience retargeting, and continuous campaign optimization.", 
+                increasePercentage: 400, 
+                explanation: "Focusing on high-converting audiences, eliminating wasted spend, and refining ad placements leads to significant revenue growth for businesses."
+            }
+        ]
+    },
+    //PowerBy ends here 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized Facebook & Instagram PPC</span> for Every E-Commerce Platform",
-        para: "Leverage the unique opportunities offered by Facebook & Instagram PPC across various e-commerce platforms. Our team crafts customized advertising strategies that ensure your social media ads resonate with your audience and drive significant ROI.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized  Facebook & Instagram PPC </span><br/> Strategies for Every Business",
+        para: "Every business has unique advertising needs. Our <strong> customized Facebook & Instagram PPC strategies </strong> for different ad formats, audience targeting, and retargeting ensure that your ads reach the right people, drive conversions, and maximize ROAS.",
+    
         tailoredItems: [
             {
-                heading: "Shopify Facebook & Instagram PPC Services",
-                para: "Utilize Facebook & Instagram's extensive ad network to boost your Shopify store’s visibility and engagement.",
+                heading: "Facebook Feed & Story Ads – Capture Attention Instantly",
+                para: "Facebook’s Feed & Story ads allow you to showcase your brand and products directly in users’ feeds, driving engagement and conversions.",
                 offers: [
-                    "Creating dynamic ads directly linked to your Shopify inventory.",
-                    "Developing custom audiences based on Shopify customer data.",
-                    "Retargeting Shopify visitors with personalized Instagram stories and Facebook ads."
+                    "<strong>Engaging Image & Video Ads:</strong> Create high-quality visuals optimized for Facebook’s algorithm.",
+                    "<strong>AI-Powered Audience Targeting:</strong> Reach potential customers with precise demographic and behavioral segmentation.",
+                    "<strong>Custom Ad Copywriting:</strong> Craft compelling headlines and CTAs to boost engagement.",
+                    "<strong>Retargeting & Lookalike Audiences:</strong> Re-engage past visitors and find similar high-value customers."
                 ],
-                chooseUs: "Our expert integration of Shopify with Facebook & Instagram ads ensures increased traffic and conversions.",
-                image: "https://example.com/shopify-facebook-instagram-service-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce Facebook & Instagram PPC Services",
-                para: "Expand your WooCommerce store's reach with targeted Facebook & Instagram advertising designed to convert.",
+                heading: "Instagram Story & Reel Ads – High-Impact Video Advertising",
+                para: "Instagram Reels & Stories are the most engaging formats on social media. We create compelling video ad campaigns that drive engagement and brand awareness.",
                 offers: [
-                    "Implementing pixel-based tracking for detailed insights into user behavior.",
-                    "Leveraging WooCommerce data to create highly targeted ad campaigns.",
-                    "Using Facebook's catalogue ads to showcase WooCommerce products."
+                    "<strong>Vertical Video Optimization:</strong> Create eye-catching content specifically designed for Instagram Stories & Reels.",
+                    "<strong>Interactive Poll & CTA Integration:</strong> Increase engagement with interactive features like swipe-ups and polls.",
+                    "<strong>Influencer & UGC Ads:</strong> Leverage user-generated and influencer content for better credibility.",
+                    "<strong>Conversion-Driven Ad Targeting:</strong> Optimize placements for lead generation, website traffic, or eCommerce sales."
                 ],
-                chooseUs: "We combine WooCommerce strengths with sophisticated social media marketing to enhance your sales and online presence.",
-                image: "https://example.com/woocommerce-facebook-instagram-service-image.png"
-            }
-            // Additional platforms can be included here
-        ]
-    },
-
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by Facebook & Instagram PPC</span>",
-        para: "Transform your e-commerce business with targeted, creative advertising strategies on Facebook & Instagram that captivate audiences and maximize sales.",
-
-        features: [
-            {
-                navigator: "Audience Insights Analysis",
-                text: "Use Facebook & Instagram’s deep audience insights to tailor your campaigns for maximum engagement and effectiveness.",
-                icon: <FaRegChartBar/>
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
             },
+    
             {
-                navigator: "Creative Visual Advertising",
-                text: "Craft compelling visual content that stands out in the social feed, enhancing ad performance and brand recall.",
-                icon: <FaImages/>
+                heading: "Facebook & Instagram Shopping Ads – Drive E-commerce Sales",
+                para: "Facebook & Instagram Shopping Ads allow businesses to showcase product catalogs and drive direct purchases from social media.",
+                offers: [
+                    "<strong>Product Catalog Integration:</strong> Sync your store’s inventory with Facebook & Instagram Shops.",
+                    "<strong>Dynamic Product Ads:</strong> Show relevant products based on user browsing behavior.",
+                    "<strong>AI-Powered Bid Optimization:</strong> Maximize ROAS with automated bid adjustments.",
+                    "<strong>Carousel & Collection Ads:</strong> Showcase multiple products in one engaging ad format."
+                ],
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
             },
+    
             {
-                navigator: "Advanced Ad Targeting Techniques",
-                text: "Implement advanced targeting options to reach specific segments, optimizing your ad spend with precision.",
-                icon: <FaUserShield/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Engagement",
-                benefitText: "Demonstrate the uplift in engagement rates from visually appealing and targeted social ads.",
-                increasePercentage: 140
+                heading: "Retargeting & Remarketing Ads – Bring Back Potential Customers",
+                para: "Retargeting ads help businesses re-engage past website visitors, social media followers, and abandoned cart users to drive more conversions.",
+                offers: [
+                    "<strong>Dynamic Retargeting Campaigns:</strong> Automatically show personalized ads based on past browsing history.",
+                    "<strong>Lookalike Audiences:</strong> Expand reach by finding users similar to your best customers.",
+                    "<strong>Abandoned Cart Recovery Ads:</strong> Bring back users who left products in their cart without purchasing.",
+                    "<strong>Custom Retargeting Segments:</strong> Target specific groups like past customers, video viewers, and email subscribers."
+                ],
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
             },
+    
             {
-                benefit: "Growth in Conversion Rates",
-                benefitText: "Show the impact of targeted campaigns on conversion rates across your e-commerce platforms.",
-                increasePercentage: 165
-            },
-            {
-                benefit: "ROI from Social Media Campaigns",
-                benefitText: "Detail the return on investment achieved through targeted Facebook & Instagram PPC campaigns.",
-                increasePercentage: 280
+                heading: "Facebook & Instagram Lead Generation Ads – Capture More Leads",
+                para: "Lead generation ads help businesses collect potential customer information without requiring them to leave Facebook or Instagram.",
+                offers: [
+                    "<strong>Instant Lead Forms:</strong> Pre-filled forms for seamless customer data collection.",
+                    "<strong>CRM Integration:</strong> Automatically send leads to your email or CRM system.",
+                    "<strong>AI-Driven Lead Targeting:</strong> Find high-intent users based on previous interactions.",
+                    "<strong>Follow-Up Automation:</strong> Set up automated follow-ups via Messenger or email."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
         ]
     },
-
-
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>Facebook & Instagram PPC Strategy</span>",
+        para: "Maximize brand awareness, engagement, and conversions with our data-driven Facebook & Instagram PPC strategies designed to target the right audience and deliver high ROI.",
+    
+        approaches: [
+            { heading: "Advanced Audience Targeting", detail: 'Leverage detailed demographic, behavioral, and interest-based targeting to reach high-intent users on Facebook & Instagram.', icon: <MdOutlinePeopleAlt/> },
+            { heading: "High-Converting Ad Creatives", detail: 'Craft compelling ad visuals and copy tailored for Feed, Stories, and Reels to maximize engagement and click-through rates.', icon: <FaRegImages/> },
+            { heading: "AI-Driven Bidding & Budget Optimization", detail: 'Utilize smart bidding strategies and A/B testing to optimize ad spend while ensuring the lowest cost per acquisition.', icon: <RiMoneyDollarCircleFill/> },
+            { heading: "Retargeting & Lookalike Audiences", detail: 'Re-engage past visitors and expand reach by targeting audiences similar to your best-performing customers.', icon: <FaRedoAlt/> },
+            { heading: "Performance Tracking & Continuous Optimization", detail: 'Monitor campaign performance, adjust ad placements, and optimize creatives to improve engagement and maximize ROAS.', icon: <MdTrendingUp/> }
+        ]
+    },
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for Facebook & Instagram PPC",
-        para: "Our expertise in Facebook & Instagram advertising allows us to effectively manage PPC campaigns across all major eCommerce platforms, ensuring your ads reach the intended audience and drive sales.",
-
+        heading: "We Optimize Facebook & Instagram PPC Campaigns Across These Platforms",
+        para: "Our Facebook & Instagram PPC experts manage and optimize ad campaigns across all major Meta advertising networks to maximize engagement, conversions, and brand visibility. Whether you're running Feed Ads, Story Ads, or Retargeting campaigns, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "Meta Advertising Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
-                ],
-                image: popularPlatform
+                    { itemName: "Facebook Feed Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
+                    { itemName: "Instagram Feed Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Facebook Story Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
+                    { itemName: "Instagram Story Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" }
+                ]
             },
+    
             {
-                heading: "Enterprise-Level Solutions",
+                heading: "Social Media & Video Platforms",
                 items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
-                ],
-                image: enterpricePlatform
+                    { itemName: "Facebook Reels Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
+                    { itemName: "Instagram Reels Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Messenger Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/8/83/Facebook_Messenger_4_Logo.svg" },
+                    { itemName: "WhatsApp Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" }
+                ]
             },
+    
             {
-                heading: "Content Management Systems (CMS)",
+                heading: "Ad Targeting & Analytics Tools",
                 items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
-                ],
-                image: cmsPlatform
+                    { itemName: "Facebook Pixel", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
+                    { itemName: "Meta Business Suite", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Facebook Audience Insights", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" },
+                    { itemName: "Ad Creative Testing Tools", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" }
+                ]
             },
+    
             {
-                heading: "Other Platforms",
+                heading: "Retargeting & External Ad Platforms",
                 items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
-                ],
-                image: otherPlatform
+                    { itemName: "Google Ads for Facebook", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "TikTok Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "LinkedIn Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "YouTube Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" }
+                ]
             }
         ]
     },
-
-    pathToSuccess: {
-        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Facebook & Instagram PPC Success",
-        paths: [
-            {
-                letter: "G",
-                heading: "Generate Engagement",
-                matters: "Effective Facebook & Instagram campaigns increase engagement by connecting with users through compelling content and interactive ads.",
-                how: ["Leverage Facebook’s detailed targeting to deliver ads that resonate with users’ interests and behaviors.", "Use engaging formats like stories and live videos to capture attention."],
-                outcome: "Higher user interaction and engagement rates."
-            },
-            {
-                letter: "R",
-                heading: "Refine Audience Targeting",
-                matters: "Refine your ad targeting on Facebook & Instagram to reach precise audience segments, enhancing ad relevance and effectiveness.",
-                how: ["Utilize advanced targeting options including lookalike and custom audiences.", "Segment your audience based on demographics, interests, and past interactions."],
-                outcome: "More precise targeting leads to improved ad performance and ROI."
-            },
-            {
-                letter: "O",
-                heading: "Optimize Creative Content",
-                matters: "Continuously optimize your ad content to ensure it remains fresh, relevant, and engaging for your target audience on Facebook & Instagram.",
-                how: ["Test different ad creatives with A/B testing tools.", "Update ad visuals and copy regularly based on performance data and trends."],
-                outcome: "Ad content that continually resonates with the audience, improving click-through and conversion rates."
-            },
-            {
-                letter: "W",
-                heading: "Win Conversions",
-                matters: "Transform engagement into tangible results by optimizing your Facebook & Instagram ads for conversions.",
-                how: ["Use strong calls-to-action in ads.", "Optimize landing pages to ensure a seamless transition from ad to action."],
-                outcome: "Increased conversions from ad clicks to sales."
-            },
-            {
-                letter: "T",
-                heading: "Track Performance Metrics",
-                matters: "Measure and analyze the performance of your Facebook & Instagram ads to refine strategies and increase effectiveness.",
-                how: ["Utilize Facebook Pixel to track user actions and campaign effectiveness.", "Monitor key performance indicators like ROI, reach, and engagement."],
-                outcome: "Data-driven insights leading to optimized campaign strategies."
-            },
-            {
-                letter: "H",
-                heading: "Harness Social Trends",
-                matters: "Stay ahead by integrating the latest social trends into your Facebook & Instagram advertising strategies.",
-                how: ["Keep abreast of emerging trends and popular content on social media.", "Quickly adapt campaigns to leverage viral moments and trending topics."],
-                outcome: "Campaigns that are culturally relevant and more likely to engage users."
-            }
-        ]
-    },
-
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>Facebook & Instagram PPC Strategy</span>",
-        para: "Enhance your e-commerce presence with our expertly managed Facebook & Instagram PPC services, designed to connect, engage, and convert your target audience effectively.",
-
-        approaches: [
-            { heading: "Creative Ad Development", detail: 'Design captivating ad creatives that stand out in the social feed and capture user attention.', icon: <FaPaintBrush/> },
-            { heading: "Precise Audience Targeting", detail: 'Deploy advanced targeting to reach specific user demographics, interests, and behaviors on Facebook & Instagram.', icon: <FaUserCheck/> },
-            { heading: "Engagement Optimization", detail: 'Maximize ad engagement through interactive and visually appealing content.', icon: <FaThumbsUp/> },
-            { heading: "Conversion Tracking", detail: 'Utilize Facebook Pixel and Instagram analytics to track conversions and measure the success of campaigns.', icon: <FaFunnelDollar/> },
-            { heading: "Ad Performance Review", detail: 'Regularly review ad performance to optimize strategy and budget allocation.', icon: <FaSearchDollar/> }
-        ]
-    },
-
+    // Aproach section starts 
     realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from Facebook & Instagram PPC</span>",
-        para: "Discover the transformative impact of our Facebook & Instagram PPC strategies on e-commerce businesses. Our focused approach ensures that each campaign is finely tuned for maximum engagement and conversion, leveraging the unique strengths of social media platforms.",
-
+        heading: "Real Results from Data-Driven<span class='text-[#207DE9]'> Facebook & Instagram PPC</span>",
+        para: "Our Facebook & Instagram PPC strategies focus on delivering measurable outcomes. From increasing brand visibility to maximizing conversions, we’ve helped businesses achieve substantial revenue growth. Our tailored approach ensures every audience segment, bid, and ad placement works efficiently—turning ad spend into high ROI.",
+    
         results: [
             {
-                header: "Ecommerce - Fashion and Apparel",
-                challenge: "Boost brand visibility and engagement in a highly competitive fashion market.",
+                header: "Facebook Ads - E-commerce Fashion",
+                challenge: "Scaling a fashion brand’s online sales through high-converting Facebook ad campaigns.",
                 approaches: [
-                    "Utilize Instagram Stories and Facebook Live to engage users with real-time marketing.",
-                    "Implement influencer collaborations to extend reach and credibility.",
-                    "Craft targeted promotions that resonate with the fashion-conscious audience."
+                    "Lookalike Audience Targeting: Expanding reach with AI-driven audience matching.",
+                    "Dynamic Product Ads: Retargeting engaged visitors with personalized product ads.",
+                    "A/B Testing Ad Creatives: Optimizing ad visuals, copy, and CTA for better conversions."
                 ],
-                increase: "360",
-                increaseIn: "Percentage increase in engagement rate"
+                increase: 320,
+                increaseIn: "Increase in return on ad spend (ROAS) with a 50% drop in cost per acquisition (CPA)."
             },
             {
-                header: "Ecommerce - Health and Wellness",
-                challenge: "Enhance ROI and decrease cost-per-acquisition for wellness products.",
+                header: "Instagram Ads - Beauty & Skincare",
+                challenge: "Boosting awareness and driving sales for a skincare brand using Instagram Reels & Story Ads.",
                 approaches: [
-                    "Deploy targeted health-conscious ads tailored to lifestyle interests.",
-                    "Use carousel ads to showcase multiple products or benefits.",
-                    "Optimize ad spend with a focus on high-performing demographics."
+                    "Influencer Collaboration: Leveraging influencers to promote ads with high engagement.",
+                    "Video Ads Optimization: Creating short, engaging video ads tailored for Instagram users.",
+                    "Retargeting Past Visitors: Bringing back warm leads with exclusive offer-based ads."
                 ],
-                increase: "295",
-                increaseIn: "Growth in ROI"
+                increase: 280,
+                increaseIn: "Higher brand engagement and 40% increase in direct sales from Instagram Ads."
             },
             {
-                header: "Ecommerce - Home Decor",
-                challenge: "Capitalize on seasonal trends to boost sales and average order value.",
+                header: "Facebook & Instagram Ads - Tech Gadgets",
+                challenge: "Generating high-converting traffic for an electronics store using Facebook & Instagram PPC.",
                 approaches: [
-                    "Create visually striking ads that highlight seasonal decor themes.",
-                    "Implement dynamic ads to retarget visitors with products they viewed.",
-                    "Leverage Facebook & Instagram Shops to facilitate direct purchases."
+                    "Interest-Based Targeting: Reaching tech-savvy buyers with precise demographic segmentation.",
+                    "Carousel Ads Optimization: Showcasing multiple product features in a single ad.",
+                    "Smart Bidding Strategies: Using AI-driven bidding to maximize conversions at the lowest cost."
                 ],
-                increase: "250",
-                increaseIn: "Increase in average order value"
-            },
-            {
-                header: "Ecommerce - Electronics",
-                challenge: "Expand market share in a competitive electronics sector.",
-                approaches: [
-                    "Run tech-focused video ads to demonstrate product features effectively.",
-                    "Use precise targeting based on user tech interests and previous device usage.",
-                    "Engage users with comparison ads that highlight product advantages over competitors."
-                ],
-                increase: "210",
-                increaseIn: "Growth in market share"
+                increase: 450,
+                increaseIn: "Significant rise in high-quality traffic with a 3x increase in conversion rates."
             }
         ]
     },
-
+    pathToSuccess: {
+        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Facebook & Instagram PPC Success",
+    
+        paths: [
+            {
+                letter: "G", 
+                heading: "Generate Targeted Traffic",
+                matters: "Effective Facebook & Instagram PPC campaigns drive high-intent users who are interested in your brand, ensuring better reach and engagement.",
+                how: [
+                    "Use audience segmentation to target specific demographics, interests, and behaviors.",
+                    "Leverage Facebook Lookalike Audiences to expand reach to similar potential buyers.",
+                    "Optimize ad placements across Facebook Feed, Stories, Reels, and Instagram Explore."
+                ],
+                outcome: "More relevant visitors who are likely to engage and convert."
+            },
+    
+            {
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing ad creatives, placements, and bidding strategies ensures better engagement and lower ad costs.",
+                how: [
+                    "A/B test ad creatives, headlines, and CTAs to determine what drives the best results.",
+                    "Refine targeting based on audience engagement and ad interaction metrics.",
+                    "Use AI-driven smart bidding to optimize ad delivery for maximum conversions."
+                ],
+                outcome: "Higher click-through rates (CTR) and improved return on ad spend (ROAS)."
+            },
+    
+            {
+                letter: "O",
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous tracking and refining of campaigns help reduce wasted ad spend and boost long-term performance.",
+                how: [
+                    "Utilize Facebook Pixel to track user behavior and optimize campaigns based on insights.",
+                    "Exclude non-converting audiences using negative targeting to refine ad spend.",
+                    "Monitor key metrics like cost per click (CPC), cost per acquisition (CPA), and engagement rate."
+                ],
+                outcome: "More efficient ad spend and increased profit margins."
+            },
+    
+            {
+                letter: "W",
+                heading: "Win More Conversions",
+                matters: "Clicks alone don’t drive revenue—turning users into paying customers is the ultimate goal.",
+                how: [
+                    "Create high-converting landing pages that align with ad creatives for seamless user experience.",
+                    "Retarget website visitors with dynamic ads featuring products they browsed.",
+                    "Utilize Facebook & Instagram Story Ads to create immersive brand experiences."
+                ],
+                outcome: "Higher conversion rates and improved ad performance."
+            },
+    
+            {
+                letter: "T",
+                heading: "Target the Right Audience",
+                matters: "Precision targeting ensures your ads reach potential buyers most likely to convert.",
+                how: [
+                    "Use in-market and interest-based targeting to reach engaged users.",
+                    "Create retargeting campaigns for cart abandoners and past visitors.",
+                    "Analyze audience insights to refine targeting and improve engagement."
+                ],
+                outcome: "More high-quality leads and increased ad engagement."
+            },
+    
+            {
+                letter: "H",
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROAS, and scale Facebook & Instagram PPC success.",
+                how: [
+                    "Use Facebook Ads Manager to track real-time campaign performance.",
+                    "Monitor key PPC metrics like cost per lead (CPL), click-through rate (CTR), and ad relevance score.",
+                    "Implement automated bid adjustments based on audience engagement and ad performance."
+                ],
+                outcome: "Consistent campaign improvements and sustainable PPC growth."
+            },
+    
+            {
+                letter: <MdTrendingUp />,
+                focus: "By focusing on:",
+                focusOn: ["Generating Targeted Traffic", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
+                how: [
+                    "Increased brand awareness and engagement.",
+                    "Higher conversion rates.",
+                    "Better ad spend efficiency and improved ROAS."
+                ],
+                outcome: "Maximized ROI and long-term Facebook & Instagram PPC success."
+            }
+        ]
+    },
     pricingSection: {
         heading: "Transparent Pricing for Facebook & Instagram PPC",
-        para: "Explore our straightforward and adaptable Facebook & Instagram PPC pricing plans designed to scale with your online store. From maximizing social engagement to optimizing conversions, our plans are crafted to deliver tangible results and establish a strong social presence.",
-
+        para: "Discover our flexible and data-driven Facebook & Instagram PPC pricing plans designed to maximize your ad spend efficiency. From increasing brand awareness to driving high-intent conversions, our plans ensure measurable results and high ROI.",
+    
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
+                header: "Starter Facebook & Instagram PPC Package",
                 price: "$800/month",
-                fitFor: "Startups or small businesses new to social media advertising, looking for basic market engagement.",
+                fitFor: "Small businesses or startups looking to test social media advertising with a limited budget.",
                 youGet: [
-                    "Campaigns on Facebook & Instagram",
-                    "Management of up to 3 social ad sets",
-                    "Monthly budget management up to $4,000",
-                    "Basic demographic and interest targeting",
-                    "Weekly performance insights",
-                    "Setup and management of Facebook Pixel",
-                    "Campaign Setup Fee (One-time): $800",
-                    "Monthly Investment: $800"
+                    "Audience Targeting Setup: Focus on interest-based and demographic targeting.",
+                    "Ad Creation & Management: Basic ad creation for Facebook & Instagram Feeds.",
+                    "Manual Bid Optimization: Adjust bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, clicks, and engagement.",
+                    "Monthly Report: Summary of ad spend, CPC, CTR, and conversions."
                 ]
             },
+    
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$2,000/month",
-                fitFor: "Growing businesses aiming to leverage advanced targeting and increase ad reach.",
+                header: "Growth Facebook & Instagram PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing brands aiming to scale engagement and sales with optimized PPC campaigns.",
                 youGet: [
-                    "Expanded campaigns on Facebook & Instagram",
-                    "Up to 10 ad sets with varied creatives",
-                    "Monthly budget management up to $20,000",
-                    "Advanced targeting with lookalike and custom audiences",
-                    "Bi-weekly optimization sessions",
-                    "Enhanced conversion tracking and reporting",
-                    "Campaign Setup Fee (One-time): $2,500",
-                    "Monthly Investment: $2,000"
+                    "Comprehensive Audience Targeting: Advanced segmentation for better ROI.",
+                    "Multi-Ad Format Campaigns: Facebook & Instagram Feed, Stories, and Carousel Ads.",
+                    "AI-Powered Bidding & Budget Optimization: Automated bid adjustments for better ROAS.",
+                    "Retargeting & Lookalike Audiences: Re-engage past visitors & find similar buyers.",
+                    "Performance Tracking & A/B Testing: Optimize creatives for better engagement & conversions."
                 ]
             },
+    
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$4,000/month",
-                fitFor: "Large businesses seeking a dominant social media presence with fully integrated campaigns.",
+                header: "Premium Facebook & Instagram PPC Package",
+                price: "$5,000/month",
+                fitFor: "Established brands looking for aggressive growth and ad scaling.",
                 youGet: [
-                    "Full-scale management across Facebook & Instagram",
-                    "Unlimited ad sets with dynamic creative optimization",
-                    "Monthly budget management over $40,000",
-                    "Complex targeting strategies including behavioral, geographic, and psychographic data",
-                    "Monthly detailed performance audits",
-                    "Advanced analytics with custom dashboard access",
-                    "Campaign Setup Fee (One-time): $5,000",
-                    "Monthly Investment: $4,000"
+                    "Full-Funnel PPC Strategy: Covering Awareness, Consideration & Conversion campaigns.",
+                    "Video & Dynamic Ad Campaigns: Engaging video ads & product-based retargeting.",
+                    "AI-Driven Bidding & Budget Allocation: Maximizing conversions while reducing CPC.",
+                    "Landing Page Optimization: Improve conversion rates for ad-driven traffic.",
+                    "Custom Performance Dashboard: Real-time tracking of key PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise Facebook & Instagram PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale businesses & eCommerce brands aiming for social media ad dominance.",
+                youGet: [
+                    "End-to-End PPC Management: Covering Facebook, Instagram & Messenger Ads.",
+                    "High-Budget AI Bid Automation: Optimizing ad delivery with Facebook's machine learning.",
+                    "Omni-Channel Strategy: Aligning Facebook & Instagram PPC with Google Ads & TikTok PPC.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansion.",
+                    "Dedicated PPC Account Manager: Full-time support for ad growth & optimization."
                 ]
             }
         ]
     },
-
-    customPricing: {
-        heading: 'Custom Facebook & Instagram PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom Social Media Advertising Plans",
-            price: "Starting at $3,500/month"
-        },
-        leftPart: [
-            "Custom number of campaigns and ad sets",
-            "Precise audience segmentation and retargeting options",
-            "Flexible budget allocation tailored to your business needs",
-            "Comprehensive optimization of ads for peak performance"
-        ],
-        centerPart: {
-            text: "Drive traffic, enhance engagement, and maximize ROI with personalized, AI-powered social media strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Tailored reporting and analytics for strategic decision-making",
-            "Advanced conversion tracking including funnel analysis",
-            "Strategic content creation and scheduling for ads",
-            "Dedicated account manager and customer support team"
-        ]
-    },
-
     reviewsSection: {
-        heading: "Join Our Community of Thriving E-commerce Brands Powered by Facebook & Instagram PPC",
-        para: "Experience the impact of our Facebook & Instagram PPC strategies through real-world successes. Our focused approach ensures that each campaign is optimized for maximum engagement and sales, helping businesses thrive on the world's biggest social platforms."
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
+    },
 
 }
 
@@ -1326,766 +1493,969 @@ export const GoogleShoppingPPCData = {
         bg: BG
     },
 
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Google Shopping PPC</span> is Essential for E-Commerce Success?",
-        para: "Harness the power of Google Shopping to transform your e-commerce sales. With our expert management, your products will feature prominently in Google searches, directly reaching shoppers interested in your offerings. Our strategic approach combines robust data analytics and targeted ad placement to maximize your ROI and drive conversions.",
-
-        whyKeys: [
-            { heading: "Enhanced Product Visibility", explanation: "Maximize visibility for your products in Google search results. Our expert use of product data optimization ensures your listings stand out to potential buyers.", icon: <FaEye /> },
-            { heading: "Precision Targeting", explanation: "Reach customers who are actively searching for your products on Google. We fine-tune your campaigns for demographic and behavioral targeting to improve click-through rates.", icon: <FiTarget /> },
-            { heading: "Optimized Ad Spend", explanation: "Our strategic bid management ensures your budget is spent efficiently, maximizing your return on ad spend while capturing high-intent shoppers.", icon: <FaMoneyBillWave /> },
-            { heading: "Detailed Performance Analytics", explanation: "Utilize our advanced tracking tools to measure the effectiveness of your Google Shopping campaigns. Our analytics drive continual improvements based on real-time data.", icon: <FaChartBar /> }
-        ]
+    // Hero section data ends 
+    customPricing: {
+        heading: "Google Shopping PPC Services Custom Pricing Tailored to Your Sales Goals",
+    
+        mainHeading: "Custom <br/> Google Shopping PPC <br/> Package",
+    
+        overview: "Designed to maximize product visibility, drive high-intent traffic, and increase eCommerce sales, our Google Shopping PPC package ensures optimized product listings, smart bidding strategies, and continuous campaign refinement for higher conversions.",
+    
+        benifits: [
+            { heading: "Increased Product Visibility:", description: "Ensure your products appear at the top of Google Shopping results for high-intent searches." },
+            { heading: "Higher Click-Through & Conversion Rates:", description: "Optimize product titles, descriptions, and images to drive engagement and conversions." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with AI-powered bid strategies and continuous campaign optimization." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Product Feed Optimization", description: "Ensure high-quality, SEO-friendly product data with optimized titles, descriptions, and attributes." },
+            { heading: "Smart Bidding Strategies", description: "Leverage AI-powered bidding like Target ROAS and Maximize Conversions for cost-efficient results." },
+            { heading: "Google Merchant Center Setup", description: "Ensure seamless integration and compliance with Google Shopping policies." },
+            { heading: "Dynamic Remarketing Ads", description: "Re-engage past visitors with personalized product ads across Google Display Network." },
+            { heading: "Performance Max Campaigns", description: "Utilize Google's automated campaign type to maximize reach across Search, Shopping, Display, and YouTube." },
+            { heading: "Competitor Price & Bidding Analysis", description: "Track competitor pricing and bidding strategies to stay ahead in Google Shopping results." },
+            { heading: "A/B Testing & Performance Analysis", description: "Continuously optimize ad creatives, product feed data, and bidding strategies for maximum ROI." },
+            { heading: "Landing Page & Conversion Rate Optimization", description: "Ensure high-converting product pages with a seamless shopping experience." },
+            { heading: "Multi-Channel Integration", description: "Sync Google Shopping campaigns with Facebook, Instagram, and YouTube ads for omnichannel eCommerce growth." },
+            { heading: "Custom Analytics Dashboard", description: "Monitor Google Shopping campaign performance in real-time with detailed reports and insights." }
+        ],
+    
+        startingAt: "$2500/Month"
     },
 
     boostSection: {
-        heading: "Boost Your Online Store's Performance with <span class='text-[#207DE9]'>Specialized Google Shopping PPC</span> Services",
-        para: "Leverage Google Shopping to significantly enhance your e-commerce strategy. Focus on product feed optimization, advanced targeting, and strategic ad placements to maximize conversions and ROI.",
+    heading: "Boost Your Sales with <span class='text-[#207DE9]'> Specialized <br/> Google Shopping PPC </span> Strategies.",
+    para: "Maximize ROI with expert Google Shopping PPC campaigns. We focus on precise product feed optimization, smart bidding, and continuous campaign refinement to increase product visibility, drive conversions, and scale eCommerce growth.",
 
-        boostContent: [
-            {
-                navigator: "Product Feed Optimization",
-                matters: "Ensure your product feeds are fully optimized and compliant with Google’s guidelines to enhance visibility and attractiveness.",
-                includes: [
-                    "Utilizing high-quality images and detailed product descriptions.",
-                    "Regularly updating feeds to include all relevant product details and pricing.",
-                    "Implementing Google’s best practices for feed structure and data quality."
-                ],
-                benefit: "Optimized feeds lead to better product placement, increased visibility, and higher sales conversion rates.",
-                image: "https://example.com/product-feed-optimization-image.png"
+    boostContent: [
+        {
+            name: "Product Feed Optimization",
+            whyMatters: "Well-structured and optimized product feeds improve ranking, visibility, and conversions on Google Shopping.",
+            includes: [
+                "Optimizing product titles, descriptions, and attributes with high-converting keywords.",
+                "Enhancing images and pricing strategies for maximum engagement.",
+                "Ensuring feed compliance with Google Merchant Center policies."
+            ],
+            benifit: "Improves product discoverability, increases clicks, and boosts conversion rates."
+        },
+
+        {
+            name: "AI-Powered Smart Bidding",
+            whyMatters: "Leveraging Google’s automated bidding ensures cost-effective ad placements and better ROAS.",
+            includes: [
+                "Utilizing Target ROAS, Maximize Conversions, and Enhanced CPC bidding strategies.",
+                "Automated bid adjustments based on performance and market trends.",
+                "Continuous monitoring and budget allocation to maximize ad efficiency."
+            ],
+            benifit: "Optimizes ad spend while maximizing conversions and return on investment."
+        },
+
+        {
+            name: "Performance Max Campaigns",
+            whyMatters: "Google’s AI-driven Performance Max campaigns optimize placements across all Google networks for maximum reach.",
+            includes: [
+                "Running ads on Google Search, Shopping, Display, YouTube, and Discover.",
+                "Dynamic ad creatives that adapt based on user behavior and intent.",
+                "Automated audience targeting to reach high-converting shoppers."
+            ],
+            benifit: "Increases overall sales by expanding reach and optimizing ad delivery."
+        },
+
+        {
+            name: "Competitor Price & Bidding Analysis",
+            whyMatters: "Understanding competitor pricing and bidding strategies helps optimize positioning for maximum conversions.",
+            includes: [
+                "Tracking competitor pricing trends and making dynamic pricing adjustments.",
+                "Analyzing competitor ad placements and optimizing bids accordingly.",
+                "Adjusting bid strategies based on competitor performance data."
+            ],
+            benifit: "Improves ad rank and helps capture market share from competitors."
+        },
+
+        {
+            name: "Dynamic Remarketing & Retargeting",
+            whyMatters: "Re-engaging past visitors increases the likelihood of conversions and repeat purchases.",
+            includes: [
+                "Personalized product recommendations based on past interactions.",
+                "Automated remarketing campaigns across Display, YouTube, and Gmail Ads.",
+                "Bid optimization for high-intent audiences to maximize conversions."
+            ],
+            benifit: "Boosts conversion rates and increases return customers."
+        },
+
+        {
+            name: "Google Merchant Center Management",
+            whyMatters: "A properly optimized Merchant Center ensures smooth product listings and ad approvals.",
+            includes: [
+                "Ensuring correct product categorization and compliance with Google policies.",
+                "Fixing product disapprovals, errors, and feed issues.",
+                "Automated feed updates for accurate inventory and pricing."
+            ],
+            benifit: "Improves Shopping Ads performance and reduces listing issues."
+        },
+
+        {
+            name: "Landing Page & Conversion Rate Optimization",
+            whyMatters: "Optimized landing pages improve user experience and drive more sales.",
+            includes: [
+                "Enhancing product pages with better descriptions, images, and CTAs.",
+                "A/B testing landing page variations to improve conversion rates.",
+                "Ensuring mobile-friendliness and fast load times for higher engagement."
+            ],
+            benifit: "Increases conversion rates while reducing bounce rates."
+        },
+
+        {
+            name: "Campaign Performance Tracking & Optimization",
+            whyMatters: "Continuous tracking and optimization ensure profitable and high-performing ad campaigns.",
+            includes: [
+                "Real-time ad performance tracking with custom reports.",
+                "A/B testing ad creatives, feed optimizations, and bid strategies.",
+                "Monitoring key PPC metrics like ROAS, CPC, and conversion rates."
+            ],
+            benifit: "Ensures ad budget is used efficiently while maximizing revenue growth."
+        }
+    ]
+    },
+    //Booster Section ends here   
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Google Shopping PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and AI-driven optimization to maximize product visibility, increase conversions, and achieve a higher return on ad spend (ROAS) on Google Shopping.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Product Visibility", 
+                benefitText: "Optimized Google Shopping campaigns drive more high-intent shoppers to your listings, ensuring maximum exposure and engagement.", 
+                increasePercentage: 300, 
+                explanation: "A well-structured PPC strategy ensures ads appear at the top of search results, increasing clicks and conversions while reducing wasted ad spend."
             },
-            {
-                navigator: "Strategic Bid Management",
-                matters: "Manage your bids effectively to compete in the Google Shopping auction environment.",
-                includes: [
-                    "Using data-driven insights to adjust bids for product categories and search queries.",
-                    "Implementing automated bidding strategies to maximize ad efficiency.",
-                    "Focusing on ROI to adjust bids based on product performance and seasonality."
-                ],
-                benefit: "Effective bid management increases ad visibility while controlling costs, maximizing overall profitability.",
-                image: "https://example.com/strategic-bid-management-image.png"
+    
+            { 
+                benefit: "Improvement in Conversion Rates", 
+                benefitText: "Google Shopping Ads optimized for bid strategies and product feed quality lead to higher conversion rates.", 
+                increasePercentage: 150, 
+                explanation: "Refining product data, bid adjustments, and performance tracking improves conversion rates, turning ad clicks into sales efficiently."
             },
-            {
-                navigator: "Seasonal Campaign Adjustments",
-                matters: "Capitalize on seasonal trends by adjusting your Google Shopping campaigns to align with consumer buying patterns.",
-                includes: [
-                    "Planning ahead for peak shopping periods like holidays and sales events.",
-                    "Customizing ad campaigns to highlight seasonal products or promotions.",
-                    "Adjusting bids and budgets to capture increased holiday traffic."
-                ],
-                benefit: "Seasonal adjustments ensure your campaigns are relevant and compelling, boosting sales during key shopping periods.",
-                image: "https://example.com/seasonal-campaign-adjustments-image.png"
-            },
-            {
-                navigator: "Conversion Rate Optimization",
-                matters: "Maximize the effectiveness of your Google Shopping ads by optimizing for conversions.",
-                includes: [
-                    "Analyzing user interaction data to improve the shopping experience.",
-                    "Testing different product images and pricing strategies to find the most compelling offers.",
-                    "Optimizing landing pages to ensure a smooth transition from ad to purchase."
-                ],
-                benefit: "Focused optimization strategies increase the likelihood of conversions from clicks, enhancing your ROI.",
-                image: "https://example.com/conversion-rate-optimization-image.png"
+    
+            { 
+                benefit: "Higher ROAS from Google Shopping PPC", 
+                benefitText: "Maximized return on ad spend (ROAS) through smart bidding, competitor analysis, and continuous campaign optimization.", 
+                increasePercentage: 450, 
+                explanation: "Focusing on profitable products, eliminating wasted ad spend, and refining bidding strategies leads to significant revenue growth for eCommerce businesses."
             }
         ]
     },
-
+    //PowerBy ends here 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized Google Shopping PPC</span> for Every E-Commerce Platform",
-        para: "Maximize your visibility on Google Shopping across all major e-commerce platforms. Our team provides custom Google Shopping PPC strategies to ensure your products stand out in Google search results, capturing the attention of potential buyers and driving conversions.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized Google Shopping PPC </span><br/> Strategies for Every E-commerce Business",
+        para: "Every e-commerce business has unique advertising needs. Our <strong> customized Google Shopping PPC strategies </strong> focus on product feed optimization, smart bidding, and audience targeting to ensure your ads reach the right customers, drive conversions, and maximize ROAS.",
+    
         tailoredItems: [
             {
-                heading: "Shopify Google Shopping Services",
-                para: "Enhance your Shopify platform with our Google Shopping integration, optimizing your product listings for better search visibility and increased sales.",
+                heading: "Google Shopping Ads – Maximize Product Visibility",
+                para: "Google Shopping Ads allow e-commerce businesses to showcase their products in Google search results, increasing visibility and sales.",
                 offers: [
-                    "Integrating Google Shopping with your Shopify product catalog for seamless ad management.",
-                    "Optimizing product titles and images to meet Google Shopping standards.",
-                    "Managing and optimizing bids for top-performing products."
+                    "<strong>Product Feed Optimization:</strong> Ensure accurate product titles, descriptions, and images for better ad performance.",
+                    "<strong>Bid Strategy Management:</strong> Adjust bids dynamically based on product performance and competition.",
+                    "<strong>Competitor Price Analysis:</strong> Stay competitive with pricing insights and bidding adjustments.",
+                    "<strong>Smart Campaign Integration:</strong> Utilize Google's AI-driven bidding for higher conversions."
                 ],
-                chooseUs: "Our expertise in Shopify and Google Shopping integration ensures increased traffic and improved sales performance.",
-                image: "https://example.com/shopify-google-shopping-service-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce Google Shopping Services",
-                para: "Utilize our Google Shopping expertise to boost your WooCommerce store’s online presence, driving both traffic and conversions through precise product ad placements.",
+                heading: "Performance Max Campaigns – AI-Powered Optimization",
+                para: "Performance Max campaigns use Google’s AI to optimize bidding, placements, and creatives across multiple ad networks.",
                 offers: [
-                    "Custom Google Shopping campaigns tailored to WooCommerce’s unique setup.",
-                    "Strategic keyword usage to enhance product visibility on Google.",
-                    "Comprehensive tracking and analytics to monitor ad performance and ROI."
+                    "<strong>Cross-Channel Ad Placement:</strong> Display ads across Search, Shopping, Display, YouTube, and Discovery.",
+                    "<strong>Dynamic Product Targeting:</strong> Show personalized product recommendations based on user behavior.",
+                    "<strong>Smart Bidding Adjustments:</strong> Automatically optimize bids for high-intent shoppers.",
+                    "<strong>Automated Asset Testing:</strong> Leverage AI to test multiple headlines, images, and CTAs for best performance."
                 ],
-                chooseUs: "With our tailored Google Shopping campaigns, your WooCommerce products will capture more clicks and convert more visitors.",
-                image: "https://example.com/woocommerce-google-shopping-service-image.png"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+            },
+    
+            {
+                heading: "Google Remarketing Ads – Re-Engage Interested Shoppers",
+                para: "Remarketing ads help businesses re-engage past visitors and bring them back to complete their purchase.",
+                offers: [
+                    "<strong>Dynamic Retargeting:</strong> Show personalized product ads based on browsing history.",
+                    "<strong>Abandoned Cart Recovery Ads:</strong> Remind shoppers about products left in their cart.",
+                    "<strong>Lookalike Audience Targeting:</strong> Expand reach by finding new customers similar to your best buyers.",
+                    "<strong>Multi-Platform Retargeting:</strong> Engage past visitors across Google Display Network and YouTube."
+                ],
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+            },
+    
+            {
+                heading: "Local Inventory Ads – Drive In-Store Sales",
+                para: "Local Inventory Ads help retailers drive foot traffic by displaying nearby store availability for searched products.",
+                offers: [
+                    "<strong>Google My Business Integration:</strong> Connect your local store inventory with Google Shopping.",
+                    "<strong>Geo-Targeted Ad Placements:</strong> Show ads only to shoppers within a specific radius of your store.",
+                    "<strong>Store Pickup & Availability Display:</strong> Highlight same-day pickup or in-store stock levels.",
+                    "<strong>Bid Adjustments for Local Searches:</strong> Optimize bids based on local demand and competition."
+                ],
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+            },
+    
+            {
+                heading: "Google Shopping Feed Management – Optimize for Maximum Performance",
+                para: "Managing and optimizing your Google Shopping feed ensures better rankings, lower CPC, and higher conversions.",
+                offers: [
+                    "<strong>Automated Product Feed Updates:</strong> Sync your store’s inventory with Google Merchant Center.",
+                    "<strong>Product Categorization & Labeling:</strong> Ensure correct categorization for better ad placement.",
+                    "<strong>Feed Health Monitoring:</strong> Fix errors and disapproved listings for uninterrupted ad delivery.",
+                    "<strong>AI-Powered Keyword & Bidding Adjustments:</strong> Optimize product titles and bids dynamically."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
         ]
     },
 
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by Google Shopping PPC</span>",
-        para: "Leverage the full potential of Google Shopping to transform your e-commerce advertising. Our data-driven strategies ensure your products are prominently displayed in Google searches, attracting buyers and boosting sales.",
-
-        features: [
-            {
-                navigator: "Advanced Product Feed Management",
-                text: "Utilize sophisticated techniques to manage and optimize your product feeds, ensuring they meet Google’s specifications and performance standards.",
-                icon: <IoAnalyticsSharp/>
-            },
-            {
-                navigator: "Bid Optimization",
-                text: "Employ strategic bid management to maximize your visibility and ROI on Google Shopping.",
-                icon: <IoSpeedometerOutline/>
-            },
-            {
-                navigator: "Performance Analysis",
-                text: "Conduct thorough analysis of your Google Shopping campaigns to continually refine strategies and improve outcomes.",
-                icon: <IoBarChartSharp/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Product Visibility",
-                benefitText: "Demonstrate the uplift in product visibility achieved through optimized Google Shopping campaigns.",
-                increasePercentage: 140
-            },
-            {
-                benefit: "Growth in Sales",
-                benefitText: "Highlight the sales growth resulting from targeted Google Shopping advertising.",
-                increasePercentage: 170
-            },
-            {
-                benefit: "ROI from Campaigns",
-                benefitText: "Detail the return on investment businesses experience from their targeted Google Shopping efforts.",
-                increasePercentage: 300
-            }
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>Google Shopping PPC Strategy</span>",
+        para: "Maximize product visibility, drive high-intent shoppers, and increase eCommerce sales with our data-driven Google Shopping PPC strategies tailored for optimized ad performance and high ROI.",
+    
+        approaches: [
+            { heading: "Advanced Product Targeting", detail: "Leverage precise audience and keyword targeting to reach high-intent shoppers searching for your products.", icon: <MdShoppingCart/> },
+            { heading: "Optimized Product Feeds", detail: "Ensure accurate, optimized product titles, descriptions, and images for better ad visibility and performance.", icon: <RiProductHuntLine/> },
+            { heading: "AI-Driven Bidding & Budget Optimization", detail: "Use smart bidding strategies to maximize ROI while controlling cost per conversion.", icon: <RiMoneyDollarCircleFill/> },
+            { heading: "Competitor & Market Analysis", detail: "Analyze competitor pricing and bidding strategies to refine your campaign approach and outperform rivals.", icon: <FaChartLine/> },
+            { heading: "Performance Tracking & Continuous Optimization", detail: "Monitor campaign metrics, adjust bid strategies, and optimize ad placements for ongoing growth and profitability.", icon: <MdTrendingUp/> }
         ]
     },
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for Google Shopping PPC",
-        para: "Our Google Shopping PPC strategies are expertly tailored to maximize performance across all major e-commerce platforms, ensuring your products achieve optimal visibility and attract more buyers.",
-
+        heading: "We Optimize Google Shopping PPC Campaigns Across These Platforms",
+        para: "Our Google Shopping PPC experts manage and optimize ad campaigns across all major platforms to maximize product visibility, engagement, and sales. Whether you're running Shopping Ads, Performance Max, or Retargeting campaigns, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "Google Shopping & Search Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
+                    { itemName: "Google Shopping Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/4/44/Google_Shopping_logo.svg" },
+                    { itemName: "Google Search Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Performance Max Campaigns", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Local Inventory Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/4/44/Google_Shopping_logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "E-commerce & Marketplace Integrations",
+                items: [
+                    { itemName: "Google Merchant Center", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Amazon Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+                    { itemName: "Walmart Connect", itemImg: "https://upload.wikimedia.org/wikipedia/commons/9/96/Walmart_logo.svg" },
+                    { itemName: "eBay Promoted Listings", itemImg: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Ad Optimization & Analytics Tools",
+                items: [
+                    { itemName: "Google Merchant Center", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Google Analytics 4", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Analytics_logo.svg" },
+                    { itemName: "Google Tag Manager", itemImg: "https://upload.wikimedia.org/wikipedia/commons/4/46/Google_Tag_Manager_logo.png" },
+                    { itemName: "SEMrush PPC Toolkit", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/SEMrush_Logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Retargeting & External Advertising",
+                items: [
+                    { itemName: "Facebook & Instagram Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "YouTube Video Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Microsoft Advertising (Bing Ads)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Bing_logo.svg" },
+                    { itemName: "TikTok Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" }
+                ]
+            }
+        ]
+    },
+    // Aproach section starts 
+    realResultsSection: {
+        heading: "Real Results from Data-Driven<span class='text-[#207DE9]'> Google Shopping PPC</span>",
+        para: "Our Google Shopping PPC strategies focus on delivering measurable outcomes. From increasing product visibility to maximizing conversions, we’ve helped eCommerce brands achieve substantial revenue growth. Our tailored approach ensures every bid, product listing, and ad placement works efficiently—turning ad spend into high ROI.",
+    
+        results: [
+            {
+                header: "Google Shopping Ads - Fashion & Apparel",
+                challenge: "Scaling an online fashion store’s revenue through optimized Google Shopping campaigns.",
+                approaches: [
+                    "AI-Driven Smart Bidding: Adjusting bids for maximum visibility and conversions.",
+                    "Product Feed Optimization: Enhancing product titles, descriptions, and images for better rankings.",
+                    "Performance Max Campaigns: Expanding reach across Google’s ad networks for multi-channel engagement."
                 ],
-                image: "https://example.com/popular-platform-image.png"
+                increase: 320,
+                increaseIn: "Increase in return on ad spend (ROAS) with a 40% drop in cost per acquisition (CPA)."
             },
             {
-                heading: "Enterprise-Level Solutions",
-                items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
+                header: "Google Shopping PPC - Health & Beauty",
+                challenge: "Boosting online sales for a skincare brand by improving Google Shopping ad efficiency.",
+                approaches: [
+                    "Competitor Price Benchmarking: Adjusting pricing strategies to stay competitive.",
+                    "Shopping Retargeting Ads: Bringing back past visitors with dynamic product ads.",
+                    "A/B Testing Product Titles & Images: Optimizing ad creatives for higher engagement."
                 ],
-                image: "https://example.com/enterprise-level-solution-image.png"
+                increase: 280,
+                increaseIn: "Higher engagement and 50% increase in direct sales from Google Shopping Ads."
             },
             {
-                heading: "Content Management Systems (CMS)",
-                items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
+                header: "Google Shopping PPC - Electronics & Gadgets",
+                challenge: "Driving high-converting traffic for an electronics brand using Google Shopping PPC.",
+                approaches: [
+                    "Performance Max & Search Integration: Combining Shopping ads with Search campaigns for better results.",
+                    "Competitor Product Targeting: Running ads on similar competitor product listings.",
+                    "Google Merchant Center Optimization: Ensuring top-ranking product placements with structured data improvements."
                 ],
-                image: "https://example.com/cms-platform-image.png"
-            },
-            {
-                heading: "Other Platforms",
-                items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
-                ],
-                image: "https://example.com/other-platform-image.png"
+                increase: 450,
+                increaseIn: "Significant growth in high-quality traffic with a 3x increase in conversion rates."
             }
         ]
     },
 
     pathToSuccess: {
         heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Google Shopping PPC Success",
-
+    
         paths: [
             {
-                letter: "G",
-                heading: "Gain Product Exposure",
-                matters: "Maximize product visibility in Google search through effective use of Google Shopping ads.",
-                how: ["Optimize product data feeds for maximum relevance.", "Utilize high-quality images and detailed product descriptions to enhance listings."],
-                outcome: "Enhanced product visibility in search results, leading to increased clicks and traffic."
+                letter: "G", 
+                heading: "Generate High-Intent Traffic",
+                matters: "Effective Google Shopping PPC campaigns drive highly targeted shoppers who are actively searching for your products, ensuring better reach and conversions.",
+                how: [
+                    "Optimize product feed with detailed titles, descriptions, and high-quality images.",
+                    "Use Smart Shopping campaigns to automate targeting and ad placements.",
+                    "Implement negative keywords to filter out irrelevant traffic and improve ROI."
+                ],
+                outcome: "More relevant visitors with a higher likelihood of making a purchase."
             },
+    
             {
-                letter: "R",
-                heading: "Refine Bidding Strategies",
-                matters: "Adapt bidding strategies based on product performance and market competition to optimize ad spend.",
-                how: ["Implement cost-per-click adjustments based on analytics.", "Use competitive benchmarking to stay ahead in bids."],
-                outcome: "Improved ROI through optimized bid strategies and better use of advertising budget."
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing product listings, bid strategies, and placements ensures better visibility and cost-effective conversions.",
+                how: [
+                    "A/B test product images, descriptions, and pricing strategies.",
+                    "Adjust bidding strategies based on competitor analysis and performance trends.",
+                    "Utilize Performance Max campaigns for automated, AI-driven ad placement."
+                ],
+                outcome: "Higher click-through rates (CTR) and improved return on ad spend (ROAS)."
             },
+    
             {
                 letter: "O",
-                heading: "Optimize Product Listings",
-                matters: "Continuously enhance product listings to meet Google's best practices and search algorithms.",
-                how: ["Regularly update product feeds to reflect inventory and pricing changes.", "Apply SEO best practices to product titles and descriptions."],
-                outcome: "Increased conversion rates from optimized product listings."
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous monitoring and refining of campaigns help reduce wasted ad spend and maximize profitability.",
+                how: [
+                    "Use Google Shopping feed optimization tools to enhance product listings.",
+                    "Exclude underperforming products or keywords to improve campaign efficiency.",
+                    "Monitor key metrics like cost per conversion (CPC), impression share, and ROAS."
+                ],
+                outcome: "More efficient ad spend and increased sales volume."
             },
+    
             {
                 letter: "W",
                 heading: "Win More Conversions",
-                matters: "Turn clicks into purchases by optimizing the shopping experience on your e-commerce site.",
-                how: ["Simplify the checkout process.", "Ensure mobile optimization for shopping ads."],
-                outcome: "Higher conversion rates from Google Shopping traffic."
+                matters: "Clicks alone don’t drive revenue—turning shoppers into buyers is the real goal.",
+                how: [
+                    "Optimize landing pages to ensure a seamless shopping experience.",
+                    "Use Google Shopping retargeting ads to bring back interested shoppers.",
+                    "Implement promotional extensions to highlight discounts, free shipping, or offers."
+                ],
+                outcome: "Higher conversion rates and better customer acquisition costs."
             },
+    
             {
                 letter: "T",
-                heading: "Track Performance Metrics",
-                matters: "Utilize Google's powerful analytics tools to track the performance of your Shopping ads.",
-                how: ["Monitor key metrics such as click-through rate, cost-per-click, and conversion rate.", "Adjust campaigns based on performance data to continuously improve results."],
-                outcome: "Data-driven insights leading to actionable improvements in ad campaigns."
+                heading: "Target the Right Shoppers",
+                matters: "Precision targeting ensures that your ads reach shoppers with strong purchase intent.",
+                how: [
+                    "Leverage audience segmentation for remarketing and customer match targeting.",
+                    "Use geo-targeting to adjust bids based on location-based shopping trends.",
+                    "Analyze search term reports to refine targeting and maximize conversions."
+                ],
+                outcome: "More high-quality leads and improved engagement with your product listings."
             },
+    
             {
                 letter: "H",
-                heading: "Harness Advanced Features",
-                matters: "Leverage advanced features in Google Shopping, such as local inventory ads and showcase shopping ads.",
-                how: ["Implement local inventory ads to drive foot traffic to physical stores.", "Use showcase shopping ads to introduce potential customers to your product portfolio."],
-                outcome: "Broader engagement with customers through advanced advertising features."
-            }
-        ]
-    },
-
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>Google Shopping PPC Strategy</span>",
-        para: "Leverage our expertise to dominate the digital shelf with targeted Google Shopping campaigns that drive both traffic and sales.",
-
-        approaches: [
-            { heading: "Comprehensive Feed Management", detail: 'Maintain an optimized and up-to-date product feed to meet Google\'s standards for Shopping ads.', icon: <IoCloudUploadOutline/> },
-            { heading: "Advanced Bid Optimization", detail: 'Utilize machine learning to dynamically adjust bids based on conversion probability.', icon: <IoSpeedometerOutline/> },
-            { heading: "Strategic Ad Placement", detail: 'Ensure your products appear in the most relevant search queries to maximize visibility and engagement.', icon: <IoEyeOutline/> },
-            { heading: "Segmentation and Targeting", detail: 'Create detailed customer segments to target with customized ad content, enhancing relevance and boosting conversion rates.', icon: <IoPeopleCircleOutline/> },
-            { heading: "Performance Monitoring", detail: 'Regularly review campaign performance to iterate and evolve strategies, ensuring maximum efficiency and growth.', icon: <IoAnalyticsOutline/> }
-        ]
-    },
-
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from Google Shopping PPC</span>",
-        para: "See how our Google Shopping PPC strategies have significantly boosted e-commerce performance across various sectors. Our tailored approach ensures that every campaign maximizes both visibility and conversions.",
-
-        results: [
-            {
-                header: "Ecommerce - Fashion and Apparel",
-                challenge: "Boost product visibility and sales in a competitive fashion market.",
-                approaches: [
-                    "Utilized advanced product listing optimization techniques.",
-                    "Implemented strategic bidding for high-value keywords.",
-                    "Engaged customers through visually compelling Shopping ads."
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROAS, and scale Google Shopping PPC success.",
+                how: [
+                    "Use Google Analytics and Google Merchant Center insights to track real-time performance.",
+                    "Monitor key PPC metrics like conversion value per cost (CVR), click-through rate (CTR), and ad relevance score.",
+                    "Implement automated bidding strategies to maximize profitability."
                 ],
-                increase: "320",
-                increaseIn: "Percentage increase in sales"
+                outcome: "Consistent campaign improvements and scalable eCommerce growth."
             },
+    
             {
-                header: "Ecommerce - Health and Wellness",
-                challenge: "Maximize ROI and enhance product discoverability for health products.",
-                approaches: [
-                    "Optimized product feeds for better performance in Google Shopping.",
-                    "Targeted ads based on user search behavior and preferences.",
-                    "Improved ad placement through continuous performance analysis."
+                letter: <MdTrendingUp />,
+                focus: "By focusing on:",
+                focusOn: ["Generating High-Intent Traffic", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Shoppers", "Harnessing Data for Growth"],
+                how: [
+                    "Increased product visibility and engagement.",
+                    "Higher conversion rates with cost-efficient bidding.",
+                    "Improved ad spend efficiency and maximized ROAS."
                 ],
-                increase: "275",
-                increaseIn: "Growth in ROI from targeted campaigns"
-            },
-            {
-                header: "Ecommerce - Home Decor",
-                challenge: "Leverage seasonal trends to drive sales during peak shopping periods.",
-                approaches: [
-                    "Created time-sensitive Shopping campaigns for holiday decor.",
-                    "Used cross-promotion techniques within ad groups.",
-                    "Enhanced visual appeal of ads to increase engagement."
-                ],
-                increase: "230",
-                increaseIn: "Increase in average order value during the holiday season"
-            },
-            {
-                header: "Ecommerce - Electronics",
-                challenge: "Expand market presence in a highly competitive electronics market.",
-                approaches: [
-                    "Implemented geotargeted campaigns to reach local shoppers.",
-                    "Conducted in-depth competitive analysis to inform bidding strategies.",
-                    "Optimized product listings with high-quality images and detailed descriptions."
-                ],
-                increase: "195",
-                increaseIn: "Market share growth through optimized Google Shopping ads"
+                outcome: "Long-term Google Shopping PPC success with sustainable sales growth."
             }
         ]
     },
 
     pricingSection: {
         heading: "Transparent Pricing for Google Shopping PPC",
-        para: "Explore our clear and flexible Google Shopping PPC pricing plans, each designed to scale with your online store. Benefit from plans that maximize product exposure and enhance conversions, all tailored to empower you to dominate your market segment.",
-
+        para: "Discover our flexible and data-driven Google Shopping PPC pricing plans designed to maximize your ad spend efficiency. From increasing product visibility to driving high-intent conversions, our plans ensure measurable results and high ROI.",
+    
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
-                price: "$750/month",
-                fitFor: "Ideal for small businesses or startups just beginning with PPC, needing to manage limited product lines.",
+                header: "Starter Google Shopping PPC Package",
+                price: "$800/month",
+                fitFor: "Small businesses or startups looking to test Google Shopping ads with a limited budget.",
                 youGet: [
-                    "Product feed setup and basic optimization",
-                    "Google Merchant Center account setup and management",
-                    "Monthly budget management up to $5,000",
-                    "Basic product segmentation and targeting",
-                    "Weekly performance reports",
-                    "Basic conversion tracking and setup",
-                    "Campaign Setup Fee (One-time): $750",
-                    "Monthly Investment: $750"
+                    "Product Feed Optimization: Basic setup of product titles, descriptions, and categories.",
+                    "Google Merchant Center Setup: Ensuring your store is correctly linked and compliant.",
+                    "Manual Bid Management: Adjusting bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, clicks, and conversion rates.",
+                    "Monthly Report: Summary of ad spend, CPC, CTR, and ROAS."
                 ]
             },
+    
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Designed for growing businesses looking to expand their product reach and refine their market targeting on Google Shopping.",
+                header: "Growth Google Shopping PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing eCommerce brands aiming to scale sales with optimized Shopping campaigns.",
                 youGet: [
-                    "Advanced product feed optimization",
-                    "Up to 150 products targeted",
-                    "Monthly budget management up to $15,000",
-                    "Enhanced targeting with customer behavior analysis",
-                    "Bi-weekly optimization of bids and ads",
-                    "Advanced analytics and conversion tracking",
-                    "Campaign Setup Fee (One-time): $2,000",
-                    "Monthly Investment: $1,800"
+                    "Advanced Product Feed Optimization: Enhancing titles, descriptions, and pricing strategies.",
+                    "Performance Max & Smart Shopping Campaigns: AI-powered bidding for maximum visibility.",
+                    "Competitor Benchmarking: Analyzing competitor ads for strategic adjustments.",
+                    "Remarketing & Dynamic Product Ads: Retargeting past visitors with personalized offers.",
+                    "Performance Tracking & A/B Testing: Optimizing product listings and ad creatives for better conversions."
                 ]
             },
+    
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Suited for large enterprises aiming for aggressive growth and comprehensive management across multiple product categories.",
+                header: "Premium Google Shopping PPC Package",
+                price: "$5,000/month",
+                fitFor: "Established eCommerce brands looking for aggressive growth and ad scaling.",
                 youGet: [
-                    "Full-scale campaign management",
-                    "Up to 300 products targeted",
-                    "Monthly budget management over $30,000",
-                    "Detailed demographic and behavioral targeting",
-                    "Comprehensive monthly reports and strategy reviews",
-                    "Advanced remarketing strategies and optimization",
-                    "Campaign Setup Fee (One-time): $4,000",
-                    "Monthly Investment: $3,500"
+                    "Full-Funnel Shopping PPC Strategy: Covering Awareness, Consideration & Conversion phases.",
+                    "AI-Driven Bid Optimization: Maximizing conversions while reducing CPC.",
+                    "Google Shopping Retargeting Campaigns: Bringing back interested shoppers.",
+                    "Landing Page & Checkout Optimization: Improving conversion rates for ad-driven traffic.",
+                    "Custom Performance Dashboard: Real-time tracking of key Shopping PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise Google Shopping PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale eCommerce businesses & brands aiming for Google Shopping dominance.",
+                youGet: [
+                    "End-to-End Google Shopping PPC Management: Covering all Shopping ad types & placements.",
+                    "High-Budget AI Bid Automation: Optimizing ad delivery with Google’s machine learning algorithms.",
+                    "Omni-Channel Strategy: Aligning Google Shopping with Performance Max & Search Ads.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansion.",
+                    "Dedicated PPC Account Manager: Full-time support for Shopping ad growth & optimization."
                 ]
             }
-        ]
-    },
-
-    customPricing: {
-        heading: "Custom Google Shopping PPC Services Tailored to Your Business Goals",
-        upperPart: {
-            header: "Custom Google Shopping PPC Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "Fully customized product targeting strategy",
-            "Custom audience segmentation and demographic targeting",
-            "Adaptive budget management to maximize ROI",
-            "Comprehensive optimization of ad copies and creative visuals"
-        ],
-        centerPart: {
-            text: "Drive increased traffic, boost conversion rates, and achieve significant ROI with our sophisticated, AI-driven Google Shopping strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Customized reporting and analytics tailored to your specific needs",
-            "Advanced conversion tracking and campaign optimization",
-            "Strategic content development for ads",
-            "Dedicated support and account management"
         ]
     },
 
     reviewsSection: {
-        heading: "Join Our Community of Thriving E-commerce Brands Powered by Google Shopping PPC",
-        para: "Discover how our dedicated Google Shopping PPC campaigns have revolutionized digital marketing efforts and significantly enhanced business outcomes. Our client testimonials reflect our commitment to excellence and impactful results."
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
+    },
 }
 
 export const LinkedinPPCData = {
     heroSection: {
-        heading: "Boost Your B2B E-Commerce Sales with LinkedIn PPC",
+        heading: "Boost Your <br/> B2B E-Commerce Sales with LinkedIn PPC",
         para: "Enhance your B2B e-commerce store's performance with our specialized LinkedIn PPC services. We focus on creating targeted, high-impact ads that connect directly with business decision-makers. Our strategy utilizes LinkedIn’s rich demographic data and advanced targeting to ensure your products stand out among business professionals. Our comprehensive service includes meticulous bid management, strategic ad placements, and innovative ad enhancements to drive significant traffic and conversions, all while providing continuous optimization.",
         img: heroImg,
         bg: BG
     },
-
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>LinkedIn PPC</span> is Crucial for B2B E-Commerce Success?",
-        para: "Harness the power of LinkedIn PPC to propel your B2B e-commerce sales. Our team of experts utilizes targeted advertising strategies and sophisticated data analytics to significantly boost your ROI and improve conversions. Experience streamlined campaign management with our full-service solutions, ensuring your products achieve optimal visibility and engagement within the professional marketplace.",
-
-        whyKeys: [
-            { heading: "Precise Targeting Capabilities", explanation: "Utilize LinkedIn’s detailed professional targeting to position your products in front of key business decision-makers, enhancing visibility and purchase opportunities.", icon: <FaBusinessTime/> },
-            { heading: "Customized Ad Content", explanation: "Craft ads that resonate with a professional audience, increasing relevance and engagement. Our approach ensures your ads address the specific needs and pain points of business professionals.", icon: <FaUserTie/> },
-            { heading: "Conversion-Optimized Profiles", explanation: "Optimize your LinkedIn business pages and product listings to efficiently convert profile visits into sales, with a focus on high-quality content and compelling calls-to-action.", icon: <FaFunnelDollar/> },
-            { heading: "Advanced Analytics and Insights", explanation: "Use our state-of-the-art analytics tools to refine your LinkedIn PPC campaigns continually. Gain deep insights into campaign performance and ROI with data-driven adjustments.", icon: <FaChartBar/> }
-        ]
+    
+    customPricing: {
+        heading: "LinkedIn PPC Services Custom Pricing Tailored to Your B2B Growth Goals",
+    
+        mainHeading: "Custom <br/> LinkedIn PPC <br/> Package",
+    
+        overview: "Designed to generate high-quality B2B leads, increase brand authority, and drive targeted traffic, our LinkedIn PPC package ensures optimized ad placements, advanced audience targeting, and continuous campaign refinement for better engagement and conversions.",
+    
+        benifits: [
+            { heading: "Increased Brand Visibility:", description: "Get your business in front of key decision-makers and industry professionals on LinkedIn." },
+            { heading: "Higher Lead Generation & Engagement:", description: "Target high-intent professionals and businesses looking for your services." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with smart bidding strategies, A/B testing, and performance optimization." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Advanced Audience Targeting", description: "Leverage LinkedIn’s targeting options, including job titles, industries, company size, and more." },
+            { heading: "Sponsored Content Ads", description: "Promote engaging thought-leadership content directly in LinkedIn’s feed to increase visibility." },
+            { heading: "LinkedIn Lead Generation Forms", description: "Capture high-quality leads without users leaving LinkedIn, increasing conversion rates." },
+            { heading: "Retargeting & Account-Based Marketing (ABM)", description: "Re-engage website visitors and target high-value accounts with personalized ads." },
+            { heading: "Dynamic Ads & InMail Campaigns", description: "Personalized messaging and ads tailored for high engagement and lead nurturing." },
+            { heading: "AI-Driven Bidding Strategies", description: "Utilize smart bidding like Cost per Click (CPC) and Cost per Lead (CPL) for efficient ad spend." },
+            { heading: "A/B Testing & Performance Analysis", description: "Optimize ad creatives, audience segments, and messaging for maximum impact." },
+            { heading: "Landing Page & Conversion Rate Optimization", description: "Ensure high-converting landing pages for LinkedIn traffic to boost lead quality." },
+            { heading: "Multi-Channel Integration", description: "Sync LinkedIn PPC campaigns with Google Ads, Facebook Ads, and other platforms for omnichannel marketing." },
+            { heading: "Custom Analytics Dashboard", description: "Monitor LinkedIn ad performance in real-time with in-depth insights and reporting." }
+        ],
+    
+        startingAt: "$3000/Month"
     },
 
     boostSection: {
-        heading: "Elevate Your B2B Platform's Reach with <span class='text-[#207DE9]'>Specialized LinkedIn PPC</span> Services",
-        para: "Optimize your LinkedIn advertising strategy to target industries, companies, and even specific job roles, ensuring your campaigns are highly focused and effective.",
-
+        heading: "Boost Your B2B Growth with <span class='text-[#207DE9]'> Specialized <br/> LinkedIn PPC </span> Strategies.",
+        para: "Maximize ROI with expert LinkedIn PPC campaigns. We focus on precise audience targeting, smart bidding, and continuous campaign optimization to increase brand visibility, generate high-quality leads, and drive B2B conversions.",
+    
         boostContent: [
             {
-                navigator: "Targeted Industry Campaigns",
-                matters: "Create custom LinkedIn ad campaigns focusing on specific industries or sectors, aligning your messaging with the unique needs of each market.",
+                name: "Advanced B2B Audience Targeting",
+                whyMatters: "LinkedIn’s precise targeting capabilities allow you to reach decision-makers, executives, and industry professionals most relevant to your business.",
                 includes: [
-                    "Developing industry-specific ad content.",
-                    "Using LinkedIn’s industry targeting features to reach decision-makers.",
-                    "Aligning content with industry trends and pain points."
+                    "Job title, industry, and company size-based audience segmentation.",
+                    "Lookalike and retargeting strategies for high-intent prospects.",
+                    "Geo-targeting and device-based bid adjustments for maximum reach."
                 ],
-                benefit: "Targets the right industry sectors, increasing the relevance of your ads and improving conversion rates.",
-                image: "https://example.com/industry-targeting-image.png"
+                benifit: "Ensures ads reach the right professionals, increasing engagement and conversions."
             },
+    
             {
-                navigator: "Company Targeting Strategies",
-                matters: "Directly target employees of specific companies to push your products into businesses that match your ideal customer profile.",
+                name: "LinkedIn Sponsored Content & InMail Ads",
+                whyMatters: "Engaging ad formats like Sponsored Content and InMail deliver personalized messaging directly to your target audience.",
                 includes: [
-                    "Utilizing LinkedIn’s Company Targeting to display ads to employees of selected companies.",
-                    "Tailoring ad content to resonate with corporate culture and values.",
-                    "Optimizing ad timings based on typical business hours and peak engagement times."
+                    "Promote thought-leadership content to industry professionals.",
+                    "Personalized InMail campaigns for high-quality lead generation.",
+                    "Carousel and video ads to enhance engagement and click-through rates."
                 ],
-                benefit: "Generates highly targeted leads by reaching employees of specific companies, enhancing B2B engagement and conversions.",
-                image: "https://example.com/company-targeting-image.png"
+                benifit: "Improves brand authority, engagement, and lead acquisition rates."
             },
+    
             {
-                navigator: "Role-Based Ad Customization",
-                matters: "Customize your LinkedIn ads to target specific job roles within industries, ensuring your marketing efforts reach the decision-makers.",
+                name: "Account-Based Marketing (ABM) Strategy",
+                whyMatters: "Targeting specific companies and decision-makers ensures higher conversion rates and more meaningful business interactions.",
                 includes: [
-                    "Creating role-specific ad campaigns.",
-                    "Adjusting messaging to appeal to various levels of professional roles, from technical experts to C-level executives.",
-                    "Analyzing role-based engagement to continually optimize campaigns."
+                    "ABM-focused campaign setup targeting key accounts and decision-makers.",
+                    "Personalized ad creatives for different industry segments.",
+                    "Direct LinkedIn outreach strategies to nurture high-value leads."
                 ],
-                benefit: "Enhances the precision of your targeting, focusing on professionals who are most likely to influence purchasing decisions.",
-                image: "https://example.com/role-based-customization-image.png"
+                benifit: "Maximizes lead quality and ensures ad spend is directed toward high-value prospects."
+            },
+    
+            {
+                name: "AI-Powered Smart Bidding",
+                whyMatters: "Leveraging LinkedIn’s smart bidding tools ensures cost-efficient ad placements and better ROAS.",
+                includes: [
+                    "Utilizing LinkedIn’s automated bidding strategies like Maximize Clicks and Cost per Lead.",
+                    "AI-driven budget allocation based on campaign performance.",
+                    "Ongoing bid adjustments to maintain competitive positioning."
+                ],
+                benifit: "Optimizes ad spend while generating more conversions at a lower cost."
+            },
+    
+            {
+                name: "Retargeting & Lookalike Audiences",
+                whyMatters: "Re-engaging website visitors and expanding reach with lookalike audiences helps generate more qualified leads.",
+                includes: [
+                    "LinkedIn retargeting for past visitors and engaged users.",
+                    "Creating lookalike audiences based on high-performing customer profiles.",
+                    "Segmented ad messaging for different audience groups."
+                ],
+                benifit: "Increases conversion rates by re-engaging interested prospects."
+            },
+    
+            {
+                name: "Landing Page & Conversion Rate Optimization",
+                whyMatters: "Optimized landing pages ensure that LinkedIn traffic converts into leads and customers.",
+                includes: [
+                    "A/B testing different landing page layouts and CTAs.",
+                    "Enhancing lead forms to reduce friction and improve conversion rates.",
+                    "Mobile optimization for a seamless user experience."
+                ],
+                benifit: "Improves conversion rates while reducing bounce rates."
+            },
+    
+            {
+                name: "LinkedIn Lead Gen Forms Optimization",
+                whyMatters: "LinkedIn’s Lead Gen Forms simplify the lead capture process and improve conversion rates.",
+                includes: [
+                    "Setting up pre-filled lead gen forms to reduce drop-offs.",
+                    "Optimizing form questions to capture relevant prospect details.",
+                    "Automating CRM integration for seamless lead nurturing."
+                ],
+                benifit: "Increases lead volume and improves data quality for sales teams."
+            },
+    
+            {
+                name: "Campaign Performance Tracking & Optimization",
+                whyMatters: "Continuous tracking and optimization ensure high-performing LinkedIn ad campaigns.",
+                includes: [
+                    "Real-time campaign performance tracking and custom reporting.",
+                    "A/B testing ad creatives, targeting, and bidding strategies.",
+                    "Monitoring key PPC metrics like CPC, CPL, and engagement rates."
+                ],
+                benifit: "Ensures ad budget is used efficiently while maximizing ROI."
             }
         ]
     },
-
+    //Booster Section ends here   
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "LinkedIn PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and AI-driven optimization to maximize ad reach, generate high-quality B2B leads, and achieve a higher return on ad spend (ROAS) on LinkedIn Ads.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Targeted Reach", 
+                benefitText: "Optimized LinkedIn PPC campaigns drive more high-intent professionals to your business, ensuring maximum engagement and conversions.", 
+                increasePercentage: 280, 
+                explanation: "A well-structured LinkedIn strategy ensures ads reach decision-makers, increasing brand exposure and lead generation while reducing wasted ad spend."
+            },
+    
+            { 
+                benefit: "Improvement in Lead Conversion Rates", 
+                benefitText: "LinkedIn Ads optimized for audience segmentation and bid strategies lead to higher conversion rates.", 
+                increasePercentage: 160, 
+                explanation: "Refining audience targeting, bid adjustments, and ad creatives improves conversion rates, turning ad clicks into valuable B2B leads efficiently."
+            },
+    
+            { 
+                benefit: "Higher ROAS from LinkedIn PPC", 
+                benefitText: "Maximized return on ad spend (ROAS) through smart bidding, ABM (Account-Based Marketing), and continuous campaign optimization.", 
+                increasePercentage: 420, 
+                explanation: "Focusing on high-intent professionals, eliminating wasted ad spend, and refining bidding strategies leads to significant revenue growth for B2B businesses."
+            }
+        ]
+    },
+    //PowerBy ends here 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized LinkedIn PPC</span> for Every E-Commerce Platform",
-        para: "Each E-commerce platform, from Shopify to WooCommerce, offers unique opportunities for LinkedIn PPC integration. Our team provides custom LinkedIn PPC strategies for these platforms to ensure your ads reach the right professional audience, maximize ROI, and effectively convert visitors into engaged B2B customers.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized LinkedIn PPC </span><br/> Strategies for B2B Growth",
+        para: "Every B2B business has unique advertising needs. Our <strong> customized LinkedIn PPC strategies </strong> focus on advanced audience targeting, lead generation, and ABM (Account-Based Marketing) to ensure your ads reach key decision-makers, drive engagement, and maximize ROI.",
+    
         tailoredItems: [
             {
-                heading: "Shopify LinkedIn PPC Services",
-                para: "Utilize LinkedIn PPC to boost visibility and engagement for your Shopify-hosted B2B products.",
+                heading: "LinkedIn Sponsored Content – Engage Decision-Makers",
+                para: "LinkedIn Sponsored Content allows businesses to promote articles, videos, and posts directly in the feeds of targeted professionals.",
                 offers: [
-                    "Seamlessly integrate LinkedIn ads within Shopify for cohesive campaign management.",
-                    "Craft LinkedIn-specific ads tailored to the professional demographics using Shopify.",
-                    "Monitor and optimize campaign conversions linked directly to Shopify metrics."
+                    "<strong>Precise Audience Targeting:</strong> Use job title, industry, seniority, and company size filters to reach the right professionals.",
+                    "<strong>Content-Driven Lead Generation:</strong> Promote whitepapers, case studies, and webinars to capture high-quality leads.",
+                    "<strong>Dynamic Ad Formats:</strong> Run single-image, video, and carousel ads to increase engagement.",
+                    "<strong>AI-Powered Bidding:</strong> Optimize ad spend using LinkedIn’s AI-driven smart bidding."
                 ],
-                chooseUs: "Our expertise in synergizing Shopify and LinkedIn PPC campaigns ensures effective ad spend and maximized returns for B2B markets.",
-                image: "https://example.com/shopify-linkedin-service-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce LinkedIn PPC Services",
-                para: "Leverage LinkedIn PPC to maximize your WooCommerce store’s potential among B2B clients.",
+                heading: "LinkedIn InMail Ads – Personalized Outreach",
+                para: "LinkedIn Message Ads (formerly Sponsored InMail) allow you to send direct, personalized messages to high-value prospects.",
                 offers: [
-                    "Customize LinkedIn PPC strategies specifically for WooCommerce to target businesses.",
-                    "Use LinkedIn’s rich demographic data for precise ad targeting and conversion tracking.",
-                    "Develop strategic promotions that drive both traffic and professional engagements on LinkedIn."
+                    "<strong>One-on-One Messaging:</strong> Engage decision-makers directly with personalized InMail ads.",
+                    "<strong>Lead Capture Integration:</strong> Collect high-intent leads with embedded LinkedIn lead gen forms.",
+                    "<strong>AI-Driven Audience Optimization:</strong> Deliver messages at the right time to maximize open rates.",
+                    "<strong>Follow-Up Sequences:</strong> Automate nurturing with a sequence of targeted follow-ups."
                 ],
-                chooseUs: "Our tailored approach combines deep WooCommerce insights with sophisticated LinkedIn PPC tactics to significantly boost your B2B sales.",
-                image: "https://example.com/woocommerce-linkedin-service-image.png"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+            },
+    
+            {
+                heading: "LinkedIn Lead Gen Ads – Capture Quality Leads",
+                para: "LinkedIn Lead Gen Ads provide a seamless way to collect high-quality B2B leads without users leaving the platform.",
+                offers: [
+                    "<strong>Pre-Filled Lead Forms:</strong> Capture professional details automatically for faster conversions.",
+                    "<strong>CRM & Marketing Automation Integration:</strong> Sync leads with HubSpot, Salesforce, or your CRM.",
+                    "<strong>Lookalike Audience Targeting:</strong> Expand reach by targeting similar professionals to your existing customers.",
+                    "<strong>Performance-Based Bidding:</strong> Optimize cost per lead with AI-driven bid strategies."
+                ],
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+            },
+    
+            {
+                heading: "LinkedIn Retargeting Ads – Re-Engage B2B Prospects",
+                para: "Retargeting Ads allow businesses to re-engage past visitors, webinar attendees, or prospects who interacted with previous ads.",
+                offers: [
+                    "<strong>Website & Engagement Retargeting:</strong> Show ads to LinkedIn users who visited your site or engaged with past posts.",
+                    "<strong>ABM-Based Retargeting:</strong> Target key accounts and high-value prospects to keep your brand top-of-mind.",
+                    "<strong>Cross-Platform Remarketing:</strong> Sync LinkedIn retargeting with Google and Facebook for multi-channel impact.",
+                    "<strong>Custom Audience Lists:</strong> Use CRM data to retarget existing leads and accelerate conversions."
+                ],
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+            },
+    
+            {
+                heading: "LinkedIn Account-Based Marketing (ABM) – Hyper-Targeted B2B Ads",
+                para: "ABM campaigns allow businesses to hyper-target specific companies, executives, and decision-makers with tailored ad campaigns.",
+                offers: [
+                    "<strong>Company & Job Title Targeting:</strong> Run ads exclusively for key decision-makers in your ideal accounts.",
+                    "<strong>Multi-Touchpoint Campaigns:</strong> Deploy LinkedIn, email, and content strategies together for higher conversions.",
+                    "<strong>Pipeline Acceleration:</strong> Use personalized messaging to shorten B2B sales cycles.",
+                    "<strong>Sales & Marketing Alignment:</strong> Sync campaigns with your sales team for better outreach."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
-            // Additional platforms can be included here
         ]
     },
 
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by LinkedIn PPC</span>",
-        para: "Transform your e-commerce business with our LinkedIn PPC strategies, utilizing targeted, data-driven advertising to maximize ROI and enhance professional client engagement on LinkedIn.",
-
-        features: [
-            {
-                navigator: "Professional Audience Targeting",
-                text: "Focus your LinkedIn PPC campaigns on reaching and engaging professionals and decision-makers relevant to your industry.",
-                icon: <IoPersonSharp/>
-            },
-            {
-                navigator: "Industry-Specific Campaigns",
-                text: "Design LinkedIn PPC campaigns that are finely tuned to the specific needs and characteristics of various industries.",
-                icon: <IoBusinessSharp/>
-            },
-            {
-                navigator: "B2B Conversion Optimization",
-                text: "Optimize your LinkedIn ad conversions by crafting compelling calls-to-action and high-engagement content for a professional audience.",
-                icon: <IoStatsChartSharp/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Professional Engagement",
-                benefitText: "Demonstrate the enhancement in engagement rates from professionals on LinkedIn due to targeted PPC campaigns.",
-                increasePercentage: 140
-            },
-            {
-                benefit: "Boost in B2B Leads",
-                benefitText: "Highlight the growth in qualified B2B leads generated through effective LinkedIn PPC advertising.",
-                increasePercentage: 175
-            },
-            {
-                benefit: "ROI from LinkedIn PPC",
-                benefitText: "Detail the impressive return on investment businesses achieve from their targeted LinkedIn advertising efforts.",
-                increasePercentage: 220
-            }
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>LinkedIn PPC Strategy</span>",
+        para: "Maximize brand visibility, generate high-quality B2B leads, and drive conversions with our data-driven LinkedIn PPC strategies tailored for optimized ad performance and high ROI.",
+    
+        approaches: [
+            { heading: "Advanced Audience Targeting", detail: "Use LinkedIn’s precise job title, industry, seniority, and company size filters to reach key decision-makers.", icon: <MdOutlinePeopleAlt/> },
+            { heading: "Optimized Ad Creatives", detail: "Craft high-engagement ad copies, images, and videos tailored for Sponsored Content, InMail, and Lead Gen Ads.", icon: <FaRegImages/> },
+            { heading: "AI-Driven Bidding & Budget Optimization", detail: "Use LinkedIn’s smart bidding strategies to optimize CPC while maximizing conversions.", icon: <RiMoneyDollarCircleFill/> },
+            { heading: "Account-Based Marketing (ABM)", detail: "Hyper-target key accounts, decision-makers, and industry leaders with personalized LinkedIn PPC strategies.", icon: <MdBusinessCenter/> },
+            { heading: "Performance Tracking & Continuous Optimization", detail: "Monitor campaign metrics, analyze engagement, and refine ad strategies for improved ROAS and lead quality.", icon: <MdTrendingUp/> }
         ]
     },
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for LinkedIn PPC",
-        para: "Our LinkedIn PPC experts specialize in leveraging LinkedIn’s advertising capabilities across all major E-commerce platforms to enhance your store's visibility and drive B2B sales. Custom LinkedIn PPC strategies ensure optimal performance for any platform your business operates on.",
-
+        heading: "We Optimize LinkedIn PPC Campaigns Across These Platforms",
+        para: "Our LinkedIn PPC experts manage and optimize ad campaigns across all major LinkedIn advertising networks to maximize brand visibility, engagement, and high-quality lead generation. Whether you're running Sponsored Content, Message Ads, or Retargeting campaigns, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "LinkedIn Advertising Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
-                ],
-                image: popularPlatform
+                    { itemName: "LinkedIn Sponsored Content", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "LinkedIn InMail (Message Ads)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "LinkedIn Dynamic Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "LinkedIn Text Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" }
+                ]
             },
-
+    
             {
-                heading: "Enterprise-Level Solutions",
+                heading: "B2B Lead Generation & Retargeting",
                 items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
-                ],
-                image: enterpricePlatform
+                    { itemName: "LinkedIn Lead Gen Forms", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "Account-Based Marketing (ABM)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "LinkedIn Website Retargeting", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "Lookalike Audiences", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" }
+                ]
             },
-
+    
             {
-                heading: "Content Management Systems (CMS)",
+                heading: "Ad Optimization & Analytics Tools",
                 items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
-                ],
-                image: cmsPlatform
+                    { itemName: "LinkedIn Campaign Manager", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "LinkedIn Insights Tag", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "Google Analytics 4", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Analytics_logo.svg" },
+                    { itemName: "SEMrush PPC Toolkit", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/SEMrush_Logo.svg" }
+                ]
             },
-
+    
             {
-                heading: "Other Platforms",
+                heading: "Cross-Platform LinkedIn PPC Integration",
                 items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
+                    { itemName: "Google Ads for LinkedIn", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Facebook & Instagram Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "YouTube Video Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Twitter Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" }
+                ]
+            }
+        ]
+    },
+    // Aproach section starts 
+    realResultsSection: {
+        heading: "Real Results from Data-Driven<span class='text-[#207DE9]'> LinkedIn PPC</span>",
+        para: "Our LinkedIn PPC strategies focus on delivering measurable outcomes. From increasing brand visibility to generating high-quality B2B leads, we’ve helped businesses achieve substantial revenue growth. Our tailored approach ensures every bid, audience segment, and ad placement works efficiently—turning ad spend into high ROI.",
+    
+        results: [
+            {
+                header: "LinkedIn Sponsored Content - B2B SaaS",
+                challenge: "Scaling a B2B SaaS company's lead generation through optimized LinkedIn ad campaigns.",
+                approaches: [
+                    "ABM & Audience Segmentation: Targeting decision-makers and industry professionals.",
+                    "Sponsored Content Ads: Promoting high-value gated content to generate quality leads.",
+                    "AI-Driven Smart Bidding: Optimizing bids for cost-effective conversions."
                 ],
-                image: otherPlatform
+                increase: 320,
+                increaseIn: "Increase in marketing qualified leads (MQLs) with a 40% drop in cost per lead (CPL)."
+            },
+            {
+                header: "LinkedIn PPC - Enterprise IT Solutions",
+                challenge: "Generating high-intent B2B leads for an enterprise IT solutions provider using LinkedIn PPC.",
+                approaches: [
+                    "LinkedIn InMail Campaigns: Engaging with C-level executives via direct messaging.",
+                    "Lookalike Audiences: Expanding reach to similar high-value prospects.",
+                    "A/B Testing Ad Copy & CTAs: Optimizing ad creatives for higher engagement."
+                ],
+                increase: 280,
+                increaseIn: "Higher engagement and 50% increase in demo requests from LinkedIn PPC."
+            },
+            {
+                header: "LinkedIn Retargeting Ads - Financial Services",
+                challenge: "Driving high-converting leads for a financial services firm using LinkedIn Retargeting.",
+                approaches: [
+                    "Website Retargeting & Lead Nurturing: Engaging visitors who interacted with previous ads.",
+                    "Dynamic Display & Text Ads: Customizing ads for different audience segments.",
+                    "LinkedIn Insight Tag Optimization: Tracking user behavior for better ad delivery."
+                ],
+                increase: 450,
+                increaseIn: "Significant growth in high-quality leads with a 3x increase in conversion rates."
             }
         ]
     },
 
     pathToSuccess: {
         heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to LinkedIn PPC Success",
-
+        
         paths: [
             {
-                letter: "G",
-                heading: "Generate Leads",
-                matters: "LinkedIn PPC campaigns effectively generate high-quality B2B leads by targeting professionals and decision-makers.",
-                how: ["Utilize LinkedIn’s precise targeting to reach industry-specific audiences.", "Create compelling content that resonates with professionals and enhances brand authority."],
-                outcome: "Increased lead generation with high conversion potential."
+                letter: "G", 
+                heading: "Generate High-Quality B2B Leads",
+                matters: "Effective LinkedIn PPC campaigns connect you with decision-makers and professionals actively looking for your solutions.",
+                how: [
+                    "Use LinkedIn's audience segmentation to target specific industries, job titles, and company sizes.",
+                    "Leverage Sponsored Content and Lead Gen Forms to capture high-intent prospects.",
+                    "Implement Account-Based Marketing (ABM) to engage high-value enterprise leads."
+                ],
+                outcome: "More relevant leads with a higher likelihood of conversion."
             },
+    
             {
-                letter: "R",
-                heading: "Refine Strategies",
-                matters: "Refine your LinkedIn PPC strategies to better align with professional audience characteristics and needs.",
-                how: ["Analyze engagement metrics to tailor messages.", "Adjust campaigns based on the performance analytics provided by LinkedIn Insights."],
-                outcome: "Tailored campaigns that result in higher engagement and better ROI."
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing ad creatives, bid strategies, and placements ensures better engagement and lower cost per lead (CPL).",
+                how: [
+                    "A/B test ad headlines, creatives, and CTAs to determine the highest-performing variations.",
+                    "Adjust bidding strategies based on audience engagement and industry trends.",
+                    "Use Message Ads (InMail) for personalized outreach to decision-makers."
+                ],
+                outcome: "Higher click-through rates (CTR) and improved return on ad spend (ROAS)."
             },
+    
             {
                 letter: "O",
-                heading: "Optimize Engagement",
-                matters: "Optimize ad engagement by leveraging LinkedIn’s rich data for enhanced interaction with ads.",
-                how: ["Employ LinkedIn’s demographic data to refine targeting.", "Use A/B testing for ads to determine the most effective approach for professional audiences."],
-                outcome: "Improved ad engagement and increased interaction rates."
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous monitoring and refinement of campaigns help reduce wasted ad spend and maximize lead quality.",
+                how: [
+                    "Use LinkedIn's conversion tracking to measure ad performance effectively.",
+                    "Exclude underperforming audience segments to improve ad efficiency.",
+                    "Monitor key LinkedIn ad metrics like cost per lead (CPL), engagement rate, and conversion rate."
+                ],
+                outcome: "More efficient ad spend and increased marketing-qualified leads (MQLs)."
             },
+    
             {
                 letter: "W",
-                heading: "Win Conversions",
-                matters: "Convert engagements into actionable business opportunities by optimizing LinkedIn PPC ads for conversions.",
-                how: ["Focus on creating strong calls-to-action.", "Optimize landing pages to match the professionalism expected by LinkedIn users."],
-                outcome: "Higher conversion rates from LinkedIn ads."
+                heading: "Win More Conversions",
+                matters: "Clicks alone don’t drive business growth—turning prospects into clients is the ultimate goal.",
+                how: [
+                    "Optimize LinkedIn Lead Gen Forms for seamless lead capture.",
+                    "Use retargeting ads to nurture warm leads and drive them further down the funnel.",
+                    "Leverage LinkedIn Events Ads to engage audiences through webinars and industry conferences."
+                ],
+                outcome: "Higher conversion rates and lower customer acquisition costs (CAC)."
             },
+    
             {
                 letter: "T",
-                heading: "Track Performance",
-                matters: "Track and measure the performance of your LinkedIn PPC campaigns to continuously improve your strategies.",
-                how: ["Implement LinkedIn’s conversion tracking tools.", "Regularly review and adapt strategies based on campaign data."],
-                outcome: "Data-driven improvements and optimized campaign performance."
+                heading: "Target the Right Audience",
+                matters: "Precision targeting ensures your ads reach professionals who are most likely to engage with your business.",
+                how: [
+                    "Leverage job title, industry, and seniority-level targeting for laser-focused campaigns.",
+                    "Use LinkedIn Matched Audiences to retarget website visitors and past customers.",
+                    "Analyze campaign insights to refine audience segments and boost engagement."
+                ],
+                outcome: "More high-quality B2B leads and increased engagement with your ads."
             },
+    
             {
                 letter: "H",
-                heading: "Harness Network",
-                matters: "Harness the power of LinkedIn’s network to expand reach and influence in your industry.",
-                how: ["Engage with thought leaders and influencers to amplify your marketing efforts.", "Utilize LinkedIn groups to further target and reach specific professional circles."],
-                outcome: "Expanded network reach and enhanced industry influence."
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROI, and scale LinkedIn PPC success.",
+                how: [
+                    "Use LinkedIn Campaign Manager to track real-time ad performance and optimize accordingly.",
+                    "Monitor key PPC metrics like cost per lead (CPL), click-through rate (CTR), and engagement rate.",
+                    "Implement AI-driven bid optimization to maximize ad spend efficiency."
+                ],
+                outcome: "Consistent campaign improvements and scalable B2B lead generation."
             },
+    
             {
-                letter: <MdOutlineStarPurple500/>,
+                letter: <MdTrendingUp />,
                 focus: "By focusing on:",
-                focusOn: ["Generating Leads", "Refining Strategies", "Optimizing Engagement", "Winning Conversions", "Tracking Performance", "Harnessing Network"],
-                how: ["Broadened market reach.", "Higher quality of B2B leads.", "Greater overall impact from PPC investments."]
-            }
-        ]
-    },
-
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>LinkedIn PPC Strategy</span>",
-        para: "Maximize your B2B marketing efforts on LinkedIn with our tailored PPC strategies designed to connect directly with professionals and maximize ROI.",
-
-        approaches: [
-            { heading: "Targeted Content Creation", detail: 'Develop content that speaks directly to professionals and industries, ensuring high engagement rates.', icon: <IoDocumentTextSharp/> },
-            { heading: "Strategic Ad Targeting", detail: 'Use LinkedIn’s advanced targeting options to reach decision-makers and influencers within specific industries.', icon: <IoPeopleCircleSharp/> },
-            { heading: "Engagement Optimization", detail: 'Optimize ads for maximum professional engagement, focusing on building connections and generating leads.', icon: <IoHandLeftSharp/> },
-            { heading: "Conversion Techniques", detail: 'Apply effective conversion techniques tailored to the expectations and behaviors of LinkedIn users.', icon: <IoCartSharp/> },
-            { heading: "Analytics-Driven Refinement", detail: 'Continuously refine your strategies based on detailed analytics from LinkedIn’s ad platform.', icon: <IoAnalyticsSharp/> }
-        ]
-    },
-
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from LinkedIn PPC</span>",
-        para: "Witness the tangible impact of our LinkedIn PPC strategies through successful campaign results that have dramatically transformed B2B engagements and ROI.",
-
-        results: [
-            {
-                header: "Ecommerce - Professional Services",
-                challenge: "Increase brand visibility and lead generation among professional services sectors.",
-                approaches: [
-                    "Tailored ads targeting industry-specific issues and needs.",
-                    "Focused content marketing integrated with LinkedIn articles and posts.",
-                    "Strategic partnerships with LinkedIn influencers to expand reach."
+                focusOn: ["Generating High-Quality B2B Leads", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
+                how: [
+                    "Increased brand visibility and engagement among key decision-makers.",
+                    "Higher conversion rates with cost-efficient bidding strategies.",
+                    "Improved ad spend efficiency and maximized return on ad spend (ROAS)."
                 ],
-                increase: "350",
-                increaseIn: "Increase in B2B lead generation"
-            },
-            {
-                header: "Ecommerce - Technology Solutions",
-                challenge: "Enhance market penetration and customer acquisition for specialized technology solutions.",
-                approaches: [
-                    "Highly targeted ads aimed at technology decision-makers.",
-                    "Webinars and live events promoted through LinkedIn.",
-                    "Engagement strategies focused on demonstrating tech expertise."
-                ],
-                increase: "300",
-                increaseIn: "Growth in qualified leads and strategic partnerships"
-            },
-            {
-                header: "Ecommerce - Manufacturing Industry",
-                challenge: "Strengthen connections and conversions within the manufacturing industry.",
-                approaches: [
-                    "Industry-specific content that addresses common manufacturing challenges.",
-                    "Ads that highlight the unique benefits of products for manufacturing processes.",
-                    "Utilizing LinkedIn Groups to target and engage with manufacturing professionals."
-                ],
-                increase: "250",
-                increaseIn: "Increase in engagement and direct inquiries"
+                outcome: "Long-term LinkedIn PPC success with a steady pipeline of qualified leads."
             }
         ]
     },
 
     pricingSection: {
         heading: "Transparent Pricing for LinkedIn PPC",
-        para: "Discover our transparent and adaptable LinkedIn PPC pricing plans designed to scale with your professional networking goals. From increasing lead generation to enhancing brand visibility among professionals, our plans are meticulously crafted to deliver measurable outcomes and solidify your presence in your industry.",
-
+        para: "Discover our flexible and data-driven LinkedIn PPC pricing plans designed to maximize your ad spend efficiency. From increasing brand awareness to generating high-quality B2B leads, our plans ensure measurable results and high ROI.",
+        
         pricingCards: [
             {
-                name: "Starter Plan",
-                header: "Starter Plan",
-                price: "$1,000/month",
-                fitFor: "Small businesses or startups looking to build their brand on LinkedIn, with a focus on targeted lead generation.",
+                header: "Starter LinkedIn PPC Package",
+                price: "$800/month",
+                fitFor: "Small businesses or startups looking to test LinkedIn ads with a limited budget.",
                 youGet: [
-                    "Up to 30 targeted professional keywords",
-                    "LinkedIn Ads account setup and management",
-                    "Monthly budget management up to $10,000",
-                    "Targeting by job title, industry, and company size",
-                    "Monthly performance reports",
-                    "Basic conversion tracking setup",
-                    "Campaign Setup Fee (One-time): $1,000",
-                    "Monthly Investment: $1,000"
+                    "Basic Audience Targeting: Focus on industry, job title, and company size targeting.",
+                    "Sponsored Content & Text Ads: Creating and launching LinkedIn ad campaigns.",
+                    "Manual Bid Management: Adjusting bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, clicks, and engagement.",
+                    "Monthly Report: Summary of ad spend, CPC, CTR, and lead quality."
                 ]
             },
+    
             {
-                name: "Professional Plan",
-                header: "Professional Plan",
+                header: "Growth LinkedIn PPC Package",
                 price: "$2,500/month",
-                fitFor: "Mid-sized businesses seeking to enhance their market positioning and lead quality on LinkedIn.",
+                fitFor: "Growing B2B brands aiming to scale lead generation with optimized LinkedIn campaigns.",
                 youGet: [
-                    "Up to 100 targeted professional keywords",
-                    "Advanced bid management and optimization",
-                    "Monthly budget management up to $25,000",
-                    "Enhanced demographic and psychographic targeting",
-                    "Bi-weekly performance optimization",
-                    "Advanced conversion tracking and LinkedIn Insight Tag integration",
-                    "Campaign Setup Fee (One-time): $2,500",
-                    "Monthly Investment: $2,500"
+                    "Advanced Audience Segmentation: Targeting specific job titles, seniority levels, and industries.",
+                    "Lead Gen Forms & Sponsored Content: Optimized ad formats for better conversion rates.",
+                    "AI-Powered Bidding & Budget Optimization: Maximizing lead quality while minimizing cost per lead (CPL).",
+                    "Retargeting & Lookalike Audiences: Engaging past visitors & expanding audience reach.",
+                    "Performance Tracking & A/B Testing: Optimizing ad creatives and messaging for better engagement."
                 ]
             },
+    
             {
-                name: "Enterprise Plan",
-                header: "Enterprise Plan",
+                header: "Premium LinkedIn PPC Package",
                 price: "$5,000/month",
-                fitFor: "Large enterprises aiming to dominate their sector on LinkedIn with comprehensive, multi-faceted marketing strategies.",
+                fitFor: "Established B2B brands looking for aggressive lead generation and ad scaling.",
                 youGet: [
-                    "Custom number of keywords targeted",
-                    "Full-scale LinkedIn campaign management",
-                    "Monthly budget management over $50,000",
-                    "Complex targeting strategies including remarketing and account-based marketing (ABM)",
-                    "Monthly in-depth performance and strategy reviews",
-                    "State-of-the-art conversion optimization techniques",
-                    "Campaign Setup Fee (One-time): $5,000",
-                    "Monthly Investment: $5,000"
+                    "Full-Funnel LinkedIn PPC Strategy: Covering Awareness, Consideration & Conversion campaigns.",
+                    "AI-Driven Bid Optimization: Maximizing conversions while reducing CPL.",
+                    "LinkedIn Retargeting Campaigns: Engaging decision-makers who previously interacted with ads.",
+                    "Landing Page & Conversion Rate Optimization: Enhancing user experience for ad-driven traffic.",
+                    "Custom Performance Dashboard: Real-time tracking of key LinkedIn PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise LinkedIn PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale B2B businesses & enterprises aiming for LinkedIn lead generation dominance.",
+                youGet: [
+                    "End-to-End LinkedIn PPC Management: Covering all LinkedIn ad types & placements.",
+                    "High-Budget AI Bid Automation: Optimizing ad delivery with LinkedIn’s machine learning algorithms.",
+                    "Account-Based Marketing (ABM) Strategy: Engaging high-value decision-makers directly.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansion.",
+                    "Dedicated PPC Account Manager: Full-time support for LinkedIn ad growth & optimization."
                 ]
             }
         ]
     },
 
-    customPricing: {
-        heading: 'Custom LinkedIn PPC Services Tailored to Your Business Objectives',
-        upperPart: {
-            header: "Custom LinkedIn PPC Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "Custom number of professional keywords targeted",
-            "Custom audience segmentation by professional criteria",
-            "Custom budget management strategies tailored to campaign goals",
-            "Optimization of ad copies and CTAs for a professional audience"
-        ],
-        centerPart: {
-            text: "Drive professional engagement, boost B2B conversions, and maximize ROI with our expertly crafted LinkedIn PPC strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom analytics and reporting tailored to your KPIs",
-            "Custom conversion tracking using LinkedIn’s advanced tools",
-            "Strategic content planning and ad creative development",
-            "Dedicated customer support and strategic account management"
-        ]
-    },
-
     reviewsSection: {
-        heading: "Join Our Community of Thriving Businesses Powered by LinkedIn PPC",
-        para: "Each campaign we manage is driven by our commitment to excellence and strategic marketing foresight. Our clients’ testimonials showcase the profound impact our LinkedIn PPC strategies have had on their professional growth and market presence. Discover how our personalized solutions can elevate your B2B marketing efforts!"
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
+    },
 
 }
 
@@ -2097,388 +2467,502 @@ export const YoutubePPCData = {
         bg: BG
     },
 
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>YouTube PPC</span> is Essential for E-Commerce Success?",
-        para: "Harness the potential of YouTube PPC to catapult your e-commerce sales. Engage our team of experts who utilize targeted video advertising strategies combined with robust data analytics to boost your ROI and enhance conversions. Simplify your campaign management with our full-service solutions, ensuring your products achieve maximum visibility and profitability on one of the world’s largest video platforms.",
-
-        whyKeys: [
-            { heading: "Engaging Video Content", explanation: "Maximize your reach on YouTube’s competitive platform. Our tailored video content and smart bidding strategies place your ads in front of engaged viewers, increasing visibility and conversion opportunities.", icon: <FaVideo/> },
-            { heading: "Targeted Ad Placements", explanation: "Place your ads strategically within YouTube videos to enhance viewer engagement and interest. Our tactics ensure your ads are shown to users based on their past viewing behavior, maximizing relevance and potential conversions.", icon: <FaUserCircle/> },
-            { heading: "Optimized Viewing Paths", explanation: "Enhance your YouTube channel and video pages to guide viewers towards your e-commerce store. Our optimization techniques focus on improving video content, enhancing calls-to-action, and ensuring seamless transitions from video to purchase.", icon: <FaRoad/> },
-            { heading: "Advanced Analytics Integration", explanation: "Utilize YouTube’s sophisticated analytics tools to monitor and refine your PPC strategies. Get actionable insights from viewer data to continually adapt and improve your campaigns for sustained growth.", icon: <FaChartPie/> }
-        ]
+    customPricing: {
+        heading: "YouTube PPC Services Custom Pricing Tailored to Your Video Marketing Goals",
+    
+        mainHeading: "Custom <br/> YouTube PPC <br/> Package",
+    
+        overview: "Designed to increase brand awareness, drive video engagement, and generate high-quality leads, our YouTube PPC package ensures optimized ad placements, advanced audience targeting, and continuous campaign refinement for better performance and conversions.",
+    
+        benifits: [
+            { heading: "Increased Brand Awareness:", description: "Get your business in front of millions of engaged YouTube viewers with strategic video ads." },
+            { heading: "Higher Video Engagement & Conversions:", description: "Capture attention with compelling video creatives and precise audience targeting." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with AI-powered bidding strategies, A/B testing, and performance optimization." }
+        ],
+    
+        keyFeatures: [
+            { heading: "Advanced Audience Targeting", description: "Leverage YouTube’s powerful targeting options, including demographics, interests, in-market segments, and video retargeting." },
+            { heading: "TrueView In-Stream Ads", description: "Run skippable video ads before, during, or after YouTube videos to increase engagement and reach." },
+            { heading: "YouTube Discovery Ads", description: "Promote video ads on YouTube search results, homepage, and related videos for higher visibility." },
+            { heading: "Retargeting & Custom Audience Ads", description: "Re-engage past website visitors and video viewers with high-converting YouTube remarketing ads." },
+            { heading: "Bumper & Non-Skippable Ads", description: "Capture instant attention with 6-second bumper ads or non-skippable video ads for full brand messaging." },
+            { heading: "AI-Driven Bidding Strategies", description: "Optimize bids using Cost per View (CPV), Maximize Conversions, and Target CPA bidding models." },
+            { heading: "A/B Testing & Performance Optimization", description: "Continuously test video creatives, audience segments, and ad formats to maximize results." },
+            { heading: "Landing Page & Conversion Rate Optimization", description: "Ensure seamless user experience and optimize landing pages for YouTube traffic." },
+            { heading: "Multi-Channel Advertising", description: "Integrate YouTube ads with Google Display Network, Facebook Ads, and Search Ads for omnichannel reach." },
+            { heading: "Custom Analytics Dashboard", description: "Track YouTube ad performance in real-time with detailed reporting and insights." }
+        ],
+    
+        startingAt: "$3000/Month"
     },
 
     boostSection: {
-        heading: "Amplify Your Online Store's Visibility with <span class='text-[#207DE9]'>Specialized YouTube PPC</span> Services",
-        para: "Utilize the unique video marketing capabilities of YouTube to boost your e-commerce strategy, focusing on creating compelling content that drives viewer engagement and conversions.",
-
+        heading: "Boost Your Brand with <span class='text-[#207DE9]'> Specialized <br/> YouTube PPC </span> Strategies.",
+        para: "Maximize ROI with expert YouTube PPC campaigns. We focus on precise audience targeting, smart bidding, and continuous campaign optimization to increase video engagement, drive conversions, and grow brand awareness.",
+    
         boostContent: [
             {
-                navigator: "Enhanced Video Ads",
-                matters: "Create and optimize YouTube video ads that capture attention and drive viewer action. Design content that aligns with user interests and search behaviors on YouTube, maximizing traffic and sales conversions.",
+                name: "Advanced Audience Targeting",
+                whyMatters: "YouTube’s powerful targeting options ensure your ads reach viewers most likely to engage with your brand and convert.",
                 includes: [
-                    "Producing high-quality video content that resonates with viewers.",
-                    "Implementing targeted ad placements to ensure optimal visibility.",
-                    "Using engaging narratives and visuals to increase viewer interaction and click-through rates."
+                    "In-market, affinity, and custom intent audience segmentation.",
+                    "YouTube retargeting for users who previously interacted with your brand.",
+                    "Geo-targeting and device-based bid adjustments for maximum reach."
                 ],
-                benefit: "Enhances the impact of your ads, leading to higher viewer engagement and increased sales conversions.",
-                image: "https://example.com/youtube-video-ad-optimization.png"
+                benifit: "Ensures ads reach high-intent users, increasing video engagement and conversions."
             },
+    
             {
-                navigator: "YouTube Remarketing",
-                matters: "Reconnect with viewers who have interacted with your videos or visited your channel but have not made a purchase.",
+                name: "YouTube TrueView In-Stream & Discovery Ads",
+                whyMatters: "Engaging video ads capture user attention and drive brand awareness.",
                 includes: [
-                    "Setting up YouTube remarketing to tag viewers who watch your videos.",
-                    "Developing customized ad sequences to retarget these viewers with tailored messaging.",
-                    "Segmenting audience lists based on video interaction for precise retargeting."
+                    "Skippable TrueView ads that only charge when users watch past the skip point.",
+                    "Discovery Ads to showcase videos in YouTube search results and suggested videos.",
+                    "Bumper ads for high-impact brand messaging in just 6 seconds."
                 ],
-                benefit: "Boosts your conversion rates by re-engaging viewers who are already familiar with your brand, maximizing the ROI from your existing audience.",
-                image: "https://example.com/youtube-remarketing-strategy.png"
+                benifit: "Maximizes video views and brand awareness while optimizing ad spend."
             },
+    
             {
-                navigator: "Localized Video Campaigns",
-                matters: "Tailor your YouTube ads to different regional audiences to enhance relevance and effectiveness.",
+                name: "Retargeting & Lookalike Audiences",
+                whyMatters: "Re-engaging past viewers and expanding reach with lookalike audiences increases conversions.",
                 includes: [
-                    "Creating region-specific video ads that cater to local tastes and preferences.",
-                    "Adjusting ad scheduling and bids based on time zone and regional peak viewing times.",
-                    "Using local languages and cultural references in ads to increase relatability and response rates."
+                    "YouTube remarketing campaigns for users who watched previous videos.",
+                    "Lookalike audience creation based on high-engagement users.",
+                    "Segmented ad messaging for different audience groups."
                 ],
-                benefit: "Increases engagement by providing localized experiences that resonate well with regional audiences, potentially boosting regional sales and brand loyalty.",
-                image: "https://example.com/localized-youtube-ad-campaigns.png"
+                benifit: "Improves conversion rates by re-engaging interested viewers."
             },
+    
             {
-                navigator: "Mobile-Optimized Video Ads",
-                matters: "With the majority of YouTube viewing occurring on mobile devices, it’s crucial to optimize your video ads for mobile viewing.",
+                name: "AI-Powered Smart Bidding",
+                whyMatters: "Leveraging Google’s AI-driven bidding ensures cost-effective ad placements and better ROAS.",
                 includes: [
-                    "Designing video ads that are visually appealing on smaller screens.",
-                    "Ensuring mobile-friendly calls-to-action within the video content.",
-                    "Testing various video formats and lengths to determine what works best on mobile platforms."
+                    "Utilizing bidding strategies like Target CPA and Maximize Conversions.",
+                    "Automated budget allocation based on campaign performance.",
+                    "Real-time bid adjustments to maximize engagement and conversions."
                 ],
-                benefit: "Targets the massive mobile viewer base on YouTube, enhancing campaign performance and increasing mobile engagement rates.",
-                image: "https://example.com/mobile-optimized-youtube-ads.png"
+                benifit: "Optimizes ad spend while ensuring more views and interactions."
             },
+    
             {
-                navigator: "Strategic Keyword Use in Video Ads",
-                matters: "Leverage YouTube’s search algorithm by using strategically chosen keywords within your video content and ad campaigns.",
+                name: "YouTube Lead Generation Ads",
+                whyMatters: "Lead generation ads enable brands to capture high-quality leads directly from YouTube.",
                 includes: [
-                    "Conducting thorough keyword research specific to YouTube.",
-                    "Incorporating these keywords into video titles, descriptions, and tags.",
-                    "Regularly updating your keyword strategy based on performance analytics and trends."
+                    "Pre-filled lead forms to reduce user friction and increase conversions.",
+                    "Custom call-to-action (CTA) buttons to drive sign-ups and inquiries.",
+                    "CRM integration for seamless lead nurturing and follow-up."
                 ],
-                benefit: "Ensures your YouTube ads and videos are discoverable by a wider audience, reducing ad spend waste and targeting more qualified leads.",
-                image: "https://example.com/youtube-keyword-strategy.png"
+                benifit: "Generates high-quality leads without users leaving YouTube."
+            },
+    
+            {
+                name: "YouTube Shopping Ads",
+                whyMatters: "E-commerce brands can promote products directly within YouTube videos to drive sales.",
+                includes: [
+                    "Product feed integration with YouTube for seamless ad placements.",
+                    "Dynamic product ads that showcase relevant products based on viewer behavior.",
+                    "Real-time performance tracking to optimize for maximum ROI."
+                ],
+                benifit: "Drives more direct sales by showcasing products within relevant videos."
+            },
+    
+            {
+                name: "Landing Page & Conversion Rate Optimization",
+                whyMatters: "Optimized landing pages ensure that YouTube traffic converts into leads and customers.",
+                includes: [
+                    "A/B testing landing pages to improve conversion rates.",
+                    "Enhancing mobile-friendly design for better user experience.",
+                    "Optimized call-to-action (CTA) buttons to increase engagement."
+                ],
+                benifit: "Increases lead conversions while reducing bounce rates."
+            },
+    
+            {
+                name: "Campaign Performance Tracking & Optimization",
+                whyMatters: "Continuous tracking and optimization ensure high-performing YouTube ad campaigns.",
+                includes: [
+                    "Real-time campaign performance tracking and detailed reporting.",
+                    "A/B testing video creatives, audience targeting, and bidding strategies.",
+                    "Monitoring key PPC metrics like CPV, CTR, and ROAS."
+                ],
+                benifit: "Ensures ad budget is used efficiently while maximizing ROI."
             }
         ]
     },
-
+    //Booster Section ends here   
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "YouTube PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage advanced analytics and AI-driven optimization to maximize video engagement, generate high-quality leads, and achieve a higher return on ad spend (ROAS) on YouTube Ads.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Video Engagement", 
+                benefitText: "Optimized YouTube PPC campaigns drive more high-intent viewers to your brand, ensuring maximum engagement and conversions.", 
+                increasePercentage: 320, 
+                explanation: "A well-structured YouTube strategy ensures ads reach the right audience, increasing video views, watch time, and interaction rates while reducing wasted ad spend."
+            },
+    
+            { 
+                benefit: "Improvement in Conversion Rates", 
+                benefitText: "YouTube Ads optimized for audience segmentation and bid strategies lead to higher conversion rates.", 
+                increasePercentage: 180, 
+                explanation: "Refining audience targeting, smart bidding, and creative storytelling improves conversion rates, turning video views into valuable leads and sales efficiently."
+            },
+    
+            { 
+                benefit: "Higher ROAS from YouTube PPC", 
+                benefitText: "Maximized return on ad spend (ROAS) through smart bidding, audience retargeting, and continuous campaign optimization.", 
+                increasePercentage: 450, 
+                explanation: "Focusing on high-intent viewers, eliminating wasted ad spend, and refining ad creatives leads to significant revenue growth for businesses using YouTube PPC."
+            }
+        ]
+    },
+    //PowerBy ends here 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized YouTube PPC</span> for Every E-Commerce Platform",
-        para: "Each E-commerce platform, from Shopify to WooCommerce, presents unique opportunities for YouTube PPC integration. Our team crafts custom YouTube PPC strategies for these platforms to ensure your video ads engage the right audience, maximize ROI, and effectively convert viewers into loyal customers.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized YouTube PPC </span><br/> Strategies for Maximum Video Engagement",
+        para: "Every business has unique advertising needs. Our <strong> customized YouTube PPC strategies </strong> focus on video ad optimization, audience targeting, and engagement-driven campaigns to ensure your ads reach the right viewers, drive interactions, and maximize ROAS.",
+    
         tailoredItems: [
             {
-                heading: "Shopify YouTube PPC Services",
-                para: "Utilize the power of YouTube PPC to boost visibility and engagement for your Shopify-hosted products with compelling video content.",
+                heading: "YouTube In-Stream Ads – Engage Viewers Instantly",
+                para: "YouTube In-Stream Ads allow businesses to capture attention with skippable and non-skippable video ads before or during videos.",
                 offers: [
-                    "Embedding YouTube video ads seamlessly within Shopify to enhance user experience.",
-                    "Creating custom video content that aligns with the shopping habits of the Shopify audience.",
-                    "Analyzing and optimizing video interaction data to drive conversions specifically from YouTube."
+                    "<strong>AI-Driven Audience Targeting:</strong> Show ads to viewers based on interests, behavior, and demographics.",
+                    "<strong>Engaging Video Creatives:</strong> Optimize video length, storytelling, and CTAs for higher engagement.",
+                    "<strong>Skippable & Non-Skippable Ad Optimization:</strong> Choose ad formats that best suit your campaign goals.",
+                    "<strong>Smart Bidding Strategies:</strong> Use Target CPA and Maximize Conversions for better cost-efficiency."
                 ],
-                chooseUs: "Leverage our expertise in melding Shopify capabilities with YouTube’s video marketing strength for higher engagement and sales.",
-                image: "https://example.com/shopify-youtube-service-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce YouTube PPC Services",
-                para: "Maximize your WooCommerce store’s potential by leveraging YouTube video ads designed to convert.",
+                heading: "YouTube Discovery Ads – Appear in Search & Recommendations",
+                para: "YouTube Discovery Ads place your videos in search results, homepage feeds, and suggested videos for increased reach.",
                 offers: [
-                    "Developing targeted video campaigns that highlight WooCommerce products effectively on YouTube.",
-                    "Integrating YouTube analytics with WooCommerce for enhanced tracking and optimization.",
-                    "Employing advanced targeting features to deliver ads to a highly relevant audience on YouTube."
+                    "<strong>SEO-Optimized Video Targeting:</strong> Appear for relevant YouTube searches and recommended videos.",
+                    "<strong>Custom Thumbnail & Headline Optimization:</strong> Increase click-through rates with compelling visuals and copy.",
+                    "<strong>Behavior-Based Targeting:</strong> Show ads to users based on watch history and content preferences.",
+                    "<strong>AI-Enhanced Bidding:</strong> Optimize ad delivery using Google's machine learning algorithms."
                 ],
-                chooseUs: "Our custom YouTube PPC strategies are specifically tailored to integrate with WooCommerce, ensuring your video ads are not only seen but are also effective in driving sales.",
-                image: "https://example.com/woocommerce-youtube-service-image.png"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+            },
+    
+            {
+                heading: "YouTube Bumper Ads – Short & Impactful Video Advertising",
+                para: "Bumper Ads are short, non-skippable 6-second videos designed to deliver quick and memorable brand messages.",
+                offers: [
+                    "<strong>Micro-Storytelling Strategy:</strong> Create high-impact ads that deliver key messages in seconds.",
+                    "<strong>AI-Powered Placement Optimization:</strong> Ensure ads appear in relevant content with high engagement potential.",
+                    "<strong>High-Frequency Ad Delivery:</strong> Maximize impressions while keeping costs under control.",
+                    "<strong>Multi-Channel Synchronization:</strong> Align Bumper Ads with longer video campaigns for retargeting."
+                ],
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+            },
+    
+            {
+                heading: "YouTube Retargeting Ads – Bring Back Interested Viewers",
+                para: "Retargeting Ads allow businesses to re-engage past video viewers and website visitors with tailored messaging.",
+                offers: [
+                    "<strong>Dynamic Video Retargeting:</strong> Show personalized ads based on previous interactions.",
+                    "<strong>Lookalike Audience Targeting:</strong> Expand reach by finding new users similar to past engaged viewers.",
+                    "<strong>Cross-Platform Retargeting:</strong> Sync YouTube remarketing with Google Display Network and Search Ads.",
+                    "<strong>Performance-Based Bidding:</strong> Optimize cost per view (CPV) and cost per acquisition (CPA)."
+                ],
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+            },
+    
+            {
+                heading: "YouTube TrueView for Action – Drive Conversions with CTA Overlays",
+                para: "TrueView for Action Ads help businesses drive conversions by adding compelling CTA buttons to video ads.",
+                offers: [
+                    "<strong>Lead Capture & E-commerce Integration:</strong> Drive sign-ups, purchases, and inquiries directly from video ads.",
+                    "<strong>Custom CTA Overlays:</strong> Add compelling call-to-action buttons for better conversion rates.",
+                    "<strong>Google Ads Audience Sync:</strong> Align YouTube campaigns with Google Search and Display for full-funnel impact.",
+                    "<strong>Automated Bidding Optimization:</strong> Use Maximize Conversions bidding for higher efficiency."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
-            // Additional platforms can be included here
         ]
     },
 
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by YouTube PPC</span>",
-        para: "Transform your e-commerce business with targeted, data-driven video advertising strategies on YouTube that maximize ROI and enhance visibility.",
-
-        features: [
-            {
-                navigator: "In-Video Product Integration",
-                text: "Incorporate products directly into YouTube videos to capture viewer attention and directly link to product pages, enhancing the shopping experience.",
-                icon: <IoVideocam/>
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>YouTube PPC Strategy</span>",
+        para: "Maximize brand awareness, engagement, and conversions with our data-driven YouTube PPC strategies tailored for optimized video ad performance and high ROI.",
+    
+        approaches: [
+            { 
+                heading: "Advanced Audience Targeting", 
+                detail: "Use YouTube’s in-market, affinity, and custom intent audience targeting to reach high-intent viewers.", 
+                icon: <MdOutlineSubscriptions/> 
             },
-            {
-                navigator: "Advanced Audience Targeting",
-                text: "Utilize YouTube’s advanced targeting capabilities to reach specific demographics, interests, and consumer behaviors, ensuring your ads are seen by the most likely buyers.",
-                icon: <IoPeopleCircle/>
+            { 
+                heading: "Optimized Video Ad Creatives", 
+                detail: "Craft high-engagement video ads with compelling storytelling, CTA overlays, and YouTube-friendly formats.", 
+                icon: <FaRegPlayCircle/> 
             },
-            {
-                navigator: "Conversion Tracking for YouTube",
-                text: "Track conversions from YouTube ads directly within your e-commerce platform, allowing for precise measurement of ad effectiveness and ROI.",
-                icon: <IoAnalyticsSharp/>
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Video Engagement",
-                benefitText: "Showcase the increase in viewer engagement and interaction rates achieved through optimized YouTube PPC video ads.",
-                increasePercentage: 150
+            { 
+                heading: "AI-Driven Bidding & Budget Optimization", 
+                detail: "Use smart bidding strategies like Target CPA and Maximize Conversions to optimize video ad spend.", 
+                icon: <RiFundsBoxFill/> 
             },
-            {
-                benefit: "Growth in Sales Conversions",
-                benefitText: "Highlight the boost in sales conversions resulting directly from targeted video advertising on YouTube.",
-                increasePercentage: 200
+            { 
+                heading: "YouTube Retargeting & Lookalike Audiences", 
+                detail: "Re-engage past viewers and expand reach with YouTube remarketing lists and lookalike audiences.", 
+                icon: <MdReplayCircleFilled/> 
             },
-            {
-                benefit: "ROI from YouTube PPC Campaigns",
-                benefitText: "Detail the significant return on investment businesses experience from their YouTube PPC efforts.",
-                increasePercentage: 300
+            { 
+                heading: "Performance Tracking & Continuous Optimization", 
+                detail: "Monitor key video ad metrics like watch time, view-through rate (VTR), and conversion performance.", 
+                icon: <MdTrendingUp/> 
             }
         ]
     },
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for YouTube PPC",
-        para: "Our YouTube PPC experts specialize in leveraging video advertising capabilities across all major eCommerce platforms to enhance your store's visibility and drive sales.",
-
+        heading: "We Optimize YouTube PPC Campaigns Across These Platforms",
+        para: "Our YouTube PPC experts manage and optimize ad campaigns across all major YouTube advertising networks to maximize video engagement, brand awareness, and high-converting traffic. Whether you're running Skippable Ads, Non-Skippable Ads, or Retargeting campaigns, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "YouTube Advertising Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
-                ],
-                image: popularPlatform
+                    { itemName: "YouTube Skippable In-Stream Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "YouTube Non-Skippable Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "YouTube Bumper Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "YouTube Discovery Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" }
+                ]
             },
-
+    
             {
-                heading: "Enterprise-Level Solutions",
+                heading: "YouTube Audience Targeting & Retargeting",
                 items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
-                ],
-                image: enterpricePlatform
+                    { itemName: "YouTube Custom Intent Audiences", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "YouTube Remarketing Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Affinity & In-Market Audiences", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Lookalike Audiences (Similar to YouTube Viewers)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" }
+                ]
             },
-
+    
             {
-                heading: "Content Management Systems (CMS)",
+                heading: "Ad Optimization & Analytics Tools",
                 items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
-                ],
-                image: cmsPlatform
+                    { itemName: "Google Ads Manager (YouTube PPC)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "YouTube Studio Analytics", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" },
+                    { itemName: "Google Analytics 4", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Analytics_logo.svg" },
+                    { itemName: "SEMrush PPC Toolkit", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/SEMrush_Logo.svg" }
+                ]
             },
-
+    
             {
-                heading: "Other Platforms",
+                heading: "Cross-Platform YouTube PPC Integration",
                 items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
+                    { itemName: "Google Display Ads for YouTube", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Facebook & Instagram Video Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "TikTok Ads for YouTube Viewers", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "LinkedIn Video Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" }
+                ]
+            }
+        ]
+    },
+    // Aproach section starts 
+    realResultsSection: {
+        heading: "Real Results from Data-Driven<span class='text-[#207DE9]'> YouTube PPC</span>",
+        para: "Our YouTube PPC strategies focus on delivering measurable outcomes. From increasing brand awareness to generating high-quality leads and conversions, we’ve helped businesses achieve substantial revenue growth. Our tailored approach ensures every bid, audience segment, and ad placement works efficiently—turning ad spend into high ROI.",
+    
+        results: [
+            {
+                header: "YouTube Skippable Ads - E-commerce Brand",
+                challenge: "Scaling an online fashion brand’s sales through high-engagement YouTube video ads.",
+                approaches: [
+                    "Custom Intent Audience Targeting: Reaching users actively searching for fashion products.",
+                    "Video Ad Optimization: Engaging visuals with strong storytelling and CTA overlays.",
+                    "AI-Driven Smart Bidding: Optimizing bids to maximize conversions while reducing costs."
                 ],
-                image: otherPlatform
+                increase: 320,
+                increaseIn: "Increase in return on ad spend (ROAS) with a 40% drop in cost per acquisition (CPA)."
+            },
+            {
+                header: "YouTube Bumper Ads - Mobile App Marketing",
+                challenge: "Boosting app installs and engagement for a fitness mobile app using YouTube PPC.",
+                approaches: [
+                    "App Install Campaigns: Running six-second bumper ads with compelling CTAs.",
+                    "YouTube In-Market Audiences: Targeting users interested in health and fitness.",
+                    "A/B Testing Video Variations: Testing different visuals and messaging to increase conversion rates."
+                ],
+                increase: 280,
+                increaseIn: "Higher app installs and 50% decrease in cost per install (CPI) from YouTube PPC."
+            },
+            {
+                header: "YouTube Discovery Ads - B2B SaaS",
+                challenge: "Driving high-quality B2B leads for a SaaS company using YouTube Discovery Ads.",
+                approaches: [
+                    "Engaging Video Content: Creating educational content that drives trust and brand authority.",
+                    "YouTube Retargeting & Lookalike Audiences: Re-engaging website visitors and similar prospects.",
+                    "Lead Form Extensions: Capturing leads directly on YouTube with pre-filled forms."
+                ],
+                increase: 450,
+                increaseIn: "Significant growth in high-quality leads with a 3x increase in conversion rates."
             }
         ]
     },
 
     pathToSuccess: {
         heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to YouTube PPC Success",
-
+        
         paths: [
             {
-                letter: "G",
-                heading: "Generate Video Engagement",
-                matters: "Effective YouTube PPC campaigns capture viewer attention and drive engagement through high-quality video content.",
-                how: ["Create engaging video content tailored to your target audience.", "Optimize video titles and descriptions with SEO best practices to increase visibility."],
-                outcome: "Higher viewer engagement and increased video views."
+                letter: "G", 
+                heading: "Generate High-Intent Video Views",
+                matters: "Effective YouTube PPC campaigns ensure your video ads reach the right audience actively searching for your products or services.",
+                how: [
+                    "Use YouTube’s in-market audience targeting to find users interested in your niche.",
+                    "Leverage TrueView In-Stream Ads to engage users and boost brand awareness.",
+                    "Implement AI-driven Smart Bidding to optimize ad placements."
+                ],
+                outcome: "More high-intent viewers watching and engaging with your video content."
             },
+    
             {
-                letter: "R",
-                heading: "Refine Audience Targeting",
-                matters: "Refining your YouTube PPC campaigns to target specific demographics enhances reach and effectiveness.",
-                how: ["Utilize YouTube's advanced targeting options to pinpoint ideal customer profiles.", "Employ detailed analytics to adjust targeting based on viewer behavior and preferences."],
-                outcome: "More precise audience targeting, resulting in improved ad performance."
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing video creatives, bid strategies, and placements ensures better engagement and lower cost per view (CPV).",
+                how: [
+                    "A/B test different video lengths, hooks, and CTAs to find the highest-performing versions.",
+                    "Adjust bidding strategies based on audience engagement and watch time metrics.",
+                    "Use Video Action Ads to drive clicks and conversions directly from YouTube."
+                ],
+                outcome: "Higher video engagement rates and improved return on ad spend (ROAS)."
             },
+    
             {
                 letter: "O",
-                heading: "Optimize Ad Spend",
-                matters: "Efficiently manage your ad budget to maximize ROI from YouTube PPC.",
-                how: ["Use cost-per-view (CPV) bidding to pay only when users engage with your ads.", "Adjust bids based on performance metrics and viewer interactions."],
-                outcome: "Optimized spending on ads that perform, maximizing returns."
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous tracking and refinement of campaigns help reduce wasted ad spend and maximize performance.",
+                how: [
+                    "Use YouTube Analytics and Google Ads conversion tracking to measure performance.",
+                    "Exclude low-performing placements and optimize targeting for better efficiency.",
+                    "Monitor key YouTube ad metrics like view rate, watch time, and cost per action (CPA)."
+                ],
+                outcome: "More efficient ad spend and increased audience retention."
             },
+    
             {
                 letter: "W",
                 heading: "Win More Conversions",
-                matters: "Convert viewers into customers by leveraging direct calls-to-action within your videos.",
-                how: ["Include strong calls-to-action in video overlays and end screens.", "Link directly to product pages or landing pages to facilitate purchases."],
-                outcome: "Increased conversions from video ads, directly boosting sales."
+                matters: "Video views alone don’t drive business—turning engaged viewers into customers is the real goal.",
+                how: [
+                    "Use TrueView for Action Ads to include compelling CTAs that drive sales and sign-ups.",
+                    "Retarget video viewers with YouTube Display Ads and Google Search Ads.",
+                    "Leverage YouTube Shopping Ads to showcase products directly in video content."
+                ],
+                outcome: "Higher conversion rates and lower cost per acquisition (CPA)."
             },
+    
             {
                 letter: "T",
-                heading: "Track Video Metrics",
-                matters: "Tracking key metrics is crucial for evaluating the success of your YouTube PPC campaigns.",
-                how: ["Monitor key performance indicators such as view count, watch time, and interaction rate.", "Utilize YouTube Analytics to gain insights into viewer behavior and preferences."],
-                outcome: "Data-driven insights that inform strategic decisions and campaign optimizations."
+                heading: "Target the Right Audience",
+                matters: "Precision targeting ensures your ads reach users who are most likely to engage with your brand.",
+                how: [
+                    "Leverage YouTube Custom Intent and Affinity Audiences to reach relevant users.",
+                    "Use Lookalike Audiences to find new customers similar to your best-performing audience.",
+                    "Analyze search term reports and adjust targeting to maximize conversions."
+                ],
+                outcome: "More high-quality leads and increased ad engagement."
             },
+    
             {
                 letter: "H",
-                heading: "Harness Multi-Channel Impact",
-                matters: "Expand the reach of your YouTube PPC efforts by integrating with other digital marketing channels.",
-                how: ["Promote video content across social media, websites, and email campaigns.", "Use YouTube videos to enhance content marketing efforts and SEO."],
-                outcome: "Amplified marketing efforts with YouTube at the core, increasing overall digital footprint."
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROAS, and scale YouTube PPC success.",
+                how: [
+                    "Use Google Ads reporting to track real-time ad performance and adjust bids accordingly.",
+                    "Monitor key PPC metrics like cost per view (CPV), engagement rate, and click-through rate (CTR).",
+                    "Implement AI-powered bidding strategies to maximize ad spend efficiency."
+                ],
+                outcome: "Consistent campaign improvements and scalable video marketing success."
             },
+    
             {
-                letter: <MdOutlineStarPurple500/>,
+                letter: <MdTrendingUp />,
                 focus: "By focusing on:",
-                focusOn: ["Generating Video Engagement", "Refining Audience Targeting", "Optimizing Ad Spend", "Winning More Conversions", "Tracking Video Metrics", "Harnessing Multi-Channel Impact"],
-                how: ["Enhanced brand visibility.", "Greater engagement and interaction with ads.", "Higher conversion rates from targeted audiences."]
-            }
-        ]
-    },
-
-
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>YouTube PPC Strategy</span>",
-        para: "Leverage our expert PPC services to utilize YouTube as a powerful driver of traffic, engagement, and sales.",
-
-        approaches: [
-            { heading: "Strategic Video Content Creation", detail: 'Develop compelling video content that resonates with your audience and encourages interaction.', icon: <IoVideocamSharp/> },
-            { heading: "Enhanced Audience Engagement", detail: 'Use targeted ads to engage specific viewer segments, increasing the likelihood of conversion.', icon: <IoPeopleSharp/> },
-            { heading: "Continuous Optimization of Campaigns", detail: 'Refine your YouTube campaigns continuously with real-time analytics to ensure optimal performance.', icon: <IoSpeedometerSharp/> },
-            { heading: "Integration with E-commerce Platforms", detail: 'Seamlessly integrate YouTube PPC with e-commerce platforms for direct measurement of ROI and conversion tracking.', icon: <IoBusinessSharp/> },
-            { heading: "Multi-Platform Ad Strategy", detail: 'Create a cohesive ad strategy across YouTube and other channels to maximize reach and effectiveness.', icon: <IoPlanetSharp/> }
-        ]
-    },
-
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from YouTube PPC</span>",
-        para: "Experience the impact of our YouTube PPC strategies through case studies and success stories from our diverse range of ecommerce clients.",
-
-        results: [
-            {
-                header: "Ecommerce - Fashion and Apparel",
-                challenge: "Enhance brand visibility and engagement through targeted video ads.",
-                approaches: [
-                    "Leveraging influencer collaborations to extend reach.",
-                    "Creating product showcase videos that highlight key features and benefits.",
-                    "Targeting fashion-forward audiences with precise demographic and interest-based targeting."
+                focusOn: ["Generating High-Intent Video Views", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
+                how: [
+                    "Increased brand awareness and engagement through high-impact video ads.",
+                    "Higher conversion rates with strategic audience targeting and bidding.",
+                    "Improved ad spend efficiency and maximized return on ad spend (ROAS)."
                 ],
-                increase: "450",
-                increaseIn: "Percentage increase in channel subscriptions"
-            },
-            {
-                header: "Ecommerce - Electronics",
-                challenge: "Drive conversions and sales for new tech product launches.",
-                approaches: [
-                    "Unboxing videos to build anticipation and detail product features.",
-                    "Strategic placements in tech review videos.",
-                    "Remarketing to viewers who have engaged with previous ads but have not yet purchased."
-                ],
-                increase: "350",
-                increaseIn: "Growth in conversion rate"
+                outcome: "Long-term YouTube PPC success with sustained growth and audience expansion."
             }
         ]
     },
 
     pricingSection: {
         heading: "Transparent Pricing for YouTube PPC",
-        para: "Explore our clear and flexible YouTube PPC pricing plans designed to scale with your online presence. From maximizing video exposure to optimizing viewer engagement, our plans are crafted to deliver tangible results and help you dominate your market.",
-
+        para: "Discover our flexible and data-driven YouTube PPC pricing plans designed to maximize your ad spend efficiency. From increasing brand awareness to driving high-intent conversions, our plans ensure measurable results and high ROI.",
+        
         pricingCards: [
             {
-                name: "Starter Plan",
-                header: "Starter Plan",
-                price: "$500/month",
-                fitFor: "New creators or small businesses starting with video ads, looking to gain initial traction.",
+                header: "Starter YouTube PPC Package",
+                price: "$800/month",
+                fitFor: "Small businesses or startups looking to test YouTube ads with a limited budget.",
                 youGet: [
-                    "Up to 5 video campaigns",
-                    "YouTube channel setup and management",
-                    "Monthly budget management up to $2,000",
-                    "Basic viewer demographic targeting",
-                    "Monthly performance reports",
-                    "Basic video engagement tracking",
-                    "Campaign Setup Fee (One-time): $500",
-                    "Monthly Investment: $500"
+                    "Basic Audience Targeting: Focus on in-market, affinity, and demographic targeting.",
+                    "TrueView In-Stream & Discovery Ads: Creating and launching high-engagement video campaigns.",
+                    "Manual Bid Management: Adjusting bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, views, and watch time.",
+                    "Monthly Report: Summary of ad spend, CPV, CTR, and audience retention."
                 ]
             },
+    
             {
-                name: "Professional Plan",
-                header: "Professional Plan",
-                price: "$1,500/month",
-                fitFor: "Medium-sized businesses aiming to expand their reach and enhance engagement through sophisticated targeting.",
+                header: "Growth YouTube PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing brands aiming to scale video marketing with optimized YouTube PPC campaigns.",
                 youGet: [
-                    "Up to 15 video campaigns",
-                    "Advanced engagement analysis",
-                    "Monthly budget management up to $10,000",
-                    "Detailed targeting with viewer interests and watch history",
-                    "Bi-weekly optimization tweaks",
-                    "Enhanced conversion tracking and analytics",
-                    "Campaign Setup Fee (One-time): $1,000",
-                    "Monthly Investment: $1,500"
+                    "Advanced Audience Segmentation: Targeting high-intent viewers based on search and browsing behavior.",
+                    "Video Action & Shopping Ads: Driving direct conversions from video content.",
+                    "AI-Powered Bidding & Budget Optimization: Maximizing conversions while reducing CPV and CPA.",
+                    "Retargeting & Lookalike Audiences: Engaging past viewers & expanding audience reach.",
+                    "Performance Tracking & A/B Testing: Optimizing video creatives and CTAs for higher engagement."
                 ]
             },
+    
             {
-                name: "Enterprise Plan",
-                header: "Enterprise Plan",
-                price: "$4,000/month",
-                fitFor: "Large organizations seeking to leverage extensive video advertising campaigns for maximum impact.",
+                header: "Premium YouTube PPC Package",
+                price: "$5,000/month",
+                fitFor: "Established brands looking for aggressive video ad scaling and high ROI.",
                 youGet: [
-                    "Unlimited video campaigns",
-                    "Full-scale YouTube channel management",
-                    "Monthly budget management over $20,000",
-                    "Complex targeting strategies including remarketing and cross-channel integration",
-                    "Weekly in-depth performance analysis",
-                    "State-of-the-art conversion optimization technologies",
-                    "Campaign Setup Fee (One-time): $3,000",
-                    "Monthly Investment: $4,000"
+                    "Full-Funnel YouTube PPC Strategy: Covering Awareness, Consideration & Conversion campaigns.",
+                    "AI-Driven Bid Optimization: Maximizing video views while lowering CPA.",
+                    "YouTube Retargeting Campaigns: Engaging high-intent users with personalized video content.",
+                    "Landing Page & Conversion Rate Optimization: Enhancing user experience for ad-driven traffic.",
+                    "Custom Performance Dashboard: Real-time tracking of key YouTube PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise YouTube PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale businesses & brands aiming for YouTube advertising dominance.",
+                youGet: [
+                    "End-to-End YouTube PPC Management: Covering all YouTube ad types & placements.",
+                    "High-Budget AI Bid Automation: Optimizing ad delivery with YouTube’s machine learning algorithms.",
+                    "Omni-Channel Strategy: Aligning YouTube PPC with Google Display, Facebook & Instagram Ads.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansion.",
+                    "Dedicated PPC Account Manager: Full-time support for YouTube ad growth & optimization."
                 ]
             }
         ]
     },
 
-    customPricing: {
-        heading: 'Custom YouTube PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom YouTube PPC Plans",
-            price: "Starting at $2,000/month"
-        },
-        leftPart: [
-            "Custom number of video campaigns",
-            "Custom audience targeting based on viewing habits",
-            "Custom budget management options",
-            "Full Optimization of Video Content and Calls-to-Action"
-        ],
-        centerPart: {
-            text: "Drive significant viewer engagement, boost conversions, and maximize ROI with advanced video-specific PPC strategies.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom analytics and reporting framework",
-            "Custom engagement tracking and optimization",
-            "Custom strategy for video creatives",
-            "Dedicated account management and support"
-        ]
-    },
-
     reviewsSection: {
-        heading: "Join Our Community of Thriving Brands Powered by YouTube PPC",
-        para: "Every campaign we undertake is driven by a commitment to excellence and a passion for impactful results. Our clients' testimonials reflect the significant influence our YouTube PPC strategies have had on their video marketing success. Discover how our customized solutions have transformed their digital presence!"
-    }
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
 
+    },
 }
 
 export const DynamicSearchData = {
@@ -2489,431 +2973,495 @@ export const DynamicSearchData = {
         bg: BG
     },
 
-    whySection: {
-        heading: "Why <span class='text-[#207DE9]'>Dynamic Search PPC</span> is Essential for E-Commerce Success?",
-        para: "Harness the potential of Dynamic Search PPC to catapult your e-commerce sales. This automated approach allows us to target ads based on your website content, ensuring maximum ad relevance and efficiency. Simplify your campaign management with our robust algorithms that adapt to changes in your inventory and market dynamics.",
-
-        whyKeys: [
-            { heading: "Automated Ad Generation", explanation: "Dynamic Search Ads automatically generate ads from your website content, ensuring your ads are always relevant to what you offer.", icon: <FaRobot/> },
-            { heading: "Precise Targeting", explanation: "Target ads based on website content changes automatically, allowing you to capture demand precisely as it occurs.", icon: <FaBullseye/> },
-            { heading: "Seamless Campaign Management", explanation: "Reduce the need for constant keyword updates. Our dynamic search ads adjust based on content, reducing overhead and increasing efficiency.", icon: <FaSyncAlt/> },
-            { heading: "Real-Time Optimization", explanation: "Leverage real-time data for immediate ad adjustments, optimizing your PPC campaigns continuously for the best results.", icon: <FaTools/> }
-        ]
+    customPricing: {
+        heading: "Dynamic Ads PPC Services Custom Pricing Tailored to Your Growth Goals",
+    
+        mainHeading: "Custom <br/> Dynamic Ads PPC <br/> Package",
+    
+        overview: "Designed to automate and personalize ad delivery, our Dynamic Ads PPC package ensures optimized product feeds, AI-driven targeting, and continuous campaign refinement to maximize conversions and return on ad spend (ROAS).",
+    
+        benifits: [
+            { heading: "Automated & Personalized Ads:", description: "Deliver relevant ads dynamically to users based on their browsing behavior and interests." },
+            { heading: "Higher Engagement & Conversions:", description: "Showcase personalized products, services, and offers tailored to individual users." },
+            { heading: "Optimized Ad Spend:", description: "Maximize ROI with AI-powered bidding, A/B testing, and audience segmentation." }
+        ],
+    
+        keyFeatures: [
+            { heading: "AI-Powered Audience Targeting", description: "Leverage real-time behavioral and intent-based targeting to reach high-converting users." },
+            { heading: "Dynamic Product Feed Optimization", description: "Ensure accurate, up-to-date product listings with optimized titles, descriptions, and pricing." },
+            { heading: "Dynamic Retargeting Ads", description: "Re-engage users who viewed products, added to cart, or abandoned checkout with personalized ads." },
+            { heading: "Cross-Platform Dynamic Ads", description: "Run personalized ads across Google Display Network, Facebook, Instagram, and more." },
+            { heading: "Automated Ad Creatives", description: "Dynamically generate ad variations with real-time updates based on user engagement." },
+            { heading: "Smart Bidding & Budget Optimization", description: "Use AI-driven strategies like Target ROAS, Maximize Conversions, and Automated CPC." },
+            { heading: "A/B Testing & Performance Optimization", description: "Continuously test ad creatives, placements, and bidding strategies for maximum impact." },
+            { heading: "Landing Page & Conversion Rate Optimization", description: "Ensure seamless shopping experiences with high-converting landing pages." },
+            { heading: "Omnichannel Integration", description: "Sync Dynamic Ads PPC with Search, Shopping, and Social Media campaigns for a unified marketing strategy." },
+            { heading: "Custom Analytics Dashboard", description: "Track real-time ad performance, audience engagement, and sales insights." }
+        ],
+    
+        startingAt: "$3000/Month"
     },
-
 
     boostSection: {
-        heading: "Maximize Your Market Reach with <span class='text-[#207DE9]'>Specialized Dynamic Search PPC</span> Services",
-        para: "Utilize the full capabilities of Dynamic Search PPC to refine your e-commerce strategy. These ads automatically adapt to include new products and target new markets without additional input, ensuring your campaigns are always up to date with minimal effort.",
-
+        heading: "Boost Your Sales with <span class='text-[#207DE9]'> Specialized <br/> Dynamic Ads PPC </span> Strategies.",
+        para: "Maximize ROI with expert Dynamic Ads PPC campaigns. We focus on AI-powered audience targeting, automated ad delivery, and continuous optimization to increase conversions, retarget engaged users, and scale business growth.",
+    
         boostContent: [
             {
-                navigator: "Content-Based Targeting",
-                matters: "Utilize advanced algorithms to target ads based on the content of your site, dynamically aligning your ad strategies with current site content.",
+                name: "AI-Powered Dynamic Audience Targeting",
+                whyMatters: "Dynamic Ads automatically deliver personalized ads to users based on their online behavior and purchase intent.",
                 includes: [
-                    "Automatically updating ads to include new products.",
-                    "Adjusting ad content to match seasonal changes and promotions on your site.",
-                    "Targeting specific product categories or pages with tailored ads."
+                    "Real-time behavioral targeting for high-converting audiences.",
+                    "Dynamic ad creatives that adapt based on user engagement.",
+                    "Automated ad placements across Google, Facebook, and Display Networks."
                 ],
-                benefit: "Ensures your ads are consistently relevant, increasing click-through rates and conversions by presenting users with ads closely related to their search intent.",
-                image: "https://example.com/dynamic-search-optimization-image.png"
+                benifit: "Ensures ads reach high-intent users, increasing conversion rates and lowering CPA."
             },
+    
             {
-                navigator: "Market Expansion",
-                matters: "Dynamic Search Ads adjust to market changes and new content, helping you enter new markets effortlessly.",
+                name: "Dynamic Product Feed Optimization",
+                whyMatters: "An optimized product feed ensures accurate, up-to-date product listings with engaging descriptions and visuals.",
                 includes: [
-                    "Expanding ad coverage automatically as new products are added.",
-                    "Adjusting bids and ad content based on market trends and website updates.",
-                    "Exploring new niche markets without manual intervention."
+                    "Automated product data synchronization with Google Merchant Center and Facebook Catalog.",
+                    "SEO-optimized titles, descriptions, and pricing updates for better visibility.",
+                    "A/B testing different product variations to enhance ad performance."
                 ],
-                benefit: "Automatically adapts your advertising campaigns to cover new and emerging markets, maximizing exposure and capturing new audiences effectively.",
-                image: "https://example.com/dynamic-market-expansion-image.png"
+                benifit: "Improves ad relevance and increases click-through rates (CTR) and conversions."
             },
+    
             {
-                navigator: "Performance Tracking",
-                matters: "With Dynamic Search Ads, track the performance of various segments of your website and understand which parts are generating the most traffic and conversions.",
+                name: "Smart Retargeting & Cross-Channel Ads",
+                whyMatters: "Re-engaging past visitors with personalized ads significantly increases conversion rates.",
                 includes: [
-                    "Monitoring performance by specific pages or categories.",
-                    "Using website analytics to direct ad spend to high-performing areas.",
-                    "Adapting strategies based on detailed performance insights."
+                    "Dynamic retargeting for users who viewed products, added to cart, or abandoned checkout.",
+                    "Lookalike audience creation to expand reach based on high-value customers.",
+                    "Cross-platform ad synchronization on Google Display Network, Facebook, Instagram, and YouTube."
                 ],
-                benefit: "Provides detailed insights into which parts of your website are most effective at converting, allowing for optimized ad spend and targeted improvements.",
-                image: "https://example.com/dynamic-performance-tracking-image.png"
+                benifit: "Boosts brand recall and increases conversions with personalized, high-intent ads."
             },
+    
             {
-                navigator: "Automated Bidding Strategies",
-                matters: "Dynamic Search Ads utilize automated bidding strategies that adjust in real-time based on the likelihood of conversion.",
+                name: "AI-Powered Smart Bidding & Budget Optimization",
+                whyMatters: "Using automated bidding ensures cost-effective ad placements and better return on ad spend (ROAS).",
                 includes: [
-                    "Employing machine learning to predict and adjust bids.",
-                    "Optimizing bids for different times of the day or week based on performance.",
-                    "Using conversion data to automatically refine bid amounts."
+                    "Utilizing advanced strategies like Target ROAS, Maximize Conversions, and Automated CPC.",
+                    "AI-driven budget allocation based on campaign performance.",
+                    "Continuous bid adjustments to optimize cost per acquisition (CPA)."
                 ],
-                benefit: "Optimizes your ad spend by automatically adjusting bids for maximum return on investment, ensuring your budget is used efficiently.",
-                image: "https://example.com/dynamic-bidding-strategy-image.png"
+                benifit: "Maximizes ad spend efficiency while improving conversion rates."
+            },
+    
+            {
+                name: "Automated Ad Creative Optimization",
+                whyMatters: "Dynamically generated ad creatives adapt in real time to match user preferences.",
+                includes: [
+                    "AI-powered ad templates that personalize based on user interaction.",
+                    "Automated video and carousel ads for higher engagement.",
+                    "Dynamic headline and description testing for optimal ad performance."
+                ],
+                benifit: "Enhances user experience and increases ad engagement rates."
+            },
+    
+            {
+                name: "Landing Page & Conversion Rate Optimization",
+                whyMatters: "A well-optimized landing page improves user experience and drives more sales.",
+                includes: [
+                    "A/B testing landing page designs and CTAs to maximize conversions.",
+                    "Optimized mobile-friendly design for seamless shopping experiences.",
+                    "Personalized landing pages that match ad content for higher engagement."
+                ],
+                benifit: "Reduces bounce rates and improves lead generation from Dynamic Ads."
+            },
+    
+            {
+                name: "Campaign Performance Tracking & Real-Time Insights",
+                whyMatters: "Continuous tracking and data-driven optimization ensure high-performing Dynamic Ads PPC campaigns.",
+                includes: [
+                    "Real-time ad performance tracking with in-depth analytics.",
+                    "Automated A/B testing for different ad creatives and targeting strategies.",
+                    "Monitoring key PPC metrics like ROAS, CPC, and conversion rates."
+                ],
+                benifit: "Ensures ad budget is used efficiently while maximizing revenue growth."
+            }
+        ]
+    },
+    //Booster Section ends here   
+    //PowerBy starts here 
+    powerBySection: {
+        heading: "Dynamic Ads PPC <span class='text-[#207DE9]'> Performance Powered by </span> Data-Driven Insights",
+        para: "Leverage AI-powered automation and real-time analytics to maximize conversions, drive high-intent traffic, and achieve a higher return on ad spend (ROAS) with Dynamic Ads PPC.",
+    
+        statistics: [
+    
+            { 
+                benefit: "Increase in Conversion Rates", 
+                benefitText: "Optimized Dynamic Ads PPC campaigns drive personalized, high-intent traffic, ensuring maximum conversions.", 
+                increasePercentage: 310, 
+                explanation: "Dynamic audience targeting and AI-driven product recommendations ensure the right products reach the right users at the right time, increasing conversions while reducing wasted ad spend."
+            },
+    
+            { 
+                benefit: "Boost in ROAS (Return on Ad Spend)", 
+                benefitText: "Dynamic Ads PPC campaigns optimized for automated bidding and real-time targeting lead to a higher ROAS.", 
+                increasePercentage: 220, 
+                explanation: "AI-driven smart bidding, audience segmentation, and personalized ad creatives improve ROAS by reducing cost per acquisition (CPA) and maximizing ad efficiency."
+            },
+    
+            { 
+                benefit: "Higher Engagement & Click-Through Rates (CTR)", 
+                benefitText: "Dynamic Ads ensure personalized product recommendations, increasing engagement and CTR.", 
+                increasePercentage: 400, 
+                explanation: "By leveraging behavioral data and AI-driven dynamic ad creatives, users engage more with tailored ads, driving more traffic and boosting overall ad performance."
             }
         ]
     },
 
+    //PowerBy ends here 
     tailoredSection: {
-        heading: "Tailored <span class='text-[#207DE9]'>Specialized Dynamic Search PPC</span> for Every E-Commerce Platform",
-        para: "Every e-commerce platform, from Shopify to WooCommerce, presents unique opportunities for integration with Dynamic Search PPC. Our team crafts custom Dynamic Search PPC strategies for these platforms to ensure your ads automatically adapt to your content, reach the right audience, maximize ROI, and effectively convert visitors.",
-
+        heading: "Tailored <span class='text-[#207DE9]'> Specialized Dynamic Ads PPC </span><br/> Strategies for Personalized Ad Delivery",
+        para: "Every business has unique advertising needs. Our <strong> customized Dynamic Ads PPC strategies </strong> focus on AI-driven automation, audience personalization, and real-time optimization to ensure your ads reach the right users, drive engagement, and maximize ROAS.",
+    
         tailoredItems: [
             {
-                heading: "Shopify Dynamic Search PPC Services",
-                para: "Leverage Dynamic Search PPC to automatically target new and changing content within your Shopify store, enhancing visibility and sales.",
+                heading: "Dynamic Product Ads – Show the Right Product at the Right Time",
+                para: "Dynamic Product Ads automatically display personalized product recommendations to users based on their browsing behavior and shopping history.",
                 offers: [
-                    "Seamless integration of Dynamic Search Ads within Shopify, automatically targeting new listings.",
-                    "Dynamic ad adjustments based on changes to your Shopify product catalog.",
-                    "Enhanced tracking of conversions specific to Shopify through Dynamic Search Ads."
+                    "<strong>AI-Powered Product Recommendations:</strong> Show relevant products based on user behavior.",
+                    "<strong>Cross-Device Ad Targeting:</strong> Engage users across multiple devices for seamless experiences.",
+                    "<strong>Retargeting for Abandoned Carts:</strong> Bring back users who left products in their cart.",
+                    "<strong>Real-Time Ad Updates:</strong> Display the latest products, prices, and availability."
                 ],
-                chooseUs: "Our integration expertise ensures that your Shopify store benefits from continuous ad optimization without manual intervention, maximizing PPC returns.",
-                image: "https://example.com/shopify-dynamic-search-image.png"
+                image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
             },
+    
             {
-                heading: "WooCommerce Dynamic Search PPC Services",
-                para: "Maximize the potential of your WooCommerce store with tailor-made Dynamic Search PPC campaigns that adapt in real-time to your evolving product offerings.",
+                heading: "Dynamic Remarketing Ads – Re-Engage High-Intent Shoppers",
+                para: "Dynamic Remarketing Ads remind potential customers about the products they viewed but didn’t purchase, bringing them back to complete the sale.",
                 offers: [
-                    "Custom Dynamic Search PPC strategies that sync directly with your WooCommerce product database.",
-                    "Automated ad creation for new and updated products without manual setup.",
-                    "Targeted ad content generated based on the most current product details."
+                    "<strong>Behavior-Based Retargeting:</strong> Display products users previously engaged with.",
+                    "<strong>Lookalike Audience Expansion:</strong> Find new customers similar to high-converting users.",
+                    "<strong>Personalized Ad Creatives:</strong> Show tailored messages based on customer journey stage.",
+                    "<strong>Automated Bid Adjustments:</strong> Optimize bids for users most likely to convert."
                 ],
-                chooseUs: "By dynamically aligning ads with your store's current offerings, we drive both traffic and sales directly influenced by real-time product changes.",
-                image: "https://example.com/woocommerce-dynamic-search-image.png"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
             },
+    
             {
-                heading: "BigCommerce Dynamic Search PPC Services",
-                para: "Utilize Dynamic Search PPC to effectively reach and convert BigCommerce shoppers by adapting to the latest product information and trends.",
+                heading: "Dynamic Lead Generation Ads – Capture High-Intent Leads",
+                para: "Dynamic Ads streamline the lead generation process by capturing high-quality leads with pre-filled forms and AI-optimized targeting.",
                 offers: [
-                    "Dynamic ad generation that automatically captures updates across your BigCommerce catalog.",
-                    "Strategies tailored to the unique behavior of BigCommerce users, ensuring high relevance and conversion.",
-                    "Continuous optimization of ad content as your product offerings evolve."
+                    "<strong>Pre-Filled Lead Forms:</strong> Reduce friction and increase lead conversion rates.",
+                    "<strong>CRM & Marketing Automation Integration:</strong> Sync leads instantly with HubSpot, Salesforce, or other CRMs.",
+                    "<strong>Retargeting for Lead Nurturing:</strong> Re-engage potential customers with customized ads.",
+                    "<strong>AI-Driven Smart Bidding:</strong> Optimize cost per lead (CPL) for higher efficiency."
                 ],
-                chooseUs: "Our strategic implementations ensure that your BigCommerce store's advertising efforts are as dynamic as your inventory, maximizing engagement and ROI.",
-                image: "https://example.com/bigcommerce-dynamic-search-image.png"
+                image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
             },
+    
             {
-                heading: "Magento Dynamic Search PPC Services",
-                para: "Enhance your Magento store's sales potential with Dynamic Search PPC that instantly updates ad content to reflect inventory and pricing changes.",
+                heading: "Dynamic Travel Ads – Drive Bookings with Personalized Offers",
+                para: "Dynamic Travel Ads automatically promote relevant destinations, hotels, and travel deals to users based on their recent searches and preferences.",
                 offers: [
-                    "Direct integration of Dynamic Search Ads to mirror Magento’s extensive product features.",
-                    "Custom ad solutions that adjust to real-time changes in your Magento store.",
-                    "Advanced targeting techniques to capture Magento-specific customer segments."
+                    "<strong>Real-Time Offer Updates:</strong> Show live prices, availability, and exclusive deals.",
+                    "<strong>Personalized Itinerary Targeting:</strong> Retarget users with flights, hotels, or destinations they searched for.",
+                    "<strong>Geo-Targeted Campaigns:</strong> Optimize ads for users based on travel intent and location.",
+                    "<strong>AI-Optimized Budget Allocation:</strong> Maximize ROI by focusing on high-converting travelers."
                 ],
-                chooseUs: "We harness the full capabilities of Magento to provide a seamless advertising experience that grows with your business and adapts to market demands.",
-                image: "https://example.com/magento-dynamic-search-image.png"
+                image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+            },
+    
+            {
+                heading: "Dynamic Automotive Ads – Showcase Vehicle Listings to Interested Buyers",
+                para: "Dynamic Automotive Ads automatically display available vehicles, prices, and promotions to users searching for cars online.",
+                offers: [
+                    "<strong>Real-Time Inventory Sync:</strong> Ensure users see only available vehicles.",
+                    "<strong>Vehicle Interest Retargeting:</strong> Re-engage users who viewed specific models or features.",
+                    "<strong>Location-Based Dealer Targeting:</strong> Show nearby dealerships based on user location.",
+                    "<strong>Smart Bidding for High-Intent Buyers:</strong> Optimize campaigns for users likely to purchase."
+                ],
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM2Iw25hyCOxDPJsCGy6kpV1hsG2ZshlLdA&s"
             }
         ]
     },
 
-    powerBySection: {
-        heading: "E-commerce <span class='text-[#207DE9]'>Optimization Powered by Dynamic Search PPC</span>",
-        para: "Embrace the full potential of Dynamic Search PPC to revolutionize your e-commerce strategy with ads that automatically adjust to the content of your site, ensuring optimal relevance and performance.",
-
-        features: [
-            {
-                navigator: "Automated Content Sync",
-                text: "Automatically sync your PPC ads with website changes, ensuring that your advertising is always relevant and up-to-date without manual intervention.",
-                icon: <FaSync />
+    approachSection: {
+        heading: "Our Proven <span class='text-[#207DE9]'>Dynamic Ads PPC Strategy</span>",
+        para: "Maximize conversions, engagement, and sales with our data-driven Dynamic Ads PPC strategies tailored for personalized ad delivery and high ROI.",
+    
+        approaches: [
+            { 
+                heading: "AI-Powered Audience Targeting", 
+                detail: "Leverage machine learning to dynamically target high-intent users based on browsing behavior, interests, and purchase history.", 
+                icon: <RiRobot2Fill/> 
             },
-            {
-                navigator: "Dynamic Market Penetration",
-                text: "Utilize Dynamic Search Ads to penetrate new market segments effortlessly as your product offerings evolve and expand.",
-                icon: <FaExpandArrowsAlt />
+            { 
+                heading: "Personalized Dynamic Ad Creatives", 
+                detail: "Show tailored ad content for each user with dynamic product recommendations and customized messaging.", 
+                icon: <FaAd/> 
             },
-            {
-                navigator: "Conversion-Focused Ad Optimization",
-                text: "Focus on maximizing conversions through ads that are continually refined based on how visitors interact with your site’s content.",
-                icon: <FaFunnelDollar />
-            }
-        ],
-        statistics: [
-            {
-                benefit: "Increase in Ad Relevance",
-                benefitText: "Demonstrate a significant improvement in ad relevance through Dynamic Search Ads, leading to better quality traffic and higher engagement rates.",
-                increasePercentage: 140
+            { 
+                heading: "Automated Bidding & Budget Optimization", 
+                detail: "Use smart bidding strategies like Target ROAS and Maximize Conversions to optimize ad spend.", 
+                icon: <RiMoneyDollarCircleFill/> 
             },
-            {
-                benefit: "Efficiency in Ad Spend",
-                benefitText: "Highlight the efficiency gained in ad spend due to the targeted nature of Dynamic Search Ads, which reduces waste and increases ROI.",
-                increasePercentage: 175
+            { 
+                heading: "Dynamic Retargeting & Lookalike Audiences", 
+                detail: "Re-engage past website visitors and expand reach with AI-driven audience matching and remarketing.", 
+                icon: <MdAutorenew/> 
             },
-            {
-                benefit: "Growth in Sales Conversions",
-                benefitText: "Showcase the growth in sales conversions attributed to the highly targeted and responsive nature of Dynamic Search PPC campaigns.",
-                increasePercentage: 200
+            { 
+                heading: "Performance Tracking & Continuous Optimization", 
+                detail: "Monitor real-time ad performance, A/B test creatives, and refine campaign strategies for maximum ROI.", 
+                icon: <MdTrendingUp/> 
             }
         ]
     },
 
     platformSection: {
-        heading: "We Optimize eCommerce Stores on These Platforms for Dynamic Search PPC",
-        para: "Our Dynamic Search PPC strategies are perfect for leveraging the advertising capabilities of major eCommerce platforms, ensuring that ads are always aligned with the most current site content for optimal performance.",
-
+        heading: "We Optimize Dynamic Ads PPC Campaigns Across These Platforms",
+        para: "Our Dynamic Ads PPC experts manage and optimize ad campaigns across all major advertising networks to maximize personalized ad delivery, engagement, and high-converting traffic. Whether you're running Retargeting Ads, Product Feed Ads, or Automated Display Campaigns, we tailor strategies for each format.",
+    
         platforms: [
             {
-                heading: "Popular Platforms",
+                heading: "Dynamic Ads Advertising Network",
                 items: [
-                    {itemName: "Shopify"},
-                    {itemName: "WooCommerce"},
-                    {itemName: "BigCommerce"},
-                    {itemName: "Magento"}
+                    { itemName: "Facebook Dynamic Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Google Dynamic Display Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Microsoft Dynamic Search Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Bing_logo.svg" },
+                    { itemName: "Amazon Dynamic Product Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Dynamic Audience Targeting & Retargeting",
+                items: [
+                    { itemName: "AI-Driven Personalized Targeting", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Dynamic Retargeting Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Lookalike & Similar Audiences", itemImg: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" },
+                    { itemName: "Intent-Based Shopping Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Ad Optimization & Analytics Tools",
+                items: [
+                    { itemName: "Google Ads Manager (Dynamic PPC)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/5/52/Google_Ads_logo.svg" },
+                    { itemName: "Meta Business Suite (Dynamic Ads)", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "Google Analytics 4", itemImg: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Analytics_logo.svg" },
+                    { itemName: "SEMrush PPC Toolkit", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/SEMrush_Logo.svg" }
+                ]
+            },
+    
+            {
+                heading: "Cross-Platform Dynamic PPC Integration",
+                items: [
+                    { itemName: "Google Shopping Dynamic Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/4/44/Google_Shopping_logo.svg" },
+                    { itemName: "Facebook & Instagram Dynamic Product Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" },
+                    { itemName: "TikTok Dynamic Ads", itemImg: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" },
+                    { itemName: "Amazon Sponsored Display Ads", itemImg: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" }
+                ]
+            }
+        ]
+    },
+    // Aproach section starts 
+    realResultsSection: {
+        heading: "Real Results from Data-Driven<span class='text-[#207DE9]'> Dynamic Ads PPC</span>",
+        para: "Our Dynamic Ads PPC strategies focus on delivering measurable outcomes. From increasing personalized ad engagement to driving high-quality leads and sales, we’ve helped businesses achieve substantial revenue growth. Our tailored approach ensures every bid, audience segment, and ad placement works efficiently—turning ad spend into high ROI.",
+    
+        results: [
+            {
+                header: "Dynamic Retargeting Ads - E-commerce Store",
+                challenge: "Scaling an online fashion brand’s sales using AI-driven retargeting ads.",
+                approaches: [
+                    "Personalized Product Ads: Displaying items based on user browsing history.",
+                    "Dynamic Creative Optimization: Testing multiple product visuals and CTAs.",
+                    "AI-Driven Smart Bidding: Adjusting bids based on engagement and purchase intent."
                 ],
-                image: popularPlatform
+                increase: 320,
+                increaseIn: "Increase in return on ad spend (ROAS) with a 40% drop in cost per acquisition (CPA)."
             },
             {
-                heading: "Enterprise-Level Solutions",
-                items: [
-                    {itemName: "NetSuite"},
-                    {itemName: "nopCommerce"},
-                    {itemName: "Celerant"},
-                    {itemName: "Unilog"}
+                header: "Dynamic Product Ads - Mobile App Promotion",
+                challenge: "Boosting app installs and engagement for a fintech mobile app using Dynamic Ads PPC.",
+                approaches: [
+                    "Automated Ad Delivery: Targeting high-intent users with AI-powered placements.",
+                    "Dynamic Audience Matching: Showing personalized ads to users based on app behavior.",
+                    "A/B Testing Multiple Ad Variants: Refining visuals and messaging to increase conversions."
                 ],
-                image: enterpricePlatform
+                increase: 280,
+                increaseIn: "Higher app installs and 50% decrease in cost per install (CPI) from Dynamic Ads PPC."
             },
             {
-                heading: "Content Management Systems (CMS)",
-                items: [
-                    {itemName: "WordPress"},
-                    {itemName: "Drupal"},
-                    {itemName: "Umbraco"}
+                header: "Dynamic Display Ads - B2B SaaS",
+                challenge: "Driving high-quality B2B leads for a SaaS company using automated Dynamic Ads.",
+                approaches: [
+                    "Engaging Ad Creatives: Tailoring messaging based on business behavior and interests.",
+                    "Lookalike & Retargeting Audiences: Re-engaging website visitors and similar prospects.",
+                    "Lead Form Extensions: Capturing leads directly with AI-driven pre-filled forms."
                 ],
-                image: cmsPlatform
-            },
-            {
-                heading: "Other Platforms",
-                items: [
-                    {itemName: "Volusion", logo: 'https://example.com/volusion-logo.png'},
-                    {itemName: "Drupal", logo: 'https://example.com/drupal-logo.png'},
-                    {itemName: "Umbraco", logo: 'https://example.com/umbraco-logo.png'}
-                ],
-                image: otherPlatform
+                increase: 450,
+                increaseIn: "Significant growth in high-quality leads with a 3x increase in conversion rates."
             }
         ]
     },
 
     pathToSuccess: {
-        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Dynamic Search PPC Success",
+        heading: "<span class='text-[#207DE9]'>G</span>.<span class='text-[#207DE9]'>R</span>.<span class='text-[#207DE9]'>O</span>.<span class='text-[#207DE9]'>W</span>.<span class='text-[#207DE9]'>T</span>.<span class='text-[#207DE9]'>H</span> Your Path to Dynamic Ads PPC Success",
+        
         paths: [
             {
-                letter: "G",
-                heading: "Generate Visibility",
-                matters: "Dynamic Search PPC campaigns automatically target new content, enhancing visibility on search engines without the need for specific keywords.",
+                letter: "G", 
+                heading: "Generate Personalized Ad Engagement",
+                matters: "Dynamic Ads PPC ensures highly relevant and personalized ad experiences, increasing user engagement and conversions.",
                 how: [
-                    "Utilize Google's Dynamic Search Ads to cover extensively your website content.",
-                    "Automatically target relevant queries based on the content of your website."
+                    "Use AI-driven audience segmentation to show relevant products to each user.",
+                    "Leverage Dynamic Retargeting to bring back high-intent shoppers.",
+                    "Implement real-time product recommendations based on user behavior."
                 ],
-                outcome: "Increased visibility leading to higher impressions and clicks."
+                outcome: "More engaged users interacting with your dynamically personalized ads."
             },
+    
             {
-                letter: "R",
-                heading: "Refine Campaigns",
-                matters: "Continuously refine your Dynamic Search PPC campaigns to improve relevance and efficiency.",
+                letter: "R", 
+                heading: "Refine Ad Performance",
+                matters: "Optimizing ad creatives, bid strategies, and audience segmentation ensures better engagement and lower cost per acquisition (CPA).",
                 how: [
-                    "Use Google’s page feeds to specify precisely which URLs to use in your ads.",
-                    "Employ strategic exclusions to prevent ads from showing on irrelevant searches."
+                    "A/B test different ad creatives, headlines, and CTA placements to find the best-performing versions.",
+                    "Adjust dynamic bidding strategies based on audience engagement and conversion probability.",
+                    "Use AI-powered budget allocation to improve ROAS while maintaining ad efficiency."
                 ],
-                outcome: "Targeted campaigns that enhance relevance and minimize wasted spend."
+                outcome: "Higher engagement rates and improved return on ad spend (ROAS)."
             },
+    
             {
                 letter: "O",
-                heading: "Optimize Spend",
-                matters: "Effectively manage and optimize your ad spend in Dynamic Search PPC to maximize ROI.",
+                heading: "Optimize PPC Campaigns",
+                matters: "Continuous campaign monitoring and refinement help reduce wasted ad spend and maximize profitability.",
                 how: [
-                    "Automatically adjust bids based on conversion data and campaign performance.",
-                    "Utilize budget allocation techniques to focus spend on performing ads."
+                    "Use real-time performance tracking to measure ad effectiveness.",
+                    "Exclude underperforming placements and refine audience targeting for higher efficiency.",
+                    "Monitor key ad metrics like CTR, conversion rate, and cost per action (CPA)."
                 ],
-                outcome: "Optimized ad spend with improved ROI."
+                outcome: "More efficient ad spend and increased conversion rates."
             },
+    
             {
                 letter: "W",
-                heading: "Win with Automation",
-                matters: "Leverage the power of automation in Dynamic Search PPC to stay ahead of the competition.",
+                heading: "Win More Conversions",
+                matters: "Impressions and clicks alone don’t drive revenue—converting users into buyers is the real goal.",
                 how: [
-                    "Implement automated rules to adjust bids and pause underperforming ads.",
-                    "Use machine learning algorithms to predict trends and adjust campaigns proactively."
+                    "Leverage Dynamic Product Ads to display the most relevant products based on browsing history.",
+                    "Retarget users across multiple platforms with dynamic creatives tailored to their interests.",
+                    "Use AI-driven personalized recommendations to increase purchase intent."
                 ],
-                outcome: "Greater efficiency and competitiveness in ad placements."
+                outcome: "Higher conversion rates and better customer acquisition costs (CAC)."
             },
+    
             {
                 letter: "T",
-                heading: "Track Performance",
-                matters: "Track and analyze the performance of your Dynamic Search PPC campaigns continuously.",
+                heading: "Target the Right Audience",
+                matters: "Precision targeting ensures that your ads reach users who are most likely to convert.",
                 how: [
-                    "Monitor key performance indicators such as click-through rate, conversion rate, and cost per acquisition.",
-                    "Regularly review and adjust the indexing of your website content."
+                    "Leverage machine learning to analyze user behavior and adjust targeting dynamically.",
+                    "Use lookalike audiences to reach new customers similar to your best-performing users.",
+                    "Analyze audience insights and adjust campaigns for maximum engagement."
                 ],
-                outcome: "In-depth insights that drive strategic decisions and campaign enhancements."
+                outcome: "More high-quality leads and increased engagement with your ads."
             },
+    
             {
                 letter: "H",
-                heading: "Harness Innovations",
-                matters: "Stay updated with the latest innovations in Dynamic Search PPC to maintain a cutting-edge approach.",
+                heading: "Harness Data for Growth",
+                matters: "Data-driven strategies help optimize campaigns, increase ROAS, and scale Dynamic Ads PPC success.",
                 how: [
-                    "Incorporate new ad features and extensions as they become available.",
-                    "Experiment with new beta features in Dynamic Search Ads to stay ahead of competitors."
+                    "Use predictive analytics to adjust ad placements and bidding strategies in real-time.",
+                    "Monitor key PPC metrics like CPA, ROAS, and click-through rate (CTR).",
+                    "Implement automated ad optimization to maximize ad spend efficiency."
                 ],
-                outcome: "Adoption of innovative features that enhance ad performance and user engagement."
+                outcome: "Consistent campaign improvements and scalable growth in dynamic ad performance."
             },
+    
             {
-                letter: MdOutlineStarPurple500,
+                letter: <MdTrendingUp />,
                 focus: "By focusing on:",
-                focusOn: ["Generating Visibility", "Refining Campaigns", "Optimizing Spend", "Winning with Automation", "Tracking Performance", "Harnessing Innovations"],
+                focusOn: ["Generating Personalized Ad Engagement", "Refining Ad Performance", "Optimizing PPC Campaigns", "Winning More Conversions", "Targeting the Right Audience", "Harnessing Data for Growth"],
                 how: [
-                    "Broader coverage and improved visibility.",
-                    "More precise targeting and reduced expenditure.",
-                    "Enhanced return on investment through strategic innovations."
-                ]
-            }
-        ]
-    },
-    
-    approachSection: {
-        heading: "Our Proven E-commerce <span class='text-[#207DE9]'>Dynamic Search PPC Strategy</span>",
-        para: "Navigate the complexities of Dynamic Search Ads with our tailored strategies designed to maximize your online visibility and ROI.",
-        approaches: [
-            { heading: "Comprehensive Content Coverage", detail: 'Ensure complete coverage of your website’s content to maximize ad reach.', icon: <IoScanSharp/> },
-            { heading: "Automated Ad Creation", detail: 'Utilize Dynamic Search Ads to automatically create ads from your website content.', icon: <IoBuildSharp/> },
-            { heading: "Precision Targeting", detail: 'Employ precise targeting by using page feeds to include or exclude specific URLs.', icon: <IoOptionsSharp/> },
-            { heading: "Performance Optimization", detail: 'Optimize ads for performance by refining targeting and bid strategies continuously.', icon: <IoSpeedometerSharp/> },
-            { heading: "Innovative Features", detail: 'Stay ahead by adopting the latest features and technologies in Dynamic Search PPC.', icon: <IoRocketSharp/> }
-        ]
-    },
-    
-    realResultsSection: {
-        heading: "Real Results <span class='text-[#207DE9]'>from Dynamic Search PPC</span>",
-        para: "Discover how our Dynamic Search PPC strategies have driven substantial improvements in visibility, engagement, and conversions for our clients.",
-        results: [
-            {
-                header: "E-commerce - Fashion and Apparel",
-                challenge: "Adapt to rapidly changing inventory and seasonal trends.",
-                approaches: [
-                    "Utilize Dynamic Search Ads to automatically capture new product additions.",
-                    "Focus on high-margin products with tailored ad copies."
+                    "Increased ad relevance and engagement through AI-driven targeting.",
+                    "Higher conversion rates with strategic dynamic ad placements.",
+                    "Improved ad spend efficiency and maximized return on ad spend (ROAS)."
                 ],
-                increase: "350",
-                increaseIn: "Percentage increase in product visibility"
-            },
-            {
-                header: "E-commerce - Health and Wellness",
-                challenge: "Improve market reach with constantly evolving product lines.",
-                approaches: [
-                    "Automatically update ads based on new health products.",
-                    "Target niche markets with customized dynamic ads."
-                ],
-                increase: "290",
-                increaseIn: "Growth in market reach"
-            },
-            {
-                header: "E-commerce - Home Decor",
-                challenge: "Respond to frequent changes in product styles and trends.",
-                approaches: [
-                    "Dynamic ads that adjust to new decor trends automatically.",
-                    "Enhanced targeting for seasonal decor campaigns."
-                ],
-                increase: "240",
-                increaseIn: "Increase in targeted traffic"
-            },
-            {
-                header: "E-commerce - Electronics",
-                challenge: "Maintain competitive advantage in a highly dynamic market.",
-                approaches: [
-                    "Rapid ad generation for new electronics models.",
-                    "Use of competitive intelligence to outpace ad trends."
-                ],
-                increase: "200",
-                increaseIn: "Growth in competitive ad placements"
+                outcome: "Long-term Dynamic Ads PPC success with scalable revenue growth."
             }
         ]
     },
 
     pricingSection: {
-        heading: "Transparent Pricing for Dynamic Search PPC",
-        para: "Discover our clear and flexible Dynamic Search PPC pricing plans, designed to scale with your online store. Our plans are built to enhance your content's automatic discoverability while optimizing conversions, helping you excel in your market niche.",
-    
+        heading: "Transparent Pricing for Dynamic Ads PPC",
+        para: "Discover our flexible and data-driven Dynamic Ads PPC pricing plans designed to maximize your ad spend efficiency. From increasing personalized engagement to driving high-intent conversions, our plans ensure measurable results and high ROI.",
+        
         pricingCards: [
             {
-                name: "Silver Plan",
-                header: "Silver Plan",
-                price: "$750/month",
-                fitFor: "Small businesses or startups beginning to explore the benefits of automated search ads.",
+                header: "Starter Dynamic Ads PPC Package",
+                price: "$800/month",
+                fitFor: "Small businesses or startups looking to test Dynamic Ads with a limited budget.",
                 youGet: [
-                    "Automatic targeting of up to 100 dynamically changing content pages",
-                    "Dynamic Search Ad setup and continuous management",
-                    "Monthly budget management up to $5,000",
-                    "Basic demographic and geographic targeting",
-                    "Weekly performance reports",
-                    "Basic conversion tracking setup",
-                    "Campaign Setup Fee (One-time): $750",
-                    "Monthly Investment: $750"
+                    "Basic Audience Targeting: Focus on dynamic retargeting and interest-based audience segmentation.",
+                    "Product Feed & Ad Personalization: Optimizing dynamic ad creatives based on user behavior.",
+                    "Manual Bid Management: Adjusting bids for cost-effective ad placements.",
+                    "Basic Performance Tracking: Insights on impressions, click-through rate (CTR), and conversions.",
+                    "Monthly Report: Summary of ad spend, CPC, conversion rate, and audience engagement."
                 ]
             },
+    
             {
-                name: "Gold Plan",
-                header: "Gold Plan",
-                price: "$1,800/month",
-                fitFor: "Growing businesses looking to broaden their reach with sophisticated targeting and optimization.",
+                header: "Growth Dynamic Ads PPC Package",
+                price: "$2,500/month",
+                fitFor: "Growing brands aiming to scale personalized advertising with optimized Dynamic Ads PPC campaigns.",
                 youGet: [
-                    "Automatic targeting of up to 250 dynamically changing content pages",
-                    "Advanced bid management and optimization",
-                    "Monthly budget management up to $20,000",
-                    "Enhanced targeting with demographics, interests, and behaviors",
-                    "Bi-weekly performance optimization",
-                    "Advanced conversion tracking and analytics",
-                    "Campaign Setup Fee (One-time): $2,000",
-                    "Monthly Investment: $1,800"
+                    "Advanced Audience Segmentation: Targeting users based on browsing behavior and past interactions.",
+                    "Dynamic Retargeting & Lookalike Audiences: Re-engaging past visitors and expanding audience reach.",
+                    "AI-Powered Bidding & Budget Optimization: Maximizing conversions while reducing CPC and CPA.",
+                    "Multi-Platform Dynamic Ads: Running personalized ads on Google Display, Facebook, and Instagram.",
+                    "Performance Tracking & A/B Testing: Optimizing dynamic creatives and CTA variations for better engagement."
                 ]
             },
+    
             {
-                name: "Platinum Plan",
-                header: "Platinum Plan",
-                price: "$3,500/month",
-                fitFor: "Large enterprises aiming for maximum market penetration with comprehensive dynamic search strategies.",
+                header: "Premium Dynamic Ads PPC Package",
+                price: "$5,000/month",
+                fitFor: "Established brands looking for aggressive ad scaling and high ROI with Dynamic Ads.",
                 youGet: [
-                    "Automatic targeting of an unlimited number of dynamically changing content pages",
-                    "Full-scale PPC campaign management",
-                    "Monthly budget management over $50,000",
-                    "Detailed targeting strategies including remarketing and lookalike audiences",
-                    "Monthly detailed performance and strategy reviews",
-                    "Advanced conversion optimization techniques",
-                    "Campaign Setup Fee (One-time): $4,000",
-                    "Monthly Investment: $3,500"
+                    "Full-Funnel Dynamic Ads Strategy: Covering Awareness, Consideration & Conversion campaigns.",
+                    "AI-Driven Bid Optimization: Maximizing personalized ad reach while lowering acquisition costs.",
+                    "Cross-Channel Dynamic Retargeting: Engaging high-intent users across multiple platforms.",
+                    "Landing Page & Conversion Rate Optimization: Enhancing user experience for ad-driven traffic.",
+                    "Custom Performance Dashboard: Real-time tracking of key Dynamic Ads PPC metrics."
+                ]
+            },
+    
+            {
+                header: "Enterprise Dynamic Ads PPC Package",
+                price: "$10,000+/month",
+                fitFor: "Large-scale businesses & brands aiming for Dynamic Ads PPC dominance.",
+                youGet: [
+                    "End-to-End Dynamic Ads PPC Management: Covering all ad types & placements.",
+                    "High-Budget AI Bid Automation: Optimizing ad delivery with machine learning algorithms.",
+                    "Omni-Channel Personalization Strategy: Aligning Dynamic Ads with Google Display, Facebook & Instagram PPC.",
+                    "Data-Driven Ad Scaling: Advanced analytics and strategic campaign expansion.",
+                    "Dedicated PPC Account Manager: Full-time support for Dynamic Ads growth & optimization."
                 ]
             }
         ]
     },
-    
-    customPricing: {
-        heading: 'Custom Dynamic Search PPC Services Tailored to Your Business Goals',
-        upperPart: {
-            header: "Custom Dynamic Search PPC Plans",
-            price: "Starting at $3,000/month"
-        },
-        leftPart: [
-            "Custom automatic content targeting",
-            "Tailored audience segmentation and demographic targeting",
-            "Adaptive budget management strategies based on content dynamics",
-            "Comprehensive Optimization of Ad Copies and Dynamic Ads"
-        ],
-        centerPart: {
-            text: "Drive traffic, boost conversions, and maximize ROI with our cutting-edge Dynamic Search PPC strategies, utilizing the latest AI-powered optimization tools.",
-            pricing: [
-                "Campaign Setup Fee (One-time): Custom Quote",
-                "Monthly Investment: Custom Quote"
-            ]
-        },
-        rightPart: [
-            "Custom reporting and analytics tailored to dynamic content",
-            "Advanced conversion tracking and optimization",
-            "Custom strategy for dynamically generated ad creatives",
-            "Dedicated customer support and account management"
-        ]
+
+    reviewsSection: {
+        heading: "Join Our Community of <span className='text-[#207CE7]'>Thriving Ecommerce Brands</span>  ",
+        para: "Every project we undertake is fueled by a commitment to excellence and a passion for helping our clients succeed. Our clients' testimonials reflect the real impact we've made on their businesses. Read on to discover how our tailored solutions have transformed their visions into reality!",
+
     },
     
-    reviewsSection: {
-        heading: "Join Our Community of Thriving E-commerce Brands Powered by Dynamic Search PPC",
-        para: "Every campaign we undertake is driven by a commitment to excellence and a passion for results. Our clients' testimonials reflect the transformative impact our Dynamic Search PPC strategies have had on their business growth. Read on to see how our adaptive solutions have revolutionized their digital marketing."
-    }
+ 
+    
     
 
 }

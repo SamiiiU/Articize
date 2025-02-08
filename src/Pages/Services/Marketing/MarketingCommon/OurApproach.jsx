@@ -1,6 +1,5 @@
 import React from 'react'
 import bgBox from '../../../../Assets/Images/ServicesIMG/BgBoxes.jpg'
-import Cloud from '../../../../Prebuild_Components/Cloud/Cloud'
 
 const OurApproach = ({ page }) => {
   return (
@@ -25,8 +24,6 @@ const OurApproach = ({ page }) => {
           </div>
         ))}
       </div>
-        
-        <Cloud />
 
     </div>
   )

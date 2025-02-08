@@ -12,10 +12,14 @@ const WhyNeed = ({page}) => {
 
         <div className='w-full flex flex-wrap  '>
             {page.whyNeed.map((need , index) => (
+                <>
                 <div key={index} className='md:w-1/2 w-full p-6  text-left'>
                     <h1 className='font-bold text-2xl mb-4 '><span className='text-[#207DE9]'>{`0${index + 1} : `}</span> {need.header}</h1>
                     <p dangerouslySetInnerHTML={{__html : need.text}}></p>
                 </div>
+
+                {index % 2 != 0 && <span className='w-full py-[1px] bg-[#313131]/50'/> }
+                </>
             ))}
         </div>
     </div>
