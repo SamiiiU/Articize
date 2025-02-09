@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
 
 const WhyNeed = ({page}) => {
+  const {scrwidth} = useContext(ContextAPI)
   return (
-    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
-     <h1 className='2xl:text-[3rem] z-10 text-[2.5rem] font-[800]'  
+    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-left '>
+     <h1 className='2xl:text-[3rem]  z-10 text-[2.5rem] font-[800]'  
         dangerouslySetInnerHTML={{
             __html: page.heading, 
           }}
         >
         </h1>
+
 
         <div className='w-full flex flex-wrap  '>
             {page.whyNeed.map((need , index) => (
@@ -18,7 +21,7 @@ const WhyNeed = ({page}) => {
                     <p dangerouslySetInnerHTML={{__html : need.text}}></p>
                 </div>
 
-                {index % 2 != 0 && <span className='w-full py-[1px] bg-[#313131]/50'/> }
+                {index % 2 != 0 && scrwidth > 768 && <span className='w-full py-[1px] bg-[#313131]/50'/> }
                 </>
             ))}
         </div>

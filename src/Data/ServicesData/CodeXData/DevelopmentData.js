@@ -14,7 +14,7 @@ export const responsiveWebDevData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Responsive Web Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Responsive Web Development </span> <br/> Services",
         whyNeed: [
             {
                 header: "Optimized Performance Across All Devices",
@@ -211,7 +211,7 @@ export const webAppDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Web App Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Web App Development </span> <br/> Services",
         whyNeed: [
             {
                 header: "Custom Solutions for Unique Needs",
@@ -407,7 +407,7 @@ export const shopifyDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Shopify Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Shopify Development </span> <br/> Services",
         whyNeed: [
             {
                 header: "Customized Ecommerce Solutions",
@@ -635,7 +635,7 @@ export const arAndVrDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>AR and VR Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> AR / VR Development </span> <br/> Services",
 
         whyNeed: [{
                 header: "Immersive User Experiences",
@@ -898,7 +898,7 @@ export const apiDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>API Development and Integration</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> API Development  </span> <br/> Services",
         whyNeed: [
             {
                 header: "Seamless System Integration",
@@ -1126,7 +1126,7 @@ export const softwareDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Software Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Software Development </span> <br/> Services",
         whyNeed: [
             {
                 header: "Customized Solutions",
@@ -1345,7 +1345,7 @@ export const mobAppDevData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Mobile App Development</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Mobile App Development  </span> <br/> Services",
         whyNeed: [
             {
                 header: "Reach a Wider Audience",

@@ -32,8 +32,6 @@ const IntegrationUpdates = () => {
         <WhyNeed page={integrationUpdatesData.whyNeedSection}/>
         <PricingCalc page={integrationUpdatesData.pricingCalc} />
         <WhyMattersCodeX page={integrationUpdatesData.whySection}/>  
-        <BoosterCodeX page={integrationUpdatesData.boostSection}/>
-        {/* <PoweredByCodeX page={integrationUpdatesData.poweredBySection}/> */}
         <ApproachCodeX page={integrationUpdatesData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

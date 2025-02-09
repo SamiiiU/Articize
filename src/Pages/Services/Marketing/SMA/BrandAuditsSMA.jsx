@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+
 import Nav from '../../../../CommonComps/Nav/Nav'
 
 import Hero from '../MarketingCommon/Hero'
 import WhyComp from '../MarketingCommon/WhyComp'
-import CustomPricing from '../MarketingCommon/CustomPricing'
 import Booster from '../MarketingCommon/Booster'
+
+import CustomPackage from '../../../../CommonComps/CustomPackage/CustomPackage'
 import PoweredBy from '../MarketingCommon/PoweredBy'
 import { TailoredSEO } from '../MarketingCommon/TailoredSEO'
 import OurApproach from '../MarketingCommon/OurApproach'
@@ -22,45 +24,62 @@ import Footer from '../../../../CommonComps/Footer/Footer'
 
 //Data imports 
 import { SocialMediaBrandsSMAData } from '../../../../Data/ServicesData/MarketingData/SMAData'
-import { QAsma } from '../../../../Data/QueANDAns'
+import { QAseo } from '../../../../Data/QueANDAns'
 import { SEOReviews } from '../../../../Data/TestimonalData'
+import { ContextAPI } from '../../../../GlobalProvider/ContextAPI'
+import Loading from '../../../../CommonComps/Loading/Loading'
+import { Helmet } from 'react-helmet'
 
-const BrandsAuditsSMA = () => {
-  const [isLoaded, setIsLoaded] = useState(true)
-   
+
+const BrandAuditsSMA = () => {
+  const { isLoading, setIsLoading } = useContext(ContextAPI)
+
+
+  // useEffect(() => {
+  //   setIsLoading(true)
+
+  //   window.scrollTo(0, 0);
+
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
+
+  // }, []);
+
   return (
-    <div className='w-full'>
-        {isLoaded && (
-          <>
-          <Nav/>
-        <Hero page={SocialMediaBrandsSMAData.heroSection}/>
-        {/* <WhyComp page={GoogleAdsData.whySection}/> */}
-        
-        <CustomPricing page={SocialMediaBrandsSMAData.customPricing}/>
-        <Booster page={SocialMediaBrandsSMAData.boostSection}/>
-        <PoweredBy page={SocialMediaBrandsSMAData.powerBySection}/>
-        <TailoredSEO page={SocialMediaBrandsSMAData.tailoredSection}/>
-        <OurApproach page={SocialMediaBrandsSMAData.approachSection}/>
+    <div className='w-full '>
+      <Helmet >
+          <title>DEVXCLOUD - Technical SEO</title>
+      </Helmet>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <>
+          <Nav />
+          <Hero page={SocialMediaBrandsSMAData.heroSection} />
+          <CustomPackage page={SocialMediaBrandsSMAData.customPricing} />
+          <Booster page={SocialMediaBrandsSMAData.boostSection} />
+          <PoweredBy page={SocialMediaBrandsSMAData.powerBySection} />
+          <TailoredSEO page={SocialMediaBrandsSMAData.tailoredSection} />
+          <OurApproach page={SocialMediaBrandsSMAData.approachSection} />
 
-        <CTA heading = {"Get a custom quote for you Google Ads PPC now!"} />
-        <Path page={SocialMediaBrandsSMAData.pathToSuccess} />
+          <CTA heading={"Get a custom quote for you SEO now!"} />
+          <Path page={SocialMediaBrandsSMAData.pathToSuccess} />
 
-        <Platforms page={SocialMediaBrandsSMAData.platformSection}/>
+          <Platforms page={SocialMediaBrandsSMAData.platformSection} />
+          <RealResults page={SocialMediaBrandsSMAData.realResultsSection} />
 
-        <RealResults page={SocialMediaBrandsSMAData.realResultsSection}  />
+          <QandA page={QAseo.EcommerceSEO} para={"Explain that these services specifically target the optimization of online stores to increase their visibility in search engine results, focusing on product-specific keywords, improved user experience, and conversion rate optimization. "} />
 
-        <Pricing page={SocialMediaBrandsSMAData.pricingSection}/>
+          <Pricing page={SocialMediaBrandsSMAData.pricingSection} />
 
-        <QandA page={QAsma.BasicSMA}/>
+          <ReviewsPage page={SocialMediaBrandsSMAData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
 
-        <ReviewsPage page={SocialMediaBrandsSMAData.reviewsSection} testimonals={SEOReviews.EcommerceSEO} />
-
-        <Footer />
-          </>
-        )}
-
+          <Footer />
+        </>
+      )}
     </div>
   )
 }
 
-export default BrandsAuditsSMA
+export default BrandAuditsSMA

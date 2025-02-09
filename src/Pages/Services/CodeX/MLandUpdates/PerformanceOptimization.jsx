@@ -32,8 +32,6 @@ const PerformanceOptimization = () => {
         <WhyNeed page={performanceOptimizationData.whyNeedSection}/>
         <PricingCalc page={performanceOptimizationData.pricingCalc} />
         <WhyMattersCodeX page={performanceOptimizationData.whySection}/>  
-        <BoosterCodeX page={performanceOptimizationData.boostSection}/>
-        {/* <PoweredByCodeX page={performanceOptimizationData.poweredBySection}/> */}
         <ApproachCodeX page={performanceOptimizationData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

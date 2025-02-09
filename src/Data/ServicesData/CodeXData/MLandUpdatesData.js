@@ -14,7 +14,7 @@ export const webMaintenenceData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Web Infrastructure & Maintenance</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Website Maintenence  </span> <br/> Services",
         whyNeed: [
             {
                 header: "Reliable Web Operations",
@@ -207,7 +207,7 @@ export const securityUpdatesData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Security Monitoring and Updates</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Security Updates  </span> <br/> Services",
         whyNeed: [
             {
                 header: "Continuous Threat Detection",
@@ -398,7 +398,7 @@ export const backupAndRecoveryData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Backup & Recovery Solutions</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Backup & Recovery </span> <br/> Services",
         whyNeed: [
             {
                 header: "Data Protection",
@@ -583,7 +583,7 @@ export const integrationUpdatesData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Integration Updates</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Integration Updates  </span> <br/> Services",
         whyNeed: [
             {
                 header: "System Cohesion",
@@ -770,7 +770,7 @@ export const technicalSEOMaintenenceData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Technical SEO Maintenance</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Technical SEO Maintenence </span> <br/> Services",
         whyNeed: [
             {
                 header: "Site Health Optimization",
@@ -958,7 +958,7 @@ export const performanceOptimizationData = {
     },
     
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'>Performance Optimization</span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Performance Optimization  </span> <br/> Services",
         whyNeed: [
             {
                 header: "Performance Optimization",

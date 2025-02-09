@@ -17,7 +17,7 @@ export const customDesignData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Business Needs <span class= 'text-[#207DE9]'> Custom Web Design </span> Services",
+        heading: "Why Your Business Needs <br/> <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom Web Design </span> <br/> Services",
 
         whyNeed: [
 
@@ -470,7 +470,7 @@ export const EcommerceWebDesignData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Ecommerce Business Needs Custom Web Design Services",
+        heading: "Why Your Ecommerce Business Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Ecommerce Web Design </span> <br/>",
         whyNeed: [
             {
                 header: "Establish a Unique Online Identity",
@@ -782,7 +782,7 @@ export const WebRedesignData = {
 
 
     whyNeedSection: {
-        heading: "Why Your Business Needs Custom Website Redesign Services",
+        heading: "Why Your Business Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom Redesign </span> <br/> Services",
         whyNeed: [
             {
                 header: "Rejuvenate Your Brand Identity",
@@ -1058,7 +1058,7 @@ export const CMSThemeDesignData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Business Needs Custom CMS Theme Design Services",
+        heading: "Why Your Business Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom CMS Theme Design </span> <br/> Services",
         whyNeed: [
             {
                 header: "Establish a Unique Online Identity",
@@ -1316,7 +1316,7 @@ export const ProtoTypingData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Project Needs Custom Interactive Prototyping Services",
+        heading: "Why Your Project Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom Interactive Prototyping </span> <br/>",
         whyNeed: [
             {
                 header: "Validate Designs Early",
@@ -1545,7 +1545,7 @@ export const uxOptimizationData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Project Needs Custom User Experience Optimization Services",
+        heading: "Why Your Project Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom UX Optimization </span> <br/> Services",
         whyNeed: [
             {
                 header: "Enhance User Engagement",
@@ -1768,7 +1768,7 @@ export const webAppDesignData = {
     },
 
     whyNeedSection: {
-        heading: "Why Your Project Needs Custom App Design Services",
+        heading: "Why Your Project Needs <span class= 'bg-gradient-to-b from-[#207DE9] to-pink-500 bg-clip-text text-transparent'> Custom App Design </span> <br/> Services",
         whyNeed: [
             {
                 header: "Enhance App Engagement",

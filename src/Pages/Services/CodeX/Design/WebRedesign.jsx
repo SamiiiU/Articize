@@ -32,8 +32,6 @@ const WebRedesign = () => {
         <WhyNeed page={WebRedesignData.whyNeedSection}/>
         <PricingCalc page={WebRedesignData.pricingCalc} />
         <WhyMattersCodeX page={WebRedesignData.whySection}/>  
-        <BoosterCodeX page={WebRedesignData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={WebRedesignData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

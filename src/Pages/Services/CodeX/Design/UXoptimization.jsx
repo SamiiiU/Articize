@@ -32,8 +32,6 @@ const UXoptimization = () => {
         <WhyNeed page={uxOptimizationData.whyNeedSection}/>
         <PricingCalc page={uxOptimizationData.pricingCalc} />
         <WhyMattersCodeX page={uxOptimizationData.whySection}/>  
-        <BoosterCodeX page={uxOptimizationData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={uxOptimizationData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

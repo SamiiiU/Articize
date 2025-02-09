@@ -32,8 +32,6 @@ const SoftwareDev = () => {
         <WhyNeed page={softwareDevData.whyNeedSection}/>
         <PricingCalc page={softwareDevData.pricingCalc} />
         <WhyMattersCodeX page={softwareDevData.whySection}/>  
-        <BoosterCodeX page={softwareDevData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={softwareDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

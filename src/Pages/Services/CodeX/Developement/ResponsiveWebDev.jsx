@@ -32,7 +32,6 @@ const ResponsiveWebDev = () => {
         <WhyNeed page={responsiveWebDevData.whyNeedSection}/>
         <PricingCalc page={responsiveWebDevData.pricingCalc} />
         <WhyMattersCodeX page={responsiveWebDevData.whySection}/>  
-        <BoosterCodeX page={responsiveWebDevData.boostSection}/>
         <ApproachCodeX page={responsiveWebDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

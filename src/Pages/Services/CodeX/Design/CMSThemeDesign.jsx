@@ -32,8 +32,6 @@ const CMSThemeDesign = () => {
         <WhyNeed page={CMSThemeDesignData.whyNeedSection}/>
         <PricingCalc page={CMSThemeDesignData.pricingCalc} />
         <WhyMattersCodeX page={CMSThemeDesignData.whySection}/>  
-        <BoosterCodeX page={CMSThemeDesignData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={CMSThemeDesignData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

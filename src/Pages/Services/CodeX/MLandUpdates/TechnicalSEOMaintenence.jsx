@@ -33,8 +33,6 @@ const TechnicalSEOMaintenence = () => {
         <WhyNeed page={technicalSEOMaintenenceData.whyNeedSection}/>
         <PricingCalc page={technicalSEOMaintenenceData.pricingCalc} />
         <WhyMattersCodeX page={technicalSEOMaintenenceData.whySection}/>  
-        <BoosterCodeX page={technicalSEOMaintenenceData.boostSection}/>
-        {/* <PoweredByCodeX page={technicalSEOMaintenenceData.poweredBySection}/> */}
         <ApproachCodeX page={technicalSEOMaintenenceData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

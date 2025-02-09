@@ -32,8 +32,6 @@ const ProtoTypingDesign = () => {
         <WhyNeed page={ProtoTypingData.whyNeedSection}/>
         <PricingCalc page={ProtoTypingData.pricingCalc} />
         <WhyMattersCodeX page={ProtoTypingData.whySection}/>  
-        <BoosterCodeX page={ProtoTypingData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={ProtoTypingData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

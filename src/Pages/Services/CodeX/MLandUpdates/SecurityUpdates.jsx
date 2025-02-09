@@ -32,8 +32,6 @@ const SecurityUpdates = () => {
         <WhyNeed page={securityUpdatesData.whyNeedSection}/>
         <PricingCalc page={securityUpdatesData.pricingCalc} />
         <WhyMattersCodeX page={securityUpdatesData.whySection}/>  
-        <BoosterCodeX page={securityUpdatesData.boostSection}/>
-        {/* <PoweredByCodeX page={securityUpdatesData.poweredBySection}/> */}
         <ApproachCodeX page={securityUpdatesData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

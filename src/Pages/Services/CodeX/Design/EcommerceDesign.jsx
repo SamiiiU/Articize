@@ -32,8 +32,6 @@ const EcommerceDesign = () => {
         <WhyNeed page={EcommerceWebDesignData.whyNeedSection}/>
         <PricingCalc page={EcommerceWebDesignData.pricingCalc} />
         <WhyMattersCodeX page={EcommerceWebDesignData.whySection}/>  
-        <BoosterCodeX page={EcommerceWebDesignData.boostSection}/>
-        {/* <PoweredByCodeX page={EcommerceWebDesignData.poweredBySection}/> */}
         <ApproachCodeX page={EcommerceWebDesignData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

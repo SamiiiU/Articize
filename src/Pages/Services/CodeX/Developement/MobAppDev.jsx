@@ -31,9 +31,7 @@ const MobAppDev = () => {
         <HeroCodeX page={mobAppDevData.heroSection}/>
         <WhyNeed page={mobAppDevData.whyNeedSection}/>
         <PricingCalc page={mobAppDevData.pricingCalc} />
-        <WhyMattersCodeX page={mobAppDevData.whySection}/>  
-        <BoosterCodeX page={mobAppDevData.boostSection}/>
-        <ApproachCodeX page={mobAppDevData.approachSection}/>
+        <WhyMattersCodeX page={mobAppDevData.whySection}/>          <ApproachCodeX page={mobAppDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
         

@@ -33,8 +33,6 @@ const APIDev = () => {
         <WhyNeed page={apiDevData.whyNeedSection}/>
         <PricingCalc page={apiDevData.pricingCalc} />
         <WhyMattersCodeX page={apiDevData.whySection}/>  
-        <BoosterCodeX page={apiDevData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={apiDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

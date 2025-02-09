@@ -33,7 +33,6 @@ const ShopifyDev = () => {
         <WhyNeed page={shopifyDevData.whyNeedSection}/>
         <PricingCalc page={shopifyDevData.pricingCalc} />
         <WhyMattersCodeX page={shopifyDevData.whySection}/>  
-        <BoosterCodeX page={shopifyDevData.boostSection}/>
         <ApproachCodeX page={shopifyDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

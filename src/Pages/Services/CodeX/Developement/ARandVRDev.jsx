@@ -32,8 +32,6 @@ const ARandVRDev = () => {
         <WhyNeed page={arAndVrDevData.whyNeedSection}/>
         <PricingCalc page={arAndVrDevData.pricingCalc} />
         <WhyMattersCodeX page={arAndVrDevData.whySection}/>  
-        <BoosterCodeX page={arAndVrDevData.boostSection}/>
-        {/* <PoweredByCodeX page={customDesignData.poweredBySection}/> */}
         <ApproachCodeX page={arAndVrDevData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />

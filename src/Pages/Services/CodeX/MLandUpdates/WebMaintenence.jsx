@@ -33,8 +33,6 @@ const WebMaintenence = () => {
         <WhyNeed page={webMaintenenceData.whyNeedSection}/>
         <PricingCalc page={webMaintenenceData.pricingCalc} />
         <WhyMattersCodeX page={webMaintenenceData.whySection}/>  
-        <BoosterCodeX page={webMaintenenceData.boostSection}/>
-        {/* <PoweredByCodeX page={webMaintenenceData.poweredBySection}/> */}
         <ApproachCodeX page={webMaintenenceData.approachSection}/>
 
         <CTA heading = {"Get a custom quote for your Custom Design Now!"} />
