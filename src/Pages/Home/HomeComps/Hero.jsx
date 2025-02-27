@@ -5,19 +5,20 @@ import heroVid from '../../../Assets/Videos/HomeVideos/HomeHero.mp4'
 const Hero = () => {
   return (
     <div className='w-full  bg-white  px-4 sm:px-16 md:px-28 2xl:px-80 
-     pt-36 pb-20 flex   '>
+     pt-44 pb-20 flex   '>
         {/* <span className='w-full h-full absolute top-0 z-0' style={{backgroundImage : `url(${heroBG})` , backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat'}}/> */}
         <div className='w-full z-10 flex justify-center items-center flex-col lg:flex-row gap-10 '>
             {/* Home text  */}
-            <div className='lg:w-1/2 w-full lg:items-start md:items-center  flex flex-col gap-10 '>
+            <div className='lg:w-1/2 w-full lg:items-start md:items-center  flex flex-col gap-6 '>
 
-                <h1 className=' font-[800] lg:text-5xl text-4xl leading-none lg:text-left md:text-center text-left'>Empower Your Business with Digital Transformation
+                <h1 className=' font-[700] text-darkBlue lg:text-[3.5rem] text-4xl tracking-tight leading-[1.1] lg:text-left md:text-center text-left    font-nunito'>Empower Your Business Transformation
                 </h1>
-                <p className='text-md'>At DEVXCLOUD, we specialize in delivering tailored digital services to help businesses thrive in the competitive digital landscape. From advanced SEO strategies and high-performance web development to AI-powered solutions and cybersecurity enhancements, our expertise ensures your success.
+                <p className='text-md'>At DEVXCLOUD, we specialize in delivering tailored digital services to help businesses thrive in the competitive digital landscape.
                 </p>
 
-                <div className='md:rounded-lg flex md:flex-row flex-col sm:rounded-md gap-y-4 md:w-auto w-full overflow-hidden text-md xl:text-lg'>
-                    <span className='p-4 text-white font-bold cursor-pointer transition-all duration-300 hover:bg-[#DE781F] bg-[#105DAA] text-center rounded-md md:rounded-none'>Get Started</span>
+                <div className=' flex md:flex-row flex-col sm:rounded-md gap-4 md:w-auto w-full text-md xl:text-lg'>
+                    <span className='px-6 py-4 text-white font-bold cursor-pointer transition-all duration-300 hover:bg-[#DE781F] bg-lightBlue text-center rounded-md '>Get Started</span>
+                    <span className='px-6 py-4  font-bold cursor-pointer transition-all duration-300 hover:bg-lightBlue hover:text-white border-2 border-lightBlue text-lightBlue text-center rounded-md '>Get Custom Quote</span>
                 </div>
             </div>
 

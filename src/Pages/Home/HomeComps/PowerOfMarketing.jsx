@@ -27,7 +27,7 @@ const PowerOfMarketing = () => {
 
 
     return (
-        <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center '>
+        <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-10 flex flex-col gap-10 text-center '>
 
 
             <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Revolutionize Digital

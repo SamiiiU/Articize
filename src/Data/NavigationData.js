@@ -54,115 +54,153 @@ export const footerNavigations = {
 
 
 export const mainNavData = [
-  {navigator: "SEO & Marketing", sections: [{
-      heading: "Search Engine Optimization (SEO)",
+  {navigator: "DevXCloud Hub",  
+    sections: [
+    {heading: "AI-Powered E-Commerce Growth Suite",
       types: [
-        { path: '/ecommerce-seo', type: 'E-commerce SEO' },
-        { path: '/local-seo', type: 'Local SEO' },
         { path: '/technical-seo', type: 'Technical SEO' },
-        { path: '/content-seo', type: 'Content SEO' },
-        { path: '/international-seo', type: 'International SEO' },
-        { path: '/seo-audits', type: 'SEO Audits' },
-        { path: '/video-seo', type: 'Video SEO' },
+        { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+        { path: '/predictive-analytics-and-machine-learning', type: 'Predictive Analytics & Machine Learning' },
+        { path: '/ecommerce-seo', type: 'E-commerce SEO' },
       ]
     },
 
-    {
-      heading: "Pay Per Click (PPC)",
+    {heading: "SaaS Scalability Suite",
       types: [
         { path: '/google-ads-ppc', type: 'Google Ads PPC' },
-        { path: '/amazon-ppc', type: 'Amazon PPC' },
-        { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
-        { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
-        { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
-        { path: '/youtube-ppc', type: 'YouTube PPC' },
-        { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
+        { path: '/technical-seo-maintenance', type: 'Technical SEO Maintenance' },
+        { path: '/programmatic-advertising', type: "Programmatic Advertising" },
+        
+
 
       ]
     },
 
-    {
-      heading: "Social Media Advertisement (SMA)",
+    {heading: "Startup Launch Accelerator",
       types: [
-        { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
-        { path: '/programmatic-advertising', type: "Programmatic Advertising" },
+        { path: '/custom-website-design', type: 'Custom Website Design' },
+        { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
+
+
+        
         { path: '/enterprise-smm', type: "Enterprise (SMM)" },
         { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
         { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
       ]
     },
 
-    { IMG: 'https://img.freepik.com/premium-vector/search-engine-optimization-design_24908-12065.jpg?semt=ais_hybrid' },
+    {heading: "Enterprise Powerhouse (Platinum Tier)",
+      types: [
+        { path: '/launchpad-ai-starter', type: 'Launchpad AI Starter' },
+        { path: '/ai-growth-accelator', type: 'AI Growth Accelerator' },
+        { path: '/enterprice-ai-powerhouse', type: 'Enterprise AI Powerhouse' },
+        { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
+
+
+        
+        { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
+        { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
+      ]
+    },
+
+    // { IMG: 'https://img.freepik.com/premium-vector/search-engine-optimization-design_24908-12065.jpg?semt=ais_hybrid' },
     ]
   },
 
-  {navigator: "CODEX", sections: [{
-      heading: "Design",
+  {navigator: "Digital Foundations", 
+    sections: [
+
+    {heading: "Search Engine Optimization (SEO)",
       types: [
-        { path: '/custom-website-design', type: 'Custom Website Design' },
-        { path: '/ecommerce-website-design', type: 'E-Commerce Website Design' },
-        { path: '/website-redesign', type: 'Website Redesign' },
-        { path: '/custom-theme', type: 'Custom Theme Development for CMS' },
-        { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
-        { path: '/ux-optimization', type: 'User Experience Optimization Service' },
-        { path: '/web-app-design', type: 'Web App Design' },
+        { path: '/ecommerce-seo', type: 'E-commerce SEO' },
+        { path: '/local-seo', type: 'Local SEO' },
+        { path: '/technical-seo', type: 'Technical SEO' },
+        { path: '/content-seo-and-blog', type: 'Content SEO & Blog Writing' },
+        { path: '/international-seo', type: 'International SEO' },
+        { path: '/video-seo', type: 'Video SEO' },
 
       ]
     },
 
-    {
-      heading: "Development",
+    {heading: "Pay-Per-Click (PPC)",
       types: [
-        { path: '/responsive-website-development', type: 'Responsive Website Development' },
-        { path: '/web-application-development', type: 'Web Application Development' },
-        { path: '/shopify-ecommerce-development', type: 'Shopify E-commerce Development' },
-        { path: '/ar-vr-development', type: 'AR/VR Development' },
-        { path: '/api-development-and-integration', type: 'API Development and Integration' },
-        { path: '/custom-software-development', type: 'Custom Software Development' },
-        { path: '/mobile-app-development', type: 'Mobile App Development' },]
+        { path: '/google-ads-ppc', type: 'Google Ads PPC' },
+        { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
+        { path: '/ab-testing-ads', type: 'A/B Testing for Ads (added)' },
+        { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
+
+        // { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
+
+      ]
     },
 
-    {
-      heading: "Machine Learnig & Updates",
+    {heading: "Social Media & Design",
       types: [
+        { path: '/social-media-brand-audits', type: 'Social Media Brand Audits' },
+        { path: '/enterprise-smm', type: "Enterprise (SMM)" },
+
+        { path: '/interactive-prototyping', type: 'Interactive Prototyping' },
+        { path: '/ab-testing-and-CRO', type: 'A/B Testing & CRO (added)' },
+      ]
+    },
+
+    {heading: "Development & Infrastructure",
+      types: [
+        { path: '/responsive-web-development', type: 'Responsive Website Development' },
+        { path: '/shopify-ecommerce-development', type: "Shopify E-commerce Development" },
+
         { path: '/web-infrastructure-maintenance', type: 'Web Infrastructure & Maintenance' },
-        { path: '/security-monitoring-and-updates', type: 'Security Monitoring and Updates' },
-        { path: '/backup-and-recovery-solutions', type: 'Backup & Recovery Solutions' },
-        { path: '/integration-updates', type: 'Integration Updates' },
-        { path: '/technical-seo-maintenance', type: 'Technical SEO Maintenance' },
-        { path: '/performance-optimization', type: 'Performance Optimization' },]
+        { path: '/user-onboarding-optimization', type: 'User Onboarding Optimization' },
+      ]
     },
 
-    { IMG: 'https://c8.alamy.com/comp/2D56311/female-web-developer-creating-program-code-development-of-software-and-programming-concept-full-length-vertical-vector-illustration-2D56311.jpg' },
+
     ]
   },
 
+  {navigator: "AI & Automation", sections: [
 
-  {navigator: "CyberSecurity & DevOps", sections: [
-      {heading: "Cyber Security",
-        types: [
-          { path: '/penetration-testing', type: 'Penetration Testing' },
-          { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
-          { path: '/incident-response-and-recovery', type: 'Incident Response and Recovery' },
+    {heading: "AI Solutions",
+      types: [
+        { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+        { path: '/ai-driven-automation-optimization', type: 'AI-Driven Automation & Optimization' },
+        { path: '/natural-language-processing-nlp', type: 'Natural Language Processing (NLP)' },
+      ]
+    },
 
-          { path: '/firewall-and-network-security-setup', type: 'Firewall and Network Security Setup' },
-          { path: '/data-encryption-solutions', type: 'Data Encryption Solutions' },
-          { path: '/compliance-management', type: 'Compliance Management' },
-          { path: '/zero-trust-architecture', type: 'Zero Trust Architecture' },
-        ]
-      },
+    {
+      heading: "Chatbots & Workflows",
+      types: [
+        { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+        { path: '/power-automate', type: 'Power Automate' },
+        { path: '/ai-powered-email-flows', type: 'AI-Powered Email Flows' },
+      ]
+    },
 
-      {heading: "DevOps", types: [
-          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
-          { path: '/api-management-and-automation', type: 'API Management and Automation' },
-          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
-          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
-          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
-          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+    { IMG: 'https://www.shutterstock.com/image-vector/concept-illustration-on-topic-artificial-600nw-1743263447.jpg' },
+    { IMG: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZJmSi_wplFO7qPmSbhLC7QkXYGzIo0N-Bw&s' },]
+  },
 
-        ]
-      },
+
+  {navigator: "Data Intelligence", sections: [
+    
+    {heading: "Analytics & Insights",
+      types: [
+        { path: '/power-bi-dashboards', type: 'Power BI Dashboards' },
+        { path: '/excel-insights', type: 'Excel Insights' },
+        { path: '/sentiment-analysis', type: 'Sentiment Analysis' },
+        { path: '/performance-dashboards', type: 'Performance Dashboards' },
+      ]
+    },
+
+    {heading: "Machine Learning & Big Data",
+      types: [
+        { path: '/predictive-analytics-machine-learning', type: 'Predictive Analytics & Machine Learning' },
+        { path: '/data-cleaning-preprocessing', type: 'Data Cleaning & Preprocessing' },
+        { path: '/big-data-analytics-solutions', type: 'Big Data Analytics Solutions' },
+      ]
+    },
 
       { IMG: 'https://media.gettyimages.com/id/910862536/vector/cyber-security-concept-vertical.jpg?s=612x612&w=gi&k=20&c=z-Liy_P063TUdoHrawKFo4lAWspkPlcJnMrlcvUomxw=' },
 
@@ -170,37 +208,7 @@ export const mainNavData = [
     ]
   },
 
-  {navigator: "AI & Data Science ", sections: [
-      {
-        heading: "Artificial Intelligence (AI)",
-        types: [
-          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
-          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
-          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
-          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
-          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
-          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
-
-        ]
-      },
-
-      {
-        heading: "Data Analysis",
-        types: [
-          { path: '/power-automate', type: 'Power Automate' },
-          { path: '/power-bi-dashboards', type: 'Power BI Dashboards' },
-          { path: '/excel-insights', type: 'Excel Insights' },
-          { path: '/predictive-analytics-and-machine-learning', type: 'Predictive Analytics & Machine Learning' },
-          { path: '/data-cleaning-and-preprocessing', type: 'Data Cleaning & Preprocessing' },
-          { path: '/big-data-analytics-solutions', type: 'Big Data Analytics Solutions' },
-          { path: '/sentiment-analysis', type: 'Sentiment Analysis' },
-
-        ]
-      },
-
-      { IMG: 'https://www.shutterstock.com/image-vector/concept-illustration-on-topic-artificial-600nw-1743263447.jpg' },
-      { IMG: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZJmSi_wplFO7qPmSbhLC7QkXYGzIo0N-Bw&s' },]
-  },
+  
 
   {navigator: "Who We Are", sections: [
       {

@@ -1,31 +1,8 @@
+const { delay } = require('framer-motion');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
-  safelist: [
-    'col-span-1',
-    'col-span-2',
-    'col-span-3',
-    'col-span-4',
-    'col-span-5',
-    'col-span-6',
-
-
-    'md:col-span-1',
-    'md:col-span-2',
-    'md:col-span-3',
-    'md:col-span-4',
-    'md:col-span-5',
-    'md:col-span-6',
-
-
-    'lg:col-span-1',
-    'lg:col-span-2',
-    'lg:col-span-3',
-    'lg:col-span-4',
-    'lg:col-span-5',
-    'lg:col-span-6',
-
-  ],
   theme: {
     extend: {
       screens: {
@@ -38,6 +15,14 @@ module.exports = {
         '3xl': '1736px',   // 2x extra large screen
       },
 
+      
+      colors: {
+        darkBlue: '#032d60',
+        textColor : '#313131' , // Dark Blue
+        lightBlue : '#105DAA',
+         // Dark Gray
+      },
+
       // animation keyframes 
       keyframes: {
         spinCustom: {
@@ -45,9 +30,13 @@ module.exports = {
           '50%': { transform: 'rotate(180deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },
+        spawnNav: {
+          '0%': {  opacity: '0' ,  },
+          '100%': {  opacity: '1' , },
+        },
         expand: {
-          '0%': { marginTop : '100px', opacity: '0' },
-          '100%': { marginTop: '0', opacity: '1' }, // Adjust maxHeight based on your content size
+          '0%': { marginTop : '100px', opacity: '0' ,  },
+          '100%': { marginTop: '0', opacity: '1' , }, // Adjust maxHeight based on your content size
         },
         contract: {
           '0%': { maxHeight: '500px', opacity: '1', transform: 'scaleY(1)' },
@@ -66,7 +55,8 @@ module.exports = {
       },
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
-        expand: 'expand 0.3s ease-in-out', // Custom expand animation
+        spawnNav: 'spawnNav 0.3s ease-in-out ', // Custom expand animation
+        expand: 'expand 0.3s ease-in-out ', // Custom expand animation
         contract: 'contract 0.3s ease-in', // Custom expand animation
         scroll: 'scroll 40s linear infinite', // Adjust duration as needed
         fadeIn: 'fadeIn 0.5s ease-out'

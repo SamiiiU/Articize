@@ -33,7 +33,7 @@ const DriveTraffic = () => {
     
   return (
 
-    <div className='w-full   px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full   px-4 sm:px-16 md:px-28 2xl:px-80 py-10 flex flex-col gap-10 text-center items-center '>
 
       {/* Navbar */}
       <div className=" flex sticky rounded-full md:bg-gray-100 p-4 justify-center flex-wrap items-center gap-4 ">

@@ -16,74 +16,78 @@ const Nav = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   // const [scrwidth, setWidth] = useState(window.innerWidth); //state for windows width measuring
-  const [isBigMenu , setIsBigMenu]  = useState(false); // state for the navigation hover hanlde of bis screens
+  const [isBigMenu, setIsBigMenu] = useState(false); // state for the navigation hover hanlde of bis screens
   const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
 
 
-  const [currDataIndex , setCurrDataIndex] = useState(0)
-  
-  const {scrwidth} = useContext(ContextAPI);
-  
-    //handler for main screen navigation 
-    const navHandler = (index) =>{
-        setCurrDataIndex(index);
+  const [currDataIndex, setCurrDataIndex] = useState(0)
+
+  const { scrwidth } = useContext(ContextAPI);
+
+  //handler for main screen navigation 
+  const navHandler = (index) => {
+    setCurrDataIndex(index);
+    if(index){
+      setTimeout(() => {
         setIsBigMenu(true);
-        if(index == null){
-          setIsBigMenu(false)
-        }
+      }, 300);
     }
+    else {
+      setIsBigMenu(false)
+    }
+  }
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const currentScrollY = window.scrollY;
-  
-        if (currentScrollY > lastScrollY && currentScrollY > 50) {
-          // User is scrolling down
-          setIsNavbarVisible(false);
-        } else {
-          // User is scrolling up
-          setIsNavbarVisible(true);
-        }
-  
-        setLastScrollY(currentScrollY);
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, [lastScrollY]);
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
 
-   
-    
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        // User is scrolling down
+        setIsNavbarVisible(false);
+      } else {
+        // User is scrolling up
+        setIsNavbarVisible(true);
+      }
 
-    useEffect(() => {
-    
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
+
+
+
+  useEffect(() => {
+
     window.addEventListener('scroll', toggleVisibility);
     // Cleanup function to remove the event listener on unmount
     return () => {
-       window.removeEventListener('scroll', toggleVisibility)
+      window.removeEventListener('scroll', toggleVisibility)
     };
-    
-    }, []);
 
-    // Show button when page is scrolled down
-    const toggleVisibility = () => {
-      if (window.scrollY > 300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
-  
-    // Scroll to top function
-    const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    };
+  }, []);
+
+  // Show button when page is scrolled down
+  const toggleVisibility = () => {
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
 
 
@@ -91,100 +95,78 @@ const Nav = () => {
   return (
     <>
 
-    {/* button for scrolling to top  */}
-    <span onClick={scrollToTop} className= {`z-50 fixed sm:bottom-5 bottom-10 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp/></span>  
-    
-    {/* services detailed navigation div starts here  */}
+      {/* button for scrolling to top  */}
+      <span onClick={scrollToTop} className={`z-50 fixed sm:bottom-5 bottom-10 ${!isVisible && 'hidden opacity-100'} right-5 lg:text-5xl text-3xl transition-all text-white  bg-[#16316a] lg:p-2 cursor-pointer rounded-full  `}><FaArrowAltCircleUp /></span>
 
+      {scrwidth > 1280 ? (
+        <div  >
+          <div className={`z-50 fixed w-full  transition-all ${isNavbarVisible ? 'translate-y-0' : '-translate-y-20'} shadow-lg bg-white `}>
+            <div className='flex items-center py-3 px-4'>
+              {/* Logo image started  */}
+              <Link to="/" className='w-[8%] h-16  px-4  ' style={{ backgroundImage: `url(${logoIMG})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></Link>
+              {/* Logo image done  */}
+              <div className='w-full h-16  flex items-center 2xl:gap-x-4 mx-6'>
 
-    {/* main navigation for large devices is here started  */}
-    {scrwidth > 1280 ? (
-        <div onMouseLeave={() => navHandler(null)} >
-        <div  className={`z-50 fixed w-full px-10 transition-all ${isNavbarVisible ? 'translate-y-0' : '-translate-y-20'} flex  items-center shadow-sm text-white bg-white`}>
-          {/* Logo image started  */}
-        <Link to="/" className='w-[10%] h-16  px-4  ' style={{backgroundImage : `url(${logoIMG})`, backgroundSize : 'contain' , backgroundPosition : 'center', backgroundRepeat : 'no-repeat'}}></Link>
-        {/* Logo image done  */}
-        <div  className='w-full h-16  mx-28 flex  justify-between text-[#313131] 2xl:gap-x-8 '>
+                {mainNavData.map((category, index) => (
+                  <span >
+                    <h1 key={index} onClick={() => navHandler(index)} className=' text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold'>{category.navigator} </h1>
+                    {/* <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/> */}
+                  </span>
+                ))}
 
-            {mainNavData.map((category , index)=> (
-              <span key={index} onMouseEnter={() => navHandler(index)}  className='flex-1 group flex justify-start  items-center  hover:bg-[#EDF5FF] cursor-pointer px-4 rounded-md'>
-              <h1 className='flex-1 2xl:text-lg text-sm text-md'>{category.navigator} </h1> <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/>
-              </span>
-            ))}
+              </div>
 
-        </div>
+              <span className='font-bold min-w-fit text-lg py-2 cursor-pointer text-white bg-[#207DE9] px-4 rounded '>Get a proposal</span>
 
-        <span className='font-bold min-w-fit text-lg py-2 cursor-pointer bg-[#207DE9] px-4 rounded'>Get a proposal</span>
-
-        </div>
-
-
-        {isBigMenu && (
-          <div key={currDataIndex} onMouseLeave={() => navHandler(null)}
-        className={`w-full shadow-xl bg-white overflow-y-scroll xl:min-h-[50vh] animate-expand  fixed z-40 px-28 pb-10 pt-24 flex justify-between gap-8`}   
-        id='big-menu'>
-        
-
-        {mainNavData[currDataIndex].sections.map((pages , index) => (
-          <div key={index} className='flex-1 shadow-xl rounded-lg flex flex-col bg-white py-4 px-4' style={{backgroundImage : `url('${pages?.IMG}')` , backgroundPosition : 'center' , backgroundSize: 'cover'}}>
-          <h1 className='font-bold mb-3'>{pages.heading}</h1>
-          {pages.types?.map((stype , idx) => (
+            </div>
             
-            <>
-            <Link key={idx} onClick={() => setIsBigMenu(false)} to={stype.path} 
-            className="flex items-center my-3 font-normal gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
-              <span className='text-sm'>{stype.type}</span> 
-            <FaArrowRight size="0.8em" className='opacity-0 w-8 -translate-x-4 group-hover:translate-x-4 group-hover:opacity-100 transition-all'/>
-            </Link>
-            
-            </>
-          ))}
-        </div>
-        ))}
+            {isBigMenu  && (
+            <div  key={currDataIndex} 
+              className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 xl:px-40 px-28 pb-10 pt-4  gap-8`}
+            >
 
-         </div>)}
-        
-        </div >
+              <div className='flex justify-between '>
+                {mainNavData[currDataIndex].sections.map((pages, index) => (
+                  <div onMouseLeave={() => navHandler(null)} key={index} className={`flex-1 animate-spawnNav shadow-xl flex flex-col min-h-[40vh] ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+                    <h1 className='font-bold mb-3'>{pages.heading}</h1>
+                    {pages.types?.map((stype, idx) => (
 
-    ) : (
-      
-        // Nav for small devices is started here 
-        <>
-        
+                      <>
+                        <Link key={idx} onClick={() => setIsBigMenu(false)} to={stype.path}
+                          className="flex items-center my-3 font-normal gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
+                          <span className='text-sm'>{stype.type}</span>
+                          <FaArrowRight size="0.8em" className='opacity-0 w-8 -translate-x-4 group-hover:translate-x-4 group-hover:opacity-100 transition-all' />
+                        </Link>
 
-        {/* THis is navigation  */}
-        {/* <div className='w-full fixed min-h-scree pt-20 flex flex-col  bg-teal-200'>
-          <div className='w-full bg-white group'>
-            <h1 className='p-4 font-bold border-y-2 border-black text-black text-4xl py-4'>SEO & PPC</h1>
+                      </>
+                    ))}
 
-            <div className='w-full px-6  py-2 text-2xl font-semibold max-h-0 group-hover:max-h-fit'>
-                <h1 className='py-4 flex gap-x-2 items-center'>SEO <FaArrowDown className='rotate-[-90deg]'/></h1>
-                {NavigationData.SEO.map((item, idx) => (
-                  <div className="" key={idx}>
-                    <p className='pl-8'>{item}</p>
                   </div>
                 ))}
-            </div>
+              </div>
 
-          </div>
-          <div className='w-full p-4 font-bold border-y-2 border-black bg-white text-black text-4xl py-8'>
-            sdadsa
-
-          </div>
-          <div className='w-full p-4 font-bold border-y-2 border-black bg-white text-black text-4xl py-8'>
-            sdadsa
-
+            </div>)}
           </div>
 
-        </div> */}
 
-        <MobNav/>
+
+          
+
+        </div >
+
+      ) : (
+
+        // Nav for small devices is started here 
+        <>
+
+
+          <MobNav />
 
         </>
 
 
-        
-    )}
+
+      )}
 
     </>
   )
