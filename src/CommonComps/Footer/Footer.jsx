@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <div className='w-full  '>
             {/* first row start here  */}
-            <div className='w-full  transition-all duration-1000  px-4 sm:px-16 md:px-28 2xl:px-48 pt-10 flex mb-10 flex-wrap xl:flex-row flex-col gap-y-10 gap-x-4  justify-between'>
+            <div className='w-full  transition-all duration-1000  px-4 sm:px-12 2xl:px-48 pt-10 flex mb-10 flex-wrap xl:flex-row flex-col gap-y-10 gap-x-4  justify-between'>
                 {/* logo and CTA section  */}
                 <div className='xl:w-[30%] w-full  text-sm'>
                     <div className='w-40 h-20 ' style={{ backgroundImage: `url("${logo}")`, backgroundSize: 'cover', backgroundPosition: 'center' }} />

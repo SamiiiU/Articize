@@ -1,8 +1,7 @@
-const { delay } = require('framer-motion');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
+ 
   theme: {
     extend: {
       screens: {
@@ -15,13 +14,12 @@ module.exports = {
         '3xl': '1736px',   // 2x extra large screen
       },
 
-      
-      colors: {
-        darkBlue: '#032d60',
-        textColor : '#313131' , // Dark Blue
-        lightBlue : '#105DAA',
-         // Dark Gray
+      colors : {
+        darkBlue : '#142d60',
+        lightBlue : '#3c76d3'
       },
+
+
 
       // animation keyframes 
       keyframes: {
@@ -31,12 +29,16 @@ module.exports = {
           '100%': { transform: 'rotate(360deg)' },
         },
         spawnNav: {
-          '0%': {  opacity: '0' ,  },
-          '100%': {  opacity: '1' , },
+          '0%': { opacity: '0' , },
+          '100%': { opacity: '1' , }, // Adjust maxHeight based on your content size
+        },
+        hideNav: {
+          '0%': { opacity: '1' , },
+          '100%': { opacity: '0' , }, // Adjust maxHeight based on your content size
         },
         expand: {
-          '0%': { marginTop : '100px', opacity: '0' ,  },
-          '100%': { marginTop: '0', opacity: '1' , }, // Adjust maxHeight based on your content size
+          '0%': { marginTop : '100px', opacity: '0' },
+          '100%': { marginTop: '0', opacity: '1' }, // Adjust maxHeight based on your content size
         },
         contract: {
           '0%': { maxHeight: '500px', opacity: '1', transform: 'scaleY(1)' },
@@ -55,8 +57,10 @@ module.exports = {
       },
       animation: {
         spinCustom: 'spinCustom 10s linear infinite',
-        spawnNav: 'spawnNav 0.3s ease-in-out ', // Custom expand animation
-        expand: 'expand 0.3s ease-in-out ', // Custom expand animation
+        // spawnNav: 'spawnNav 1s ease-in-out ', // Custom expand animation
+        spawnNav: 'spawnNav 0.3s ease forwards',
+        hideNav: 'hideNav 0.3s ease forwards',
+        expand: 'expand 0.3s ease-in-out', // Custom expand animation
         contract: 'contract 0.3s ease-in', // Custom expand animation
         scroll: 'scroll 40s linear infinite', // Adjust duration as needed
         fadeIn: 'fadeIn 0.5s ease-out'

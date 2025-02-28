@@ -3,7 +3,7 @@ import image from '../../../Assets/Images/HomeImages/contentmarketing.png'
 
 const WhatIs = () => {
   return (
-    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-80 py-20 flex justify-center lg:flex-row flex-col  '>
+    <div className='w-full  px-4 sm:px-12 2xl:px-80 py-20 flex justify-center lg:flex-row flex-col  '>
        <div className='lg:w-1/2 w-full h-60' style={{backgroundImage : `url(${image})` , backgroundPosition : 'center' , backgroundRepeat: 'no-repeat' , backgroundSize : 'contain'}}>
        </div>
        <div className='lg:w-1/2 w-full  px-4'> 

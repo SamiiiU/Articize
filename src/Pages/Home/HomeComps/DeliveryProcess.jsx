@@ -3,7 +3,7 @@ import HomeData from '../../../Data/HomeData/HomeData'
 
 const DeliveryProcess = () => {
   return (
-    <div className='w-full bg-[#243B79] text-white  px-4 sm:px-16 md:px-28 2xl:px-80 py-10 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full bg-[#243B79] text-white  px-4 sm:px-12 2xl:px-80 py-10 flex flex-col gap-10 text-center items-center '>
       
       <h1 className='lg:text-5xl text-2xl font-[800]'>Our <strong>Client-Centric
         </strong> Delivery Process</h1>

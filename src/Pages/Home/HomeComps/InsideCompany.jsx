@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 const InsideCompany = () => {
     const [activeIndex , setActiveIndex ] = useState(0)
   return (
-    <div className='w-full  px-4 sm:px-16 md:px-28 2xl:px-48 py-20 flex flex-col gap-10 text-center items-center '>
+    <div className='w-full  px-4 sm:px-12 2xl:px-80 py-20 flex flex-col gap-10 text-center items-center '>
       <h1 className='lg:text-[3rem] text-[2.5rem] font-[800]'>Company Culture and 
         <span className='text-[#207CE7]'> Inside Look</span>  Section</h1>
         <p className='lg:text-xl text-lg font-normal text-[#0b1720] '>Our expert-led digital strategies are supported by cutting-edge technology. At DEVXCLOUD, we enable our clients to make informed and strategic decisions, propelling them ahead in the dynamic digital landscape. Explore our comprehensive suite of services and see how they can transform your business.</p>

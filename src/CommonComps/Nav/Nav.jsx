@@ -9,6 +9,7 @@ import { ContextAPI } from '../../GlobalProvider/ContextAPI';
 import { Link, useNavigate } from 'react-router-dom';
 import MobNav from './MobNav';
 import { FaArrowRight } from 'react-icons/fa6';
+import { AnimatePresence , motion } from 'framer-motion';
 
 
 const Nav = () => {
@@ -20,21 +21,22 @@ const Nav = () => {
   const [isVisible, setIsVisible] = useState(false); // it is for scroll to top button
 
 
+
   const [currDataIndex, setCurrDataIndex] = useState(0)
 
   const { scrwidth } = useContext(ContextAPI);
 
   //handler for main screen navigation 
-  const navHandler = (index) => {
-    setCurrDataIndex(index);
-    if(index){
+  const navHandler = (index , status ) => {
+        setIsBigMenu(status == true ? false : true);
+      
+    
       setTimeout(() => {
-        setIsBigMenu(true);
-      }, 300);
-    }
-    else {
-      setIsBigMenu(false)
-    }
+        setIsBigMenu(status);
+        setCurrDataIndex(index);
+        
+      }, 200);
+    
   }
 
   useEffect(() => {
@@ -109,8 +111,7 @@ const Nav = () => {
 
                 {mainNavData.map((category, index) => (
                   <span >
-                    <h1 key={index} onClick={() => navHandler(index)} className=' text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold'>{category.navigator} </h1>
-                    {/* <MdOutlineKeyboardArrowDown className='rotate-180 group-hover:rotate-[360deg] transition-all' size={25}/> */}
+                    <h1 key={index} onClick={() => navHandler(index, true )} className=' text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold'>{category.navigator} </h1>
                   </span>
                 ))}
 
@@ -120,14 +121,20 @@ const Nav = () => {
 
             </div>
             
+            <AnimatePresence>
+
             {isBigMenu  && (
-            <div  key={currDataIndex} 
-              className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 xl:px-40 px-28 pb-10 pt-4  gap-8`}
+            <motion.div
+              initial={{ opacity : 0}}  // Start with height 0
+              animate={{ opacity : 1}} // Expand to auto when state is true
+              exit={{ opacity : 0}} // Smooth collapse on exit
+              transition={{ duration: 0.2 , ease : 'easeInOut'}} // Smooth transition
+              className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 2xl:px-40 px-4 pb-10   gap-8 `}
             >
 
               <div className='flex justify-between '>
                 {mainNavData[currDataIndex].sections.map((pages, index) => (
-                  <div onMouseLeave={() => navHandler(null)} key={index} className={`flex-1 animate-spawnNav shadow-xl flex flex-col min-h-[40vh] ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+                  <div onMouseLeave={() => navHandler(0 , false )} key={index} className={`flex-1  shadow-xl flex flex-col min-h-[70vh] 2xl:min-h-[50vh] h-full ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
                     <h1 className='font-bold mb-3'>{pages.heading}</h1>
                     {pages.types?.map((stype, idx) => (
 
@@ -145,7 +152,8 @@ const Nav = () => {
                 ))}
               </div>
 
-            </div>)}
+            </motion.div>)}
+            </AnimatePresence>
           </div>
 
 
