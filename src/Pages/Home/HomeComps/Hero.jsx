@@ -4,7 +4,7 @@ import heroVid from '../../../Assets/Videos/HomeVideos/HomeHero.mp4'
 
 const Hero = () => {
   return (
-    <div className='w-full  bg-[#0077B6]/10  px-4 sm:px-12  2xl:px-80
+    <div className='w-full   px-4 sm:px-12  2xl:px-80
      pt-44 pb-20 flex   '>
         {/* <span className='w-full h-full absolute top-0 z-0' style={{backgroundImage : `url(${heroBG})` , backgroundSize : 'contain' , backgroundPosition : 'center' , backgroundRepeat : 'no-repeat'}}/> */}
         <div className='w-full z-10 flex justify-center items-center flex-col lg:flex-row gap-10 '>
