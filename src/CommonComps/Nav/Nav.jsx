@@ -132,9 +132,9 @@ const Nav = () => {
               className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 2xl:px-40 px-4 pb-10   gap-8 `}
             >
 
-              <div className='flex justify-between '>
+              <div className='flex justify-between ' onMouseLeave={() => navHandler(0 , false )}>
                 {mainNavData[currDataIndex].sections.map((pages, index) => (
-                  <div onMouseLeave={() => navHandler(0 , false )} key={index} className={`flex-1  shadow-xl flex flex-col min-h-[70vh] 2xl:min-h-[50vh] h-full ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+                  <div  key={index} className={`flex-1  shadow-xl flex flex-col min-h-[70vh] 2xl:min-h-[50vh] h-full ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
                     <h1 className='font-bold mb-3'>{pages.heading}</h1>
                     {pages.types?.map((stype, idx) => (
 
