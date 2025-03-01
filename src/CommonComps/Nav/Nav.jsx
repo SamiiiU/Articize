@@ -22,7 +22,7 @@ const Nav = () => {
 
 
 
-  const [currDataIndex, setCurrDataIndex] = useState(0)
+  const [currDataIndex, setCurrDataIndex] = useState(null)
 
   const { scrwidth } = useContext(ContextAPI);
 
@@ -31,10 +31,10 @@ const Nav = () => {
         setIsBigMenu(status == true ? false : true);
       
     
-      if(index != currDataIndex){
+      if(index-1 != currDataIndex){
         setTimeout(() => {
         setIsBigMenu(status);
-        setCurrDataIndex(index);
+        setCurrDataIndex(index-1);
         
       }, 200);
       }else{
@@ -116,8 +116,8 @@ const Nav = () => {
 
                 {mainNavData.map((category, index) => (
                   <span >
-                    <h1 key={index} onClick={() => navHandler(index, true )} className={
-                      ` text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold ${index == currDataIndex && 'underline underline-offset-4 decoration-2 text-lightBlue' }`
+                    <h1 key={index} onClick={() => navHandler(category.idx, true )} className={
+                      ` text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold ${category.idx-1  == currDataIndex && 'underline underline-offset-4 decoration-2 text-lightBlue' }`
                     }>{category.navigator} </h1>
                   </span>
                 ))}

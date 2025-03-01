@@ -54,7 +54,9 @@ export const footerNavigations = {
 
 
 export const mainNavData = [
-  {navigator: "DevXCloud Hub",  
+  { 
+    idx : 1,
+    navigator: "DevXCloud Hub",  
     sections: [
     {heading: "AI-Powered E-Commerce Growth Suite",
       types: [
@@ -105,10 +107,13 @@ export const mainNavData = [
     },
 
     // { IMG: 'https://img.freepik.com/premium-vector/search-engine-optimization-design_24908-12065.jpg?semt=ais_hybrid' },
-    ]
+    ],
+
   },
 
-  {navigator: "Digital Foundations", 
+  {
+    idx : 2,
+    navigator: "Digital Foundations", 
     sections: [
 
     {heading: "Search Engine Optimization (SEO)",
@@ -159,7 +164,9 @@ export const mainNavData = [
     ]
   },
 
-  {navigator: "AI & Automation", sections: [
+  {
+    idx : 3,
+    navigator: "AI & Automation", sections: [
 
     {heading: "AI Solutions",
       types: [
@@ -183,7 +190,9 @@ export const mainNavData = [
   },
 
 
-  {navigator: "Data Intelligence", sections: [
+  {
+    idx : 4,
+    navigator: "Data Intelligence", sections: [
     
     {heading: "Analytics & Insights",
       types: [
@@ -210,7 +219,9 @@ export const mainNavData = [
 
   
 
-  {navigator: "Who We Are", sections: [
+  {
+    idx : 5,
+    navigator: "Who We Are", sections: [
       {
         heading: "Who We Are",
         types: [
