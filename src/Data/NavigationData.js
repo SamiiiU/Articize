@@ -1,5 +1,7 @@
-
-
+import InsightsIcon from '@mui/icons-material/Insights';
+import BackupIcon from '@mui/icons-material/Backup';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 
 export const footerNavigations = {
   popularServices: [
@@ -59,6 +61,7 @@ export const mainNavData = [
     navigator: "DevXCloud Hub",  
     sections: [
     {heading: "AI-Powered E-Commerce Growth Suite",
+      icon : <InsightsIcon className='text-lightBlue'/>,
       types: [
         { path: '/technical-seo', type: 'Technical SEO' },
         { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
@@ -68,6 +71,8 @@ export const mainNavData = [
     },
 
     {heading: "SaaS Scalability Suite",
+      icon : <BackupIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/google-ads-ppc', type: 'Google Ads PPC' },
         { path: '/technical-seo-maintenance', type: 'Technical SEO Maintenance' },
@@ -79,6 +84,8 @@ export const mainNavData = [
     },
 
     {heading: "Startup Launch Accelerator",
+      icon : <RocketLaunchIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/custom-website-design', type: 'Custom Website Design' },
         { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
@@ -93,6 +100,8 @@ export const mainNavData = [
     },
 
     {heading: "Enterprise Powerhouse (Platinum Tier)",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/launchpad-ai-starter', type: 'Launchpad AI Starter' },
         { path: '/ai-growth-accelator', type: 'AI Growth Accelerator' },
@@ -117,6 +126,8 @@ export const mainNavData = [
     sections: [
 
     {heading: "Search Engine Optimization (SEO)",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/ecommerce-seo', type: 'E-commerce SEO' },
         { path: '/local-seo', type: 'Local SEO' },
@@ -129,6 +140,8 @@ export const mainNavData = [
     },
 
     {heading: "Pay-Per-Click (PPC)",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/google-ads-ppc', type: 'Google Ads PPC' },
         { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
@@ -141,6 +154,8 @@ export const mainNavData = [
     },
 
     {heading: "Social Media & Design",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/social-media-brand-audits', type: 'Social Media Brand Audits' },
         { path: '/enterprise-smm', type: "Enterprise (SMM)" },
@@ -151,6 +166,8 @@ export const mainNavData = [
     },
 
     {heading: "Development & Infrastructure",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/responsive-web-development', type: 'Responsive Website Development' },
         { path: '/shopify-ecommerce-development', type: "Shopify E-commerce Development" },
@@ -169,6 +186,8 @@ export const mainNavData = [
     navigator: "AI & Automation", sections: [
 
     {heading: "AI Solutions",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
         { path: '/ai-driven-automation-optimization', type: 'AI-Driven Automation & Optimization' },
@@ -178,6 +197,8 @@ export const mainNavData = [
 
     {
       heading: "Chatbots & Workflows",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
         { path: '/power-automate', type: 'Power Automate' },
@@ -195,6 +216,8 @@ export const mainNavData = [
     navigator: "Data Intelligence", sections: [
     
     {heading: "Analytics & Insights",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/power-bi-dashboards', type: 'Power BI Dashboards' },
         { path: '/excel-insights', type: 'Excel Insights' },
@@ -204,6 +227,8 @@ export const mainNavData = [
     },
 
     {heading: "Machine Learning & Big Data",
+      icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
       types: [
         { path: '/predictive-analytics-machine-learning', type: 'Predictive Analytics & Machine Learning' },
         { path: '/data-cleaning-preprocessing', type: 'Data Cleaning & Preprocessing' },
@@ -224,6 +249,8 @@ export const mainNavData = [
     navigator: "Who We Are", sections: [
       {
         heading: "Who We Are",
+        icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
         types: [
           { "path": "/our-vision", "type": "Our Vision" },
           { "path": "/know-us-better", "type": "Know Us Better" },
@@ -237,6 +264,8 @@ export const mainNavData = [
 
       {
         heading: "Community Impact",
+        icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
         types: [
           { "path": "/our-core-values", "type": "Our Core Values" },
           { "path": "/impact-beyond-business", "type": "Impact Beyond Business" },
@@ -249,6 +278,8 @@ export const mainNavData = [
 
       {
         "heading": "Pricing Guides",
+        icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
         "types": [
           { "path": "/website-cost-estimates", "type": "Website Cost Estimates" },
           { "path": "/ppc-pricing-breakdown", "type": "PPC Pricing Breakdown" },
@@ -261,6 +292,8 @@ export const mainNavData = [
 
       {
         "heading": "Content Library",
+        icon : <MilitaryTechIcon className='text-lightBlue'/>,
+
         "types": [
           { "path": "/insights-hub", "type": "Insights Hub" },
           { "path": "/seo-audit-tool", "type": "SEO Audit Tool" },

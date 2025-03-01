@@ -1,5 +1,5 @@
 import React, { Fragment, useContext, useEffect, useState } from 'react'
-import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
+import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import { LuMenu } from "react-icons/lu";
 import logoIMG from '../../Assets/Images/CommonImages/LogoMain.png'
 import { FaArrowAltCircleUp, FaArrowCircleRight, FaArrowDown } from 'react-icons/fa';
@@ -107,48 +107,54 @@ const Nav = () => {
 
       {scrwidth > 1280 ? (
         <div  >
-          <div className={`z-50 fixed w-full  transition-all duration-500 ${isNavbarVisible ? 'translate-y-0' : '-translate-y-28'} shadow-lg bg-white `}>
-            <div className='flex items-center py-3 px-4'>
+          <div className={`z-50 fixed w-full  transition-all duration-500  bg-white `}>
+            <div className='flex items-center py-2 px-4'>
               {/* Logo image started  */}
-              <Link to="/" className='w-[8%] h-16  px-4  ' style={{ backgroundImage: `url(${logoIMG})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></Link>
+              <Link to="/" className='w-[7%] h-16  px-4  ' style={{ backgroundImage: `url(${logoIMG})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}/>
               {/* Logo image done  */}
-              <div className='w-full h-16  flex items-center 2xl:gap-x-4 mx-6'>
+              <div className='w-full h-16  flex items-center 2xl:gap-x-4 mx-10'>
 
                 {mainNavData.map((category, index) => (
                   <span >
                     <h1 key={index} onClick={() => navHandler(category.idx, true )} className={
-                      ` text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold ${category.idx-1  == currDataIndex && 'underline underline-offset-4 decoration-2 text-lightBlue' }`
-                    }>{category.navigator} </h1>
+                      ` text-darkBlue cursor-pointer flex items-center gap-x-3 px-8 py-2  rounded-md hover:text-lightBlue  text-md font-[700] ${category.idx-1  == currDataIndex && ' text-lightBlue' }`
+                    }>
+                      {category.navigator} 
+                      <ArrowBackIosRoundedIcon className={`-rotate-90 text-sm transition-all duration-200  ${category.idx-1  == currDataIndex && 'rotate-90' }`} sx={{ fontSize: 11 }}/> 
+
+                    </h1>
                   </span>
                 ))}
 
               </div>
 
-              <span className='font-bold min-w-fit text-lg py-2 cursor-pointer text-white bg-[#207DE9] px-4 rounded '>Get a proposal</span>
+              <span className='font-bold min-w-fit text-lg py-2 cursor-pointer text-white bg-greenButton px-4 rounded '>Get a proposal</span>
 
             </div>
             
             <AnimatePresence>
-
+            {/* // ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } */}
             {isBigMenu  && (
             <motion.div
               initial={{ opacity : 0}}  // Start with height 0
               animate={{ opacity : 1}} // Expand to auto when state is true
               exit={{ opacity : 0}} // Smooth collapse on exit
               transition={{ duration: 0.2 , ease : 'easeInOut'}} // Smooth transition
-              className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 2xl:px-40 px-4 pb-10   gap-8 `}
+              className={`w-full  bg-darkBlue/50 h-screen  fixed z-40 2xl:px-96 px-4 pb-10   gap-8 `}
             >
 
-              <div className='flex justify-between ' onMouseLeave={() => navHandler(0 , false )}>
+              <div className='grid grid-cols-2 grid-rows-2 p-10 bg-white gap-6' onMouseLeave={() => navHandler(0 , false )}>
                 {mainNavData[currDataIndex].sections.map((pages, index) => (
-                  <div  key={index} className={`flex-1  shadow-xl flex flex-col min-h-[70vh] 2xl:min-h-[50vh] h-full ${index < mainNavData[currDataIndex].sections.length - 1 && 'border-r-[1px] border-textColor/20' } bg-white py-4 px-4`} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                    <h1 className='font-bold mb-3'>{pages.heading}</h1>
+                  <div  key={index} className={`min-w-[40%] col-span-1 hover:bg-[#0077B6]/10 rounded-md max-w-1/2  flex flex-col  2xl:min-h-52   py-4 px-4
+                    
+                  `} style={{ backgroundImage: `url('${pages?.IMG}')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+                    <h1 className='font-bold mb-3 text-xl flex gap-x-4'>{pages.heading} {pages.icon}</h1>
                     {pages.types?.map((stype, idx) => (
 
                       <>
                         <Link key={idx} onClick={() => setIsBigMenu(false)} to={stype.path}
-                          className="flex items-center my-3 font-normal gap-x-3 cursor-pointer hover:text-[#1F85DE] transition-all group ">
-                          <span className='text-sm'>{stype.type}</span>
+                          className="flex items-center  font-normal gap-x-3 cursor-pointer hover:text-[#1F85DE]  transition-all group ">
+                          <span className='text-md '>{stype.type}</span>
                           <FaArrowRight size="0.8em" className='opacity-0 w-8 -translate-x-4 group-hover:translate-x-4 group-hover:opacity-100 transition-all' />
                         </Link>
 
