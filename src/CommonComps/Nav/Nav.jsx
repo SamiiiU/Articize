@@ -31,11 +31,16 @@ const Nav = () => {
         setIsBigMenu(status == true ? false : true);
       
     
-      setTimeout(() => {
+      if(index != currDataIndex){
+        setTimeout(() => {
         setIsBigMenu(status);
         setCurrDataIndex(index);
         
       }, 200);
+      }else{
+        setCurrDataIndex(null)
+      } 
+      
     
   }
 
@@ -102,7 +107,7 @@ const Nav = () => {
 
       {scrwidth > 1280 ? (
         <div  >
-          <div className={`z-50 fixed w-full  transition-all ${isNavbarVisible ? 'translate-y-0' : '-translate-y-20'} shadow-lg bg-white `}>
+          <div className={`z-50 fixed w-full  transition-all duration-500 ${isNavbarVisible ? 'translate-y-0' : '-translate-y-28'} shadow-lg bg-white `}>
             <div className='flex items-center py-3 px-4'>
               {/* Logo image started  */}
               <Link to="/" className='w-[8%] h-16  px-4  ' style={{ backgroundImage: `url(${logoIMG})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></Link>
@@ -111,7 +116,9 @@ const Nav = () => {
 
                 {mainNavData.map((category, index) => (
                   <span >
-                    <h1 key={index} onClick={() => navHandler(index, true )} className=' text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold'>{category.navigator} </h1>
+                    <h1 key={index} onClick={() => navHandler(index, true )} className={
+                      ` text-darkBlue cursor-pointer px-4 py-2  rounded-md   text-md font-semibold ${index == currDataIndex && 'underline underline-offset-4 decoration-2 text-lightBlue' }`
+                    }>{category.navigator} </h1>
                   </span>
                 ))}
 
