@@ -76,7 +76,7 @@ import SentimentAnalysis from "./Pages/Services/AIandDataScience/DataAnalysis/Se
 function App() {
   return (
     <GlobalProvider>
-      <div className="w-full h-auto overflow-x-hidden font-nunito box-border transition-all text-[#313131]">
+      <div className="w-full h-auto overflow-x-hidden font-inter box-border transition-all text-[#313131]">
 
         <Routes>
 

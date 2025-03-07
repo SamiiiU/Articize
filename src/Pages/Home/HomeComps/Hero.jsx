@@ -11,7 +11,7 @@ const Hero = () => {
             {/* Home text  */}
             <div className='lg:w-1/2 w-full lg:items-start md:items-center  flex flex-col  gap-y-4'>
 
-                <h1 className=' font-[700] text-darkBlue lg:text-[3.5rem] leading-[1.1]   '>
+                <h1 className=' font-[600] text-darkBlue lg:text-[3.5rem] leading-[1.1]   '>
                 Try DevXCloud <br/> Starter Suite  <br/> for free.
                 </h1>
                 <p className='text-xl'>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.
