@@ -20,6 +20,7 @@ import DeliveryProcess from './HomeComps/DeliveryProcess';
 import DriveTraffic from './HomeComps/DriveTraffic';
 import WhatIs from './HomeComps/WhatIs';
 import { Helmet } from 'react-helmet';
+import Trust from './HomeComps/Trust';
 
 const Home = () => {
   useEffect(() => {
@@ -33,13 +34,14 @@ const Home = () => {
         <Nav/>
         <Hero/>
         <SolutionChart/>
+        <Trust/>
         <DeliveryProcess/>
-        <DriveTraffic/>
-        <WhatIs/>
+        {/* <DriveTraffic/>
+        <WhatIs/> */}
         {/* <PathToSuccess/> */}
-        <PowerOfMarketing/>
+        {/* <PowerOfMarketing/> */}
         {/* <FuelingInnovation/> */}
-        <Revenue/>
+        {/* <Revenue/> */}
         {/* <BusinessGoals/> */}
         <QandA page={QAhome}/>
         {/* <KPIoptimization/> */}

@@ -9,6 +9,13 @@ import salesIcon from '../../Assets/Images/HomeImages/salesIcon.png';
 import contentIcon from '../../Assets/Images/HomeImages/contentIcon.png';
 import analytices from '../../Assets/Images/HomeImages/analyticIcon.png';
 
+import AddBusinessRoundedIcon from '@mui/icons-material/AddBusinessRounded';
+import CloudUploadRoundedIcon from '@mui/icons-material/CloudUploadRounded';
+import RocketLaunchRoundedIcon from '@mui/icons-material/RocketLaunchRounded';
+import TrendingUpRoundedIcon from '@mui/icons-material/TrendingUpRounded';
+
+import CommerceIMG from '../../Assets/Images/HomeImages/Sec2/CommerceAI.png'
+
 const HomeData = {
 
   pathToSuccess: [
@@ -74,6 +81,25 @@ const HomeData = {
     },
 
   ],
+
+  builtToScale: [
+    {heading : "CommerceAI" , icon : <AddBusinessRoundedIcon sx={{ fontSize: 30 }}/> , para : "Know what your customers want before they do. CommerceAI tracks shopping trends, predicts demand, and helps you stock the right products at the right time. It also personalizes recommendations, increasing sales without extra effort. Less guesswork, fewer dead stocks, and more revenue—automated." , image : CommerceIMG},
+
+    {heading : "ScaleCloud" , icon : <CloudUploadRoundedIcon sx={{ fontSize: 30 }}/> , para : "Forget scattered systems. ScaleCloud automates tasks across your entire business, from handling leads and sending follow-ups to managing orders and customer support. You get a single, connected platform that removes bottlenecks, saves time, and lets your business grow without adding extra work." , image : CommerceIMG},
+
+    {heading : "LaunchPad" , icon : <RocketLaunchRoundedIcon sx={{ fontSize: 30 }}/> , para : "Your website isn’t just a page—it’s your best salesperson. LaunchPad builds sites that load fast, look great, and turn visitors into paying customers. It also connects to AI-powered ads that target the right people at the right time, so you get higher conversions and lower ad costs." , image : CommerceIMG},
+
+    {heading : "EliteScale" , icon : <TrendingUpRoundedIcon sx={{ fontSize: 30 }}/> , para : "Big businesses win by running everything at scale—now you can too. EliteScale gives you enterprise-grade automation, AI-driven marketing, and multi-channel advertising in one package. Instead of juggling agencies and tools, you get a fully optimized system that grows your business across every platform." , image : CommerceIMG},
+  ],
+
+  trustSection : {
+    logos : [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
+    ],
+  },
 
   deliveryProcess : [
     {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
