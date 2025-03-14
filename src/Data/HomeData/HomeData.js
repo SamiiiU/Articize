@@ -99,7 +99,53 @@ const HomeData = {
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
     ],
+
+    cards : [
+      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
+        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
+        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
+        tags : "service cloud  , enterprice , b2c , retail",
+        colorbg : '#1b95ff' , colorOver : '#0077d8',
+      },
+
+      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
+        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
+        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
+        tags : "service cloud  , enterprice , b2c , retail",
+
+        colorbg : '#1b95ff' , colorOver : '#0077d8',
+      },
+
+      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
+        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
+        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
+        tags : "service cloud  , enterprice , b2c , retail",
+
+        colorbg : '#1b95ff' , colorOver : '#0077d8',
+      },
+
+      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
+        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
+        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
+        tags : "service cloud  , enterprice , b2c , retail",
+
+        colorbg : '#1b95ff' , colorOver : '#0077d8',
+      },
+      
+
+    ]
   },
+
+  outcomeSection : [
+    {logo : "" , heading : "More Revenue, Less Effort" , para : "Your business grows while you stay hands-off. Most businesses rely on constant effort to grow. We build self-sustaining systems that scale revenue without you micromanaging." },
+
+    {logo : "" , heading : "End-to-End Automation" , para : "No more manual work—your systems run themselves. Agencies give you tools, but you still have to operate them. Our Growth Engines automate marketing, sales, and operations—so your business runs itself." },
+    {logo : "" , heading : "All-in-One Strategy" , para : "Marketing, sales, and operations, all in sync. Most agencies handle one part of the puzzle. We build integrated systems that connect every stage of growth—so nothing is disconnected." },
+    {logo : "" , heading : "Scalable Growth, Not Just Quick Fixes" , para : "No more stop-start cycles. Agencies sell short-term wins. We build lasting systems that keep scaling—without extra work or wasted costs." },
+    {logo : "" , heading : "Predictable, Data-Driven Scaling" , para : "AI and data, not guesswork. Most businesses waste money testing and hoping. Our systems use predictive analytics to forecast demand, optimize pricing, and personalize sales—automatically." },
+
+
+  ],
 
   deliveryProcess : [
     {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},

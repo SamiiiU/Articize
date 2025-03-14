@@ -4,7 +4,7 @@ import PathToSuccess from './HomeComps/PathToSuccess';
 import PowerOfMarketing from './HomeComps/PowerOfMarketing';
 import Revenue from './HomeComps/Revenue';
 import KPIoptimization from './HomeComps/KPIoptimization';
-import CTA from '../../CommonComps/CTA';
+import CTA from './HomeComps/CTA';
 import Reviews from './HomeComps/ReviewsHome';
 import ReviewsHome from './HomeComps/ReviewsHome';
 import Footer from '../../CommonComps/Footer/Footer';
@@ -21,6 +21,8 @@ import DriveTraffic from './HomeComps/DriveTraffic';
 import WhatIs from './HomeComps/WhatIs';
 import { Helmet } from 'react-helmet';
 import Trust from './HomeComps/Trust';
+import OutCome from './HomeComps/OutCome';
+import BundledServices from './HomeComps/BundledServices';
 
 const Home = () => {
   useEffect(() => {
@@ -35,7 +37,14 @@ const Home = () => {
         <Hero/>
         <SolutionChart/>
         <Trust/>
-        <DeliveryProcess/>
+
+        <OutCome/>
+
+        <CTA/>
+        <BundledServices/>
+
+{/*         
+        <DeliveryProcess/> */}
         {/* <DriveTraffic/>
         <WhatIs/> */}
         {/* <PathToSuccess/> */}
