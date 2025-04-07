@@ -9,6 +9,9 @@ import salesIcon from '../../Assets/Images/HomeImages/salesIcon.png';
 import contentIcon from '../../Assets/Images/HomeImages/contentIcon.png';
 import analytices from '../../Assets/Images/HomeImages/analyticIcon.png';
 
+
+import PaidRoundedIcon from '@mui/icons-material/PaidRounded';
+
 import AddBusinessRoundedIcon from '@mui/icons-material/AddBusinessRounded';
 import CloudUploadRoundedIcon from '@mui/icons-material/CloudUploadRounded';
 import RocketLaunchRoundedIcon from '@mui/icons-material/RocketLaunchRounded';
@@ -83,138 +86,220 @@ const HomeData = {
   ],
 
   builtToScale: [
-    {heading : "CommerceAI" , icon : <AddBusinessRoundedIcon sx={{ fontSize: 30 }}/> , para : "Know what your customers want before they do. CommerceAI tracks shopping trends, predicts demand, and helps you stock the right products at the right time. It also personalizes recommendations, increasing sales without extra effort. Less guesswork, fewer dead stocks, and more revenue—automated." , image : CommerceIMG},
+    { heading: "CommerceAI", icon: <AddBusinessRoundedIcon sx={{ fontSize: 30 }} />, para: "Know what your customers want before they do. CommerceAI tracks shopping trends, predicts demand, and helps you stock the right products at the right time. It also personalizes recommendations, increasing sales without extra effort. Less guesswork, fewer dead stocks, and more revenue—automated.", image: CommerceIMG },
 
-    {heading : "ScaleCloud" , icon : <CloudUploadRoundedIcon sx={{ fontSize: 30 }}/> , para : "Forget scattered systems. ScaleCloud automates tasks across your entire business, from handling leads and sending follow-ups to managing orders and customer support. You get a single, connected platform that removes bottlenecks, saves time, and lets your business grow without adding extra work." , image : CommerceIMG},
+    { heading: "ScaleCloud", icon: <CloudUploadRoundedIcon sx={{ fontSize: 30 }} />, para: "Forget scattered systems. ScaleCloud automates tasks across your entire business, from handling leads and sending follow-ups to managing orders and customer support. You get a single, connected platform that removes bottlenecks, saves time, and lets your business grow without adding extra work.", image: CommerceIMG },
 
-    {heading : "LaunchPad" , icon : <RocketLaunchRoundedIcon sx={{ fontSize: 30 }}/> , para : "Your website isn’t just a page—it’s your best salesperson. LaunchPad builds sites that load fast, look great, and turn visitors into paying customers. It also connects to AI-powered ads that target the right people at the right time, so you get higher conversions and lower ad costs." , image : CommerceIMG},
+    { heading: "LaunchPad", icon: <RocketLaunchRoundedIcon sx={{ fontSize: 30 }} />, para: "Your website isn’t just a page—it’s your best salesperson. LaunchPad builds sites that load fast, look great, and turn visitors into paying customers. It also connects to AI-powered ads that target the right people at the right time, so you get higher conversions and lower ad costs.", image: CommerceIMG },
 
-    {heading : "EliteScale" , icon : <TrendingUpRoundedIcon sx={{ fontSize: 30 }}/> , para : "Big businesses win by running everything at scale—now you can too. EliteScale gives you enterprise-grade automation, AI-driven marketing, and multi-channel advertising in one package. Instead of juggling agencies and tools, you get a fully optimized system that grows your business across every platform." , image : CommerceIMG},
+    { heading: "EliteScale", icon: <TrendingUpRoundedIcon sx={{ fontSize: 30 }} />, para: "Big businesses win by running everything at scale—now you can too. EliteScale gives you enterprise-grade automation, AI-driven marketing, and multi-channel advertising in one package. Instead of juggling agencies and tools, you get a fully optimized system that grows your business across every platform.", image: CommerceIMG },
   ],
 
-  trustSection : {
-    logos : [
+  trustSection: {
+    logos: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
     ],
 
-    cards : [
-      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
-        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
-        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
-        tags : "service cloud  , enterprice , b2c , retail",
-        colorbg : '#1b95ff' , colorOver : '#0077d8',
+    cards: [
+      {
+        logo: "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1",
+        heading: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        socialTags: { fb: "https://www.facebook.com/", twitter: "https://www.facebook.com/", linkedin: "https://www.linkedin.com/" },
+        tags: "service cloud  , enterprice , b2c , retail",
+        colorbg: '#1b95ff', colorOver: '#0077d8',
       },
 
-      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
-        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
-        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
-        tags : "service cloud  , enterprice , b2c , retail",
+      {
+        logo: "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1",
+        heading: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        socialTags: { fb: "https://www.facebook.com/", twitter: "https://www.facebook.com/", linkedin: "https://www.linkedin.com/" },
+        tags: "service cloud  , enterprice , b2c , retail",
 
-        colorbg : '#1b95ff' , colorOver : '#0077d8',
+        colorbg: '#1b95ff', colorOver: '#0077d8',
       },
 
-      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
-        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
-        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
-        tags : "service cloud  , enterprice , b2c , retail",
+      {
+        logo: "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1",
+        heading: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        socialTags: { fb: "https://www.facebook.com/", twitter: "https://www.facebook.com/", linkedin: "https://www.linkedin.com/" },
+        tags: "service cloud  , enterprice , b2c , retail",
 
-        colorbg : '#1b95ff' , colorOver : '#0077d8',
+        colorbg: '#1b95ff', colorOver: '#0077d8',
       },
 
-      {logo : "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1", 
-        heading : "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." , 
-        socialTags : {fb : "https://www.facebook.com/" , twitter : "https://www.facebook.com/" , linkedin : "https://www.linkedin.com/"},
-        tags : "service cloud  , enterprice , b2c , retail",
+      {
+        logo: "https://alep-p-001.sitecorecontenthub.cloud/api/public/content/32c124b4388c43feafc230c6c870e6dc?v=afded1a1",
+        heading: "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        socialTags: { fb: "https://www.facebook.com/", twitter: "https://www.facebook.com/", linkedin: "https://www.linkedin.com/" },
+        tags: "service cloud  , enterprice , b2c , retail",
 
-        colorbg : '#1b95ff' , colorOver : '#0077d8',
+        colorbg: '#1b95ff', colorOver: '#0077d8',
       },
-      
+
 
     ]
   },
 
-  outcomeSection : [
-    {logo : "" , heading : "More Revenue, Less Effort" , para : "Your business grows while you stay hands-off. Most businesses rely on constant effort to grow. We build self-sustaining systems that scale revenue without you micromanaging." },
+  outcomeSection: [
+    { logo: "", heading: "More Revenue, Less Effort", para: "Your business grows while you stay hands-off. Most businesses rely on constant effort to grow. We build self-sustaining systems that scale revenue without you micromanaging." },
 
-    {logo : "" , heading : "End-to-End Automation" , para : "No more manual work—your systems run themselves. Agencies give you tools, but you still have to operate them. Our Growth Engines automate marketing, sales, and operations—so your business runs itself." },
-    {logo : "" , heading : "All-in-One Strategy" , para : "Marketing, sales, and operations, all in sync. Most agencies handle one part of the puzzle. We build integrated systems that connect every stage of growth—so nothing is disconnected." },
-    {logo : "" , heading : "Scalable Growth, Not Just Quick Fixes" , para : "No more stop-start cycles. Agencies sell short-term wins. We build lasting systems that keep scaling—without extra work or wasted costs." },
-    {logo : "" , heading : "Predictable, Data-Driven Scaling" , para : "AI and data, not guesswork. Most businesses waste money testing and hoping. Our systems use predictive analytics to forecast demand, optimize pricing, and personalize sales—automatically." },
+    { logo: "", heading: "End-to-End Automation", para: "No more manual work—your systems run themselves. Agencies give you tools, but you still have to operate them. Our Growth Engines automate marketing, sales, and operations—so your business runs itself." },
+    { logo: "", heading: "All-in-One Strategy", para: "Marketing, sales, and operations, all in sync. Most agencies handle one part of the puzzle. We build integrated systems that connect every stage of growth—so nothing is disconnected." },
+    { logo: "", heading: "Scalable Growth, Not Just Quick Fixes", para: "No more stop-start cycles. Agencies sell short-term wins. We build lasting systems that keep scaling—without extra work or wasted costs." },
+    { logo: "", heading: "Predictable, Data-Driven Scaling", para: "AI and data, not guesswork. Most businesses waste money testing and hoping. Our systems use predictive analytics to forecast demand, optimize pricing, and personalize sales—automatically." },
 
-
-  ],
-
-  deliveryProcess : [
-    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
-    
-    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
-    
-    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
-    
-    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
-    
-    {header : "Understanding Your Vision" , para : "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision."},
 
   ],
 
-  driveTrafic : [
+  bundledServices: [
+    { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
 
-   //Drive Targetted Traffic
-  {mainHeading: "Drive Targetted Traffic",
-    mainPara : "Are you looking to boost your website's visibility and attract more qualified visitors? We harness the power of advanced digital strategies to pinpoint and engage your ideal audience. Wondering how to convert clicks into customers and outshine your competition? Our integrated approach not only draws in traffic but ensures it’s the right traffic, optimizing every interaction for maximum engagement and conversion. Ready to see your online presence soar? Our related services are listed below, designed to enhance your website and help attract more traffic effectively.",
-    subHeadings: [
-      {title: "SEO Services",
-        links: [
-          { path: '/ecommerce-seo', type: 'E-commerce SEO' },
-          { path: '/local-seo', type: 'Local SEO' },
-          { path: '/technical-seo', type: 'Technical SEO' },
-          { path: '/content-seo', type: 'Content SEO' },
-          { path: '/international-seo', type: 'International SEO' },
-          { path: '/seo-audits', type: 'SEO Audits' },
-          { path: '/video-seo', type: 'Video SEO' },
-        ],
-      },
-      {title: "Social Media Advertisement",
-        links: [    
-          { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
-          { path: '/programmatic-advertising', type: "Programmatic Advertising" },
-          { path: '/enterprise-smm', type: "Enterprise (SMM)" },
-          { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
-          { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
-        ],
-      },
-      {title: "Pay Per Click",
-        links: [    
-          { path: '/google-ads-ppc', type: 'Google Ads PPC' },
-          { path: '/amazon-ppc', type: 'Amazon PPC' },
-          { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
-          { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
-          { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
-          { path: '/youtube-ppc', type: 'YouTube PPC' },
-          { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
-        ],
-      },
-    ],
-  },
-  //AI-Driven Development
-  {mainHeading: "AI-Driven Development",
-    mainPara : "AI-Driven Development focuses on the symbiosis of artificial intelligence and software development to craft smarter, more efficient applications and systems. This approach leverages AI to automate coding processes, optimize workflows, and enhance decision-making throughout the development lifecycle. By integrating AI tools and methodologies directly into the development process, this category offers solutions that not only speed up production but also improve the quality and functionality of the end products. AI-Driven Development is ideal for businesses looking to innovate, offering advanced capabilities like predictive analytics, machine learning models, and AI-powered optimizations that transform traditional development into a dynamic, future-ready proces",
-    subHeadings: [
-      {title: "Artificial Intelligence (AI)",
-        links: [
-          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
-          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
-          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
-          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
-          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
-          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
-        ],
-      },
-      {title: "Development",
-        links: [    
+    { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
+
+    { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
+
+    { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
+  ],
+
+  provenProcess: [
+    {heading: "Deep-Dive Strategy Session",
+      para: "We don’t believe in one-size-fits-all solutions. Every business has unique goals, challenges, and opportunities. That’s why we begin with an in-depth strategy session to uncover exactly what’s needed to drive sustainable growth.",
+      offers: [
+        "We analyze your business model, revenue streams, and customer journey.",
+        "Identify friction points that slow down conversions or automation.",
+        "Map out a custom growth roadmap tailored to your business.",
+      ],
+      matters : "Most agencies offer pre-built solutions that don’t align with your business. We ensure every move is data-driven and customized for you.",
+      image: "https://cdn.shopify.com/app-store/listing_images/d365f0a485daaf1e2b77efe06bc1c352/desktop_screenshot/CLLBrfHV-YkDEAE=.png?height=720&width=1280"
+    },
+
+    {heading: "System Architecture & AI Integration",
+      para: "Instead of patching together random tools, we design a fully integrated system where AI, automation, and marketing efforts work in sync—turning your business into a scalable machine.",
+      offers: [
+        "Build a centralized system where all processes—sales, marketing, and operations—are seamlessly connected.",
+        "Integrate AI-powered analytics for predictive customer insights.",
+        "Automate repetitive tasks to eliminate manual bottlenecks.",
+      ],
+      matters : "Most businesses waste time and money switching between tools that don’t communicate. Our approach ensures everything works together effortlessly",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt5rsjor4r2f45uUD2Kat226K6liAOQJWLQ&s"
+    },
+
+    {heading: "Execution & Smart Optimization",
+      para: "Once your growth engine is in place, we execute and optimize in real time, focusing on high-impact strategies that maximize revenue.",
+      offers: [
+        "Deploy AI-driven campaigns across multiple channels.",
+        "A/B test strategies for highest conversion rates.",
+        "Optimize based on real-time customer data and behaviors.",
+      ],
+      matters : "Agencies launch and leave, forcing you to figure out what works. We continuously test and refine to maximize performance and ROI.",
+      image: "https://www.goivvy.com/blg/wp-content/uploads/2018/10/Installing-Magento-2-step1.png"
+    },
+
+    {heading: "Continuous Monitoring & AI Adjustments",
+      para: "We don’t just set up the system—we make sure it keeps improving. AI-driven tracking allows us to analyze, predict, and refine strategies on the go.",
+      offers: [
+        "Use AI to track real-time user behavior and sales trends.",
+        "Identify patterns that predict future customer actions.",
+        "Adjust strategies dynamically to maintain long-term growth.",
+      ],
+      matters : "Most businesses rely on static marketing, missing opportunities to improve. With AI-powered adjustments, your system adapts and evolves continuously.",
+      image: "https://ceblog.s3.amazonaws.com/wp-content/uploads/2023/07/26133900/bigcommerce-checkout.png"
+    },
+
+    {heading: "Scale & Future-Proofing",
+      para: "With an optimized system in place, we help you scale—whether that means expanding into new markets, automating further, or increasing revenue streams.",
+      offers: [
+        "Identify expansion opportunities (new audiences, products, or markets).",
+        "Automate additional revenue streams for hands-off scaling.",
+        "Ensure your growth engine runs independently with minimal input.",
+      ],
+      matters : "Most businesses hit a plateau because they rely on outdated methods. We future-proof your business with scalable automation and AI-driven insights.",
+
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
+    },
+  ]
+
+
+  ,
+
+  deliveryProcess: [
+    { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },
+
+    { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },
+
+    { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },
+
+    { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },
+
+    { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },
+
+  ],
+
+  driveTrafic: [
+
+    //Drive Targetted Traffic
+    {
+      mainHeading: "Drive Targetted Traffic",
+      mainPara: "Are you looking to boost your website's visibility and attract more qualified visitors? We harness the power of advanced digital strategies to pinpoint and engage your ideal audience. Wondering how to convert clicks into customers and outshine your competition? Our integrated approach not only draws in traffic but ensures it’s the right traffic, optimizing every interaction for maximum engagement and conversion. Ready to see your online presence soar? Our related services are listed below, designed to enhance your website and help attract more traffic effectively.",
+      subHeadings: [
+        {
+          title: "SEO Services",
+          links: [
+            { path: '/ecommerce-seo', type: 'E-commerce SEO' },
+            { path: '/local-seo', type: 'Local SEO' },
+            { path: '/technical-seo', type: 'Technical SEO' },
+            { path: '/content-seo', type: 'Content SEO' },
+            { path: '/international-seo', type: 'International SEO' },
+            { path: '/seo-audits', type: 'SEO Audits' },
+            { path: '/video-seo', type: 'Video SEO' },
+          ],
+        },
+        {
+          title: "Social Media Advertisement",
+          links: [
+            { path: '/basic-social-media-advertising', type: "Basic Social Media Advertising" },
+            { path: '/programmatic-advertising', type: "Programmatic Advertising" },
+            { path: '/enterprise-smm', type: "Enterprise (SMM)" },
+            { path: '/social-commerce-strategy', type: "Social Commerce Strategy" },
+            { path: '/social-media-brand-audits', type: "Social Media Brand Audits" },
+          ],
+        },
+        {
+          title: "Pay Per Click",
+          links: [
+            { path: '/google-ads-ppc', type: 'Google Ads PPC' },
+            { path: '/amazon-ppc', type: 'Amazon PPC' },
+            { path: '/facebook-instagram-ppc', type: 'Facebook Instagram PPC' },
+            { path: '/google-shopping-ppc', type: 'Google Shopping PPC' },
+            { path: '/linkedin-ppc', type: 'LinkedIn PPC' },
+            { path: '/youtube-ppc', type: 'YouTube PPC' },
+            { path: '/dynamic-search-ads-ppc', type: 'Dynamic Search Ads PPC' },
+          ],
+        },
+      ],
+    },
+    //AI-Driven Development
+    {
+      mainHeading: "AI-Driven Development",
+      mainPara: "AI-Driven Development focuses on the symbiosis of artificial intelligence and software development to craft smarter, more efficient applications and systems. This approach leverages AI to automate coding processes, optimize workflows, and enhance decision-making throughout the development lifecycle. By integrating AI tools and methodologies directly into the development process, this category offers solutions that not only speed up production but also improve the quality and functionality of the end products. AI-Driven Development is ideal for businesses looking to innovate, offering advanced capabilities like predictive analytics, machine learning models, and AI-powered optimizations that transform traditional development into a dynamic, future-ready proces",
+      subHeadings: [
+        {
+          title: "Artificial Intelligence (AI)",
+          links: [
+            { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+            { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+            { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+            { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+            { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+            { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+          ],
+        },
+        {
+          title: "Development",
+          links: [
             { path: '/responsive-website-development', type: 'Responsive Website Development' },
             { path: '/web-application-development', type: 'Web Application Development' },
             { path: '/shopify-ecommerce-development', type: 'Shopify E-commerce Development' },
@@ -222,189 +307,217 @@ const HomeData = {
             { path: '/api-development-and-integration', type: 'API Development and Integration' },
             { path: '/custom-software-development', type: 'Custom Software Development' },
             { path: '/mobile-app-development', type: 'Mobile App Development' },
-        ],
-      },
-    ],
-  },
-  //SECURE AND OPTIMIZE 
-  {mainHeading: "Secure And Optimize",
-    mainPara : "Enhance your website’s security and performance with our dedicated services. We focus on implementing advanced security measures and performance optimizations to ensure your website operates at peak efficiency. Protect your site from threats while boosting speed and responsiveness for a seamless user experience.",
-    subHeadings: [
-      {title: "Cybersecurity",
-        links: [
-          { path: '/penetration-testing', type: 'Penetration Testing' },
-          { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
-          { path: '/incident-response-and-recovery', type: 'Incident Response and Recovery' },
+          ],
+        },
+      ],
+    },
+    //SECURE AND OPTIMIZE 
+    {
+      mainHeading: "Secure And Optimize",
+      mainPara: "Enhance your website’s security and performance with our dedicated services. We focus on implementing advanced security measures and performance optimizations to ensure your website operates at peak efficiency. Protect your site from threats while boosting speed and responsiveness for a seamless user experience.",
+      subHeadings: [
+        {
+          title: "Cybersecurity",
+          links: [
+            { path: '/penetration-testing', type: 'Penetration Testing' },
+            { path: '/vulnerability-assessment-and-management', type: 'Vulnerability Assessment and Management' },
+            { path: '/incident-response-and-recovery', type: 'Incident Response and Recovery' },
 
-          { path: '/firewall-and-network-security-setup', type: 'Firewall and Network Security Setup' },
-          { path: '/data-encryption-solutions', type: 'Data Encryption Solutions' },
-          { path: '/compliance-management', type: 'Compliance Management' },
-          { path: '/zero-trust-architecture', type: 'Zero Trust Architecture' },
-        ],
-      },
-      {title: "DevOps",
-        links: [
-          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
-          { path: '/api-management-and-automation', type: 'API Management and Automation' },
-          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
-          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
-          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
-          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
-        ],
-      },
-    ],
-  },
-  //LEVERAGE AI AND ANALYTICS
-  {mainHeading: "Leverage AI And Analytics",
-    mainPara : "Unlock the potential of AI and analytics to drive decision-making and improve business outcomes. Our services integrate AI technologies and provide comprehensive data analysis to transform your operations and strategy, ensuring you stay ahead in a data-driven world.",
-    subHeadings: [
-      {title: "Artificial Intelligence (AI)",
-        links: [
-          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
-          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
-          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
-          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
-          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
-          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
-        ],
-      },
-      {title: "DevOps",
-        links: [
-          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
-          { path: '/api-management-and-automation', type: 'API Management and Automation' },
-          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
-          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
-          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
-          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
-        ],
-      },
-    ],
-  },
+            { path: '/firewall-and-network-security-setup', type: 'Firewall and Network Security Setup' },
+            { path: '/data-encryption-solutions', type: 'Data Encryption Solutions' },
+            { path: '/compliance-management', type: 'Compliance Management' },
+            { path: '/zero-trust-architecture', type: 'Zero Trust Architecture' },
+          ],
+        },
+        {
+          title: "DevOps",
+          links: [
+            { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+            { path: '/api-management-and-automation', type: 'API Management and Automation' },
+            { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+            { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+            { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+            { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+            { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+          ],
+        },
+      ],
+    },
+    //LEVERAGE AI AND ANALYTICS
+    {
+      mainHeading: "Leverage AI And Analytics",
+      mainPara: "Unlock the potential of AI and analytics to drive decision-making and improve business outcomes. Our services integrate AI technologies and provide comprehensive data analysis to transform your operations and strategy, ensuring you stay ahead in a data-driven world.",
+      subHeadings: [
+        {
+          title: "Artificial Intelligence (AI)",
+          links: [
+            { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+            { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+            { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+            { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+            { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+            { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+          ],
+        },
+        {
+          title: "DevOps",
+          links: [
+            { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+            { path: '/api-management-and-automation', type: 'API Management and Automation' },
+            { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+            { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+            { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+            { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+            { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+          ],
+        },
+      ],
+    },
 
-  //Digital Dynamics
-  {mainHeading: "Digital Dynamics",
-    mainPara : "Elevate your online presence and drive superior digital performance with our \"Digital Dynamics\" services. At the core, our Development team focuses on crafting robust, scalable websites and applications tailored to your unique business needs. Enhance your visibility and attract more targeted traffic with our expert SEO (Search Engine Optimization) strategies, designed to optimize your website for top search engine rankings. Complementing SEO, our PPC (Pay-Per-Click) campaigns are strategically developed to maximize your advertising ROI, targeting the right audiences at the right time. Together, these services synergize to create a dynamic digital ecosystem that not only reaches but captivates and converts your ideal customers.",
-    subHeadings: [
-      {title: "Artificial Intelligence (AI)",
-        links: [
-          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
-          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
-          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
-          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
-          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
-          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
-        ],
-      },
-      {title: "DevOps",
-        links: [
-          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
-          { path: '/api-management-and-automation', type: 'API Management and Automation' },
-          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
-          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
-          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
-          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
-        ],
-      },
-    ],
-  },
+    //Digital Dynamics
+    {
+      mainHeading: "Digital Dynamics",
+      mainPara: "Elevate your online presence and drive superior digital performance with our \"Digital Dynamics\" services. At the core, our Development team focuses on crafting robust, scalable websites and applications tailored to your unique business needs. Enhance your visibility and attract more targeted traffic with our expert SEO (Search Engine Optimization) strategies, designed to optimize your website for top search engine rankings. Complementing SEO, our PPC (Pay-Per-Click) campaigns are strategically developed to maximize your advertising ROI, targeting the right audiences at the right time. Together, these services synergize to create a dynamic digital ecosystem that not only reaches but captivates and converts your ideal customers.",
+      subHeadings: [
+        {
+          title: "Artificial Intelligence (AI)",
+          links: [
+            { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+            { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+            { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+            { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+            { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+            { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+          ],
+        },
+        {
+          title: "DevOps",
+          links: [
+            { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+            { path: '/api-management-and-automation', type: 'API Management and Automation' },
+            { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+            { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+            { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+            { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+            { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+          ],
+        },
+      ],
+    },
 
-  //Secure Development Solutions
-  {mainHeading: "Secure Development Solutions",
-    mainPara : "Secure Development Solutions focus on embedding security at the core of software development practices. This proactive approach involves integrating security protocols and tools from the earliest stages of development to mitigate risks, prevent vulnerabilities, and ensure compliance with industry standards. By combining development expertise with advanced cyber security measures, this category delivers secure applications and infrastructure that are resistant to both current and emerging threats. Ideal for organizations prioritizing data protection and system integrity, Secure Development Solutions provide a comprehensive framework that enhances both the security and performance of technological assets.  ",
-    subHeadings: [
-      {title: "Artificial Intelligence (AI)",
-        links: [
-          { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
-          { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
-          { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
-          { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
-          { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
-          { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
-        ],
-      },
-      {title: "DevOps",
-        links: [
-          { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
-          { path: '/api-management-and-automation', type: 'API Management and Automation' },
-          { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
-          { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
-          { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
-          { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
-          { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
-        ],
-      },
-    ],
-  },
+    //Secure Development Solutions
+    {
+      mainHeading: "Secure Development Solutions",
+      mainPara: "Secure Development Solutions focus on embedding security at the core of software development practices. This proactive approach involves integrating security protocols and tools from the earliest stages of development to mitigate risks, prevent vulnerabilities, and ensure compliance with industry standards. By combining development expertise with advanced cyber security measures, this category delivers secure applications and infrastructure that are resistant to both current and emerging threats. Ideal for organizations prioritizing data protection and system integrity, Secure Development Solutions provide a comprehensive framework that enhances both the security and performance of technological assets.  ",
+      subHeadings: [
+        {
+          title: "Artificial Intelligence (AI)",
+          links: [
+            { path: '/ai-and-gpt-integration', type: 'AI and GPT Integration' },
+            { path: '/ai-driven-personalization-engines', type: 'AI-Driven Personalization Engines' },
+            { path: '/ai-powered-automation-and-optimization', type: 'AI-Powered Automation & Optimization' },
+            { path: '/natural-language-processing-nlp-solutions', type: 'Natural Language Processing (NLP) Solutions' },
+            { path: '/ai-powered-voice-interfaces', type: 'AI-Powered Voice Interfaces' },
+            { path: '/ai-chatbots-virtual-assistants', type: 'AI Chatbots & Virtual Assistants' },
+          ],
+        },
+        {
+          title: "DevOps",
+          links: [
+            { path: '/serverless-architecture-implementation', type: 'Serverless Architecture Implementation' },
+            { path: '/api-management-and-automation', type: 'API Management and Automation' },
+            { path: '/automated-web-deployment', type: 'Automated Web Deployment' },
+            { path: '/cloud-native-web-application', type: 'Cloud-Native Web Application' },
+            { path: '/load-testing-and-performance-optimization', type: 'Load Testing and Performance Optimization' },
+            { path: '/multi-cloud-web-infrastructure-setup', type: 'Multi-cloud Web Infrastructure Setup' },
+            { path: '/kubernetes-docker-containerization', type: 'Kubernetes & Docker Containerization' },
+          ],
+        },
+      ],
+    },
 
   ],
   Power: [
 
 
-    { name: "Integrated Cybersecurity Solutions", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Integrated Cybersecurity Solutions", 
-        description: "Fortify Your Business Infrastructure: Elevate your cybersecurity to new heights with strategic solutions that are custom-crafted to protect your digital assets and operations. Our comprehensive approach includes vulnerability assessments, real-time threat monitoring, and rapid incident response, ensuring your business remains resilient against cyber threats. Secure your future by staying one step ahead of cyber risks.", 
-        points : ["Proactive threat monitoring","Swift incident respons"] } 
+    {
+      name: "Integrated Cybersecurity Solutions",
+      icon: salesIcon,
+      container: {
+        heading: "Integrated Cybersecurity Solutions",
+        description: "Fortify Your Business Infrastructure: Elevate your cybersecurity to new heights with strategic solutions that are custom-crafted to protect your digital assets and operations. Our comprehensive approach includes vulnerability assessments, real-time threat monitoring, and rapid incident response, ensuring your business remains resilient against cyber threats. Secure your future by staying one step ahead of cyber risks.",
+        points: ["Proactive threat monitoring", "Swift incident respons"]
+      }
     },
 
-    { name: "Implementations", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Custom AI Implementations", 
-        description: "Unlock Efficiency with Smart Technology: Transform your business landscape with AI-driven innovations designed to streamline your operations and enhance user interactions. From predictive analytics to intelligent automation, our AI solutions are engineered to provide strategic advantages, enabling more informed decisions and greater operational efficiency.", 
-        points : ["Predictive analytics","Intelligent automation systems"] } 
+    {
+      name: "Implementations",
+      icon: salesIcon,
+      container: {
+        heading: "Custom AI Implementations",
+        description: "Unlock Efficiency with Smart Technology: Transform your business landscape with AI-driven innovations designed to streamline your operations and enhance user interactions. From predictive analytics to intelligent automation, our AI solutions are engineered to provide strategic advantages, enabling more informed decisions and greater operational efficiency.",
+        points: ["Predictive analytics", "Intelligent automation systems"]
+      }
     },
 
-    { name: "Visualization", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Real-Time Data Visualization", 
-        description: "See Your Data in Action: Bring clarity to your decision-making with our advanced real-time data visualization tools. These dynamic dashboards and interactive reports are not just about displaying data—they provide deep insights, highlight trends, and empower your team to act with precision based on the latest information.", 
-        points : ["Trend analysis","Interactive reporting"] } 
+    {
+      name: "Visualization",
+      icon: salesIcon,
+      container: {
+        heading: "Real-Time Data Visualization",
+        description: "See Your Data in Action: Bring clarity to your decision-making with our advanced real-time data visualization tools. These dynamic dashboards and interactive reports are not just about displaying data—they provide deep insights, highlight trends, and empower your team to act with precision based on the latest information.",
+        points: ["Trend analysis", "Interactive reporting"]
+      }
     },
 
-    { name: "Optimization", 
-      icon: salesIcon, 
-      container: { 
-        heading: "SEO and Content Optimization", 
-        description: "Elevate Your Digital Reach: Propel your online presence to the forefront with our expert SEO and content optimization strategies. By enhancing your search engine visibility and crafting content that engages and informs, we help you attract a loyal audience and turn visits into conversions.", 
-        points : ["SEO best practices","Content engagement strategies"] } 
+    {
+      name: "Optimization",
+      icon: salesIcon,
+      container: {
+        heading: "SEO and Content Optimization",
+        description: "Elevate Your Digital Reach: Propel your online presence to the forefront with our expert SEO and content optimization strategies. By enhancing your search engine visibility and crafting content that engages and informs, we help you attract a loyal audience and turn visits into conversions.",
+        points: ["SEO best practices", "Content engagement strategies"]
+      }
     },
 
-    { name: "Marketing", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Automated Marketing Campaigns", 
-        description: "Enhance Campaign Precision: Revolutionize your marketing with our automated tools that optimize every aspect of your campaigns. Target the right audience with precision, streamline your messaging, and measure the effectiveness of each campaign to continually improve your engagement rates and ROI.", 
-        points : ["Targeted audience engagement","Campaign performance analytics"] } 
+    {
+      name: "Marketing",
+      icon: salesIcon,
+      container: {
+        heading: "Automated Marketing Campaigns",
+        description: "Enhance Campaign Precision: Revolutionize your marketing with our automated tools that optimize every aspect of your campaigns. Target the right audience with precision, streamline your messaging, and measure the effectiveness of each campaign to continually improve your engagement rates and ROI.",
+        points: ["Targeted audience engagement", "Campaign performance analytics"]
+      }
     },
 
-    { name: "Web Development", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Web Development and Maintenance", 
-        description: "Craft Web Excellence: Develop robust, responsive websites that not only meet but exceed modern standards. Our expert web development team provides ongoing support and maintenance, ensuring your site evolves with technological advancements and user expectations, maintaining peak performance at all times.", 
-        points : ["Responsive design principles","Ongoing technical support"] } 
+    {
+      name: "Web Development",
+      icon: salesIcon,
+      container: {
+        heading: "Web Development and Maintenance",
+        description: "Craft Web Excellence: Develop robust, responsive websites that not only meet but exceed modern standards. Our expert web development team provides ongoing support and maintenance, ensuring your site evolves with technological advancements and user expectations, maintaining peak performance at all times.",
+        points: ["Responsive design principles", "Ongoing technical support"]
+      }
     },
 
-    { name: "Cloud Computing", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Cloud Computing Integration", 
-        description: "Empower Growth with Scalable Solutions: Scale your business effortlessly with our cloud computing solutions that promise enhanced flexibility and operational efficiency. From infrastructure setup to ongoing management, we ensure seamless integration and optimal performance, making your business more agile and connected.", 
-        points : ["Infrastructure management","Operational efficiency"] } 
+    {
+      name: "Cloud Computing",
+      icon: salesIcon,
+      container: {
+        heading: "Cloud Computing Integration",
+        description: "Empower Growth with Scalable Solutions: Scale your business effortlessly with our cloud computing solutions that promise enhanced flexibility and operational efficiency. From infrastructure setup to ongoing management, we ensure seamless integration and optimal performance, making your business more agile and connected.",
+        points: ["Infrastructure management", "Operational efficiency"]
+      }
     },
 
-    { name: "User Experience", 
-      icon: salesIcon, 
-      container: { 
-        heading: "Personalized User Experience Design", 
-        description: "Design with the User in Mind: Delight your users with bespoke interfaces that are intuitive, attractive, and functional. Our user experience design process involves deep user research, usability testing, and iterative design to create experiences that not only meet but exceed user expectations.", 
-        points : ["Usability testing","Iterative design process"] } 
+    {
+      name: "User Experience",
+      icon: salesIcon,
+      container: {
+        heading: "Personalized User Experience Design",
+        description: "Design with the User in Mind: Delight your users with bespoke interfaces that are intuitive, attractive, and functional. Our user experience design process involves deep user research, usability testing, and iterative design to create experiences that not only meet but exceed user expectations.",
+        points: ["Usability testing", "Iterative design process"]
+      }
     },
   ],
 
@@ -448,67 +561,72 @@ const HomeData = {
   ],
 
   revenueSlides: [
-  {heading: "AI-Powered Process Optimization",
-    challenge: "Streamline operations and boost efficiency with customized AI solutions.  ",
-    approaches: [
-      "Tailor AI models to enhance decision-making and automate tasks.",
-      "Integrate AI seamlessly into existing business processes.",
-    ],
-    result: {
-      text: "Increased in operational efficiency ",
-      increment: 40,
-      incrementText: `${40}%`
+    {
+      heading: "AI-Powered Process Optimization",
+      challenge: "Streamline operations and boost efficiency with customized AI solutions.  ",
+      approaches: [
+        "Tailor AI models to enhance decision-making and automate tasks.",
+        "Integrate AI seamlessly into existing business processes.",
+      ],
+      result: {
+        text: "Increased in operational efficiency ",
+        increment: 40,
+        incrementText: `${40}%`
+      }
+    },
+    {
+      heading: "Dynamic Data Insights",
+      challenge: "Enable informed decisions with real-time, actionable data insights.",
+      approaches: [
+        "Implement advanced visualization tools for real-time data interpretation.",
+        "Continuous data analysis to keep insights relevant and actionable.",
+      ],
+      result: {
+        text: "Acceleration in decision-making processes, improving responsiveness to market dynamics.",
+        increment: 250,
+        incrementText: `${250}%`
+      }
+    },
+    {
+      heading: "Organic Growth Acceleration",
+      challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
+      approaches: [
+        "Utilize latest SEO practices to enhance site visibility.",
+        "Regularly update content to align with search engine algorithms and user interest.",
+      ],
+      result: {
+        text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
+        increment: 90,
+        incrementText: `${90}%`
+      }
+    },
+    {
+      heading: "Precision Marketing Automation",
+      challenge: "Increase marketing effectiveness with targeted automation and analytics.",
+      approaches: [
+        "Deploy automation tools to streamline campaigns and personalize interactions",
+        "Leverage customer data for precise targeting and message optimization.",
+      ],
+      result: {
+        text: "Improved in campaign conversions and reduced effort by 60%.",
+        increment: 45,
+        incrementText: `${45}%`
+      }
+    },
+    {
+      heading: "Organic Growth Acceleration",
+      challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
+      approaches: [
+        "Utilize latest SEO practices to enhance site visibility.",
+        "Regularly update content to align with search engine algorithms and user interest.",
+      ],
+      result: {
+        text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
+        increment: 90,
+        incrementText: `${90}%`
+      }
     }
-  },
-  {heading: "Dynamic Data Insights",
-    challenge: "Enable informed decisions with real-time, actionable data insights.",
-    approaches: [
-      "Implement advanced visualization tools for real-time data interpretation.",
-      "Continuous data analysis to keep insights relevant and actionable.",
-    ],
-    result: {
-      text: "Acceleration in decision-making processes, improving responsiveness to market dynamics.",
-      increment: 250,
-      incrementText: `${250}%`
-    }
-  },
-  {heading: "Organic Growth Acceleration",
-    challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
-    approaches: [
-      "Utilize latest SEO practices to enhance site visibility.",
-      "Regularly update content to align with search engine algorithms and user interest.",
-    ],
-    result: {
-      text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
-      increment: 90,
-      incrementText: `${90}%`
-    }
-  },
-  {heading: "Precision Marketing Automation",
-    challenge: "Increase marketing effectiveness with targeted automation and analytics.",
-    approaches: [
-      "Deploy automation tools to streamline campaigns and personalize interactions",
-      "Leverage customer data for precise targeting and message optimization.",
-    ],
-    result: {
-      text: "Improved in campaign conversions and reduced effort by 60%.",
-      increment: 45,
-      incrementText: `${45}%`
-    }
-  },
-  {heading: "Organic Growth Acceleration",
-    challenge: "Boost organic reach and engagement through strategic SEO and content optimization.",
-    approaches: [
-      "Utilize latest SEO practices to enhance site visibility.",
-      "Regularly update content to align with search engine algorithms and user interest.",
-    ],
-    result: {
-      text: "Increase in Organic traffic , with a 30% uplift in engagement rates.",
-      increment: 90,
-      incrementText: `${90}%`
-    }
-  }
-],
+  ],
 
   companiesLogoURLs: ["https://www.webfx.com/wp-content/uploads/2024/07/O_Reilly_Auto_Parts_Logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/Hilton-logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/arrowquip_logo_black_vertical.png", "https://www.webfx.com/wp-content/uploads/2024/07/bars-leaks-logo_03.png", "https://www.webfx.com/wp-content/uploads/2024/07/YMCA_logo_logotype.png", "https://www.webfx.com/wp-content/uploads/2024/07/jiffy-lube.png", "https://www.webfx.com/wp-content/uploads/2024/07/Hannaford_Brothers_Company-Logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/auntie-annes.png", "https://www.webfx.com/wp-content/uploads/2024/07/Fujifilm_logo.png", "https://www.webfx.com/wp-content/uploads/2024/07/Verizon_2015_logo_-vector.png", "https://www.webfx.com/wp-content/uploads/2024/07/Subway-1.png", "https://www.webfx.com/wp-content/uploads/2024/07/1200px-Wrangler_Logo.png"],
 

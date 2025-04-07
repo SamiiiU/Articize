@@ -23,6 +23,7 @@ import { Helmet } from 'react-helmet';
 import Trust from './HomeComps/Trust';
 import OutCome from './HomeComps/OutCome';
 import BundledServices from './HomeComps/BundledServices';
+import StrategyToScale from './HomeComps/StrategyToScale';
 
 const Home = () => {
   useEffect(() => {
@@ -43,15 +44,8 @@ const Home = () => {
         <CTA/>
         <BundledServices/>
 
-{/*         
-        <DeliveryProcess/> */}
-        {/* <DriveTraffic/>
-        <WhatIs/> */}
-        {/* <PathToSuccess/> */}
-        {/* <PowerOfMarketing/> */}
-        {/* <FuelingInnovation/> */}
-        {/* <Revenue/> */}
-        {/* <BusinessGoals/> */}
+        
+        <StrategyToScale/>
         <QandA page={QAhome}/>
         {/* <KPIoptimization/> */}
 
