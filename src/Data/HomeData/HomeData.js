@@ -98,8 +98,8 @@ const HomeData = {
   trustSection: {
     logos: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
+      "https://www.skillfinder.com.au/media/wysiwyg/udemylogo.png",
+      "https://logoeps.com/wp-content/uploads/2014/04/23346-pixabay-logo-icon-vector-icon-vector-eps.png",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSCi6uObfClnsO1vGqhSgoVIkr3XuWIsEfQ&s",
     ],
 
@@ -220,8 +220,15 @@ const HomeData = {
 
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
     },
-  ]
-  ,
+  ],
+
+  caseStudies : [
+    { image: "https://www.shutterstock.com/image-vector/dashboard-ui-infographic-data-graphic-600nw-1856573002.jpg", heading: "Generate High-Quality Leads and Maximize Revenue", para: "Discover how to use AI-powered marketing tools to attract and convert more leads without multiplying your marketing spend." },
+
+    { image: "https://www.slideteam.net/wp/wp-content/uploads/2022/12/Business-Statistics-Dashboard-PowerPoint-Slide-1024x576.png", heading: "Accelerate Your Sales and Close More Deals Faster", para: "Start closing more deals faster and streamlining your sales process with HubSpot’s AI-powered deal management tools" },
+
+    { image: "https://miro.medium.com/v2/resize:fit:1400/1*dEo8x5swSiuFVp4VYsCGKg.jpeg", heading: "Create Content for Every Stage of the Customer Journey", para: "Fuel the entire customer journey with content across formats and channels with all-in-one, AI-powered content marketing software." },
+  ],
 
   deliveryProcess: [
     { header: "Understanding Your Vision", para: "We begin by listening to your needs and understanding your goals. Our team delves into your business requirements and aspirations, ensuring that every solution perfectly aligns with your vision." },

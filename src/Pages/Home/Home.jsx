@@ -24,6 +24,7 @@ import Trust from './HomeComps/Trust';
 import OutCome from './HomeComps/OutCome';
 import BundledServices from './HomeComps/BundledServices';
 import StrategyToScale from './HomeComps/StrategyToScale';
+import CaseStudies from './HomeComps/CaseStudies';
 
 const Home = () => {
   useEffect(() => {
@@ -41,17 +42,28 @@ const Home = () => {
 
         <OutCome/>
 
-        <CTA/>
+        <CTA 
+        heading={"Not Sure What You Need? <br/> Let’s Figure It Out Together."} 
+        para={"We’ll take a look at your business, break down what’s working <br/> what’s holding you back, and show you exactly how to scale <strong> — </strong> without wasted time or money.<br/> No fluff, no pressure <strong> — </strong> just a clear path to growth."}
+        cta={"Get My Custom Growth Plan"}
+        />
+
         <BundledServices/>
 
         
         <StrategyToScale/>
+
+        <CaseStudies/>
         <QandA page={QAhome}/>
         {/* <KPIoptimization/> */}
 
-        <CTA heading = {"Start Your Free Project Consultation Today!"} />
-        <InsideCompany/>
-        <ReviewsHome/>
+        <CTA 
+        heading = {" Let’s Build a Business That Grows Itself"} 
+        para={"Your business deserves to grow without depending on your time and energy. With the right systems, it can attract customers, deliver consistently, and scale—without burning you out. Let’s make that happen."} 
+        cta={"Get My Growth Blueprint"}
+        />
+        {/* <InsideCompany/>
+        <ReviewsHome/> */}
         
         <Footer/>
 
