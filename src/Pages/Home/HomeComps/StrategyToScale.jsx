@@ -1,10 +1,17 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import HomeData from '../../../Data/HomeData/HomeData'
 import { ContextAPI } from '../../../GlobalProvider/ContextAPI'
 
 const StrategyToScale = () => {
 
     const {scrwidth} = useContext(ContextAPI)
+
+    const [selected , setSelected] = useState("What")
+
+    const handleSelected = (data) => {
+        setSelected(data)
+    }
+
     
   return (
     <div className='w-full  px-4 sm:px-12 2xl:px-80 py-10 flex flex-col items-center text-center my-20'>
@@ -18,19 +25,37 @@ const StrategyToScale = () => {
             <div key={index} className='w-full flex my-8 items-center gap-10 flex-wrap mt-10'>
                 {index % 2 == 0 ? (
                     <>
-                    <div className='flex-1 text-left'>
+                    <div className='flex-1 text-left '>
                     <h1 className='font-semibold text-5xl  mb-4 text-darkBlue'>{item.heading}</h1>
                     <p className='mb-4'>{item.para}</p>
 
-                    <h1 className='font-semibold text-xl  mb-4'>What Happens in This Step?</h1>
-                    <ul className='list-item ml-6 list-disc mb-8 space-y-4  '>
-                    {item.offers.map((offer , idx) => (
-                        <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
-                    ))}
-                    </ul>              
+                    <div className='pl-8 relative pb-8'>
+                        {/* a side bar focusing  */}
+                        <span className={`w-1 h-full ${selected === "What" ? 'bg-lightBlue' : 'bg-slate-400/50'} absolute left-0`}/>
+                        <h1 
+                        onClick={() => handleSelected("What")}
+                        className='font-semibold text-xl  mb-4 cursor-pointer' 
+                        style={{color : selected === "What" && '#0176d3'}}>What Happens in This Step?</h1>
+                        {selected === "What" && (
+                            <ul className='list-item ml-6 list-disc  space-y-4  '>
+                            {item.offers.map((offer , idx) => (
+                                <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
+                            ))}
+                            </ul> 
+                        )}
+                    </div>             
  
-                    <h1 className='font-semibold text-xl  mb-4'>Why This Matters?</h1>
-                    <p>{item.matters}</p>
+                    <div className='pl-8 relative pb-8'>
+                        {/* a side bar focusing  */}
+                        <span className={`w-1 h-full ${selected === "Why" ? 'bg-lightBlue' : 'bg-slate-400/50'} absolute left-0`}/>
+                        <h1 
+                        onClick={() => handleSelected("Why")}
+                        className='font-semibold text-xl  mb-4 cursor-pointer'
+                        style={{color : selected === "Why" && '#0176d3'}} >Why This Matters?</h1>
+                        {selected === "Why" && (
+                        <p>{item.matters}</p>
+                        )}
+                    </div>
 
 
 
@@ -49,19 +74,40 @@ const StrategyToScale = () => {
                         </div>
                     )}
 
-                    <div className='flex-1 text-left'>
+                    <div className='flex-1 text-left '>
                     <h1 className='font-semibold text-5xl  mb-4 text-darkBlue'>{item.heading}</h1>
                     <p className='mb-4'>{item.para}</p>
 
-                    <h1 className='font-semibold text-xl  mb-4'>What We Offer?</h1>
-                    <ul className='list-item ml-6 list-disc mb-8 space-y-4'>
-                    {item.offers.map((offer , idx) => (
-                        <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
-                    ))}
-                    </ul>
+                    <div className='pl-8 relative pb-8'>
+                        {/* a side bar focusing  */}
+                        <span className={`w-1 h-full ${selected === "What" ? 'bg-lightBlue' : 'bg-slate-400/50'} absolute left-0`}/>
+                        <h1 
+                        onClick={() => handleSelected("What")}
+                        className='font-semibold text-xl  mb-4 cursor-pointer' 
+                        style={{color : selected === "What" && '#0176d3'}}>What Happens in This Step?</h1>
+                        {selected === "What" && (
+                            <ul className='list-item ml-6 list-disc  space-y-4  '>
+                            {item.offers.map((offer , idx) => (
+                                <li key={idx} dangerouslySetInnerHTML={{__html : offer}} />
+                            ))}
+                            </ul> 
+                        )}
+                    </div>             
+ 
+                    <div className='pl-8 relative pb-8'>
+                        {/* a side bar focusing  */}
+                        <span className={`w-1 h-full ${selected === "Why" ? 'bg-lightBlue' : 'bg-slate-400/50'} absolute left-0`}/>
+                        <h1 
+                        onClick={() => handleSelected("Why")}
+                        className='font-semibold text-xl  mb-4 cursor-pointer'
+                        style={{color : selected === "Why" && '#0176d3'}} >Why This Matters?</h1>
+                        {selected === "Why" && (
+                        <p>{item.matters}</p>
+                        )}
+                    </div>
 
-                    <h1 className='font-semibold text-xl  mb-4'>Why This Matters?</h1>
-                    <p>{item.matters}</p>
+
+
                     </div>
                     
                     </>

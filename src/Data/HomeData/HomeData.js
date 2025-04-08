@@ -221,8 +221,6 @@ const HomeData = {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdJTqqMQwzjZu9reCWQzvUZ8PkfP1g97eyA&s"
     },
   ]
-
-
   ,
 
   deliveryProcess: [
@@ -438,7 +436,6 @@ const HomeData = {
 
   ],
   Power: [
-
 
     {
       name: "Integrated Cybersecurity Solutions",
