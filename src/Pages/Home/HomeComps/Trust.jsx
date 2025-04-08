@@ -42,7 +42,7 @@ const Trust = () => {
                         </h1>
 
                         
-                        <img src={card.logo} alt={idx+1} className='w-32 h-96 bg-slate-300 mx-4 mt-40'/>
+                        <img src={card.logo} alt={idx+1} className='w-32  bg-slate-300 mx-4 mt-40'/>
 
                         <div className='w-full flex p-4 gap-x-4'>
                             <Link to={card.socialTags.fb} className=' text-3xl w-8 flex justify-center items-center p-1 h-8  rounded bg-gray-600 text-white'>

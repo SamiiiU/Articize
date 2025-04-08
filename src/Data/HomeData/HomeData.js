@@ -157,7 +157,7 @@ const HomeData = {
   bundledServices: [
     { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
 
-    { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
+    { name: "SaleCloud", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
 
     { name: "Commerce AI", text: "Converys trust, Intelligence, & tech innovation in a calming way", icon: <PaidRoundedIcon sx={{ fontSize: 80, color: '#013a6e' }} />, bg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqip_1_bCGDThBxRBYuWENfixQoOy0IKNGeQ&s' },
 
